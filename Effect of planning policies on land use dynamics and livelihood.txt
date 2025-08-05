@@ -1,0 +1,1574 @@
+Land Use Policy 131 (2023) 106752
+
+Contents lists available at ScienceDirect
+
+Land Use Policy
+journal homepage: www.elsevier.com/locate/landusepol
+
+Effect of planning policies on land use dynamics and livelihood
+opportunities under global environmental change: Evidence from the
+Mekong Delta
+Tristan Berchoux a, b, *, Craig W. Hutton c, **, Oliver Hensengerth d, Hal E. Voepel c, Van P.D. Tri e,
+Pham T. Vu f, Nghia N. Hung g, Dan Parsons h, Stephen E. Darby c
+a
+
+TETIS, University of Montpellier, Maison de la Télédétection, 500 Rue Jean-François Breton, F-34090 Montpellier, France
+Mediterranean Agronomic Institute of Montpellier - CIHEAM-IAMM, 3191 Route de Mende, F-34090 Montpellier, France
+c
+School of Geography and Environmental Sciences, University of Southampton, Highfield Road, Southampton SO17 1BJ, UK
+d
+Department of Geography and Environmental Sciences, Northumbria University, Newcastle NE1 8ST, UK
+e
+Research Institute for Climate Change (DRAGON-Mekong Institute), Can Tho University, 3/2 Street, Ninh Kieu, Can Tho, Viet Nam
+f
+College of Environment and Natural Resources, Can Tho University, 3/2 Street, Ninh Kieu, Can Tho, Viet Nam
+g
+Southern Institute of Water Resource Research (SIWRR), 658 Vo Van Kiet Str., Ward 1, Dist. 5, Ho Chi Minh City, Viet Nam
+h
+Loughborough University, Loughborough LE11 3TU, UK
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Rural livelihoods
+Rural employment
+Land-change model
+Land-use planning policies
+Land systems
+Environmental Change
+Future scenarios
+Mekong Delta
+
+The Mekong Delta faces significant challenges in supplying Vietnam and its export market countries with
+agricultural commodities, while ensuring livelihoods and providing living space to its growing population in the
+context of climate change and the country’s agrarian transition. Anthropogenic factors, such as the construction
+of dykes to control river flooding, river sand mining, the further development of triple-cropping rice production,
+and infrastructure development, together with climate change impacts on sediment and water availability, are all
+combining to threaten agricultural production. One of the key challenges in sustainable development is the need
+to identify plausible future states of agricultural-based socio-ecological systems which draw upon differing
+strategies of land management, and to characterise the impacts of these systems on both the landscape and
+employment. It was hypothesised from the literature and rapid rural appraisals that each land system can only
+provide a certain number of jobs, which was further demonstrated using binomial regressions. We show that the
+odds of being employed are lower for intensive agricultural systems (OR=0.78 for triple rice; 0.91 for intensive
+aquaculture) than for diversified systems (OR=1.16 for rice-aquaculture; OR=1.63 for mixed fruit trees).
+Drawing from workshops with local and national stakeholders, we then used Earth observation and national
+census data in a spatial land use systems dynamic framework to simulate two alternative Mekong Delta futures
+based upon the climate pathway RCP 4.5 in combination with two existing policies (i) Resolution No. 124
+(Specialisation) which promotes triple crop rice and aquaculture intensification and (ii) Resolution No. 639
+(Diversification), which states that there should be a development of sustainable rice aquaculture and crop
+diversification. Based on the quantitative objectives of each policy, we estimated likely changes of services
+provided by land use systems if either policy were to dominate. The estimated impacts of each future scenario on
+the provision of employment ultimately indicate that policies with a diversification development paradigm will
+provide more employment (+0.9%) than policies with a specialisation paradigm (− 46%), and that current
+policies have potentially conflicting consequences. Decisions driving towards intensive farming risk triggering
+rural unemployment and outmigration, potentially exacerbating urban poverty in major cities such as Can Tho
+and Ho Chi Minh City. On the other hand, decisions aiming at increasing diversified agricultural systems can help
+secure more job opportunities. Our results indicate that spatial planning policies should rely on a broad-based
+assessment of land system services that include employment and environmental impacts to ensure a just tran­
+sition towards resilient and environmentally sustainable rural territories.
+
+Abbreviations: RCP, Representative Concentration Pathway; OR, Odds Ratio; NDVI, Normalised Difference Vegetation Index; GLM, Generalised Linear Model.
+* Corresponding author at: TETIS, University of Montpellier, Maison de la Télédétection, 500 Rue Jean-François Breton, F-34090 Montpellier, France.
+** Corresponding author.
+E-mail addresses: tristan.berchoux@teledetection.fr, berchoux@iamm.fr (T. Berchoux), cwh@geodata.soton.ac.uk (C.W. Hutton).
+https://doi.org/10.1016/j.landusepol.2023.106752
+Received 1 October 2022; Received in revised form 14 March 2023; Accepted 17 May 2023
+Available online 29 May 2023
+0264-8377/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+efficiency, markets and value chains, delta infrastructure for better
+regional connectivity as well as with neighbouring countries, and
+improved vocational training with the aim to prevent out-migration.
+Regarding aquaculture, the aim is to transform fisheries into a highly
+competitive, large-scale commodity production sector and to construct
+large fishing centres associated with major fishing grounds, concen­
+trated material production zones, industrial parks and consumption
+markets. These measures, which oscillate between intensification and
+environmental protection, are designed to implement the Mekong Delta
+Plan - a strategic spatial plan the general principles of which were first
+set out in 2013 (Hutton et al., 2021) and formalised in 2022 with the
+Mekong Delta Master Plan. Apart from aforementioned general orien­
+tations, plan implementation is supported by a number of sectoral pol­
+icies. Of these, decisions 124/939 (Socialist Republic of Vietnam, 2012a,
+2012b) and 639/816 (Socialist Republic of Vietnam, 2014, 2018) are
+central policies governing land use. However, according to local stake­
+holders, the objectives of decision 124 are conflicting with decision 639
+and with the 2017 Vietnamese Law on Planning. This law clearly stip­
+ulates that planning and development should “minimise the negative
+impacts due to the economy, society and environment on community
+livelihoods” while promoting “the development of the disadvantaged
+and slowly-developing areas and sustainable livelihoods for people
+therein” (Socialist Republic of Vietnam, 2017a; Hutton et al., 2021).
+While the impacts of land use system changes on the Vietnamese
+Mekong Delta’s environment and society are evident, there is a lack of
+understanding of how these processes impact livelihoods on the ground.
+A better understanding of how policies influence land use systems and
+livelihoods is necessary. To address these knowledge gaps, it is impor­
+tant to characterise the associations between land use systems and
+employment, and to model the impact of spatial planning policies on
+future land use systems. In this paper, we combined Earth observation
+and national census data in a spatially explicit and dynamic land use
+system change model to explore the effects of the two main Vietnamese
+land use planning policies on employment and land use systems.
+
+1. Introduction
+Major economic and demographic shifts are driving human societies
+towards increased food demand food demand with a projected rise of
+59–98% by 2050 under the Shared Socio-economic Pathway “Middle of
+the Road” (SSP2) (Valin et al., 2014; Tilman et al., 2011). This increased
+demand leads to greater land use competition as they provide services
+such as food, housing, transportation, energy, employment, and water
+(Deichmann et al., 2019). Significant concerns over demand for land use
+services cannot be met without causing irreparable damage to the
+environment (Giller et al., 2021). Current approaches in land manage­
+ment for developing countries are often targeted to maximise economic
+factors via extractive models of land use, which exacerbate environ­
+mental degradation.
+Managing agricultural social-ecological systems requires greater
+understanding of existing linkages between land, governance and people
+(Kremen and Merenlender, 2018; Hutton et al., 2021). Land use man­
+agement, for example, through intensification or extensification of
+farming systems, can lead to substantial changes in terms of employ­
+ment. High intensity or extractive models of land use may contribute to a
+substantial reduction in both quantity and quality of livelihood oppor­
+tunities for local communities, which often underpins increased migra­
+tion and unskilled labour (Berchoux et al., 2019; Garnett et al., 2013). As
+a consequence, policymakers need to balance trade-offs between high
+intensity production and sustainability (Hutton et al., 2021), hence
+shaping land management strategies through regulatory, voluntary,
+financial tools and spatial planning (Kremen and Merenlender, 2018).
+The Vietnamese Mekong Delta, covering an extensive area of
+approximately 41,000 km2, is home to a significant portion of the
+country’s population. As of the 2019 census, Vietnam’s total population
+was estimated at 96.2 million, with 17.3 million residing in the Mekong
+Delta, of which 12.9 million live in rural areas, underscoring the pre­
+dominantly agrarian nature of the region’s livelihoods (General Statis­
+tics Office, 2020). However, despite its economic significance, the
+Mekong Delta experiences the highest out-migration and negative net
+migration rate in Vietnam. In terms of employment, the Statistical
+Yearbook reports that the Mekong Delta’s unemployment rate was
+estimated to be 4.1% in 2021, which is higher than the national average
+of 3.2%. Furthermore, the 2021 report indicates a significant increase in
+unemployment from 2.8% in 2020.
+This highly complex and dynamic delta that has undergone rapid
+changes over the past decades as Vietnam developed economically
+(Smajgl et al., 2015). This development has been closely tied to the
+expansion of agriculture, primarily rice production, which has been the
+driving force behind many technological, economic, and environmental
+changes. However, this reliance on rice monoculture has also caused
+social unrest and created environmental problems, challenging the local
+social-ecological system’s ability to adapt to changing circumstances
+(Chapman and Darby, 2016). Moreover, the Vietnamese Mekong Delta is
+projected to undergo significant environmental changes, primarily with
+respect to salinity intrusion (Eslami et al., 2021a), reduced sediment
+fluxes (Bussi et al., 2021; Vasilopoulos et al., 2021), more frequent
+climate extremes (floods, droughts) and decreases of precipitation, thus
+leading to declining groundwater recharge (Shrestha et al., 2016).
+Simultaneously, demographic changes (Szabo et al., 2016) and eco­
+nomic orientations (industrial and infrastructure development,
+export-oriented commercial agriculture) pose additional challenges to
+land use systems by increased demand on some land services.
+To address these challenges, the Socialist Republic of Vietnam has
+passed Resolution 120 on Sustainable and Climate-Resilient Develop­
+ment in the Mekong Delta and the Resolution’s 2019 Action Programme
+(Socialist Republic of Vietnam, 2017, 2019). Both resolutions are
+designed to move from a focus on food security towards high quality
+food production using a combination of high-tech, large-scale, and
+organic agriculture by developing: industry associated with agricultural
+production, water resource protection through increased production
+
+2. General approach
+We followed a four-steps approach (Fig. 1): (1) characterise associ­
+ations between employment and land use systems; (2) identify current
+trends of land use systems change; (3) model projections of land use
+systems under the combined effects of current policies and environ­
+mental change (4) predict employment for each policy scenario based on
+projected land use systems. Our working hypothesis is that local-scale
+variations in employment are at least partly explained by changes in
+land use systems at a higher level, such as the municipality, and thus by
+land use planning policies. Overall, the findings of this paper show that
+current policies have conflicting objectives with each aiming to produce
+differing future land use systems in the Mekong Delta. In particular,
+scenarios that favour food production will lead to an increase in the area
+of land use systems that support fewer jobs, while scenarios that pro­
+mote agricultural diversification will ensure greater employment
+opportunities.
+3. Methods
+3.1. Conceptualising the links between land use systems and employment
+Fieldwork on the Mekong River Delta was conducted between April
+and May 2018 to understand components of rural livelihoods and land
+use systems, from a household perspective, across a range of diverse
+socio-ecological contexts. This fieldwork enabled us to characterise
+agricultural land use systems and to identify the main associations be­
+tween land use, household livelihood strategies, and employment in
+each land use system. We used Rapid Rural Appraisal as the principal
+field method to collect data and to highlight the perceptions and opin­
+ions of representative stakeholders and local residents (see
+2
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+Fig. 1. Approach used to analyse land use sys­
+tems and their associations with employment.
+Four steps were followed in the paper: (1) a
+territorial assessment characterising patterns of
+land use systems and employment; (2) an
+assessment of current trends in land use system
+changes; (3) a projection of trajectories of land
+use systems under global environmental change
+(RCP4.5, deltaic subsidence and salinity intru­
+sion), exploring different policy options as a
+response (specialisation vs. diversification); and
+(4) predict employment for each policy sce­
+narios based on projected land use systems.
+
+Supplementary Material S1, S2). This method enables local people to
+share their knowledge, and to discuss and analyse their situation using
+their own terms (Mukherjee, 2005).
+In total, ten villages were selected using a stratified sampling design
+of the main types of land use systems present in the community. Two
+villages for each main land use system (triple rice cropping, double rice
+cropping, aquaculture, orchards) were sampled to provide input from a
+variety of cases, based on the social-ecological characteristics of the
+community and on the main livelihood strategies conducted by house­
+holds (Fig. 2). Rapid Rural Appraisals were conducted with 10–15 par­
+ticipants per community covering a range of livelihood strategies, socioeconomic, and gender backgrounds. Different appraisal activities with
+communities were used to cross-check acquired data and to cover all
+aspects of land use systems and livelihoods. First, a participatory
+workshop was held as a focus group, where general information about
+the village, the land use systems and their evolution was discussed.
+Differences within the community regarding livelihood assets and
+employment strategies were investigated. Once different livelihood
+categories were identified by participants, they quantified the propor­
+tion of households falling into each category.
+
+appraisals (tripe rice, double rice, rice-aquaculture, cash crops, fruit
+trees, aquaculture, forest-aquaculture, forest, urban), as specified in
+Tran et al. (2015). We used the Natural Resources and Environment land
+planning maps collected from the local governments during fieldwork to
+train the model (stratified training sample, R2 =.85). Finally, we char­
+acterised the links between agricultural land use systems, livelihoods
+and main types of employment thanks to the qualitative data collected
+during the rapid rural appraisals (Supplementary Material).
+3.3. Associations between land use systems and employment
+Logistic regression was used to investigate the effects of land use
+systems on the probability of being employed in a specific sector. Eight
+response variables (extracted from the 2010 Census on Population and
+Housing in Vietnam) were considered, derived as the number of people
+salaried or self-employed in one of the following sectors to total active
+population: (i) agriculture; (ii) forestry; (iii) aquaculture; (iv) industry;
+(v) construction; (vi) commercial; (vii) transportation; and (viii) inac­
+tive. The proportions of the response variables of interest varied
+continuously over a bounded range of [0,1]. Thus, an ordinary least
+squares regression model would be a model misspecification as it re­
+quires a response range over all real numbers. In this regard, a gener­
+alised linear model (GLM) with a logit link is a correct model
+specification as the logit function transforms the bounded proportion
+range from [0,1] to all real numbers as required. As contextual factors,
+such as socio-political and market contexts, strongly impact employ­
+ment opportunities, outcomes and the ability of households to imple­
+ment coping strategies (Berchoux et al., 2020), we used the proportion
+of ethnic minorities and travel duration as confounders to control for
+such factors.
+(
+)
+πi
+logit (πi ) = log
+1 − πi
+∑ AreaLSij
+βj
+= β0 + β1 EthnicMinoritiesi + β2 TDMarketi +
+TotalAreai
+j
+
+3.2. Characterising land use systems
+Land use systems reflect a multi-functionality of landscapes, by
+taking into account land use, land management, and water management
+through irrigation infrastructures and practices (Malek et al., 2018). At
+the time of conducting the study, there was no delta-wide land use
+system map that included non-rice agricultural systems available for
+both 2010 and 2020. Some studies had created maps of a portion of the
+Delta (Truong et al., 2022), some for the whole delta but only for years
+2010 and 2014 (Nguyen et al., 2015), while others only categorised rice
+agricultural systems (Vu et al., 2022). As a consequence, we generated
+our own land use systems maps by using supervised classification to
+ensure comparability between 2010 and 2020.
+We used MODIS (Moderate Resolution Imaging Spectroradiometer)
+data to derive NDVI (Normalised Difference Vegetation Index) from a
+total of 46 MOD09Q1 cloud-free images at 8-days interval for each year,
+with a resolution of 250 m. We used maximum likelihood classification
+on NDVI time series (Fig. 3) to derive 9 land use systems classes repre­
+senting the main agricultural systems identified during rapid rural
+
+where πi refers to the probability of working in one of the sector listed
+∑
+AreaLS
+above in the community i and βj TotalAreaij i refers to the share of land use
+system j in the community i.
+3
+
+j
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+Fig. 2. Vietnamese Mekong Delta land use systems maps in 2020. Authors’ land use systems map derived from 2020 MODIS data and location of the ten communities
+where Rapid Rural Appraisals were conducted.
+
+3.4. Projections of land use system change
+
+to the main land use orientations of the development plans for the
+Mekong Delta: a scenario “Specialisation”, based on the pair of decisions
+No.124 and No. 939 (Socialist Republic of Vietnam, 2012a, 2012b),
+which promote triple crop rice and aquaculture intensification; and (ii) a
+scenario “Diversification” for the pair of decisions No. 639 and No. 816
+(Socialist Republic of Vietnam, 2014, 2018), which state that there
+should be a development of sustainable rice aquaculture and crop
+diversification (Supplementary Material S2).
+For all scenarios, stakeholder input was key in setting model pa­
+rameters during workshops, which were based on an analysis of policy
+decisions affecting the development orientations of the Mekong Delta
+(Hutton et al., 2021). Each scenario was modelled using different pro­
+visions of services (ability of each land use system to provide a service),
+demands for services (policy objectives) and spatial constraints. The
+latter represents transitions from one land use system to another, which
+were strictly prohibited or only allowed by predefined changes. For
+example, conversions from single-season rice to intensive aquaculture
+and later to triple rice were facilitated in the “Specialisation” scenario
+based on decision No. 124 to reflect the policy orientations found in the
+decision: “convert some one-rice crop in water-logged areas into fish or
+shrimp areas” and “to increase the area of triple rice and to do intensive
+farming”. On the contrary, transitions to single rice were encouraged in
+the Decision No. 639 scenario, based on the policy statement “to in­
+crease the area of rice-aquaculture in both fresh and brackish water,
+rotationally lush flood into fields”, while aquaculture and orchards were
+favoured compared to intensive freshwater rice area.
+
+Plausible land use systems for 2030 were developed using CLU­
+Mondo, a model that simulates land use system change as a function of
+exogenously derived demands for commodities and services while ac­
+counting for local suitability and competition between land use systems
+(Van Asselen and Verburg, 2012). While other approaches to predict
+future land use like Cellular Automata (Rahaman et al., 2022) use past
+dynamics to derive future dynamics, CLUMondo can simulate future
+projections based on different scenario parameters that can be informed
+by current policies (Supplementary Material S3). The 2020 land use
+system map of the Vietnamese Mekong Delta was used as a baseline. For
+each year, a suitability map was created using logistic regression be­
+tween the distribution of each land use system and a set of explanatory
+factors (Diep et al., 2022) (Supplementary Material S3). A total of 21
+biophysical and socioeconomic explanatory variables were used.
+Explanatory variables included static factors that were assumed to not
+change over the ten years modelling span, such as soil properties, water
+logging, population density (we accounted for population change
+through demand, which drove the model), and access to markets. We
+also added dynamic factors that updated yearly to represent climate
+change under RCP4.5, including climate variables from CMIP6 models
+(Fick and Hijmans, 2017) and salinity projections (Eslami et al., 2021b).
+Land use systems in 2030 were simulated under two different sce­
+narios (Table 1), which were based on sets of demands for commodities
+and services from existing policy decisions (built-up, agricultural prod­
+ucts, aquatic products). Policy-based scenarios were designed according
+4
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+Fig. 3. Example of NDVI time series for the 6 most represented land use systems in the Vietnamese Mekong Delta. Derived from 46 MOD09Q1 cloud-free images at 8days interval for each year.
+
+4. Results
+
+Aquaculture, rice-aquaculture, and forest land use systems had a
+statistically significant positive effect on the odds of engaging in fisheryrelated employment, while agricultural and urban land use systems had
+a negative effect. Aquaculture had the greatest positive effect on
+providing fishery-related employment (OR = 7.12, 95% CI = [6.71,
+7.57]), followed by mixed land use systems: rice-aquaculture and forestaquaculture. Moreover, ethnic minority inclusion reduced the odds of
+engaging in a fishery-related job (OR = 0.48, 95% CI = [0.47, 0.49]).
+For non-farming employment, land use systems with a greater share
+of urban areas increased the odds of engaging in commercial activities,
+construction activities, industrial activities and transport activities.
+Four fitted models were used to analyse the effects of land use sys­
+tems on labour types (Table 3). Agricultural and urban land use systems
+had a statistically significant positive effect on the odds of being sala­
+ried, urban land use systems having the greatest effect (OR = 5.75, 95%
+CI = [5.42, 6.10]), followed by cash crops, double rice, triple rice and
+fruits. On the contrary, the share of forest (OR = 0.68, 95% CI = [0.63,
+0.73]), rice-aquaculture and aquaculture decreased the odds of being
+salaried compared to being self-employed. Finally, ethnic minority in­
+clusion increased the odds of being salaried compared to selfemployment (OR = 1.32, 95% CI = [1.30, 1.34]). In terms of
+
+4.1. Employment opportunities in complex land use systems
+Odds ratios (OR) were used to quantify the relationships between the
+response variable (employment or labour type) and the explanatory
+variables (land use systems), controlling for travel time to the closest
+district capital and the effects of ethnic minorities. An odds ratio above
+one indicates that, as the explanatory variable increases, the odds of
+being employed in a specific sector or labour type also increases.
+Concerning the effects of land use systems on main employment
+sectors (Table 2), agricultural land use systems (triple rice, double rice,
+cash crops, fruits) had a significant (p ≤ 0.001) positive effect on the
+odds of engaging in agricultural employment, while other land use
+systems (forest, aquaculture, mixed rice-aquaculture, urban) had a sig­
+nificant negative effect. Fruits/orchards had the greatest positive effect
+on providing agricultural employment (OR = 2.01, 95% CI = [1.92,
+2.11]), cash crops had the lowest, and double rice had a greater effect
+(OR = 1.85, 95% CI = [1.77, 1.94]) compared to triple rice. Moreover,
+ethnic minority inclusion increased the odds of engaging in an agricul­
+tural job (OR = 1.57, 95% CI = [1.55, 1.59]).
+5
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+Table 1
+Summary of main storyline elements of the two scenarios. Scenario “specialisation” is based on the pair of decisions No.124 and No. 939, which promote triple crop rice
+and aquaculture intensification. Scenario “diversification” is based on the pair of decisions No. 639 and No. 816, which state that there should be a development of
+sustainable rice aquaculture and crop diversification.
+Population and
+livelihoods
+Population in 2030
+Demand for
+livelihoods
+Demand for built-up
+Spatial pattern
+Agriculture and
+aquaculture
+Demand for
+products
+Structure of overall
+value
+Yields
+Land-use planning
+Climate change and
+salinity
+Climate change
+scenario
+Salinity projection
+scenario
+Water management
+
+Specialisation
+
+Diversification
+
+9% increase (SSP2)
+N.A.
+
+9% increase (SSP2)
+N.A.
+
+Matching annual population growth rate
+Urban sprawl allowed, urban land has priority over all other uses
+
+Undershoot annual population growth rate
+Compact and denser urban areas promoted
+
+Agriculture 4.5% yearly increase; aquaculture 3% yearly increase
+(No.124); maintain rice export volume of 6–7 million tons (No.939)
+Agriculture 55%; aquaculture 43.5% (No.939)
+
+Agriculture 3% yearly increase; aquaculture 7% increase (No.639)
+
+Increase average value of land production by 50% to reach 110Mđ↱/ha
+(No.124)
+Convert one-rice crop to aquaculture (No.939); increase the area of triple
+rice and promote large-scale farming (No.124)
+
+Agriculture 180Mđ↱/ha; aquaculture 400Mđ↱/ha (No.639)
+
+RCP4.5
+
+RCP4.5
+
+Subsidence B2; riverbed level incision of 0.05 m/yr
+
+Subsidence B2; riverbed level incision of 0.05 m/yr
+
+Develop hard infrastructure for water management with high dykes and
+sluice gates (No.124)
+
+Increase of lush flood in fields; encourage small dykes system with
+agricultural rotation (No.816)
+
+employment, a greater share of forest (OR = 1.97, 95% CI = [1.79,
+2.17]), fruits, urban, cash crops or rice-aquaculture increased the odds
+of being active compared to inactive. On the contrary, a greater share of
+triple rice (OR = 1.28, 95% CI = [1.20, 1.38]), double rice or aqua­
+culture increased the odds of being inactive compared to being active.
+Similarly, ethnic minority inclusion also increased the odds of being
+inactive compared to being active (OR = 1.09, 95% CI = [1.07, 1.12]).
+As shown in the model summary (Fig. 4), triple rice, double rice and
+intensive aquaculture systems increase the likelihood of being unem­
+ployed. In these land use systems, the main source of employment is
+agriculture or aquaculture. As most of the work is mechanised, only
+petty tasks provide employment to landless households. Although there
+is a peak in labour demand during harvest, farmers tend to hire large
+organised groups of labourers from other provinces, which drives
+landless locals into migration to the industrial zones, especially in triple
+rice cropping systems. In the double rice cropping system, flooded fields
+provide fishing for home consumption (for better-off households) or to
+generate income by selling fish on the road side (for landless house­
+holds), enabling the poorest households the opportunity to generate a
+livelihood.
+
+Agriculture 51.9%; aquaculture 40% (No.639)
+
+Reduce freshwater and ineffective rice systems, increase aquaculture and
+orchards (No.816); increase rice-aquaculture area (No.639)
+
+One model was fitted to analyse the effects of the type of employment
+on the odds of falling under the poverty line for people within the legal
+working ages of 15–64 (Table 4). It was apparent that ethnic minority
+inclusion had the greatest positive effect on the odds of being poor (OR
+= 3.16, 95% CI = [2.98, 3.35]). Being unemployed (OR = 1.35, 95% CI
+= [1.16, 1.57]), being employed in the fishery sector, or in agriculture
+increased the odds of falling into poverty. On the contrary, engaging in
+non-farming activities decreased the odds of being poor (OR = 0.64,
+95% CI = [0.59, 0.69]).
+4.2. Current trends of land use systems
+In 2010, double rice was the land use system with the largest
+coverage in the Vietnamese Mekong Delta (35%), followed by triple rice
+(19%), fruits (14%), aquaculture (12%), forest-aquaculture (9%), riceaquaculture (6%), cash crops (4%) and urban (1%). By 2020, triple
+rice became the land use system with the largest coverage (32%), fol­
+lowed by double rice (24%), aquaculture (15%), fruits (10%), forestaquaculture (7%), rice-aquaculture (6%), cash crops (5%) and urban
+(1%). The biggest changes that occurred between 2010 and 2020 were
+
+Table 2
+Results of the logistic models for the three main employment sectors. The dependent variable represents the odds of engaging in certain employment for people who are
+within the legal working age. The explanatory variables represent the share of area of land use systems found in the Vietnamese Mekong Delta. Statistical modelling
+based on the 2010 Census on Population and Housing in Vietnam and Authors’ land use systems map derived from 2010 MODIS data.
+AGRICULTURAL
+Odds
+(Intercept)
+0.52
+Ethnic minorities
+1.57
+Travel duration
+1.00
+Triple rice
+1.70
+Double rice
+1.85
+Cash crops
+1.43
+Fruits
+2.01
+Forest
+0.57
+Aquaculture
+0.11
+Rice shrimp
+0.32
+Urban
+0.50
+AIC
+433939
+
+FISHERY
+
+LB
+
+UB
+
+pval
+
+0.50
+1.55
+1.00
+1.62
+1.77
+1.35
+1.92
+0.54
+0.11
+0.30
+0.47
+
+0.55
+1.59
+1.00
+1.78
+1.94
+1.50
+2.11
+0.61
+0.12
+0.33
+0.52
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+
+INDUSTRY
+
+Odds
+
+LB
+
+UB
+
+pval
+
+0.33
+0.48
+1.00
+0.02
+0.12
+0.11
+0.04
+3.72
+7.12
+5.07
+0.02
+216026
+
+0.31
+0.47
+1.00
+0.02
+0.11
+0.10
+0.03
+3.45
+6.71
+4.77
+0.02
+
+0.35
+0.49
+1.00
+0.02
+0.12
+0.12
+0.04
+4.01
+7.57
+5.37
+0.03
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+6
+
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+
+Odds
+
+LB
+
+UB
+
+pval
+
+0.07
+0.72
+0.99
+2.95
+2.45
+8.44
+3.09
+0.91
+1.65
+1.87
+14.57
+239561
+
+0.06
+0.70
+0.99
+2.66
+2.22
+7.60
+2.79
+0.80
+1.48
+1.69
+13.13
+
+0.08
+0.73
+0.99
+3.26
+2.71
+9.37
+3.42
+1.04
+1.83
+2.08
+16.19
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.17
+0.00
+0.00
+0.00
+
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+Table 3
+Results of the logistic models for labour types. The dependent variable represents the odds of engaging in certain labour types for people who are within the legal
+working age. The explanatory variables represent the share of area of land use systems found in the Vietnamese Mekong Delta. Statistical modelling based on the 2010
+Census on Population and Housing in Vietnam and Authors’ land use systems map derived from 2010 MODIS data.
+ACTIVE
+Odds
+(Intercept)
+9.60
+Ethnic minorities
+0.92
+Travel duration
+1.00
+Triple rice
+0.78
+Double rice
+0.88
+Cash crops
+1.17
+Fruits
+1.63
+Forest
+1.97
+Aquaculture
+0.91
+Rice shrimp
+1.16
+Urban
+1.32
+AIC
+78800
+
+SELF-EMPLOYED
+LB
+
+UB
+
+pval
+
+8.93
+0.90
+1.00
+0.73
+0.82
+1.08
+1.52
+1.79
+0.85
+1.07
+1.22
+
+10.32
+0.94
+1.00
+0.84
+0.94
+1.26
+1.76
+2.17
+0.98
+1.25
+1.43
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.02
+0.00
+0.00
+
+***
+***
+***
+***
+***
+***
+***
+***
+*
+***
+***
+
+SALARIED
+
+Odds
+
+LB
+
+UB
+
+pval
+
+1.85
+0.75
+1.00
+0.70
+0.65
+0.44
+0.94
+1.76
+1.16
+1.33
+0.22
+196516
+
+1.76
+0.74
+1.00
+0.67
+0.62
+0.42
+0.89
+1.65
+1.11
+1.26
+0.21
+
+1.94
+0.76
+1.00
+0.74
+0.68
+0.47
+0.98
+1.88
+1.22
+1.40
+0.23
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.01
+0.00
+0.00
+0.00
+0.00
+
+Fig. 4. Effect of land use systems on the likelihood of engaging in the four main
+types of rural employment. The dependent variables represent the odds of
+working in a certain sector for people who are within legal working age. The
+explanatory variables represent the share of area of land use systems found in
+the Vietnamese Mekong Delta. Statistical modelling based on the 2010 Census
+on Population and Housing in Vietnam and Authors’ land use systems map
+derived from 2010 MODIS data. Non-significant entries are drawn as hol­
+low points.
+
+***
+***
+***
+***
+***
+***
+**
+***
+***
+***
+***
+
+Odds
+
+LB
+
+UB
+
+pval
+
+0.35
+1.32
+1.00
+1.34
+1.54
+2.70
+1.29
+0.68
+0.78
+0.75
+5.75
+165204
+
+0.33
+1.30
+1.00
+1.27
+1.46
+2.55
+1.22
+0.63
+0.74
+0.71
+5.42
+
+0.37
+1.34
+1.00
+1.41
+1.63
+2.86
+1.36
+0.73
+0.82
+0.80
+6.10
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+
+Fig. 5. Land use systems transitions in the Vietnamese Mekong Delta between
+2010 and 2020. Sankey diagram showing land use system change between 2010
+and 2020, as estimated from Earth observation. Transition matrices were
+derived from MODIS data.
+
+the conversion of 34% of the 2010 double rice area and 23% of the 2010
+fruits area into triple rice area (Fig. 5), which is in line with national
+statistics and estimations (Hui et al., 2022; Van Kien et al., 2020). The
+increase in aquaculture area was mostly due to the conversion of 35% of
+the 2010 rice-aquaculture area to aquaculture, while the increase in cash
+crops was mostly due to the conversion of 4% of the 2010 double rice
+area. Overall, we found that 58% of the Mekong area did not face land
+system change between 2010 and 2020. In particular, the two most
+specialised land use systems had little conversion of their areas to other
+land use system (84% of persistence for aquaculture and 83% of
+persistence for triple rice), while only half of the area of the others land
+use systems persisted: 53% for double rice, 48% for fruit trees and for
+rice-aquaculture.
+Based on the model “Active” previously depicted, we predicted
+employment opportunities in 2020 based on land use systems
+
+distribution and controlling for population change (+0.9% annual in­
+crease). We found that land use systems transitions observed between
+2010 and 2020 have led to a 3.2% decrease in employment.
+4.3. Projected changes of land use systems and their impacts on
+employment
+The largest expansions of triple rice areas were observed under the
+specialisation scenario in the West (Trans-Bassac depression), NorthWest (Long Xuyen-Ha Tien quadrangle), and in the North East (Plain
+of Reeds) following the intensification of double rice cropping systems
+into triple rice, while such a transition remained moderated in the
+diversification scenario (Fig. 5). As a consequence, double rice systems
+only covered 9% of the total area under the specialisation scenario,
+
+Table 4
+Results of the logistic model for poverty. The dependent variable represents the odds of falling under the national poverty line. The explanatory variables represent
+main employment types. Statistical modelling based on the 2010 Census on Population and Housing in Vietnam.
+POVERTY
+Odds
+(Intercept)
+Ethnic minorities
+Agricultural employment
+Fishery employment
+Non-agricultural employment
+Inactive
+AIC
+
+0.00
+3.16
+1.17
+1.26
+0.64
+1.35
+10274
+
+LB
+
+UB
+
+pval
+
+0.00
+2.98
+1.08
+1.17
+0.59
+1.16
+
+0.00
+3.35
+1.27
+1.36
+0.69
+1.57
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+7
+
+***
+***
+***
+***
+***
+***
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+Table 5
+Spatial extent of the Vietnamese Mekong Delta land use systems in 2030 under different scenarios and evolution of associated land use system services. Analysis for
+2010 and 2020 based on Earth observation, while projections for 2030 were simulated using CLUMondo, modelling global environmental change (RCP4.5) under
+different policy options (specialisation: policy scenario based on resolution No124; diversification: policy scenario based on resolution No639). The overall impact on
+employment was estimated based on logistic regressions developed using the 2010 Census on Population and Housing in Vietnam.
+2010
+
+2020
+
+2030 (% of total area)
+
+(% of total area)
+
+SPE
+
+Share of land systems
+Triple rice
+19.0
+35.0
+Double rice
+35.0
+24.0
+Cash crops
+3.6
+5.0
+Fruits
+13.8
+24.9
+Forest-aquaculture
+9.0
+6.7
+Aquaculture
+11.9
+16.1
+Rice-aquaculture
+6.0
+6.0
+Urban
+0.8
+0.8
+Evolution of land system services between 2020 and 2030 (in %)
+Livelihoods
+Built-up
+Agricultural products
+Aquaculture products
+
+37.0
+9.1
+0.0
+27.0
+5.5
+20.6
+0.0
+0.8
+-46.0
++ 2.9
+-1.0
+-13.6
+
+compared to 25% under the diversification scenario. Symmetrically,
+triple rice systems covered 37% (scenario specialisation) and 20%
+(scenario diversification) of the total area (Table 5). More riceaquaculture systems were preserved in the diversification policy sce­
+nario: 3% more compared to the specialisation scenario. In the two
+scenarios, the area of intensive aquaculture increased around the SouthWest (Cà Mau peninsula), ranging between 18% (diversification sce­
+nario) and 27% (specialisation scenario) of the total area. Of the two
+scenarios, cash crops were the land use system that decreased the most,
+disappearing completely in the specialisation scenario while only a very
+small area remained under the diversification scenario, located on the
+South-East (coastal flat) near Trà Vinh. The reduction in cash crop land
+use systems in the freshwater alluvial area near Cần Thơ is mostly due to
+conversion to orchards and rice land use systems. There was also a
+substantial increase in urban systems (+14%) in the Cà Mau peninsula
+under the specialisation scenario at the expense of rice-aquaculture and
+fruits. (Fig. 6).
+The overall change in employment opportunities between 2020 and
+2030 (Table 5) is higher (+0.9%) under the diversification scenario than
+under the specialisation scenario (− 46.0%). However, an increase in
+employment opportunities under the diversification scenario comes at
+the expense of agricultural gross product (diversification − 6.8%;
+specialisation − 1.0%). Interestingly, despite an increase of intensive
+aquaculture under the specialisation scenario, overall relative change of
+aquaculture gross product is the lowest in such a scenario (specialisation
+− 13.6%; diversification − 6.5%). Finally, as urban sprawl was con­
+strained in the diversification scenarios, the relative change in built-up
+area is significantly lower in this scenario (− 8.2%) while it grew
+under the specialisation scenario (+2.9%).
+
+DIV
+*
+*
+*
+*
+*
+*
+*
+*
+
+19.6
+25.1
+0.1
+26.0
+6.6
+19.0
+2.7
+0.8
+
+*
+*
+*
+*
+*
+*
+
++ 0.9
+-8.2
+-6.8
+-6.5
+
+Our findings show that mode of production has a significant effect on
+employment provision. Intensive farming land use systems (rice mono­
+culture, aquaculture) support less employment than more diversified
+systems, thus supporting earlier findings, which demonstrated that
+transitions from shifting cultivation to intensive cropping has a negative
+impact on employment opportunities (Dressler et al., 2017; Tran, 2019).
+The results of our study demonstrate that diversified farming systems
+(forest-aquaculture, orchards, rice-aquaculture), as promoted under
+decision 639, support more employment, yet they do not require a large
+agricultural labour force in comparison with decision 124. As agricul­
+tural land use systems are more diversified (e.g. smaller fields), they
+provide more alternative employment opportunities for landless
+households than decision 639, such as employment in processing com­
+panies and small businesses (packaging, upcycling of agri-processing
+waste) (Brunerová et al., 2020). Finally, we showed that access to
+urban areas decreases the likelihood of unemployment, thanks to the
+provision of off-farm employment (industry, construction, transport) (de
+Bruin et al., 2021).
+5.2. Sustainability of the Mekong Delta under global environmental
+change and current policies
+Despite the commitment to sustainable agriculture in post-2013
+policies, Decisions 124 and 939 (2012) aim at intensifying production
+through the transition from one-rice crop into water-logged areas with
+intensive aquaculture and by increasing rice production through triple
+rice cropping. This strategic planning is expected to lead to a growth of
+production of 4.2% with the following farm-related GDP outputs: agri­
+culture (55%), aquaculture (43.5%) and forestry (1.5%). The results
+from our model show that achieving this target under RCP4.5 will lead
+to exacerbating current observed trends, with an increase in intensive
+aquaculture and triple rice cropping systems at the expense of riceaquaculture, forest-aquaculture and double rice cropping systems. This
+land planning strategy is vulnerable to global environmental change, as
+the three main land use systems (triple rice cropping, intensive aqua­
+culture, orchards) will face (i) hot temperatures during the rainy season,
+leading to heat stress (rice and shrimp farming); (ii) prolonged rain
+during the wet season, leading to floods (rice and orchards); and (iii)
+salinity intrusion (orchards). Moreover, such systems lead to increased
+conflicts of natural resource management regarding water allocation but
+also cross-field contamination and pollution (Tran et al., 2021). Finally,
+while the policy narrative emphasises the need to prevent out-migration,
+our findings show that pushing for intensive farming decreases
+employment opportunities by 46%, especially for low-skilled labourers.
+Decisions 639 and 816 (Socialist Republic of Vietnam, 2014, 2018)
+
+5. Discussion
+5.1. Land use systems and employment opportunities
+Understanding the links between land use systems and the services
+they provide under increasing pressure exerted by global environmental
+change is a central part in spatial planning and sustainable management
+of resources, as it underpins a balance of options for land use (Kremen
+and Merenlender, 2018). However, current approaches to spatial plan­
+ning are often targeted on maximising economic value via extractive
+models of land use, thus exacerbating environmental degradation. While
+the latest evidence emphasises the importance of explicitly including
+livelihood provision in agri-food system planning (Davis et al., 2022), no
+earlier studies have quantitatively explored the associations between
+land use systems and employment opportunities.
+8
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+Fig. 6. Future land use systems of the Vietnamese Mekong Delta in 2030. Simulations were driven by global environmental change (RCP4.5) under two different
+policy scenarios: (i) specialisation of land services; and (ii) diversification of land services.
+
+have objectives that align better with Resolution 120 and its Action
+Programme, but also with national-level climate change policies such as
+the 2021 National Strategy on Green Growth and the 2017 Sustainable
+Development Goals National Action Plan. They take climate change into
+account (transition of rice land to aquaculture due to sea-level-rise) and
+aim at decreasing the area of ineffective and freshwater land use systems
+
+(especially rice area), while increasing more diversified systems
+(rice-aquaculture, forest-aquaculture and orchards). In parallel, they
+aim to develop programs that create opportunities for agricultural
+labourers while accompanying livelihood transition. The findings from
+our model suggest that these two strategic decisions lead to a more
+balanced approach in land services in 2030 compared to the
+9
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+
+implementation of Decisions 124 and 939. Although favouring
+rice-aquaculture and double rice cropping systems to triple rice cropping
+systems negatively affects agricultural production, it is greatly improved
+compared to the other scenario, while livelihood opportunities remain
+stable. The greater diversity of land use systems reduces vulnerability to
+global environmental change that prevents yield loss by reducing sedi­
+ment starvation associated with triple rice cropping (Chapman and
+Darby, 2016).
+In practice, however, considerable obstacles remain as tensions
+continue to exist in the policy landscape between intensification and
+sustainability, which threatens to derail the sustainability goals in
+favour of a GDP-centred growth model (Hutton et al., 2021). Although
+provincial governments were successfully brought on board during the
+formulation of the 2013 Mekong Delta Plan (Seijger et al., 2017; Vo
+et al., 2019), a lack of political will and financial resources are proving
+to be obstacles for strategic spatial planning and the realisation of sus­
+tainability goals (Malekpour et al., 2017; Demazière, 2018; Gustafsson
+et al., 2019) that would put the Mekong delta onto a path towards a
+climate resilient future.
+
+policy goals under RCP4.5 may lead to a drastic increase in intensive
+aquaculture and triple rice cropping systems at the expense of more
+diversified systems. We argue that inclusion of employment opportu­
+nities as a policy target leads to more diversified systems that provide
+more employment without compromising overall agriculture and
+aquaculture gross product.
+This paper provides an approach for researchers and policy-makers
+to consider employment in land use planning policy design, and thus
+to target specific land use systems to maximise their environmental and
+social services rather than solely focusing on their economic value per
+unit. Future interventions should address rural development holistically
+rather than focus on agricultural development, or at least ensure that
+current planning policies do not have a detrimental effect on rural
+employment. As such, they should support transitions to off-farm live­
+lihoods in well-connected communities, while steering to more diver­
+sified land use systems that could offer on-farm livelihoods to landless
+households.
+Declaration of Competing Interest
+
+5.3. Implications for sustainable and inclusive strategic spatial planning
+
+All authors declare that they have no conflicts of interest.
+
+In this study, we translated land use planning policies into a land use
+change modelling framework. In analysing global change effects on local
+scale land management, we went beyond applying global demand pro­
+jections only. We developed two scenarios representing the main Viet­
+namese planning policies under climate change and salinity intrusion
+(RCP4.5). One caveat to this study is that policy scenarios were
+modelled as mutually exclusive (specialisation vs. diversification). In
+reality, both scenarios might coexist spatially and across scales,
+depending on implementing agencies and place-based strategic de­
+cisions by local governments. Moreover, our prediction of employment
+based solely on land use system do not capture the complexity of live­
+lihood strategies that households put in place in rural areas. Nonethe­
+less, the patterns that we found allow us to advocate for the inclusion of
+employment as a service of land use systems in planning policies. Putting
+employment at the core of land use planning facilitates a more balanced
+future, situated in the middle of the two current strategies in terms of
+agriculture and aquaculture gross product, while ensuring an increase in
+livelihood opportunities.
+Our modelling approach has a caveat that assumes the association
+between land use systems and employment remains constant over time.
+Furthermore, to develop a full picture of rural employment, additional
+studies are needed, which include gender-sensitive modelling ap­
+proaches (Markussen et al., 2018). Nevertheless, the above findings
+suggest several courses of action for public policies and schemes to
+sustain rural livelihoods and reduce rural out-migration; hence,
+reducing urban and rural poverty. We show the necessity of moving
+from a profit-driven model of land use systems, as seen in current
+agricultural policies around the world (Garrone et al., 2019), towards a
+more holistic approach incorporating livelihood and biodiversity goals
+in rural policy design. Characterising the extent to which livelihoods can
+be supported by land use systems contributes to the wider framework of
+ecosystem services that helps design more socially and environmentally
+viable strategies for the future.
+
+Data Availability
+Data will be made available on request.
+Acknowledgment
+This research was co-funded by the Biotechnology and Biological
+Sciences Research Council under a Global Challenges Research Foun­
+dation Award for Global Agriculture and Food Systems Research (BB/
+P022693/1), and by the UK National Environmental Research Council
+(NERC) and the Viet Nam National Foundation for Science and Tech­
+nology Development (NAFOSTED) under the project ‘The resilience and
+sustainability of the Mekong delta to changes in water and sediment
+fluxes (RAMESES)’ (grant agreement NE/P014704/1). Prior to
+commencing the study, ethical clearance was obtained from the Uni­
+versity of Southampton [ERGO number 27665]. Data used in this
+research come from the Population and Housing Census of Vietnam
+provided by the General Statistics Office of Vietnam. The authors wish to
+thank all participants for providing their time and knowledge. Addi­
+tional gratitude goes to Nguyễn Ngọc Diệp who helped in the organi­
+sation, planning and interpretation of the Rapid Rural Appraisal.
+Appendix A. Supporting information
+Supplementary data associated with this article can be found in the
+online version at doi:10.1016/j.landusepol.2023.106752.
+References
+Berchoux, T., Watmough, G.R., Hutton, C.W., et al., 2019. Agricultural shocks and
+drivers of livelihood precariousness across Indian rural communities. Landsc. Urban
+Plan. 189, 307–319. https://doi.org/10.1016/j.landurbplan.2019.04.014.
+Berchoux, T., Watmough, G.R., Amoako Johnson, F., et al., 2020. Collective influence of
+household and community capitals on agricultural employment as a measure of rural
+poverty in the Mahanadi Delta, India. Ambio 49, 281–298. https://doi.org/10.1007/
+s13280-019-01150-9.
+Brunerová, A., Roubík, H., Brožek, M., et al., 2020. Briquetting of sugarcane bagasse as a
+proper waste management technology in Vietnam. Waste Manag. Res. 38 (11)
+https://doi.org/10.1177/0734242×20938438.
+Bussi, G., Darby, S.E., Whitehead, P.G., et al., 2021. Impact of dams and climate change
+on suspended sediment flux to the Mekong delta. Sci. Total Environ. 755, 142468
+https://doi.org/10.1016/j.scitotenv.2020.142468.
+Chapman, A., Darby, S.E., 2016. Evaluating sustainable adaptation strategies for
+vulnerable mega-deltas using system dynamics modelling: rice agriculture in the
+Mekong Delta’s An Giang Province, Vietnam. Sci. Total Environ. 559, 326–338.
+https://doi.org/10.1016/j.scitotenv.2016.02.162.
+Davis, B., Lipper, L., Winters, P., 2022. Do not transform food systems on the backs of the
+rural poor. Food Secur. https://doi.org/10.1007/s12571-021-01214-3.
+
+6. Conclusion
+This study determined associations between land use systems and
+employment opportunities and to model future land use systems in the
+Vietnamese Mekong Delta under global environmental change and
+current policies. Our findings bring a new perspective on land use sys­
+tem science and livelihood studies by demonstrating that more intensive
+farming systems provide less employment opportunities than more
+diversified systems at a territorial level. We showed that current
+development policies potentially have conflicting aims and that current
+10
+
+T. Berchoux et al.
+
+Land Use Policy 131 (2023) 106752
+Smajgl, A., Toan, T., Nhan, D., et al., 2015. Responding to rising sea levels in the Mekong
+Delta. Nat. Clim. Change 5, 167–174. https://doi.org/10.1038/nclimate2469.
+Socialist Republic of Vietnam, 2012b. Decision No. 939/QĐ-TTg dated July 19, 2012 of
+the Prime Minister approving the overall plan on socio-economic development of the
+Mekong river delta till 2020. 〈https://thuvienphapluat.vn/van-ban/Xay-dung-Do
+-thi/Decision-No-939-QD-TTg-approving-the-overall-plan-on-socio-economic-develo
+pment-148476.aspx〉.
+Socialist Republic of Vietnam, 2012a. Decision No. 124/QĐ-TTg of February 2, 2012,
+approving the master plan for agricultural production development through 2020,
+with a vision toward 2030. 〈https://thuvienphapluat.vn/van-ban/Linh-vuckhac/Quyet-dinh-124-QD-TTg-phe-duyet-Quy-hoach-tong-the-phat-trien-san-xuat134358.aspx〉.
+Socialist Republic of Vietnam, 2014. Decision No. 639/QĐ-BNN-KH, dated April 2, 2014,
+approving agricultural and rural planning in the Mekong Delta to 2020 under
+conditions of climate change, with a vision to 2030. 〈https://thuvienphapluat.vn
+/van-ban/Tai-nguyen-Moi-truong/Quyet-dinh-639-QD-BNN-KH-2014-Quy-hoach-n
+ong-nghiep-Dong-bang-song-Cuu-Long-den-2020–225989.aspx〉.
+Socialist Republic of Vietnam, 2017. Resolution 120/NQ-CP on sustainable and climateresilient development in the Mekong Delta. 〈https://www.mekongdeltaplan.com/re
+gional-coordination/government-resolution-120〉.
+Socialist Republic of Vietnam , 2018. Decision No. 816/QĐ-BNN-KH, dated March 7,
+2018, promulgating the government’s action plan for the implementation of
+resolution No. 120/NQ-CP of November 17, 2017. 〈https://thuvienphapluat.vn/vanban/Tai-nguyen-Moi-truong/Quyet-dinh-816-QD-BNN-KH-2018-thuc-hien-120-NQCP-phat-trien-dong-bang-song-Cuu-Long-378109.aspx〉.
+Socialist Republic of Vietnam, 2019. Decision 417/QĐ-TTg: Action program on
+sustainable development of the Mekong Delta in response to climate change. 〈htt
+ps://thuvienphapluat.vn/van-ban/EN/Tai-nguyen-Moi-truong/Decision-417-QDTTg-2019-program-sustainable-and-climate-resilient-development-of-the-MekongDelta/437759/tieng-anh.aspx〉.
+Szabo, S., Brondizio, E., Renaud, F.G., et al., 2016. Population dynamics, delta
+vulnerability and environmental change: comparison of the Mekong,
+Ganges–Brahmaputra and Amazon delta regions. Sustain. Sci. 11 (539–554) https://
+doi.org/10.1007/s11625-016-0372-6.
+Tilman, D., Balzer, C., Hill, J., et al., 2011. Global food demand and the sustainable
+intensification of agriculture. Proc. Natl. Acad. Sci. 108 (50) https://doi.org/
+10.1073/pnas.1116437108.
+Tran, D.D., Huu, L.H., Hoang, L.P., et al., 2021. Sustainability of rice-based livelihoods in
+the upper floodplains of Vietnamese Mekong Delta: prospects and challenges. Agric.
+Water Manag. Volume 243 (106495)) https://doi.org/10.1016/j.
+agwat.2020.106495.
+Tran, H., Tran, T., Kervyn, M., 2015. Dynamics of Land Cover/Land Use Changes in the
+Mekong Delta, 1973–2011: A Remote Sensing Analysis of the Tran Van Thoi District,
+Ca Mau Province, Vietnam. Remote Sens. 7 (3) https://doi.org/10.3390/
+rs70302899.
+Tran, T.A., 2019. Land use change driven out-migration: evidence from three flood-prone
+communities in the Vietnamese Mekong Delta. Land Use Policy Volume 88
+(104157)). https://doi.org/10.1016/j.landusepol.2019.104157.
+Truong, Q.C., Nguyen, T.H., Tatsumi, K., et al., 2022. A land-use change model to
+support land-use planning in the Mekong Delta (MEKOLUC. Land 11 (2), 297.
+https://doi.org/10.3390/land11020297.
+Valin, H., Sands, R.D., van der Mensbrugghe, D., et al., 2014. The future of food demand:
+understanding differences in global economic models. Agric. Econ. Vol 45 (1),
+51–67. https://doi.org/10.1111/agec.12089.
+Van Asselen, S., Verburg, P.H., 2012. A Land System representation for global
+assessments and land use modeling. Glob. Change Biol. Vol 18 (10), 3125–3148.
+https://doi.org/10.1111/j.1365-2486.2012.02759.x.
+Vasilopoulos, G., Quan, Q.L., Parsons, D.R., et al., 2021. Establishing sustainable
+sediment budgets is critical for climate-resilient mega-deltas. Environ. Res. Lett. Vol
+16 (064089)) https://doi.org/10.1088/1748-9326/ac06fc.
+Vo, H.T.M., van Halsema, G., Seijger, C., et al., 2019. Political agenda-setting for
+strategic delta planning in the Mekong Delta: converging or diverging agendas of
+policy actors and the Mekong Delta Plan. J. Environ. Plan. Manag. https://doi.org/
+10.1080/09640568.2019.1571328.
+Vu, H.T.D., Tran, D.D., Schenk, A., et al., 2022. Land use change in the Vietnamese
+Mekong Delta: new evidence from remote sensing. Sci. Total Environ. Vol.813
+(151918)) https://doi.org/10.1016/j.scitotenv.2021.151918.
+
+Deichmann, J.L., Canty, S.W.J., Akre, T.S.B., et al., 2019. Broadly defining “working
+lands”. Science 363 (6431), 1046–1048. https://doi.org/10.1126/science.aaw3007.
+Demazière, C., 2018. Strategic spatial planning in a situation of fragmented local
+government: the case of France. DisP. - Plan. Rev. 54 (2), 58–76. https://doi.org/
+10.1080/02513625.2018.1487645.
+de Bruin, S., Dengerink, J., van Vliet, J., 2021. Urbanisation as driver of food system
+transformation and opportunities for rural livelihoods. Food Secur. 13, 781–798.
+https://doi.org/10.1007/s12571-021-01182-8.
+Diep, N.T.H., Nguyen, C.T., Diem, P.K., et al., 2022. Assessment on controlling factors of
+urbanization possibility in a newly developing city of the Vietnamese Mekong delta
+using logistic regression analysis. Phys. Chem. Earth 126 (10365). https://doi.org/
+10.1016/j.pce.2021.103065.
+Dressler, W.H., Wilson, D., Clendenning, J., et al., 2017. The impact of swidden decline
+on livelihoods and ecosystem services in Southeast Asia: a review of the evidence
+from 1990 to 2015. Ambio 46, 291–310. https://doi.org/10.1007/s13280-0160836-z.
+Eslami, S., Hoekstra, P., Minderhoud, P.S.J., et al., 2021a. Projections of salt intrusion in
+a mega-delta under climatic and anthropogenic stressors. Nat. Commun. Earth
+Environ. 2, 142. https://doi.org/10.1038/s43247-021-00208-5.
+Eslami, S., Hoekstra, P., Kernkamp, H.W.J., 2021b. Dynamics of salt intrusion in the
+Mekong Delta: results of field observations and integrated coastal–inland modelling.
+Earth Surf. Dyn. 9, 953–976. https://doi.org/10.5194/esurf-9-953-2021.
+Fick, S.E., Hijmans, R.J., 2017. WorldClim 2: new 1-km spatial resolution climate
+surfaces for global land areas. Int. J. Climatol. Vol. 37 (2), 4302–4315. https://doi.
+org/10.1002/joc.5086.
+Garnett, T., Appleby, M.C., Balmford, A., et al., 2013. Sustainable Intensification in
+agriculture: premises and policies. Science Vol 341 (6141), 33–34. https://doi.org/
+10.1126/science.1234485.
+Garrone, M., Emmers, D., Olper, A., et al., 2019. Jobs and agricultural policy: Impact of
+the common agricultural policy on EU agricultural employment. Food Policy 87,
+101744. https://doi.org/10.1016/j.foodpol.2019.101744.
+Giller, K.E., Delaune, T., Silva, J.V., et al., 2021. The future of farming: who will produce
+our food. Food Secur. 13, 1073–1099. https://doi.org/10.1007/s12571-021-011846.
+Gustafsson, S., Hermelin, B., Smas, L., 2019. Integrating environmental sustainability
+into strategic spatial planning: the importance of management. J. Environ. Plan.
+Manag. 62 (8), 1321–1338. https://doi.org/10.1080/09640568.2018.1495620.
+Hutton, C.W., Hensengerth, O., Berchoux, T., et al., 2021. Stakeholder expectations of
+future policy implementation compared to formal policy trajectories: scenarios for
+agricultural food systems in the Mekong Delta. Sustainability 13 (10), 5534. https://
+doi.org/10.3390/su13105534.
+Kremen, C., Merenlender, A.M., 2018. Landscapes that work for biodiversity and people.
+Science 362 (6412). https://doi.org/10.1126/science.aau6020.
+Malek, Ž., Verburg, P.H., Geijzendorffer, I.R., et al., 2018. Global change effects on land
+management in the Mediterranean region. Glob. Environ. Change Vol 50, 238–254.
+https://doi.org/10.1016/j.gloenvcha.2018.04.007.
+Malekpour, S., Brown, R.R., de Haan, F.J., et al., 2017. Preparing for disruptions: a
+diagnostic strategic planning intervention for sustainable development. Cities
+Volume 63 (58–69). https://doi.org/10.1016/j.cities.2016.12.016.
+Markussen, T., Fibæk, M., Tarp, F., et al., 2018. The happy farmer: self-employment and
+subjective well-being in Rural Vietnam. J. Happiness Stud. 19, 1613–1636. https://
+doi.org/10.1007/s10902-017-9858-x.
+Mukherjee N. (2005). Participatory rural appraisal: methodology and applications.
+Nguyen, D.B., Clauss, K., Cao, S., et al., 2015. Mapping rice seasonality in the Mekong
+Delta with Multi-Year Envisat ASAR WSM data. Remote Sens. 7 (12), 15868–15893.
+https://doi.org/10.3390/rs71215808.
+Rahaman, Z.A., Al Kafy, A., Al-Faisal, A., et al., 2022. Predicting Microscale Land Use/
+Land Cover Changes Using Cellular Automata Algorithm on the Northwest Coast of
+Peninsular Malaysia. Earth Syst. Environ. 6, 817–835. https://doi.org/10.1007/
+s41748-022-00318-w.
+Seijger, C., Douven, W., van Halsema, G., et al., 2017. An analytical framework for
+strategic delta planning: negotiating consent for long-term sustainable delta
+development. J. Environ. Plan. Manag. 60 (8), 1485–1509. https://doi.org/10.1080/
+09640568.2016.1231667.
+Shrestha, S., Bach, T.V., Pandey, V.P., 2016. Climate change impacts on groundwater
+resources in Mekong Delta under representative concentration pathways (RCPs)
+scenarios. Environ. Sci. Policy Vol 61, 1–13. https://doi.org/10.1016/j.
+envsci.2016.03.010.
+
+11
+
+

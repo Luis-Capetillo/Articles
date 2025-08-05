@@ -1,0 +1,1816 @@
+This article was downloaded by: [University of Kent]
+On: 06 November 2014, At: 15:40
+Publisher: Taylor & Francis
+Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered
+office: Mortimer House, 37-41 Mortimer Street, London W1T 3JH, UK
+
+Journal of Spatial Science
+Publication details, including instructions for authors and
+subscription information:
+http://www.tandfonline.com/loi/tjss20
+
+A spatially explicit method to examine
+the impact of urbanisation on natural
+ecosystem service values
+a
+
+Wenliang Li & Changshan Wu
+
+a
+
+a
+
+Department of Geography , University of Wisconsin-Milwaukee ,
+Milwaukee , USA
+Published online: 22 May 2013.
+
+To cite this article: Wenliang Li & Changshan Wu (2013) A spatially explicit method to examine
+the impact of urbanisation on natural ecosystem service values, Journal of Spatial Science, 58:2,
+275-289, DOI: 10.1080/14498596.2013.797372
+To link to this article: http://dx.doi.org/10.1080/14498596.2013.797372
+
+PLEASE SCROLL DOWN FOR ARTICLE
+Taylor & Francis makes every effort to ensure the accuracy of all the information (the
+“Content”) contained in the publications on our platform. However, Taylor & Francis,
+our agents, and our licensors make no representations or warranties whatsoever as to
+the accuracy, completeness, or suitability for any purpose of the Content. Any opinions
+and views expressed in this publication are the opinions and views of the authors,
+and are not the views of or endorsed by Taylor & Francis. The accuracy of the Content
+should not be relied upon and should be independently verified with primary sources
+of information. Taylor and Francis shall not be liable for any losses, actions, claims,
+proceedings, demands, costs, expenses, damages, and other liabilities whatsoever
+or howsoever caused arising directly or indirectly in connection with, in relation to or
+arising out of the use of the Content.
+This article may be used for research, teaching, and private study purposes. Any
+substantial or systematic reproduction, redistribution, reselling, loan, sub-licensing,
+systematic supply, or distribution in any form to anyone is expressly forbidden. Terms &
+Conditions of access and use can be found at http://www.tandfonline.com/page/termsand-conditions
+
+Journal of Spatial Science, 2013
+Vol. 58, No. 2, 275–289, http://dx.doi.org/10.1080/14498596.2013.797372
+
+A spatially explicit method to examine the impact of urbanisation on natural
+ecosystem service values
+Wenliang Li and Changshan Wu*
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Department of Geography, University of Wisconsin-Milwaukee, Milwaukee, USA
+
+We developed a spatially explicit method to examine the effects of urbanisation on ecosystem
+service values. Especially, a spatially explicit urban growth model was developed through
+incorporating a macro-scale model (system dynamics) and a micro-scale model (CLUE-S). In
+addition, spatially explicit ecosystem service values were simulated under three socio-economic
+scenarios: (1) current economic growth, (2) rapid economic growth, and (3) sustainable
+economic growth. Analysis of results suggests that the degradation of ecosystem functions is
+associated with the conversion from water body and farmland to built-up and barren lands.
+Moreover, obvious spatial variations were found associated with ecosystem service values.
+Keywords: spatially explicit method; urban growth modeling; ecosystem service valuation
+
+1. Introduction
+Numerous urban growth models have been
+developed to predict the extent and locations
+of urban development (Jiang & Yao 2010).
+These models can be divided into two general
+groups: aspatial models and spatially explicit
+models. Aspatial models have been developed
+to predict the amount of urban developments
+in aggregated geographical areas (Seto &
+Kaufmann 2003; Irwin & Geoghegan 2001).
+One of the earliest aspatial models applies the
+bid-rent theory to explain new residential
+locations (Alonso 1960, 1964; Herbert &
+Stevens 1960). In the model, land use and land
+cover change (LUCC) is considered to be
+driven by accessibility to markets. Later, many
+sophisticated econometric models were developed and applied to examine the drivers of
+urbanisation in different cities (Chomitz &
+
+Gray 1996; Guldmann & Wang 1998; Huang
+et al. 2009; Landis & Zhang 1998). As an
+example, system dynamics (SD) models
+proposed by Forrester (1961, 1969) have
+been applied to examine causal factors of
+urbanisation, and simulate future urban growth
+in aggregated spatial units (Han et al. 2009;
+Leal Neto et al. 2006; Yu et al. 2011).
+Although aspatial models have been widely
+applied, critics of these models have emerged,
+and the specific locations of LUCCs have been
+predicted using spatially explicit models.
+These models include cellular automata
+(Clarke et al. 1997; Kamusoko et al. 2009;
+Li & Yeh 2002; Zhang et al. 2011), agentbased models (Evans & Kelley 2004; Mena
+et al. 2011; Parker et al. 2003), and the
+conversion of land use and its effects (CLUE)
+(Verburg et al. 2002, 2006).
+
+*Corresponding author. Email: cswu@uwm.edu
+q 2013 Mapping Sciences Institute, Australia and Surveying and Spatial Sciences Institute
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+276
+
+W. Li and C. Wu
+
+Parallel to the research of urban growth
+modelling, ecologists have attempted to
+identify the functions, including goods and
+services, provided by natural ecological
+systems and quantify the monetary value of
+these functions since the 1970s (Holdren &
+Ehrlich 1974; Odum 1977; Westman 1977). In
+particular, a pioneering study conducted by
+Costanza et al. (1997) divided the world’s
+ecosystems into 16 biomes, each of which can
+provide 17 types of services (e.g. gas
+regulation, climate regulation, water supply,
+soil formation and retention). Further, Costanza et al. (1997) estimated the average
+world’s ecosystem service value to be
+approximately US$33 trillion per year (based
+on 1994 US$) using a market valuation
+method. Since then, many scholars have
+applied the Costanza et al. (1997) valuation
+method to examine the value of ecosystem
+services for farmland, forest, grassland, and
+wetland ecosystems (Hu et al. 2008, Li et al.
+2007, 2010; Tong et al. 2007; Zang et al. 2011;
+Zhao et al. 2004). However, according to the
+survey results from more than 200 Chinese
+ecologists, some ecosystem services have been
+found to be overestimated or underestimated
+when applied to Chinese cities (Xie et al.
+2001). Xie et al. (2001, 2010) argued that, with
+Costanza et al. (1997)’s method, ecological
+services provided by farmland were insufficiently valued, while services provided by
+other biomes, such as wetlands and forest,
+were overvalued. In order to address this
+problem, Xie et al. (2001) proposed a “unit
+value”-based method to localise the parameters for ecosystem assessment in China,
+and it has been widely employed to examine
+the influences of urbanisation on the service
+value of surrounding ecosystems in China
+(Zhao et al. 2009).
+Until now, most studies have emphasised
+examination of the impacts of urbanisation on
+ecosystem service values for an aggregated
+geographic area (e.g. a city or county), and
+ignored the spatial heterogeneity of ecosystem
+services (Zhang et al. 2010). Spatial hetero-
+
+geneity, however, may be important as it may
+influence the process and pattern of an
+ecosystem significantly (Pickett et al. 1997).
+Therefore, examining the detailed spatial
+variations of ecosystem service values and
+their changes over time is essential. To address
+this problem, this study developed a spatially
+explicit method through integrating an urban
+growth model and an ecosystem valuation
+approach. With this approach, the spatial
+heterogeneity of the ecosystem value changes
+has been examined. The reminder of this paper
+is organised as follows. The next section
+introduces the study area and data. Section 3
+reports the methodology employed in this
+study, including the spatially explicit urban
+growth model and ecosystem service valuation
+approach. The results of this research are
+reported in Section 4, and finally the paper
+concludes with Section 5.
+2. Study area and data
+Daqing City, Heilongjiang Province, China,
+has been selected as the study area. Daqing
+covers approximately 5144 square kilometers
+and lies between latitudes 458460 and 468550
+north and longitudes 1248190 and 1258120 east
+(Figure 1). It is located in the continental
+monsoon climate region, and the annual
+temperature and precipitation are 5.68C and
+427.5 mm respectively. Daqing City consists
+of five districts: Saertu, Ranghulu, Longfeng,
+Datong, and Honggang. The population of
+Daqing was 1.25 million in 2005, which
+accounts for approximately 3.3% of the overall
+population in the Heilongjiang Province. The
+gross domestic product (GDP) was about US
+$17.7 billion in 2005, or 16% of the GDP of
+the Heilongjiang Province. Daqing has one of
+the largest oil production fields in the world,
+with an annual oil production over 1 billion
+tons. In particular, 60% of the GDP of Daqing
+can be attributed to the petroleum industry.
+The development of the petroleum industry
+has led to the rapid growth of GDP and
+population, and as a result an increasing area
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Journal of Spatial Science
+
+277
+
+Figure 1. Location of the Daqing City, Heilongjiang Province, P.R. China
+
+of land has been converted from natural land to
+residential, industrial, and commercial land
+uses. Unlike natural lands, urban lands have
+profound and adverse effects on natural
+ecological systems, although they may also
+provide convenience and economic benefits to
+local residents. As an example, urbanisation
+leads to the urban heat island effect, reduced
+biodiversity, increased amounts of brownfields, as well as air and water pollution, all of
+which deteriorate the quality of life of local
+residents. Because of the lack of strategic
+planning, Daqing is facing many of the
+aforementioned challenging environmental
+problems, and it is essential to explore the
+effects of future urban development on the
+surrounding natural ecosystems.
+For this study, we obtained Landsat
+thematic mapper (TM) imagery from 1990,
+2000, and 2005 to derive historical land use
+maps of Daqing. These Landsat TM images,
+with six spectral bands (bands 1 – 5 and 7) and
+30 m spatial resolution, were collected from the
+China Remote Sensing Satellite Ground Station
+and Heilongjiang Academy of Agricultural
+Science. In addition, digital elevation data were
+obtained from the global topography database
+with a spatial resolution of 3 arc-seconds
+
+(90 m). Soil maps were obtained from the
+Institute of Soil Science, Chinese Academy of
+Sciences. Transportation networks, including
+railways, provincial roads, and rural roads,
+were provided by the Surveying and Mapping
+Department, Heilongjiang Province. In order to
+validate all the collected data, including remote
+sensing imagery and GIS data, a topographic
+map with a scale of 1:5 was employed as the
+reference data. Finally, socio-economic data,
+including population information, GDP, etc.,
+were obtained from the Daqing Statistics
+Yearbooks of 1991, 2001, and 2006.
+With the Landsat TM imagery, land use
+maps of 1990, 2000, and 2005 were generated
+using a guided clustering method developed by
+Reese et al. (2002). This is a hybrid
+supervised/unsupervised classification technique which is proven to generate highaccuracy LUCC products. In this study, the
+adoption of this method is due to its
+convenience and high accuracy. Six land use
+types were identified: farmland, forest, grassland, water bodies (wetlands, lakes, rivers,
+reservoirs, ponds, etc.), built-up (residential,
+transportation, industrial including petroleum
+field), and barren land (alkaline and salinised
+land, sand, etc.). To ensure satisfactory
+
+278
+
+W. Li and C. Wu
+
+classification accuracy, a post-classification
+review was conducted through manual
+interpretation and digitisation, with the topographic map and other historical maps as
+references. The overall classification accuracy
+was checked using 600 ground control points
+chosen with a stratified random sampling
+technique, and the accuracy for each land use
+map is higher than 85%.
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+3.
+
+Methodology
+
+3.1 Spatially explicit urbanisation
+modelling
+To simulate the urban growth of Daqing City
+under a number of socio-economic scenarios,
+we integrated the SD model and the CLUE-S
+model to develop future urban land use change
+scenarios. SD was initially developed by
+Forrester (1961, 1969), and subsequently
+applied in tourism management, watershed
+management, and land use change analysis
+(Georgantzas 2003; He et al. 2006; Leal Neto
+et al. 2006; Yu et al. 2010). SD is an effective
+means to examine the behaviours of a complex
+spatio-temporal system. It is effective in
+
+handling the feedback loops from both inside
+and outside the system and examining the
+impact of time lag on the behaviours of the
+system. The complex relationships among
+factors can be constructed as feedback loops,
+stocks, and flows. SD can reflect the structure,
+function and dynamic interactions among
+behaviours of a complex system. Therefore,
+it provides a useful tool for analysing the
+relationships between land use change and its
+driving forces. The driving forces of LUCC
+can be divided into three groups: natural
+factors, land use policy, and socio-economic
+factors (Nunes & Auge 1996; Turner et al.
+1995; Vellinge 1998). As few variations are
+associated with natural factors (e.g. climate
+and topography) in Daqing, only land use
+policy and socio-economic factors have been
+considered in this study. Land use policies
+include zoning, the reclamation of barren land,
+and the returning of farmland to forest and
+grassland; and socio-economic factors include
+GDP, population, and technology (e.g. agricultural and forest production technology)
+progress at different levels. The SD model (see
+Figure 2) was constructed and calibrated using
+
+Figure 2. Framework of the System Dynamic Model (“ þ ” represents positive feedback and “ 2 ”
+represents negative feedback)
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Journal of Spatial Science
+the Vensim PLE 5.10, commercial software
+developed by Ventana Systems, Inc. (http://
+www.vensim.com/).
+With the projected future urban growth
+demand at aggregated levels, the spatial
+module of the CLUE-S model developed by
+Verburg and his colleagues (Verburg et al.
+2002; Verburg & Veldkamp 2004; Verburg &
+Overmars 2009) was applied to predict the
+urban development at specific locations.
+Especially, land use demands derived from
+the SD model have been translated into land
+use changes at different locations within the
+study area (Verburg et al. 2002). Nine
+variables, elevation, slope, soil type, distance
+to rivers and ponds, distance to railway,
+distance to provincial roads, distance to rural
+roads, distance to the nearest town, and
+distance to county boundary, were selected as
+driving factors to assess the likelihood of a cell
+being devoted to a particular land use category.
+In particular, the probability of a cell
+belonging to a particular land use type was
+calculated using a logistic regression model,
+detailed as follows.
+
+
+Pi
+Log
+1 2 Pi
+
+
+¼ b0 þ b1 X 1;i þ b2 X 2;i
+þ · · · þ bn X n;i
+
+ð1Þ
+
+Where Pi represents the probability of a grid
+cell being assigned to a land use category i, Xj,i
+represents the jth driving factors of land use
+category i, and n is the total number of driving
+factors. The relationship between land use
+probabilities and driving factors is shown in
+Table 1. The relative operating characteristic
+(ROC) value was utilised in this study to
+evaluate whether the model can explain all
+land use types with satisfactory accuracy
+(Pontius & Schneider 2001). ROC is a
+quantitative measure that examines the goodness-of-fit between the simulated land use map
+and the reference map through calculating a
+statistical summary of a series of 2 by 2
+contingency tables derived from a number of
+
+279
+
+simulated results. The ROC values for these
+models were higher than 0.65, indicating the
+spatial distribution of all land use types can be
+well explained by the selected nine driving
+factors. Especially for forest, water body, and
+built-up land use categories, better ROC values
+(. 0.8) were achieved.
+After examining the driving factors using
+the logistic regression model, we also obtained
+the land use change elasticity (ELAS), which
+was calculated based on the conversion rates
+among land use types during the period 1990
+to 2000 (see Table 2). The ELAS for each land
+use type ranges from 0 to 1, representing the
+difficulty of converting a land use type to other
+types. The higher the ELAS value, the more
+difficult is the conversion to other land use
+types. An ELAS value of 0.5 or under (e.g.
+farmland and water body) indicates that a land
+use type is more likely to be converted to other
+types (see Table 2). Otherwise, an ELAS value
+between 0.5 and 0.8 (e.g. grassland and barren
+land) indicates it is difficult to convert to other
+land use types. Furthermore, with a higher
+ELAS value (e.g. between 0.8 and 1 for
+forestland and urban land), a land use type is
+much more difficult to convert to other types
+(see Table 2). After estimating the logistic
+regression coefficients and the ELAS value for
+each land use type (Verburg et al. 2006), we
+applied the CLUE-S model to iteratively
+allocate the land use changes using probability
+maps and the ELAS values. The allocated area
+for each land use type was compared to the
+land use demand estimated by the SD model,
+and adjusted repeatedly until the allocated area
+was equal to the requirements for all land use
+types.
+With the integrated SD and CLUE-S
+model, we simulated the urban growths of
+Daqing City under three socio-economic and
+land use scenarios: (1) current economic
+growth, (2) rapid economic growth, and (3)
+sustainable economic growth. With the current
+economic growth, the population growth rate
+was assumed to be approximately 0.9%, the
+GDP was set to grow about 7.2% annually, and
+
+–
+1.96470
+3.03149
+1.13624
+3.42751
+–
+0.00016
+–
+20.00013
+0.00029
+0.00015
+20.00009
+212.84005
+0.838
+
+2.83867
+2.61342
+2.29380
+1.98455
+–
+1.87478
+0.00042
+0.00001
+0.00004
+0.00007
+2 0.00003
+0.00001
+2 16.21066
+0.769
+
+–
+1.36258
+1.52491
+1.19111
+–
+–
+–
+2 0.00004
+0.00004
+2 0.00057
+2 0.00005
+2 0.00019
+2 17.86102
+0.861
+
+2 0.94117
+2 1.20696
+2 0.61367
+2 0.96185
+2 0.89905
+2 1.92370
+2 0.00276
+0.00001
+2 0.00008
+0.00007
+0.00004
+0.00004
+32.3295
+0.940
+
+1.41068
+0.99938
+–
+2.09927
+–
+2.65139
+0.00011
+0.00002
+2 0.00004
+2 0.00005
+0.00003
+2 0.00004
+12.89769
+0.740
+
+0.10736
+0.23355
+
+2 0.21594
+2 1.11537
+
+2 0.12314
+2 0.58832
+
+Built-up
+
+Water body
+
+Grass land
+
+–
+0.65573
+–
+1.21587
+1.89955
+2.04227
+2 0.00003
+0.00001
+2 0.00001
+2 0.00014
+0.00001
+2 0.00002
+8.10157
+0.692
+
+2 0.07571
+–
+
+Barren land
+
+2 , not significant and not included in model at 0.05 significant level. DRP, distance to river and pond; DR, distance to railway; DPR, distance to provincial road; DRR, distance
+to rural road; DT, distance to town; DC, distance to country.
+
+0.04119
+0.88919
+
+Forest
+
+0.09373
+0.41785
+
+Farmland
+
+Driving factors and their coefficients in the logistic regression model
+
+Elevation (m)
+Slope (degree)
+Soil
+Black soil
+Black & calcium soil
+Sandy soil
+Meadow soil
+Swamp soil
+Saline-alkali soil
+DRP (m)
+DR (m)
+DPR (m)
+DRR (m)
+DT (m)
+DC (m)
+Constant
+ROC
+
+Driver
+
+Table 1.
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+280
+W. Li and C. Wu
+
+Journal of Spatial Science
+Table 2.
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+ELAS
+
+281
+
+Land use type conversion elasticity (ELAS) in Daqing, China
+Farmland
+
+Forest
+
+Grass land
+
+Water body
+
+Built-up
+
+Barren land
+
+0.20
+
+0.80
+
+0.65
+
+0.45
+
+1.00
+
+0.65
+
+the technology progress was assumed to keep
+the present pace (1.2%). These numbers were
+utilised according to multiple reports from
+Chinese governments (State Council Information Office of China 2000; The Fifth
+Communist Party of China Central Committee
+2002). With current population growth, GDP
+growth, and technology progress rates, their
+respective values under rapid and sustainable
+economic growth scenarios were determined
+according to relevant projected national and
+local socio-economic data from 2005 to 2015
+(State Council Information Office of China
+2000). In particular, under the rapid economic
+development scenario, population growth rate
+was set to be 1.1%, GDP growth rate was
+assigned to be 7.5% per year, and technology
+progress rate was set to be 1.5%. Under the
+sustainable economic growth scenario, population growth rate was set to be 0.7%, GDP
+growth rate was assumed to be 7%, and
+technology progress rate was set to a lower
+level (1%).
+
+3.2 Spatially explicit ecosystem service
+valuation
+In order to evaluate the impact of urbanisation
+on surrounding ecosystems in Daqing, China,
+we quantified the ecosystem service values for
+each biome using the valuation coefficients
+provided by Xie et al. (2008). In particular, the
+ecosystem service values were generated using
+the following steps. First, nine ecosystem
+service functions, food production, raw
+materials production, gas regulation, climate
+regulation, hydrological regulation, waste
+treatment, soil formation and conservation,
+biodiversity maintenance, and providing aesthetic values, were identified following Cost-
+
+anza’s classification scheme. Second, as each
+biome provides 17 types of service, the
+ecosystem service value of food production,
+one of these services, is determined as
+approximately 1/17 of the total values. Therefore, the unit service value for food production
+of farmland was assigned to be 1/17 of the
+agricultural production market price. In this
+research, the per hectare farmland service
+value was set to be US$131, which was
+calculated using the price data for major crops
+in 2005. Further, the ratios between the service
+values of other ecosystem functions and the
+food production service value of per unit
+farmland were estimated through a questionnaire survey approach (see Table 3). In this
+study, due to the difficulty of having a perfect
+match, the river/lake and wetland were
+grouped into one class (water body), and
+desert was considered to be equivalent to
+barren land. With the food production service
+value of per unit farmland and the corresponding ratios, the service values of other
+ecosystem functions were derived (see Table
+4). Consequently, the ecosystem service per
+unit value for each land use category was
+generated as the summation of each ecosystem
+service function value (see Table 4). Finally,
+the overall value of ecosystem services in
+Daqing was estimated using the following
+equation.
+ESV ¼
+
+n
+X
+
+ðAk £ VCk Þ
+
+ð2Þ
+
+k¼1
+
+Where ESV is the estimated ecosystem service
+value, Ak is the area (ha) for land use category
+k, VCk is the value coefficient (US$/ha/year)
+for land use category k and n is the overall
+number of land use categories.
+
+282
+
+W. Li and C. Wu
+
+Table 3. Ratio between ecosystem service value and food production service value provided by farmland
+(revised from Xie et al. 2008)
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Service types
+Food production
+Raw material production
+Gas regulation
+Climate regulation
+Hydrological regulation
+Waste treatment
+Soil formation and conservation
+Biodiversity maintenance
+Providing aesthetic values
+Total
+
+Farmland
+
+Forest
+
+Grassland
+
+Wetlands
+and water
+
+Urban
+
+Barren land
+
+1.00
+0.39
+0.72
+0.97
+0.77
+1.39
+1.47
+1.02
+0.17
+7.9
+
+0.33
+2.98
+4.32
+4.07
+4.09
+1.72
+4.02
+4.51
+2.08
+28.12
+
+0.43
+0.36
+1.50
+1.56
+1.52
+1.32
+2.24
+1.87
+0.87
+11.67
+
+0.45
+0.30
+1.46
+7.81
+16.11
+14.63
+1.20
+3.60
+4.57
+50.13
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+0.02
+0.04
+0.06
+0.13
+0.07
+0.26
+0.17
+0.40
+0.24
+1.39
+
+In order to better examine the estimated
+error of VC values, a sensitivity analysis was
+applied to examine the dependence of
+ecosystem service values on the employed
+valuation coefficients. The coefficient of
+sensitivity (CS) was applied to evaluate the
+elasticity of ESV, and can be calculated as
+follows (Kreuter et al. 2001; Wang et al.
+2006).
+CSk ¼
+
+ðESVj 2 ESVi Þ=ESVi
+ðVCjk 2 VCik Þ=ðVCik Þ
+
+ð3Þ
+
+Where CSk is the coefficient of sensitivity for a
+land use type k, ESV is the ecosystem service
+value, VC is the value coefficient, ‘i’
+represents the initial stage, and ‘j’ represents
+the adjusted stage. The coefficient of sensi-
+
+tivity indicates the sensitivity of the total ESV
+to the change of the ecological system
+valuation coefficient for a specific land use
+category. The greater the coefficient of
+sensitivity, the more critical is an accurate
+ecosystem VC for a specific land use type.
+4.
+
+Results
+
+4.1
+
+Urban growth modelling
+
+The SD model was constructed using the
+1990– 2000 land use data, and validated with
+the 2001– 2005 data. Validation results (see
+Table 5) indicate that the SD model performed
+reasonably well, as the relative error of the
+simulated land use demand is less than 10%
+when compared to the reference land use area
+for the same year (2005). Therefore, the
+
+Table 4. Ecosystem service value coefficients for each land use category ($ ha21year21 revised from Xie
+et al. 2008)
+Service types
+Food production
+Raw material production
+Gas regulation
+Climate regulation
+Hydrological regulation
+Waste treatment
+Soil formation and conservation
+Biodiversity maintenance
+Providing aesthetic values
+Total
+
+Farmland
+
+Forest
+
+Grassland
+
+Wetlands
+and water
+
+Urban
+
+Barren land
+
+131
+51
+94
+127
+101
+182
+193
+134
+22
+1035
+
+43
+390
+566
+533
+536
+225
+527
+591
+272
+3683
+
+56
+47
+197
+204
+199
+173
+293
+245
+114
+1528
+
+59
+39
+191
+1023
+2110
+1917
+157
+472
+599
+6567
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+3
+5
+8
+17
+9
+34
+22
+52
+31
+181
+
+Journal of Spatial Science
+Table 5.
+
+Prediction accuracy of the SD model (assessed using 2005 data)
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Start
+Reference data
+Simulation results
+Relative error (%)
+
+Year
+
+Farmland
+
+Forest
+
+Grass land
+
+Water body
+
+Built-up
+
+Barren land
+
+2000
+2005
+2005
+
+332,596
+326,948
+329,354
+0.74
+
+3,048
+3,616
+3,726
+3.03
+
+18,820
+19,892
+19,597
+21.48
+
+69,132
+55,628
+59,043
+6.14
+
+28,156
+32,380
+31,939
+2 1.36
+
+62,700
+75,988
+70,793
+26.83
+
+developed SD model has adequate accuracy,
+and can be employed to simulate future land
+use demands.
+After calibration and validation, the developed SD model was applied to simulate land
+use demands for the next 10-year period
+(2006 – 2015). The simulated scenarios of land
+use demands for 2015 and associated changes
+are shown in Table 6. Results indicate, from
+2005 to 2015, human-dominated land uses
+such as built-up land and barren land have
+increased rapidly together with the significant
+decrease of water body and farmland. Moreover, land use changes vary significantly under
+different socio-economic and land use scenarios. For example, built-up land is projected
+to increase from 32,380 ha in 2005 to 44,707.6
+ha in 2015 under the current economic growth,
+to 47,070 ha under rapid economic growth or
+to 43,040 ha under sustainable economic
+growth, with an overall increment of 38.07%,
+45.37%, or 32.92% respectively. With the
+incoming depletion of oil resources, Daqing is
+facing the challenge of transforming from an
+Table 6.
+
+283
+
+oil-resource-based city to a city with a
+diversified economy. Associated with high
+demand for built-up land for economic development, a high speed of urban expansion will
+occur in the following years. Meanwhile, as
+high-speed economic development is at the cost
+of land resources and natural environments,
+barren land is projected to increase 15,979 ha
+with the current economic growth, 31,959 ha
+with rapid economic development growth or
+12,453 ha with sustainable economic growth,
+an increment of 21.03%, 42.06%, or 16.39%
+respectively. In addition, the water body will
+decrease significantly from 2005 to 2015.
+During this period, its area decreases from
+55,628 ha to 29,446 ha under current economic
+growth, to 19,309 ha under rapid economic
+growth, or to 38,504 ha under sustainable
+economic development, with a total decrement
+of 47.07% (4.71% annually), 65.29% (6.53%
+annually), or 30.78% (3.08% annually) respectively due to a great amount of water
+consumption. The decrease of the water body
+will be mainly due to the large amount of water
+
+Land use change from 2005 to 2015 under different socio-economic scenarios
+
+2005 (ha)
+2015 (ha)
+Change (ha)
+
+% change
+% per year
+
+Current
+Rapid economic
+Sustainable
+Current
+Rapid economic
+Sustainable
+Current
+Rapid economic
+Sustainable
+Current
+Rapid economic
+Sustainable
+
+Farmland
+
+Forest
+
+Grassland
+
+Water body
+
+Built-up
+
+Barren land
+
+326,948
+321,442
+318,124
+312,831
+2 5,506
+2 8,824
+214,117
+2 1.68
+2 2.69
+2 4.31
+2 0.17
+2 0.27
+2 0.43
+
+3,616
+5,630
+4,502
+6,308
+2,014
+886
+2,692
+55.71
+24.50
+74.45
+5.57
+2.45
+7.45
+
+19,892
+21,261
+17,500
+25,328
+1,369
+2 2,392
+5,436
+6.88
+2 12.02
+27.33
+0.69
+21.20
+2.73
+
+55,628
+29,446
+19,309
+38,504
+226,182
+236,319
+217,124
+2 47.07
+2 65.29
+2 30.78
+2 4.71
+2 6.53
+2 3.08
+
+32,380
+44,706
+47,070
+43,040
+12,326
+14,690
+10,660
+38.07
+45.37
+32.92
+3.81
+4.54
+3.29
+
+75,988
+91,967
+107,947
+88,441
+15,979
+31,959
+12,453
+21.03
+42.06
+16.39
+2.10
+4.21
+1.64
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+284
+
+W. Li and C. Wu
+
+consumption during the process of oil extraction and production, in addition to residential,
+commercial, and other industrial usages. Due to
+the policy of returning farmland to forest and
+grassland, forest and grassland will increase
+noticeably, and the total increment of forest will
+be 55.71% with the current economic growth,
+24.50% with rapid economic growth, or
+74.45% with sustainable growth. In summary,
+as a result of economic development, humandominated land will increase noticeably at the
+cost of water body.
+With the knowledge of aggregated LUCC
+in Daqing, it is necessary to examine the
+specific locations of the changes. Through
+applying the land use data from 1990 to 2000,
+the CLUE-S model was developed to distribute the aggregated land use demands
+predicted by the SD model to specific spatial
+
+locations. The Kappa value was employed to
+assess the modeling accuracy (Cohen 1960). It
+is an important index that measures the
+association between the simulated and the
+reference images. Kappa ranges from 2 1 to 1,
+and a value of 1 indicates a perfect agreement.
+In this study, the Kappa value is 0.82,
+indicating that the CLUE-S model has
+generated satisfactory results for simulating
+the spatial distribution of future land use
+demands. Then, this CLUE-S model was
+applied to simulate the LUCC for the period
+from 2006 to 2015. Several conclusions can be
+obtained through visualising the spatial
+changes of land use types from 2005 to 2015
+(see Figure 3). First, it is projected that
+significant land use changes will take place
+during these 10 years, and due to rapid
+urbanisation many hectares of farmland will be
+
+Figure 3. Land use and ecosystem service value change in Daqing, China from 2005 to 2015 under three
+socio-economic and land use policies
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Journal of Spatial Science
+converted to built-up lands, in particular in the
+northeastern part of Daqing (from A1 to A2,
+A3, or A4). Further, due to the increasing
+demand for food, some forest will be
+converted to farmland, and some forest and
+grassland will be transformed to barren land
+because of environment degradation. An
+example of this trend can be clearly identified
+in the southwest of Daqing (from B1 to B2, B3,
+or B4). Associated with these patterns, the
+shrinking of water bodies (from C1 to C2, C3,
+or C4) and farmland (from D1 to D2, D3, or
+D4), and the expansions of barren lands are
+clearly shown in the southern part of Daqing.
+4.2 Ecosystem service value change
+analysis
+With the results of land use changes, the
+ecosystem service valuation method developed by Xie et al. (2008) was applied to
+examine the impact of land use change on
+surrounding natural ecosystems in Daqing
+during the period 2005 to 2015 (Table 7). As
+can be discerned from Table 7, the total
+ecosystem service value in Daqing was about
+$761.16 million in 2005, and this value is
+projected to decrease to $595.94 million under
+current economic growth, $518.92 million
+under rapid economic growth, or $654.58
+million under sustainable economic growth in
+Table 7.
+
+285
+
+2015, with a total reduction of 21.71%,
+31.83%, or 14% (2.17%, 3.18%, and 1.40%
+annually). This is mainly due to the significant
+decrease of water body, as the total ecosystem
+service value of water body will decrease from
+$365.31 million to $193.37 million (under
+current economic growth), $126.80 million
+(under rapid economic growth), or $252.86
+million (under sustainable economic growth),
+or 47.07%, 65.29%, or 30.78% (4.71%, 6.53%,
+or 3.08% annually) respectively. In addition,
+the ecosystem service value of farm land will
+decrease slightly from 2005 to 2015 (see Table
+7). Conversely, the ecosystem service values
+provided by forest and grassland are projected
+to increase from 2005 to 2015. In particular,
+the ecosystem service values provided by
+forest will increase 55.71% (5.57% annually)
+under current economic growth, 24.47%
+(2.45% annually) under rapid economic
+growth, or 74.40% (7.44% annually) under
+sustainable economic growth respectively.
+And the ecosystem service values provided
+by barren land will increase 21.09% (2.11%
+annually) under current economic growth,
+42.11% (4.21% annually) under rapid economic growth, or 16.44% (1.64% annually)
+under sustainable economic growth respectively. Similarly, the ecological service value
+provided by grassland will also increase
+
+Ecosystem service value change from 2005 to 2015 under different scenarios
+Farmland forest
+6
+
+ESV 2005 (10 $)
+ESV 2015 (106$) Current
+Rapid economic
+Sustainable
+Change (106$)
+Current
+Rapid economic
+Sustainable
+% change
+Current
+Rapid economic
+Sustainable
+% per year
+Current
+Rapid economic
+Sustainable
+
+338.39
+332.69
+329.26
+323.78
+25.7
+29.13
+214.61
+21.68
+22.70
+24.32
+20.17
+20.27
+20.43
+
+Grass
+land
+
+water
+body
+
+13.32
+30.39
+365.31
+20.74
+32.49
+193.37
+16.58
+26.74
+126.80
+23.23
+38.70
+252.86
+7.42
+2.1 2 171.94
+3.26 2 3.65 2 238.51
+9.91
+8.31 2 112.45
+55.71
+6.91 2 47.07
+24.47 2 12.01 2 65.29
+74.40
+27.34 2 30.78
+5.57
+0.69
+2 4.71
+2.45 2 1.20
+2 6.53
+7.44
+2.73
+2 3.08
+
+Built-up
+
+barren
+land
+
+total
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+13.75
+16.65
+19.54
+16.01
+2.9
+5.79
+2.26
+21.09
+42.11
+16.44
+2.11
+4.21
+1.64
+
+761.16
+595.94
+518.92
+654.58
+2165.22
+2242.24
+2106.58
+221.71
+231.83
+214.00
+22.17
+23.18
+21.40
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+286
+
+W. Li and C. Wu
+
+slightly. These increments, however, cannot
+offset the loss of ecological service values due
+to the diminishment of water body.
+With the knowledge of overall ecosystem
+service value change in Daqing, we further
+examined the specific locations with noticeable changes. Through applying the ecosystem
+service value coefficients to the land use
+change map generated from the integrated SD
+and CLUE-S model, we derived the ESV maps
+of 2005 and 2015, and illustrated the spatial
+and temporal dynamic changes of ESV (see
+Figure 3). Several impressions can be obtained
+from Figure 3. First, around the original city
+boundary, ESV is projected to decrease
+significantly due to rapid urbanisation. In
+these areas, a large number of natural lands,
+particularly water body, will be transformed
+into built-up land, and the ESV will decrease
+sharply, as can be seen from the district A (A1
+to A2, A3, or A4) in Figure 3. Second, in the
+northwestern part of Daqing City, the ESV
+decreases slightly due to the conversion from
+forest and grassland to farmland and barren
+lands (see district B). This can be explained by
+the increasing need for farmland for food
+production. Finally, in the southern part of
+Daqing, there is an apparent and significant
+decrement of ESV due to the shrinking of
+water body and expansion of barren lands (see
+districts C and D).
+5.
+
+Discussion and conclusions
+
+In this study, we developed a spatially explicit
+method to examine the effects of urbanisation
+on ecosystem service values by integrating
+urban growth modelling and ecosystem service
+valuation methods, and developed future
+LUCCs under different socio-economic and
+land use scenarios. In particular, future urban
+growth was simulated through integrating an
+aspatial (the SD model) and a spatially explicit
+(the CLUE-S model) urban growth model.
+Ecosystem service values for different scenarios were quantified using Xie et al.’s
+ecosystem service valuation method. Further,
+
+future land use and ecosystem service value
+changes were simulated under three socioeconomic scenarios: (1) current economic
+growth, (2) rapid economic growth, and (3)
+sustainable economic growth. Analysis of
+results suggests several conclusions.
+First, from the analysis of land use change
+from 2005 to 2015, it can be concluded that the
+human-dominated lands, such as built-up land
+and barren land, have increased rapidly,
+together with a significant decrease of water
+body and farmland. The area of built-up land
+will increase 38.07% under current economic
+growth, 45.37% under rapid economic growth,
+or 32.92% under sustainable economic growth.
+During the same period, water body is
+projected to decrease 47.07%, 65.29%, or
+30.78% under these three different socioeconomic and land use scenarios. In addition,
+the area of farmland will decrease slightly, and
+forest and grassland will increase as the result
+of the policy of returning farmland to forest
+and grassland.
+Second, future ecosystem service values
+will vary significantly under different development scenarios. Under the condition of
+current economic growth, the total ecosystem
+service value will decrease about $165.22
+million from 2005 to 2015, a total decrease of
+21.71% (2.17% annually). With rapid economic growth, due to the rapid expansion of
+built-up land and decline of natural lands (e.g.
+water body), the ecosystem service value will
+decrease significantly (approximately $242.24
+million, or 31.83%). This scenario involves
+rapid economic development accompanied by
+high risks for natural ecosystems. Finally,
+under the condition of sustainable economic
+growth, with a relatively low economic growth
+rate, low population growth rate, and more
+means of environmental protection, the ecosystem service value will decrease slightly
+(approximately $106.58 million, or 14%).
+When compared to the scenarios with current
+and rapid economic growth, the decreasing
+rate of ecosystem service value has been
+controlled, mainly because the land use
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Journal of Spatial Science
+transformation from natural lands, particularly
+water body and forests, to human-dominated
+lands (e.g. built-up and barren lands) has
+been slowed down. In addition, as the result
+of the policy of returning farmland to forest
+and grassland, the ESV of forest and
+grassland will increase about 74.40% and
+27.34% respectively.
+Finally, through exploring the spatial
+pattern change of ecosystem service values in
+Daqing, China, we found apparent spatial
+variations of ESV changes, mainly due to (1)
+conversion from water body and farmland to
+built-up lands around the city boundary (as
+shown in the district A, Figure 3, northeast part
+of Daqing City), (2) transformation of forest
+and grassland to farmland (as illustrated in
+district B, Figure 3, northwest and southwest
+of Daqing), (3) the change of natural lands, in
+particular water body, to barren lands (shown
+in the district C of Figure 3), and (4) the
+increment of forest and grassland and slight
+decrease of farmland as a result of the policy of
+returning farmland to forest and grassland (e.g.
+district D in Figure 3, southeast part of
+Daqing).
+In summary, the combined SD-CLUES
+model provides a new means to examine the
+spatial change of ecosystem service values
+under different development scenarios, which
+can offer valuable references to local governments and urban planners. The current
+research can be improved in the following
+two directions. First, in this study, a combined
+impact of urbanisation and petroleum industry
+development on ecosystem service values was
+examined through the integration of spatially
+explicit urban growth modelling and ecosystem service valuation. Their respective contributions, however, cannot be examined with the
+current modelling approach. For the purpose of
+planning in a resource based city like Daqing,
+the identification of respective impacts of
+natural urbanisation and petroleum industry
+development may provide meaningful references as Daqing is facing the challenges of
+urban economic transformation. Second, it is
+
+287
+
+highly necessary to incorporate city planning
+maps into land use scenario simulation and
+ESV change analysis. Because of data
+limitations, we did not incorporate Daqing
+city urban planning maps. Urban planning
+maps, however, may provide much more
+detailed information about the city development trends and facilitate more realistic land
+use simulations and ESV change analyses.
+Acknowledgements
+This research was partially supported by the
+National Natural Science Foundation of China
+(Nos. 41030743 and 41171322). We would like to
+acknowledge the anonymous reviewers for their
+constructive and valuable suggestions on the earlier
+drafts of this manuscript.
+
+References
+Alonso, W. (1960) A theory of the urban land
+market. Papers in Regional Science, vol. 6, no.
+1, pp. 149– 157.
+Alonso, W. (1964) Location and Land Use, Harvard
+University Press, Cambridge, Massachusetts.
+Chomitz, K.M., & Gray, D.A. (1996) Roads, land
+use, and deforestation: a spatial model applied
+to Belize. The World Bank Economic Review,
+vol. 10, no. 3, pp. 487– 512.
+Clarke, K.C., Hoppen, S., & Gaydos, L. (1997) A
+self-modifying cellular automaton model of
+historical urbanization in the San Francisco Bay
+area. Environment Planning B: Planning
+Design, vol. 24, no. 2, pp. 247– 261.
+Cohen, J. (1960) A coefficient of agreement for
+nominal scales. Educational and Psychological
+Measurement, vol. 20, no. 1, pp. 37 – 46.
+Costanza, R., D’arge, R., de Groot, R., Farber, S.,
+Grasso, M., Hannon, B., Limburg, K., Naeem,
+S., O’Neill, R.V., Paruelo, J., Raskin, R.G.,
+Sutton, P., & van den Belt, M. (1997) The value
+of the world’s ecosystem services and natural
+capital. Nature, vol. 387, no. 6630, pp. 253– 260.
+Evans, T.P., & Kelley, H. (2004) Multi-scale
+analysis of a household level agent-based
+model of landcover change. Journal of
+Environmental Management, vol. 72, no. 1-2,
+pp. 57 – 72.
+Forrester, J.W. (1961) Industrial Dynamics, Pegasus
+Communications, Waltham, MA.
+Forrester, J.W. (1969) Urban Dynamics, The
+Massachusetts Institute of Technology Press,
+Cambridge, Massachusetts.
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+288
+
+W. Li and C. Wu
+
+Georgantzas, N.C. (2003) Tourism dynamics:
+Cyprus’ hotel value chain and profitability.
+System Dynamics Review, vol. 19, no. 3,
+pp. 175– 212.
+Guldmann, J., & Wang, F. (1998) Population and
+employment density functions revisited: a
+spatial interaction approach. Papers in Regional
+Science, vol. 77, no. 2, pp. 189– 211.
+Han, J., Hayashi, Y., Cao, X., & Imura, H. (2009)
+Application of an integrated system dynamics
+and cellular automata model for urban growth
+assessment: a case study of Shanghai, China.
+Landscape and Urban Planning, vol. 91, no. 3,
+pp. 133– 141.
+Herbert, J.D., & Stevens, B.H. (1960) A model for
+the distribution of residential activity in urban
+areas. Journal of Regional Science, vol. 2, no. 2,
+pp. 21 – 36.
+He, C., Okada, N., Zhang, Q., Shi, P., & Zhang, J.
+(2006) Modeling urban expansion scenarios by
+coupling cellular automata model and system
+dynamic model in Beijing, China. Applied
+Geography, vol. 26, no. 3-4, pp. 323– 345.
+Holdren, J.P., & Ehrlich, P.R. (1974) Human
+population and the global environment. American Scientist, vol. 62, pp. 282– 292.
+Huang, B., Xie, C., Tay, R., & Wu, B. (2009398)
+Land-use-change modeling using unbalanced
+support-vector machines. Environment and
+Planning B: Planning and Design, vol. 36, no.
+3, – 416.
+Hu, H., Liu, W., & Cao, M. (2008) Impact of land
+use and land cover changes on ecosystem
+services in Menglun, Xishuangbanna, Southwest China. Environmental Monitoring and
+Assessment, vol. 146, no. 1-3, pp. 147– 156.
+Irwin, E.G., & Geoghegan, J. (2001) Theory, data,
+methods: developing spatially explicit economic models of land use change. Agriculture,
+Ecosystems Environment, vol. 85, no. 1-3,
+pp. 7 – 24.
+Jiang, B., & Yao, X. (2010) Geospatial analysis and
+modeling of urban structure and dynamics: an
+overview. In: Jiang, B., & Yao, X., eds.
+Geospatial Analysis and Modeling of Urban
+Structure and Dynamics, Springer, Berlin,
+pp. 3 – 11.
+Kamusoko, C., Aniya, M., Adi, B., & Manjoro, M.
+(2009) Rural sustainability under threat in
+Zimbabwe – simulation of future land use/
+cover changes in the Bindura district based on
+the Markov-cellular automata model. Applied
+Geography, vol. 29, no. 3, pp. 435– 447.
+Kreuter, U.P., Harris, H.G., Matlock, M.D., &
+Lacey, R.E. (2001) Change in ecosystem
+service values in the San Antonio area, Texas.
+
+Ecological Economics, vol. 39, no. 3,
+pp. 333– 346.
+Landis, J.D., & Zhang, M. (1998) The second
+generation of the California urban futures
+model. Part 2: specification and calibration
+results of the land-use change submodel.
+Environment Planning B: Planning Design,
+vol. 25, no. 6, pp. 795– 824.
+Li, X., & Yeh, A.G. (2002) Neural-network-based
+cellular automata for simulating multiple land
+use changes using GIS. International Journal of
+Geographical Information Science, vol. 16, no.
+4, pp. 323– 343.
+Li, R., Dong, M., Cui, J., Zhang, L., Cui, Q., & He,
+W. (2007) Quantification of the impact of landuse changes on ecosystem services: a case study
+in Pingbian County, China. Environmental
+Monitoring and Assessment, vol. 128, no. 1-3,
+pp. 503– 510.
+Tianhong, T., Wenkai, W., & Zhenghan, Z. (2010)
+Variations in ecosystem service value in
+response to land use changes in Shenzhen.
+Ecological Economics, vol. 69, no. 7,
+pp. 1427– 1435.
+Mena, C.F., Walsh, S.J., Frizzelle, B.G., Xiaozheng,
+X., & Malanson, G.P. (2011) Land use change
+on household farms in the Ecuadorian Amazon:
+design and implementation of an agent-based
+model. Applied Geography, vol. 31, no. 1,
+pp. 210– 222.
+Leal neto, A.C.L., Legey, L.F.L., González-Araya,
+M.C., & Jablonski, S. (2006) A system
+dynamics model for the environmental management of the Sepetiba bay watershed, brazil.
+Environmental Management, vol. 38, no. 5,
+pp. 879– 888.
+Nunes, C., & Auge, J.I. (1996) Land use and land
+cover change (LUCC) implementation strategy,
+IGBP Report No. 48 and IHDP Report No. 10.
+Odum, E.P. (1977) The emergence of ecology as a
+new integrative discipline. Science, vol. 195,
+no. 4284, pp. 1289– 1293.
+Parker, D.C., Manson, S.M., Janssen, M.A.,
+Hoffmann, M.J., & Deadman, P. (2003) Multiagent systems for the simulation of land-use and
+land-cover change: a review. Annals of the
+Association of American Geographers, vol. 93,
+no. 2, pp. 314– 337.
+Pickett, S.T.A., Ostfeld, R.S., Shachak, M., &
+Lickens, G.E. (1997) The Ecological Basis of
+Conservation: Heterogeneity, Ecosystems, and
+Biodiversity, Chapman & Hall, New York.
+Pontius, R.G., & Schneider, L.C. (2001) Land-cover
+change model validation by an roc method for
+the Ipswich watershed, Massachusetts, USA.
+
+Downloaded by [University of Kent] at 15:40 06 November 2014
+
+Journal of Spatial Science
+Agriculture, Ecosystems & Environment, vol.
+85, no. 1-3, pp. 239– 248.
+Reese, H.M., Lillesand, T.M., Nagel, D.E., Stewart,
+J.S., Goldmann, R.A., Simmons, T.E., Chipman, J.W., & Tessar, P.A. (2002) Statewide
+land cover derived from multiseasonal Landsat
+TM data: a retrospective of the WISCLAND
+project. Remote Sensing of Environment, vol.
+82, no. 2-3, pp. 224– 237.
+Seto, K.C., & Kaufmann, R.K. (2003) Modeling the
+drivers of urban land use change in the Pearl
+River Delta, China: integrating remote sensing
+with socioeconomic data. Land Economics, vol.
+79, no. 1, pp. 106–121.
+State Council Information Office of China (2000),
+Chinese Population and Development in the 21st
+Century, People’s Republic of China. (In
+Chinese). http://www.gov.cn/zwgk/2005-05/26/
+content_1272.htm (accessed March 15, 2010).
+The Fifth Communist Party of China Central
+Committee (2002), The Sixteenth Congress of
+the Communist Part of China Report, People’s
+Republic of China. (In Chinese) http://news.
+xinhuanet.com/newscenter/2002-11/17/content_
+632260.htm (accessed December 15, 2012).
+Tong, C., Feagin, R.A., Lu, J., Zhang, X., Zhu, X.,
+Wang, W., & He, W. (2007) Ecosystem service
+values and restoration in the urban Sanyang
+wetland of Wenzhou, China. Ecological Engineering, vol. 29, no. 3, pp. 249– 258.
+Turner, B.L. II, David, S., & Liu, Y. (1995) Land
+use and land cover change science/research
+plan, IHDP Report No. 07.
+Vellinge, P. (1998) IHDP Industrial transformation,
+IHDP-IT Publication No. 125.
+Verburg, P.H., & Overmars, K.R. (2009) Combining top-down and bottom-up dynamics in land
+use modeling: exploring the future of abandoned farmlands in Europe with the DynaCLUE model. Landscape Ecology, vol. 24, no.
+9, pp. 1167– 1181.
+Verburg, P.H., & Veldkamp, A. (2004) Projecting
+land use transitions at forest fringes in the
+Philippines at two spatial scales. Landscape
+Ecology, vol. 19, no. 1, pp. 77 – 98.
+Verburg, P.H., Soepboer, W., Mastura, R., Limpiada, M.V.O., Espaldon, M., & Veldkamp, A.
+(2002) Modeling the spatial dynamics of
+regional land use: the CLUE-S model. Environmental Management, vol. 30, no. 3,
+pp. 391– 405.
+Verburg, P.H., Schulp, C., Witte, N., & Veldkamp,
+A. (2006) Downscaling of land use change
+scenarios to assess the dynamics of European
+
+289
+
+landscapes. Agriculture, Ecosystems &
+Environment, vol. 114, no. 1, pp. 39 –56.
+Wang, Z., Zhang, B., Zhang, S., Li, X., Liu, D.,
+Song, K., Li, J., Li, F., & Duan, H. (2006)
+Changes of land use and of ecosystem service
+values in Sanjiang plain, northeast China.
+Environmental Monitoring and Assessment,
+vol. 112, no. 1-3, pp. 69 – 91.
+Westman, W. (1977) How much are nature’s
+services worth? Science, vol. 197, no. 4307,
+pp. 960– 964.
+Xie, G., Lu, C., & Cheng, S. (2001) Progress in
+evaluating the global ecosystem services.
+Resource Science, vol. 23, no. 6, pp. 5 – 9 (in
+Chinese with English abstract).
+Xie, G., Zhen, L., Lu, C., & Chen, C. (2008) Expert
+knowledge based valuation method of ecosystem services in China. Journal of Natural
+Resources, vol. 23, no. 5, pp. 911– 919 (in
+Chinese with English abstract).
+Xie, G., Zhen, L., Lu, C., Xiao, Y., & Li, W. (2010)
+Applying value transfer method for eco-service
+valuation in China. Journal of Resources and
+Ecology, vol. 1, no. 1, pp. 51 – 59.
+Yu, W., Zang, S., Wu, C., Liu, W., & Na, X. (2011)
+Analyzing and modeling land use land cover
+change (LUCC) in the Daqing City, China.
+Applied Geography, vol. 31, no. 2,
+pp. 600– 608.
+Zang, S., Wu, C., Liu, H., & Na, X. (2011) Impact of
+urbanization on natural ecosystem service
+values: a comparative study. Environmental
+Monitoring and Assessment, vol. 179, no. 1-4,
+pp. 575– 588.
+Zhang, B., Li, W., & Xie, G. (2010) Ecosystem
+services research in China: progress and
+perspective. Ecological Economics, vol. 69,
+no. 7, pp. 1389– 1395.
+Zhang, Q., Ban, Y., Liu, J., & Hu, Y. (2011)
+Simulation and analysis of urban growth
+scenarios for the Greater Shanghai Area,
+China. Computers, Environment and Urban
+Systems, vol. 35, no. 2, pp. 126– 139.
+Zhao, B., Kreuter, U., Li, B., Ma, Z., Chen, J., &
+Nakagoshi, N. (2004) An ecosystem service
+value assessment of land-use change on
+Chongming Island, China. Land Use Policy,
+vol. 21, no. 2, pp. 139– 148.
+Zhao, Y., Jiang, Y., & Deng, W. (2009) Environmental impact analysis of land-use change in
+Jinkouhe Distract, Leshan City. Resource
+Development & Market, vol. 25, no. 5,
+pp. 406– 409 (in Chinese with English abstract).
+
+

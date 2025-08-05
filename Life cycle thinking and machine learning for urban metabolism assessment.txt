@@ -1,0 +1,3088 @@
+Sustainable Cities and Society 80 (2022) 103754
+
+Contents lists available at ScienceDirect
+
+Sustainable Cities and Society
+journal homepage: www.elsevier.com/locate/scs
+
+Life cycle thinking and machine learning for urban metabolism assessment
+and prediction
+Angeliki Peponi a, b, *, Paulo Morgado b, c, Peter Kumble a
+a
+
+Faculty of Environmental Sciences, Czech University of Life Sciences Prague, Kamýcká 129, 16500 Praha, Suchdol, Czech Republic
+Centre of Geographical Studies, Institute of Geography and Spatial Planning, Universidade de Lisboa, Rua Branca Edmée Marques, 1600-276 Lisboa, Portugal
+c
+Associated Lab TERRA
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Life cycle inventory
+Sensitivity analysis
+ANN
+Urban core
+Case study
+Land use planning
+Urban metabolism
+
+The real-world urban systems represent nonlinear, dynamical, and interconnected urban processes that require
+better management of their complexity. Thereby, we need to understand, measure, and assess the structure and
+functioning of the urban processes. We propose an innovative and novel evidence-based methodology to manage
+the complexity of urban processes, that can enhance their resilience as part of the concept of smart and
+regenerative urban metabolism with the overarching intention to better achieve sustainability. We couple Life
+Cycle Thinking and Machine Learning to measure and assess the metabolic processes of the urban core of Lis­
+bon’s functional urban area using multidimensional indicators and measures incorporating urban ecosystem
+services dynamics. We built and trained a multilayer perceptron (MLP) network to identify the metabolic drivers
+and predict the metabolic changes for the near future (2025). The prediction model’s performance was validated
+using the standard deviations of the prediction errors of the data subsets and the network’s training graph. The
+simulated results show that the urban processes related to employment and unemployment rates (17%), energy
+systems (10%), sewage and waste management/treatment/recycling, demography & migration, hard/soft cul­
+tural assets, and air pollution (7%), education and training, welfare, cultural participation, and habitatecosystems (5%), urban safety, water systems, economy, housing quality, urban void, urban fabric, and health
+services and infrastructure (2%), consists the salient drivers for the urban metabolic changes. The proposed
+research framework acts as a knowledge-based tool to support effective urban metabolism policies ensuring
+sustainable and resilient urban development.
+
+1. Introduction
+
+simultaneously demanding nearly 75% of energy consumption
+(UN-Habitat, 2021) to support this activity. Therefore, urban areas are
+now responsible for metabolizing or consuming a vast proportion of
+natural resources in support of their inhabitants’ needs, generating a
+high rate of pollution and waste, and stress upon society. On the other
+hand, urban cores areas facilitate research and development, economic
+and social development while simultaneously providing the necessary
+infrastructure to support health care and well-being by employing a
+variety of advanced technologies.
+As part of the context of urban metabolism, an urban core area can be
+seen as a complex ecosystem requiring a neverending exchange of ma­
+terials, energy, and information between its processes/systems and as a
+consequence must expand beyond its boundary in order to function and
+grow. This means that urban core areas require more “space” to survive
+than they typically encompass, perhaps suggesting that they lack
+
+It can be argued that urbanization and globalization are accelerated
+by technological advancements. These are often, the main drivers that
+influence and change the spatial and functional structure of the urban
+areas today. These two main drivers -urbanization and globalizationappear interdependent in how their influence upon urban systems,
+resulting in the increase of the global urban population. Specifically, the
+urban global population has grown rapidly from 751 million (30% of the
+world’s population) in 1950 to 4.2 billion (55% of the world’s popula­
+tion) based on recent data from 2018 and it is projected to reach 6.7
+billion (68% of the world’s population) by 2050 (United Nations (UN)
+2018). It has been well documented that much of the world’s economic
+activities are now concentrated in urban areas, generating 80% of the
+global gross domestic product (GDP) (Ferrao & Fernandez, 2013) while
+
+* Corresponding author.
+E-mail address: a.peponi@campus.ul.pt (A. Peponi).
+https://doi.org/10.1016/j.scs.2022.103754
+Received 6 October 2021; Received in revised form 15 January 2022; Accepted 2 February 2022
+Available online 3 February 2022
+2210-6707/© 2022 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+efficiency. Thus if one were to make urban sustainability, a priority, one
+must find ways to cope with the environmental, social, and economic
+challenges initiated by the increased demand for more resource
+extraction and consumption, that generates excess waste production. By
+doing so, it is essential to understand, measure, and therefore assess the
+complexity of the different urban metabolic processes/systems and the
+services they deliver that are critical for human survival and well-being.
+Different methodologies have been proposed and applied to measure
+urban metabolism with the intention of creating a more sustainable
+society since 1965, when it was first introduced by Wolman. In Section
+2, we provide a detailed analysis of the applied methodologies, high­
+lighting their benefits and deficiencies. Summarizing the main short­
+comings of these methodologies, we identify challenges related to the
+determination of the urban processes/systems’ boundaries and the lack
+of an integrated and multi-impact approach, including the lack of the
+impact of the ecosystem services on urban sustainability.
+Attempting to address the above-stated limitations, we propose an
+original methodology that assesses the multidimensional urban meta­
+bolic processes by coupling Life Cycle Thinking (LCT) with Machine­
+Learning (ML) from an ecosystem services perspective. We build and
+assess a smart and regenerative metabolic scenario that can simulta­
+neously assess the main drivers for changes in purchasing power per
+capita in our study area, the urban core of the functional urban area of
+Lisbon (UCL) indicating, in which degree, where metabolic changes will
+occur in the near future and the level of impact on the overall urban
+system. We accept that the urban metabolism is derived indirectly from
+GDP changes expressed in purchasing power per capita (IpC) when the
+analysis is at an urban core area scale as in our study area. The meth­
+odological approach applied in this study is described in detail in the
+Research framework Section 3, followed by the Results Section 4. These
+sections have raised several hypotheses and issues that we summarize in
+Section 5, Discussion. Finally, we highlight the main findings and nov­
+elty of our study in the Conclusions Section 6.
+The objectives of this study are based on five key methodological
+steps. They are 1) to identify the main limitations of previously applied
+methodologies of urban metabolism (UM), 2) to introduce a new and
+novel methodology that addresses these limitations and contributes to
+the extent of state-of-art thinking, 3) to create evidence-based knowl­
+edge from the multidimensional metabolic methodology under the
+perspective of ecosystem services 4) to identify the main drivers for
+urban metabolic changes; and 5) to predict metabolic changes for a near
+future. This newly developed methodology should be considered as a
+tool for optimizing planning and design, in support of critical policy­
+making by measuring and assessing urban metabolism and thus ensuring
+urban sustainability.
+
+combined MFA along with energy flow analysis (EFA), focusing on
+physical material and energy flows in urban ecosystems, under one
+analytical framework (MEFA) (Kennedy, Pincetl & Bunje, 2011 as cited
+in Zhang, Lu, Tam & Feng, 2018).
+Moving the focus beyond mass, UM’s emergy-based accounting
+method (EMA) ensures that the emergy (solar energy) used directly or
+indirectly for the creation and flow of all products or services is
+accounted. Hence the qualitative differences of the materials and energy
+flows that were ignored previously are now highlighted (Pincetl et al.,
+2012; Zhang, 2013). The Emergy method, initially originated by Odum
+in 1988, is based on ecology, thermodynamics, and general systems
+theory fields, emphasizing the fundamental dependence of cities on
+ecological processes that can occur only due to solar energy. Emergy is
+measured in solar emergy joules (seJ) and emphasizes standard units for
+all materials, energy, nutrient, and waste flows in biophysical systems
+(Pincetl et al., 2012). The main challenge of this method and, therefore,
+its limitation relies on the difficulty of converting materials and energy
+flows of different units to the seJ metric (Pincetl et al., 2012).
+In line with Goldstein et al. (2013), these first generations of UM
+methods fail to fully quantify the environmental impacts of larger-scale
+systems. In an attempt to face the limitations of the first generations of
+UM, in the last decade, authors have coupled UM with LCA assessing the
+environmental consequences of cities (Goldstein et al., 2013; Loiseau,
+Roux, Junqua, Maurel & Bellon-Maurel, 2014; Peuportier & Herfray,
+2010) and various urban processes (Ramos & Rouboa, 2020). In general,
+life-cycle assessment (LCA) is a cradle-to-grave standardized method
+accounting the associated environmental impacts of products or services
+over their different life cycle phases. Pincent, 2012 states that LCA
+provides methodologies and tools appropriate to quantify the materials
+or UM, including processes generating inputs and outputs.
+However, various shortcomings of LCA applications have been
+pointed out. Beloin-Saint-Pierre et al., (2017) in their review of the
+methodological choices of UM studies, found out that besides the fact
+that Life cycle modeling is essential for sustainability assessment, "the
+life cycle of complex system like UM is not clearly framed in most UM
+studies under review". Mirabella, Allacker & Sala, (2018) reviewing the
+application of LCA at the city scale, affirms that "no applications of
+comprehensive LCA at urban scale exist to date", in other words, "no
+complete urban LCA studies exist so far". The conventional LCA meth­
+odologies provide only relative sustainability evaluation since they
+ignore ecosystem services’ role in supporting human activities (Bakshi,
+Ziv & Lepech, 2015 as cited in Liu, Charles & Bakshi, 2019). Another
+essential deficiency relies on system boundary determination; the results
+may reflect the authors’ subjectivity in system boundary, leading to
+errors or contradictory results. Moreover, LCA is data-dependent.
+Therefore, if the life cycle inventory is not complete may not return
+the total environmental impact of the process/product under analysis.
+As LCA uses a single standard approach ignoring multiple factors
+(environment, technology, and capital) that may affect the target pro­
+cess, its environmental assessment lacks a multi-angle approach (Wang
+et al., 2020).
+Hybrid modeling approaches coupling different urban metabolism
+methodologies have been developed to cope with the shortcomings of
+the applied methods previously described. Authors have integrated
+Emergy and LCA to assess sustainability in urban systems under study
+(Cano Londoño et al., 2019; Li et al., 2020; Santagata, Zucaro, Fior­
+entino, Lucagnano & Ulgiati, 2020) to reach maximum environmental
+benefits as well as the most cost-effective technologies according to the
+financial limits (Falahi & Avami, 2019). Wang et al., 2020 reviewed the
+EMA and LCA methods and suggested their coupling development to be
+based on three aspects; the aggregate emergy flow table, the indicator
+system construction, and indicator evaluation methods to exert the
+maximum functional advantages of each method. Westin et al., 2020
+have combined MFA and LCA to identify environmental hotspots of
+urban consumption. García-Guaita et al., (2018) integrated MFA and
+LCA under UM approach for urban environmental evaluation. The main
+
+2. Background
+The concept of urban metabolism (UM) has been evolved and
+adapted over time in response to scientific and technical changes. Based
+on the literature, the concept of UM appeared first using Material flow
+Analysis (MFA), then the Emergy (embodied energy) method influenced
+by the work of Odum, 1983 or occasionally the Ecological Footprint (EF)
+method, and most recently coupled with Life Cycle Assessment (LCA)
+(Goldstein, Birkved, Quitzau & Hauschild, 2013). UM’s first approach is
+related to Industrial Ecology incorporating tools of MFA to assess ma­
+terial, water, food, and nutrient fluxes and stocks within urban systems
+and the resulting outcomes to other systems in the form of pollution,
+waste, or exports (Sahely, Dudding & Kennedy, 2003 as cited in Pincetl,
+Bunje & Holmes, 2012). MFA is based on the principle of mass balance
+(mass in = mass out + stock changes), where matter cannot either be
+created or destroyed. Zhang, 2013 supports that by directly adding the
+weight of different materials, the quality differences among these ma­
+terials are ignored. Moreover, the role of energy flows that drive all
+material flows throughout the urban metabolic process is also ignored.
+Scholars attempting to understand metabolic processes thoroughly have
+2
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+limitations of this study include a lack of local data and the absence of
+social and economic indicators in the analysis. Attempting to describe
+the links between the different variables of UM, authors have coupled
+the network approach (NE) with MFA, with ecological network analysis
+(ENA), Environmentally-Extended Input-output analysis (EE-1/O), and
+LCA (Berloin et al., 2017). This type of methodologies are data-driven,
+allowing comparisons and recognition of future trends. Urban systems’
+metabolic patterns have been studied using the Multi-Scale Integrated
+Analysis of Societal and Ecosystem Metabolism (MuSIASEM) accounting
+method relating fluxing and funds, and therefore offering applicable and
+coherent indicators (Rallo† and Zucaro, 2019; Perez-Sanchez et al.,
+2019). However, this method appears to be static, allowing the obser­
+vation of a system’s evolution but not its dynamics (Ginard-Bosch and
+Ramos-Martín, 2016). LCA has also been combined with agent-based
+models (ABM) make it suitable to evaluate the sustainability of com­
+plex systems through behavior-driven modeling (Marvuglia, Navarrete
+Gutiérrez, Baustert & Benetto, 2018; Walzberg, Dandres, Merveille,
+Cheriet & Samson, 2019; Micolier et al., 2019). Baustert and Beneto,
+2017 categorize the coupling of ABM and LCA based on the direction of
+the information flow as; ABM-enhanced LCA with the ABM to feed the
+LCA model, LCA-enhanced ABM opposite to the previous, and as
+ABM/LCA symbiosis when the information is looping between the two
+models (Marvuglia et al., 2018). Although there are already examples of
+using ABM for simulating LCA, there is still a long road to be made in
+order to make them more user-friendly and less computing
+expert-oriented.
+
+statistical modeling, data mining, knowledge discovery, predictive an­
+alytics, data science, adaptive systems, and self-organizing systems
+(Domingos, 2015). ML algorithms based on the learning role fall into
+three categories; supervised learning, unsupervised learning, and rein­
+forcement learning (Graves A. 2012; Sathya & Abraham, 2013). The
+supervised ML algorithms reveal insights, patterns, and relationships
+from a labeled (classified) training dataset (input-output pairs) using
+regression or classification techniques. On the contrary, unsupervised
+ML algorithms infer patterns from a dataset without reference to known
+or labeled outcomes. Reinforcement learning (RL) reflects ideas from
+psychology. The RL algorithms learn using trial and error and related
+reward interactions with their environment to find optimal policies
+without being taught by examples (Fu, Liu, Ling & Cui, 2014).
+Artificial neural network (ANN) techniques have been extensively
+applied overall the last thirty years in several areas, e.g., medicine
+(diagnosis and decoding brain signals), security (face recognition),
+Linguistics (language recognition and translations), governance (deci­
+sion support systems and smart cities), Banking and Insurance (loans
+and insurance attribution), Pharmaceutical (risk analysis), nonrenewable resources exploration (prediction), advertising and market­
+ing (customer profiling), remote sensing (automatic and semiautomatic
+analysis of satellite images), human and physical geographical studies
+(spatial data pattern & data relationships analysis), Landscape and
+urban planning (conflict management and urban growth simulation),
+and so forth (Bação, Lobo & Painho, 2005; Fischer, 1998, 2006; Hen­
+riques, Bação & Lobo, 2012; Openshaw & Openshaw, 1997; Venugopal
+& Baets, 1994). With the advent of big data, and more specific geoBig
+data, and the increased parallel computing, ANN methods, and tech­
+niques, also commonly known as the Neurocomputing field of studies,
+have gained more and more applicability across all types of scientific
+domains, ranging from art, social sciences & humanities to more phil­
+osophical and ethics studies. To the best of authors’ knowledge,
+coupling LCT and ML to study urban metabolism changes has not been
+applied before.
+Our research framework is understood from an ecosystem services
+perspective. Specifically, under the urban metabolism concept, an urban
+core area could be seen as an ecosystem where biotic components are in
+conjunction with abiotic components of their environment, developing
+circular and ongoing complex relationships. Studying the functional
+aspects of an ecosystem responsible for the flows of energy and the cy­
+cles of materials and the beneficial ecosystem services to human wellbeing, we are able to apply this knowledge for the design and plan­
+ning of the urban environment. Therefore, maintaining the urban
+ecosystem services is the key to sustain urban places, reinforce system
+resilience, ensuring public health and well-being.
+After defining the goal and the scope of our study, we start imple­
+menting our research framework by conducting the Life Cycle Inventory
+(LCI). The LCI is the first phase to implement a LCT methodology. By
+definition, LCI is the quantification of inputs (material and energy flows)
+and outputs (emissions to air, water, or soil) of a system under study. In
+this phase, all the processes involved in the life cycle of a product/
+process/or system of processes have to be identified along with the data
+related to these processes, and their system boundaries need to be
+determined (Khanali, Mobli & Hosseinzadeh-Bandbafa, 2017; Nabavi-­
+Pelesaraei, Rafiee, Mohtasebi, Hosseinzadeh-Bandbafha & Chau, 2018).
+Doing the LCI, we identify the indicators representing the smart and
+regenerative urban metabolic processes, and we set their system
+boundaries by defining the dimensions and subdimensions. Last, we
+selected the related measures (Data components) to these urban meta­
+bolic processes and again classified them under the urban ecosystem
+services perspective. We use for case study the urban core of the func­
+tional urban area (FUA) of Lisbon, Portugal, and its administrative
+boundaries as overall system boundary to test the proposed methodol­
+ogy. Having finished the LCI, we couple it with ML to obtain
+evidence-based knowledge on the drivers and dynamics of the metabolic
+processes of our study area.
+
+3. Research framework
+In this study, we couple Life Cycle Thinking (LCT) and Machine
+Learning (ML) adopting smart and regenerative urban metabolism to
+assess purchasing power per capita (IpC) changes driven by the multi­
+dimensional metabolic processes of our study area UCL (Fig. 1). IpC
+indicator is a composite indicator drawn from the factor analysis
+calculation based on 16 variables selected by Statistics Portugal (Table C
+in Annex). The IpC is the main factor resulting from the factor analysis,
+as it explains more than 45,6% of the 16 variables’ total variation after
+rotation. The indicator explains the purchasing power expressed on a
+daily basis, in per capita terms using the figure of Portugal as a reference
+(STATISTICS PORTUGAL, 2017). Purchasing power by definition is "the
+quantity of goods and services that can be bought with a monetary unit,"
+observing the real economic activity trends (production, consumption)
+globally concentrated in urban core areas as mentioned in the intro­
+duction. Therefore indirectly, it can give a perception of the flows of
+materials, energy, and information representing the holistic and multi­
+dimensional perspective of urban metabolism associated with the pro­
+duction of waste and environmental impacts.
+We understand LCT as a systematic approach that offers a holistic
+vision of all generated impacts of an urban system, improving its
+multidimensional performance throughout its entire value chain.
+Adopting LCT to study urban metabolism allows coping with urban
+sustainability from both macro and micro scale points of view. UM re­
+quires large-scale data and life cycle assessment, as standardized
+methodology requires more detailed data (Maranghi, Parisi, Facchini,
+Rubino & Basosi, 2020). Coupling LCT with Artificial Intelligence (AI)
+and Machine Learning (ML) methods enables us to adopt a data-driven
+and bottom-up-based methodology capable of building knowledge
+from the systems dialectic in an iterative way. AI is the development of a
+certain type of computational technique that can perform tasks simu­
+lating human intelligence and behavior to solve practical problems
+(Goodfellow, Bengio & Courville, 2016; Openshaw & Openshaw, 1997).
+AI is powered by ML. ML consists of algorithms that learn by example
+using historical data to predict outcomes and uncover patterns not easily
+identified by humans. The obtained knowledge can be used by ML al­
+gorithms to make predictions about future trends. ML is found in liter­
+ature associated with different names such as; pattern recognition,
+3
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Fig. 1. Research framework flow.
+
+3.1. Case study analysis
+
+population as the total resident population of the area is 9% (Statistics
+Portugal (INE) 2011).
+The regional economic activities are based mainly on the tertiary
+sector, and the primary and manufacturing activities are low. In 2018,
+the tertiary sector contributed to 87.0% of the regional gross value
+added (GVA), the secondary sector (including construction) to 12.6%,
+and only 0.4% of the GVA comes from the primary sector (EC, 2021).
+The region of Lisbon comprises a science and tech hub concentrating the
+highest expenditure on Research and Development (R&D) activities,
+1.62% of GDP whilst the national average is 1.35%. In addition, it
+concentrates the highest share of personnel and researchers in R&D,
+16.6% per 1000 active inhabitants whereas the average for Portugal is a
+bit lower at only 11.1% (PORDATA, 2018). Looking at the index pur­
+chasing power per capita of UCL, we see that the municipality of Lisbon
+has the greatest purchasing power (219.6) in-country, with Portugal as
+reference value 100. Six to nine municipalities of UCL, including the
+municipality of Lisbon, have purchasing power above the national
+average and three (Loures, Seixal, and Odivelas) below (PORDATA
+2018).
+Finishing our analysis, we examine a couple more urban metabolism
+parameters related to energy and material flows. The total electricity
+consumption in the study area is 4198.2 kgwatt-hour per inhabitant,
+while the national electricity consumption is 4754.4 kWh/inhab. The
+municipality of Seixal has the highest consumption 7072.70 kWh/
+inhab., following Lisbon with 6038.40 kWh/inhab. The overall waste
+selectively collected1 of the UCL (not including the municipality of
+Odivelas) is 154 kg per inhabitant while the national average value is
+103 kg/inhab. The municipality of Cascais has more than double the
+national value (250 kg/inhab.), following Almada with 191.5 kg/inhab.
+and Lisbon with 179.8 kg/inhab. (PORDATA, 2018).
+
+In this subsection, we delineate our study area by setting the overall
+system boundary for our study and analyze it by conducting spatial and
+societal analysis. Hence, in this paper, we use the urban core of the
+functional urban area (FUA) of Lisbon city to assess and predict its smart
+and regenerative urban metabolism. FUAs consist of densely urban
+zones with more than 50,000 inhabitants (Copernicus, 2018). Using the
+core area of Lisbon FUA (UCL), we delimit the area of strong metabolic
+influence of the city of Lisbon.
+The UCL is located in the country’s center, crossed by the Tagus River
+and it is met by the Atlantic Ocean to the west (Fig. 2). The UCL, is
+divided into nine municipalities: Lisbon, Loures, Odivelas, Amadora,
+Oeiras, Cascais in the northern margin of the Tagus River and Almada,
+Seixal and Barreiro in the southern margin. The UCL covers approxi­
+mately 1040 (1036.847397) square kilometers, of which 19% is classi­
+fied as agricultural, 27.3% is covered by forest, natural areas, and urban
+green areas, and 51% by the built environment (Copernicus Pro­
+gramme, 2018). It has an annual average air temperature of 16,4◦ C
+(Celsius), a maximum of 22 ◦ C, and a minimum of 11,6˚C and the annual
+precipitation of the region of Lisbon is 692,3 mm (Statistics Portugal
+(INE), 2018).
+The total resident population of UCL is 1690,014 inhabitants (equal
+to 16% of the total population of Portugal), with a population density of
+1629.9 inhabitants per square kilometer (Statistics Portugal (INE)
+2011). The 49% of the total population of UCL constitutes the labor force
+almost equally divided by sex (24,19% male and 24,87% female). Nearly
+14,5% of the population is classified as young people under the age of
+15, while elderly people over the age of 65 make up account for 20% of
+UCL’s population (Statistics Portugal (INE) 2011). The UCL has an aging
+index of 120 elderly per 100 young people. The percentage of the foreign
+
+1
+Waste selectively collected in eco-points, door-to-door, recycling yards and
+special circuits of various materials and biodegradable urban waste selected for
+organic recovery the energy consumption (INE, 2018)
+
+4
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Fig. 2. Geographical position of the study area.
+Table 1
+Multidimensional metabolic analysis in the perspective of urban ecosystem services.
+Dimensions
+
+Subdimensions
+
+Indicators of urban processes
+
+Urban Ecosystem Services
+
+Social
+
+Urban Governance
+Human Capital
+
+Public participation and stakeholder engagement in decision making
+Demography and migration
+Fertility and Mortality
+Education and training
+Welfare
+Employment-unemployment rates
+Economy
+Touristic attractiveness
+Social inventions
+Healthcare services and infrastructure
+Hard/ Soft cultural assets
+Cultural participation
+Urban agriculture
+Housing quality
+Road network
+Railway
+Maritime transport
+Urban fabric
+Urban void
+Research and development
+Sewage and Waste management/treatment/recycling
+Energy systems
+Water systems
+Urban safety
+Habitat-ecosystems
+Environmental protection
+Air pollution
+Air temperature
+Soil exploitation
+Water quality
+
+Cultural services
+Regulating services
+Supporting services
+Cultural services
+Provisioning services
+Supporting services
+Provisioning services
+Cultural services
+Provisioning services
+Regulating services
+Cultural services
+Cultural services
+All ecosystem services
+Supporting services
+Supporting services
+Supporting services
+Supporting services
+Supporting services
+No ecosystem services
+Cultural services
+Regulating services/ Supporting services
+Provisioning Services
+Provisioning Services
+Regulating services
+All ecosystem services
+All ecosystem services
+All ecosystem services
+All ecosystem services
+All ecosystem services
+All ecosystem services
+
+Economic Capital
+
+Cultural
+Technological
+
+Health system
+Cultural mapping
+Cultural Participation
+Urban agriculture
+Housing
+Mobility-Accessibility
+Urban structure
+Innovation
+Utility systems and infrastructure
+
+Ecological
+
+Habitat-ecosystems
+Environmental protection
+Environmental quality
+
+3.2. Life cycle inventory in urban ecosystem services perspective
+
+multidimensional systematic network approach is essential to evaluate
+their urban metabolism.
+The social dimension of an urban metabolism includes all urban
+processes related to urban governance, human capital, economic capital,
+and health system. The focus is to plan and design a smart and regen­
+erative social structure that improves and even eliminates situations
+perceived as social problems (social exclusion, inequalities, poverty,
+limited health care access, and so on). The cultural dimension of urban
+metabolism contains processes related to the hard and soft cultural
+
+Under the smart and regenerative concept, the metabolic processes
+are not just the linear consumption of energy and materials that generate
+waste, but instead, they are circular, ongoing, and co-evolutionary,
+eliminating waste by regenerating resources using technology (Peponi
+& Morgado, 2020). As urban cores are metabolic complex systems that
+exist through the interactions and interdependencies of all
+social-cultural-technological-ecological urban processes, a holistic,
+5
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Table 2
+Dataset for measuring smart and regenerative urban metabolism. (Where U.E.S. = urban ecosystem services, C.S.= cultural services, R.S.= regulating services, S.S.=
+supporting services, P.S.= provisioning services, N.S.= no services, A.S.= all ecosystem services.).
+Social
+
+Indicators
+Public participation and stakeholder
+engagement in decision making
+Demography and migration
+
+Data components/ measures
+Registered voters in the elections for the Local Authorities: voters and abstention
+Resident population, according to the Census by major age group and sex:(0–14, 15–64, 65+)
+Annual population growth (Individual): (Natural increase, Migration net increase)
+Foreign population with legal resident status as a% of the resident population by sex
+(Proportion%)
+Population density (Ratio- Average no. of individuals/ Km2)
+
+Fertility and Mortality
+
+Crude birth rate - ‰
+Crude death rate - ‰
+
+Education and training
+
+Enrolled students in higher education by sex: (Males, Females)
+Enrolled students in pre-school, primary, lower secondary, and upper-secondary education by
+sex: (Males, Females)
+Schools in pre-school, primary, lower secondary, and upper-secondary education
+Teaching staff in pre-school, primary, lower secondary, and upper-secondary education
+
+Welfare
+
+Total dependency rate (Ratio -%)
+Proportion of buying power (Proportion -%)
+Purchasing power per capita - Index (number) -%
+
+Employment- unemployment rates
+
+Average monthly earnings of employees by the level of education and by sex: (Upper-secondary
+and post-secondary non-tertiary; Higher)
+Activity rate, according to the Census: by age group (25–34, 35–44) and by sex (total) (Rate -%)
+
+Economy
+
+Unemployment rate, according to the Census: by age group (25–34, 35–44) and by sex (total)
+(Rate -%)
+Employment rate, according to the Census: by age group (25–34, 35–44) and by sex (total)
+(Rate -%)
+Value of goods imported and exported by enterprises: (Imports, Exports) (€)
+Industrial, commercial, public, military, and private units (sqkm) (class 12,100, urban atlas)
+Survival rate of Enterprises born 2 years before (Rate-%)
+
+Touristic attractiveness
+
+Guests in tourist accommodations per 100 inhabitants (Ratio -%- individual)
+Total incomes of tourist accommodations: total (€ - Thousands)
+
+Social inventions
+
+Public Administration Retirement Fund: retirees and pensioners
+
+Healthcare services and infrastructure
+
+Social Security and Public Administration Retirement Fund pensions in total of the resident
+population aged 15 and over (Rate -%)
+Inhabitants per doctor and pharmacist (Ratio)
+Pharmacies and mobile medicine depots
+National Health Service: beds in general and specialist hospitals
+
+Cultural
+
+Hard/ Soft cultural assets
+
+Live shows: performances
+Live shows: box-office revenue (€ - Thousands)
+Cinema: screenings
+Cinema: box-office revenue (€)
+Museums: Number
+Art galleries and others temporary exhibition spaces (No.)
+Art galleries and other places for temporary exhibitions: exhibitions
+Cultural facilities: Number
+Town Council expenditure on culture and sports as a% of total expenditure: (Proportion -%)
+
+Timespan
+2009,
+2017
+2001,
+2011
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2017
+2011,
+2017
+2011,
+2018
+2001,
+2011
+2001,
+2011
+2001,
+2011
+2011,
+2018
+2012,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+
+U.E.S.
+C.S.
+
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2013,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2019
+2011,
+2018
+
+P.S.
+
+R.S.
+R.S.
+R.S.
+R.S.
+S.S.
+S.S.
+C.S.
+C.S.
+C.S.
+C.S.
+P.S.
+P.S.
+P.S.
+P.S.
+S.S.
+S.S.
+S.S.
+P.S.
+P.S.
+P.S.
+C.S.
+C.S.
+P.S.
+
+R.S.
+R.S.
+R.S.
+C.S.
+C.S.
+C.S.
+C.S.
+C.S.
+C.S.
+C.S.
+C.S.
+C.S.
+
+(continued on next page)
+
+6
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Table 2 (continued )
+Cultural participation
+
+Museums: total visitors (individual)
+Cinema spectators (No.)
+Live shows spectators (No.)
+Sports and leisure facilities (sqkm) (class 14,200, urban atlas)
+
+Urban agriculture
+Technological
+
+Housing quality
+
+Arable land (annual crops), Permanent crops, Pastures (sqkm) (classes 21,000, 22,000, 23,000,
+urban atlas)
+Licensed buildings by type of building work (New constructions- Extensions, alterations, and
+reconstructions)
+Buildings, according to the Census by type: Mainly residential - Mainly non-residential
+Conventional dwellings: total (Dwelling)
+Average bank valuation of flats by type: (Dwelling typology 2-berdoom, 3-bedroom) (Mean- €)
+
+Road network
+
+Fast transit roads, other roads and associated land (sqkm) (classes 12,210, 12,220 urban atlas)
+
+Railway
+
+Railways and associated land (sqkm) (class 12,230, urban atlas)
+
+Maritime transport
+
+Port areas (sqkm) (class 12,300, urban atlas)
+
+Urban Fabric
+
+Continuous urban fabric (S.L. > 80%) (sqkm) (class 11,100, urban atlas)
+
+Urban void
+
+Discontinuous dense urban fabric (S.L. 50% - 80%) and Discontinuous medium density urban
+fabric (S.L. 30% - 50%) (sqkm) (classes 11,210, 11,220, urban atlas)
+Land without current use (sqkm) (class 13,400, urban atlas)
+
+Research and development
+
+Employees in high technology sectors: by economic activity (research activities)
+
+Sewage and Waste management/
+treatment/recycling
+
+Urban waste by type of destination t (tonne): (Landfill, Energy recycling, Organic recycling,
+Recycling)
+Urban waste selective collection per inhabitant (Ratio-kg/ inhab.)
+Urban waste collection per inhabitant (Ratio-kg/ inhab.)
+Dwellings connected to sewerage systems (Proportion -%)
+
+Energy systems
+
+Electricity consumption per inhabitant by type of consumption kWh (kilowatt-hour) / inhab. Ratio: (Street Lighting, State Buildings, non-Domestic, Domestic, Industry, Agriculture)
+Natural gas consumption per inhabitant (Ratio - Nm3/ inhab.)
+
+Water systems
+
+Fuel sales for consumption t(ton): (Butane gas, Propane gas, Liquefied petroleum gas (LPG),
+Unleaded petrol 98, Unleaded petrol 95, Fuel diesel)
+Water supplied/consumed per inhabitant (ratio- m3/ inhab.)
+
+Urban safety
+
+Inhabitants per firemen (Ratio- individual)
+Crimes registered by the police: total and for some categories of crime: (Domestic violence
+against spouse or similar; Motor vehicle theft; Burglary in residence; Burglary in commercial or
+industrial building; Total)
+Deaths in road traffic accidents
+Injuries in road traffic accidents
+Pedestrian accidents deaths
+Pedestrian accidents
+
+Ecological
+
+Habitat-ecosystems
+
+Urban Atlas (classes 3, 4, 5 including green urban areas)
+
+Environmental Protection
+
+Expenditure by municipalities on the environment: by environmental management and
+protection domains (Euro-Thousands): (Protection of biodiversity and landscape; Protection
+against noise and vibrations; Waste management; Other areas)
+Expenditure of municipalities in environment as% of total expenditure (Proportion-%)
+Environmental Non-Governmental Organizations (ENGO): Number
+
+Air pollution
+
+3
+
+Annual mean concentration of PM10 particles (µg/ m ); Annual
+Annual mean concentration of CO (8 h) (mg/m3)
+Annual mean concentration of O3 (hourly) (µg/m3)
+Annual mean concentration of NO2 (VL=40 µg/m3) (ug/m3)
+
+2013,
+2018
+2011,
+2018
+2011,
+2018
+2012,
+2018
+2012,
+2018
+2011,
+2018
+2001,
+2011
+2001,
+2018
+2011,
+2018
+2012,
+2018
+2012,
+2018
+2012,
+2018
+2012,
+2018
+2012,
+2018
+2012,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+
+C.S.
+
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2011,
+2018
+2012,
+2018
+2011,
+2018
+
+R.S.
+
+2011,
+2018
+2011,
+2018
+2013,
+2018
+2014,
+2018
+2013,
+2018
+2013,
+2018
+
+A.S.
+
+C.S.
+C.S.
+C.S.
+A.S.
+S.S.
+S.S.
+S.S.
+S.S.
+S.S.
+S.S.
+S.S.
+S.S.
+S.S.
+N.S.
+C.S.
+S.S.
+R.S.
+S.S.
+R.S.
+S.S.
+R.S.
+S.S.
+R.S.
+P.S.
+P.S.
+P.S.
+P.S.
+R.S.
+R.S.
+
+R.S.
+R.S.
+R.S.
+A.S.
+A.S.
+
+A.S.
+A.S.
+A.S.
+A.S.
+A.S.
+
+(continued on next page)
+
+7
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Table 2 (continued )
+Air temperature
+
+Annual mean air temperature ( ◦ C)
+
+Soil exploitation
+
+Mineral extraction and dump sites (class 13,100, urban atlas) and Constructions sites (sqkm)
+(class 13,300, urban atlas)
+Quality for human consumption (Proportion%)
+
+Water pollution
+
+assets of the area under study, their accessibility, and public participa­
+tion. The hard-cultural assets are publicly owned, and the soft-cultural
+assets are found within communities (e.g., artists and creative people),
+businesses (e.g., creative industry), and other stakeholders’ groups. In
+the cultural dimension of urban metabolism, we include processes
+related to urban agriculture, highlighting its beneficial role in building
+community cohesion, providing a place where community members can
+come together, interact, and strengthen their bonds. The smart and
+regenerative cultural planning refers to the planning and implementa­
+tion of strategies that highlight the unique hard and soft cultural assets
+of a place, boosting the local and regional competitiveness (urban art
+interventions, collaborative community projects and networks, urban
+culture inheritance, and the creation of the contemporary city culture).
+The technological dimension of urban metabolism lies in implementing
+advanced technologies in urban planning and design, which is required
+to solve the technical issues of supplying energy, water, materials,
+construction, planning, and design and do it while regenerating the
+urban metabolisms. Examples of this implementation are applying the
+Internet of Things (IoT) and the Information and Communication
+Technology (ICT) to support interconnection among heterogeneous
+systems, laser cleaning technologies, sensors for data collection, barriers
+to prevent floods, management, and disposal of the city’s waste. The
+ecological dimension of urban metabolism refers to understanding and
+mimicking organisms and ecosystems (including their functions and
+services). By learning from ecosystem processes, we apply this knowl­
+edge to regenerate the exploitation of natural resources, the human and
+social capital, the economy, mobility, and governance and how they
+interact with each other.
+Having defined the metabolic dimensions and subdimensions
+establishing the boundaries of their related urban processes, we identify
+their representative indicators as shown in Table 1. Adopting the
+ecosystem services perspective, we classify these indicators according to
+four well-known groups; provisioning services, regulating services,
+supporting services, and cultural services proposed by the Millennium
+Ecosystem Assessment (MA), 2005 classification system. Pedersen Zari,
+2012 provides a list (Table A in Annex) with the main ecosystem services
+of each category after conducting a comparative survey of the existing
+research. In line with this list, we classify the urban processes of a smart
+and regenerative urban ecosystem into these four categories, trans­
+ferring the ecological knowledge to the built environment aiming to
+maintain the overall health and resilience of the urban ecosystem as a
+whole (Table 1). Therefore, the provisioning services offered by a ho­
+listic smart and regenerative urban ecosystem are related to the welfare,
+economy, social inventions, energy and water systems, and all urban
+ecological processes, including processes related to urban agriculture.
+The regulating services regulate environmental media or processes, such
+as pollination and dispersal, climate regulation, biological control
+decomposition, and disturbance prevention and moderation of ex­
+tremes. Thus, the regulating services are provided by urban processes
+related to demography and migration, Healthcare services and infra­
+structure, urban agriculture, sewage and waste management, treatment
+and recycling, urban safety processes, and all urban ecological pro­
+cesses. Following the supporting services are these ecosystem processes
+and functions that support other services like soil formation, soil
+retention, renewal of fertility, quality control, nutrient cycling, habitat
+provision, and species maintenance. Therefore, the supporting services
+are provided by urban processes related to fertility and mortality,
+employment- unemployment rates, urban agriculture, mobility -
+
+2012,
+2018
+2012,
+2018
+2011,
+2018
+
+A.S.
+A.S.
+A.S.
+
+accessibility, urban fabric, sewage and waste management, treatment
+and recycling, and all urban ecological processes. Finally, the cultural
+services are the services offered by the urban ecosystem responsible for
+covering cultural or spiritual needs, such as artistic inspiration, educa­
+tion, and knowledge, esthetic value, cultural diversity and history, rec­
+reation and tourism, creation of sense of place, spiritual and religious
+inspiration, relaxation and psychological well-being (Table 1, Table A).
+We finish the life cycle inventory phase by building the dataset
+reflecting these urban processes and functions responsible for smart and
+regenerative metabolism and circularity of resources, information, and
+waste emissions in all dimensions for two different years (2011, 2018).
+The built dataset consists of 254 measures. These measures represent the
+biophysical characteristics of the ULC, for instance, land use and land
+cover, the UCL’s socioeconomic profile, as population growth and
+density, economic prosperity, lifestyle practices, access to services, and
+quality of life. Moreover, we include measures representing the material
+and energy flows, including energy, water, waste flows. Some of these
+measures could be used for more than one indicator/ urban process of
+different metabolic dimensions. Still, to avoid data redundancy, we
+chose to use them once to measure the urban process they represent
+more generally.
+For our analysis, we set the year 2011 as the oldest year and the year
+2018 as the most recent year to study the metabolism of ULC before the
+COVID-19 pandemic; 2018 was the year with the majority of the
+available data. When a specific dataset was not available for the target
+years 2011 and 2018, we chose the closest year to them available. The
+Census data were only available for the years 2001 and 2011. We
+retrieved statistical data from the Database of Contemporary Portugal
+(PORDATA), Statistics Portugal (INE), and the Urban Atlas land use and
+land cover (Copernicus Programme, 2012, 2018).
+Overall, the built dataset consists of 4 dimensions organized in 15
+sub-dimension, comprising 29 indicators and 254 measures, for two
+time periods focusing on the system dynamics over time and space
+(Table 2).
+3.3. Urban metabolism sensitivity analysis and prediction
+Coupling LCI and ML, we support the application of the smart and
+regenerative urban metabolism concept. The LCI under the ecosystem
+services perspective enables the smart and regenerative aspect of the
+system dynamics. ML allows us to capture the feedback effect coming
+from the different urban processes and system dynamics components. In
+this way, we encapsulate the circularity of urban metabolism, adopting a
+data-driven methodology. From the ML algorithms, we have used Arti­
+ficial Neural Networks (ANN) to accomplish this task. ANN is an infor­
+mation processing technique that mimics the way in which a biological
+nervous system operates. It uses a variety of highly connected processing
+units that co-work to process information and generate meaningful
+results.
+Specifically, in the STATISTICA software2 environment, we devel­
+oped an algorithmic representation of the urban metabolism of our study
+2
+
+STATISTICA software is an advanced analytical package for data analysis,
+management, mining, statistics, ML, text analytics, data visualization. It can be
+used for predictive modeling, clustering, and classification. More details
+regarding the tools and applications of the software can be found on (StatSoft
+Inc., 2004).
+8
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Fig. 3. Flowchart of MLP network training.
+
+area, using the Multilayer Perceptron (MLP) a supervised algorithm of
+ANN, and create a network of 253 input units and one output unit (the
+dependent variable) where here represents the purchasing power per
+capita for the year 2018. MLPs are often identified as the most common
+neural network architecture that produces predictive models for one or
+more dependent (target) variables based on the values of the predictor
+(independent) variables (Lievano & Kyper, 2006). MLP training pro­
+cedure starts by setting a layered feedforward topology (input
+layer-hidden layer(s)-output layer). Then training algorithms using
+
+optimization functions set the network’s weights and thresholds and
+update the network parameters at every iteration of the training aiming
+to minimize the prediction error3 made by the network. Ultimately, a
+network is appropriately trained when it has learned to model the
+function that relates the input variables to the output variables. There­
+fore, it can be used to make predictions where the output is unknown
+(Lievano & Kyper, 2006). For explanatory or causal forecasting prob­
+lems as of this study, the functional relationship of predictors and the
+dependent variable is of the form y = f(x1, x2,…, xp) where x1, x2,…,xp
+
+3
+An error function combines all the differences between the actual outputs
+and the target outputs of all training cases and gives the networks error. For
+regression problems the error function is usually the sum of the squared errors.
+
+9
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Table 3
+Model summary.
+Profile
+
+Train Perf.
+
+Select
+Perf.
+
+Test Perf.
+
+Train
+Error
+
+Select
+Error
+
+Test Error
+
+Training/
+Members
+
+Inputs
+
+Hidden nodes
+(1)
+
+Hidden nodes
+(2)
+
+MLP
+76:76–12–31–1:1
+
+0.488857
+
+0.837801
+
+0.803547
+
+0.216065
+
+0.104959
+
+0.352127
+
+BP100, CG593b
+
+76
+
+12
+
+31
+
+are p predictors and y the target variable (Zhang, Patuwo & Hu, 1998).
+Another important output that we can perform once the network is
+trained, is the sensitivity analysis on the network inputs. From this
+analysis, we can examine the inputs’ interdependencies and obtain in­
+formation regarding the variables of the data set that most affect the
+output of our analysis, or in other words the network’s performance. To
+do so, sensitivity analysis rates the input variables according to the
+deterioration in network’s performance that occurs if that variable is
+“unavailable” to the network. STATISTICA software has a missing value
+substitution procedure allowing forecasting where the value of one or
+more input variables v is missing. To define the sensitivity of a variable
+v, the network initially runs using a set of test cases, and the network
+error is accumulated. Then network runs again using the same test cases
+and replacing the observed values v with the estimated value by the
+missing value procedure and the network error is accumulated again.
+The variables are rated based on the ratio of the error with the missing
+value substitution to the original error; greater the ratio means greater
+the expected deterioration in error and therefore the network is more
+sensitive to the specific v input variable (StatSoft Inc., 2004).
+To train the network, we typically divide the original data set into
+training, selection, and testing sets. The training set is normally the
+biggest in size and is used to learn the parameters of the model during
+the training process. The selection test or validation test is used to tune
+the parameters of the model (network configuration, regularization
+techniques, and so on) and eventually to select the "best" model. Finally,
+when the model has been trained, the testing set is used to evaluate its
+performance, ensuring that it can generalize well to unseen data.
+We adopted an explorative approach to train our network, trying
+different sizes of hidden layers and units, learning algorithms and pa­
+rameters aiming to find an affective network configuration for our study
+(Fig. 3). Starting with the network’s topology, we tested various
+approaches-rules of thumb suggested by the literature for choosing the
+number and the size of hidden units. One approach suggests that a
+hidden layer should never be more than twice as large as the input layer
+(Berry & Linoff, 1997). Another tested approach was that the number of
+hidden units should be 2/3 the size of the input units plus the output
+unit. We also tested the default configuration of STATISTICA software of
+one hidden layer with the number of hidden units equal to half of the
+sum of the input and output units. Another rule of thumb that we tied
+suggests that the second hidden layer has to be at least three times the
+size of the first hidden layer (Lippmann, 1987). Moreover, we also tested
+random sizes of hidden units, increasing or decreasing them according to
+the network’s performance.
+After setting the network’s topology, we selected the linear approach
+to map the output variable using the identity activation function (γ(c) =
+c). This function takes real-valued arguments and returns them un­
+changed, supporting a substantial amount of extrapolation, although not
+unlimited (the hidden units will saturate eventually) (StatSoft Inc.,
+2004). We randomly assigned five out of nine (total) training cases to the
+training set, two to the selection set, and two to the testing set.
+To start the training process, we followed a two-phased standard
+training procedure for MLPs. We used the Backpropagation learning
+algorithm for the first phase of 100 epochs. We tried different powerful
+algorithms for the second phase of 600 epochs Quasi-Newton (BFGS),
+and Levenberg-Marquardt, and the Conjugate Gradient Descent. The
+BFGS (Broyden–Fletcher–Goldfarb–Shanno) algorithm belongs to the
+Quasi-Newton methods. It is a local search optimization algorithm that
+approximates the inverse Hessian matrix. The approximation at first
+
+follows the line of steepest descent and later follows the estimated
+Hessian more closely. The BFGS’s main drawback is that it needs O(n2)
+memory to store the inverse Hessian Matrix, making it impractical for
+most sophisticated ML models with millions of parameters. To decrease
+the memory cost, the Limited Memory BFGS (L-BFGS) extension can be
+applied to avoid storing the complete inverse Hessian approximation
+matrix (StatSoft, Inc. 2004); Goodfellow et al., 2016). The following
+tested optimization algorithm was the Levenberg-Marquardt (LM), a fast
+convergence algorithm for small networks, able to solve nonlinear
+least-square problems. LM combines the gradient descent and
+Gauss-Newton minimization algorithms. When the parameters of the
+network are far from their optimal value, LM acts more like a
+gradient-descent, and when the parameters are closer to their optimal
+value, it acts more like a Gauss-Newton (Gavin, 2019). The main
+disadvantage of LM algorithm is that can be very slow to converge when
+the network has more than ten parameters (Waterfall et al., 2006), and
+for flat functions can be lost in parameter space (Transtrum & Sethna,
+2012). The last optimization algorithm tested was the Conjugate
+Gradient Descent that we eventually selected for the second phase of the
+training phase showing the best results for our network. The Conjugate
+Gradient Descent is an advanced optimization algorithm to train MLP
+recommended for networks with a large number of weights and/or
+multiple output units. The technical details on how the optimization
+algorithms carry out the network training process, how they update the
+network weights and minimize the prediction error are presented in the
+supplementary material.
+For the first phase of training, we used a learning rate of 0.01 (initial
+and final) on each epoch. The learning rate is the amount that the
+weights are updated during the training; how far to move the weights in
+the direction opposite of the gradient. During the training, the back­
+propagation algorithm estimates the amount of error for which a node’s
+weights in the network are responsible. Then the node’s weight is
+updated based on learning rate-scaled error instead of the full amount of
+error. Using 0.01 learning rate, the weights of the network are updated
+0.01 times the estimated weight error. To give faster training and better
+predictive accuracy to the network, we used a momentum value of 0.3.
+During the training, the gradient keeps changing direction and slower
+the process of training. Introducing the training momentum (a history of
+weights), the weights are adjusted to one direction smoothing the var­
+iations and making the training faster without losing information caused
+by highspeed convergence. We used the online type of training of
+Backpropagation that updates the weights of the network when each
+training case is presented. If all training cases are presented, and none of
+the stopping rules has been met, the process continues by recycling
+them. We shuffled the order of the presentation of the training cases at
+each epoch. The last parameter added for the first training phase was the
+Gaussian noise with a deviation of 0.1 to the output value on each
+training case. For the second phase of the training process no shuffle
+option was available since Conjugate Gradient Descent is a batch update
+algorithm that updates the weights once at the end of each epoch based
+on the average gradient of the error surface across all cases. For the same
+reason to avoid adding noise the learning rate and momentum are not
+available either (StatSoft Inc., 2004).
+At the beginning of the training, we used the random-uniform
+method to initialize the network’s weights normally-distributing small
+random values within a range of minimum and maximum values (0–1).
+We applied a pruning algorithm at the end of the training to prune
+neurons in input and hidden layers with fan-out weights below 0.05
+10
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+ratio implies a better estimate. In Table 3, we can also find the network
+error on the subsets as the root mean squared (RMS) errors generated by
+the error function (sum-squared differences between the target and
+actual output values on each output unit). Based on a rule of thumb,
+when RMS error is greater or equal to 0.5, the model does not generalize
+well.
+Another way to validate the model and assess its generalization
+ability in combination with the model summary is the graph of the
+training and selection errors on each epoch (Fig. 4.). The training should
+stop when the training error curve and the selection error curve are close
+to each other. Flat lines or noisy values of relatively high error indicate
+that the model was unable to learn for the training dataset. The same
+applies when the training error curve continues to decrease at the end of
+the graph. In the opposite case, when the model has learned the training
+dataset too well (including noise or random fluctuations), while the
+training error curve continues to decrease through epochs and the se­
+lection error curve decreases up to a point and then starts to increase
+again. When the selection dataset does not provide enough information
+to evaluate the model’s generalization ability, the selection error curve
+shows noisy movements around the training error curve even if the
+training error curve indicates a good fit. The selection dataset is un­
+representative also when the selection error curve is lower than the
+training error curve. On the other hand, when the training dataset is
+unrepresentative, both training and selection error curves show
+improvement, but there is a large gap between them. Our model’s graph
+shows a good fit with the training and selection error curves to decrease
+to the point of stability with a very small gap between them.
+
+Fig. 4. Network’s training graph: training (T.1) and selection (S.1) error, axis
+(x) shows epochs, and axis(y) shows the error function.
+
+since they don’t significantly contribute to the network’s performance.
+We also used sensitivity analysis with a ratio of 1.0 to perform input
+pruning. Considering that large weights make the network unstable, we
+applied a weight decay regularization to both training phases using a
+decay factor of 0.01. Overall, this parameterization road map forges the
+best network for the case study.
+After training more than 300 networks, we found the most effective
+model that generalizes well (Table 3). We trained the model with 76
+input variables of the 253 having two hidden layers with 12 and 31
+hidden units, respectively. Backpropagation with 100 epochs and Con­
+jugate Gradient Descent (CG) were used to find the best network with
+the lowest selection error on the 593rd epoch of CG. The network’s
+performance on the different data subsets used during the training
+process is shown in Table 3. The performance for regression networks
+like ours is the Standard Deviation Ratio. When the network’s perfor­
+mance equals 1, the network performs as a simple average, and a lower
+
+4. Results
+ANN - MLP network training provided us with two main outcomes.
+First, as a result of the sensitivity analysis, we obtained the main drivers
+representing the urban processes that most influence the predicted
+urban metabolism changes (the dependent variable) in terms of IpC
+changes. Second, we predicted where and to which degree these changes
+in urban metabolism will occur in the near future.
+In Table B (Annex), we present the output variables of our model’s
+sensitivity analysis ranked by descendent order, from higher sensitivity
+
+Fig. 5. Occurrence of data components/ measures per indicator with high sensitivity to urban metabolism changes (%).
+11
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Table 4
+Important measures to urban metabolic changes under the perspective of ecosystem services.
+Dimensions
+
+Sub-dimensions
+
+Indicators of Urban processes
+
+Data components/ measures
+
+Year
+
+Code
+
+Rank
+
+U.
+E.S
+
+Social
+
+Human capital
+
+Demography & migration
+
+Resident population, according to the Census male 65+
+
+2001
+
+ml65_01
+
+1
+
+Cultural
+
+Cultural Mapping
+
+Hard/ Soft cultural assets
+
+Cinema: box-office revenue (€)
+
+2011
+
+cn_bxof11
+
+2
+
+Social
+
+Human capital
+
+Demography & migration
+
+Resident population, according to the Census female 65+
+
+2011
+
+fml65_11
+
+3
+
+Social
+
+Human capital
+
+Education and training
+
+Teaching staff in pre-school
+
+2011
+
+tch_pre11
+
+4
+
+Ecological
+
+Environmental
+quality
+Economic capital
+
+Air pollution
+
+2013
+
+N02_13
+
+5
+
+2011
+
+ernml_upp11
+
+6
+
+Environmental
+quality
+Cultural Mapping
+Economic capital
+
+Air pollution
+
+Annual mean concentration of NO2 (VL=40 µg/m3) (ug/
+m3)
+Average monthly earnings of male employees by Uppersecondary and post-secondary non-tertiary level of
+education
+Annual mean concentration of PM10 particles (µg/ m3);
+Annual
+Live shows: box-office revenue (€ - Thousands)
+Employment rate, according to the Census by age group
+(%) (35–44)
+Expenditure by municipalities on Protection against noise
+and vibrations (€ -Thousands)
+Industrial, commercial, public, military, and private units
+(sqkm) (class 12,100, urban atlas)
+Non-residential buildings, according to the Census
+Unemployment rate, according to the Census male (%)
+(total)
+Employment rate, according to the Census male (%) (total)
+
+R.
+S.
+C.
+S.
+R.
+S.
+C.
+S.
+A.
+S.
+P.S.
+
+2013
+
+PM10_13
+
+7
+
+2001
+2011
+
+lv_bxof01
+empl3544_11
+
+8
+9
+
+2018
+
+exp_noise18
+
+10
+
+2012
+
+ind_ua12
+
+11
+
+A.
+S
+P. S
+
+2001
+2011
+
+tb_nrsd01
+unmpl_ml11
+
+12
+13
+
+S. S
+S. S
+
+2011
+
+empl_ml11
+
+14
+
+S. S
+
+Cinema spectators (No.)
+
+2011
+
+cn_spct11
+
+15
+
+2011
+
+elc_strligh11
+
+16
+
+C.
+S.
+P. S
+
+2018
+
+bed_hspt18
+
+17
+
+R. S
+
+2018
+
+propn_18
+
+18
+
+P. S
+
+Social
+Ecological
+Cultural
+Social
+Ecological
+
+Welfare
+
+Hard/ Soft cultural assets
+Employment- unemployment
+rates
+Environmental protection
+
+A.
+S
+C. S
+S. S
+
+Social
+
+Environmental
+protection
+Economic capital
+
+Technological
+Social
+
+Housing
+Economic capital
+
+Social
+
+Economic capital
+
+Cultural
+
+Cultural participation
+
+Technological
+
+Utility systems and
+Infrastructure
+
+Energy systems
+
+Social
+
+Health system
+
+Technological
+Social
+
+Utility systems and
+Infrastructure
+Economic capital
+
+Healthcare services and
+infrastructure
+Energy systems
+
+Electricity consumption per inhabitant by type of
+consumption kWh (kilowatt-hour) / inhab. – Ratio: (street
+lighting)
+National Health Service: beds in general and specialist
+hospitals
+Fuel sales for consumption t(ton): (propane gas)
+
+empl_fml11
+
+19
+
+S.S.
+
+Urban structure
+
+Employment rate, according to the Census female (%)
+(total)
+Land without current use (sqkm) (class 13,400, urban atlas)
+
+2011
+
+Technological
+
+Employment- unemployment
+rates
+Urban void
+
+2012
+
+ncuse_ua12
+
+20
+
+Technological
+
+Urban structure
+
+Urban fabric
+
+2012
+
+cntufb_ua12
+
+21
+
+Ecological
+
+Habitat-ecosystems
+
+Habitat- ecosystems
+
+Continuous urban fabric (S.L. > 80%) (sqkm) (class 11,100,
+urban atlas)
+Urban Atlas classes 3,4,5 included urban green areas
+
+N.
+S.
+S.S.
+
+2012
+
+ecstm_12
+
+22
+
+Ecological
+
+Habitat-ecosystems
+
+Habitat- ecosystems
+
+Urban Atlas classes 3,4,5 included urban green areas
+
+2018
+
+ecstm_18
+
+23
+
+Ecological
+
+Air pollution
+
+Annual mean concentration of CO (8 h) (mg/m3)
+
+2014
+
+CO_14
+
+24
+
+Social
+
+Environmental
+quality
+Economic capital
+
+unmpl_fml11
+
+25
+
+Economic capital
+
+2011
+
+ernfml_hgh11
+
+26
+
+P.S.
+
+Social
+
+Economic capital
+
+2001
+
+unmpl_fml01
+
+27
+
+S.S.
+
+Technological
+
+Utility systems and
+Infrastructure
+
+2011
+
+elc_agr11
+
+28
+
+P.S.
+
+Technological
+
+Utility systems and
+Infrastructure
+Utility systems and
+Infrastructure
+
+Energy systems
+
+Unemployment rate, according to the Census female (%)
+(total)
+Average monthly earnings of female employees by higher
+level of education
+Unemployment rate, according to the Census female (%)
+(total)
+Electricity consumption per inhabitant by type of
+consumption kWh (kilowatt-hour) / inhab. – Ratio:
+(agriculture)
+Fuel sales for consumption t(ton): (fuel diesel)
+
+2011
+
+Social
+
+Employment- unemployment
+rates
+Welfare
+
+A.
+S.
+A.
+S.
+A.
+S.
+S.S.
+
+2011
+
+fueldsl_11
+
+29
+
+P.S.
+
+Sewage and Waste
+management/ treatment/
+recycling
+
+Urban waste collection per inhabitant (Ratio – kg/ inhab.)
+
+2011
+
+uw_clct11
+
+30
+
+R.
+S.
+
+Utility systems and
+Infrastructure
+
+Urban waste by type of destination t (tonne): (organic)
+
+2018
+
+uw_orgrcl18
+
+31
+
+R.
+S.
+
+S.S.
+Social
+
+Sewage and Waste
+management/ treatment/
+recycling
+
+Economic capital
+
+empl2534_11
+
+32
+
+S.S.
+
+Cultural participation
+
+Employment rate, according to the Census by age group
+(%) (25–34)
+Live shows spectators (No.)
+
+2011
+
+Cultural
+
+Employment- unemployment
+rates
+Cultural participation
+
+2011
+
+lv_spct11
+
+33
+
+C.
+S.
+
+Technological
+S.S.
+Technological
+
+Economy
+Housing quality
+Employment- unemployment
+rates
+Employment- unemployment
+rates
+Cultural participation
+
+Employment- unemployment
+rates
+Energy systems
+
+(continued on next page)
+
+12
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Table 4 (continued )
+Dimensions
+
+Sub-dimensions
+
+Indicators of Urban processes
+
+Data components/ measures
+
+Year
+
+Code
+
+Rank
+
+U.
+E.S
+
+Social
+
+Human capital
+
+Education and training
+
+Teaching staff in pre-school
+
+2018
+
+tch_pre18
+
+34
+
+Technological
+
+Utility systems and
+Infrastructure
+
+Sewage and Waste
+management/ treatment/
+recycling
+
+Urban waste selective collection per inhabitant (Ratio – kg/
+inhab.)
+
+2011
+
+uw_slctv11
+
+35
+
+C.
+S.
+R.
+S.
+
+Urban safety
+
+Crimes registered by the police (motor vehicle theft)
+
+2011
+
+thfmoto11
+
+36
+
+Water systems
+
+water_cons11
+
+37
+
+Demography & migration
+
+Water supplied/consumed per inhabitant (ratio- m3/
+inhab.)
+Annual population growth (individual): (natural increase)
+
+2011
+
+Social
+
+Utility systems and
+Infrastructure
+Utility systems and
+Infrastructure
+Human capital
+
+2018
+
+grth_natu18
+
+38
+
+Cultural
+
+Cultural Mapping
+
+Hard/ Soft cultural assets
+
+2011
+
+art_exh11
+
+39
+
+Ecological
+
+Environmental
+protection
+Environmental
+protection
+
+Environmental protection
+
+Art galleries and other places for temporary exhibitions:
+exhibitions
+Environmental Non-Governmental Organizations (ENGO):
+number
+Expenditure by municipalities on the environment (€
+-Thousands) by environmental management and
+protection domains: (others)
+Expenditure by municipalities on protection of biodiversity
+and landscape (€ -Thousands)
+
+2011
+
+engo_11
+
+40
+
+2018
+
+exp_oth18
+
+41
+
+2018
+
+exp_biolsc18
+
+42
+
+S.S.
+Technological
+Technological
+
+Ecological
+Ecological
+
+Environmental
+protection
+
+Environmental protection
+Environmental protection
+
+Municipalities
+
+IpC 2018
+
+IpC 2025
+
+219.6
+92.3
+89.3
+100.6
+156.5
+122.1
+108.7
+89.7
+100
+
+172.1422
+104.6195
+104.1329
+100.6236
+173.5109
+89.2158
+91.0583
+106.8435
+162.4113
+
+R.
+S.
+C.
+S.
+A.
+S.
+A.
+S.
+A.
+S.
+
+and eighteen out of 29 indicators (Table 4). Therefore, these indicators
+and related measures show a system-based representation of the in­
+terdependencies between different urban metabolic processes respon­
+sible for resource use, materials, energy and information circulation,
+waste production, and their associated performance throughout their
+entire value chain. These urban processes provide all urban ecosystem
+services benefiting human well-being.
+The second output obtained from our model was the prediction with
+high accuracy of the urban metabolic changes in terms of IpC changes
+for the UCL for the year 2025. The year 2025 is calculated by adding to
+the present year (2018) the number of years (7) between the two time
+periods of the input data (2018, 2011). Looking at Table 5, we can
+observe that the degree to the UCL’s urban metabolism at the munici­
+pality level either increases, decreases, or stays stable in 2025. In order
+to have a spatial visualization upon where the forecasting metabolic
+changes in 2025, we mapped the current metabolism of our study area
+(Fig. 6) and the prediction results of the urban metabolism (Fig. 7) at the
+municipality level.
+Results show that Lisbon’s metabolism decreased dramatically, fol­
+lowed by Cascais’ and Almada’s in 2025. On the other hand, Loures,
+Odivelas, and Seixal show an increased metabolism of the same class
+(Fig. 6, 7). The municipality of Oeiras has one of the highest urban
+metabolism in 2018, and it continues to have for the year 2025. Ama­
+dora municipality does not show any significant metabolic changes for
+the near future, contrary to Barreiro’s municipality that presents an
+intensive metabolism.
+From our previous analysis, the main drivers of these metabolic
+changes are the urban processes related to the 42 higher ranks of higher
+sensitivity (Table 4). Therefore, those with decision responsibility can
+either stabilize, increase, or decrease the metabolism of the study area
+by activating these key metabolic drivers. Knowing the degree, the
+spatial distribution of the future metabolic changes, and the key drivers
+of change provides important information to link with potential urban
+development strategies related to urban governance. Provided by spe­
+cific guidance coming from our model, we can enhance the relevant
+urban metabolic functions and services in a way to plan and manage
+resilient and sustainable urban development.
+
+Table 5
+Purchasing power per capita by municipality for the years 2018 and 2025.
+Lisboa
+Loures
+Odivelas
+Amadora
+Oeiras
+Cascais
+Almada
+Seixal
+Barreiro
+
+R.
+S.
+P.S.
+
+(1) to lower sensitivity (76) based on their ratio. Focusing on the mea­
+sures with a ratio of about one, we summarize the occurrence of the
+different data components/ measures (variables) per indicator (Fig. 5).
+The summarized occurrence of the measures per indicator shows us to
+which urban processes the metabolic changes are more sensitive,
+examining holistically all the measures of the different metabolic di­
+mensions of the study area. We see that the Employment- unemployment
+rates indicator measures have the greatest percentage of occurrence
+(17%) among the variables that most affect the network’s performance.
+Second in place come the indicators Environmental protection, and
+Energy systems with 10% measures’ occurrence. The indicators Sewage
+and Waste management/treatment/recycling, Demography & migration,
+Hard/Soft cultural assets, and Air pollution appear with 7% of measures
+occurrence followed by the Education and training, Welfare, Cultural
+participation, and Habitat-ecosystems indicators’ measures with 5%. Last
+is the group of measures with 2% occurrence for the Urban safety, Water
+systems, Economy, Housing quality, Urban void, Urban fabric, and Health
+services and infrastructure indicators.
+The output of the sensitivity analysis shows evidence of the multi­
+dimensionality of a smart and regenerative urban metabolism. The most
+important measures (predictor variables) to urban metabolism changes
+cover all four metabolic dimensions, eleven out of fifteen subdimensions
+
+13
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Fig. 6. Urban metabolism per municipality for the year 2018.
+
+Fig. 7. Urban metabolism per municipality for the year 2025.
+
+5. Discussion
+
+sustainability. Adopting the concept of smart and regenerative urban
+metabolism, we describe the urban processes and their relationships as
+circular ongoing, co-evolutionary, focusing on eliminating waste by
+regenerating resources using technology. The urban processes represent
+different sub-systems of the urban system of which they are part. They are
+delimited by flexible and open boundaries that allow communication
+channels between the sub-systems and beyond the system boundary
+
+Urban cores are complex systems where various urban processes are
+responsible for resource use, flows of materials-energy-information, and
+waste emissions, establishing social, cultural, technological, and ecological
+relationships. Therefore, urban cores have their own metabolism, requiring
+a systematic approach that encapsulates its complexity and assess its
+14
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+enabling their interdependence. In line with the UM framework, we treat
+the urban systems like ecosystems and the services offered by the different
+urban processes as ecosystem services. Natural ecosystems provide func­
+tions and services essential to human welfare and long-term survival.
+Studying the structure and services of ecosystems, we obtain guidance on
+how to achieve system resilience. In this way, we can build a research
+framework supporting a holistic understanding of how urban systems
+function, considering their multiple dimensions. Therefore, we can design a
+methodology able to capture the metabolic dynamics highlighting the
+impact of urban ecosystem services on urban sustainability.
+We proposed a novel methodology that couples LCT and ML under
+ecosystem services perspective. LCT is the way of thinking of the conse­
+quences in the environmental, economic, and social dimensions of a
+product/process/system of processes throughout its entire life, meaning the
+effects on ecology, resources, and human health (Farjana, Parvez Mahmud
+& Huda, 2021). It facilitates the links between the different dimensions of
+urban processes aiming to reduce resource use, waste production and
+improve a process’s socioeconomic performance through its entire cycle.
+The main limitations when applying LCT and mostly LCA at the city level
+are the definition of system boundaries giving insights into the fundamental
+urban dynamics, the appropriate functional units, and the use of data that
+capture the complexity of urban systems at micro and macro scales. Indeed,
+to measure and access UM at a local scale demands data with a high level of
+granularity produced and or collected systematically through time and
+space and with ground truth. Unfortunately, the type of multidimensional
+data meeting such requirements is scarce, affecting knowledge-based
+analysis due to uncertainty and data gaps.
+Coupling LCT with ML, we are able to overpass/minimize these limi­
+tations, modeling a neural network of the different urban processes. ML
+algorithms have proven to be suitable for dealing with problems of data
+scarcity, where are uncertainty and unpredictable system dynamics.
+Although the demand for quality data at a local and even human scale still
+remains to be fulfilled, ML algorithms can work with data gaps and help the
+network perform better, enhancing its integrated systematic multidimen­
+sionality. For instance, while preparing the input dataset for implementing
+the proposed research framework at municipality level, we faced diffi­
+culties to encounter crucial data to measure important urban metabolic
+processes related to food consumption, construction materials, air quality
+measures at human scale, noise pollution, number of passengers trans­
+ported by public transportation, domestic material consumption, number
+of people exposed to conditions beyond a critical threshold, among others.
+Moving to the network training process’s limitations, we must confront
+the general nonconvex case during the training. When training neural
+networks, ML traditionally avoids the general optimization problems by
+designing the objective function and constraints to guarantee that the
+optimization problem is convex. Although, even convex optimization
+comes with complications (Goodfellow et al., 2016). There are a few main
+challenges involved when optimizing convex functions—starting with the
+ill-conditioning of the Hessian matrix a common problem in numerical
+optimization where the Stochastic Gradient Decent (SGD) is “stuck”
+meaning that even very small steps of the gradient increase in cost function,
+the learning is very slow regardless a strong gradient (Goodfellow et al.,
+2016). Another important optimization issue is the convergence to a local
+minima when the training algorithm stops in a low point (the lowest of the
+surrounding terrain) rather than continuing to seek for the global minima,
+and therefore, it has not learned the entire training set. Plateaus, Saddle
+Points, and Other Flat Regions are common nonconvex optimization
+problems. In these points or regions on the landscape, the gradient is zero
+(very flat), which means it does not know which direction to move to
+optimize the model; therefore, the iterative algorithm is stuck mimicking
+local minima (Bishop, 1995).
+An important task of neural networks is to have a final model that can
+perform well both on the training dataset and the unseen dataset (test
+dataset). When the predictive model has learned from the details of the
+training set (noise in the data) instead of the general behavior (the under­
+lying function), it has overfitted the training dataset, and therefore, it is not
+
+able to perform the same with the testing set. Overfitting is a typical cause of
+poor generalization of the model, having high generalization error. A pre­
+dictive model can underperform when it has learned too little from the
+training dataset and does not perform well on the testing dataset
+(underfitting).
+In order to tackle these challenges while training neural networks,
+we looked for the optimum network topology (structure), and configu­
+ration we tried different training algorithms. We used regularization
+methods (parameters) to control the complexity of the network. Going
+through the literature, we noticed that there is not a consensus regarding
+the number of hidden layers and hidden units to be used, we tested the
+related rules of thumb. We trained the network using a two-phased MLP
+designed to address problems related to convergence to local minima
+and network overfitting. More precisely, the first stage is a light run on
+backpropagation in conjunction with a soft training rate in order to
+perform the raw convergence. This first stage could be sufficient to solve
+simple problems. Due to the complexity of the systems under analysis,
+the first phase is not enough. Therefore, we moved to the second more
+powerful training phase, using an extended run of conjugate gradient
+descent. As it benefits from the backpropagation performance first stage,
+this algorithm is less likely to bump into convergence problems.
+We tried different learning rates for the first phase of training until
+finding the best for our network. If the learning rate is very low, the
+training process will take too much time with no significant updates to
+the weights. On the other hand, if the training rate is too high, it results
+in an undesirable divergent function behavior. We also added Gaussian
+noise to the output value on each training case to reduce the network’s
+tendency to overfit. We used smaller weights and early stopping to
+reduce the problem of overfitting. We shuffled the order of the presen­
+tation of the training cases at each epoch, so the training algorithm to be
+less prone to stuck in a local minima. We applied a sensitivity analysisbased pruning algorithm, using a threshold ratio equal to 1.0. In this
+way, we excluded the input variables with sensitivity analysis below 1.0
+to not compromise the network’s performance since it most likely con­
+stitutes a by-product of overfitting.
+We conclude that the network optimization process cannot be based
+on rules of thumb but by conducting an exploratory procedure consist­
+ing of fine-tuning the network parameters based on the previous training
+results. It is worth mentioning that the complexity of the network under
+study is based on the complexity of the dataset.
+When the optimization process was successfully completed, we performed
+sensitivity analysis on the network’s input to identify the most influential in­
+dicators and their related measures for the urban metabolism changes (Table 4,
+Table B). It is essential to highlight that the rate of the indicators’ sensitivities
+does not occur in an absolute manner; instead, it is measured considering the
+interdependencies between the input variables. Therefore, the obtained re­
+sults regarding the importance of particular indicators concern the specific
+network considering the specific dataset used. The metabolic changes in this
+study are expressed in terms of purchasing power per capita (IpC) changes. As
+mentioned before, the IpC is a composite indicator provided by STATISTICS
+Portugal as a result of a factorial analysis using 16 variables. Using IpC for two
+time periods in our analysis it is important to say that there is a risk that the
+variation in IpC values could be a result of using associated variables that do not
+totally match between the different years or to use different reference periods
+for the associated data. For the purpose of this study, we assume that the IpC
+values of the two different years have been calculated using the same associated
+variables with the same year of reference. Knowing the key indicators causing
+metabolic changes, the degree of these changes, and their spatial location, one
+step further would be to qualitatively assess the metabolic changes. For
+instance, an increase in the urban metabolism in terms of IpC is predicted to
+happen in the municipality of Barreiro for the year 2025. What does this in­
+crease mean? that consumption and production in the area are going to increase
+due to increased migration? or due to individual earnings increase? or due to
+poor environmental protection policies that do not promote circular economy
+principles of reuse, reduce, recycle? Insights can be drawn by studying the
+dynamic changes of the key indicators as a result of the current study in the two
+15
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+different years of study (2011, 2018) individually and as a sum.
+The proposed methodology can be applied to evaluate the multidimen­
+sional urban metabolism of urban areas and compare the metabolism of
+different urban areas at different levels; neighborhood-place; parish; mu­
+nicipality; metropolitan; country depending on the scale of the available
+data to be used for the analysis. The methodological framework and the
+proposed workflow are reproducible and can be used in different geogra­
+phies to identify the main drivers for the urban metabolism changes, as well
+as to enable an alternative vision of the future. This approach contributes to
+both evidence-based policymaking and for professionals to adopt a new
+urban planning paradigm, more in line with the environmental and societal
+challenges cities are facing.
+
+CRediT authorship contribution statement
+Angeliki Peponi: Conceptualization, Methodology, Software, Vali­
+dation, Formal analysis, Investigation, Data curation, Writing – original
+draft, Writing – review & editing, Visualization, Supervision, Project
+administration. Paulo Morgado: Conceptualization, Methodology, Data
+curation, Writing – review & editing, Supervision. Peter Kumble:
+Conceptualization, Writing – review & editing, Supervision.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+
+6. Conclusions
+This study carries out a UM-LCT-ANN methodological framework from
+an ecosystem services perspective to overcome the limitations of previously
+applied UM methodologies and extend the state of the art of the subject. The
+proposed framework is applied to the urban core of Lisbon’s functional
+urban area allowed us to obtain evidence-based knowledge on the complex
+metabolism of the different urban processes. The study results demonstrated
+the main drivers causing urban metabolic changes, and in which degree, and
+where. We were also able to forecast/predict urban metabolism changes for
+the near future, providing a data-based vision of how urban metabolism
+unfolds. Even though different urban processes require different dimensions
+and scales of analysis to measure and assess their metabolism accounting for
+the flows and storage of energy-material-information and their socioeco­
+nomic and environmental impacts, it is of utmost importance to design a
+framework that can be applied at various temporal and spatial scales. The
+proposed research framework has the ability to investigate the in­
+terdependencies of the urban metabolic processes of different dimensions
+holistically through time and space. Along with its main findings, we have
+shown that our methodology can be used as a tool to develop efficient pol­
+icies for improving and fostering urban sustainability and contribute to a
+change of paradigm for urban planners and urban designers practitioners.
+Further research would be to build different scenarios based on experts,
+stakeholders, and local communities’ visions, on how a city should be.
+
+Funding
+The APC was funded by the Centre of Geographical Stud­
+ies—Universidade de Lisboa and FCT under Grant [number UIDB/
+00295/2020 + UIDP/00295/2020].
+Acknowledgments
+We acknowledge the GEOMODLAB - Laboratory for Remote Sensing,
+Geographical Analysis and Modelling—of the Center of Geographical
+Studies/IGOT for providing the required equipment and software.
+Supplementary materials
+Supplementary material associated with this article can be found, in
+the online version, at doi:10.1016/j.scs.2022.103754.
+Annex
+
+Table A
+Ecosystem Services (Pedersen Zari, 2012).
+Provisioning services
+
+Regulating services
+
+Supporting services
+
+Cultural services
+
+Food:
+Human (land/fresh water/ marine)
+Forage
+
+Pollination and seed dispersal
+
+Artistic inspiration
+
+Biochemicals:
+Medicines
+Other
+
+Biological control:
+Pest regulation
+Invasive species resistance
+Disease regulation
+
+Raw materials:
+Timber
+fiber
+Stone
+Minerals
+
+Climate regulation:
+Greenhouse gas (GHG)
+regulation
+Ultraviolet light (UV)
+protection
+Moderation of temperature
+Prevention of disturbance and the moderation of extremes:
+Wind/wave force modification
+Mitigation of flood/drought
+Erosion control
+Decomposition:
+Waste removal
+
+Soil:
+Formation
+Retention
+Renewal of fertility
+Quality control
+Fixation of solar energy:
+Primary
+production/plant
+growth (above ground,
+below ground, marine,
+fresh water)
+Nutrient cycling:
+Regulation of
+biogeochemical cycles
+Retention of nutrients
+Habitat provision:
+Refugium
+Nursery function
+
+Culture diversity and history
+
+Species maintenance:
+Biodiversity
+Natural selection
+Self-organization
+
+Recreation and tourism
+
+Fuel:
+Biomass
+Mineral
+Other
+Fresh water:
+Consumption
+Irrigation
+Industrial
+processes
+Ornamental resources
+Genetic information
+
+Purification: Water/air/soil
+
+Education and knowledge
+
+esthetic value
+
+Spiritual and religious inspiration
+Creating of sense of place
+Relaxation and psychological well-being
+
+16
+
+A. Peponi et al.
+
+Sustainable Cities and Society 80 (2022) 103754
+
+Table B
+Sensitivity analysis of input variables (authors).
+ml65_01
+
+cn_bxof11
+
+fml65_11
+
+tch_pre11
+
+NO2_13
+
+ernml_upp11
+
+PM10_13
+
+1.381698
+1
+lv_bxof01
+1.036905
+8
+cn_spct11
+1.01199
+15
+ecstm_12
+1.00792
+22
+fueldsl_11
+1.00407
+29
+thfmoto11
+1.00081
+36
+scrt_pens18
+0.99991
+43
+bnk_dw218
+0.99907
+50
+act3544_11
+0.99711
+57
+dw_swgstm18
+0.99511
+64
+exp_biolsc11
+0.96218
+71
+
+1.327549
+2
+empl3544_01
+1.028956
+9
+elc_strligh11
+1.01109
+16
+ecstm_18
+1.00692
+23
+uw_clct11
+1.00284
+30
+water_cons11
+1.00064
+37
+cn_spct18
+0.99957
+44
+empl3544_11
+0.99855
+51
+uw_clct18
+0.99699
+58
+butn_18
+0.99143
+65
+lv_perf11
+0.93563
+72
+
+1.232948
+3
+exp_noise18
+1.02440
+10
+bed_hspt18
+1.01082
+17
+CO_14
+1.00619
+24
+uw_orgrcl18
+1.00177
+31
+grth_natu18
+1.00037
+38
+fueldsl_18
+0.99953
+45
+LPG_18
+0.99775
+52
+firefght18
+0.99689
+59
+airtemp_18
+0.99086
+66
+elc_agr18
+0.90899
+73
+
+1.139873
+4
+ind_ua12
+1.01827
+11
+propn_18
+1.00942
+18
+unmpl_fml11
+1.00604
+25
+empl2534_11
+1.00131
+32
+art_exh11
+1.00036
+39
+inh_phrm11
+0.99953
+46
+O3_18
+0.99767
+53
+ppldns11
+0.99663
+60
+CO_18
+0.99038
+67
+petr95_18
+0.81710
+74
+
+1.101623
+5
+tb_nrsd01
+1.01532
+12
+empl_fml11
+1.00843
+19
+ernfml_hgh11
+1.00521
+26
+lv_spct11
+1.00118
+33
+engo_11
+1.00035
+40
+fml0_14_01
+0.99947
+47
+dm_viol18
+0.99757
+54
+ernfml_hgh18
+0.99622
+61
+art_sp11
+0.98698
+68
+fml15_64_01
+0.75047
+75
+
+1.100816
+6
+unmpl_ml11
+1.01367
+13
+ncuse_ua12
+1.00831
+20
+unmpl_fml01
+1.00435
+27
+tch_pre18
+1.00110
+34
+exp_oth18
+1.00031
+41
+empl2534_01
+0.99934
+48
+agr_ua12
+0.99743
+55
+firefght11
+0.99598
+62
+uw_land18
+0.98338
+69
+rd_ua12
+0.70421
+76
+
+1.045264
+7
+empl_ml11
+1.01254
+14
+cntufb_ua12
+1.00818
+21
+elc_agr11
+1.00424
+28
+uw_slctv11
+1.00087
+35
+exp_biolsc18
+1.00020
+42
+cn_src18
+0.99919
+49
+ppldns18
+0.99729
+56
+NO2_18
+0.99556
+63
+ml15_64_01
+0.97367
+70
+
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+Ratio
+Rank
+
+Table C
+Associated variables for the calculation of the IpC indicator through factorial analysis (STATISTICS PORTUGAL, 2017).
+Variables
+
+Description
+
+IRS
+Gross income
+Value of domestic purchase through ATMs, per capita
+Value of the payment transactions (services and special services) through ATMs, per capita
+Value of domestic withdrawals from ATMs
+Loans granted for housing purposes, per capita
+Monthly earnings of full-time full-paid employees
+Population living in places with over 5 K inhabitants as a proportion of the resident population
+Number of cars sold according to the place of residence of owners, per capita
+Companies’ turnover according to their location, per capita
+Value of international withdrawals from ATM
+Value of international purchases from ATMs
+Municipal tax on onerous transfers of real estate, per capita
+Municipal property (real estate) tax
+Corporate turnover of catering business, per capita
+
+Personal income tax
+It’s the reported income for taxes purposes
+The value is drawn by the location of the ATMs
+The value is drawn by the location of the ATMs
+The value is drawn by the location of the ATMs
+The value is drawn based on the location of the real estate
+The value is drawn by company location/municipality
+Drawn from the Census
+The value is drawn based on the location of the car owners
+The retail market only, with exception of cars and motorbikes business)
+The value is drawn by the location of the ATMs
+The value is drawn by the location of the ATMs
+The value is drawn by the location of the houses
+The value is drawn based on the location of the real estate
+The value is drawn based on the location of the real estate
+
+References
+
+Copernicus Programme, (2012). Urban atlas. Retrieved from https://land.copernicus.eu
+/local/urban-atlas/urban-atlas-2012?tab=download.
+Copernicus Programme, (2018). Urban atlas. Retrieved from https://land.copernicus.eu
+/local/urban-atlas/urban-atlas-2018?tab=download.
+Copernicus. (2018). Urban Atlas 2018, Metadata. Retrieved from https://land.copernicus
+.eu/local/urban-atlas/urban-atlas-2018?tab=metadata Accessed June 9, 2021.
+Domingos, P. (2015). The master algorithm. how the quest for the ultimate learning
+machine will remake our world. Basic books. New York. pp330.
+European Commission (EC). (2021). Regional Innovation Monitor Plus- Lisbon. Retrieved
+from https://ec.europa.eu/growth/tools-databases/regional-innovation-monitor/
+base-profile/lisbon Accessed March 28, 2021.
+Falahi, M., & Avami, A. (2019). Optimization of the municipal solid waste management
+system using a hybrid life cycle assessment–emergy approach in Tehran. Journal of
+Material Cycles and Waste Management, 22, 133–149. https://doi.org/10.1007/
+s10163-019-00919-0
+Farjana, S. H., Parvez Mahmud, M. A., & Huda, N. (2021). Introduction to Life Cycle
+Assessment. Life Cycle Assessment for Sustainable Mining (pp. 1–13). Amsterdam, NL:
+Elsevier. https://doi.org/10.1016/B978-0-323-85451-1.00001-9
+Ferrao, P., & Fernández, J. (2013). Sustainable urban metabolism. Cambridge, MA: MIT
+Press. ISBN 978-0-262-01936-1.
+
+Bação, F., Lobo, V., & Painho, M. (2005). Self-organizing maps as substitutes for K-Means
+CLUSTERING. In V. S. Sunderam, G. van Albada, P. Sloot, & J. J. Dongarra (Eds.),
+International Conference on Computational Science 2005. Lecture Notes in Computer
+Science (pp. 476–483). Berlin Heidelberg: Springer-Verlag. Vol. 3516.
+Bakshi, B. R., Ziv, G., & Lepech, M. D. (2015). Techno-ecological synergy: A framework
+for sustainable engineering. Environmental Science & Technology, 49(3), 1752–1760.
+Beloin-Saint-Pierre, D., Rugani, B., Lasvaux, S., Mailhac, A., Popovici, E., Sibiude, G.,
+et al. (2017). A review of urban metabolism studies to identify key methodological
+choices for future harmonization and implementation. Journal of Cleaner Production,
+163, S223–S240. https://doi.org/10.1016/j.jclepro.2016.09.014. http://dx.doi.org/
+.
+Berry, M. J. A., & Linoff, G. (1997). Data Mining Techniques. NY: John Wiley & Sons.
+Bishop, C. M. (1995). Neural Networks for Pattern Recognition (pp. 978–0198538646).
+New York, USA: Oxford University Press, Inc. ISBN.
+Cano Londoño, N. A., Velasquez, H. I., & McIntyre, N. (2019). Comparing the
+environmental sustainability of two gold production methods using integrated
+Emergy and Life Cycle Assessment. Ecological Indicators, 107, Article 105600.
+https://doi.org/10.1016/j.ecolind.2019.105600
+
+17
+
+Sustainable Cities and Society 80 (2022) 103754
+
+A. Peponi et al.
+
+Pedersen Zari, M. (2012). Ecosystem services analysis for the design of regenerative built
+environments. Building Research & Information, 40(1), 54–64. https://doi.org/
+10.1080/09613218.2011.628547
+Peponi, A., & Morgado, P. (2020). Transition to Smart and Regenerative Urban Places
+(SRUP): Contributions to a new conceptual framework. Land, 10(1), 2. https://doi.
+org/10.3390/land10010002
+Perez-Sanchez, L., Giampietro, M., Velasco-Fernandez, R., & Ripa, M. (2019).
+Characterizing the metabolic pattern of urban systems using MuSIASEM: The case of
+barcelona. Energy policy, 124, 13–22. https://doi.org/10.1016/j.enpol.2018.09.028
+Peuportier, B., & Herfray, G. (2010). Life cycle assessment applied to urban settlements.
+SB10 Mad1–11.
+Pincetl, S., Bunje, P., & Holmes, T. (2012). An expanded urban metabolism method:
+Toward a systems approach for assessing urban energy processes and causes.
+Landscape Urban Planning, 107, 193–202. https://doi.org/10.1016/j.
+landurbplan.2012.06.006. http://dx.doi.org/.
+PORDATA. (2001, 2009, 2011, 2013, 2014, 2017, (2018)). Municipalities. Retrieved
+from https://www.pordata.pt/en/Municipalities.
+Rallo†, F. R., & Zucaro, A. (2019). Assessing the energy metabolism of urban systems: A
+comparison of napoli and hong kong through the MuSIASEM approach. Journal of
+Environmental Accounting and Management, 7(2), 185–196. https://doi.org/10.5890/
+JEAM.2019.06.005
+Ramos, A., & Rouboa, A. (2020). Renewable energy from solid waste: Life cycle analysis
+and social welfare. Environmental Impact Assessment Review, 85, 106–469. https://
+doi.org/10.1016/j.eiar.2020.106469
+Sahely, H., Dudding, S., & Kennedy, C. (2003). Estimating the urban metabolism of
+Canadian cities. Greater Toronto Area case study. Canadian Journal of Civil
+Engineering, 30, 468–483. https://doi.org/10.1139/l02-105
+Santagata, R., Zucaro, A., Fiorentino, G., Lucagnano, E., & Ulgiati, S. (2020). Developing
+a procedure for the integration of life cycle assessment and emergy accounting
+approaches. The Amalfi paper case study. Ecological Indicators, 117, Article 106676.
+https://doi.org/10.1016/j.ecolind.2020.106676
+Sathya, R., & Abraham, A. (2013). Comparison of supervised and unsupervised learning
+algorithms for pattern classification. International Journal of Advanced Research in
+Artificial Intelligence, 2(2), 33–38. https://doi.org/10.14569/IJARAI.2013.020206
+Statistics Portugal (INE), (2011,. 2018). Database. Retrieved from https://www.ine.pt/x
+portal/xmain?xpid=INE&xpgid=ine_base_dados&contexto=bd&selTab=tab2.
+STATISTICS PORTUGAL, (2017). Estudo sobre o Poder de Compra Concelho 2017.
+Retrieved from https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicac
+oes&PUBLICACOESpub_boui=358634546&PUBLICACOESmodo=2.
+StatSoft, Inc. (2004). STATISTICA (data analysis software system), version 7. www.sta
+tsoft.com.
+Transtrum, M.K., .& Sethna, J.P. (.2012). Improvements to the Levenberg–Marquardt
+algorithm for nonlinear least-squares minimization. arXiv :1201.5885. Retrieved
+from https://arxiv.org/pdf/1201.5885.pdf.
+UN-Habitat. (2021). Energy. Retrieved from https://unhabitat.org/topic/energy
+Accessed June 14, 2021.
+United Nations (UN). (2018). 2018 Revision of World Urbanization Prospects. Retrieved
+from https://population.un.org/wup/Publications/Files/WUP2018-Report.pdf.
+Venugopal, V., & Baets, W. (1994). Neural networks and statistical techniques in
+marketing research: A conceptual comparison. Marketing Intelligence & Planning, 12
+(7), 30–38. https://doi.org/10.1108/02634509410065555
+Walzberg, J., Dandres, T., Merveille, N., Cheriet, M., & Samson, R. (2019). Assessing
+behavioural change with agent-based life cycle assessment: Application to smart
+homes. Renewable and Sustainable Energy Reviews, 111, 365–376. https://doi.org/
+10.1016/j.rser.2019.05.038
+Wang, Q., Xiao, H., Ma, Q., Yuan, X., Zuo, J., Zhang, J., et al. (2020). Review of emergy
+analysis and life cycle assessment: coupling development perspective. Sustainability,
+12(1), 367. https://doi.org/10.3390/su12010367
+Waterfall, J. J., Casey, F. P., Gutenkunst, R. N., Brown, K. S., Myers, C. R.,
+Brouwer, P. W., & S.ethna, J. P. (2006). Sloppy-model universality class and the
+vandermonde matrix. Physical Review Letters, 97, Article 150601. https://doi.org/
+10.1103/PhysRevLett.97.150601
+Westin, A. L., Kalmykova, Y., Rosado, L., Oliveira, F., Laurenti, R., & Rydberg, T. (2020).
+Combining material flow analysis with life cycle assessment to identify
+environmental hotspots of urban consumption. Journal of Cleaner Production, 226,
+526–539. https://doi.org/10.1016/j.jclepro.2019.04.036
+Zhang, G., Patuwo, B. E., & Hu, M. Y. (1998). Forecasting with artificial neural networks:
+The state of the art. International Journal of Forecasting, 14(1), 35–62. https://doi.
+org/10.1016/S0169-2070(97)00044-7
+Zhang, Y. (2013). Urban metabolism: A review of research methodologies. Environmental
+Pollution, 178, 463–473. https://doi.org/10.1016/j.envpol.2013.03.052
+Zhang, Y., Lu, W., Tam, V. W.-Y., & Feng, Y. (2018). From urban metabolism to industrial
+ecosystem metabolism: A study of construction in Shanghai from 2004 to 2014.
+Journal of Cleaner Production, 202, 428–438. https://doi.org/10.1016/j.
+jclepro.2018.08.054
+
+Fischer, M. M. (1998). Computational neural networks. A new paradigm for spatial
+analysis. Environmental and Planning A: Economy and Space, 30(10), 1873–1891.
+https://doi.org/10.1068/a301873
+Fischer, M. M. (2006). Spatial Analysis and Geocomputation. Selected Essays. Springer.
+ISBN-10 3-540-35729-7.
+Fu, Y., Liu, Q., Ling, X., & Cui, Z. (2014). A reward optimization method based on action
+subrewards in hierarchical reinforcement learning. The Scientific World Journal.
+https://doi.org/10.1155/2014/120760, 2014, Article ID 120760, 6.
+García-Guaita, F., González-García, S., Villanueva-Rey, P., Moreira, M. T., & Feijoo, G.
+(2018). Integrating urban metabolism, material flow analysis and life cycle
+assessment in the environmental evaluation of santiago de compostela. Sustainable
+Cities and Society, 40, 569–580. https://doi.org/10.1016/j.scs.2018.04.027
+Gavin, H. P. (2019). The Levenberg-Marquardt Algorithm for Nonlinear least Squares CurveFitting Problems. Department of Civil and Environmental Engineering Duke
+University. Retrieved from. https://people.duke.edu/~hpgavin/ce281/lm.pdf.
+Graves A. (2012). Supervised sequence labelling with recurrent neural networks. Berlin:
+Springer. ISBN: 978-3642247965.
+Ginard-Bosch, F. J., & Ramos-Martín, J. (2016). Energy metabolism of the Balearic
+Islands (1986-2012). Ecological Economics, 124, 25–35. https://doi.org/10.1016/j.
+ecolecon.2015.12.012
+Goldstein, B. P., Birkved, M., Quitzau, M.-. B., & Hauschild, M. (2013). Quantification of
+urban metabolism through coupling with the life cycle assessment framework:
+Concept development and case study: Letter. Environmental Research Letters, 8(3),
+Article 035024. https://doi.org/10.1088/1748-9326/8/3/035024
+Goodfellow, I., Bengio, Y., & Courville, A. (2016). Optimization for training deep models.
+Deep learning (pp. 271–325). Cambridge, MA: MIT Press. ISBN-13: 978-0262035613.
+Henriques, R., Bação, F., & Lobo, V. (2012). Exploratory geospatial data analysis using
+the GeoSOM suite. Computers, Environment and Urban Systems,, 36(3), 218–232.
+https://doi.org/10.1016/j.compenvurbsys.2011.11.003
+Kennedy, C., Pincetl, S., & Bunje, P. (2011). The study of urban metabolism and its
+applications to urban planning and design. Environmental Pollution, 159(8),
+1965–1973. https://doi.org/10.1016/j.envpol.2010.10.022
+Khanali, M., Mobli, H., & Hosseinzadeh-Bandbafa, H. (2017). Modeling of yield and
+environmental impact categories in tea processing units based on artifcial neural
+networks. Environmental Science and Pollution Research, 24(34), 26324–26340.
+https://doi.org/10.1007/s11356-017-0234-5
+Li, T., Song, Y. M., Li, A., Shen, J., Liang, C., & Gao, M. (2020). Research on green power
+dispatching based on an emergy-based life cycle assessment. Processes, 8(1), 114.
+https://doi.org/10.3390/pr8010114
+Lievano, R. J., & Kyper, E. S. (2006). Data mining reliability: Model-Building with mars
+and neural networks. In K. D. Lawrence, & M. D. Geurts (Eds.), Advances in business
+and management forecasting (pp. 215–242). Amsterdam, NL: Elsevier Ltd. ISBN-13:
+978-0762312818.
+Lippmann, R. L. (1987). An introduction to computing with neural nets. IEEE ASSP
+Magazine, 4, 4–22.
+Liu, X. Y., Charles, M., & Bakshi, B. R. (2019). Including ecosystem services in life cycle
+assessment: Methodology and application to urban farms. Procedia CIRP, 80,
+287–291.
+Loiseau, E., Roux, P., Junqua, G., Maurel, P., & Bellon-Maurel, V. (2014).
+Implementation of an adapted LCA framework to environmental assessment of a
+territory: Important learning points from a French Mediterranean case study. Journal
+of Cleaner Production, 80, 17–29. https://doi.org/10.1016/j.jclepro.2014.05.059
+Maranghi, S., Parisi, M. L., Facchini, A., Rubino, A., & Basosi, R. (2020). Integrating
+urban metabolism and life cycle assessment to analyse urban sustainability.
+Ecological Indicators, 112, Article 106074. https://doi.org/10.1016/j.
+ecolind.2020.106074
+Marvuglia, A., Navarrete Gutiérrez, T., Baustert, P., & Benetto, E. (2018).
+Implementation of agent-based models to support life cycle assessment: A review
+focusing on agriculture and land use. AIMS Agriculture and Food, 3(4), 535–560.
+https://doi.org/10.3934/agrfood.2018.4.535
+Micolier, A., Loubet, P., Taillandier, F., & Sonnemann, G. (2019). To what extent can
+agent-based modelling enhance a life cycle assessment? Answers based on a
+literature review. Journal of Cleaner Production, 239, Article 118123. https://doi.org/
+10.1016/j.jclepro.2019.118123
+Mirabella, N., Allacker, K., & Sala, S. (2018). Current trends and limitations of life cycle
+assessment applied to the urban scale: Critical analysis and review of selected
+literature. The International Journal of Life Cycle Assessment, 24, 1174–1193. https://
+doi.org/10.1007/s11367-018-1467-3
+Nabavi-Pelesaraei, A., Rafiee, S., Mohtasebi, S. S., Hosseinzadeh-Bandbafha, H., &
+Chau, K. W. (2018). Integration of artificial intelligence methods and life cycle
+assessment to predict energy output and environmental impacts of paddy
+production. Science of the Total Environment, 631–632, 1279–1294. https://doi.org/
+10.1016/j.scitotenv.2018.03.088
+Odum, H. T. (1983). Systems Ecology; An Introduction. New York: Wiley.
+Openshaw, S., & Openshaw, C. (1997). Artificial Intelligence in Geography (1st ed.). New
+York, NY: John Wiley & Sons, Inc. ISBN 0471969915.
+
+18
+
+

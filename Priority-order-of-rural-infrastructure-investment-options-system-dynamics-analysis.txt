@@ -1,0 +1,1006 @@
+Case Study
+
+Priority Order of Rural Infrastructure Investment Options:
+System Dynamics Analysis
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+Qingbin Shi1; Zhuo Feng2; Jinbo Song3; and Jingxin Gao4
+
+Abstract: As a crucial measure to promote the coordinated development of urban and rural areas in developing countries (such as China),
+how to provide and manage rural infrastructure investment is a major challenge. In line with the implementation of a coordinated urban–rural
+development strategy, inclusive growth provides direction for rural infrastructure investment. Taking Chongqing, China, as an example, informed by the goals of inclusive growth, this study develops a system dynamics model to investigate the interaction between interdependent
+infrastructure systems and socioeconomic systems and to explore priorities for rural infrastructure investment. The results indicate the following: (1) more rural infrastructure investment is still needed in Chongqing by 2030; and (2) based on the importance of all types of rural
+infrastructures for the impact of inclusive growth goals, the ratio of budget shares invested in each dimension is, in descending order, environment infrastructure, energy infrastructure, communication infrastructure, transportation infrastructure, education infrastructure, and
+medical infrastructure. The approach and results of this study allow governments to assess the contribution of infrastructure provision to
+the goals of inclusive growth and to make better-informed infrastructure investment options. DOI: 10.1061/JUPDDM.UPENG-4864.
+© 2024 American Society of Civil Engineers.
+Author keywords: Rural infrastructure investment; Priority; Inclusive growth; Coordinated development; System dynamics; Chongqing.
+
+Introduction
+It is well known that a disturbing trend concurrent with economic
+growth in the process of urbanization is that all members of a
+society do not beneﬁt equally. Incomes are rising for the already
+well-off, for example, while most people’s living standards are
+stagnating (Lee 2019). Income inequality persists even in wealthier
+nations of North America and Europe [Organisation for Economic
+Co-operation and Development (OECD) 2011]. According to estimates by the Brookings Institution (Lee 2019; Wessel 2015), average real earnings for full-time male workers in the United States
+declined between 1973 and 2014, because the pay gap between
+workers at the top and those at the middle and bottom levels has
+been steadily widening, and large cities tend to have greater income
+inequality than the rest of the country (Hu and Wang 2019; Shah
+et al. 2015). By contrast, the problem of the rich–poor gap is
+more prominent in developing countries undergoing urbanization
+(such as China, India, and Pakistan) (Young 2013), especially the
+urban–rural income gap (Liu and He 2019; Wang et al. 2019). In
+1
+Ph.D. Candidate, School of Economics and Management, Dalian
+Univ. of Technology, Hi-Tech Industrial Zone, Dalian 116024, China.
+Email: shiqingbin17@163.com
+2
+Associate Professor, School of Economics and Management, Dalian
+Univ. of Technology, Hi-Tech Industrial Zone, Dalian 116024, China
+(corresponding author). Email: zhfeng@dlut.edu.cn
+3
+Professor, School of Economics and Management, Dalian Univ. of
+Technology, Hi-Tech Industrial Zone, Dalian 116024, China. ORCID:
+https://orcid.org/0000-0003-0053-6561. Email: songjinbo@dlut.edu.cn
+4
+Assistant Professor, School of Economics and Management, Dalian
+Univ. of Technology, Hi-Tech Industrial Zone, Dalian 116024, China.
+ORCID: https://orcid.org/0000-0001-5256-747X. Email: gjxin29@dlut
+.edu.cn
+Note. This manuscript was submitted on August 3, 2023; approved on
+April 24, 2024; published online on July 17, 2024. Discussion period open
+until December 17, 2024; separate discussions must be submitted for individual papers. This paper is part of the Journal of Urban Planning and
+Development, © ASCE, ISSN 0733-9488.
+
+© ASCE
+
+China, the world’s largest developing country, the urbanization
+level has increased dramatically from 17.9% in 1978 to 60.6% in
+2019 with an average annual Gross Domestic Product (GDP)
+growth of nearly 10% during the same period (Liu et al. 2020),
+but the social Gini coefﬁcient climbed to 0.484 in 2007 (MoleroSimarro 2017) and has remained above the international warning
+line of 0.4 since then (Ge et al. 2020). If the gap is left uncontrolled,
+social cohesion, political stability, and economic growth may be
+undermined (Hu and Wang 2019). Moreover, the unequal distribution of growth beneﬁts during urbanization is reﬂected not only in
+the income but also in the nonincome dimensions. In developed
+Western countries, where ethnic divisions and sexual discrimination are particular dimensions of nonincome inequality (Painter
+and Yu 2014), certain groups, such as whites or men, tend to be
+more competitive in the job market and enjoy a higher standard
+of living (Redmond and Mcguinness 2019). Unlike in Western developed countries, the nonincome dimension of inequality manifests itself in most developing countries in unequal access to
+basic public services between urban and rural areas resulting
+from imbalances in infrastructure construction (Guan et al. 2018).
+The nonincome gap usually leads to unfair starting points and unfair opportunities. For example, the widening gaps in the quality of
+roads, drinking water, health, education, and housing could further
+reduce the poor’s opportunities to obtain wage income and worsen
+the income gap between the poor and the rich (Ali and Yao 2004;
+Liu and He 2019). As Estache et al. (2016) pointed out, the access
+of individuals to economic opportunity depends on the individual
+capabilities and the infrastructure and public services provided by
+the government to improve the quality of life of the people. In
+this context, the need to reduce inequalities and share beneﬁts
+has increased the focus on inclusive growth (Ianchovichina and
+Lundstrom 2009; Lee 2019).
+The concept of inclusive growth was introduced by the Asian
+Development Bank (ADB) in 2007 in response to the widening
+gap between the poor and the rich in many countries and is incorporated into the Sustainable Development Goals (Ge et al. 2020). It
+is not limited to economic growth, but also the goal of creating
+
+05024032-1
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+equal opportunities for all in both the income and nonincome dimensions (Corrado and Corrado 2017). It acknowledges that it is
+possible to achieve these outcomes by implementing appropriate
+measures, such as removing distortions created by market, policy,
+and institutional failures (Biswas 2016). Since its emergence, the
+concept of inclusive growth has been rapidly integrated into the
+policymaking process of emerging economies (Biswas 2019). In
+the United Kingdom, for example, the Scottish government has incorporated Inclusive Growth as one of its goals within the Agenda
+for Cities (Rimpilainen 2016), with cities like Leeds also implementing Inclusive Growth strategies (Lee 2019). Cities across the
+United States have embraced green infrastructure in ofﬁcial planning efforts to address long-standing issues of systemic racism
+and urban inequality by providing multiple functions and beneﬁts
+for urban residents (Grabowski et al. 2023). As one of the world’s
+most unequal emerging economies, China was among the ﬁrst to
+embrace and respond to the concept of inclusive growth. The government has recognized that the principal contradiction that society
+faces has evolved into one between people’s growing need for a
+better life and unbalanced and inadequate development and thus
+has put forward a new concept of development that includes coordination and sharing, which is the Chinese interpretation of inclusive growth (Wang et al. 2021). The signiﬁcant urban–rural gap
+reﬂected in income and nonincome dimensions is a core manifestation of unbalanced and inadequate development (Ge et al. 2020;
+Wang et al. 2021). Priority in addressing this issue includes investment in needed rural infrastructure resources (Calderon and Servén
+2004; Shen et al. 2012). Infrastructure is by nature a public or
+quasi-public good, which determines its role in improving inclusive
+growth (Jin et al. 2021). Therefore, it also makes how to promote
+inclusive growth through infrastructure investment in rural areas
+a key policy point.
+There has been extensive discussion in the literature on the impact of infrastructure on inclusive growth, but most studies have focused on economic growth or income inequality (Diaz et al. 2016),
+rarely considering both (Berg et al. 2012). For its advocates,
+whether equality and growth can be taken into account is relevant
+to the sustainable development of urbanization (Thacker et al.
+2019). In addition, when it comes to promoting inclusive growth
+through effective infrastructure investment, most studies have relied on empirical evidence for the impact of individual infrastructure on inclusive growth (Zhang et al. 2015). Few studies have
+considered the highly interdependent relationships among multiple
+infrastructures, including the potential cascading effects that may
+result from these interconnections in the provision of infrastructure
+(Guidotti et al. 2016). Because all types of infrastructures together
+make up a complex system, even a slight change in one part of the
+system can affect another (Stapelberg 2008), thereby affecting the
+economic growth of a region and the well-being of its citizens
+(Ouyang 2014). Given that investment budget constraints make it
+impossible to invest in all types of infrastructures, there is thus
+an urgent need for the government to prioritize the relevant infrastructure investment based on its contribution to inclusive growth
+(Shen et al. 2011b).
+To this end, based on the goals of inclusive growth from the perspective of China’s urban–rural gap, that is, increasing the value of
+primary industry output and reducing income and nonincome inequality between urban and rural residents, this study aims to explore the priorities for rural infrastructure investment by
+introducing a simulation model that can describe complex problems and reﬂect the interactions and dynamic feedback effects of
+a multi-infrastructure provision. Finally, we applied simulationbased models to provide the opportunity to perform different
+© ASCE
+
+experiments on systems that do not even exist (Olivares-Aguila
+and ElMaraghy 2021) to answer the following questions:
+First, is there a need to continue to increase investment in rural
+infrastructure?
+Second, due to the diversity of infrastructure, which types of
+rural infrastructure should be prioritized for investment?
+Third, how should the budgets be allocated to various aspects of
+rural infrastructure in light of their contributions to the goals of inclusive growth?
+In the following sections, we conduct a literature review on inclusive growth analysis. The proposed simulation framework is detailed in the “Data and Model” section. The analysis and results of
+the simulation runs are presented in the “Results and Discussion”
+section. The study concludes by summarizing the ﬁndings and offering recommendations in the “Conclusions and Policy Implications” section.
+
+Literature Review
+Given that the concept of inclusive growth is considered relatively
+nascent (Ngepah 2017), scholars have proposed several frameworks and indicators to measure it. On the one hand, some scholars
+focused on the breadth of growth beneﬁciaries from the perspective
+of economic dimensions, emphasizing the distribution of growth
+outcomes rather than the aggregate growth rate (Ianchovichina
+and Lundstrom 2009). In this case, inclusive growth is measured
+by various attributes, such as GDP per capita (Oyinlola et al.
+2020) and income inequality (Qiu and Zhao 2019). On the other
+hand, some scholars focused on various dimensions of growth
+and proposed that measuring inclusive growth should consider
+not only income growth but also the overall improvement in social
+inclusion (Hu and Wang 2019; Shah et al. 2015), such as access to
+basic services. In summary, previous studies have reached a consensus that indicators related to economic growth and inequality reduction can be considered valid parameters for measuring inclusive
+growth and that the two are not necessarily in competition with
+each other but can be harnessed by each other (Biswas 2019).
+Recent studies have also explored the determinants of inclusive
+growth. In addition to economic growth (Vellala et al. 2014), technological innovation (George et al. 2012), resource mobilization
+(Oyinlola et al. 2020), and labor force participation (Jalles and de
+Mello 2019), infrastructure construction is considered to help
+achieve inclusive growth (Ali and Yao 2004) because it is associated with economic growth and reduction of inequalities (Thacker
+et al. 2019). In terms of the growth effect of infrastructure, scholars
+have analyzed the role of infrastructure in improving economic efﬁciency, reducing transaction costs, and promoting economic
+growth from different perspectives including cases, theoretical
+models, and empirical estimates (Melo et al. 2013). In rural
+areas, the good condition of infrastructure directly determines the
+level of agricultural economic performance (Antle 1983). As Agarwal et al. (2009) and Chaurey and Le (2022) pointed out, investment in rural infrastructure, such as transportation, energy,
+education, communication, and environmental protection, not
+only improves agricultural production efﬁciency but also signiﬁcantly increases the nonagricultural employment opportunities of
+farmers, consequently increasing their incomes. Moreover, in
+terms of the inequality reduction effect of infrastructure, Fransen
+et al. (2019) argued that unequal distribution of infrastructure
+will lead to gaps in people’s accessibility to basic services, creating
+spatial segregation (Shen et al. 2012; Wiesel and Liu 2021). The
+income gap is reinforced by a long-standing imbalance in infrastructure investment between urban and rural areas (Guan et al.
+
+05024032-2
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+2018), as in China the ratio of disposable income of urban to rural
+residents was as high as 3.20:1 in 2019 (Zhong et al. 2022).
+China has experienced the largest wave of urbanization in
+human history due to urban-biased policies in line with the global
+trend of radical urbanization, which provide the policy basis for the
+urban–rural divide (Hu and Wang 2019; Scott 2002). Infrastructure, a key factor in China’s social development, is vulnerable to
+government distortion and manipulation (Shen et al. 2011a). Government intervention through infrastructure investment policies has
+led to an improper distribution of factors between urban and rural
+areas, thereby affecting incomes (Leng 2022). Ultimately, the problem of regional inequality will slow the pace of building inclusive
+urbanization. Over the past two decades and more, China has made
+a series of bold innovations and explorations in promoting urban–
+rural integration and balanced development among regions, such as
+ofﬁcially advocating the idea of inclusive urbanization and urban–
+rural integration, which has provided empirical reference for other
+developing countries (Wahnschafft and Wei 2015).
+As a speciﬁc response to the initiative of inclusive growth, the
+Chinese government has been committed to narrowing the
+urban–rural gap through infrastructure investment in rural areas
+(Long et al. 2016; Shen et al. 2011a). For example, with the implementation of the Broadband China policy in rural areas, the Internet penetration rate in China’s rural areas was 38.4% by the end of
+2018 (Leng 2022). This has signiﬁcantly improved the level of infrastructure in rural areas, hence helping raise rural residents’ incomes and narrow the income gap between the urban and rural
+areas (Leng 2022). However, infrastructure investment is characterized by diminishing marginal returns (Solow 1956). As demonstrated by Shi et al. (2017) and Dinlersoz and Fu (2022),
+economic infrastructure investment has shown an inverted U
+shape in promoting economic growth in China, while social infrastructure still has a better return on investment. In this regard, the
+government should adjust the ﬁscal expenditure structure in a
+timely manner and shift to the construction of social infrastructure
+such as required for science, education, health, and environmental
+protection to promote economic development more effectively
+(Dinlersoz and Fu 2022). Furthermore, the infrastructure systems
+that are conceived to serve the basic necessities of society consist
+of multiple infrastructures that interact with each other (Zhang
+et al. 2018), the processes that entail its development are complex,
+and public institutions need to manage them efﬁciently (Iniestra
+and Gutierrez 2009; Páez-Pérez and Sanchez-Silva 2016; Yao
+et al. 2011), where the direction of government spending is crucial
+in the context of important budget constraints (Iniestra and Gutierrez 2009). In this study, we highlight the importance of the priority
+order of rural infrastructure investment options to accelerate inclusive growth in the Chinese policy context.
+Previous studies proposing prioritization schemes for rural public infrastructure investment have overlooked the interdependency
+among infrastructures. This omission compromises the reliability
+of infrastructure investment selection schemes, because various
+types of infrastructures inﬂuence and collaborate with each other
+through complex mechanisms to provide essential services supporting economic growth and enhancing resident well-being (Stapelberg 2008; Ouyang 2014). In view of this, this study applies the
+system dynamics (SD) approach, which was introduced by Forrester Jay (1961). It is a simulation methodology for understanding,
+visualizing, and analyzing complex systems and their dynamical
+behavior based on system structure theory (Forrester Jay 1961),
+which has a great capability to conceptualize complex interrelationships among system components, analyze the underlying causes of
+problems, and generate useful information for policy decisionmaking (Li et al. 2021). Feedback loops, stocks, and ﬂows are
+© ASCE
+
+the central concepts in the SD approach (Min et al. 2007). It is especially applicable to problems with continuous and dynamic quantities that are interconnected in feedback loops and circular
+causality (Sterman 2000). Recently, the SD model has been increasingly used in infrastructure management systems. Yao et al.
+(2011) introduced an SD model to explore the solutions for improving poor sustainability performance in transport infrastructure. Diaz
+et al. (2016) developed an SD model to explore the causal relationships among key demographic, transportation infrastructure, travel
+behavior, and economic activity components and to determine the
+impact of infrastructure investment on regional economic growth.
+Hessami et al. (2020) demonstrated that the SD model is an ideal
+approach for simulating the impacts of prioritizing infrastructure
+construction projects on project performance.
+Therefore, to address the limitations of current infrastructure investment selection methods, we build the system dynamics model
+to offer an alternative assessment approach for prioritizing infrastructure investment choices. This method can not only highlight
+the dynamic interactions among different types of infrastructures
+but also validate and compare the simulation results of investment
+budget allocation for various types of infrastructures. This holds
+signiﬁcant practical importance in enhancing input precision, ensuring the rational utilization of funds, and fostering inclusive
+growth.
+
+Data and Model
+Case Selection
+The city of Chongqing is used as a case study in this paper. The
+city, one of China’s four municipalities, is located on the upper
+reaches of the Yangtze River in southwest China. It has seen its
+rural population fall from 14.56 million in 2007 to 9.33 million
+in 2022 and its share of the total population drop from 50.89% to
+29.04%. However, in contrast to the other three municipalities,
+such as Beijing, Shanghai, and Tianjin, where the rural population
+is much less than their urban counterparts, Chongqing is characterized by the coexistence of a metropolis and a vast rural area, with a
+prominent paradoxical dual structure between the urban and rural
+areas (Shen et al. 2012). For example, the urban–rural income
+ratio reached 3.74 in 2006, and there was also a considerable disparity in the provision of public services between urban and rural
+areas in 2007, with 4.15 hospital beds per 1,000 people in urban
+areas compared to 1.83 in rural areas (Qian 2017). Because of
+this distinctive urban–rural character, Chongqing was chosen as
+one of the two experimental zones for coordinated urban–rural development in 2007. Since then, the Chongqing government has invested heavily in infrastructure construction projects in rural areas
+to put the strategy into practice, including water and transport infrastructures (Shen et al. 2011a; Zhang et al. 2015). Therefore, Chongqing is a good case study if we consider the priority order of rural
+infrastructure investment options in terms of inclusive growth from
+the perspective of harmonizing urban and rural development in
+China.
+Data Sources
+Basic socioeconomic and infrastructure data are mainly obtained
+from the ofﬁcial statistical data sets, including the China Statistical
+Yearbook (2008–2020) and the Statistical Yearbook of the Chinese
+Investment in Fixed Asset (2008–2020) provided by the National
+Bureau of Statistics of China, the China Urban–Rural Construction
+Statistical Yearbook (2008–2020) provided by the Ministry of
+
+05024032-3
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+Housing and Urban–Rural Development of the People’s Republic
+of China, and the Chongqing Statistical Yearbook (2008–2020)
+provided by the Chongqing Bureau of Statistics. Referring to the
+World Bank’s (1994) deﬁnition of infrastructure, this study includes economic infrastructure and social infrastructure, where
+the former includes energy, transportation, and communication infrastructure and the latter mainly includes education, health care,
+sanitation, and other public facilities. All variables measured in
+nominal price units are converted into real values in the base
+year of 2007 to exclude the effects of inﬂation. The related price
+index is obtained from the China Statistical Yearbooks.
+Furthermore, the interdependency relationships among infrastructure are quantiﬁed based on the level of economic interdependency between infrastructure sectors in the input–output table
+(Haimes et al. 2005; Ouyang 2014). In general, the level of economic interdependency between sectors is often representative of
+physical interconnectedness, and two sectors that have a large volume of economic transactions have a similarly large degree of
+physical linkages (Haimes et al. 2005).
+System Dynamics Modeling
+The SD model established in this study follows four steps: (1) determining the simulation objectives, which include determining the
+system boundaries and sorting out all variables; (2) conducting causality relationship analyses among variables and designing causal
+loop diagrams; (3) developing stock-ﬂow diagrams and establishing function relationships; and (4) calibrating and validating the
+model and conducting simulations.
+
+Model Overview
+The SD model established in this study is run for the period from
+2007 to 2030, where the model forecasts the period from 2020 to
+2030, and the modeling time step is 1 year. This study aims to explore the importance of the prioritization of rural infrastructure investment options by testing the changing behaviors and tendencies
+of inclusive growth goals in the model. Based on the perspective
+presented by Wang et al. (2021) regarding the Chinese interpretation of inclusive growth, the government has put forward a new development concept including coordination and sharing to deal with
+the contradiction between unbalanced and inadequate development
+and the people’s growing need for a better life. Therefore, the goals
+of inclusive growth in this study mainly focus on promoting rural
+economic growth and narrowing the gap between urban and rural
+residents in terms of income and nonincome dimensions. According to the research objectives of this study, the SD model developed
+is divided into three parts: demographic subsystem, socioeconomic
+subsystem, and infrastructure subsystem, and the system components contained in each subsystem are determined accordingly
+(Fig. 1). First, the demographic subsystem consists of the main factors affecting the rural population, including the rural population
+growth rate and mortality rate, the annual rural population decrease,
+and other variables. Given the likelihood that the widening gap in
+income and nonincome dimensions between urban and rural areas
+may incentivize the migration of the rural population to urban
+areas, resulting in a decline in rural population, the annual rural
+population decrease is thus regarded as a pivotal variable in the dynamic interaction between the demographic subsystem and the infrastructure and socioeconomic subsystem.
+
+Fig. 1. Structure of the system dynamics model.
+© ASCE
+
+05024032-4
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+Second, the socioeconomic subsystem consists of the main factors inﬂuencing rural economic development and the income levels
+of both rural and urban residents, including regional economy,
+ﬁxed assets investment, rural residents’ consumption, output
+value of secondary and tertiary industries, urbanization level, and
+other relevant variables. Within this subsystem, the output value
+of primary industry is regarded as a crucial variable in the dynamic
+interaction between the socioeconomic subsystem and the infrastructure subsystem, while income inequality between urban and
+rural residents is considered a key variable in the dynamic interaction between the socioeconomic subsystem and the demographic
+subsystem.
+Third, the infrastructure subsystem focuses on modeling the extent of nonincome dimensional inequality between urban and rural
+areas by measuring the gap between six types of infrastructures, including energy, transportation, education, health, communication,
+
+(a)
+
+and environmental protection. The lower the inequality in the nonincome dimension, the greater the opportunities for farmers to increase their incomes, the greater the agricultural growth, and the
+greater the rural development. Within this subsystem, the construction of rural infrastructure is inﬂuenced by the investment in ﬁxed
+assets in the socioeconomic subsystem and by the policy intervention of exogenous variables, namely, the priority order of rural infrastructure investment options.
+Lastly, based on describing the basic structure of feedback relationships between variables, a stock and ﬂow diagram of the SD
+model is constructed (Fig. 2). The relationships among the variables in the model and the parameters of these relations are determined through the following methods: (1) Empirical formula: by
+referencing the existing literature, the equation is derived based
+on the logical relationship between variables or through the use
+of empirical formulas. (2) Regression analysis: the relationship
+
+(b)
+
+(c)
+
+Fig. 2. Stock-ﬂow of the model: (a) stock-ﬂow diagram of the demographic and socioeconomic subsystems; (b) stock-ﬂow diagram of the infrastructure subsystem; and (c) stock-ﬂow diagram of the infrastructure subsystem.
+© ASCE
+
+05024032-5
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+between economic variables is quantitatively analyzed using
+econometric methods, building on qualitative insights. (3)
+Table function: nonlinear variables without a signiﬁcant correlation
+can be represented using table functions. The parameter settings
+and relationship equations for all variables in the model are detailed
+in Tables S1–S3.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+Model Validation
+Validity tests, including structure test and behavior pattern test,
+are proposed to ensure the accuracy of the SD model (Sterman
+2000). The former consists of a direct structure test and a
+structure-oriented behavior test. First, the result of the dimensional
+consistency test in the direct structure test shows that the equations
+are logically established and that the SD model constructed in this
+study is structurally valid (as shown in Fig. S1). Then, the behavior
+sensitivity test in the structure-oriented behavior test is used to indirectly assess the validity and stability of the SD model structure.
+The model passes this test when the system simulation time step is
+given at 1, 0.5, and 0.25 years, in which the system behaves similarly (as shown in Fig. S2). Finally, the model behavior pattern test
+is applied to measure whether the simulation results are in line with
+the corresponding historical data. Seven key variables are selected
+from the system for the quantitative analyses of the mean absolute
+relative error (MARE) and the absolute relative error (ARE) during
+
+Fig. 3. Results of validation using ARE and MARE.
+
+the period 2007–2019, including rural population, output value of
+primary industry, inequality of income between urban and rural residents, infrastructure investment in rural areas, number of beds in
+rural medical and health institutions, number of primary and secondary school teachers in rural areas, and road mileage in rural
+areas. The results are displayed in Fig. 3, which shows that the
+AREs of 89 (of 91) observations are low (<0.08), and the MARE
+(0.028) is within 0.1 proving that the established model can adequately reﬂect the behavior of the real system.
+
+Results and Discussion
+Based on the multiple tests providing some assurance of model validity in the previous section, it is possible to design and evaluate
+scenarios and analyze their results. In this section, various scenarios
+are run on the model by adjusting variables and parameters. Subsequently, the research questions posed in the introduction can be answered sequentially, depending on how Chongqing’s inclusive
+growth goals evolve under different hypothetical scenarios.
+Scenario Simulation of Rural Infrastructure Investment
+Necessity
+To answer the ﬁrst question posed in the introduction, two scenarios, including the minimum and maximum values for the parameter
+“ratio of rural infrastructure investment in rural ﬁxed asset investment,” are deﬁned.
+In Scenario 1, it is assumed that the minimum value of the variable “ratio of rural infrastructure investment in rural ﬁxed asset investment” equals zero, while in Scenario 2, it is assumed that the
+maximum value of the variable “ratio of rural infrastructure investment in rural ﬁxed asset investment” equals one. The simulation results can be obtained by applying the model to the aforementioned
+two values shown in Fig. 4.
+According to Fig. 4, compared with Scenario 1, Scenario 2 has a
+signiﬁcant advantage in terms of the output value of primary industries, inequality of income between urban and rural residents, and
+nonincome dimension inequality between urban and rural areas.
+This indicates that greater infrastructure investment in rural areas
+
+Fig. 4. Simulation results for rural infrastructure investment scenarios.
+© ASCE
+
+05024032-6
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+can not only accelerate the growth of agricultural output value and
+rural residents’ incomes in Chongqing but also narrow the income
+and nonincome gaps between urban and rural areas. As many studies have argued, investment in infrastructure is a key ingredient for
+poverty and inequality reduction in developing countries, and investing in public infrastructure (such as transport, environment,
+sanitation, communications, and energy) in rural areas in particular
+is a useful strategy to counter the rising urban–rural divide (Zhang
+et al. 2012). This not only directly improves the well-being of the
+poor by addressing their basic needs but also ensures the effective
+functioning of the rural economy. Therefore, the Chongqing municipal government should continue to pursue more infrastructure
+investment in rural areas until 2030.
+Nevertheless, it is always presented that the extreme situations
+represented by Scenarios 1 and 2 are not the most likely outcomes
+(Sterman 2000). It is necessary to predict a range of values (the
+change interval between the minimum and maximum) because
+the change interval provides all the possible values that can occur
+in the results (Nasirzadeh et al. 2021). Monte Carlo simulations
+allow the generation of dynamic conﬁdence intervals for the trajectories of the variables in the model and can help identify the sensitivity of the variables (Sterman 2000). Therefore, a sensitivity
+analysis is conducted for Scenario 2 by running the Monte Carlo
+sensitivity simulation option in Vensim (version DSS 6.4) software. In the sensitivity analysis, a range of values for the parameter
+“ratio of rural infrastructure investment in rural ﬁxed asset investment” is set to (0, 1) (minimum value of 0 and maximum value
+of 1). The output value of primary industry, inequality of income
+
+between urban and rural residents, and nonincome dimension inequality between urban and rural areas at 50%, 75%, 95%, and
+100% conﬁdence bounds are shown in Fig. 5. In general, the
+greater the bandwidth of the dynamic conﬁdence intervals for the
+trajectories of the variables in the model, the more sensitive the outcome variables are to the uncertainty parameters.
+From the aforementioned chart, it can be noted that even a small
+change in the ratio of rural infrastructure investment can lead to a
+signiﬁcant difference in the anticipated output values of the three
+variables. For instance, owing to the increase in the uncertainty
+in the “ratio of rural infrastructure investment in rural ﬁxed asset
+investment,” there is a 95% chance that the output value of primary
+industry will be in the range of about 316 × 108 to 10,500 × 108 Yuan
+in 2030. Similarly, there is a 95% chance that the inequality of income between urban and rural residents will drop to approximately
+1.8, and the nonincome dimension inequality between urban and
+rural areas will drop to approximately 1.2 from 2007 to 2030.
+These simulation results on Monte Carlo sensitivity analysis also
+support the opinion stated in the ﬁrst section, that is, expanding
+rural infrastructure investment plays a vital role in narrowing the
+gap between urban and rural areas and rural economic growth.
+Scenario Simulation for Rural Infrastructure Investment
+Allocation
+However, promoting inclusive growth depends on the priority
+order of infrastructure investment in various dimensions, which
+constitutes the infrastructure investment strategy. Government
+
+Fig. 5. Input variable sensitivity analysis of the “ratio of rural infrastructure investment in rural ﬁxed asset investment.”
+© ASCE
+
+05024032-7
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+budget allocations for different types of rural infrastructure can signiﬁcantly affect poverty and inequality reduction (Cockburn et al.
+2013). Therefore, we designed six simulation scenarios, sequentially allocating the entire rural infrastructure investment budget
+to environmental, medical, educational, communication, transportation, and energy infrastructures. Subsequently, we conducted a
+Monte Carlo sensitivity simulation analysis for each scenario.
+These scenarios are outlined as follows:
+Scenario 1: The entire rural infrastructure investment budget is allocated to environmental infrastructure construction.
+Scenario 2: The entire rural infrastructure investment budget is allocated to medical infrastructure construction.
+Scenario 3: The entire rural infrastructure investment budget is allocated to educational infrastructure construction.
+Scenario 4: The entire rural infrastructure investment budget is allocated to communication infrastructure construction.
+Scenario 5: The entire rural infrastructure investment budget is allocated to transportation infrastructure construction.
+Scenario 6: The entire rural infrastructure investment budget is allocated to energy infrastructure construction.
+By applying the model to the aforementioned six scenarios, the
+simulation results shown in Fig. 6 were derived. The ﬁgure shows
+that the behavior patterns of the three variables are similar across
+the six scenarios, but the simulation results for the variables in
+the six scenarios still differ signiﬁcantly. Under the six scenarios,
+the output value of primary industry ﬁrst increases and then decreases. This situation can be explained by the fact that allocating
+the entire rural infrastructure investment budget to one type of infrastructure without considering the other ﬁve types of infrastructure can effectively promote the growth of the output value of
+primary industry in the short term. However, in the long run, skipping the other ﬁve types of infrastructure will worsen the nonincome gap between urban and rural areas, consequently affecting
+the growth of primary industry output value. As shown in Fig. 6,
+the nonincome dimension inequality between urban and rural
+areas shows an increasing trend under six different scenarios. It
+can also be seen in Fig. 6, where the inequality of income between
+urban and rural residents steadily decreases under all scenarios
+from 2007 to 2030. This ﬁnding further corroborates Dissou and
+Didic’s (2013) conclusion that the impact of speciﬁc types of infrastructure, like transportation, on rural economic growth and poverty reduction relies, to some extent, on complementary
+investments. Differently from the view that human capital is a necessary complementary investment, we conclude that rural infrastructure investment is essential to achieving the goals of
+inclusive growth in many dimensions, such as environmental infrastructure, medical infrastructure, education infrastructure, communication infrastructure, transportation infrastructure, and energy
+infrastructure, but the extents to which they contribute to the
+goals of inclusive growth vary.
+Based on the differences in the simulation results for the variables under the different scenarios in Fig. 6, it is noticeable that
+the curve for Scenario 1 is signiﬁcantly separated from the others,
+and all three variables perform better in this scenario, indicating
+that investment in rural environmental infrastructure plays a more
+important role in Chongqing’s efforts to achieve the goals of inclusive growth. This is because in rural areas of Chongqing, especially
+in the Chongqing Reservoir Region, the fragile ecoenvironment
+(comprising, e.g. water pollution) has long restricted economic development and poverty alleviation of residents (Cheng et al. 2018).
+As Plieninger et al. (2015) pointed out, the ecoenvironment and
+human well-being, wealth, and poverty are closely related. In addition, it can also be observed that all three variables perform worse
+in Scenario 2 compared with all other scenarios, demonstrating that
+© ASCE
+
+investment in rural medical infrastructure has the smallest impact
+on inclusive growth. There is also no clear distinction between
+the lines in Scenarios 5, 3, and 2, but the former two scenarios
+are slightly more dominant than Scenario 2. The likely explanation
+for this lies in the government’s signiﬁcant upsurge in investment
+in rural public services, including for healthcare, education, and
+roads, starting in 2007. This boost has substantially enhanced the
+accessibility of medical services, healthcare, compulsory education, and transportation for rural residents. A typical example is
+the road project that started in 2007 to connect every village. As
+a result, the construction of rural medical and health facilities, education facilities, and transportation facilities has a limited role in
+further affecting the goals of inclusive growth.
+In addition, for Monte Carlo sensitivity simulations, the parameters of proportion of investment in environmental infrastructure,
+proportion of investment in medical infrastructure, proportion of
+investment in education infrastructure, proportion of investment
+in communication infrastructure, proportion of investment in transport infrastructure, and proportion of investment in energy infrastructure are selected to analyze their impacts on the goals of
+inclusive growth. Under certain rural infrastructure investment
+budget constraints, the “proportion of investment in environmental
+infrastructure” is set to (0, 1) (minimum value of 0 and maximum
+value of 1) as “Sen-One”; the “proportion of investment in medical
+infrastructure” is set to (0, 1) as “Sen-Two”; the “proportion of investment in education infrastructure” is set to (0, 1) as “Sen-Three”;
+the “proportion of investment in communication infrastructure” is
+set to (0, 1) as “Sen-Four”; the “proportion of investment in transport infrastructure” is set to (0, 1) as “Sen-Five”; and the “proportion of investment in energy infrastructure” is set to (0, 1) as
+“Sen-Six.” The corresponding Monte Carlo sensitivity simulation
+results are presented in Fig. S3–S5. Speciﬁcally, when the value
+for the “proportion of investment in environmental infrastructure”
+increases from 0 to 1, there is a 95% chance that the output value
+of primary industry will be between about 308 × 108 and 655 ×
+108 yuan in 2030, and the variation amounts to approximately
+347 × 108 yuan, as shown in Fig. S3. Similarly, Fig. S3 also
+shows that the variation amounts of the primary industry output
+value in 2030 under the Sen-Two, Sen-Three, Sen-Four, Sen-Five,
+and Sen-Six scenarios are approximately 14 × 108, 15 × 108, 52 ×
+108, 24 × 108, and 93 × 108, respectively. The analysis indicates
+that the impact of rural environment infrastructure investment is
+greater than other infrastructures to growth in output value of primary industry, followed by energy infrastructure, communication
+infrastructure, transportation infrastructure, education infrastructure, and medical infrastructure.
+Fig. S4 illustrates the inequality of income between urban and
+rural residents for the 50%, 75%, 95%, and 100% conﬁdence
+bounds. For example, with 95% conﬁdence bounds, it is concluded
+that the variation amounts of the inequality of income between
+urban and rural residents in 2030 under the Sen-One, Sen-Two,
+Sen-Three, Sen-Four, Sen-Five, and Sen-Six scenarios are approximately 0.26, 0.05, 0.06, 0.13, 0.08, and 0.15, respectively. These
+results emphasize the sensitivities of the inequality of income between urban and rural residents to rural infrastructure investment
+in each dimension from the largest to the smallest are environmental infrastructure, energy infrastructure, communication infrastructure, transportation infrastructure, education infrastructure, and
+medical infrastructure. The sensitivity of the nonincome dimension
+inequality between urban and rural areas to rural infrastructure investment of each dimension is consistent with this conclusion, as
+presented in Fig. S5. Finally, by comparing the variation of
+urban–rural nonincome inequality at 50%, 75%, 95%, and 100%
+conﬁdence intervals under six scenarios in 2030, we ﬁnd that the
+
+05024032-8
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+Fig. 6. Simulation results for three variables in six different scenarios.
+© ASCE
+
+05024032-9
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+sensitivity of urban–rural nonincome inequality to rural infrastructure investment of each dimension is consistent with the ﬁrst two
+variables.
+Subsequently, based on the results on the contribution of rural
+infrastructure investment in each dimension to the inclusive growth
+goals, the following two simulation scenarios are considered to
+show the importance of adjusting the priority order of rural infrastructure investment in Chongqing. Scenario 1 assumes that the
+rural infrastructure investment budget for each dimension is maintained at its present values (36.15%, 1.69%, 6.72%, 3.84%,
+32.01%, and 19.59% of the infrastructure investment budget are allocated to environmental, medical, education, communication,
+transport, and energy infrastructures, respectively), thus reﬂecting
+the natural development scenario. Scenario 2 assumes that environmental infrastructure is the highest priority for rural infrastructure
+investment in Chongqing, with energy infrastructure being the second priority, communication being the third priority, transportation
+being the fourth priority, education being the ﬁfth priority, and
+medical being the lowest priority (40%, 3%, 7%, 15%, 10%, and
+25% of the infrastructure investment budget are allocated to environmental, medical, education, communication, transport, and energy infrastructures, respectively).
+By applying the model to the aforementioned two scenarios, the
+simulation results are derived as presented in Fig. 7. The ﬁgure
+shows that the output value of primary industry shows a steady upward trend in both scenarios, while the inequality of income between urban and rural residents and nonincome dimension
+inequality between urban and rural areas show a steady downward
+trend. Nonetheless, compared with baseline Scenario 1, we observe
+that the three variables perform better under the Scenario 2 investment strategy. Speciﬁcally, the output value of primary industry in
+Scenario 2 will be approximately 2.5 times higher than that of Scenario 1 in 2030. Meanwhile, the income and nonincome gap between urban and rural areas in Chongqing will be reduced by
+2.4% and 36%, respectively, by 2030. Therefore, it can be concluded that it is plausible to accelerate inclusive growth by adjusting the priority order of rural infrastructure investment in
+Chongqing, for example, by allocating relatively more investment
+budget to rural environmental infrastructure.
+
+simulations within the model, policymakers can explore various
+scenarios of allocation of budget to different types of infrastructures and evaluate their potential impacts on key variables related to inclusive growth. This process enables policymakers
+to identify the areas that yield positive or negligible impacts
+on inclusive growth goals, thus helping them to make optimal
+budget allocation decisions on different types of infrastructure
+investments.
+2. The ratio of rural infrastructure investment can be identiﬁed as a
+leverage parameter affecting the urban–rural gap based on a
+Monte Carlo sensitivity analysis. Simulation results suggest
+that minor infrastructure investment in rural areas will not
+help close the urban–rural gap over time, while more investment
+will make a difference over time.
+3. In the long run, focusing solely on a single type of rural infrastructure investment is the worst option for promoting rural economic growth and narrowing the urban–rural gap. There is a
+need to coordinate the various demands for all types of public
+infrastructures in rural areas. Sensitivity analysis through
+Monte Carlo simulation reveals that the priority order of rural
+infrastructures is as follows: (1) environmental infrastructure;
+(2) energy infrastructure; (3) communication infrastructure;
+(4) transportation infrastructure; (5) education infrastructure;
+and (6) medical infrastructure. Taking the variable of the output
+value of primary industry as an example, the variation amounts
+in 2030 under the corresponding infrastructure investment sensitivity analysis scenario are approximately 347 × 108, 93 × 108,
+52 × 108, and 14 × 108 yuan, respectively.
+4. Compared with the current scenario, by implementing a scenario model based on the priorities of rural infrastructure investment in each dimension obtained in Conclusion 3 (assume that
+40%, 25%, 15%, 10%, 7%, and 3% of the budget is allocated to
+environmental, energy, communication, transport, education,
+and medical infrastructures, respectively), the output value of
+the primary industry will increase by about 2.5 times in Chongqing, and the income and nonincome gaps between urban and
+rural areas are likely to decrease by 2.4% and 36%, respectively,
+by 2030.
+Policy Implications
+
+Conclusions and Policy Implications
+Conclusions
+To cope with the urban–rural gap in China, one of the concrete
+manifestations of many noninclusive issues, a fundamental step
+is to increase the quantity and quality of rural public infrastructure
+project provision (Calderon and Servén 2004; Shen et al. 2012).
+Particularly in the context of limited ﬁnancial resources, it is crucial
+to identify the priority order of rural public infrastructure options.
+Using Chongqing as an example and aligning with the goals of inclusive growth until 2030, this study builds a system dynamics
+model to elaborate on the signiﬁcance of rural infrastructure investment and presents a prioritized list of rural public infrastructure options based on their respective contributions. The following
+conclusions could be reached based on the research in this study:
+1. The case study of Chongqing shows that the system dynamics
+model developed in this study is a reliable and effective tool
+for simulating the transmission mechanism and the differences
+in the impacts of rural infrastructure investment on inclusive
+growth. Furthermore, the proposed model serves as a decision
+support tool for policymakers facing budget allocation decisions
+in the next ﬁscal year and beyond. By employing dynamic
+© ASCE
+
+Based on the ﬁndings, this study presents several policy implications to guide investment decisions in rural infrastructure in Chongqing, with the objective of better achieving inclusive growth goals.
+First, the Chongqing municipal government can continue to increase investment in rural public infrastructure by 2030, which is
+an effective strategy to achieving inclusive growth goals such as
+rural economic growth and narrowing the urban–rural gap.
+Second, when investing in rural infrastructure, the government
+should consider the priority of various types of infrastructures
+and allocate more investment preferentially to those that have a
+greater impact on inclusive growth. Speciﬁcally, the government
+should prioritize investment in rural environmental infrastructure,
+including projects such as water treatment, pollution control, and
+ecological restoration, to improve environmental quality, foster
+sustainable development, and promote economic growth and poverty alleviation in rural areas. Moreover, building on the prioritization of environmental infrastructure, the next step involves a
+heightened investment in energy infrastructure that can ensure reliable energy supply and support rural industrial development and
+the lives of residents. Potential measures encompass improving access to electricity and promoting the adoption of clean energy technologies. Following this, there should be a focus on enhancing
+communication and transportation infrastructure, including roads,
+
+05024032-10
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+Fig. 7. Simulation results for three variables in two different scenarios.
+© ASCE
+
+05024032-11
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+bridges, and Internet access, to enhance the quality of life and economic opportunities for rural residents. Finally, investing in education and health infrastructure to drive inclusive growth is less
+effective than investing in the aforementioned four types of infrastructures and should be used as a last resort.
+In addition, there are still some limitations that should be improved upon in future research. On the one hand, constrained by
+the limited data sources, this study adopts the output value of primary industry, the inequality of income between urban and rural
+residents, and the nonincome dimension inequality between
+urban and rural areas to present inclusive growth, which may not
+fully reﬂect the overall implications and nuances of inclusive
+growth. Future studies could construct more scientiﬁc evaluation
+systems to measure inclusive growth more accurately. On the
+other hand, in future studies, the SD model can be combined
+with other tools such as multiobjective optimization algorithms to
+derive more accurately the proportion of investment in all rural infrastructure types.
+
+Data Availability Statement
+All data, models, and codes generated or used during the study appear in the published paper.
+
+Acknowledgments
+This work was supported by the National Natural Science Foundation of China (Grant Nos. 72271042 and 72171036), the National
+Social Science Foundation of China (Grant No. 23VRC040), the
+Project of Philosophy and Social Sciences Research, Ministry
+of Education (Grant No. 22JHQ093), and the Fundamental Research Funds for the Central Universities of China (Grant No.
+DUT23RW303).
+
+Supplemental Materials
+Table S1–S3 and Figs. S1–S5 are available online in the ASCE Library (www.ascelibrary.org).
+
+References
+Agarwal, S., S. Rahman, and A. Errington. 2009. “Measuring the determinants of relative economic performance of rural areas.” J. Rural Stud.
+25 (3): 309–321. https://doi.org/10.1016/j.jrurstud.2009.02.003.
+Ali, I., and X. Yao. 2004. Inclusive growth for sustainable poverty reduction in developing Asia: The enabling role of infrastructure development. Mandaluyong, Philippines: Asian Development Bank.
+Antle, J. M. 1983. “Infrastructure and aggregate agricultural productivity:
+International evidence.” Econ. Dev. Cult. Change 31 (3): 609–619.
+https://doi.org/10.1086/451344.
+Berg, A., J. D. Ostry, and J. Zettelmeyer. 2012. “What makes growth sustained?” J. Dev. Econ. 98 (2): 149–166. https://doi.org/10.1016/j
+.jdeveco.2011.08.002.
+Biswas, A. 2016. “Insight on the evolution and distinction of inclusive
+growth.” Dev. Pract. 26 (4): 503–516. https://doi.org/10.1080
+/09614524.2016.1167169.
+Biswas, A. 2019. “A framework to analyse inclusiveness of urban policy.”
+Cities 87: 174–184. https://doi.org/10.1016/j.cities.2018.09.022.
+Calderon, C. A., and L. Servén. 2004. “The effects of infrastructure development on growth and income distribution.” Ann. Econ. Fin. 15 (2).
+https://doi.org/10.1596/1813-9450-3400.
+© ASCE
+
+Chaurey, R., and D. T. Le. 2022. “Infrastructure maintenance and rural economic activity: Evidence from India.” J. Public Econ. 214: 104725.
+https://doi.org/10.1016/j.jpubeco.2022.104725.
+Cheng, X., C.-M. Shuai, J. Wang, W.-J. Li, J. Shuai, and Y. Liu. 2018.
+“Building a sustainable development model for China’s povertystricken reservoir regions based on system dynamics.” J. Cleaner
+Prod. 176: 535–554. https://doi.org/10.1016/j.jclepro.2017.12.068.
+Cockburn, J., Y. Dissou, J.-Y. Duclos, and L. Tiberti., eds. 2013.
+Infrastructure and economic growth in Asia. Cham, Switzerland: Springer.
+Corrado, G., and L. Corrado. 2017. “Inclusive ﬁnance for inclusive growth
+and development.” Curr. Opin. Environ. Sustainability 24: 19–23.
+https://doi.org/10.1016/j.cosust.2017.01.013.
+Diaz, R., J. G. Behr, and M. W. Ng. 2016. “Quantifying the economic and
+demographic impact of transportation infrastructure investments: A
+simulation study.” Simulation 92 (4): 377–393. https://doi.org/10
+.1177/0037549716632343.
+Dinlersoz, E. M., and Z. Fu. 2022. “Infrastructure investment and growth in
+China: A quantitative assessment.” J. Dev. Econ. 158: 102916. https://
+doi.org/10.1016/j.jdeveco.2022.102916.
+Dissou, Y., and S. Didic. 2013. “Infrastructure and Growth.” In Economic
+studies in inequality, social exclusion, and well-being, edited by John
+Cockburn, Yazid Dissou, Jean-Yves Duclos, and Luca Tiberti, 5–45.
+Berlin, Germany: Springer.
+Estache, A., G. Garsous, and R. S. da Motta. 2016. “Shared mandates,
+moral hazard, and political (mis)alignment in a decentralized economy.” World Dev. 83: 98–110. https://doi.org/10.1016/j.worlddev
+.2016.02.006.
+Forrester Jay, W. 1961. Industrial dynamics. New York, London:
+Massachusetts Institute of Technology and Wiley.
+Fransen, K., K. Boussauw, G. Deruyter, and P. De Maeyer. 2019. “The relationship between transport disadvantage and employability:
+Predicting long-term unemployment based on job seekers’ access to
+suitable job openings in Flanders, Belgium.” Transp. Res. Part A
+Policy Pract. 125: 268–279. https://doi.org/10.1016/j.tra.2018.01.023.
+Ge, T., W. Qiu, J. Y. Li, and X. L. Hao. 2020. “The impact of environmental regulation efﬁciency loss on inclusive growth: Evidence from
+China.” J. Environ. Manage. 268: 110700. https://doi.org/10.1016/j
+.jenvman.2020.110700.
+George, G., A. M. McGahan, and J. Prabhu. 2012. “Innovation for inclusive growth: Towards a theoretical framework and a research agenda.”
+J. Manage. Stud. 49 (4): 661–683. https://doi.org/10.1111/j.1467-6486
+.2012.01048.x.
+Grabowski, Z. J., T. McPhearson, and S. T. A. Pickett. 2023.
+“Transforming US urban green infrastructure planning to address equity.” Landscape Urban Plann. 229: 104591. https://doi.org/10.1016/j
+.landurbplan.2022.104591.
+Guan, X. L., H. K. Wei, S. S. Lu, Q. Dai, and H. J. Su. 2018. “Assessment
+on the urbanization strategy in China: Achievements, challenges and reﬂections.” Habitat Int. 71: 97–109. https://doi.org/10.1016/j.habitatint
+.2017.11.009.
+Guidotti, R., H. Chmielewski, V. Unnikrishnan, P. Gardoni, T. McAllister,
+and J. van de Lindt. 2016. “Modeling the resilience of critical infrastructure: The role of network dependencies.” Sustainable Resilient
+Infrastruct. 1 (3–4): 153–168. https://doi.org/10.1080/23789689.2016
+.1254999.
+Haimes, Y. Y., B. M. Horowitz, J. H. Lambert, J. R. Santos, C. Y. Lian, and
+K. G. Crowther. 2005. “Inoperability input–output model for interdependent infrastructure sectors. I: Theory and methodology.”
+J. Infrastruct. Syst. 11 (2): 67–79. https://doi.org/10.1061/(Asce)1076
+-0342(2005)11:2(67).
+Hessami, A. R., V. Faghihi, A. Kim, and D. N. Ford. 2020. “Evaluating
+planning strategies for prioritizing projects in sustainability improvement programs.” Constr. Manag. Econ. 38 (8): 726–738. https://doi
+.org/10.1080/01446193.2019.1608369.
+Hu, W. Y., and R. Wang. 2019. “Which Chinese cities are more inclusive
+and why?” Cities 86: 51–61. https://doi.org/10.1016/j.cities.2018.12
+.010.
+Ianchovichina, E., and S. Lundstrom. 2009. Inclusive growth analytics:
+Framework and application. Washington, DC: World Bank Policy
+Research Working.
+
+05024032-12
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+Iniestra, J. G., and J. G. Gutierrez. 2009. “Multicriteria decisions on interdependent infrastructure transportation projects using an evolutionarybased framework.” Appl. Soft Comput. 9 (2): 512–526. https://doi.org
+/10.1016/j.asoc.2008.07.006.
+Jalles, J. T., and U. de Mello. 2019. “Cross-country evidence on the determinants of inclusive growth episodes.” Rev. Dev. Econ. 23 (4): 1818–
+1839. https://doi.org/10.1111/rode.12605.
+Jin, X., X. B. Zuo, X. L. Dong, Y. J. Dong, and H. H. Ding. 2021.
+“Analysis of the policy guarantee mechanism of rural infrastructure
+based on deep learning.” Technol. Forecasting Social Change 166:
+120605. https://doi.org/10.1016/j.techfore.2021.120605.
+Lee, N. 2019. “Inclusive growth in cities: A sympathetic critique.” Reg. Stud.
+53 (3): 424–434. https://doi.org/10.1080/00343404.2018.1476753.
+Leng, X. 2022. “Digital revolution and rural family income: Evidence from
+China.” J. Rural Stud. 94: 336–343. https://doi.org/10.1016/j.jrurstud
+.2022.07.004.
+Li, Q., L. Y. Zhang, L. M. Zhang, and S. Jha. 2021. “Exploring multi-level
+motivations towards green design practices: A system dynamics approach.” Sustainable Cities Soc. 64: 102490. https://doi.org/10.1016/j
+.scs.2020.102490.
+Liu, G. W., L. Z. Wei, J. P. Gu, T. Zhou, and Y. Liu. 2020. “Beneﬁt distribution in urban renewal from the perspectives of efﬁciency and fairness: A game theoretical model and the government’s role in China.”
+Cities 96: 102422. https://doi.org/10.1016/j.cities.2019.102422.
+Liu, H. T., and Q. Y. He. 2019. “The effect of basic public service on
+urban–rural income inequality: A sys-GMM approach.” Econ.
+Res-Ekon. Istraz. 32 (1): 3211–3229. https://doi.org/10.1080
+/1331677x.2019.1661005.
+Long, H. L., S. S. Tu, D. Z. Ge, T. T. Li, and Y. S. Liu. 2016. “The
+allocation and management of critical resources in rural China under
+restructuring: Problems and prospects.” J. Rural Stud. 47: 392–412.
+https://doi.org/10.1016/j.jrurstud.2016.03.011.
+Melo, P. C., D. J. Graham, and R. Brage-Ardao. 2013. “The productivity of
+transport infrastructure investment: A meta-analysis of empirical evidence.” Reg. Sci. Urban Econ. 43 (5): 695–706. https://doi.org/10
+.1016/j.regsciurbeco.2013.05.002.
+Min, H.-S. J., W. Beyeler, T. Brown, Y. J. Son, and A. T. Jones. 2007.
+“Toward modeling and simulation of critical national infrastructure interdependencies.” IIE Trans. 39 (1): 57–71. https://doi.org/10.1080
+/07408170600940005.
+Molero-Simarro, R. 2017. “Inequality in China revisited. The effect of
+functional distribution of income on urban top incomes, the urban–
+rural gap and the Gini index, 1978–2015.” China Econ. Rev. 42:
+101–117. https://doi.org/10.1016/j.chieco.2016.11.006.
+Nasirzadeh, H., H. Amin-Tahmasbi, and H. A. Khalili. 2021. “Investment
+analysis in privatization of National Iranian Drilling Company using
+systems dynamics and BWM technique.” Energ. Policy 148: 111963.
+https://doi.org/10.1016/j.enpol.2020.111963.
+Ngepah, N. 2017. “A review of theories and evidence of inclusive growth:
+An economic perspective for Africa.” Curr. Opin. Environ. Sust. 24:
+52–57. https://doi.org/10.1016/j.cosust.2017.01.008.
+OECD (Organisation for Economic Co-operation and Development). 2011.
+Divided we stand: Why inequality keeps rising. Paris: OECD.
+Olivares-Aguila, J., and W. ElMaraghy. 2021. “System dynamics modelling for supply chain disruptions.” Int. J. Prod. Res. 59 (6): 1757–
+1775. https://doi.org/10.1080/00207543.2020.1725171.
+Ouyang, M. 2014. “Review on modeling and simulation of interdependent
+critical infrastructure systems.” Reliab. Eng. Syst. Saf. 121: 43–60.
+https://doi.org/10.1016/j.ress.2013.06.040.
+Oyinlola, M. A., A. A. Adedeji, M. O. Bolarinwa, and N. Olabisi. 2020.
+“Governance, domestic resource mobilization, and inclusive growth
+in sub-Saharan Africa.” Econ. Anal. Policy 65: 68–88. https://doi.org
+/10.1016/j.eap.2019.11.006.
+Páez-Pérez, D., and M. Sanchez-Silva. 2016. “A dynamic principal-agent
+framework for modeling the performance of infrastructure.”
+Eur. J. Oper. Res. 254 (2): 576–594. https://doi.org/10.1016/j.ejor
+.2016.03.027.
+Painter, G., and Z. Yu. 2014. “Caught in the housing bubble: Immigrants’
+housing outcomes in traditional gateways and newly emerging
+© ASCE
+
+destinations.” Urban Stud. 51 (4): 781–809. https://doi.org/10.1177
+/0042098013494425.
+Plieninger, T., et al. 2015. “Exploring ecosystem-change and society
+through a landscape lens: Recent progress in European landscape research.” Ecol. Soc. 20 (2): 5. https://doi.org/10.5751/Es-07443-200205.
+Qian, J. W. 2017. “Improving policy design and building capacity in local
+experiments: Equalization of public service in China’s urban–rural integration pilot.” Public Admin. Dev. 37 (1): 51–64. https://doi.org/10
+.1002/pad.1785.
+Qiu, L. J., and D. X. Zhao. 2019. “Urban inclusiveness and income inequality in China.” Reg. Sci. Urban Econ. 74: 57–64. https://doi.org/10.1016
+/j.regsciurbeco.2018.11.006.
+Redmond, P., and S. Mcguinness. 2019. “The gender wage gap in Europe:
+Job preferences, gender convergence and distributional effects.” Oxford
+Bull. Econ. Stat. 81 (3): 564–587. https://doi.org/10.1111/obes.12282.
+Rimpilainen, S. 2016. Scotland’s Economic Strategy. https://strathprints
+.strath.ac.uk/64308/1/Rimpilainen_DHCI2016_Scotlands_Economic_
+Strategy.pdf.
+Scott, A. J. 2002. “Regional push: Towards a geography of development
+and growth in low- and middle-income countries.” Third World Q.
+23 (1): 137–161. https://doi.org/10.1080/01436590220108216.
+Shah, P., E. Hamilton, F. Armendaris, and H. Lee. 2015. World-inclusive
+cities approach paper. Washington, DC: World Bank Group.
+Shen, L. Y., S. J. Jiang, and H. P. Yuan. 2012. “Critical indicators for assessing the contribution of infrastructure projects to coordinated urban–
+rural development in China.” Habitat Int. 36 (2): 237–246. https://doi
+.org/10.1016/j.habitatint.2011.10.003.
+Shen, L. Y., W. S. Lu, Y. Peng, and S. J. Jiang. 2011a. “Critical assessment
+indicators for measuring beneﬁts of rural infrastructure investment in
+China.” J. Infrastruct. Syst. 17 (4): 176–183. https://doi.org/10.1061
+/(Asce)Is.1943-555x.0000066.
+Shen, L. Y., Y. Z. Wu, and X. L. Zhang. 2011b. “Key assessment indicators
+for the sustainability of infrastructure projects.” J. Constr. Eng.
+Manage. 137 (6): 441–451. https://doi.org/10.1061/(Asce)Co.1943
+-7862.0000315.
+Shi, Y. Y., S. Guo, and P. Y. Sun. 2017. “The role of infrastructure in
+China’s regional economic growth.” J. Asian Econ. 49: 26–41. https://
+doi.org/10.1016/j.asieco.2017.02.004.
+Solow, R. M. 1956. “A contribution to the theory of economic-growth.”
+Q. J. Econ. 70 (1): 65–94. https://doi.org/10.2307/1884513.
+Stapelberg, R. F. 2008. “Infrastructure systems interdependencies and risk
+informed decision making (RIDM): Impact scenario analysis of infrastructure risks induced by natural, technological and intentional hazards.” J. Syst. Cybern. Inf. 6: 21–27.
+Sterman, J. 2000. Business dynamics: Systems thinking and modeling for a
+complex world. New York: Irwin McGraw-Hill.
+Thacker, S., D. Adshead, M. Fay, S. Hallegatte, M. Harvey, H. Menus, N.
+O’Regan, J. Rozenberg, G. Watkins, and J. W. Hall. 2019.
+“Infrastructure for sustainable development.” Nat. Sustain. 2 (4):
+324–331. https://doi.org/10.1038/s41893-019-0256-8.
+Vellala, P. S., M. K. Madala, and U. Chhattopadhyay. 2014. “A theoretical
+model for inclusive economic growth in Indian context.”
+Int. J. Humanit. Soc. Sci. 4 (13): 229–235.
+Wahnschafft, R., and F. Wei. 2015. “Urban China: Toward efﬁcient,
+inclusive, and sustainable urbanization.” Nat. Resour. Forum 39 (2):
+151–152. https://doi.org/10.1111/1477-8947.12072.
+Wang, S. L., S. K. Tan, S. F. Yang, Q. W. Lin, and L. Zhang. 2019.
+“Urban-biased land development policy and the urban–rural income
+gap: Evidence from Hubei Province, China.” Land Use Policy 87:
+104066. https://doi.org/10.1016/j.landusepol.2019.104066.
+Wang, W., Y. Z. Wu, and C. Choguill. 2021. “Prosperity and inclusion:
+The impact of public housing supply on urban inclusive growth in
+China.” Land Use Policy 105: 105399. https://doi.org/10.1016/j
+.lusepol.2021.105399.
+Wessel, D. 2015. “The typical male US worker earned less in 2014 than in
+1973.” The Wall Street Journal, September 18, 2015.
+Wiesel, I., and F. Q. Liu. 2021. “Conceptualising modes of redistribution in
+public urban infrastructure.” Urban Stud. 58 (8): 1561–1580. https://doi
+.org/10.1177/0042098020913188.
+
+05024032-13
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+Zhang, X. L., Y. Z. Wu, M. Skitmore, and S. J. Jiang. 2015. “Sustainable
+infrastructure projects in balancing urban–rural development: Towards
+the goal of efﬁciency and equity.” J. Clean. Prod. 107: 445–454. https://
+doi.org/10.1016/j.jclepro.2014.09.068.
+Zhang, Y., X. Wang, and K. Z. Chen. 2012. “Growth and distributive effects of public infrastructure investments in China.” In Infrastructure
+and economic growth in Asia. Economic studies in inequality, social exclusion and well-being, edited by J. Cockburn, Y. Dissou, J. Y. Duclos,
+and L. Tiberti, 87–116. Cham, Switzerland: Springer.
+Zhong, S. J., M. S. Wang, Y. Zhu, Z. G. Chen, and X. J. Huang. 2022. “Urban
+expansion and the urban–rural income gap: Empirical evidence from
+China.” Cities 129: 103831. https://doi.org/10.1016/j.cities.2022.103831.
+
+Downloaded from ascelibrary.org by Universidad De Guadalajara on 06/24/25. Copyright ASCE. For personal use only; all rights reserved.
+
+World Bank. 1994. World development report 1994: Infrastructure for development. Washington, DC: World Bank.
+Yao, H., L. Y. Shen, Y. T. Tan, and J. L. Hao. 2011. “Simulating the impacts of policy scenarios on the sustainability performance of infrastructure projects.” Automat. Constr. 20 (8): 1060–1069. https://doi.org/10
+.1016/j.autcon.2011.04.007.
+Young, A. 2013. “Inequality, the urban-rural gap, and migration.”
+Q. J. Econ. 128 (4): 1727–1785. https://doi.org/10.1093/qje/qjt025.
+Zhang, C., J.-J. Kong, and S. P. Simonovic. 2018. “Restoration resource
+allocation model for enhancing resilience of interdependent infrastructure systems.” Saf. Sci. 102: 169–177. https://doi.org/10.1016/j.ssci
+.2017.10.014.
+
+© ASCE
+
+05024032-14
+
+J. Urban Plann. Dev., 2024, 150(4): 05024032
+
+J. Urban Plann. Dev.
+
+

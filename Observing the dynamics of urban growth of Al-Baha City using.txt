@@ -1,0 +1,1531 @@
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Contents lists available at ScienceDirect
+
+Alexandria Engineering Journal
+journal homepage: www.elsevier.com/locate/aej
+
+Observing the dynamics of urban growth of Al-Baha City using
+GIS (2006–2021)
+Abdulaziz Alzahrani *, Naief Aldossary, Jamal Alghamdi
+Architectural Department, College of Engineering, Al-Baha University, Al-Baha, Saudi Arabia
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Urban growth
+Urban expansion
+Land use
+Land cover change
+GIS
+
+This study observes and records land cover changes in Al-Baha to track urban growth. The study develops a
+schematic vision of urban mass’s current and future shape and distribution and its growth to achieve sustainable
+urban development, reduce service and social differences between city areas, and integrate urban and rural
+areas. The study uses inductive methods to monitor urban developments, population growth, and land use
+through Al-Baha’s structural schemes by extracting digital data from satellite imagery to survey historical land
+cover changes. The mapping software ArcGIS v10.8 processed these digital data and the final map compositions.
+Through this urban mass study, the research predicted city growth and development. Capabilities and functions
+must shape urban and rural-urban communities. The development must also consider the National Urban
+Development Strategy, the relative importance of rural-urban communities, and their expected functional role in
+influencing the development of small rural communities adjacent to them to reduce migration from rural areas
+near the city. The study highlighted changes in city land coverage. Al-Baha expanded from 1982 to 1995. AlBaha’s transformation from village to city accelerated, increasing its area from 31 km2 to 44 km2. Many villages
+beyond 40 were included in the decisions. From 2006–2021, the city’s area grew 221%. It increased from 60 km2
+to 133 km2 in an urban area, indicating false urban growth. The study stressed the importance of geographic
+information systems (GIS) and remote sensing (RS). The study recommends urban development in suitable areas
+because agricultural development is not feasible, especially in the northeast. Land use changes should be pre­
+vented by planning regulations because these agricultural areas are essential. Helping urban development move
+away from agricultural areas, especially on the eastern axis, is crucial. Create new urban centers along Al-Baha’s
+western cliff to attract residents and relieve pressure. Limited linear expansion, especially in the northeast, and
+more expansive urbanization are also significant. Maps should also show when the Al-Baha region’s expan­
+sionary scope changed and the urban boundaries that had to be reached by a specific time while development
+plans were efficiently monitored.
+
+1. Introduction
+A city is perceived as a social, economic, political, cultural, and
+urban component that effectively develops and prospers in a specific
+spatial space while working and interconnecting uniquely to distinguish
+one city from another [1]. Al-Baha witnessed during the previous de­
+cades urban expansion, urban growth, and economic and social growth
+in all sectors [2]. The government institutes in Saudi Arabia were keen to
+establish development projects and expand urban development pro­
+grams such as land grants and financing loans from the fund real estate
+development [3]. The government is given the modernity of municipal
+lands’ control and management system as many citizens sought to
+
+disregard agricultural lands with large areas that exceed their actual
+needs and prove their ownership [4]. This research was concerned with
+studying the dynamics of urban growth of the city during the previous
+periods. Therefore, the research problem lies in the need to study and
+monitor urban growth and analyze the negative effects of horizontal
+urban expansion. The motivating factors and the determinants of urban
+growth are represented in the hills and mountainous areas of the city.
+The regional plan for the Al-Baha region, where the criteria used to
+classify villages and rural communities according to their relative
+importance in their region, were studied. The relative weights of each of
+these criteria were determined in proportion to the relative importance
+of rural communities. The structure of the system of rural-urban
+
+* Corresponding author.
+E-mail address: azahran@bu.edu.sa (A. Alzahrani).
+https://doi.org/10.1016/j.aej.2024.03.096
+Received 1 July 2023; Received in revised form 30 December 2023; Accepted 23 March 2024
+Available online 3 April 2024
+1110-0168/© 2024 The Author(s). Published by Elsevier BV on behalf of Faculty of Engineering, Alexandria University This is an open access article under the CC
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+communities and their classification and setting standards for relative
+weight for classifying villages in Al-Baha were analyzed and categorized
+into three categories (civilized villages - moderately urbanized villages,
+less urbanized villages).
+Al-Baha is considered one of the cities in Saudi Arabia that, along
+with other cities, has been negatively impacted by the expansion of
+urban growth that is excessively damaging to the environment. Since AlBaha contains agricultural components and natural cover, there is
+randomness in the land use, which requires accurate and precise
+knowledge and monitoring of this growth. The development of a large
+number of farmlands into residential areas has been a source of concern
+in recent times. This is in addition to the fact that the responsibilities of
+government agencies concerned with controlling the growth and urban
+sprawl on agricultural lands in the region overlap with one another.
+Urban sprawl is considered a significant threat to the forests and green
+areas, as well as to the tourist nature of these areas, because the region
+naturally extends in both directions, north and south. Furthermore,
+increased land encroachment in large areas exceeds the actual need,
+which is another factor to be concerned about.
+The increased land encroachment was in addition to the rise in
+housing loans that occurred during previous periods, contributing to the
+housing area’s expansion. Additionally, the modernization of land
+control and management systems contributed. This study aims to pro­
+vide a clear picture by tracking and monitoring urban growth from the
+year 2006–2021, primarily because there is a lack of a clear strategy for
+the region that governs urban growth in a way that ensures the inte­
+gration of other services, enhances development, and increases the
+concerted efforts of all parties to achieve balanced growth. The unbal­
+anced urban growth is because the region has not yet developed a
+strategy that governs it in a way that ensures the integration of other
+services. In the future, it may be challenging to deal with urban devel­
+opment logically, and it may also be financially costly due to urban
+development being characterized by its rapid dynamism. Furthermore,
+the study intends to provide some recommendations that will contribute
+to activating this urban expansion without causing any harm to the
+natural resources situated within the city.
+The research aims to analyze the stages of urban growth in the city of
+Al-Baha. The study attempts to monitor the urban mass of Al-Baha in
+2006, the urban mass of the city of Al-Baha in 2021, and the motivating
+factors for urban growth that are specific to it. The research also seeks to
+develop recommendations to control urban development and expansion.
+The discussion of urban mass and growth of Al-Baha between 2006 and
+2021 is considered the central pillar of the study. The importance of the
+study lies in discussing the phenomenon of urban growth, which
+threatens the future of the natural environment in the city of Al-Baha.
+This research must support and make decisions for decision-makers in
+the city to identify the reality of urban growth and its development over
+time, to reduce the undesirable effects of random and irregular urban
+sprawl.
+In the previous years, significant developments in Al-Baha have
+accelerated urban changes, which created the need for this study.
+Accordingly, the present study sought to observe the nature of the dy­
+namic urban changes occurring in Al-Baha by determining a geographic
+information system that is based on analyzing and deducing satellite
+imagery data to achieve the following objectives:
+
+The study pursued answers to the following questions to achieve
+these objectives:
+1. What are the significant changes in the urban morphology of Al-Baha
+throughout the period between 2006 and 2021?
+2. Does any land cover distribution variance occur in Al-Baha between
+2006 and 2021?
+3. What are the contributing factors to the urban changes and land
+cover changes in Al-Baha from 2006–2021?
+The importance of this study is toward maximizing the need for
+developmental or planning decision-makers to rely on the spatial tech­
+nologies embedded in GIS and remote sensing in obtaining, cataloging,
+and analyzing any piece of information. Furthermore, the study aims to
+save time and effort and ensure speed and accuracy in providing data so
+that an urban planning decision is reality-based and built on solid
+foundations, especially in the case of Al-Baha, which require constant
+information updates and changes follow-up.
+2. Literature review
+2.1. City urban growth and its relation to GIS
+At all levels of civilization, urbanization is slowly but surely
+becoming a worldwide issue. Rapid urbanization occurs in all countries,
+whether they are developing, developed, or destitute. Urban sprawl
+could be a way to shift from traditional rural to modern developed
+economies. Urban planning is one of the most common applications of
+GIS. GIS applications are relevant in all stages, divisions, industries, and
+urban planning responsibilities. For example, GIS technology is used in
+urban city expansion to provide city planners with improved informa­
+tion transparency, assess viability projects, and predict environmental
+impact.
+Information is a critical part of city planning and growth. Data from
+several sources can be stored, managed, and accessed more easily with
+Desktop GIS. In addition, it provides the same benefit while making it
+accessible from any device. GIS makes everything very straightforward
+and easy [5]. The potential of GIS to construct potential urban devel­
+opment scenarios is one of the benefits of employing technology in site
+appropriateness studies [6]. A practical option in the context of GIS is a
+spatial or GIS-based procedure for determining the acceptability of a
+specific area for one particular use. El Garouani et al. (2017) explain an
+ecological design and policy concept that encourages interconnecting
+open areas, a multi-modal transport network, and mixed-use construc­
+tion guided by GIS in urban development. GIS can analyze the real world
+by layering content and integrating it with its physical position [7]. It
+can define the population in multi-scale, three spatial dimensions, using
+a characteristic table detailed description [8]. The Geographic Infor­
+mation System (GIS) is both a repository and an instrument for urban
+planning. The geo-relational paradigm can collect and connect
+geographical and literary data in a database-oriented GIS [9]. In
+providing detailed information, GIS allows planners to be decisive in
+planning. The essential sources for geographic information system maps.
+When employed in a GIS system, remote sensing techniques provide the
+most up-to-date and detailed estimates. In addition, the non-spatial data
+associated with it is beneficial to urban planners and decision-makers
+[10]. Information is essential in assessing projects. GIS aids in the
+management of such databases, which can then be used to advise en­
+terprises on the effectiveness of collection materials, allocation of bio­
+energy advantages, and cost-benefit analysis.
+Further, assessing the project’s success is a significant consideration
+for urban planners to reduce wasting time and resources. To record and
+analyze the dynamics of urban growth, remote sensing (RS) provides
+spatial data that may be merged with GIS to create integrated
+geographic information. When used in conjunction with a GIS, RS can be
+used to quickly examine the effects of geographical features on urban
+
+– Monitoring and recording urban change features in Al-Baha through
+undertaking a comparative study of the following elements in
+consecutive periods via Urban expansion and its patterns and the
+inconsistency of land covers distributions in the Al-Baha.
+– Distinguishing the contributing factors to urban land covers
+development.
+– Producing modern digital maps that track changes in urban land
+cover.
+– Witnessing the inconsistency in the land covers distributions in AlBaha during the study period.
+115
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+sprawl [11]. Remote sensing combined with GIS technology has been
+shown to produce scientifically valid conclusions and policy suggestions
+that have aided choice and planners in advancing sustainability,
+particularly in rapidly increasing urban areas [12]. GIS enables the
+overlay of various data perceptibly and communicably to multiple
+stakeholders. As a result, GIS effectively combines, represents, and dis­
+tributes data to drive the Urban Green Space planning and imple­
+mentation [13]. Alazzawi (2020) explains that measuring GIS
+productivity is critical to the organization’s overall GIS success [14]. It
+also greatly aids in the processes of organizational change and strategic
+planning. GIS has a broad array of applications in structural engineering,
+including geographic solutions [15]. Karimi et al. (2018) explain that
+transportation, aquatic ecosystems, building maintenance, urban plan­
+ning, architecture, and E-business are just a few examples [16].
+Furthermore, Khwarahm (2021) suggests that GIS is utilized to
+visualize the geographical state of a construction area. Apart from
+assessing the viability of city projects, GIS has implications for the
+environment [17]. Academics and civil society organizations have used
+GIS and RS to analyze the impacts of mineral extraction for various
+reasons outside of the mining sector [18]. These include local
+socio-economic and ecological risk assessments, regional accumulated
+and strategic effect assessments, and industry-wide land-use trends
+analyses.
+Urban planning considers the environment. In the last 10–20 years,
+civil society groups have used GIS, RS, and visualization to evaluate the
+past, present, and current environment [18] GIS-based sustainable
+development evaluations are more accurate. A visual representation will
+help implement a pollution-reduction strategy and achieve environ­
+mental sustainability [19]. GIS and GPS are often used to model
+mining-induced risks and environmental effects [20]. Used technologies
+include mine development, operation, and environmental conservation
+[21]. GIS has been used to enable ecological models such soil degrada­
+tion, land use, hydrological water quality, contaminants, and water­
+sheds [22]. City planners prioritize conservation. Construction
+enterprises and ecologists can utilize GIS to measure and compare
+renewable resources [23]. Creating a geographical distribution and ar­
+ranging new project locations helps city planners minimize sprawl and
+ensure social and ecosystem sustainability [24]. GIS and remotely
+sensed data technologies help manage solid waste from generation to
+disposal [25]. GIS techniques are vital for regulating urban expansion
+and its impact on ecosystems.
+
+conversion, natural-to-engineered land cover conversion, and noncontiguous land use [32]. GIS variables suitable land use/land cover
+analytical methodologies, modeling tools made possible by GIS, and
+land-use preparations to evaluate inland changes with cheap cost, less
+time, and greater accuracy [33]. Directly measure, evaluate, and
+determine the reason for the urban environment’s shift in land use and
+distribution mapping to establish effective plans and tactics for practical
+and efficient land use management [34]. Spatial processes, geographical
+models, and sophisticated GIS approaches are utilized to investigate
+landslide susceptibility patterns, distributions, and orientations and es­
+timate land-use change [35]. GIS and environmental monitoring are
+widely employed [36]. Through GIS data analysis, land use/land cover
+and urban expansion have been recovered[37]. Geographic data can
+reduce time when gathering land use and climatic factors when com­
+bined with remotely sensed data.
+Urbanization often causes negative land use/land cover changes
+(LULC). LULC change is a major component of global environmental
+change, especially in arid and semi-arid nations with scarce land and
+water [38]. Saudi Arabia has changed dramatically in 30 years due to
+petrochemical industry growth and population growth [39]. GIS envi­
+ronment approaches are essential for quantitatively and spatially
+analyzing human impact [40]. GIS can be used as a strategic manage­
+ment tool to develop and operate, revolutionize environmental science
+processes, and aid environmentally conscious decisions [36]. Urbani­
+zation, industrialization, and intensive farming have altered land cover,
+affecting the environment and biodiversity. [41]. Geographic informa­
+tion systems (GIS) allow for the accurate measurement of different types
+of LULC, the provision of precise and comprehensive information on
+present and historical land cover, and the analysis of these changes, as
+well as the revelation of geographic patterns of urban-suburban devel­
+opment at various times [42]. GIS technologies are combined with other
+approaches to determine the relevance of criteria and weight elements
+to improve land suitability analysis.
+A region’s land use/land cover pattern is influenced by natural, so­
+cioeconomic, and human factors over time and space. In four MENA
+cities with different sizes and growth dynamics, a study was done to
+quantify patterns of urban expansion and its effects on agricultural land
+from the 1970 s to 2018. The study used remote sensing data to show the
+landscape transformation processes in various cities over the last 50
+years. The findings indicate that peri-urban green areas have shrunk or
+shifted due to increased expansion of built-up areas [43].
+Land use is a key concern for city and national architects and envi­
+ronmentalists when designing sustainable economic growth. Land-use
+and land-cover change (LUCC) remote sensing research has a long his­
+tory and has advanced significantly [29]. GIS and remote sensing pro­
+vide a cost-effective and precise way to study landscape changes. GIS
+and Remote Sensing are land-based, so they help create, execute, and
+assess urban development strategies for long-term sustainability[11].
+LULC measures ecosystem health and quality of life. Environmentalists
+can use frequent edge detection to monitor and assess environmental
+challenges [31]. LULC dynamics change spatially and temporally due to
+natural and anthropogenic causes. Remote sensing photos can easily
+capture land use conditions and provide a data source for current LULC
+information and changes [30]. Remote sensing is used to monitor land
+use at various scales. Change detection involves collecting, storing,
+displaying, and evaluating digital data [34]. LULC changes and urban
+expansion rates have been exceptional in recent decades due to
+rural-urban migration and improving economic conditions. Consider
+urbanization drivers and urban planning improvements.
+Rich and poor countries use GIS for planning. Many planning orga­
+nizations have switched from mapping software to GIS. GIS technology
+helps city planners with information transparency, development
+viability assessment, and environmental effect prediction. GIS integra­
+tion with planning models, visualization, and the Internet will improve
+urban planning. Rapid urban/built-up expansions caused abrupt re­
+ductions in farmland, fallow, and unoccupied land. To mitigate
+
+2.2. Urbanization and land use and land cover (LULC)
+The land is a significant resource in urban growth and planning, thus
+considering deploying advanced technologies in planning. Land Use and
+Land Cover (LULC) modification, transitioning, and Landscape Risk (LR)
+assessment in earthquake-affected locations are critical for planning and
+urban resilience (Nath & Singh, 2018). In a user-friendly approach, the
+GIS allows the reader to view and analyze data to understand better
+linkages and patterns [26]. Several scholars have used remote sensing,
+and spatial analysis (GIS) approaches to assess flood hazard conse­
+quences on metropolitan areas, infrastructural, farmlands, and land-use
+changes [27]. Urban expansion should be seen both as an urban land
+layout or a spatial arrangement of a community at a given moment and
+as a movement, or how the structural characteristics of urban space
+change over time [28]. This unanimity causes problems in recognizing
+administrative boundaries in cities and puts pressure and stress on the
+natural environment [29]. In ensuring continued urban residence in the
+coming days, fast-growing urban areas monitoring is essential[30]. In
+this case, GIS and RS are significant and adequate monitoring tools in
+urban planning and decision-making [31]. The impact of development
+analysis is also considerable, with some cities performing better than
+others in terms of urban growth management.
+Urbanization will affect land-use change along urban-rural gradi­
+ents. It will result in land application concerns such as farmland
+116
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+use and land cover that occurred over time and found notable expan­
+sions in specific regions within these cities, indicating significant urban
+sprawl in recent decades. Hence, implementing more effective gover­
+nance policies can aid in managing and restraining the area’s acceler­
+ated and uncontrolled urban growth.
+
+urbanization’s negative effects and ensure the long-term viability of
+major cities, an innovative urban planning strategy is needed.
+2.2.1. Urban growth in cities
+Urban morphological change encompasses most city changes over
+time, such as population composition, total area, and land cover [44].
+Therefore, there has been an increase and continuing expansion of
+geographical studies monitoring this transformation. Urban city growth
+and land use changes are considered a classification of these studies that
+track and monitor these changes over time [45]. A significant amount of
+research has focused on the issue of urban growth in various cities
+around the world. Gaining insight into land use and cover alterations has
+become necessary for effectively managing and monitoring natural re­
+sources and development, particularly in urban planning. Remote
+sensing and geographical information systems are established in­
+struments for evaluating land use and land cover alterations, which aid
+planners in promoting sustainability [46]. One particular study was
+conducted to identify and forecast changes in land use in Nepal using
+remote sensing and GIS technology [47]. The study employed remote
+sensing and geographical information systems to identify and detect
+land use and land cover in Kathmandu, a city in Nepal that is highly
+vulnerable to change and is witnessing rapid growth. According to the
+study, the Kathmandu district experienced a decline of 9.28% in forest
+cover, 9.80% in agricultural land, and 77% in water bodies over 20 years
+(1990–2010)[47]. Rapid urbanization is the primary catalyst for these
+changes, further accelerated by inadequate planning and significant
+rural-urban migration. A study used Remote Sensing and GIS to examine
+urban growth monitoring, simulation, and management in coastal cities
+[48]. The study investigated the urban development of Alexandria by
+establishing a geographic information system. This system is based on
+satellite imagery data collected by Landsat between 1986 and 2016. The
+study aimed to identify the most essential characteristics and the driving
+factors that actuate, either directly or indirectly, the process of urban
+growth. The evidence demonstrates that management regulations can
+assist in controlling and limiting the rapid and unplanned urban
+expansion occurring at the expense of natural resources [48].
+Using geographic information system (GIS) and remote sensing
+techniques, a study was carried out at the local level of Saudi cities to
+forecast the growth of urban areas in Riyadh city over thirty years,
+beginning in 2017 and ending in 2047 [49]. On the other hand, a study
+uses remote sensing data to investigate the changes in land cover that
+occurred in Al-Khobar over a decade, from 1990 to 2013 [50]. In
+addition, a study carried out between 1973 and 2014 was obtained and
+analyzed to keep track of the changes that occurred in Jeddah spatially
+and concerning time [51].
+Regarding Al-Baha, numerous studies have been published,
+including one that aimed to observe and forecast changes in land cover
+and analyze the characteristics and patterns of land cover change from
+1975 to 2010. The study assessed land cover change in the Al-Baha re­
+gion over the past 35 years. It revealed that this change had a notable
+impact on the forest and shrubland, potentially disrupting the ecosystem
+and natural balance of the study area [52]. A separate study examines
+the expansion of the urban regions and alterations in land cover in
+Al-Baha from 1984 to 2014. The study revealed a 10% reduction in
+forested areas, primarily attributed to creating recreational facilities in
+the mountainous regions. Simultaneously, the built-up area experienced
+a 24% expansion, primarily at the expense of barren lands but also at the
+expense of woodlands. The quality of the woodlands is also deterio­
+rating, as dieback is occurring, and can be observed in the study area and
+the southwestern mountains [53].
+The unbalanced urban expansion of the city over time, along with the
+resulting changes, the primary drivers of this expansion, and the sub­
+sequent problems it caused resulted in alterations to the land cover,
+resulting in rise to various issues. The phenomenon reduces forest area,
+agricultural land, and water bodies, potentially disrupting the ecosystem
+and the natural balance. These studies examined the alterations in land
+
+3. Research approach
+The research relied on the historical and behavioral approach and
+the descriptive analytical approach by reviewing the stages of urban
+development of Al-Baha and linking them to the development plans and
+the directions of the national vision of the Kingdom 2030. The research
+focuses on tracking the urban growth of the city land cover and its
+mechanisms and its negative effects on the surrounding environment
+and agricultural lands through the analysis of urban sprawl through
+different stages of time for Al-Baha. This study seeks to survey and re­
+cord the changes that occurred to the land cover of Al-Baha and the
+urban changes therein in the period spanning 2006–2021.
+This study’s approach depended on selecting the appropriate case
+study and the appropriate data collection tools for this study. Following
+this, the analytic framework for the case study was utilized to cover the
+analysis of the collected data. This research was conducted using a case
+study methodology [54], which relied on a substantial amount of in­
+formation that can be obtained from various sources. Due to the wide
+variety of data available for Al-Baha between 2006 and 2021, it was
+selected as the location for this study. To that end, the study adopts
+several approaches:
+3.1. Deductive approach
+A deductive approach is utilized to study Al-Baha city’s urban and
+demographic changes through city charts and governmental reports is­
+sued by governmental institutes and academic research.
+3.1.1. Spatial analysis approach
+The study adopts a spatial analysis approach to extract the digital
+data supplied by satellite images and use them to record the urban
+growth of land covers and its change in the studied area. Digital data was
+processed, and final outputs were designed using ArcGIS v10.8. Area of
+the study. This study is dedicated to detecting Al-Baha’s urban changes
+with its established administrative borders throughout the extended
+period between 206 and 2021. Satellite-based digital data have been
+highly utilized in change detection at regional scales due to their
+extensive availability and extensive archive. The remaining data from
+before 2004, which was derived from the Ministry of Municipal and
+Rural Affairs, shows that the changes that occurred in the urban area of
+Al-Baha between 2006 and 2021 were not recognized. Using remote
+sensing and geographic information systems (GIS) together can help
+generate helpful information about the amount of land changes that
+have occurred, where they have occurred, and what kinds of changes
+have occurred. Also, using satellite imagery makes it possible to observe
+urban change over time. It can be done retrospectively, which has
+significantly advanced our understanding of urban changes in Al-Baha
+during the selected period. This is accomplished by delivering infor­
+mation at predetermined time scales. Therefore, all the descriptive in­
+formation based on satellite imagery and the tabled information for the
+study area have been analyzed accordingly. This approach allows for a
+dynamic awareness of the urban system’s shortcomings and strengths
+and the primary concerns that need to be addressed.
+3.2. Data processing procedures
+Satellite digital data has been processed using software: ArcGIS
+v10.8. The essential steps in examining, processing, and analyzing the
+satellite-based digital data are as follows:
+117
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+3.3. Data collection
+
+3.4. Image processing
+
+The study relied on evaluating the status of the urban mass and its
+extension from 2006 to 2021. The study adopted a research methodol­
+ogy based on integrating GIS and remote sensing, where satellite im­
+agery for Al-Baha, covering the suggested study period 2006 and 2021,
+has been obtained from google earth and Esri online imagery. First, the
+urban mass of the study area for the year 2006 was obtained and
+monitored via satellite imagery from Google Earth. After that, the urban
+mass boundaries were studied and determined in 2006. Then, the urban
+mass was reviewed on the satellite imageries of the study area. The study
+also relied on monitoring the urban expansion of the study area during
+the year 2021 on the Esri satellite imagery and reviewing them with the
+satellite imagery of Google Earth.
+
+The goal of satellite image processing is to determine populated areas
+and distinguish various land uses during the period represented by said
+data. The image processing focused on enhancing the imagery by
+combining them and filling the gap between them. In order to complete
+the work entrusted with the research, field visits were made to the study
+area to collect missing data from the site, such as the names of roads,
+neighborhoods, and the covered land. The study classified the area’s
+land cover into the following covers: urban use, mountains, soil, cliffs,
+and plants.
+4. The study area
+Al-Baha region is located in the southwestern part of the Kingdom of
+
+Fig. 1. Al-Baha region is located in southwest Saudi Arabia.
+118
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Saudi Arabia (Fig. 1), 180 km south of Taif and about 410 km north of
+the city of Abha. The Makkah region surrounds the Al-Baha region
+except in the southeast, bordered by the Asir region. Al-Baha region is
+considered one of the smallest regions in the Kingdom in terms of area,
+approximately 36,000 km2 [55]. Al-Baha region constitutes 1.6% of the
+total area of Saudi Arabia and consists of nine main governorates:
+Al-Baha, Baljurashi, Al-Mandaq, Al-Makhwah, Qilwah, Al-Aqeeq,
+Ghamed Al-Zinad, Al-Hajrah and Al-Qura [56]. In total, there are
+three distinct geographical sectors in the Al-Baha region. These three
+sectors are represented in the mountainous Sarah sector, the Badia
+sector, the semi-desert part, and the coastal sector of Tihama. The area is
+separated by a huge rocky cliff, which is the extension of the Sarah
+Mountain range, where it descends more than 2500 m in a west direction
+towards the Tihama sector [2]. The area east of Al-Shafa is divided into
+two parts: the mountainous Sarah and the Badia. The topography of the
+Al-Baha region is exposed hills consisting of rocks with gradual slopes
+cut by narrow valleys [55]. The climate of the Al Baha region is mod­
+erate and pleasant in summer and cold in winter. Its mountainous nature
+characterizes Al-Baha, between 1500 and 2500 m above sea level, along
+with the Sarah Mountain range [55]. The importance of Al-Baha comes
+from its strategic location as the meeting point of the main roads linking
+the main cities in the region [2].
+By comparing the classification of satellite imagery of the studied
+area between 2006 and 2021, a qualitative and quantitative change was
+detected in land use. The study argues that the change was limited to a
+rise in particular land use, such as transforming some agricultural land
+or mountain areas into urban areas and roads. Change also occurred in
+terms of a decrease, such as empty lands transformed into roads,
+buildings, or city facilities. Al-Baha went through rapid changes,
+resulting in land cover changes throughout the past 15 years. Through
+tracing the most noticeable changes on the land cover of the map AlBaha, the study notices a rapid rise in urban use in Al-Baha. It is pri­
+marily related to many factors such as political, economic, social,
+geographic, and cultural factors. For instance, the result of the process of
+urbanizing the countryside adjacent to the city became a part of it by an
+administrative decision. Therefore, it is essential to understand the
+historical development of urban growth in Al-Baha to develop a
+comprehensive view of the factors that directly affect the city’s expan­
+sion and control.
+
+growth [61].
+5.2. Origin and development of Al-Baha
+Al Baha is a newly emerging city. Al-Baha is one of the new Saudi
+cities that appeared on the Kingdom’s map after 1974. It did not exist as
+a city before that date when the capital of the Al-Baha administrative
+region was the city of Baljurashi. Al-Baha was one of the villages of this
+region. Hence, it owes more to the administrative definition than the
+functional one. Al-Baha is a group of villages. In the period after World
+War I, the village of Al-Zafeer was the administrative center of what was
+then known as Bilad Ghamed. Upon establishing the Saudi government,
+Ghamid and Zahran became administered as a unit in 1925. The Saudi
+authorities moved the seat of the local government to Baljurashi, a town
+located 14 km south of Al-Zafeer [55].
+5.3. The geographical location of the study area and its spatial relations
+Al-Baha is the capital of the Al-Baha Administrative Region. Al-Baha
+is one of the fourteen administrative regions that make up Saudi Arabia.
+Al-Baha is the smallest administrative area in Saudi Arabia and the least
+populated [2]. Its area is about 10,690 km2, representing about 0.04% of
+the area of Saudi Arabia, which is about 25.2 million km2 [62].
+The main administrative area of Al-Baha is part of the southwestern
+region in western Saudi Arabia, known as the Sarawat Mountains. This
+area is characterized by the presence of the Al-Shafa line, which repre­
+sents the western boundary of the rocky crystalline Arabian Shield. It
+also represents at the same time the water division line in the Sarawat
+Mountains. In addition to that, this line divides the central administra­
+tive area of Al-Baha into two parts, one east, which is the mountainous
+Sarah sector, and the other west, which is the arid Tihama sector.
+Furthermore, the city of Al-Baha is in the middle of that part of the AlShafa line that penetrates the central administrative area of Al-Baha.
+Al-Baha city consists of 47 villages, the largest of which are Al-Baha
+and Al-Zafeer [63]. With this statement, one of the government reports
+on the development of the Al-Baha region began, and in the report’s
+acknowledgment of the village of Al-Baha city, there is some truth to it.
+However, the concept of the city is still not unified by most of the official
+authorities [64]. Instead, the identification of the Saudi city is still an
+area of controversy until recently. Al-Baha city is a city in which agri­
+culture prevails, and it is the dominant function in the city because it has
+no functional specialization. Al-Baha is also considered a city of trade
+and agriculture, but it is certain that the city, in the concept of 1982,
+consisting of villages - neighborhoods - Al-Baha, Al-Zafeer, and
+Al-Zarqa, has become the commercial heart of a larger area, which is
+what is known as the city’s master plan area [65]. This area, in partic­
+ular, gained importance among those in charge of managing the city’s
+affairs as the city’s borders until 1995 [64].
+
+5. Result and discussion
+Since the present is an expansion of the past, the survey studied and
+observed the change that occurred in the land cover of Al-Baha in the
+period crossing 2006–2021, concentrating on the examples of land use
+and factors impacting it. Through the directed characterization of sat­
+ellite imagery, the study arrived at the outcomes:
+5.1. The historical development of horizontal urban growth in Al-Baha
+The study of urban development in different historical periods is
+necessary to understand the geography of the present time because it
+sheds light on the current urban locality and answers many questions
+about its interactions, structure, and growth [57]. Moreover, it gives a
+great picture of what the city was like in different periods [58]. Urban
+growth is defined as the state of the city’s extension and its overlap with
+its surrounding neighborhoods throughout its history [59]. Several
+factors that determine its size and trends affect the city’s growth.
+Various elements influence the city, including physical, social, eco­
+nomic, environmental, and governance. For example, migration, agri­
+cultural growth, forest patterns, and sprawl are all socio-economic
+factors that contribute to urban growth [60]. Perhaps the most impor­
+tant of them is the economic factor, which takes many forms, the current
+and future material capabilities determine the plans for its development
+and the periods required to implement those plans—knowing that the
+impact of those capabilities would lead to a stumble in the city’s urban
+
+5.4. First: The historical development of the horizontal urban growth
+Urban growth generally takes on two main dimensions. The first
+dimension is the horizontal urban growth, while the vertical urban
+growth represents the second dimension [66]. Cities grow and expand
+due to many individuals, collective, and governmental decisions [67].
+There are many geographical and non-geographical factors behind this,
+and no city is without these physical and nonphysical factors [68]. By
+comparing the historical periods of the city’s growth, the impact of
+urban growth controls becomes apparent, strongly linked to each loca­
+tion’s geographical characteristics and future extension [69]. Therefore,
+horizontal urban growth is one of the dimensions of urban growth that
+draws attention when comparing more than a different period of time to
+a study area or more than one city [66]. The study follows this growth in
+stages, and from here, it studies urban growth by studying the devel­
+opment of urban spaces and urban buildings in the city.
+119
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 2. The city of Al-Baha is located in a middle area between Belad Ghamid and Zahran.
+
+5.5. The evolution of urban growth (2006–2021)
+
+from 2006 to 2021. Al-Baha has gone through several stages of urban
+development and growth trends during the past years. According to the
+comprehensive development plan for the Al-Baha region, the city of Al-
+
+The study is mainly based on tracking the urban growth in Al-Baha
+
+Fig. 3. The scattering of urban mass of Al-Baha during 1985. It was redrawn by the author from the comprehensive development plan of Al-Baha [70].
+120
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Baha in 1964 was what is now represented by the old market area, which
+is part of the old village of Al-Baha (Fig. 3) [70]. Then the city developed
+towards the east and south of the current old market area, or the
+so-called central Al-Baha, and expanded in the north direction, which
+was limited by the presence of Al-Baher mountain. The Al-Baha also
+expanded to the west, which was limited by a mountain west of the
+Raghadan area, reaching its area in 1987 about ten times 1964 [70].
+Then the expansion of Al-Baha increased to the south and east until its
+area reached about 3060 ha in 1982 [70]. After the city became within
+the limits of 1982, it represented a small part of a larger area, which is
+the city’s indicative plan area, which amounted to 327.5 km2. In 2005,
+the expansion represented part of the indicative plan for 2025, which
+amounted to 988 km 2. The following Table (1) shows the development
+of the urban mass of Al-Baha and its trends from 2006 to 2021.
+The urban mass area of the study area increased in 2020 to about 50
+times what it was in 1982, with a change rate of (433%), and by adding
+an urban area of 102 km2, equivalent to 10202 ha. The city witnessed,
+between the years 2006 and 2021, which is 15 years, the most signifi­
+cant horizontal urban expansion of the urban mass. The urban mass area
+of the city has nearly doubled to about five times, and the urban addition
+amounted to 73 km2, equivalent to 7267 ha, with an annual addition
+rate of 32.3 ha/year.
+
+with modern plans for the suburbs, such as schemes and some neigh­
+borhoods in the city. However, the construction in the northeast direc­
+tion was more than in any direction. It occurs due to the proximity to Al
+Baha University and some vital services that help to attract urbanization
+in this direction.
+The study results of the urban development were similar to the
+previous results prior to 2006 for several reasons. First, they depended
+on the exact data for these periods from the Ministry of Municipal and
+Rural Affairs and based on modern satellite images in monitoring the
+urban growth of Al-Baha. However, the results differed for the years
+2006 and 2021. The study results showed that the urban area of Al-Baha
+for the year 2006 was about 5995 ha, and the block area for the year
+2021 was about 13262 ha.
+5.7. Second: the spatial dimensions of urban growth in Al-Baha
+The spatial dimensions of urban growth are intended to analyze the
+movement of urbanization on the ground in a particular area during a
+specific period [71]. The study of the spatial dimensions of the phe­
+nomenon of urban expansion is an original geographical goal, as the
+spatial change does not appear in its proper form unless it is tracked on
+the ground [72]. Moreover, analyzing the spatial elements can be
+responsible for urban expansion, how the form of expansion changed by
+tracking it in different periods, how urbanization expanded and reached
+its current form, and which axes are more attractive to urban expansion
+[73].
+
+5.6. The first phase: prior to 2006
+The total area of the urban mass of Al-Baha reached about 60 km2,
+which is equivalent to 45% of the current urban area of the city. During
+this period, the urban area of Al-Baha was confined to the neighbor­
+hoods located around the old market area of the city, which is the old
+city. To some new extensions, the city began to appear after that time,
+besides the emergence of some random extensions in the city of Al-Baha
+in many different directions characterized by flat land areas. The signs of
+urbanization appeared in the random extensions of the city during this
+stage (Fig. 4).
+The last phase during the period 2006 until 2021:
+The total built-up area at the end of 2021 amounted to 133 km2. An
+increase of 221% over urbanization in 2021 has occurred. The actual
+increase during this phase amounted to 73 km2, with an annual increase
+of 4.9 km2 and an annual growth rate close to 32.3%. However, as a
+result of the fact that the annual growth rate of urbanization was less
+than the annual growth rate of the population during the recent period,
+the urban density rate of the city increased to 91 people / km2, and the
+per capita urban area decreased to about 25.1 km2 compared to the
+previous phase (Fig. 5).
+In the last phase, between 2006 and 2021, urbanization moved with
+King Fahad Road, the most developed axis due to flat land, and Al-Baha
+University has attracted urbanization powerfully. It also went with (King
+Abdulaziz Road) and with (King Fahd Road), which are the most axes
+The primary growth from the other axis (Fig. 5). However, the moun­
+tainous nature of the city of Al-Baha determined the form of urban
+growth, so urbanization began to grow in the form of longitudinal radial
+axes emerging from the city center with the axes of regional roads and
+the airport road. Urbanization continued to complete the urban spaces
+
+5.7.1. Urban growth trends
+Urban growth trends are essential to indicate the spatial factors that
+stimulate urban growth in specific directions and reduce and limit urban
+growth in other directions[74]. The study of urban mass growth trends
+also seeks to determine which direction is of greater importance than the
+other directions and which is more to explain the spatial difference of
+urban growth. These factors measure urban growth in different di­
+rections [75]. The urban growth trends also vary, and the urban spaces
+and distances they occupy in the city vary. It is also possible to deter­
+mine the trends of attractive and repulsive growth of urbanization in the
+city through Table 2 and Fig. 6, which show urban growth in various
+directions in various periods.
+It is clear from studying the stages of urban development in Al-Baha
+that the urban growth was not parallel or equal due to several factors.
+Most of the urban expansion operations in the city are in the northern
+and northeastern directions, as well as the southern direction, which
+includes the southern and southwestern directions. This development of
+urban expansion results from a group of urban growth stimuli, foremost
+of which is the direction of the prevailing winds. The role of the pre­
+vailing wind direction and its role in expansion has been explained so
+that the newer sector seeks to be in the future of these winds fresh and
+pure, leaving the old sector in the wind’s corridor with its pollution,
+accumulation of waste, and atmospheric secretions [76].
+Al Baha city formed a three-way growth pattern as it grew in three
+directions. This is due to inhibiting factors that freeze and limit growth
+in other directions and push it in these directions. As shown in Table 2,
+
+Table 1
+The development of the urban area and the urban expansion in Al-Baha from 1982 to 2021. It is prepared by the researcher based on data extracted from satellite
+images for the years from 2006 to 2021. Moreover, the rest of the data before 2004 was based on the Ministry of Municipal and Rural Affairs data [70].
+Duration
+1982
+1982–1987
+1987–1995
+1995–2006
+2006–2021
+Total
+
+Interval
+
+Urban Area
+2
+
+Urban Expansion
+
+Year
+
+Km
+
+Hectare
+
+Change %
+
+Km
+
+0
+5
+8
+11
+15
+39
+
+31
+33
+44
+60
+133
+301
+
+3060
+3275
+4420
+5995
+13262
+30012
+
+0
+107
+135
+136
+221
+981
+
+0
+2
+11
+16
+73
+
+2
+
+Urban Expansion Rate
+
+Hectare
+
+Hectare/Year
+
+0
+215
+1145
+1575
+7267
+
+0
+43
+143
+143
+484
+
+121
+
+Growth Trend
+Random direction on the sides of the principal axes.
+Random direction on the sides of the principal axes.
+Random direction on the sides of the principal axes.
+Random direction on the sides of the principal axes.
+Random direction on the sides of the principal axes.
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 4. The development of the urban mass of Al-Baha prior to 2006.
+
+most of the urban growth and expansion operations during the period
+2006–2021 are within the northern, eastern, southeastern, western, and
+southwestern directions of the urban mass of the city. As a result, the
+added area is more than 88%. Therefore, in this case, the urban growth is
+considered more than three-quarters of the added area of the city.
+Many factors stimulate urban growth, as shown in (Fig. 7). The King
+Abdul Aziz Road heading from the southeast of Al-Baha city to the
+northwest is one of the most important motivating factors, as it is the
+regional road that connects the Asir region through Al Baha city and
+towards the Taif Governorate of the Makkah region. The King Abdulaziz
+Road also links King Fahd Hospital, located in the city’s west, to the
+entire city. King Fahd Road, linked to King Abdulaziz Road, which runs
+from the city center towards the east, is considered one of the second
+most important factors stimulating urban growth. King Fahd Road
+connects the city to Al Baha University and King Saud Airport, located
+east of the city, to King Abdulaziz Road. Many of the city’s most
+important administrative and social services are based on these roads,
+which go to the north, northwest, west, southwest, and south, passing
+through the city’s areas.
+Urbanization extended around the central neighborhoods in the
+center of Al-Baha, but from 2006-to 2021, it took three main axes. First,
+urbanization extended to the north and northwest with the extension of
+
+King Abdulaziz Road. Moreover, it spread to more than 20 km north of
+the city center and the market area. Second, the relatively flat lands
+helped urban expansion toward the east. The flat land on King Fahd
+Road has been considered the most critical motivation for the growth of
+the urban mass in this direction as the planning of the built-up block in
+the city’s neighborhoods became in King Fahd Road towards the airport.
+Finally, urbanization moved to the east, more than 15 km from the city
+center (Fig. 8).
+5.8. The controlling elements of urban changes
+The most critical elements that control urban changes in the city are
+location, topography, population, urban growth, roads, transportation,
+land use patterns, services and utilities, land prices, and government
+policies [77]. In this context, all stages of urban development were
+studied, analyzed, and evaluated from the plans prepared for the city of
+Al-Baha by the government institutes. The study and analysis were
+conducted using the quantitative statistical method and the GIS program
+to analyze the pattern of distribution and variance at the level of the city,
+the municipality, the municipal sectors, and the highways of Al-Baha.
+The urban development is characterized by its spread throughout the
+city of Al-Baha, especially in the flat areas, because it is directly affected
+122
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 5. The urban area at the city level during the period 2006–2021.
+
+land is in the torrential stream, and areas with hard rocks that cost
+vast amounts of money to settle are considered natural expulsion
+areas.
+• Human expulsion areas are represented in lands near factories, far
+from the city center, with a high price, lack or scarcity of services,
+distance from main roads, low construction rate, lack of built plots,
+and the change of the city’s plan for land uses.
+
+Table 2
+The growth direction and its area in Al-Baha during 2006–2021, based on sat­
+ellite imageries using ArcGis v10.8.
+Growth Direction
+North
+Northeast
+East
+Southeast
+South
+Southwest
+West
+Northwest
+Total Area
+
+2006
+
+2021
+
+Area
+
+%
+
+Area
+
+%
+
+308.54
+396.27
+1045.85
+981.87
+84.5
+70.59
+925.25
+1734.89
+5547.76
+
+5.6
+7.1
+18.9
+17.7
+1.5
+1.3
+16.7
+31.3
+100
+
+1725.4
+1314.6
+1728.5
+1554.2
+136.8
+114.3
+2022.3
+4665.9
+13262
+
+1725.4
+1314.6
+1728.5
+1554.2
+136.8
+114.3
+2022.3
+4665.9
+100
+
+The urban expansion in Al-Baha is uncontrolled, as it has been sub­
+jected to many changes in development projects. The freedom to build
+without planning controls resulted in an urban stumbling block that led
+to a loose and random urban growth, surrounded by many vacant
+spaces. It leads to the loss of the urban fabric of the city. There is evident
+overcrowding in the neighborhoods located in the city center and scarce
+space. More than three-fifths of Al-Baha residents live in neighborhoods
+with random and spontaneous growth. This is because the planned areas
+are reduced with this high population accumulation. However, there are
+still many undeveloped areas, which means that the residents of these
+neighborhoods live in buildings with vertical growth due to the small
+built area.
+
+by natural and human factors. It shows the areas of exclusion and
+attraction of urbanization in the city as follows:
+• Natural expulsion areas are represented in natural factors such as the
+plot location, high areas, and steep areas. For example, the plot of
+123
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 6. The development of the urban mass of Al-Baha from 2006 to 2021.
+
+The annual urban addition is more transparent and more expressive
+than the urban addition at the period level, reflecting real growth. Be­
+tween 2006 and 2021 is considered the most urban growth period, as the
+urban addition amounted to about 7267 ha, equivalent to 73 km2
+(Fig. 9). It occurred due to reasons that were previously identified. Be­
+tween 1995 and 2006, the urban area has a rate of 1575 ha, equivalent
+to 16 km2. Whereas, between 1987 and 1995, the urban addition
+amounted to 1145 ha, equivalent to 11 km2. The period between 1982
+and 1987 came as the least added urban spaces among all times. This
+period is the lowest in terms of the rate of addition, as the lowest was
+recorded at about 215 ha, equivalent to 2 km2 (Table 1).
+
+north-east direction toward the airport, with a length of 45 km. Both
+axes pass through the main valleys in the study area, as shown in Fig. 9.
+The physical geography of the city area has led to the high cost of road
+construction and limits of the city’s urban growth. The urban growth
+flourished on the hills and has been associated with the construction of
+roads. As a result, the roads are more closely interconnected than any
+other city that does not resemble it in its natural conditions.
+Due to the rugged terrain of Al-Baha and the resulting difficulty in
+movement and poor communication, this area has remained somewhat
+isolated from the rest of the Kingdom prior to modern road construction.
+It had only some mountain tracks used for movement on the backs of
+animals. As for the movement of residents from Al-Baha to Al-Mikhwah
+Governorate, located at the bottom of the Sarah Highlands, it was a
+complicated matter. Moving to Al-Mikhwah is closer to climbing
+mountains than moving. While travel from Al Baha to the city of Taif
+until 1947 was on foot. The construction of the road network in the
+study area made it possible to live far from the central business district,
+perhaps for distances of up to 20 km. As most of the city’s national
+residents and some residents own private cars, the distance factor was
+neglected when looking for housing. On the other hand, the construction
+
+5.9. Human factors influencing urban growth
+The roads in the city are considered the most man-maid elements
+affected by natural phenomena. The main roads extend in the Al-Baha
+region in the northwest and southeast direction. This axis is part of
+the regional road extending from Taif through Al-Baha then Abha and
+ending with the city of Jizan, which is about 870 km. The main axis
+branches off from it in the city center area, by a secondary road in the
+124
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 7. The growth direction is toward the northwest of the city.
+
+there is a major urban complex, Raghadan, which consists of eight vil­
+lages, the largest of which are: Bani Saad and Al-Tawila. To the north of
+the previous settlement, there is another community, the Rahwa area,
+consisting of ten villages, the largest of which are Al-Jadiyah and Bal
+Ala.
+On Taif – Abha Road, to the south of the central business district,
+there is a third urban cluster: Al-Malad, Wadi Al-Ali, and Al-Mafarjah. As
+for the airport road, Al-Baha, there are two urban gatherings, the least of
+which is the Al-Hamda and Al-Ra’eb. Here the urban structure is in line
+with the nature of the agricultural area listed on the banks of the valley.
+The second urban cluster is the cluster of Al-Sawad, Bashir, Bani Farwa,
+and Al-Kara. It is clear from the above that the urban growth in the AlBaha city guide plan is a strip growth on the sides of the main road,
+especially on both sides of the regional road Taif - Abha, where it is
+noted that nine villages extend on one strip.
+It can be said that the natural geographical obstacles to the growth of
+the original city. It is responsible for the development of the city and the
+expansion of its urban scope to resort to what can be called the process of
+rural urbanization. Due to the inevitability of the city’s urban develop­
+ment and in response to its functions, the city has become multifunc­
+tional by adding administrative, recreational, and educational functions
+to its dominant function, which is agriculture. In light of the pressure of
+the natural geographical factors and their limitation on the growth
+process, as they provide a small amount of land suitable for this growth,
+the city has spread its border network to the neighboring countryside to
+swallow up more than 40 villages and include them in its urban scope in
+response to the planning requirements that the city needs. Hence, the
+process of urbanizing the countryside adjacent to the city became a part
+of it by an administrative decision. Therefore, it can be said that the
+human geographical factors have met the natural geographical obstacles
+to the city’s growth. The growth process of rural areas developed with
+time to fill the rural gaps of the urban entity of Al-Baha. Mainly since
+human geographic factors help accelerate the process of rural-urban
+transformation and the imbalance of the rural balance for the urban
+share. Among these factors are the attractions to the city and the push
+factors out of the countryside.
+People move from the countryside to the city in a process known as
+
+of the road network has attracted the city’s central business district to
+housing by non-citizens, and it has become undesirable for housing by
+its original residents. The migration of local people led to urbanization
+spread along the roads and away from the city center boundaries.
+5.10. City growth axis
+Several factors, namely control the urban growth process of Al-Baha
+city:
+1. The city is located on the edge of a mountain cliff, and its develop­
+ment is impossible to the west.
+2. The city’s hilly location does not allow it to expand and extend
+except through the valleys in the hills of its area or on the slopes of
+some of these hills, even though they are primarily agricultural areas.
+3. Highways are part of the Abha-Taif regional road and the Al-Baha
+Airport Road.
+The city’s urban expansion to the west is considered impossible, and
+therefore it occupied the valleys of the city area as a first stage, and then
+some parts of the hills followed that. The geographical factor affecting
+the urban growth process of the city now is the roads. Just as roads are
+the component of the urban type, they have also contributed to the
+formation of the social pattern in the city. It is considered the trans­
+formation of the main road that the area’s people used to use in their
+movements in the past, specifically Wadi Raghadan, into a part of the
+regional road Taif - Abha. In addition to the construction of a road
+linking the city center with the airport, the city’s connection to Tehama
+via the Aqabat Al-Baha Road led the urban expansion toward the di­
+rection of Tehama, which came through the expansion of paved roads.
+These roads began to extend to the north on the sides of the regional
+road linking the city of Taif and towards the northeast on the sides of the
+airport.
+As mentioned previously, the city’s urban areas gather around the
+main road in its area. The city is the nucleus - the central business district
+now - in the middle of it is the intersection of the airport road with the
+regional road Taif - Abha, and to the north, on both sides of the last road,
+125
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 8. Urban growth trends and distance from the city center of Al-Baha for the years 2006–2021.
+
+urbanization. The main reason for this process is to obtain a better
+standard of living. In addition, there are many attractions in the city. The
+following are the most prominent:
+Attractions to the city:
+
+for the city. However, essential factors are as follows:
+– The lack of job opportunities leads to a high rate of poverty which
+forces residents to look for better jobs offers.
+– There is limited access to infrastructure and public services that drive
+people to move to better living standards.
+– The migration of the rural population moves to the city to improve
+their standard of living.
+– Facilitations in construction operations such as material loans and
+land grants to citizens attract more citizens to the city.
+– Part of the rural workforce has shifted to civilian jobs in the city.
+– The city has expanded education, tourism, and government services,
+leading to urbanization.
+– The rapid development and growth of the road network in the AlBaha region attract more residents to move out of the rural area.
+– All the above are the factors that will lead to the growth of the city’s
+urban area in the future.
+
+– The city provides job opportunities as one of the city’s main attrac­
+tions. As a result of the economic growth in the city, the demand for
+labor has risen significantly.
+– The city provides the living conditions for the city’s residents.
+– Higher labor wages compared to rural areas.
+– Many different industries are available in the city.
+– The city has educational institutions that offer various courses, skills,
+and diverse topics.
+– The city provides better health and education care than the
+countryside.
+– The city has the availability of various urban facilities.
+Push factors to leave the countryside (abandonment of agricultural
+land by some farmers):
+Many factors affect and push the population to leave the countryside
+126
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 9. Urban development stages and growth trends at the city level during the period 2006–2021.
+
+6. Conclusion
+
+what can be called urban borrowing. Hence, the city’s urban growth is
+considered an artificial growth that cannot be said to have come in
+response to normal geographical conditions. On the contrary, it has been
+found that human geographical controls have overcome their natural
+counterparts that limit the city’s growth by choosing some rural-urban
+areas adjacent to the city despite their scattering, distance, and small
+area and counting these centers as parts of it. The nearby countryside
+was artificially urbanized, indicating adapting human geographical
+factors affecting city growth to natural geographical factors. Many fac­
+tors aided artificial urbanization. Farmers abandon farms for city jobs.
+The city’s road network expanded economic, tourism, and educational
+activity, and supportive government facilities helped urbanize. Thus, AlBaha’s urban growth came in response to the requirements of its new
+functions at the expense of its neighboring countryside.
+The study additionally detected that the city’s natural obstacles have
+caused it to encroach on rural areas. Since terraced agricultural lands
+follow the natural topography of mountains and valleys, they attract
+more urban expansion due to the apparent loss of abundant farmlands
+and the ease of converting them to residential use. This research
+concluded that many factors increase urban growth and random and
+
+This study has taken considerable interest in understanding the dy­
+namics of urban expansion and its patterns and the inconsistency of land
+cover distributions in the Al-Baha. The study tracks changes in urban
+land cover and observes the inconsistency in the land cover distributions
+in Al-Baha during the study period. The area of Al-Baha city grew
+initially due to the acceleration of the transformation of Al-Baha from a
+village to a city. After being a village until 1974, Al-Baha became a city
+in Saudi Arabia. It is now a built-up group of neighboring villages that
+exceeds about 40 villages according to the administrative definition
+rather than the functional definition. Al-Baha has a large, unoccupied
+area on steep slopes. Given its topography, much of the land within the
+boundaries is unsuitable for urban development. Current urban growth
+is shaped by steep topography and agricultural land morphology. AlBaha’s morphology is linked to its urban growth, not city status. As a
+result, the city’s area grew by 221% from 2006 to 2021. It increased in
+urban areas from 60 km2 to 133 km2, which means false urban growth.
+Therefore, it is not natural urban growth, as it is closer to an un­
+natural increase than to a natural increase in the demographic sense of
+127
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 10. The regional road extends from Taif through Al-Baha then to Abha, whereas a secondary road extends in the northeast direction toward the airport.
+
+irregular urban sprawl at the expense of the natural environment,
+agricultural areas, and rural villages surrounding the city. Accordingly,
+dealing with the issue of urban sprawl must be based on strategic
+foundations and principles that consider the analysis of locations and
+trends of development and the population’s future needs.
+
+help prevent the modification of agricultural land uses and changing
+their use. The study suggests defining borders that preserve natural
+forests, particularly those that encircle and are adjacent to urban areas,
+such as Shahba and Raghadan forests, and designating them as protected
+areas. It is essential to encourage urban development and direct it to
+locations suitable for urban development and not suitable for agricul­
+tural development, especially on the eastern axis of the region. It is
+suitable to create new urban centers capable of drawing residents and
+easing the pressure in the west of Al-Baha city center along the western
+cliff.
+Moreover, it is essential to restrict the prevalence of the linear
+expansion pattern, particularly in the northeast, and promote and
+incentivize expansion across a broader range of areas by areas suited for
+urbanization. In addition, a main axis should connect the urban growth
+in the northeastern and northwest regions to facilitate linking between
+them. It is advisable to slow down the urbanization occurring in the
+western areas of Al-Baha; the ring road connecting the southeastern and
+eastern regions should be stimulated. Additionally, it is urged to work
+toward creating maps that highlight times when the Al-Baha region’s
+expansionary scope changed noticeably and the urban boundaries that
+
+7. Recommendation
+Based on the research’s findings, the study suggests that in addition
+to working to create a comprehensive plan for the region that supports
+the best possible use of the natural resources and the potential to find a
+balance in the region’s urban growth, corrective strategies for the pre­
+sent and future should be considered by the environment. The study
+advises that planning suitable areas should be the focus of urban
+development, as agricultural development is not feasible in these areas,
+particularly in the northeastern regions. It is advisable to create an urban
+scale for rural areas comparable to cities and offer plans for current and
+future urban growth improvements to protect open spaces and devel­
+opable agricultural lands. Because of the significance of these agricul­
+tural areas in the region, planning regulations should be developed that
+128
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+Fig. 11. The city has spread its border network to the neighboring countryside to swallow up more than 40 villages and includes them in its urban scope in response
+to the planning requirements that the city needs.
+
+had to be reached in a certain period while being closely watched over
+by development plans and their effectiveness.
+
+2020.”
+
+Declaration of Competing Interest
+
+[1] M. Jayne, D. Bell, City of Quarters: Urban Villages in the Contemporary City,
+Routledge, 2017.
+[2] U. N. HABITAT, “Cities Prosperity (Al-Baha) Report,” 2020. Accessed: Apr. 16,
+2022. [Online]. Available: chrome-extension://
+efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%
+2Funhabitat.org%2Fsites%2Fdefault%2Ffiles%2F2020%2F04%2Fcpi_profile_for_
+al_baha_2019.pdf&clen=1226931&chunk=true.
+[3] F.A. Mubarak, Urban growth boundary policy and residential suburbanization:
+Riyadh, Saudi Arabia, Habitat Int. vol. 28 (4) (2004) 567–591.
+[4] S. Al-Hathloul, M.A. Mughal, Urban growth management-the Saudi experience,
+Habitat Int. vol. 28 (4) (2004) 609–623.
+[5] D. Kumar, Appl. GIS RS Urban Plan. (2021), https://doi.org/10.13140/
+RG.2.2.28603.75041.
+[6] J.A. Parry, S.A. Ganaie, M.S. Bhat, GIS based land suitability analysis using AHP
+model for urban services planning in Srinagar and Jammu urban centers of J&K,
+India, J. Urban Manag. vol. 7 (2) (2018) 46–56.
+[7] A. el Garouani, D.J. Mulla, S. el Garouani, J. Knight, Analysis of urban growth and
+sprawl from remote sensing data: case of Fez, Morocco, Int. J. Sustain. Built
+Environ. vol. 6 (1) (2017) 160–169.
+
+References
+
+The authors whose names are listed immediately below certify that
+they have NO affiliations with or involvement in any organization or
+entity with any financial interest (such as honoraria; educational grants;
+participation in speakers’ bureaus; membership, employment, consul­
+tancies, stock ownership, or other equity interest; and expert testimony
+or patent-licensing arrangements), or non-financial interest (such as
+personal or professional relationships, affiliations, knowledge or beliefs)
+in the subject matter or materials discussed in this manuscript.
+Acknowledgments
+“The authors extend their appreciation to the Deputyship for
+Research & Innovation, Ministry of Education in Saudi Arabia for
+funding this research work through the project number: MOE-BU-10129
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+[8] S. Yamamura, L. Fan, Y. Suzuki, Assessment of urban energy performance through
+integration of BIM and GIS for smart city planning, Procedia Eng. vol. 180 (2017)
+1462–1472.
+[9] X. Li, A.G.O. Yeh, Cellular automata modelling for urban planning in fast-growth
+regions. Handbook of Planning Support Science, Edward Elgar Publishing, 2020.
+[10] M. Marzouk, A. Othman, Planning utility infrastructure requirements for smart
+cities using the integration between BIM and GIS, Sustain Cities Soc. vol. 57 (2020)
+102120.
+[11] M. Daoudi, A.J. Niang, Effects of geomorphological characteristics on urban
+expansion of Jeddah city-Western Saudi Arabia: a GIS and Remote Sensing DataBased Study (1965–2020), J. Taibah Univ. Sci. vol. 15 (1) (2021) 1217–1231.
+[12] S.W. Wang, B.M. Gebru, M. Lamchin, R.B. Kayastha, W.-K. Lee, Land use and land
+cover change detection and prediction in the Kathmandu District of Nepal using
+remote sensing and GIS, Sustainability vol. 12 (9) (2020) 3925.
+[13] S. Lahoti, M. Kefi, A. Lahoti, O. Saito, Mapping methodology of public urban green
+spaces using GIS: An example of Nagpur City, India, Sustainability vol. 11 (7)
+(2019) 2166.
+[14] F.R.Y. Alazzawi, Priority challenges and critical success factors for GIS in AlMansour Municipality, Int. J. Psychosoc. Rehabil. vol. 24 (02) (2020).
+[15] M. Hiloidhari, et al., Emerging role of Geographical Information System (GIS), Life
+Cycle Assessment (LCA) and spatial LCA (GIS-LCA) in sustainable bioenergy
+planning, Bioresour. Technol. vol. 242 (2017) 218–226.
+[16] H. Karimi, J. Jafarnezhad, J. Khaledi, P. Ahmadi, Monitoring and prediction of
+land use/land cover changes using CA-Markov model: a case study of Ravansar
+County in Iran, Arab. J. Geosci. vol. 11 (19) (2018) 1–9.
+[17] N.R. Khwarahm, Spatial modeling of land use and land cover change in Sulaimani,
+Iraq, using multitemporal satellite data, Environ. Monit. Assess. vol. 193 (3) (2021)
+1–18.
+[18] T.T. Werner, A. Bebbington, G. Gregory, Assessing impacts of mining: Recent
+contributions from GIS and remote sensing, Extr. Ind. Soc. vol. 6 (3) (2019)
+993–1012.
+[19] H.M. Alshuwaikhat, I.R. Abubakar, Y.A. Aina, Y.A. Adenle, M. Umair, The
+development of a GIS-based model for campus environmental sustainability
+assessment, Sustainability vol. 9 (3) (2017) 439.
+[20] G. Li, S. Sun, C. Fang, The varying driving forces of urban expansion in China:
+Insights from a spatial-temporal analysis, Land. Urban Plan vol. 174 (2018) 63–77.
+[21] M. Zarubin, L. Statsenko, P. Spiridonov, V. Zarubina, N. Melkoumian, O. Salykova,
+A GIS software module for environmental impact assessment of the open pit mining
+projects for small mining operators in Kazakhstan, Sustainability vol. 13 (12)
+(2021) 6971.
+[22] H. Shahumyan, R. Moeckel, Integration of land use, land cover, transportation, and
+environmental impact models: expanding scenario analysis with multiple modules,
+Environ. Plan B Urban Anal. City Sci. vol. 44 (3) (2017) 531–552.
+[23] F.C. Prinsloo, Development of a GIS-based decision support tool for environmental
+impact assessment and due-diligence analyses of planned agricultural floating solar
+systems, Univ. South Afr. vol. 1 (2019) 1–121.
+[24] B. Alharthi, T.A. El-Damaty, Study the urban expansion of Taif City using remote
+sensing and gis techniques for decision support system, Adv. Remote Sens. vol. 11
+(1) (2022) 1–15.
+[25] J. Lella, V.R. Mandla, X. Zhu, Solid waste collection/transport optimization and
+vegetation land cover estimation using Geographic Information System (GIS): a
+case study of a proposed smart-city, Sustain Cities Soc. vol. 35 (2017) 336–349.
+[26] S. Singh, S.N. Behera, Development of GIS-based optimization method for selection
+of transportation routes in municipal solid waste management. Advances in Waste
+Management, Springer, 2019, pp. 319–331.
+[27] A. Abdelkarim, A.F.D. Gaber, A.M. Youssef, B. Pradhan, Flood hazard assessment of
+the urban area of Tabuk City, Kingdom of Saudi Arabia by integrating spatial-based
+hydrologic and hydrodynamic modeling, Sensors vol. 19 (5) (2019) 1024.
+[28] C.M. Viana, S. Oliveira, S.C. Oliveira, J. Rocha, Land use/land cover change
+detection and urban sprawl analysis. Spatial modeling in GIS and R for earth and
+environmental sciences, Elsevier, 2019, pp. 621–651.
+[29] P.A. Bhat, M. ul Shafiq, A.A. Mir, P. Ahmed, Urban sprawl and its impact on
+landuse/land cover dynamics of Dehradun City, India, Int. J. Sustain. Built
+Environ. vol. 6 (2) (2017) 513–521.
+[30] C. Liping, S. Yujun, S. Saeed, Monitoring and predicting land use and land cover
+changes using remote sensing and GIS techniques—A case study of a hilly area,
+Jiangle, China, PLoS One vol. 13 (7) (2018) e0200493.
+[31] A. Bose, I.R. Chowdhury, Monitoring and modeling of spatio-temporal urban
+expansion and land-use/land-cover change using markov chain model: a case study
+in Siliguri Metropolitan area, West Bengal, India, Model Earth Syst. Environ. vol. 6
+(4) (2020) 2235–2249.
+[32] H. Cao, et al., Urban expansion and its impact on the land use pattern in
+Xishuangbanna since the reform and opening up of China, Remote Sens. vol. 9 (2)
+(2017) 137.
+[33] M.H.A. Ghurah, et al., Assessment of urban growth and sprawl using GIS and
+remote sensing techniques in South Ghor region, Al-Karak, Jordan, Int. J. Eng.
+Technol. (UAE) vol. 7 (3.1) (2018) 5–11.
+[34] A. Berila, F. Isufi, Two decades (2000–2020) Measuring urban sprawl using GIS, RS
+and landscape metrics: a case study of municipality of Prishtina (Kosovo), J. Ecol.
+Eng. vol. 22 (6) (2021).
+[35] S. Mansour, M. Al-Belushi, T. Al-Awadhi, Monitoring land use and land cover
+changes in the mountainous cities of Oman using GIS and CA-Markov modelling
+techniques, Land Use Policy vol. 91 (2020) 104414.
+[36] B. Rimal, L. Zhang, H. Keshtkar, N. Wang, Y. Lin, Monitoring and modeling of
+spatiotemporal urban expansion and land-use/land-cover change using integrated
+Markov chain cellular automata model, ISPRS Int. J. Geoinf. vol. 6 (9) (2017) 288.
+
+[37] M.K. Jat, M. Choudhary, A. Saxena, Urban growth assessment and prediction using
+RS, GIS and SLEUTH model for a heterogeneous urban fringe, Egypt. J. Remote
+Sens. Space Sci. vol. 20 (2) (2017) 223–241.
+[38] J. Bahrawi, H. Ewea, A. Kamis, M. Elhag, Potential flood risk due to urbanization
+expansion in arid environments, Saudi Arabia, Nat. Hazards vol. 104 (1) (2020)
+795–809.
+[39] A.M. Almadini, A.A. Hassaballa, Depicting changes in land surface cover at AlHassa oasis of Saudi Arabia using remote sensing and GIS techniques, PLoS One
+vol. 14 (11) (2019) e0221115.
+[40] A.K. Abd El Aal, M. Kamel, S.H. Alyami, Environmental analysis of land use and
+land change of Najran city: GIS and remote sensing, Arab J. Sci. Eng. vol. 45 (10)
+(2020) 8803–8816.
+[41] A.F. Alqurashi, L. Kumar, An assessment of the impact of urbanization and land use
+changes in the fast-growing cities of Saudi Arabia, Geocarto Int. vol. 34 (1) (2019)
+78–97.
+[42] B. Wiatkowska, J. Słodczyk, A. Stokowska, Spatial-temporal land use and land
+cover changes in urban areas using remote sensing images and GIS analysis: the
+case study of Opole, Poland, Geoscience vol. 11 (8) (2021) 312.
+[43] P. Riad, S. Graefe, H. Hussein, A. Buerkert, Landscape transformation processes in
+two large and two small cities in Egypt and Jordan over the last five decades using
+remote sensing data, Land. Urban Plan. vol. 197 (2020) 103766.
+[44] T. Ünlü, Managing the urban change: a morphological perspective for planning,
+ICONARP Int. J. Archit. Plan. vol. 7 (2019) 55–72.
+[45] Y. Wu, S. Li, S. Yu, Monitoring urban expansion and its effects on land use and land
+cover changes in Guangzhou city, China, Environ. Monit. Assess. vol. 188 (1)
+(2016) 15.
+[46] A. Alqahtany, GIS-based assessment of land use for predicting increase in
+settlements in Al Ahsa Metropolitan Area, Saudi Arabia for the year 2032, Alex.
+Eng. J. vol. 62 (2023) 269–277.
+[47] S.W. Wang, B.M. Gebru, M. Lamchin, R.B. Kayastha, W.-K. Lee, Land use and land
+cover change detection and prediction in the Kathmandu district of Nepal using
+remote sensing and GIS, Sustainability vol. 12 (9) (2020) 3925.
+[48] M.A.M. Elmorshdy, “Urban growth monitoring, simulation and management from
+coastal cities management perspective using Cellular Automata, Remote Sensing
+and GIS: a case study of Alexandria governorate, Egypt”, 2019.
+[49] H.A. Altuwaijri, M.H. Alotaibi, A.M. Almudlaj, F.M. Almalki, Predicting urban
+growth of Arriyadh city, capital of the Kingdom of Saudi Arabia, using Markov
+cellular automata in TerrSet geospatial system, Arab. J. Geosci. vol. 12 (2019)
+1–15.
+[50] M.T. Rahman, Detection of land use/land cover changes and urban sprawl in AlKhobar, Saudi Arabia: an analysis of multi-temporal remote sensing data, ISPRS Int
+J. Geoinf. vol. 5 (2) (2016) 15.
+[51] M. Almazroui, A. Mashat, M.E. Assiri, M.J. Butt, Application of landsat data for
+urban growth monitoring in Jeddah, Earth Syst. Environ. vol. 1 (2017) 1–11.
+[52] S.H. Mahmoud, A.A. Alazba, Land cover change dynamics mapping and predictions
+using EO data and a GIS-cellular automata model: the case of Al-Baha region,
+Kingdom of Saudi Arabia, Arab. J. Geosci. vol. 9 (2016) 1–20.
+[53] P. Pellikka, A.Y. Alshaikh, Remote sensing of the decrease of juniper woodlands in
+the mountains of Southwestern Saudi Arabia—reasons and consequences, Arab. J.
+Geosci. vol. 9 (2016) 1–12.
+[54] J.W. Creswell, J.D. Creswell, Research Design: Qualitative, Quantitative, and
+Mixed Methods Approaches, Sage Publications, 2017.
+[55] MOMRA, “Al-Baha City Profile”, Riyadh, 2019.
+[56] A.-B. Province, “Al-Baha Province”, Al-Baha Province. Accessed: Apr. 12, 2022.
+[Online]. Available: 〈https://shorturl.ae/XSmrM〉.
+[57] M. Herold, H. Couclelis, K.C. Clarke, The role of spatial metrics in the analysis and
+modeling of urban land use change, Comput. Environ. Urban Syst. vol. 29 (4)
+(2005) 369–399.
+[58] J. Xiao, et al., Evaluating urban expansion and land use change in Shijiazhuang,
+China, by using GIS and remote sensing, Land. Urban Plan. vol. 75 (1–2) (2006)
+69–80.
+[59] M. Aljoufie, M. Zuidgeest, M. Brussel, M. van Maarseveen, Spatial–temporal
+analysis of urban growth and transportation in Jeddah City, Saudi Arabia, Cities
+vol. 31 (2013) 57–68.
+[60] A. Siddiqui, A. Siddiqui, S. Maithani, A.K. Jha, P. Kumar, S.K. Srivastav, Urban
+growth dynamics of an Indian metropolitan using CA Markov and Logistic
+Regression, Egypt. J. Remote Sens. Space Sci. vol. 21 (3) (2018) 229–236.
+[61] M. Wolff, T. Wiechmann, Urban growth and decline: Europe’s shrinking cities in a
+comparative perspective 1990–2010, Eur. Urban Reg. Stud. vol. 25 (2) (2018)
+122–139.
+[62] M.S. El-Hawagry, M.R. Sharaf, H.M. al Dhafer, H.H. Fadl, A.S. Aldawood, Addenda
+to the insect fauna of Al-Baha Province, Kingdom of Saudi Arabia with
+zoogeographical notes, J. Nat. Hist. vol. 50 (19–20) (2016) 1209–1236.
+[63] H. Aljasir, In Sarat Ghamid and Zahran, vol. 2, Dar Al-Yamamah, Riyhadh, 1977.
+[64] A. Abdula’al, Saudi Cities: Land Use and Functions, vol. 1, Nahda Al-Sharq Library,
+Cairo, 1996.
+[65] G. bin Jreais, The written saying in the History of the South, Al-Baha and Asir, 5th
+ed., vol. 1, King Fahd Library, Riyadh, 2014.
+[66] W. Zhang, W. Li, C. Zhang, W.B. Ouimet, Detecting horizontal and vertical urban
+growth from medium resolution imagery and its relationships with major
+socioeconomic factors, Int J. Remote Sens vol. 38 (12) (2017) 3704–3734.
+[67] I. Zambon, A. Colantoni, L. Salvati, Horizontal vs vertical growth: Understanding
+latent patterns of urban expansion in large metropolitan regions, Sci. Total
+Environ. vol. 654 (2019) 778–785.
+
+130
+
+A. Alzahrani et al.
+
+Alexandria Engineering Journal 95 (2024) 114–131
+
+[68] T.K. Bradshaw, B. Muller, Impacts of rapid urban growth on farmland conversion:
+application of new regional land use policy models and geographical information
+systems 1, Rural Socio vol. 63 (1) (1998) 1–25.
+[69] N. Bihamta, A. Soffianian, S. Fakheran, M. Gholamalifard, Using the SLEUTH urban
+growth model to simulate future urban expansion of the Isfahan metropolitan area,
+Iran, J. Indian Soc. Remote Sens. vol. 43 (2) (2015) 407–414.
+[70] MOMRA, “The Comprehensive Development Plan_ Al-Baha Region”, Riyadh, Jan.
+1985.
+[71] J. Cheng, Modelling Spatial and Temporal Urban Growth, Utrecht University
+Utrecht, The Netherlands, 2003.
+[72] Y.D. Wei, R. Ewing, Urban Expansion, Sprawl and Inequality, in: Landscape and
+urban planning, vol. 177, Elsevier, 2018, pp. 259–265.
+
+[73] S.H. Otuoze, D.V.L. Hunt, I. Jefferson, Predictive modeling of transport
+infrastructure space for urban growth phenomena in developing countries’ cities: a
+case study of Kano—Nigeria, Sustainability vol. 13 (1) (2020) 308.
+[74] A. Schneider, K.C. Seto, D.R. Webster, Urban growth in Chengdu, Western China:
+application of remote sensing to assess planning and policy outcomes, Environ.
+Plan. B Plann Des. vol. 32 (3) (2005) 323–345.
+[75] F.S. Taiema, M.S. Ramadan, Monitoring urban growth directions using geomatics
+techniques, a case study Zagazig city-Egypt, Egypt. J. Remote Sens. Space Sci. vol.
+24 (3) (2021) 1083–1092.
+[76] S. Chang, Q. Jiang, Y. Zhao, Integrating CFD and GIS into the development of
+urban ventilation corridors: a case study in Changchun City, China, Sustainability
+vol. 10 (6) (2018) 1814.
+[77] B. Bhatta, Analysis of Urban Growth and Sprawl from Remote Sensing Data,
+Springer Science & Business Media, 2010.
+
+131
+
+

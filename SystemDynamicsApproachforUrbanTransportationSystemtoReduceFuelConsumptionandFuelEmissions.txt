@@ -1,0 +1,828 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/339528789
+
+System Dynamics Model For Urban Transportation System To Reduce Fuel
+Consumption And Fuel Emission
+Conference Paper · February 2020
+
+CITATIONS
+
+READS
+
+0
+
+211
+
+2 authors:
+Sandeep Singh
+
+Challa Prathyusha
+
+National Institute of Technology, Puducherry
+
+REVA University
+
+61 PUBLICATIONS 309 CITATIONS
+
+18 PUBLICATIONS 32 CITATIONS
+
+SEE PROFILE
+
+All content following this page was uploaded by Sandeep Singh on 27 May 2021.
+The user has requested enhancement of the downloaded file.
+
+SEE PROFILE
+
+System Dynamics Approach for Urban
+Transportation System to Reduce Fuel
+Consumption and Fuel Emissions
+Sandeep Singh and Challa Prathyusha
+
+Abstract The world today is facing a severe environmental crisis. High fuel
+consumption by the various categories of vehicles in urban areas causes fuel emissions, worsening environmental conditions. This study aims to investigate and
+analyze the scenario-based System Dynamics (SD) models to reduce fuel consumption and fuel emissions. In this study, we built an SD model, including the factors
+influencing the transportation system, energy system, emissions system, and environment system. A broad range of policy scenarios was constructed for Chennai
+city, India, which considered criteria such as model split, fuel consumption, and
+fuel emissions. The SD simulation-based forecasting models are built considering
+three scenarios, such as do-nothing scenario, do-minimum scenario, and desirable
+scenario to project the SD parameters for the horizon year 2030. The scenarios of
+augmenting the proportion of public transportation and simultaneously restricting the
+proportion of private transportation by a model split of 10%:90% in the do minimum
+scenario and 20%:80% in the desirable scenario led to substantial reduction in the
+number of vehicles plying on the city roads. This has eventually resulted in pursuing
+a significant reduction in fuel consumption and fuel emissions. The results from SD
+simulation findings have led to the development of policies to regulate increasing
+fuel consumption and fuel emissions, based on the estimated figures.
+Keywords Urban transportation system · System dynamics (SD) · Scenario
+analysis · Vehicular fuel consumption · Vehicular fuel emission
+
+S. Singh (B)
+Department of Civil Engineering, National Institute of Technology Tiruchirappalli,
+Tiruchirappalli, India
+e-mail: sandeepsingh.nitt@gmail.com
+C. Prathyusha
+Department of Civil Engineering, REVA University, Bangalore, India
+e-mail: prathyushareddy1990@gmail.com
+© The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd. 2021
+A. Jana and P. Banerji (eds.), Urban Science and Engineering, Lecture Notes
+in Civil Engineering 121, https://doi.org/10.1007/978-981-33-4114-2_31
+
+385
+
+386
+
+S. Singh and C. Prathyusha
+
+1 Introduction
+As the urbanization cycle accelerates, developing countries are under increased pressure to make savings in energy and reduce pollution, particularly for urban regions.
+Furthermore, energy consumption and CO2 emissions from the public and private
+transport modes plays an important role in energy conservation and emission reduction. Travel demand models that can be used to forecast travel by mode, time of day,
+length of travel, or travel location must be built [1] immediately to examine the impact
+of one factor over the other. Enhanced capacity policies, which include mobility
+management strategies for conservation and emission reduction in both developed
+nations and developing nations, are required [2]. Collective actions and coordinated
+government initiatives are thus the immediate requirements for addressing the problems and reducing damages to improve productivity through the usage of renewable
+transport systems [3]. So, it is vital to comprehend the structures and the relationships between different transportation systems, energy systems, emissions systems,
+and environment systems of the urban region. As a result, the quantitative analysis
+of behavioral characteristics and the process of complex transportation of urban
+travelers have become important areas of study.
+This work, therefore, aims primarily to study the energy and emission factors
+affecting the transport sector in road transport. In addition, we have developed three
+scenarios based on possible policies that could be adopted by the city administration
+to predict their potential for both reducing vehicle fuel consumption and reducing fuel
+emissions. The development of different alternative scenarios based on the System
+Dynamics (SD) simulation models to predict potential demands for the transport,
+energy, and emission sectors are also conducted. Later, the SD model scenarios are
+critically reviewed and evaluated in such a way that could tackle and minimize losses
+in transport, energy, and emissions. Finally, effective transport policies to ensure the
+implementation of a sustainable transport system are proposed.
+
+2 Background Literature
+In the past few years, a significant number of studies have been conducted into energy
+consumption and emissions.
+Wang et al. [4] measured CO2 and passenger car pollutants through 2000–2005,
+in order to find a reduction in the potential policies. The authors predicted the future
+trend in pollutant emissions from passenger cars under three different scenarios.
+Han and Hayashi [5] used the SD model to evaluate the influence of the supply chain
+and examined the effects of policy scenarios on traffic volume, modal share, energy
+conservation, and CO2 emissions.
+Rentziou et al. [6] anticipated urban passenger transport volume, energy consumption, and CO2 emissions based on simultaneous equations. Song et al. [7] formulated a
+methodology for the development of mesoscopic fuel consumption and fuel emission
+
+System Dynamics Approach for Urban Transportation System …
+
+387
+
+models to assess the environmental impacts of Intelligent Transportation Systems
+(ITS) strategies.
+Cheng et al. [8] explored three SD scenarios, which include fuel taxation, motorcycle parking management, and free bus service to potentially reduce vehicle fuel
+consumption and mitigate CO2 emissions over a 30-year timeframe (from 1995 to
+2025). The author suggested that the most efficient way of curbing growth in the
+number of private cars, the amount of fuel usage, and CO2 emissions was both fuel
+taxing and motorcycle parking management.
+Malik et al. [9] have carried out a comprehensive disaggregate-level analysis to
+quantify freight fleet emissions in Delhi, India. The effect of freight emissions on the
+environment of the city was quantified. This research work revealed that freight vehicles contribute 42.3% and 45.5% of the total PM10 and NOx emissions, respectively.
+Interestingly, the light-duty freight vehicles were found to be a significant contributor to the overall pollution with 28.71% and 33.07% PM10 and NOx emissions,
+respectively.
+Akbari et al. [10] developed six scenarios using the SD technique and quantitatively analyzed them to figure out the best-performed scenario. They found that the
+comprehensive policy SD scenario-based model performed the best compared to all
+the other individual policies.
+As can be seen from the abovementioned literature, not many studies have been
+made in the past that focused on the interconnection between transport, energy, emissions, and environmental systems. Furthermore, the implications of various transport
+policies have still not been studied through a systemic approach covering more facets
+of the urban transportation system. This has instigated the need for this research work
+considering the importance of co-existence among the 4E systems—‘Engineering’,
+‘Energy,’ ‘Emission,’ and ‘Environment.’
+
+3 Study Methodology
+A research approach to evaluate and examine the interrelationships among the transport, the energy, the emissions, and the environment is proposed in accordance with
+the principles of the SD methodology. In this study, using the SD technique, the effect
+of different scenarios on future fuel consumption and fuel emissions is predicted for
+2018–2030. The three possible scenarios are the do-nothing scenario, do-minimum
+scenario, and desirable scenario. The collected data from the different sectors are
+used for the SD model conceptualization to establish the relationship between the
+variables of the urban road transportation system (public and private), fuel consumption, fuel emissions, and the environment sector. The analyses of the three different
+scenarios were carried out by assuming the modal split ratio between public and
+private modes of transport as 10:90 and 20:80 for the do-minimum scenario and
+desirable scenario, respectively. The results were compared under different scenarios
+to determine the benefits of the policy measures. In addition, based on the results
+
+388
+
+S. Singh and C. Prathyusha
+
+Fig. 1 Flowchart showing the study methodology
+
+obtained and comprehensive discussions, important and relevant recommendations
+have been made for policy adoption. Figure 1 illustrates the study methodology.
+
+4 Study Area
+The city of Chennai, India, has been selected as the case study city to illustrate the
+application of proposed scenarios. The road traffic in the city is majorly occupied by
+private vehicles like Two-Wheelers (TW) and Cars (CR) and marginally by public
+transport vehicles like Metropolitan Transport Corporation Buses (BUS). However,
+the city roads are permanently hit by heavy traffic due to the density of the population
+and the frequency of TWs and CRs, which intensifies the concentration of emissions
+and energy consumption. Additionally, the rapid increase in the growth rate of the
+vehicular population, especially private vehicles (TW and CR), has increased fuel
+demand and emission levels. This has resulted in increased fuel prices due to fuel
+imports from other nations. Hence, it is considered alarming and imperative to study
+the impact of the increase in vehicles on fuel consumption and fuel emissions through
+a System Dynamics (SD) approach.
+
+System Dynamics Approach for Urban Transportation System …
+
+389
+
+Table 1 Base year vehicle population
+Class of vehicle
+Particulars
+
+BUS
+
+AR
+
+TX
+
+LCV
+
+HCV
+
+PB
+
+MB
+
+TW
+
+CR
+
+Count
+
+7517
+
+81,147
+
+51,941
+
+49,237
+
+42,814
+
+1677
+
+3095
+
+3,999,354
+
+808,291
+
+Percentage
+composition
+(%)
+
+0.15
+
+1.61
+
+1.03
+
+0.98
+
+0.85
+
+0.03
+
+0.06
+
+79.27
+
+16.02
+
+Source District statistical handbook Chennai district, 2016–2017 [11]
+
+5 Data Collection
+5.1 Transport Sector
+The classified vehicle population data for the base year 2016–17 was acquired from
+the State Transport Department, Chennai, to forecast the horizon year (2030) vehicle
+population. The different classes of vehicles consist of public transport buses (BUS),
+auto-rickshaws (AR), taxis (TX), private buses (PB), mini-buses (MB), light commercial vehicles (LCV), heavy commercial vehicles (HCV), two-wheelers (TW), and
+cars (CR). Table 1 shows the various classes of vehicles along with their population
+of vehicles and the percentage composition in the city of Chennai.
+Table 1 shows that the model split between public transport and private transport
+is 0.15%:95.29%. The present share of public transport is less than 1%, which is
+alarming. This classified vehicle population data is used to develop three different
+scenarios, such as a do-nothing scenario, a do-minimum scenario, and a desirable
+scenario. Furthermore, the SD models are developed on the basis of these data, and
+forecasts of fuel consumption and fuel emissions for the respective vehicle population
+have been made till the horizon year 2030.
+
+5.2 Energy Sector
+The energy sector is an important part of the transportation system’s driving mechanism. However, there are concerns about this now and in the near future, given the
+limited availability of energy. The fuel consumption is measured according to the
+average journey distance and fuel efficiency. In the SD-model building and simulation development process presented in Table 2, the average distance traveled by
+the various classes of vehicles in km/day, the efficiency of fuel in km/liters, and the
+liter-year consumption of fuel are taken into account.
+
+390
+
+S. Singh and C. Prathyusha
+
+Table 2 Data regarding fuel efficiency and fuel consumption by different vehicle types
+Parameter
+
+BUS
+
+AR
+
+TX
+
+LCV
+
+HCV
+
+PB
+
+MB
+
+TW
+
+CR
+
+Average distance
+traveled (km/day)
+
+151
+
+96
+
+21
+
+51
+
+55
+
+111
+
+22
+
+18
+
+24
+
+Fuel efficiency
+(km/liter)
+
+4.1
+
+21
+
+13
+
+14
+
+4.33
+
+5.0
+
+8.7
+
+53
+
+12.9 (Petrol)
+15.6 (Diesel)
+
+1669
+
+534
+
+1330
+
+4637
+
+11,863
+
+897
+
+124
+
+684 (Petrol)
+652 (Diesel)
+
+Fuel consumption 13,415
+(liters/year)
+
+Source Ministry of Petroleum & Natural Gas, Government of India, Report of The Expert Group
+on a Viable and Sustainable System of Pricing of Petroleum Products [12]
+
+Table 3 Pollutants emitted from the different vehicle types in grams/km
+Class of vehicle
+Type of
+pollutant
+
+BUS
+
+AR
+
+TX
+
+LCV
+
+HCV
+
+PB
+
+MB
+
+TW
+
+CR
+
+CO2
+
+515.2
+
+60.3
+
+208.3
+
+423.84
+
+423.84
+
+515.2
+
+515.2
+
+26.6
+
+223.6
+
+CO
+
+3.60
+
+5.10
+
+0.90
+
+1.61
+
+1.61
+
+3.60
+
+3.60
+
+2.20
+
+1.98
+
+NOX
+
+12.00
+
+1.28
+
+0.50
+
+10.96
+
+10.96
+
+12.00
+
+12.00
+
+0.19
+
+0.20
+
+CH4
+
+0.09
+
+0.18
+
+0.01
+
+0.05
+
+0.05
+
+0.09
+
+0.09
+
+0.18
+
+0.17
+
+SO2
+
+1.42
+
+0.02
+
+10.3
+
+1.39
+
+1.39
+
+1.42
+
+1.42
+
+0.01
+
+0.05
+
+PM
+
+0.56
+
+0.20
+
+0.07
+
+0.33
+
+0.33
+
+0.56
+
+0.56
+
+0.05
+
+0.03
+
+HC
+
+0.87
+
+0.14
+
+0.13
+
+0.50
+
+0.50
+
+0.87
+
+0.87
+
+1.42
+
+0.25
+
+Source Ramachandra and Shwetmala [13]
+
+5.3 Emissions Sector
+India’s transportation sector is the third-largest emitting sector for greenhouse gas
+(GHG), with the largest contribution from the highway transport sector. Chennai city,
+with a population of around 10 million, and more than 75% ownership of cars, is
+one of the largest emitters of various forms of pollutants. Table 3 provides data on
+the types of pollutants emitted from different vehicle types.
+
+5.4 Environmental Sector
+A clean vehicle strategy and a mobility management strategy can be adopted to
+reduce energy consumption and emissions of vehicles to zero levels. However, the
+implementation of both such strategies requires proper and comprehensive analysis
+and involvement of policymakers, government, and other stakeholders. Other emission mitigation measures can be the use of public bicycle sharing system, especially
+
+System Dynamics Approach for Urban Transportation System …
+
+391
+
+during winters, and improvement in the walking environment by setting up special
+driveways and pedestrian lanes, to meet the requirement of short-distance travel.
+
+6 System Dynamics (SD) Model Development
+System dynamics (SD) was first proposed by Forrester [14] to analyze dynamic
+complex system feedbacks. Based on computer simulation technology, this tool can
+analyze the relationships between various factors, simulate quantitative data, and
+provide information about the feedback structure and system behavior. This simplifies
+the understanding of the overall system and various relationships associated with
+policies related to the dynamic performance control of the system [15]. The SD
+model is not only capable of analyzing a system with several interrelated variables
+but is also capable of defining its complex patterns based on a limited collection
+of details [5]. The SD incorporates qualitative analysis with quantitative analysis
+and uses system synthesis logic to explain unknown behavioral features, making
+SD a better choice when dealing with non-linear, high-level dynamic time-varying
+processes. The SD models embodied the complex cycle of energy consumption and
+emissions and expressed the unpredictable nature of the key issues associated with
+urban transport systems. For these reasons, we have chosen an SD model to analyze
+the energy and emissions of the urban transportation system in Chennai city, India.
+The vehicle population, fuel consumption, and fuel emission models have been
+established based on the proposed SD approach, which is presented in this section.
+The developed SD simulation models for scenario I (do-nothing scenario), scenario
+II (do-minimum scenario), and scenario III (desirable scenario) are shown in Figs. 2
+and 3, respectively.
+
+7 Scenario Analysis and Results
+7.1 Forecasted Vehicle Population
+The population is one of the key factors that affects passenger transport. The population growth has been one of the main contributors to average distance traveled, fuel
+consumption, and fuel emission. The existing growth rates in various vehicle groups
+have been assumed to continue up to the year 2030, according to the do-nothing
+scenario. On the basis of this, the vehicle population, fuel consumption, and fuel
+emissions values have been simulated and predicted.
+The development of these scenarios focuses on reducing the use of personal TWs
+and CRs while increasing the use of BUS. The growth rate values of BUS (public):
+TW and CR (private) have been modified to 10:90 modal split for the horizon year
+2030, in the do-minimum scenario. To achieve the 10:90 modal division between
+
+392
+
+S. Singh and C. Prathyusha
+
+Fig. 2 SD simulation models for scenario I (Do-nothing scenario)
+
+Fig. 3 SD simulation models for scenario II (Do-minimum scenario) and scenario III (Desirable
+scenario)
+
+System Dynamics Approach for Urban Transportation System …
+
+393
+
+public and private modes of transport, the former has been increased to 12.63%,
+but the latter is limited to 6.98% and 8.24%, respectively. In the meantime, growth
+rates for other transport modes, including the AR, TX, LCV, HCV, PB, and MB, are
+slightly increased based on historical data.
+The desirable scenario seeks to improve the attractiveness of public transport to
+optimize the structure of public transport qualitatively and quantitatively. However,
+total city trips cannot be covered by public transport while they can receive a considerable amount of trips. In this scenario, the growth rate values of BUS (public): TW
+and CR (private) have been altered in which a 20:80 modal split between public and
+private transport modes is assumed. In order to achieve a 20:80 modal split between
+public and private transport modes, the growth rate of BUS has been increased to
+reach 20.66%, whereas the growth rate of TW and CR is restrained from being 4.21%
+and 4.52%, respectively. Meanwhile, the growth rates of the other modes of transport
+like AR, TX, LCV, HCV, PB, and MB are assumed to be marginally incremented
+based on the historical data.
+Additionally, it is hypothesized in this study that 30 TW and 15 CR with vehicle
+occupancy values 1.5 and 2.3, respectively (Chennai Comprehensive Transportation
+Study [16]), could replace one single BUS. Hence, a single BUS could have the
+capacity to accommodate a maximum of 80 persons. However, CCTS-2010 [16]
+reported that ‘during peak hours, the buses operate with more than 100 passengers
+per bus indicating substantial overcrowding’.
+
+7.2 Forecasted Fuel Consumption
+It is well known that as the population of vehicles rises, the fuel consumption and
+fuel emissions also increase for different vehicle classes, and vice versa. Figure 4
+
+Fig. 4 Scenario I results—consumption of fuel till the horizon year
+
+394
+
+S. Singh and C. Prathyusha
+
+Fig. 5 Scenario II results—consumption of fuel till the horizon year
+
+illustrates the results of scenario I (do-nothing scenario) in which the forecasted fuel
+consumption by each class of vehicle is represented.
+The scenario of do-nothing indicates a rise in fuel consumption, following the
+increase in the number of vehicles in the public and private transport. CR has an
+expected fuel consumption of 34.02 lakh liters a day, TW has 24.11 lakh liters a day,
+and BUS has a forecasted fuel consumption of only 2.61 lakh liters a day over the
+horizon year 2030. Finally, all vehicles will consume 104.81 crore liters per day in
+the horizon year 2030. That will contribute to the annual fuel consumption of 382.55
+crore liters annually.
+In the do-minimum scenario, the changes in the share rate of different transport
+modes such as BUS (public): TW and CR (private) were kept at 10:90. Due to this,
+fuel consumption decreased, and this is shown in Fig. 5.
+Adjustments in the growth rate of the number of vehicles between public and
+private transport have shown that fuel consumption varies accordingly for each
+vehicle type. The fuel consumed by CR is reduced to 20.42 lakh liters per day
+from 34.02 lakh liters per day (scenario I) for the year 2030. TW consumes 14.20
+lakh liters per day of fuel when compared to the scenario I’s 24.11 lakh liters per
+day in the year 2030. The fuel consumption for CR and TW is down by 39.98% and
+41.10%, respectively. The fuel consumption by BUS mode of transport increases
+from scenario I’s 2.61 lakh liters per day to 5.98 lakh liters per day in 2030, which
+is about 129.12%.
+It can be said from these results that the fuel consumption of BUS has increased,
+but when we take the fuel consumption per person traveling in BUS into account
+compared to that of people who combinedly use TW and CR, it can be said that
+the former modes of transportation’s consumption of fuel is considerably less than
+that of the latter. Compared to the outcome of scenario I, it can be seen that the
+total fuel consumed by all vehicles in scenario II has reduced to 308.61 Crore liters
+per year from 382.55 Crore liters per year in 2030, showing that all vehicles’ fuel
+consumption in scenario II gets reduced by 73.94 Crore liters per year. Therefore,
+annual fuel consumption savings amount to 23.95%.
+
+System Dynamics Approach for Urban Transportation System …
+
+395
+
+Fig. 6 Scenario III results—consumption of fuel till the horizon year
+
+In the desirable scenario, the changes in the share rate of different transport modes
+such as the BUS (public): TW and CR (private) were kept at 20:80. Due to this, fuel
+consumption decreased, and this is shown in Fig. 6.
+The CR fuel consumption reduces to 16.94 lakh liters per day in scenario III from
+20.42 lakh liters per day (scenario II), and from 34.02 lakh liters per day (scenario I).
+The TW fuel consumption reduces to 13.01 lakh liters per day in scenario III from
+14.20 lakh liters per day (scenario II), and 24.11 lakh liters per day (scenario I). The
+BUS fuel consumption increases to 7.98 lakh liters per day from scenario II’s 5.98
+lakh liters per day, and from scenario I’s 2.61 lakh liters per day. The combined fuel
+consumption of CR and TW transport is 54.44 lakh liters per day, while that of BUS
+is just 7.98 lakh liters per day.
+The fuel consumption in BUS has been increased, but when we take account
+of the fuel consumption of individuals who travel in the BUS in comparison to
+those who use both TW and CR, it can be assumed that the fuel consumption in the
+former modes of transportation is considerably lower than in the latter modes. The
+consequence of this scenario analysis is a combined increase. Comparing the results
+of scenarios II and I, with scenario III, it was found that the total fuel consumed by
+all the vehicles decreased to 276.44 crore-liters annually from scenario II’s 308.61
+crore-liters annually and to scenario I’s 382.55 crore-liters annually in the year 2030.
+It indicates an annual fuel consumption saving of 106.11 crore-liters, which resulted
+in 38.38% fuel consumption reduction as compared to scenario I’s fuel consumption.
+
+7.3 Forecasted Fuel Emissions
+When contemplating the do-nothing scenario, the difference in the growth rate of
+the number of vehicles and the fuel consumption of each type of vehicle between
+
+396
+
+S. Singh and C. Prathyusha
+
+the public and private modes of transport has been found to have a significant direct
+impact on fuel emissions. Figure 7 shows this.
+Figure 7 reveals that the fuel emissions of CR, TW, and BUS would hit 13.15
+Gg/day, 7.89 Gg/day, and 0.82 Gg/day, respectively, if the present pattern is permitted
+up to the horizon year 2030. Consequently, all the vehicles could produce a total of
+30.62 Gg/day of fuel emissions, which would result in a total annual fuel emission of 11,176 Gg/annum. This impact must be minimized by effective policies and
+preventive measures, which are to be developed and evaluated with immediate effect.
+Hence, the study further considers two main SD-based simulation scenario models.
+The following sections discuss these SD models.
+In the do-minimum scenario, Fig. 8 illustrates that the fuel emissions by CR
+decrease to 9.30 Gg/day from scenario I’s 13.15 Gg/day and the fuel emissions by
+TW decrease to 4.66 Gg/day from scenario I’s 7.89 Gg/day while the fuel emissions
+
+Fig. 7 Scenario I results—fuel emissions till the horizon year
+
+Fig. 8 Scenario II results—fuel emissions till the horizon year
+
+System Dynamics Approach for Urban Transportation System …
+
+397
+
+Fig. 9 Scenario III results—fuel emissions till the horizon year
+
+by BUS increases to 1.28 Gg/day from scenario I’s 0.82 Gg/day for the horizon year
+2030. The private transport emissions are 12.55 Gg/day, while public transportation
+emissions only amount to 1.28 Gg/day.
+It is evident from the above that while BUS’ fuel emissions have risen, it can be said
+to be much lower than in the former transport mode if we consider the fuel emissions
+per person traveling in BUS as regards those using CR and TW combinedly. The
+cumulative fuel emission vehicles in scenario II have reduced to 3094 Gg/annum
+from scenario I’s 8082 Gg/annum and from scenario II’s 11,176 Gg/annum in the
+2030 horizon. Therefore, fuel emissions have been reduced by 38.28%.
+In the desirable scenario, the results from the contribution rate of different
+transport modes to fuel emissions are shown in Fig. 9.
+In the desirable scenario, the fuel emission by the fuel emissions by CR decreases
+to 6.87 Gg/day from scenario II’s 9.30 Gg/day, and from scenario I’s 13.15 Gg/day.
+Similarly, TW decreases to 3.65 Gg/day in scenario III from scenario II’s 4.66 Gg/day
+and from scenario I’s 7.89 Gg/day, while the fuel emissions by BUS show a slight
+upward trend which increases to 1.88 Gg/day scenario III from scenario II’s 1.28
+Gg/day and from scenario I’s 0.82 Gg/day. The private transport emissions are 10.52
+Gg/day, while public transportation emissions are 1.88 Gg/day.
+When these resulting values are compared with the results of scenarios II and I, it
+can be seen that the overall fuel emissions of all vehicles in scenario III dropped to
+6572 Gg/annum from scenario II to 8082 Gg/annum and scenario I to 1176 Gg/annum
+by 2030. As a result, the annual reduction in fuel emissions relative to scenarios I
+and II was equivalent to 6572 Gg/annum and 1510 Gg/annum, respectively, resulting
+in a reduction of 41.19% and 18.68% in fuel emissions in scenario III by 2030.
+As ‘prepare and prevent is better than repent and repair,’ promoting fuel-efficient
+vehicles on a larger scale can be obtained by enhancing and encouraging the use of
+the public transport system innovatively and systematically. Further, this scenario can
+bring significant amounts of annual economic savings to the people and governments
+
+398
+
+S. Singh and C. Prathyusha
+
+by reducing energy consumption and adverse environmental effects. However, implementing this scenario requires the huge potential of cooperation and coordination
+from the top-down and bottom-up authorities.
+
+8 Discussions and Recommendations
+This study recommends that the increase in the BUS fleet size of the urban public
+transportation with greater efficiency and reliability and restriction in private transport may be implemented on a pilot basis for a zone or area to achieve sustainable
+development. It should be remembered that it might not be possible to enforce the
+desired scenario immediately. The main reason is that, because of resource and technology constraints, urban transport is difficult to make significant strides in the short
+term. However, the public transportation sector should be emphasized and enhanced
+due to its importance. Besides, ‘it is believed that improving the quality of vehicles
+and their performance can greatly decrease fuel consumption and CO2 emissions’
+[10].
+Finally, this study recommends that besides implementing the conventionally
+applied and the recommended mitigation measures to the 4E systems—‘Engineering’, ‘Energy,’ ‘Emission,’ and ‘Environment’, calculated and strategic actions
+are to be taken with immediate effect considering the additional 3E’s also, i.e., the
+Education, Ethical values, and Enforcement into the 4E systems for a prosperous
+and sustainable development of the city. All strategies, therefore, need tremendous
+cooperation and teamwork capacity from the highest and lowest governments. These
+policies will eventually reduce fuel consumption, fuel emissions, and environmental
+impacts considerably to ensure that the Sustainable Development Goals (SDG),
+which are adopted globally, are met.
+
+9 Concluding Remarks
+This study used SD models to understand the interrelationship between the transport
+system, energy system, and emission system. The SD simulation model predicted the
+fuel consumption and fuel emission levels when the share rate of transport was considered as business as usual or in the do-nothing scenario, 10:90 in the do-minimum
+scenario, and 20:80 in the desirable scenario. These policy measures will eventually
+lead to a considerable reduction in fuel consumption, fuel cost, and fuel emissions
+in the city. The study concluded that the desirable scenario gives the best results in
+terms of reduction in fuel consumption and fuel emissions. The presented approach
+and prediction results will help the transport planners and decision-makers to assess
+the potential needs of energy expenditure and transport infrastructure needs.
+
+System Dynamics Approach for Urban Transportation System …
+
+399
+
+References
+1. James, J., Mark, J., & Aruna, S. (2012). A review of urban energy system models: Approaches,
+challenges, and opportunities. Renewable and Sustainable Energy Reviews, 16(6), 3847–3866.
+https://doi.org/10.1016/j.rser.2012.02.047.
+2. Litman, T. (2013). Comprehensive evaluation of energy conservation and emission reduction
+policies. Transportation Research Part A: Policy and Practice, 47, 153–166. https://doi.org/
+10.1016/j.tra.2012.10.022.
+3. Liu, X., Ma, S., Tian, J., Jia, N., & Li, G. (2015). A system dynamics approach to scenario
+analysis for urban passenger transport energy consumption and CO2 emissions: A case study
+of Beijing. Energy Policy, 85, 253–270. https://doi.org/10.1016/j.enpol.2015.06.007.
+4. Wang J, Lu H, Peng H (2008) System dynamics model of urban transportation system and its
+application. J Trans Syst, Eng, Inform Technol 8(3):83–89
+5. Han, J., & Hayashi, Y. (2008). A system dynamics model of CO2 mitigation in China’s intercity
+passenger transport. Transportation Research Part D, 13, 298–305. https://doi.org/10.1016/j.
+trd.2008.03.005.
+6. Rentziou, A., Gkritza, K., & Souleyrette, R. R. (2012). VMT, energy consumption, and GHG
+emissions forecasting for passenger transportation. Transportation Research Part A: Policy and
+Practice, 46(3), 487–500. https://doi.org/10.1016/j.tra.2011.11.009.
+7. Song, Y., Yao, E., Zuo, T., & Lang, Z. (2013) Emissions and fuel consumption modeling for
+evaluating environmental effectiveness of ITS strategies. Discrete Dynamics in Nature and
+Society. Article ID 581945. https://doi.org/10.1155/2013/581945.
+8. Cheng, Y., Chang, Y., & Lu, I. J. (2015). Urban transportation energy and carbon dioxide emission reduction strategies. Applied Energy, 157, 953–973. https://doi.org/10.1016/j.apenergy.
+2015.01.126.
+9. Malik, L., Tiwari, G., Thakur, S., & Kumar, A. (2019). Assessment of freight vehicle characteristics and impact of future policy interventions on their emissions in Delhi. Transportation
+Research Part D, 67, 610–627. https://doi.org/10.1016/j.trd.2019.01.007.
+10. Akbari, F., Mahpour, A., & Ahadi, M. R. (2020). Evaluation of energy consumption and CO2
+emission reduction policies for urban transport with system dynamics approach. Environmental
+Modeling & Assessment, 25, 505–520. https://doi.org/10.1007/s10666-020-09695-w.
+11. District statistical handbook Chennai district, 2016–2017 (pp. 85–86) (2018). Retrieved May
+2020, from https://cdn.s3waas.gov.in/s313f3cf8c531952d72e5847c4183e6910/uploads/2018/
+06/2018062923.pdf.
+12. Ministry of Petroleum & Natural Gas, Government of India,Report of the Expert Group on a
+Viable and Sustainable System of Pricing of Petroleum Products. (2010). Retrieved May 2020,
+from https://petroleum.nic.in/sites/default/files/reportprice.pdf.
+13. Ramachandra, T. V., & Shwetmala. (2009). Emissions from India’s transport sector: Statewise synthesis. Atmosphere Environment. https://wgbis.ces.iisc.ernet.in/energy/paper/IISc_E
+missions_from_Indias_Transport_sector/index.htm.
+14. Forrester, J. W. (1971). Counterintuitive behavior of social systems. Theory and Decision, 2(2),
+109–140. https://doi.org/10.1177/003754977101600202.
+15. Yuan, X. H., Ji, X., Chen, H., Chen, B., & Chen, G. Q. (2008). Urban dynamics and multipleobjective programming: A case study of Beijing. Communications in Nonlinear Science and
+Numerical Simulation, 13(9), 1998–2017. https://doi.org/10.1016/j.cnsns.2007.03.014.
+16. Chennai Comprehensive Transportation Study (CCTS). (2010). Final report executive version
+(pp. 11–40). Chennai Metropolitan Development Authority. https://www.cmdachennai.gov.in/
+pdfs/CCTS_Executive_Summary.pdf.
+
+View publication stats
+
+

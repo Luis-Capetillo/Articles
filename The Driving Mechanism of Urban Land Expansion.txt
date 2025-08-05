@@ -1,0 +1,2031 @@
+International Journal of
+
+Environmental Research
+and Public Health
+
+Article
+
+The Driving Mechanism of Urban Land Expansion from 2005 to
+2018: The Case of Yangzhou, China
+Lin Meng and Wentao Si *
+School of Public Administration, Shandong Normal University, Jinan 250014, China
+* Correspondence: siwentao@sdnu.edu.cn
+
+Abstract: The driving mechanism of expansion is the basis for policymaking in urban land management and control. In this study, Yangzhou city in China was used as an example. Based on the supply
+and demand theory of land, a framework was constructed to analyze the driving factors behind
+urban land expansion. Path analysis was used to determine the direct and indirect factors driving
+urban land expansion. The results showed the following: (1) Urban land in Yangzhou city expanded
+32,831.10 hm2 from 2005 to 2018, mainly in terms of farmland. This rapid expansion arose from the
+contraction of rural residential areas, threatening ecological spaces such as water bodies. (2) Path
+analysis indicated that fixed-asset investment, the added value of secondary and tertiary industries,
+urban population, distance to the city center, and farmland area are the direct factors driving urban
+land expansion. Land finance, technology input, and transportation ability indirectly influence urban
+land by affecting other driving factors. (3) Increasing the level of urban land-use intensification,
+properly adjusting economic development goals, reasonably controlling the population, exploring the
+retention of construction land in city centers, and optimizing farmland and basic farmland plans need
+to be considered in the management and control of urban land expansion. Furthermore, to guide the
+orderly expansion of urban land, improving land management systems, promoting scientific and
+technological progress, and scientifically designing transportation land are necessary strategies.
+Citation: Meng, L.; Si, W. The
+Driving Mechanism of Urban Land
+Expansion from 2005 to 2018: The
+
+Keywords: urban land expansion; supply and demand theory; path analysis; driving mechanism;
+Yangzhou
+
+Case of Yangzhou, China. Int. J.
+Environ. Res. Public Health 2022, 19,
+15821. https://doi.org/10.3390/
+ijerph192315821
+Academic Editor: Paul B. Tchounwou
+Received: 20 October 2022
+Accepted: 27 November 2022
+Published: 28 November 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+Since the reform and opening-up of China, China has experienced large-scale urban
+expansion, due to rapid industrialization and urbanization progress. In 1978, there were
+only 193 cities and 2000 small towns in China. From 1978 to 2002, China implemented
+the policy of transforming townships into towns and counties into cities. From 1992 to
+2013, China experienced a boom in the construction of development zones and new urban
+areas, along with the reshaping of counties and cities into districts. From 2002 to 2018,
+metropolitan areas, urban agglomeration, and urban belts began to develop in clusters.
+Within this process, the scale of urban land in China has expanded. The overall urban
+pattern has been characterized by agglomeration [1]. In recent years, there has been a
+phenomenon of local diffusion. The cities and towns around the metropolis, second-tier
+cities, and cities in the central region are accelerating their development. The city is a
+complex giant system. The process of urban expansion may result in the convergence of
+various production factors, thus driving the overall development of the region. Urban land
+is the facilitator of all social and economic activities in the urban system. Whether urban
+land expands in an orderly way is related to the healthy development of urbanization.
+China’s urban land use expanded from 11,608km2 in 1990 to 56,076 km2 in 2018, with an
+average annual growth rate of 5.79%. This shows that Chinese cities are developing at an
+unprecedented speed, and many local governments have used urban development as an
+important assessment indicator [2]. The continuous expansion of urban land has laid the
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821. https://doi.org/10.3390/ijerph192315821
+
+https://www.mdpi.com/journal/ijerph
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+Int. J. Environ. Res. Public Health 2022, 19, x
+
+2 of 14
+2 of 15
+
+foundation for more population, capital, and industrial agglomeration. However, while
+unprecedented
+speed, and many
+have used
+urban development
+as an
+creating
+social prosperity,
+it haslocal
+alsogovernments
+caused a series
+of problems,
+such as farmland
+loss
+important assessment indicator [2]. The continuous expansion of urban land has laid the
+and environmental pollution [3]. Urban land is one of the most important indicators in the
+foundation for more population, capital, and industrial agglomeration. However, while
+overall land-use plan, which could guide urban development and control expansion [4,5].
+creating social prosperity, it has also caused a series of problems, such as farmland loss
+Itand
+is vital
+to study the performance of the driving mechanism of urban land expansion
+environmental pollution [3]. Urban land is one of the most important indicators in
+inthe
+creating
+and control
+policies
+fordevelopment
+urban land, and
+as well
+as in
+improving the
+overall management
+land-use plan, which
+could guide
+urban
+control
+expansion
+management
+control
+for indicators
+in land-use
+design
+[6]. land expan[4,5]. It is vitaland
+to study
+thesystem
+performance
+of the driving
+mechanism
+of urban
+currentmanagement
+study on the
+mechanism
+of urban
+is based on
+sionThe
+in creating
+anddriving
+control policies
+for urban
+land, asland
+wellexpansion
+as in improving
+driving
+factor selection
+andsystem
+driving
+measurement.
+To select
+the management
+and control
+forforce
+indicators
+in land-use design
+[6]. the driving factors, a
+The
+current study
+on the
+driving
+of mainly
+urban land
+expansion
+is based on
+driving
+mechanism
+index
+system
+wasmechanism
+constructed
+from
+a society–economy–nature
+driving factor
+selection
+and driving force
+measurement.
+To select the driving
+factors,
+a other
+perspective
+[7].
+The cost–benefit
+theory
+[8] and internal–external
+forces
+[9] are
+driving mechanism
+index
+system
+was constructed
+mainly from a society–economy–naperspectives
+that have
+been
+employed
+by other researchers.
+tureThe
+perspective
+[7]. Thein
+cost–benefit
+[8] and
+internal–external
+forces [9] are
+other
+driving factors
+urban landtheory
+expansion
+have
+usually been calculated
+using
+a geologic
+perspectives
+that
+have
+been
+employed
+by
+other
+researchers.
+model [6,9], multiple regression analysis [10,11], or a logistic model [12,13]. As it is a special
+The driving factors in urban land expansion have usually been calculated using a
+type of product, the enlargement of urban land is restricted by the supply and demand
+geologic model [6,9], multiple regression analysis [10,11], or a logistic model [12,13]. As it
+relationship. However, only a few studies have discussed the driving mechanism of urban
+is a special type of product, the enlargement of urban land is restricted by the supply and
+land
+expansion
+from However,
+the supply
+and
+demand
+perspective
+[14,15].
+Meanwhile, the
+demand
+relationship.
+only
+a few
+studiestheory
+have discussed
+the driving
+mechanism
+interaction
+among
+the
+driving
+factors
+along
+with
+their
+direct
+and
+indirect
+mechanisms
+of urban land expansion from the supply and demand theory perspective [14,15]. Mean- remain
+unclear.
+This
+lack of among
+understanding
+offactors
+the driving
+mechanism
+and
+pathway
+has led to
+while, the
+interaction
+the driving
+along with
+their direct
+anditsindirect
+mechincomplete
+management
+and
+control
+policies
+in
+urban
+land
+expansion.
+anisms remain unclear. This lack of understanding of the driving mechanism and its path◦ 150 –33◦ 250and
+◦ 010policies
+wayYangzhou
+has led to incomplete
+control
+land expansion.
+city (N 32management
+, E 119
+–119◦ 54in0 )urban
+is a typical
+ecological city in
+Yangzhou
+city
+(N
+32°15′–33°25′,
+E
+119°01′–119°54′)
+is
+a
+typical
+ecological
+city
+in easteastern China, located in the middle part of Jiangsu province, where the north
+shore of the
+ern
+China,
+located
+in
+the
+middle
+part
+of
+Jiangsu
+province,
+where
+the
+north
+shore
+of the
+downstream Yangtze River and the south end of the Yangtze–Huai Plain are
+found. As
+downstream
+River
+andYangtze
+the south
+end of
+the Yangtze–Huai
+Plain
+are found.
+Asa highly
+an
+important Yangtze
+node city
+in the
+River
+Delta
+economic zone,
+Yangzhou
+has
+an
+important
+node
+city
+in
+the
+Yangtze
+River
+Delta
+economic
+zone,
+Yangzhou
+has
+a
+highly
+developed transportation system, connecting the south of Jiangsu, the north of Anhui, and
+developed transportation system, connecting the south of Jiangsu, the north of Anhui, and
+the north of Jiangsu with their surrounding areas (Figure 1).
+the north of Jiangsu with their surrounding areas (Figure 1).
+
+1. The location
+of the study
+in China.
+Figure 1. Figure
+The location
+of the study
+area inarea
+China.
+
+Yangzhou has achieved rapid social and economic development since the implementation of the third revision of land utilization planning. The GDP has increased from
+CNY 92.202 billion to CNY 669.643 billion, along with a rapid increase (40.92%) in urban
+land expansion. This rapid urbanization poses a great threat to regional food safety and
+ecological safety. Under the demands of the current national land space plan, the contradic-
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+3 of 14
+
+tions among economic development, ecological protection, and other goals have become
+increasingly severe. In this study, Yangzhou city in China was used as an example. Based
+on the supply and demand theory of land, a framework was constructed to analyze the
+driving factors behind urban land expansion. Path analysis was used to determine the
+main factors that drive the expansion of urban land, while direct and indirect pathways
+were analyzed to address the driving mechanism. This study could provide a reference for
+the development of management and control policies in urban land expansion.
+2. Framework Analyzing the Driving Factors of Urban Land Expansion Based on
+Supply and Demand Theory
+2.1. Theoretical Analysis of the Influence of the Supply–Demand Relationship on Urban Land Growth
+Product price is determined by supply and demand, and the supply–demand relationship is the basis of the market mechanism [14]. In the market economy, as one of
+the production factors, land goes into the market in the form of a “special product”, inevitably influenced by the supply–demand relationship. Its spatiotemporal configuration
+must follow the inherent law of supply–demand theory [16,17]. Urban land expansion
+is restricted by regional supply ability and influenced by social–economic development.
+Urban land is the dynamic equilibrium in the interaction between land supply and actual
+demand [5]. The natural supply and economic supply of land resources are the key factors
+restricting the development and utilization of urban land. City development is a specific
+use of urban land. Thus, the economic supply of urban land is based on the inelastic
+natural supply, while being restricted by resource endowment, technology, location and
+transportation, and land-use intensity [18,19]. Meanwhile, land resource configuration may
+not spontaneously operate by following the market, urban land supply will be restricted
+by the macro-regulations that are indicated by the government [20,21]. The government
+holds the proprietorship of urban land and the development rights of collective land, and
+the policy system directly determines the economic supply of urban land. With rapid
+social–economic development, an increasing population, and economic development, there
+is a need for more living and production space, leading to a continuous increase in the
+demand for urban land. The limited supply of urban land and increasing urban land
+demand determine the regional urban land expansion pattern through the regulation effect
+of market mechanisms. In this study, we start from the land supply and demand perspecInt. J. Environ. Res. Public Health 2022,tive,
+19, x constructing a theoretical analysis framework of the driving factors in urban4 land
+of 15
+expansion (Figure 2).
+
+Natural endowment
+feature
+Technology level
+Characteristics of
+land resource
+utilization
+
+Natural
+supply
+
+Location and
+transportation
+
+Economic
+supply
+
+Urban land
+supply
+
+Land use intensity
+
+Land market
+
+Policy system
+
+Social-economic
+development
+
+Population increase
+
+Expansion pattern
+
+Living space demand
+Urban land
+demand
+
+Economic development
+
+Producing space demand
+
+Figure 2. The
+theoretical
+frameworkframework
+of supply/demand-induced
+urban landurban
+expansion.
+Figure
+2. The theoretical
+of supply/demand-induced
+land expansion.
+
+2.1.1. Supply Elements
+(1) Natural endowment feature. The regional natural endowment feature determines
+the natural supply of land, and further influences the flexibility of the economic supply of
+land [22]. The best urban land is always located in the plain areas. The higher the elevation
+and slope, the lower the land supply capability [23]. The topography of Yangzhou influ-
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+4 of 14
+
+2.1.1. Supply Elements
+(1) Natural endowment feature. The regional natural endowment feature determines
+the natural supply of land, and further influences the flexibility of the economic supply
+of land [22]. The best urban land is always located in the plain areas. The higher the
+elevation and slope, the lower the land supply capability [23]. The topography of Yangzhou
+influenced the urban land supply suitability due to its special features, displaying a fanshaped slope from west to east. Urban land expansion was mainly fulfilled by occupying
+farmland, as farmland was the main supply source of urban land [24,25]. Thus, in this study,
+slope, elevation, and farmland area were selected as indicators to evaluate the regional
+endowment feature.
+(2) Technology level. According to the Solow growth model, the technology level can
+increase the marginal returns of work, thus decreasing the importance of land, having
+a positive effect on capital investment in unit land, finally enhancing the economic supply of land resources [26]. Investment in technological upgrading, which represents the
+technology level, was selected as an indicator to evaluate the regional technology level.
+(3) Location. The distance to city center is the most important location factor influencing urban land expansion. A short distance to the city center leads to a stronger intensity of
+social–economic activity, thus increasing the possibility of developing land for the city [27].
+Developed transportation can significantly promote the acceptance of market influence
+and decrease the transfer cost, which will increase the economic supply of land [28]. Thus,
+the distances to city center and transportation accessibility were selected as indicators to
+evaluate the location condition.
+(4) Land-use intensity. Based on the Harrod–Domar model [29], the land-use intensity
+level reflects the substitution relationship between land and capital. If the other parameters
+are fixed, only the contribution of land and capital to the economy is considered, capital could stimulate the economy, and land and capital could be replaced by technology.
+Thus, average fixed-asset investment was selected as an indicator to evaluate land-use
+intensity [30].
+(5) Policy system. The local government is the administrator of the land market, as
+well as the oligopolist in the primary land market [31]. This double identity resulted in
+the local government generally increasing its financial income through land leasing. In
+the 1990s, China implemented tax sharing system reform and established a tax sharing
+budget management system. In China, on the basis of a reasonable division of the scope
+of powers of governments at all levels, the budget revenues of governments at all levels
+were mainly divided according to taxes. The budgets of governments at all levels were
+relatively independent and had a clear responsibility for balancing. The financial difference
+between governments at all levels was adjusted through the transfer payment system
+from the central government to the local government, or from the local government at the
+next higher level to the local government at the next lower level. The tax sharing budget
+management system clarified the division of central and local fiscal expenditure, central
+and local fiscal revenue, and the intergovernmental fiscal transfer payment system. After
+tax reform, the government try to maximize disposable income. In order to relieve local
+financial stress, local governments try to facilitate the “land to money, money to land” circle
+through land condemnation and transfer. Land finance has become an important way to
+increase local financial income and local government achievements [32]. However, there
+are differences in the land regulation policies and supervision efforts of local governments
+in different regions, resulting in differing dependence on “land finance”. Therefore, there
+are differences in behavior choices in urban land supply. Different behavior will be selected
+in urban land supply due to the difference in the dependency on land finance [33]. The
+income comes from land transfer is the main source of land financial benefit [34]. Thus,
+land transfer income was selected as indicator to evaluate the policy system that local
+governments adopted for urban land expansion.
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+5 of 14
+
+2.1.2. Demand Elements
+(1) Population increase. Population growth leads to an increase in consumption demand, which is the fundamental factor affecting land demand [35,36]. Urban population
+growth results in pressure to increase the existing land-use space. Therefore, more production and living spaces need to be added to meet the needs of population growth, which
+leads to a rapid expansion of the urban construction land scale [37]. Thus, the urban
+population increase amount was selected as indicator to evaluate population increase.
+(2) Economic development. Regional economic development needs investment in a
+production element. The demand for urban land is influenced by economic development
+because urban land is the main resource for urban construction and industrial development.
+The characteristic of total economic development influences the demand for urban land,
+further driving area change [38]. Urban land is the main resource of the secondary and
+tertiary industries. Thus, the added value of the secondary and tertiary industries was
+selected as indicator to evaluate the economic development level.
+2.2. Path Analysis on the Influence Mechanism of Urban Land Expansion
+Path analysis is one type of multivariate statistical analysis technology used to study
+the interaction between explanatory variables, as well as the influence of explanatory
+variables on explained variables [39]. Direct path is used to address the direct effect of
+one specific explanatory variable on an explained variable, while indirect path is used
+to address the indirect effect of other explanatory variables on explained variables [40].
+Assuming that independent variable y was influenced by multiple factors x1 ,x2 , . . . ,xm ,
+and each factor was linearly correlated with y, we can construct the following multiple
+regression equation:
+y = b0 + b1 x1 + b2 x2 + . . . + bm xm
+(1)
+where, if we divide the correlation coefficient riy between dependent variables xi (i = 1,2,
+. . . ,m) and independent variable y into the direct effect of xi to y (direct path coefficient),
+and the indirect effect of xi to y that acts through other dependent variables (indirect path
+coefficient), the relative importance of each variable could be directly compared.
+The normal equation of path coefficient p01 . . . p0m could be drawn as below:
+
+
+
+
+
+p1y + r12 p2y + . . . r1m pmy = r1y
+r21 p1y + p2y + . . . r2m pmy = r2y
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..
+
+
+
+rm1 p1y + rm2 pmy + . . . rmm pmy = rmy
+
+(2)
+
+where rij is the correlation coefficient of xi to x j ; riy denotes the correlation coefficient of xi
+to y, i.e., the integrated influence of xi on y; piy represents direct path coefficient, i.e., the
+normalized partial correlation coefficient of xi to y, which shows the direct effect of xi on y.
+qij = rij piy
+
+(3)
+
+qiy = ∑ rij piy
+
+(4)
+
+i6= j
+
+In Equation (3), qij is the direct path coefficient between paired variables, indicating
+the indirect effect of xi on y acting through x j . In Equation (4), qiy is the indirect path
+coefficient, showing the total indirect effect of xi on y acting through all other explanatory
+variables.
+3. Data Source and Data Processing
+Yangzhou was selected as the study area. The research period was 2005–2018. At the
+same time, townships (87 townships) were used as the basic research units. Urban land data
+from 2005, 2013, and 2018 were obtained from the Chinese Academy of Sciences Geography
+Science and Resource Institute website. The 2009 urban land data were derived from the
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+6 of 14
+
+Yangzhou Statistical Yearbook and the Statistical Yearbook of each district. Geospatial data,
+such as distance to city center, elevation, and slope data, as well as land classification data
+were also obtained from the Chinese Academy of Sciences Geography Science and Resource
+Institute website. Investments in industrial conversion, road mileage, and other social–
+economic data were from the Yangzhou Statistical Yearbook and the Statistical Yearbook of
+each district. Table 1 shows the source of each variable.
+Table 1. The driving factors of urban land expansion.
+Driving Factor
+
+Variable
+
+Variable Description
+
+Source
+
+Farmland area
+
+Current farmland area
+(hm2 )
+
+Yangzhou Statistical Yearbook (2010, 2014,
+2016, 2019)/Statistical Yearbook of each
+district (2010, 2014, 2016, 2019)/Chinese
+Academy of Sciences Geography Science
+and Resource Institute
+(http://www.resdc.cn/DataList.aspx)
+(accessed on 20 June 2022)
+
+Slope
+
+Slope of land (◦ )
+
+Chinese Academy of Sciences Geography
+Science and Resource Institute
+(http://www.resdc.cn/DataList.aspx)
+(accessed on 20 June 2022)
+
+Elevation
+
+Altitude (m)
+
+Chinese Academy of Sciences Geography
+Science and Resource Institute
+(http://www.resdc.cn/DataList.aspx)
+(accessed on 20 June 2022)
+
+Technology
+investment
+
+Investment in industrial
+conversion (104 CNY)
+
+Yangzhou Statistical Yearbook (2010, 2014,
+2016, 2019)/Statistical Yearbook of each
+district (2010, 2014, 2016, 2019)
+
+Distance to city
+center
+
+Average distance from
+urban land to city center
+(m)
+
+Chinese Academy of Sciences Geography
+Science and Resource Institute
+(http://www.resdc.cn/DataList.aspx)
+(accessed on 20 June 2022)
+
+Transportation
+accessibility
+
+Road mileage (km)
+
+Yangzhou Statistical Yearbook (2010, 2014,
+2016, 2019)/Statistical Yearbook of each
+district (2010, 2014, 2016, 2019)
+
+Land-use intensity
+
+Average fixed-asset
+investment
+
+Fixed-asset
+investment/urban land
+area (104 CNY/hm2 )
+
+Fixed-asset investment: urban land area:
+Chinese Academy of Sciences Geography
+Science and Resource Institute
+(http://www.resdc.cn/DataList.aspx)
+(accessed on 20 June 2022)
+
+Policy system
+
+Land finance
+
+Income from land transfer
+(104 CNY)
+
+Land market data on the websites of
+natural resources and planning bureaus of
+all districts
+
+Population increase
+
+Urban population
+
+Population in urban area
+
+Yangzhou Statistical Yearbook (2010, 2014,
+2016, 2019)/Statistical Yearbook of each
+district (2010, 2014, 2016, 2019)
+
+Economic development
+
+Added value of
+secondary and
+tertiary industries
+
+Sum of added value from
+secondary and tertiary
+industries (104 CNY)
+
+Yangzhou Statistical Yearbook (2010, 2014,
+2016, 2019)/Statistical Yearbook of each
+district (2010, 2014, 2016, 2019)
+
+Natural endowment
+feature
+
+Supply factors
+
+Technology level
+
+Location and
+transportation
+
+Demand factors
+
+4. Results Analysis
+4.1. Urban Land Expansion Scale
+From 2005 to 2018, the scale of urban land use in Yangzhou showed an upward
+trend, with a total expansion area of 32,929.60 hm2 . The expansion scale of urban land
+in 2005–2013 was 17,720.98 hm2 . On the district (county, city) scale, Hanjiang had the
+largest expansion in this period, with a total expansion area of 4267.48 hm2 , accounting for
+24.08% of the total. Baoying had the smallest expansion, accounting for 9.85% of the total.
+From 2013 to 2018, the total expansion area of urban land in Yangzhou was 17,750.62 hm2 .
+Jiangdu had the largest expansion in this period, with a total expansion area of 3552.70 hm2 ,
+accounting for 23.36% of the total. Guangling had the smallest expansion, accounting for
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+7 of 14
+
+9.20% of the total. The total urban land expansion area was 32,831.10 hm2 from 2005 to
+2018 in Yangzhou. The newly increased area of urban land was mainly located in the
+city center and in the rural areas of Jiangdu, Yizheng, Gaoyou, and Baoying, of which,
+the urban land expansion in Hanjiang was the highest, accounting for 22.7% of the total
+expansion area. The lowest was Yizheng, accounting for 12.88% of total expansion area. In
+summary, although the main expansion areas (counties) of urban land in different periods
+the scale of urban land in the study area took the central urban 8area
+Int. J. Environ. Res. Public Health were
+2022, 19,different,
+x
+of 15as the
+main expansion core area, and the growth plates were concentrated near the central urban
+area, with obvious clustering distribution characteristics (Figure 3, Table 2).
+
+Figure
+3. Patch
+distribution
+expansionininYangzhou.
+Yangzhou.
+Figure
+3. Patch
+distributionofofurban
+urban land
+land expansion
+
+From an
+urban land
+expansion
+source perspective,
+construction
+Table 2. Source
+analysis
+of urban
+land expansion
+in Yangzhou
+(unit: hm2 ).land is the most important source, followed by agricultural land and unused land, accounting for 47.25%,
+District
+46.02%, and 6.73%, respectively (Table 2).
+Baoying
+
+Gaoyou
+
+Guang-Ling
+
+Land Classification
+
+Han-Jiang
+
+Jiangdu
+
+Yizheng
+
+Total
+
+Table 2. Source analysis of urban land expansion in Yangzhou (unit: hm ).
+Farmland
+2326.04
+3086.12
+1353.99
+2213.61
+3104.91
+1268.15
+13352.81
+Garden plot
+14.21
+37.94
+33.20
+37.45
+47.60
+5.05
+175.46
+District
+GuangAgricultural land
+Baoying Gaoyou
+Han-jiang Jiangdu Yizheng
+Total
+Forest land
+65.88
+20.35
+54.14ling
+59.56
+34.69
+124.06
+358.68
+Land Classification
+Others Farmland 206.06 2326.04
+385.10 3086.12144.58
+277.33
+112.64 1268.15
+140.5013352.81
+1266.22
+1353.99 2213.61
+3104.91
+ResidentialGarden
+area
+1245.22
+1415.19
+2463.70
+3743.94
+2435.92
+1999.83
+13303.81
+plot
+14.21
+37.94
+33.20
+37.45
+47.60
+5.05
+175.46
+Construction
+Agricultural land
+Transportation
+and land
+Forest
+65.88263.47 20.35 227.0154.14
+59.56
+34.69
+358.69
+623.86
+310.47 124.06423.33 358.682206.83
+land
+water conservancy
+Others
+206.06
+385.10
+144.58
+277.33
+112.64
+140.50
+1266.22
+Others
+13.11
+1.47
+1.00
+15.39
+3.26
+14.35
+48.59
+Residential
+area
+1245.22
+1415.19
+2463.70
+3743.94
+2435.92
+1999.83
+13303.81
+Water area
+173.12
+459.05
+304.72
+475.84
+424.85
+142.69
+1980.27
+Construction
+land Transportation
+and
+Mudflat
+and swamp
+0.00
+4.27
+17.19 423.33109.242206.83138.41
+Unused
+land
+358.694.13 263.47 3.59227.01
+623.86
+310.47
+water
+conservancy
+Others
+0.00
+36.82
+0.97
+20.70
+25.33
+14.69
+98.50
+15.39
+3.26
+Total Others 4402.35 13.11
+5709.65 1.47 4586.901.00
+7471.94
+6516.86 14.354241.90 48.5932929.60
+
+Unused land
+
+2
+
+Water area
+173.12
+459.05
+304.72
+475.84
+424.85
+142.69
+1980.27
+Mudflat and swamp
+0.00
+4.13
+3.59
+4.27
+17.19
+109.24
+138.41
+From an urban
+source
+perspective,
+construction
+is the most
+Others
+0.00land expansion
+36.82
+0.97
+20.70
+25.33
+14.69 land98.50
+important
+source,
+followed
+by
+agricultural
+land
+and
+unused
+land,
+accounting
+for 47.25%,
+Total
+4402.35
+5709.65 4586.90 7471.94 6516.86
+4241.90 32929.60
+
+46.02%, and 6.73%, respectively (Table 2).
+4.2. Path Analysis of Urban Land Expansion
+
+4.2. Path Analysis of Urban Land Expansion
+
+The multilinear index must be removed before conducting a path analysis. The drivThe
+multilinear
+index must
+be removedvariables
+before conducting
+a path
+analysis. The
+driving
+ing
+factors
+that influenced
+the independent
+were selected
+for subsequent
+analyfactors
+that
+influenced
+the
+independent
+variables
+were
+selected
+for
+subsequent
+analysis.
+sis. Stepwise regression analysis was selected to screen the driving factors of urban land
+Stepwise
+regression
+was
+selected
+to screen the
+drivingregression
+factors ofequation
+urban land
+expansion,
+as it is ananalysis
+important
+method
+for constructing
+the optimal
+under the condition that the dependent variables have collinearity. The standard regression coefficient is defined as the direct path coefficient for each driving factor.
+The stepwise analysis and path analysis results (Table 3) showed that the driving
+factors of urban land expansion were sorted according to their contribution from high to
+low. The order was as follows: added value of secondary and tertiary industries (x8), urban
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+8 of 14
+
+expansion, as it is an important method for constructing the optimal regression equation
+under the condition that the dependent variables have collinearity. The standard regression
+coefficient is defined as the direct path coefficient for each driving factor.
+The stepwise analysis and path analysis results (Table 3) showed that the driving
+factors of urban land expansion were sorted according to their contribution from high to
+low. The order was as follows: added value of secondary and tertiary industries (x8 ), urban
+population (x7 ), technology investment (x2 ), distance to city center (x3 ), average fixed-asset
+investment (x5 ), land finance scale (x6 ), transportation accessibility (x4 ), and farmland area
+(x1 ) (Table 3, Figure 4).
+X1
+
+0.02
+-0.18
+
+-0.09
+
+X2
+
+X3
+
+X2
+
+-0.02
+
+0.14
+
+0.04
+
+X4
+
+X5
+
+X6
+
+-0.09
+
+0.08 -0.22 -0.07 -0.32 -0.12 0.28
+
+-0.06
+-0.07
+
+X1
+
+0.00
+X2
+
+-0.04
+0.08
+
+X8
+
+X1
+
+-0.02
+X3
+
+0.30
+
+0.00
+
+0.13
+
+-0.03
+
+X4
+
+X5
+
+X6
+
+0.08
+
+0.16
+X7
+
+0.08 -0.22 -0.07 -0.32 -0.12 0.28
+
+-0.08
+X8
+
+-0.22
+
+X1
+
+0.01
+X2
+
+0.30
+
+-0.18 0.08
+
+0.00
+
+0.03
+
+0.04
+
+X4
+
+X5
+
+X6
+
+Urban land scale
+
+Urban land scale
+
+X4
+
+X5
+
+X6
+
+0.00
+
+0.00
+
+0.05
+
+X5
+
+X6
+
+-0.06
+
+-0.02
+X7
+
+-0.22 -0.32 -0.12 0.28
+
+0.08
+X8
+
+-0.32
+
+-0.03 0.02
+
+X1
+
+X2
+
+0.30
+
+0.00
+
+0.02
+
+X4
+
+X6
+
+X3
+
+-0.18 0.08
+
+Urban land scale
+
+0.01
+
+-0.09
+X7
+
+-0.22 -0.07 -0.12 0.28
+
+0.06
+X8
+
+-0.12
+
+0.02
+X2
+
+0.30
+
+-0.18 0.08
+
+Urban land scale
+
+0.06
+X1
+
+0.02
+X2
+-0.18 0.08
+
+0.07
+
+0.03
+
+0.04
+
+X3
+
+X4
+
+X5
+
+-0.04
+
+X7
+
+X8
+
+0.30
+
+0.08
+
+0.11
+X7
+
+-0.22 -0.07 -0.32 0.28
+
+X8
+
+0.30
+
+Urban land scale
+
+X7
+
+0.28
+
+X1
+
+-0.06
+
+-0.07 -0.32 -0.12 0.28
+
+Urban land scale
+
+X3
+
+-0.18 0.08
+
+0.04
+
+X7
+
+X3
+
+X8
+
+0.05
+
+0.01
+
+-0.01
+
+X3
+
+X4
+
+X5
+
+-0.03
+
+0.08
+
+X6
+
+-0.02
+X8
+
+0.30
+
+-0.22 -0.07 -0.32 -0.12 0.30
+
+X1
+
+0.04
+X2
+
+-0.18 0.08
+
+Urban land scale
+
+0.03
+
+0.01
+
+0.10
+
+X3
+
+X4
+
+X5
+
+-0.04
+
+0.08
+
+X6
+
+X7
+
+-0.22 -0.07 -0.32 -0.12 0.28
+
+Urban land scale
+
+Figure
+4. Path
+analysis
+urban land
+expansion.
+Note:
+area,
+Figure 4. Path
+analysis
+of urban
+land of
+expansion.
+Note:
+x1 : farmland
+area,x1x:2farmland
+: technology
+investment,
+x
+2
+:
+technology
+investment,
+x
+3
+:
+distance
+to
+city
+center,
+x
+4
+:
+transportation
+x3 : distance to city center, x4 : transportation accessibility, x5 : average fixed-asset investment, x6 : land
+accessibility,
+x5: average
+investment,
+: land
+finance
+scale, x7:
+finance scale,
+x7 : urban population,
+x8 :fixed-asset
+added value
+of secondaryx6and
+tertiary
+industries.
+urban population, x8: added value of secondary and tertiary industries.
+Table 3. Path analysis of urban land expansion.
+EV
+
+CC
+
+DPC
+
+x1
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+
+−0.159 *
+0.369 **
+−0.330 **
+−0.172 *
+−0.319 **
+0.294 **
+0.474 **
+0.491 **
+
+−0.18
+0.08
+−0.22
+−0.07
+−0.32
+−0.12
+0.28
+0.30
+
+Indirect Path Coefficient among Variables
+x1
+
+−0.04
+−0.08
+−0.06
+0.08
+0.06
+0.06
+−0.02
+
+x2
+
+x3
+
+x4
+
+x5
+
+x6
+
+x7
+
+x8
+
+0.02
+
+−0.09
+−0.02
+
+−0.02
+0.00
+0.00
+
+0.14
+0.13
+0.03
+0.00
+
+0.04
+−0.03
+0.04
+0.05
+0.02
+
+−0.09
+0.08
+−0.06
+−0.06
+0.01
+0.08
+
+0.04
+0.16
+−0.04
+−0.02
+−0.09
+0.11
+0.08
+
+0.01
+0.00
+−0.03
+0.02
+0.02
+0.04
+
+0.00
+0.02
+0.07
+0.05
+0.03
+
+0.00
+0.03
+0.01
+0.01
+
+0.04
+−0.01
+0.10
+
+−0.03
+−0.04
+
+0.08
+
+IPC
+0.02
+0.29
+−0.11
+−0.10
+0.00
+0.41
+0.19
+0.19
+
+Note: IPC means indirect path coefficient; ** indicates significantly correlated at p < 0.01; * indicates significantly
+correlated at p < 0.05; x1 : farmland area, x2 : technology investment, x3 : distance to city center, x4 : transportation
+accessibility, x5 : average fixed-asset investment, x6 : land finance scale, x7 : urban population, x8 : added value of
+secondary and tertiary industries.
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+9 of 14
+
+4.2.1. Recognition of Direct Factors
+The direct driving factors of urban land expansion were sorted according to the direct
+path coefficient, from high to low. The order was: x5 , x8 , x7 , x3 , x1 , x6 , x2 , and x4 , of which,
+the direct path coefficients of x5 , x8 , x7 , x3 , and x1 were higher than their indirect path
+coefficients, thus they were defined as direct factors (Table 3, Figure 4).
+4.2.2. Recognition of Indirect Factors
+The indirect driving factors of urban land expansion were sorted according to the
+indirect path coefficient, from high to low. The order was: x6 , x2 , x8 , x7 , x3 , x4 , x1 , and x5 ,
+of which, the indirect path coefficients of x6 , x2 , and x4 were higher than their direct path
+coefficients, influencing urban land expansion through other driving factors, thus they
+were defined as direct factors (Table 3, Figure 4).
+5. Discussion
+5.1. Urban Land Expansion Scale
+In the agricultural land, farmland was the main source of urban land expansion,
+accounting for 40.55%. In the construction land, rural residential land was the main
+source, accounting for 40.40%. This may be due to the implementation of rural residential
+management policies, such as “Million hectares of fertile farmland” and “Link the increase
+and decrease of urban-rural construction land”, which enabled the spatial displacement
+and development rights to transform between urban and rural construction lands. In the
+unused land, water areas were the main source of urban land, accounting for 6.01%. In
+summary, farmland was the main source of urban land expansion, while the decrease in
+residential land in rural areas was another important source supporting the rapid increase
+in urban land. Apart from this, water space was occupied by urban land expansion,
+accounting for 6.45% of the total expansion area. However, ecological spaces, such as water
+areas, were threatened in the urban land expansion process (Table 2).
+5.2. Path Analysis of Urban Land Expansion
+5.2.1. Recognition of Direct Factors
+The direct path coefficient of x5 was −0.32, directly inhibiting urban land expansion.
+It was indicated that urban land expansion could be effectively inhibited through landuse intensity enhancement and using capital to replace land investment. The direct path
+coefficient of x8 was 0.30, directly promoting urban land expansion. The secondary and
+tertiary industries developed rapidly due to the new economic development strategy,
+which was based on an advanced manufacturing and service industry. Finally, this led to a
+rapid increase in urban land expansion demand. The direct path coefficient of the urban
+population (x7 ) was 0.28. As the urban population increased, the urban land demands for
+residence, industry, and entertainment increased rapidly, leading to continuously increased
+urban land [20]. The direct path coefficient of x3 was −0.22. This indicated that the city
+center was the important urban land expansion source. The shorter the distance to city
+center, the higher the possibility that the land will transfer to urban land. The direct path
+coefficient of x1 was −0.18, directly inhibiting urban land expansion. This may be due to
+the strict farmland protection policy, which restricted the transformation of farmland to
+urban land. Another possible reason may be the long distance from the intensive farmland
+area to the city center, as the low urban population in those areas indirectly inhibits urban
+land expansion (Table 3).
+5.2.2. Recognition of Indirect Factors
+The direct path coefficient of x6 (−0.12) was smaller than the indirect path coefficient
+(0.41), defined as an indirect factor indirectly promoting urban land expansion (Figure 5a).
+The indirect influence was acting through x8 , x7 , and x3 . The indirect path coefficients
+between each paired variable were 0.11, 0.08, and 0.07, respectively. Expanding urban land
+areas by transferring collective land into state-owned land, and by recycling full due land,
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+10 of 14
+
+illegal land, and unused land were the two main ways the government obtained benefits
+from land transfer. The local government preferred to use the first method because it was
+easy to implement, and could maximize the benefit of land transfer [41]. This resulted
+in rapid urban land expansion. The region has a large population, a good location, and
+a developed economy, which was attractive to investors. Meanwhile, the government
+Int. J. Environ. Res. Public Health 2022, 19,focused
+x
+12 of 15
+on this region as a means to obtain greater financial income. This indicates that the
+local government directly and indirectly promoted urban land expansion as they pursued
+land finance and administrative achievement (Figure 5).
+IPC=-0.12
+
+R=-0.31
+
+R=0.27
+Land finance scale
+
+R=0.36
+
+The distance to city center
+
+DPC=-0.22
+
+DPC=0.28
+Urban population
+
+Added value of secondary and
+tertiary industry
+
+Urban land scale
+DPC=0.30
+
+（a）
+
+DPC=0.08
+R=-0.40
+
+DPC=-0.32
+Average fixed asset investment
+DPC=0.28
+
+R=0.27
+Urban population
+
+Technology investment
+R=0.53
+
+Urban land scale
+DPC=0.30
+
+Added value of secondary and
+tertiary industry
+（b）
+
+DPC=-0.07
+R=-0.06
+
+DPC=-0.18
+Farmland area
+
+DPC=-0.12
+
+R=-0.40
+Land finance
+
+Transportation accessibility
+
+Urban land scale
+DPC=0.28
+
+R=-0.20
+Population increase
+（c）
+
+Figure
+Actionpath
+pathofofindirect
+indirect path
+coefficient:
+R; direct
+path path
+coefficient:
+Figure
+5. 5.
+Action
+path coefficient
+coefficient(correlation
+(correlation
+coefficient:
+R; direct
+coefficient:
+DPC).
+Note:
+(a):
+The
+direct
+and
+indirect
+influence
+path
+of
+land
+finance
+scale
+on
+urban
+DPC). Note: (a): The direct and indirect influence path of land finance scale on urbanland
+landscale.
+scale. (b):
+The and
+direct
+and indirect
+influence
+of technology
+investment
+urbanland
+landscale.
+scale.(c):
+(c): The
+The direct
+The(b):
+direct
+indirect
+influence
+pathpath
+of technology
+investment
+onon
+urban
+and indirect
+influence
+of transportation
+accessibility
+on urban
+land
+scale.
+anddirect
+indirect
+influence
+path ofpath
+transportation
+accessibility
+on urban
+land
+scale.
+
+The indirect path coefficient of technology investment (0.29) is larger than the direct
+
+5.3.path
+Policy
+Suggestions
+coefficient
+(0.08), indirectly promoting urban land expansion (Figure 5b). The indirect
+(1) Average
+fixed-asset
+investment,
+valuepath
+of secondary
+tertiary
+indusinfluence
+was achieved
+through
+x8 , x5 , andthe
+x7 .added
+The indirect
+coefficientsand
+between
+each
+paired
+variable
+were 0.16,
+0.13, and
+respectively.
+Onefarmland
+possible reason
+forimportant
+the indirectdirect
+tries,
+urban
+population,
+distance
+to 0.08,
+the city
+center, and
+area are
+promoting
+effecturban
+may beland
+that expansion.
+the technology
+was
+mainly
+the four
+factors
+that drive
+Theinvestment
+integrated
+and
+directconcentrated
+effect of theinfirst
+national
+economic–technological
+development
+area
+located
+in
+the
+city
+center.
+Economic
+factors plays a more important role. Indirect factors often act through them to indirectly
+influence urban land expansion. Based on these results, we propose the following suggestions. In order to slow down the speed of urban land expansion, improving land-use intensification and promoting the three-dimensional development of urban land could be
+considered. Moderately adjusting the economic development goals, maintaining an ap-
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+11 of 14
+
+growth is one of the driving forces of urban land expansion. Meanwhile, the region
+with advanced technology was followed by developed industry, highly intensive but still
+attracting a large amount of labor, thus promoting urban land expansion (Figure 5).
+The indirect path coefficient of transportation accessibility (−0.10) was larger than the
+direct path coefficient (−0.07), indirectly inhibiting urban land expansion (Figure 5c). The
+indirect influence acted through x1 , x6 , and x7 . The indirect path coefficients between each
+paired variable were −0.06, −0.06, and 0.05, respectively. The urban land expansion area
+was concentrated near the city center and the central town beside the highway. Many new
+roads had been constructed outside the city center and the central town in the previous
+years, thus the transportation accessibility was greatly improved. The large farmland area
+and low land financial income inhibited urban land expansion in those regions. Meanwhile,
+improved transportation accessibility in the outer suburban districts promoted population
+movement, which was beneficial for increasing the population, indirectly promoting urban
+land expansion. However, considering multiple factors, transportation accessibility poses
+an indirect inhibitory effect on urban land expansion (Figure 5).
+5.3. Policy Suggestions
+(1) Average fixed-asset investment, the added value of secondary and tertiary industries, urban population, distance to the city center, and farmland area are important direct
+factors that drive urban land expansion. The integrated and direct effect of the first four
+factors plays a more important role. Indirect factors often act through them to indirectly
+influence urban land expansion. Based on these results, we propose the following suggestions. In order to slow down the speed of urban land expansion, improving land-use
+intensification and promoting the three-dimensional development of urban land could
+be considered. Moderately adjusting the economic development goals, maintaining an
+appropriate economic development speed, optimizing the industrial structure, and promoting the development of a modern service industry could decrease the dependency of
+economic development on urban land. The demand for urban land could be reduced by
+controlling the population. Considering the location factor could help in exploring the
+retention of construction land in the city center. Combining the “Million hectares of fertile
+farmland” and “Link the increase and decrease of urban-rural construction land” policies,
+optimizing the farmland and basic farmland design, and assigning part of the farmland to
+urban development could control urban land expansion through ecological isolation.
+(2) Land finance scale, technology investment, and transportation accessibility directly
+affect urban land expansion, as well as indirectly influencing urban land expansion through
+other factors. However, the indirect effects have an obvious lagging effect. To break the
+government monopoly on land supply, land management policy should be improved. Several
+strategies could be attempted: (1) Improve the method of land condemnation by restricting
+local government land transfers and initiate the reuse of urban land storage in the regions that
+have a better location and economy, and a larger population. (2) Accelerate financial system
+reform to adjust land transfer policies. (3) Find an effective way to overcome the difficulties
+with land finance. Construct a complete local tax system by reasonably levying municipal
+governments to guarantee a steady increase in local income. Meanwhile, to reduce the demand
+for urban land, industry structures should be updated through technology processing. To
+achieve this target, the following strategies could be tried: (1) continue to improve the level
+of regional technology and reasonably allocate land for high-tech industries; and (2) move
+some high-tech industries to city centers, and reduce the urban land supply stress in city
+centers. Finally, transportation land should be designed in scientific way to avoid repeated
+construction. The total amount of transportation land should be controlled to accomplish
+orderly urban land expansion.
+6. Conclusions
+The total urban land expansion area was 32,929.60 hm2 in Yangzhou from 2005 to
+2018. The newly increased urban land was mainly located in the city center and in the
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+12 of 14
+
+rural areas of Jiangdu district, Yizheng, Gaoyou, and Baoying. The expansion in urban
+land was dominated by farmland, which accounted for 40.55% of the total expansion
+area. Meanwhile, a decrease in residential land in rural areas was another important
+source of land for urban land expansion, accounting for 40.40% of the total expansion area.
+Furthermore, water spaces were occupied in urban land expansion, accounting for 6.01%
+of the total expansion area.
+The driving factors of urban land expansion were sorted according to their contribution, from high to low. The order was as follows: added value of secondary and tertiary
+industries, urban population, technology investment, distance to city center, average fixedasset investment, land finance scale, transportation accessibility, and farmland area. Of
+these, average fixed-asset investment, added value of secondary and tertiary industries,
+urban population, distance to city center, and farmland area were the direct factors. Land
+finance scale, technology investment, and transportation accessibility were the indirect
+factors, which indirectly influenced urban land expansion through other driving factors.
+Land finance scale promoted urban land expansion through the added value of secondary
+and tertiary industries, urban population, and distance to the city center. Technology
+investment assisted urban land expansion through the added value of secondary and
+tertiary industries, average fixed-asset investment, and urban population. Transportation
+accessibility inhibited urban land expansion through farmland area, land finance scale, and
+urban population.
+Direct and indirect driving factors should be considered in the management and
+control of urban land expansion policymaking. From a direct factor perspective, increasing
+the level of urban land-use intensification, properly adjusting economic development goals,
+reasonably controlling the population, tapping into the power of the retention of construction land in city centers, and optimizing farmland and basic farmland planning need to be
+considered in the management and control of urban land expansion. Moreover, from an
+indirect factor viewpoint, to guide the orderly expansion of urban land, improving land
+management systems, promoting scientific and technological progress, and scientifically
+designing transportation land are necessary strategies.
+Author Contributions: Conceptualization, L.M.; methodology, L.M.; software, L.M.; validation, L.M;
+formal analysis, L.M.; investigation, L.M.; resources, L.M.; data curation, L.M.; writing—original
+draft preparation, L.M.; writing—review and editing, L.M. and W.S.; visualization, L.M.; supervision,
+L.M.; project administration, L.M.; funding acquisition, L.M and W.S. All authors have read and
+agreed to the published version of the manuscript.
+Funding: This research was funded by Philosophy and Social Science Project of Jinan, China (Grant
+No. JNSK21C13) and Social Science Planning and Research Project of Shandong, China (Grant NO.
+22DGLJ32).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+3.
+4.
+5.
+
+Pengfei, N. Experience and enlightenment of China’s urbanization development in the past 40 years of reform and opening up.
+Smart China 2018, 12, 11–13. (In Chinese)
+Fan, G. The Logical Transformation of China’s Urbanization: Meaning and Significance. Soc. Sci. 2022, 8, 109–119. (In Chinese)
+[CrossRef]
+Shen, X.; Wang, X.; Zhang, Z.; Lu, Z.; Lv, T. Evaluating the the effectiveness of land use plans in containing urban expansion: An
+integrated view. Land Use Policy 2019, 80, 205–213. [CrossRef]
+Xiong, C.; Tan, R. Will the land supply structure affect the urban expansion form? Habitat Int. 2018, 75, 25–37. [CrossRef]
+Li, C.; Zhao, J.; Xu, Y. Examining spatiotemporally varying effects of urban expansion and the underlying driving factors. Sustain.
+Cities Soc. 2017, 28, 307–320. [CrossRef]
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+
+30.
+31.
+32.
+33.
+34.
+35.
+
+13 of 14
+
+Colsaet, A.; Laurans, Y.; Levrel, H. What drives land take and urban land expansion? A systematic review. Land Use Policy 2018,
+79, 339–349. [CrossRef]
+Wu, J. Environmental amenities, urban sprawl, and community characteristics. J. Environ. Econ. Manag. 2006, 52, 527–547.
+[CrossRef]
+Li, Y.; Xiong, W. A spatial panel data analysis of China’s urban land expansion, 2004–2014. Pap. Reg. Sci. 2019, 98, 393–407.
+[CrossRef]
+Fei, W.; Zhao, S. Urban land expansion in China’s six megacities from 1978 to 2015. Sci. Total Environ. 2019, 664, 60–71. [CrossRef]
+Li, J.; Fang, W.; Wang, T.; Qureshi, S.; Alatalo, J.M.; Bai, Y. Correlations between Socioeconomic Drivers and Indicators of Urban
+Expansion: Evidence from the Heavily Urbanised Shanghai Metropolitan Area, China. Sustainability 2017, 9, 1199. [CrossRef]
+Asempah, M.; Sahwan, W.; Schuett, B. Assessment of Land Cover Dynamics and Drivers of Urban Expansion Using Geospatial
+and Logistic Regression Approach in Wa Municipality, Ghana. Land 2021, 10, 1251. [CrossRef]
+Luo, T.; Tan, R.; Kong, X.; Zhou, J. Analysis of the Driving Forces of Urban Expansion Based on a Modified Logistic Regression
+Model: A Case Study of Wuhan City, Central China. Sustainability 2019, 11, 2207. [CrossRef]
+Salem, M.; Bose, A.; Bashir, B.; Basak, D.; Roy, S.; Chowdhury, I.R.; Alsalman, A.; Tsurusaki, N. Urban Expansion Simulation Based
+on Various Driving Factors Using a Logistic Regression Model: Delhi as a Case Study. Sustainability 2021, 13, 805. [CrossRef]
+You, H.; Yang, X. Urban expansion in 30 megacities of China: Categorizing the driving force profiles to inform the urbanization
+policy. Land Use Policy 2017, 68, 531–551. [CrossRef]
+Liu, F.; Zhang, Z.; Shi, L.; Zhao, X.; Xu, J.; Yi, L.; Liu, B.; Wen, Q.; Hu, S.; Wang, X.; et al. Urban expansion in China and its
+spatial-temporal differences over the past four decades. J. Geogr. Sci. 2016, 26, 1477–1496. [CrossRef]
+Xiong, Y.; Chen, Y.; Peng, F.; Li, J.; Yan, X. Analog simulation of urban construction land supply and demand in Chang-Zhu-Tan
+Urban Agglomeration based on land intensive use. J. Geogr. Sci. 2019, 29, 1346–1362. [CrossRef]
+Kresse, K.; van der Krabben, E. Housing Supply Limitations, Land Readjustment and the Ecological Performance of the Urban
+Landscape. Sustainability 2021, 13, 9774. [CrossRef]
+Weilenmann, B.; Seidl, I.; Schulz, T. The socio-economic determinants of urban sprawl between 1980 and 2010 in Switzerland.
+Landsc. Urban Plan. 2017, 157, 468–482. [CrossRef]
+Zhong, Y.; Lin, A.; He, L.; Zhou, Z.; Yuan, M. Spatiotemporal Dynamics and Driving Forces of Urban Land-Use Expansion: A
+Case Study of the Yangtze River Economic Belt, China. Remote Sens. 2020, 12, 287. [CrossRef]
+Qu, S.; Hu, S.; Li, W.; Wang, H.; Zhang, C.; Li, Q. Interaction between urban land expansion and land use policy: An analysis
+using the DPSIR framework. Land Use Policy 2020, 99, 104856. [CrossRef]
+Wen, L.; Chatalova, L.; Zhang, A. Can China’s unified construction land market mitigate urban land shortage? Evidence from
+Deqing and Nanhai, Eastern coastal China. Land Use Policy 2022, 115, 105996. [CrossRef]
+Han, M.Y.; Chen, G.Q.; Dunford, M. Land use balance for urban economy: A multi-scale and multi-type perspective. Land Use
+Policy 2019, 83, 323–333. [CrossRef]
+Yan, Y.; Ju, H.; Zhang, S.; Jiang, W. Spatiotemporal Patterns and Driving Forces of Urban Expansion in Coastal Areas: A Study on
+Urban Agglomeration in the Pearl River Delta, China. Sustainability 2020, 12, 191. [CrossRef]
+Miao, Y.; Liu, J.; Wang, R.Y. Occupation of Cultivated Land for Urban-Rural Expansion in China: Evidence from National Land
+Survey 1996–2006. Land 2021, 10, 1378. [CrossRef]
+Yuan, Z.; Zhou, L.; Sun, D.; Hu, F. Impacts of Urban Expansion on the Loss and Fragmentation of Cropland in the Major Grain
+Production Areas of China. Land 2022, 11, 130. [CrossRef]
+Hansen, G.D.; Prescott, E.C. Malthus to Solow. Am. Econ. Rev. 2002, 92, 1205–1217. [CrossRef]
+Huang, D.; Tan, X.; Liu, T.; Chu, E.; Kong, F. Effects of Hierarchical City Centers on the Intensity and Direction of Urban Land
+Expansion: A Case Study of Beijing. Land 2020, 9, 312. [CrossRef]
+Li, X.; Ma, X. Impacts of high-speed rail development on urban land expansion and utilization intensity in China. J. Transport.
+Land Use 2021, 14, 583–601. [CrossRef]
+Li, J.; Wang, J.; Zhang, J.; Liu, C.; He, S.; Liu, L. Growing-season vegetation coverage patterns and driving factors in the
+China-Myanmar Economic Corridor based on Google Earth Engine and geographic detector. Ecol. Indic. 2022, 136, 108620.
+[CrossRef]
+Wang, L.; Jia, Y.; Li, X.; Gong, P. Analysing the Driving Forces and Environmental Effects of Urban Expansion by Mapping the
+Speed and Acceleration of Built-Up Areas in China between 1978 and 2017. Remote Sens. 2020, 12, 3929. [CrossRef]
+Liu, G.; Li, J.; Nie, P. Tracking the history of urban expansion in Guangzhou (China) during 1665–2017: Evidence from historical
+maps and remote sensing images. Land Use Policy 2022, 112, 105773. [CrossRef]
+Qian, J.; Peng, Y.; Luo, C.; Wu, C.; Du, Q. Urban Land Expansion and Sustainable Land Use Policy in Shenzhen: A Case Study of
+China’s Rapid Urbanization. Sustainability 2016, 8, 16. [CrossRef]
+Cheng, W.; Zhou, N.; Zhang, L. How does land titling affect credit demand, supply, access, and rationing: Evidence from China.
+Can. J. Agric. Econ. Rev. Can. D Agroecon. 2021, 69, 383–414. [CrossRef]
+Li, S.-M. The Great Urban Transformation: Politics of Land and Property in China. City Community 2014, 13, 184–186. [CrossRef]
+Huang, Q.; Liu, Y. The Coupling between Urban Expansion and Population Growth: An Analysis of Urban Agglomerations in
+China (2005–2020). Sustainability 2021, 13, 7250. [CrossRef]
+
+Int. J. Environ. Res. Public Health 2022, 19, 15821
+
+36.
+37.
+38.
+39.
+40.
+41.
+
+14 of 14
+
+Liu, Y.; Zhang, X.; Kong, X.; Wang, R.; Chen, L. Identifying the relationship between urban land expansion and human activities
+in the Yangtze River Economic Belt, China. Appl. Geogr. 2018, 94, 163–177. [CrossRef]
+Deng, H.; Zhang, K.; Wang, F.; Dang, A. Compact or disperse? Evolution patterns and coupling of urban land expansion and
+population distribution evolution of major cities in China, 1998–2018. Habitat Int. 2021, 108, 102324. [CrossRef]
+Yeh, H.-Y. Telling a shared past, present, and future to invent nationality: The commemorative narrative of Chinese-ness from
+1949 through 1987 in Taiwan. Mem. Stud. 2018, 11, 172–190. [CrossRef]
+Li, P.; He, Z.; He, D.; Xue, D.; Wang, Y.; Cao, S. Fractional vegetation coverage response to climatic factors based on grey relational
+analysis during the 2000-2017 growing season in Sichuan Province, China. Int. J. Remote Sens. 2020, 41, 1170–1190. [CrossRef]
+Liu, Y.; Yue, W.; Fan, P. Spatial determinants of urban land conversion in large Chinese cities: A case of Hangzhou. Environ. Plan.
+B-Plan. Des. 2011, 38, 706–725. [CrossRef]
+Christophers, B. Revisiting the Urbanization of Capital. Ann. Assoc. Am. Geogr. 2011, 101, 1347–1364. [CrossRef]
+
+

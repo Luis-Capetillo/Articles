@@ -1,0 +1,1383 @@
+Ecological Indicators 147 (2023) 110009
+
+Contents lists available at ScienceDirect
+
+Ecological Indicators
+journal homepage: www.elsevier.com/locate/ecolind
+
+Original Articles
+
+Exploring the response of ecosystem service value to land use changes
+under multiple scenarios coupling a mixed-cell cellular automata model
+and system dynamics model in Xi’an, China
+Ping Zhang a, b, c, d, e, *, Lei Liu a, Lianwei Yang a, Juan Zhao a, Yangyang Li a, Yuting Qi a,
+Xuenan Ma a, Lei Cao a
+a
+
+School of Environmental and Chemical Engineering, Xi’an Polytechnic University, Xi’an 710048, China
+State Key Laboratory of Urban and Regional Ecology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China
+c
+Shaanxi Key Laboratory of Land Consolidation, Xi’an 710075, China
+d
+State Key Laboratory of Green Building in Western China, Xi’an University of Architecture & Technology, Xi’an 710055, China
+e
+Xi’an Key Laboratory of Territorial Spatial Information, Xi’an 710075, China
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Ecosystem service value
+MCCA
+SD
+Scenario prediction
+Sensitivity analysis
+
+Land use is a crucial factor affecting ecosystem service value (ESV), and forecasting future land use changes and
+ESV response can guide urban planning and sustainable development decisions. However, the traditional Cellular
+Automata (CA) model supposes that each cell has only one land use type at each time step, neglects the mixed
+structure and proportional distribution of land use units, does not take into account its quantitative continuous
+dynamic change, and lacks the exploration of land use quantity structure and spatial pattern optimization. This
+study employed a novel mixed-cell cellular automata (MCCA) approach, coupled with the system dynamics (SD)
+model to predict the spatiotemporal pattern of land use under the natural increase scenario (NIS), economic
+development scenario (EDS) and ecological protection scenario (EPS) in Xi’an, China, in 2030. The equivalent
+coefficient method was utilized to investigate the heterogeneity distribution and sensitivity of ESV. The results
+demonstrated that SD-MCCA exhibited remarkable prediction accuracy and robustness. The main changes in land
+use in 2000–2015 were due to urban expansion, the conversion of arable land into construction land, and the
+conversion between grassland and arable land. The total ESV increased from 19554.36×106 CNY in 2000 to
+19618.39×106 CNY under the EPS in 2030, and the contribution of climate regulation and hydrological regu­
+lation to ESV was the highest. Spatial heterogeneity of ESV revealed a certain regularity, and the high value
+region was chiefly concentrated in woodland and grassland with favorable ecological conditions. Land use
+variations under NIS and EPS improved ESV, while the ESV had a negative response to land use transformations
+under the EDS. This research provides a new way to identify the relationship between future land utilization
+scenarios and ESV, which is of great significance for the management of land resources and formulation of
+ecological compensation standards.
+
+1. Introduction
+Ecosystem service (ES) refers to the benefits that human beings
+obtain directly or indirectly from the structure, process and function of
+ecosystems, mainly includes provisioning, cultural, regulating and
+supporting services (Costanza et al., 1997; de Groot et al., 2010; Zhang
+et al., 2020). Monetary assessment of ecosystem service value (ESV) can
+effectively quantify the benefits that humans derive from the ecosystem,
+improve people’s understanding of the value of natural assets, help
+
+decision makers carry out reasonable ecological environment planning,
+promote regional scientific development and protect ecosystems with
+high ESVs (Bateman et al., 2013; Fisher et al., 2009; Pueffel et al., 2018).
+However, with the acceleration of economic development, population
+growth and urban sprawl, human activities have led to ecosystem
+degradation, biodiversity reduction and water quality deterioration,
+further contributing to significant decreases in ESVs (Collin and Melloul,
+2001). Land utilization variation is a key index that reflects anthropo­
+genic disturbance to the ecosystem and has significant role in supporting
+
+* Corresponding author.
+E-mail address: pingzhang_2008@126.com (P. Zhang).
+https://doi.org/10.1016/j.ecolind.2023.110009
+Received 21 August 2022; Received in revised form 6 February 2023; Accepted 8 February 2023
+Available online 13 February 2023
+1470-160X/© 2023 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+ES functions. Nevertheless, human overexploitation of land resources
+has resulted in serious damage to regional ecosystems (Keller et al.,
+1991). Therefore, exploring the relationship between ESV and land use
+variations is extremely important for maintaining ecosystem health and
+the sustainable utilization of land resources (Aziz, 2021; MendozaGonzalez et al., 2012).
+In recent years, the response of ESV to land utilization change has
+attracted increasing attention from researchers in China and abroad
+(Arowolo et al., 2018; Chen et al., 2021a; Liu et al., 2021b). In southern
+Sinaola, Mexico, researchers applied remote sensing technology to
+assess the impact of land use transformation on wetland ESV from 2000
+to 2010 (Camacho-Valdez et al., 2014). Kindu et al. (2016) revealed
+influence of land use dynamics on ESV in Ethiopian highlands from 1973
+to 2012 and investigated the contribution differences of different
+ecosystem service functions. Some researchers have examined the
+response of ESV in the Pearl River Delta of China to land use trans­
+formation through multisource data and detected hot and cold spots (Hu
+et al., 2019). Dai et al. (2021) verified the distribution features of land
+utilization and ESV in Chengdu, China, utilized remote sensing images
+from 2003 to 2018, and further discussed the driving factors of ESV.
+Akhtar et al. (2022) assessed the spatial-temporal heterogeneity of ESV
+in dryland ecosystems of Pakistan by combining land use data and GIS
+analysis techniques and evaluated the causes of ESV reduction. How­
+ever, previous studies mostly employed historical land use for ESV
+estimation, and there is still room for investigation into the potential
+future trend of ESV. The prediction of future land use scenarios and ESV
+responses can offer a scientific reference for government land planning
+decisions and ecosystem protection (Peng et al., 2021; Schirpke et al.,
+2020; Zhang et al., 2015).
+Land use models are often applied to forecast the spatiotemporal
+distribution of ESV with land use conversions (Liu et al., 2021a; Qin and
+Fu, 2020; Zhang et al., 2019). Das et al. (Das et al., 2021) adopted
+machine learning and the cellular automata (CA)-Markov model to
+predict the spatial allocation of ESV in Asian megacities from 2030 to
+2050 and clarified the spatial aggregation pattern of ESV. Wu et al.
+(2020) coupled a linear optimizing technique and the conversion of land
+use and its effects at a small regional extent (CLUE-S) and assessed the
+response of ESV to land utilization planning scenarios in 2025. Liu et al.
+(2020) employed the future land use simulation (FLUS) model to reveal
+the dynamic evolution of ESV under the scenarios of natural growth,
+economic growth and ecological conservation in the Bohai Rim coastal
+region. These researchers integrated multipurpose optimal method and
+the patch-generating land-use simulation (PLUS) model to evaluate
+temporal and spatial alterations of ESV in ecological shelter zone in
+China in 2026 (Li et al., 2021). However, these conventional models
+hypothesize that every cell is pure and discrete (Pontius et al., 2007). In
+reality, each cell consists of a mixture of various land utilization types.
+The mixed-cell cellular automata (MCCA) model can simulate the pro­
+portional distribution of mixed land utilization patterns in cells, exca­
+vate land use development probability using the random forest (RF)
+algorithm, and simulate the land use competition mechanism based on
+multiple roulettes. It can realize the mutual transformation of various
+land utilization structures at subcellular level and has a higher precision
+in land application simulation (Liang et al., 2021). Therefore, MCCA
+approach is a new and effective approach for the multi-scenario
+modeling of land utilization and future forecasting of ESV.
+The combination of land use spatial prediction and quantitative
+structure simulation model can reveal the spatiotemporal characteristics
+and internal mechanism of land utilization change, and can more
+accurately simulate the spatial distribution of land application and ESV
+(Wang et al., 2022b). Wang et al. (2022a) combined multi-criteria
+evaluation (MCE) and CA model to predict the spatial and temporal
+changes of land utilization in Wuhan metropolitan area. Li et al. (2019)
+integrated Markov and CA to demonstrated the influence of land utili­
+zation alterations on ESV in Central Asia from 2025 to 2035. Wang et al.
+(2018b) established three various of land use scenarios using the multi-
+
+objective programming (MOP) and CLUE-S model, and investigated the
+response law of ESV in Wuhan in 2040. However, the nonlinear influ­
+ence of socio-economic factors on the quantitative structure of land
+application has been neglected, and the optimization of the quantitative
+structure of land utilization has not been considered. SD model can solve
+the internal feedback between the structure, function and behavior of
+land utilization, gain the dynamic quantitative information of the sys­
+tem (Letourneau et al., 2012; Zheng et al., 2012), and illuminate the
+nonlinear correlation mechanism between the socio-economic system
+and land application in accordance with the construction table function
+(van Delden et al., 2010), achieve the quantitative structure prediction
+of land utilization types under varying scenarios in the future.
+Combining the macro area demand forecast of SD with the micro spatial
+modeling of MCCA can give full play to the complementary advantages
+of the coupling model SD-MCCA and enhance the precision of the
+simulation results of ESV and land application spatial-temporal pattern
+(Rasmussen et al., 2012; Wu et al., 2022).
+The approaches for evaluating ESV are divided into two types: the
+price each unit ES function and the equivalent coefficient technique in
+accordance with land use value each unit area (Fu et al., 2022). The
+previous approach utilizes ecological process models to quantify ESV
+with comprehensive considerations (Elmqvist et al., 2015). However, it
+requires too much input data, and the simulation process is too complex,
+which requires multiple models to participate in the evaluation. It is
+difficult to unify the standards, which raises the difficulty of its
+employment and restricts its utilization in research (Liu et al., 2021b;
+Long et al., 2022). In contrast, the latter method has the advantages of
+simple operation, a lower data requirement intuitiveness and efficiency
+and is widely applied in the simulation and prediction of ESV (Bateman
+et al., 2013; Xing et al., 2021), which can provide support for the
+calculation of ESV and aid in scientific decision-making.
+Xi’an is the core area of the Xi’an Metropolitan Region and the key
+zone of the Guanzhong Plain urban agglomeration (GPUA), as well as a
+significant central city in western region of China. It is in a period of
+accelerated industrialization and urbanization and inevitably faces a
+variety of ecological and environmental problems (Zhang et al., 2021).
+Therefore, the coordinated development of its regional ecological
+economy has important theoretical significance and practical value for
+the rational allocation of land resources and the sustainable manage­
+ment of its ecosystems. In summary, the purposes of this research are as
+follows: (1) to validate the simulation accuracy of the MCCA model by
+combining the land use and driving forces from 2000 to 2015, integrate
+socio-economic, population change and land use variables to establish
+SD model, and the quantitative structure and spatial pattern prediction
+optimization model SD-MCCA was coupled to predict the land use
+spatial pattern in Xi’an in 2030 under the NIS, EDS and EPS scenarios;
+(2) to reveal the temporal and spatial variation characteristics of ESV by
+employing the equivalent coefficient method; and (3) to evaluate the
+response of ESV to land utilization transformation by applying the
+sensitivity index. This study provides new insights into the optimization
+of land utilization quantity structure and pattern layout, and offers
+policy recommendations for sustainable land resource planning, natural
+resource protection and ecosystem management.
+2. Study area
+Xi’an (33◦ 42ˊ-34◦ 45ˊ N, 107◦ 40ˊ-109◦ 49ˊ E) is located in the
+Guanzhong Basin of the Yellow River (Fig. 1). It is the political, cultural
+and economic core of Shaanxi Province, which has 13 districts and
+counties, with an area of approximately 10108 km2. Xi’an has the
+highest altitude difference among all Chinese cities, and the Qinling
+Mountains and the Weihe Basin constitute its main landforms. The area
+has a warm temperate semi humid continental monsoon climate, with an
+annual mean temperature of 13.1–14.3 ℃. January is the coldest month,
+and July is the hottest. The annual precipitation is 528.3–716.5 mm.
+Obvious precipitation peaks occur in July and September, and the
+2
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+Fig. 1. Location of the Xi’an.
+
+climate changes significantly in the four seasons. It is the largest key
+metropolis in Northwest China. In February 2018, the Chinese govern­
+ment released the GPUA expansion program, which clearly supports
+Xi’an in building a national pivotal metropolis and an internationalized
+city with historical and cultural characteristics.
+
+which provided reference for sustainable development and scientific
+management of ecosystem services in Xi’an.
+3.1. Data sources and treatment
+The Resource and Environmental Science Data Center of the Chinese
+Academy of Sciences provides land utilization and administrative
+boundaries in 2000 and 2015, the data accuracy is 30 m, in which land
+use include cultivated land, woodland, grassland, water area, built-up
+area and bare land. It also offers NDVI, social and economic in­
+dicators, and the data precision is 1000 m. The digital elevation model
+(DEM) with accuracy of 30 m is obtained through the geospatial data
+cloud platform, from which slope and aspect data were extracted. The
+Harmonized World Soil Database (HWSD) provided soil data, meteo­
+rological data retrieved from the China Meteorological Data Network,
+containing precipitation and temperature. The distance to the way and
+administrative center were calculated in ArcGIS (European distance).
+The earth night light “flint” data set provided night light data at a res­
+olution of 1500 m. Statistical data of Xi’an provided the area and yield of
+crops. Xi’an Statistical Yearbook and General Land Use Planning from
+1978 to 2015 were collected to provide the socio-economic and de­
+mographic for the SD model. The raster data used in the study were
+resampled to the same resolution.
+
+3. Materials and methods
+In this research, we coupled a new mixed land use structure MCCA
+model and system dynamics SD model to investigate the optimization
+approach of land utilization quantitative structure and spatial pattern,
+predict the spatiotemporal evolution rule of land application in the
+future, and reveal the response mechanism of ESV under multiple sce­
+narios. The framework included the following three steps (Fig. 2): (1)
+Database establishment. In accordance with the requirements of SDMCCA model, the acquired data is preprocessed, and the historical
+land utilization data is transformed into mixed cell data. The driving
+factors are extracted, interpolated and resampled to the same boundary
+and resolution. (2) Model coupling. The past land application mixed cell
+data and driving forces are employed to forecast the conversion matrix
+and development probability data set, simulate the land utilization
+alteration in 2015, and verify the precision of the SD-MCCA model.
+According to population variation, socio-economic and policy orienta­
+tion, the area and space pattern of various land application types under
+different scenarios in 2030 are predicted. (3) Future ESV prediction. The
+value table of ecosystem services per unit area was built by applying the
+yield and value coefficient of primary grain crops. The spatiotemporal
+distribution of ESV under various scenarios was evaluated on the basis of
+the equivalent coefficient method. The sensitivity index was applied to
+demonstrate the impact of land application transformation on ESV,
+
+3.2. MCCA model
+To predict future multi-scenario changes in land use, a novel mixed
+cell MCCA model was adopted (Liang et al., 2021). This is a new CA
+model founded on quantitative conversion rule mining of land use types,
+land use structure simulation and accuracy evaluation, which is
+3
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+Fig. 2. Flow chart of land utilization prediction and ESV evaluation.
+
+Fig. 3. Difference between pure-cell CA and mixed-cell CA in simulating land use structure.
+4
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+employed to reveal diversity of land utilization structure and describe
+land use structure variation more accurately (Fig. 3). Quantitative
+conversion rule mining of land utilization patterns is utilized to confirm
+the impact of driving factors on different land utilization composition
+and obtain the evolution probability. The driving forces were selected
+from two aspects of natural and social factors. Considering the interac­
+tion between pixels and the internal information of pixels, the adaptive
+chance of different land utilization components was calculated by using
+random forest algorithm. The modeling of land utilization structure by
+using MCCA’s pixel state, which is composed of a series of components
+and their interaction relationships within the pixel. We applied roulette
+wheel to confirm whether the land utilization transformation reaches
+the expected goal to meet the macro land use demand and micro land
+application competition. The feedback between land utilization requests
+and configurations is used to finally achieve the predicted target. The
+traditional simulation accuracy assessment method is only suitable for
+the pure CA model, it is difficult to evaluate consecutive and many di­
+mensions indicators. Therefore, a scheme for MCCA accuracy estimation
+is designed, which includes three parts: (1) RF is exploited to excavate
+the conversion relation between land utilization structures and impact
+indicators; (2) structural changes are quantitatively simulated according
+to transition rules; and (3) the modeling precision is evaluated according
+to three accuracy indexes (OA, mcFoM and average RE).
+
+general land utilization planning of Xi’an from 1978 to 2015, the data of
+social economy, population alteration and land application were ob­
+tained. The SD model (Fig. 4) was established by using Vensim software.
+The model simulation period was 2000–2030, and the time step was 1
+year. The simulation process was divided into two steps (Wang et al.,
+2022b). The first step is to utilize the collected historical data to examine
+the model. By modifying the parameter settings, compare the modeling
+results with the actual situation to ensure that the constructed model has
+sufficient precision to simulate the land utilization require in the future
+with multiple scenarios. The corresponding time period is 2000–2015.
+The second step is to take into account human activities, policy trends
+and scenario demands at the same time, regulate the system parameters
+to acquire the land application requirements under various future sce­
+narios for the next land utilization model simulation, and the corre­
+sponding time period is 2015–2030.
+3.4. Future scenario setting
+To reveal different patterns of urban development in the future, we
+set three alternative scenarios founded on SD model, namely NIS, EDS
+and EPS, according to the overall land use planning in Xi’an and with
+reference to the land use, ecological environment and economic growth
+of the study area.
+The NIS was a benchmark scenario, and the urban future develop­
+ment pattern was consistent with the historical land use variation trend
+under this scenario. According to the land utilization data, socioeconomic and demographic change factors from 2000 to 2015, the SD
+model is applied to calculate the required area of each land utilization
+type in 2030. The EDS prioritizes rapid economic development, the
+population growth rate increased by 10 %, the proportion of urban
+residents increased by 14 %, the grain yield per unit area increased by 2
+% year by year, and the output of construction industry was the highest
+under three scenarios. The EPS prioritizes ecological benefits; it focuses
+on protecting land, such as forest cover, grassland and water bodies with
+
+3.3. The SD model
+The SD model can reflect the interaction between the functions and
+dynamic behaviors of the components in the nonlinear dynamic varia­
+tions of the complex system structure with multiple feedbacks. Its
+advantage lies in the simplification and abstraction of the actual system
+structure to adapt to diverse policy scenarios and propose corresponding
+solutions (Huang et al., 2022), a feedback loop is formed during the
+operation of the model to effectively investigate the dynamic evolution
+mechanism behind the system. According to the statistical yearbook and
+
+Fig. 4. SD model structure diagram.
+5
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+ecological land areas of at least 5205 km2, for ecological use; the de­
+mand for construction land decreased, and the per capita housing
+requirement area decreased by 8 %; protecting capital arable land;
+reducing the adverse impact of the disorderly extension of urban space
+on the ecosystem; and prohibiting development in nature reserves and
+national parks.
+
+3.7. CLUE-S and CA-Markov model
+CLUE-S is a predictive and visual land utilization alteration model
+developed by Wageningen University in the Netherlands. It iteratively
+achieves the spatial allocation of land application by calculating the
+relationship between driving forces and land types (Verburg and Over­
+mars, 2009). The model is composed of two independent parts: nonspatial demand module and spatial allocation module. The non-spatial
+demand module operates independently of the model. It is necessary
+to employ mathematical tools such as SPSS to determine the rationality
+of selected land requirement, land policy and transfer restriction area
+(Liao et al., 2022). The spatial allocation module calculates the land
+utilization conversion probability in accordance with the input grid
+data, and allocates the land application demand in the simulated year in
+line with the obtained probability. The iterative process is applied to
+achieve the target demand of each land utilization variety. In order to
+execute higher simulation precision, it is necessary to enhance the
+conversion elasticity and transfer matrix through relevant professional
+knowledge, experience and multiple tests (Peng et al., 2021).
+The CA-Markov model is developed on the grounds of the Markov.
+The Markov can only effectively simulate the quantitative relationship
+of land utilization variation, and has limited utility in space assignment.
+The state at any time node in the alteration process only relies on the
+results before this time point, that is, there is no aftereffect (Mokarram
+et al., 2021). The CA model can generate transformation rules in view of
+driving factors and land utilization data. The Markov model coupled
+with the CA model not only retains the superiority of accurate forecast of
+Markov model in long time series, but also integrates the benefits of CA
+model in simulating complex spatial and temporal alterations, and adds
+geospatial significance to the forecasting results of Markov model (Sun
+et al., 2021). The IDRISI software developed by Clark Lab is employed to
+generate the land utilization transfer matrix on the basis of the land
+application data of the two phases, and then the adaptive probability
+atlas is generated through the CA circular utilization driving force and
+land utilization information to effectively forecast the future land
+application variation (Zhao et al., 2019).
+
+3.5. Assessment of ESV
+The equivalent coefficient method was extensive applied in ESV
+evaluation owing to its simplicity, efficiency and applicability (Costanza
+et al., 1997). Xie et al. (2017) revised the equivalent coefficient of
+different ecosystems, its value was determined to be equal to 1/7 of the
+market value of the average grain output of that year. Consequently, the
+value coefficient of the ecosystem per unit area is obtained applying the
+following formulas:
+VC =
+
+1∑n Pi × Qi
+7 i=1 M
+
+(1)
+
+where VC is the worth of the ES equivalence factor per elemental area
+(CNY/ha), i refers to the kind of crop (consists of maize, wheat and
+rapeseed), Pi means the average market value of agricultural products
+(CNY/t), Qi refers output of agricultural products per elemental area (t/
+ha/a), and M means overall sown acreage (ha).
+(2)
+
+VCi,j = eij × VC
+
+where ei,j is the equivalent worth per elemental area of ES and VCi,j is the
+value coefficient of different land utilization sorts and different ES fea­
+tures (CNY/ha).
+Various land utilization sorts, ES features and total ESVs were
+calculated by the following formulas:
+∑m
+ESV i =
+Ai × VCi,j
+(3)
+j=1
+ESV j =
+
+ESV =
+
+∑n
+i=1
+
+(
+∑n
+
+∑n
+
+(4)
+
+Ai × VCi,j
+
+i=1
+
+)
+
+i=1
+
+VCi,j
+
+× Ai
+
+4. Results
+
+(5)
+
+4.1. Model performance evaluation
+
+where ESVi is the ESV of land utilization form i, ESVj is the ESV of ES j,
+ESV is the general ESV, and Ai is the acreage of land utilization type i.
+
+To accurately assess the precision of the MCCA model, we used the
+land use in 2000 as the benchmark graph and obtained the simulation
+results of the space pattern of land utilization in 2015 by inputting
+change probability, conversion rules, demand module, spatial con­
+straints and simulation parameters of land application data in
+2000–2015, as well as the driving factors such as geography, climate and
+socioeconomic. OA (0.9834), mcFoM (0.27) and average RE (0.574)
+were adopted to validate the similarity between mimetic and real land
+utilization configuration. Fig. 5 reveals that the real and mimetic land
+utilization configurations are similar in most regions, but the areas with
+significantly different patterns were mainly located around cities, at the
+boundaries of districts and counties, and along the routes of new roads.
+In general, the simulation results of the MCCA model are reliable and
+acceptable and can be employed to predict the NIS, EDS and EPS in
+2030.
+The SD model has been debugged and operated normally, which
+means that there is no logical error in the formula construction.
+Comparing the results of the simulated land utilization quantity in 2015
+obtained by the model with the actual situation in 2015, the relative
+error between the simulated and actual quantity of each land utilization
+type is less than 1.3 %, which proves that the quantitative relationship
+obtained by the SD model simulation can be utilized to forecast multiple
+scenarios in 2030, and the model has high precision. It illustrates that
+SD-MCCA model can be applied for future land use scenarios prediction
+and ESV evaluation.
+
+3.6. Sensitivity index of ESV
+The response of ESV to land utilization transformation was analyzed
+by the sensitivity indicators (SI) (Song and Deng, 2017), which can
+measure the impact of 1 % land utilization transformation on ESV. The
+larger the absolute value of SI is, the more obvious the influence of land
+utilization transformation on ESV is. A positive SI demonstrates that
+land utilization transformation improves ESV, while a negative SI sug­
+gests that land utilization transformation plays a role in reducing ESV.
+SI =
+
+(ESVend − ESV start )/ESV start × 100%
+LCP
+∑6
+
+LCP = ∑i=1
+6
+
+ΔAi
+
+i=1
+
+Ai
+
+×
+
+1
+× 100%
+T
+
+(6)
+
+(7)
+
+where SI is the sensitivity index (%), ESVstart is the total ESV of the
+starting year (CNY), ESVend is the total ESV of the ending year (CNY),
+LCP refers the dynamic degree of land utilization (%), and T means the
+total number of years studied.
+
+6
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+Fig. 5. Validation performance of the MCCA model.
+
+4.2. Spatiotemporal characteristics of land utilization variations
+
+maximum growth of construction land occurs in the EDS, but the area of
+cropland, wood land and bare land is the lowest in the three future
+prediction scenarios. On the premise of ensuring sufficient arable land to
+guarantee food production, arable land, grassland and unused land were
+reduced by 14.91 %, 2.36 % and 9.28 %, respectively. Under the EPS,
+the acreage of built-up area was the slowest, increased by 357.36 km2,
+but the area of forest cover reached a maximum of 3072.91 km2 among
+the three scenarios. The area of arable land was less than that in the NIS
+but higher than that in the EDS, indicating that the implementation of
+the ecological protection policy has restrained urban sprawl and
+strengthened protection of arable land.
+
+4.2.1. Investigation of land application transformations in Xi’an during
+2000–2015
+Fig. 6 shows the spatial distribution of land utilization in Xi’an in
+2000–2015 and reveals the evolution characteristics of various land use
+types with a Sankey diagram. From the perspective of spatial variation,
+the land use indicated significant heterogeneity in 2000 and 2015, and
+construction land was mainly located in the central regions, demon­
+strating a trend of rapid urban expansion. The arable land was mainly
+distributed around the built-up area, and the occupation of built-up area
+was the chief cause of decrease. The forest cover and meadowland areas
+were mainly located at south and southeast zones, and water bodies and
+unused land were sparsely distributed. The Sankey diagram emphasized
+that land utilization transformation pattern during 2000–2015 was
+primarily the transfer between arable land and construction land. Area
+of construction land converted from arable land was 438.84 km2, ac­
+counting for 34.29 % of the area of construction land. The second reason
+for the decrease was the mutual transformation between arable land and
+grassland; the area from grassland to arable land was 60.54 km2, ac­
+counting for 1.72 %.
+
+4.3. Changes in ESV from 2000 to 2030
+4.3.1. Temporal estimation in ESV
+From 2000 to 2030, the ESV in Xi’an demonstrated a tendency of first
+rising, then falling and finally growing again, with an overall increasing
+trend (Table 1 and Table 2). The highest ESV under the EPS was largely
+due to the protection and restoration of ecological land and the re­
+striction of disorderly urban sprawl, while the lowest ESV under the EDS
+was mainly driven by the acceleration of industrialization and urbani­
+zation and the continuous expansion of the scale of construction land.
+From 2000 to 2015, the total ESV increased, with a gain of 1.32×106
+CNY, and further increased by 3.29×106 CNY and 62.72×106 CNY in
+NIS and EPS during 2015–2030; however, the general ESV for EDS
+decreased sharply, reduced by 321.85×106 CNY, indicating that urban
+expansion has a serious negative influence on ESV. Forest cover, grass­
+land and water bodies had the highest contributions of 88.84 % − 91.42
+% to the ESV, while the proportion of unused land was the lowest. The
+ESV of arable land and grassland revealed decreasing trends in
+2000–2015, while the ESV of forest cover, water bodies and unused land
+displayed increasing trends to varying degrees. The ESV of arable land
+and grassland continued to decrease from 2015 to 2030; nevertheless,
+water bodies exhibited an overall growth trend, but forest cover and
+unused land demonstrated significant differences under different
+
+4.2.2. Future scenario prediction
+The land use distribution pattern under different scenarios in 2030
+was predicted using the SD-MCCA model, RGB images were generated
+by mixing various land use structures to display more detailed simula­
+tion results (Fig. 7), and the area of various land application categories
+under three situations was counted (Fig. 8). The spatial pattern of land
+utilization in Xi’an was essentially consistent with various scenes, but
+there are distinctions in some parts. Compared with 2015, under the
+NIS, the construction land increased by 30.52 %, while the arable land,
+forestland and grassland exhibited a declining trend. The spatial distri­
+bution of the increase in construction land was basically in accordance
+with the decrease in arable land. Under the EDS, the construction land
+increased sharply, and the regional economy developed rapidly. The
+7
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+Fig. 6. Space distribution of land utilization and Sankey diagram during 2000–2015.
+
+Fig. 7. Mixed distribution of land utilization structures under different scenarios in 2030 in view of RGB images.
+
+scenarios. The ESV of forest cover increased in NIS and EPS, whereas
+decreased in EDS (-51.77×106 CNY). The ESV of unused land under EDS
+and EPS decreased, while the ESV under NIS increased.
+
+The proportion of ESV provided by different ecosystem services from
+2000 to 2030 is shown in Fig. 9. Generally, there was little change in the
+proportions of ESV of each function, which demonstrated that the
+8
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+Fig. 8. Acreage of different land utilization forms under various scenarios in 2030.
+Table 1
+ESV and proportion of various land use during 2000–2030 (uint:106 CNY).
+Year
+
+Scenario
+
+2000
+2015
+2030
+
+NIS
+EDS
+EPS
+
+Factor
+
+Arable land
+
+Forest cover
+
+Grassland
+
+Water bodies
+
+Unused land
+
+Total
+
+ESV
+Percentage
+ESV
+Percentage
+ESV
+Percentage
+ESV
+Percentage
+ESV
+Percentage
+
+2182.29
+11.16 %
+1939.07
+9.92 %
+1726.84
+8.83 %
+1650.02
+8.58 %
+1711.74
+8.73 %
+
+9588.65
+49.04 %
+9638.81
+49.29 %
+9705.71
+49.62 %
+9613.30
+49.98 %
+9809.48
+50.00 %
+
+5839.87
+29.86 %
+5715.23
+29.23 %
+5598.31
+28.62 %
+5580.22
+29.01 %
+5698.02
+29.04 %
+
+1943.26
+9.94 %
+2262.22
+11.57 %
+2527.73
+12.92 %
+2389.97
+12.43 %
+2398.84
+12.23 %
+
+0.29
+0.00 %
+0.35
+0.00 %
+0.38
+0.00 %
+0.32
+0.00 %
+0.32
+0.00 %
+
+19554.36
+100.00 %
+19555.68
+100.00 %
+19558.97
+100.00 %
+19233.83
+100.00 %
+19618.39
+100.00 %
+
+Table 2
+ESV change rate by different land use from 2000 to 2030.
+Year
+2000–2015
+2015–2030
+2015–2030
+2015–2030
+
+Scenario
+NIS
+EDS
+EPS
+
+Factor
+
+Arable land
+
+Forest cover
+
+Grassland
+
+Water bodies
+
+Unused land
+
+Change rate
+
+− 11.15 %
+− 10.95 %
+− 14.91 %
+− 11.72 %
+
+0.52 %
+0.69 %
+− 0.26 %
+1.77 %
+
+− 2.13 %
+− 2.05 %
+− 2.36 %
+− 0.30 %
+
+16.41 %
+11.74 %
+5.65 %
+6.04 %
+
+22.15 %
+7.57 %
+− 9.28 %
+− 8.46 %
+
+9
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+Fig. 9. Proportion of ESV with different ecosystem services from 2000 to 2030.
+
+structures of ecosystem service functions were relatively stable in
+different periods. Hydrological and climate regulation were the domi­
+nant functions, contributing 49.31 %-51.31 % of general ESV. By com­
+parison, primary material and grain yields were the lowest contributors,
+accounting for 6.42 % – 7.23 % and having little influence on ESV. The
+ESV of hydrologic regulation and waste treatment increased from 2000
+to 2015, while the remaining ecosystem services indicated a decreasing
+
+trend. The ESVs of various functions under the NIS and EPS were higher
+than those under the EDS. In addition, the ESV of hydrologic regulation
+and food production under the NIS was larger than that under the EPS,
+but the ESVs of other functions were lower than those under the EPS.
+Compared with 2015, the ESV and growth rate of hydrological regula­
+tion reached the maximum under the NIS, which were 5491.40×106
+CNY and 3.93 %, respectively. The ESV of landscape aesthetics was the
+
+Fig. 10. Spatial distribution and changes in ESV. (a-d refers to the spatial distribution of ESV in 2015, NIS, EDS and EPS, respectively, and e-h is the changes during
+2000–2015, 2015-NIS, 2015-EDS and 2015-EPS, respectively.).
+10
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+which was consistent with the distribution of arable land. The ESVs in
+the urban center and surrounding areas were the lowest. Compared with
+the ESV in 2000–2015, the losses of ESV under EDS were the largest,
+indicating characteristic decreases in high value areas and increases in
+low value areas, mainly owing to the pursuit of economic benefits and
+urban development. ESV gains were enhanced and losses were reduced
+under NIS; nevertheless, the ESV benefits were the highest and the losses
+were the lowest under the EPS, which was mainly due to the strict
+ecological protection policies in that scenario. The results were essen­
+tially in accordance with those of Wuhan (Wang et al., 2018a).
+
+highest and presented an increasing trend under the EPS, while it
+decreased under the other scenarios. The ESV of food production
+decreased most significantly under the EDS (− 65.62×106 CNY) and the
+maximum variation range (-9.66 %).
+4.3.2. Spatial characteristics of ESV
+The spatial distribution and change details of ESV under the three
+scenarios in Xi’an during 2015–2030 are shown in Fig. 10. The distri­
+bution pattern of ESV was basically stable in different periods, but there
+were differences between regions. Spatial pattern of ESV was highly
+consistent with land utilization forms. Medium-high ESVs were mostly
+located in woodland and meadowland with good natural conditions,
+although low-value areas were chiefly located in northern Zhouzhi, Huyi
+and Changan, as well as in most areas of Gaoling, Lintong and Yanliang,
+
+4.4. Zoning statistics of ESV in Xi’an
+The radar map in Fig. 11 displays the proportion of ESV in all the
+
+Fig. 11. Radar map of ESV changes in districts and counties in Xi’an from 2000 to 2030. (a-e refer to the results in 2000, 2015, and the NIS, EDS and EPS,
+respectively, and f-j is divided into changes in different periods).
+11
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+concentrated in the central and surrounding areas, chiefly owing to
+rapid urbanization, demonstrating that ESV in these regions had a
+negative response to land use change. In contrast, the high SI areas were
+different and revealed a scattered distribution, but the SI under NIS and
+EPS was relatively high, primarily since the transformation of land use
+types with a low value coefficient to ecological land with a high value
+coefficient and the land use evolution in these zones had a beneficial
+impact on ESV.
+
+districts and counties of Xi’an. On the whole, the ESV was similar in
+different periods, but there were great differences in the same period
+(Fig. 11). Zhouzhi, Lantian and Changan provided the highest propor­
+tion of ESV, which was more than 14.52 %, while the lowest proportion
+was found in Lianhu, Xincheng and Beilin, which was less than 0.02 %.
+The closer to the downtown area, the lower the ESV of the districts and
+counties with higher urbanization levels, and vice versa. From 2000 to
+2015, Lintong saw the largest increase in ESV of 5.71 %, while Lianhu
+saw the most significant decrease of 79.24 %. From 2015 to 2030, the
+ESV of Beilin and Xincheng diminished significantly under the NIS,
+mainly due to the lower ESV and the larger variation caused by smaller
+numerical changes. In comparison, the reduction in the EDS was more
+obvious, mainly because of rapid economic development and intensified
+human activities. Nonetheless, in the EPS, the ESV of all districts and
+counties tended to be stable and exhibited an overall upward trend,
+mainly as a result of the contribution of strict ecological restoration and
+protection policies.
+
+4.6. Comparison with simulation results of existing models
+MCCA model can effectively forecast future land utilization variation
+and has remarkable superiority in land application prediction. In order
+to confirm the simulation performance of MCCA model, two land use
+prediction models CA-Markov and CLUE-S with widely demonstrated
+accuracy were selected. According to the same land utilization data of
+Xi’an in 2000 and the driving forces such as geography, climate and
+social economy required by MCCA, the results of urban expansion and
+alteration in Xi’an in 2015 were simulated. While comparing the overall
+simulation results of MCCA, CLUE-S and CA-Markov models, it is
+necessary to investigate the details of changes in specific locations.
+Fig. 13 exhibits the actual spatial pattern of land use in Xi’an in 2015 and
+the distribution condition of land utilization in 2015 simulated by
+MCCA, CA-Markov and CLUE-S respectively, and selects three charac­
+teristic regions for analysis to comprehensively show the differences of
+the models. The results show that the precision of MCCA model is still
+significantly higher than that of CA-Markov model and CLUE-S model,
+although the space distribution of the actual observation results is
+similar to that of the three models. The Kappa index of the MCCA was
+0.969, which was better than 0.926 and 0.854 of the CA-Markov and the
+CLUE-S. From a macro perspective, the MCCA model has superior
+simulation accuracy and has the ability to accurately simulate future
+land use spatial pattern variations.
+Through the detailed comparison map, it can be found that there are
+regional differences in the prediction results of the three models, and the
+differences are more obvious for specific land utilization types. The
+detail figure c1 indicates that the simulation results of CA-Markov model
+show the aggregation characteristics. The prediction of construction
+land expansion is relatively conservative, and the simulation of land use
+
+4.5. SI of ESV to land utilization variations
+To further reveal the influence of land application dynamics on ESV
+in different periods of Xi’an, we calculated and plotted the spatiotem­
+poral distribution of SI (Fig. 12). The SI of Xi’an in 2000–2015 was
+0.007, implying that the land utilization evolution had an active role in
+ESV during this period. In 2015–2030, SI varied greatly under different
+scenarios. SI increased slightly under NIS (0.024) but increased signifi­
+cantly under EPS (0.508), while it declined significantly under EDS
+(-1.744). This suggested that land application transformation had an
+active role in ESV under NIS and EPS, while under EDS, ESV had a
+negative response to land use spatial differentiation, which was
+consistent with the findings of Peng et al. (2021). The physical signifi­
+cance of SI revealed that a 1 % change in land use structure in the his­
+torical period and NIS would result in approximately 0.007 % and 0.024
+% changes in ESV, respectively. However, under EPS, a 1 % increase in
+forest cover would give rise to a 2.718 % increase in ESV, while under
+EDS, a 1 % decrease in arable land would cause a 1.656 % decrease in
+ESV. This result suggested that ESV was sensitive to land use transition.
+The spatial distribution of low SI regions in 2000–2015 was similar to
+that in the three predicted scenarios, which was predominantly
+
+Fig. 12. Sensitivity indicator of land use alterations to ESV in Xi’an during 2000–2030. (a-e refers to 2000–2015, 2015-NIS, 2015-EDS and 2015-EPS, respectively.).
+12
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+Fig. 13. Comparison between the predicted results of the spatial distribution of land use of the three models and the actual situation in 2015. (a refers to actual land
+utilization, b, c and d are MCCA, CA-Markov and CLUE-S models, respectively, 1–3 are three selected areas.).
+
+distribution exhibits a relatively centralized trend. Although the overall
+space distribution trend can be kept similar to the actual observation
+results, it is difficult to obtain that a large area of land utilization type
+contains other independent types, which can be further confirmed in the
+c3 diagram. D1, d2 and d3 can clearly display that the CLUE-S model is
+more difficult to constrain the disorderly expansion of land utilization
+types, and there is a phenomenon that the predicted alterations are not
+consistent with the actual situation in some parts, especially the out­
+comes presented by d1 and d2. The construction land encroaches on the
+cultivated land excessively, resulting in a significant difference between
+the simulation outcomes and the actual situation. Compared with CAMarkov and CLUE-S, MCCA shows stable and superior performance in
+both spatial simulation and overall accuracy, and the simulation results
+have the smallest deviation from the actual. MCCA performs more
+detailed and accurate in the simulation of small patches, and is more in
+line with the actual land utilization situation. These characteristics not
+only simulate the law of urban development, but also reveal the spatial
+heterogeneity that the other two models cannot fully reflect. Therefore,
+it can be concluded that contrasted to CA-Markov and CLUE-S, MCCA
+
+can more precisely and carefully reflect the urban variation process of
+Xi’an and reveal its internal mechanism.
+5. Discussion
+5.1. A new approach for predicting future ESV
+In this research, the novel mixed-cell MCCA model and system dy­
+namics SD model were established that considered the actual land uti­
+lization and drivers. Equivalent coefficient method was adopted, then
+three future land use scenarios were introduced to predict the spatialtemporal heterogeneity response of ESV, to investigate the impact of
+land application dynamic transformation on ESV, and provide a new
+method for future land utilization simulation and ESV prediction.
+Compared with the traditional pure-cell CA model, the land use
+competition and transformation rules of the MCCA model were founded
+on the mixed information contained in the pixels, which can describe the
+dynamic evolution of land use at the subpixel level and help researchers
+fully investigate the interaction between multiple driving forces (Liang
+13
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+
+et al., 2021). The prediction results were converted from pure and onedimensional to mixed and multidimensional, making the results more
+rational. In terms of simulation accuracy, MCCA has a high reliability
+and strong robustness. Since the transformation rules of MCCA empha­
+size more competition and conversion on the subpixel scale than con­
+ventional models, it can still simulate subtle variations for land use types
+with small demand alterations (Zhou and Peng, 2022). The MCCA has
+achieved quantitative and continuous simulation of changes in various
+land use components in pixels, solved the long-standing difficulties of
+the pure-cell model, and obtained more accurate and detailed prediction
+results of land use space distribution, realizing the leap from qualitative
+to quantitative forecasting. In summary, MCCA can predict the future
+pattern of land utilization more realistic. In addition, it also has all the
+functions of the pure-cell model because it can alter the mixed structure
+into the traditional discrete model (Liang et al., 2021). The combination
+of SD model and MCCA model can give full play to the advantages of
+quantitative structure optimization and spatial dynamic simulation, and
+can deeply reveal the spatiotemporal characteristics of land use change
+and the ESV response mechanism.
+
+can quantify the variations in economic value corresponding to land use
+change and provide references for government decision makers to co­
+ordinate ecological construction and economic growth and achieve
+sustainable development (Hou et al., 2020). First, determining the
+optimal land application configuration is the key to improve ecological
+benefits and achieve the goal of maximizing ESV, and urbanization is the
+crucial factor affecting ESV changes (Jiang et al., 2020). In the future,
+land use management should achieve both economic and environmental
+benefits. Rational planning of land utilization allocation by clarifying
+the ecological and arable land red lines and urban growth boundary, to
+prevent excessive encroachment on ecological land in the development
+process (Chen et al., 2021b). Second, the government should promptly
+monitor the land use dynamics in areas with significant ESV alterations.
+For instance, in the hot spot region of ESV conversions in Zhouzhi, more
+ecological land should be developed to strengthen social and economic
+benefits, while Beilin, a cold spot zone, should consider slowing the
+development trend. Third, the government needs to emphasize plan­
+ning, adhere to ecological protection, green and low-carbon principles,
+and transform traditional development with its low output, heavy
+pollution and recycling difficulties into a green development system
+with high efficiency, low emissions and resource regeneration.
+Furthermore, due to the significant spatial spillover effect between
+urban districts and counties (Bai et al., 2018), regional environmental
+protection cooperation needs to be further improved. Additionally,
+government decision makers should focus on solving the problems
+caused by the degradation of ecosystem service functions, follow the
+rules of natural and economic development, convey the concept of
+resource conservation and the recycling economy to the public, and
+promote public participation in social governance.
+
+5.2. Comparison results with previous studies
+This study employs SD-MCCA model to forecast the alteration of ESV
+in the future under multiple scenarios in Xi’an, which plays a very sig­
+nificant role in the formulation of sustainable development policies and
+the exploration of innovative methods of land utilization simulation.
+Shao et al. (2020) and Li et al. (2020) explored the dynamic changes of
+ESV in Xi’an, the spatial pattern of ESV was basically consistent with this
+research, the low ESV regions were mainly concentrated in the urban
+center and surrounding zones. In addition, the influence mechanism of
+land application scenarios in different areas on ESV was also essentially
+similar to that of this study (Kulsoontornrat and Ongsomwang, 2021).
+The land utilization prediction model directly determines the pre­
+cision of urban spatial layout simulation, and ultimately affects the
+response of ESV. Gashaw et al. (2018) applied the CA-Markov model to
+forecast land utilization variation and assess the response of ESV in the
+Upper Blue Nile basin of Ethiopia (Kappa = 0.83). The researchers used
+the CA model optimized by random forest to evaluate the ESV of
+Qingdao metropolitan zone (Qin and Fu, 2020) (Kappa = 0.86). The
+CLUE-S model has been employed by some scholars to investigate the
+spatiotemporal transformations of ESV in Jiangsu Province (Wu et al.,
+2020) (Kappa = 0.95). Li et al. (2021) utilized the PLUS model to reveal
+the variation mechanism of ESV in the Sichuan-Yunnan ecological bar­
+rier (Kappa = 0.87). Ma and Wang (2022) exploited the Markov-FLUS
+model to examine the alterations of ESV under the multiple scenarios
+of Wuhan Metropolitan Area (Kappa = 0.952). Contrasted with previous
+researches, this study adopted the SD-MCCA model to forecast the
+response of ESV to land utilization variation (Kappa = 0.969), and the
+accuracy was significantly enhanced compared with the traditional
+model, and the simulation results were more in line with actual changes.
+The SD-MCCA model takes into account the control of land utiliza­
+tion quantity and the optimization of spatial distribution, which is a
+novel way to probe the dynamic changes of urban development pattern
+and ESV. Wang et al. (2022b) and Zhao et al. (2022) optimized land use
+simulation according to SD model, and both Kappa reached 0.93,
+implying that it is feasible for SD model to improve land application
+simulation model. However, most studies are limited to land use pre­
+diction, and few are further used for ESV exploration. The coupled SDMCCA model can not only ensure the reasonable quantitative relation­
+ship between land utilization types, but also realize the optimization of
+spatial distribution. The combined model has stronger performance and
+robustness.
+
+5.4. Limitations and future research
+The MCCA model was successfully adopted to predict the changes
+and heterogeneity of ESV under three future scenarios in Xi’an, but it
+still had some limitations. Scenario prediction applies a land use transfer
+matrix and government planning policies and does not fully consider the
+impact of climate change, social and economic indicators and other
+factors (Long et al., 2022). In the future, the MCCA method can be
+combined with gray model (Wang et al., 2022b) and integrated with
+representative concentration pathways (RCPs), Sustainable Develop­
+ment Goals (SDGs), and shared socioeconomic pathways (SSPs) and to
+quantitatively obtain land application request and model the land uti­
+lization pattern in multiple scenarios (Zhang et al., 2022), improve the
+simulation accuracy and further explore the response mechanism of
+ESV. The value coefficient approach ignores the difference in crop prices
+in different periods, which leads to a static estimation of ESV. It also does
+not fully consider the complexity of ecosystem types and people’s in­
+comes and consumption levels. The accuracy of ESV assessment can be
+improved through crop price prediction, value coefficient correction and
+ESV spatial optimization (Hu et al., 2019; Ling et al., 2019). The spatial
+distribution and variation in ESV are explored by combining the new
+MCCA model with the SD model, and the uncertainty generated by
+different driving force input data and various urban expansion models
+has not been compared, which will be an important research direction
+for ESV in the future.
+6. Conclusion
+We developed an innovative MCCA model and coupled it with the
+system dynamics SD model, combined with the equivalent coefficient
+method to forecast the future land utilization spatial pattern, and
+investigated variations and sensitivity of ESV under different scenarios
+from 2000 to 2030. OA (0.9834), mcFoM (0.27) and average RE (0.574)
+indicated that the MCCA model had high simulation accuracy and stable
+performance. Land application transformation revealed rules of con­
+struction land expansion, a slight increase in woodland and cropland
+
+5.3. Suggestions for policy-making
+Evaluating the dynamics of ESV under various scenarios in the future
+14
+
+Ecological Indicators 147 (2023) 110009
+
+P. Zhang et al.
+
+degradation in 2000–2015. The variation trend under the NIS was
+consistent with the historical trends, while the acreage of built-up area
+was the largest under EDS, whereas increase in forest cover was the most
+obvious under the EPS. ESV generally exhibited an increasing trend. ESV
+in NIS and EPS enhanced by 3.29×106 CNY and 62.72×106 CNY during
+2015–2030, respectively, but decreased by 321.85×106 CNY under EDS.
+The benefits of ESV were primarily because of protection and restoration
+of ecological land, and decreases were largely result of the acceleration
+of urbanization and industrialization. Hydrological and climate regula­
+tion accounted for the largest proportion of ESV. The SI under the NIS
+and EPS were 0.024 and 0.508, respectively, demonstrating land utili­
+zation variation had an active impact on ESV, although SI in EDS was
+− 1.744, implying that ESV had a negative response to land use trans­
+formation and that ESV was more sensitive to forest cover and arable
+land variety. This study employed a novel method SD-MCCA for land use
+variations and ESV prediction, which has important theoretical and
+practical significance for urban sustainable planning, as well as
+ecological compensation policies. In future studies, combination of
+MCCA with InVEST and other ecological models will contribute to the
+accurate assessment and spatial optimization of ecosystem services.
+
+Bringing ecosystem services into economic decision-making: land use in the United
+Kingdom. Sci 341, 45–50.
+Camacho-Valdez, V., Ruiz-Luna, A., Ghermandi, A., Berlanga-Robles, C.A., Nunes, P.,
+2014. Effects of land use changes on the ecosystem service values of coastal
+wetlands. Environ. Manage. 54, 852–864.
+Chen, W., Zeng, J., Zhong, M., Pan, S., 2021a. Coupling analysis of ecosystem services
+value and economic development in the Yangtze River economic belt: a case study in
+Hunan Province. China. Remote Sensing 13, 1552.
+Chen, W.X., Zeng, J., Chu, Y.M., Liang, J.L., 2021b. Impacts of landscape patterns on
+ecosystem services value: a multiscale buffer gradient analysis approach. Remote
+Sensing 13, 2551.
+Collin, M.L., Melloul, A.J., 2001. Combined land-use and environmental factors for
+sustainable groundwater management. Urban Water 3, 229–237.
+Costanza, R., dArge, R., deGroot, R., Farber, S., Grasso, M., Hannon, B., Limburg, K.,
+Naeem, S., Oneill, R.V., Paruelo, J., Raskin, R.G., Sutton, P., vandenBelt, M., 1997.
+The value of the world’s ecosystem services and natural capital. Nature. 387. 253260.
+Dai, X.A., Johnson, B.A., Luo, P.L., Yang, K., Dong, L.X., Wang, Q., Liu, C., Li, N.W.,
+Lu, H., Ma, L., Yang, Z.L., Yao, Y.Z., 2021. Estimation of urban ecosystem services
+value: a case study of Chengdu. Southwestern China. Remote Sensing 13, 207.
+Das, S., Shit, P.K., Patel, P.P., 2021. Ecosystem services value assessment and forecasting
+using integrated machine learning algorithm and CA-Markov model: an empirical
+investigation of an Asian megacity. GeoIn 49, 2002424.
+de Groot, R.S., Alkemade, R., Braat, L., Hein, L., Willemen, L., 2010. Challenges in
+integrating the concept of ecosystem services and values in landscape planning,
+management and decision making. Ecol. Complex. 7, 260–272.
+Elmqvist, T., Setala, H., Handel, S.N., van der Ploeg, S., Aronson, J., Blignaut, J.N.,
+Gomez-Baggethun, E., Nowak, D.J., Kronenberg, J., de Groot, R., 2015. Benefits of
+restoring ecosystem services in urban areas. Current Opinion in Environmental
+Sustainability 14, 101–108.
+Fisher, B., Turner, R.K., Morling, P., 2009. Defining and classifying ecosystem services
+for decision making. Ecol. Econ. 68, 643–653.
+Fu, J., Zhang, Q., Wang, P., Zhang, L., Tian, Y.Q., Li, X.R., 2022. Spatio-temporal changes
+in ecosystem service value and its coordinated development with economy: a case
+study in Hainan Province. China. Remote Sensing 14, 970.
+Gashaw, T., Tulu, T., Argaw, M., Worqlul, A.W., Tolessa, T., Kindu, M., 2018. Estimating
+the impacts of land use/land cover changes on Ecosystem Service Values: The case of
+the Andassa watershed in the Upper Blue Nile basin of Ethiopia. Ecosystem Services
+31, 219–228.
+Hou, L., Wu, F.Q., Xie, X.L., 2020. The spatial characteristics and relationships between
+landscape pattern and ecosystem service value along an urban-rural gradient in
+Xi’an city. China. Ecol. Indicators 108, 105720.
+Hu, M., Li, Z., Wang, Y., Jiao, M., Li, M., Xia, B., 2019. Spatio-temporal changes in
+ecosystem service value in response to land-use/cover changes in the Pearl River
+Delta. Resources Conservation and Recycling 149, 106–114.
+Huang, Z.H., Li, X.J., Du, H.Q., Mao, F.J., Han, N., Fan, W.L., Xu, Y.X., Luo, X., 2022.
+Simulating Future LUCC by Coupling Climate Change and Human Effects Based on
+Multi-Phase Remote Sensing Data. Remote Sensing 14, 1698.
+Jiang, W., Fu, B.J., Lu, Y.H., 2020. Assessing impacts of land use/land cover vonversion
+on changes in ecosystem services value on the Loess Plateau. China. Sustainability
+12, 7128.
+Keller, M., Jacob, D.J., Wofsy, S.C., Harriss, R.C., 1991. Effects of tropical deforestation
+on global and regional atmospheric chemistry. Clim. Change 19, 139–158.
+Kindu, M., Schneider, T., Teketay, D., Knoke, T., 2016. Changes of ecosystem service
+values in response to land use/land cover dynamics in Munessa-Shashemene
+landscape of the Ethiopian highlands. Sci. Total Environ. 547, 137–147.
+Kulsoontornrat, J., Ongsomwang, S., 2021. Suitable Land-Use and Land-Cover Allocation
+Scenarios to Minimize Sediment and Nutrient Loads into Kwan Phayao, Upper Ing
+Watershed. Thailand. Applied Sciences-Basel 11, 10430.
+Letourneau, A., Verburg, P.H., Stehfest, E., 2012. A land-use systems approach to
+represent land-use dynamics at continental and global scales. Environ. Model.
+Software 33, 61–79.
+Li, J.Y., Chen, H.X., Zhang, C., Pan, T., 2019. Variations in ecosystem service value in
+response to land use/land cover changes in Central Asia from 1995–2035. PeerJ 7,
+e7665.
+Li, C., Wu, Y.M., Gao, B.P., Zheng, K.J., Wu, Y., Li, C., 2021. Multi-scenario simulation of
+ecosystem service value for optimization of land use in the Sichuan-Yunnan
+ecological barrier. China. Ecol. Indicators 132, 108328.
+Li, X.X., Zhang, H.J., Zhang, Z.C., Feng, J., Liu, K., Hua, Y.W., Pang, Q., 2020.
+Spatiotemporal Changes in Ecosystem Services along a Urban-Rural-Natural
+Gradient: A Case Study of Xi’an. China. Sustainability 12, 1133.
+Liang, X., Guan, Q., Clarke, K.C., Chen, G., Guo, S., Yao, Y., 2021. Mixed-cell cellular
+automata: A new approach for simulating the spatio-temporal dynamics of mixed
+land use structures. Landscape Urban Plann. 205, 103960.
+Liao, G.T., He, P., Gao, X.S., Lin, Z.Y., Huang, C.Y., Zhou, W., Deng, O.P., Xu, C.H.,
+Deng, L.J., 2022. Land use optimization of rural production-living-ecological space
+at different scales based on the BP-ANN and CLUE-S models. Ecol. Indicators 137,
+108710.
+Ling, H., Yan, J., Xu, H., Guo, B., Zhang, Q., 2019. Estimates of shifts in ecosystem service
+values due to changes in key factors in the Manas River basin, northwest China. Sci.
+Total Environ. 659, 177–187.
+Liu, Y.B., Hou, X.Y., Li, X.W., Song, B.Y., Wang, C., 2020. Assessing and predicting
+changes in ecosystem service values based on land use/cover change in the Bohai
+Rim coastal zone. Ecol. Indicators 111, 106004.
+
+CRediT authorship contribution statement
+Ping Zhang: Conceptualization, Methodology, Writing – original
+draft, Writing – review & editing, Funding acquisition. Lei Liu:
+Conceptualization, Methodology, Software, Validation, Writing – orig­
+inal draft, Writing – review & editing. Lianwei Yang: Methodology,
+Software, Data curation. Juan Zhao: Methodology, Data curation.
+Yangyang Li: Data curation, Validation. Yuting Qi: Methodology, Data
+curation. Xuenan Ma: Data curation, Visualization. Lei Cao: Software,
+Validation.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgments
+This research was supported by the Natural Science Basic Research
+Program of Shaanxi (Program No. 2021JM-447), the Opening Fund of
+State Key Laboratory of Green Building in Western China (LSKF202309),
+the Project funded by China Postdoctoral Science Foundation
+(2017M610119), the Fund Project of Shaanxi Key Laboratory of Land
+Consolidation (2018-JC12), and the Fund Project of Xi’an Key Labora­
+tory of Territorial Spatial Information (2023).
+References
+Akhtar, M., Zhao, Y.Y., Gao, G.L., Gulzar, Q., Hussain, A., 2022. Assessment of
+spatiotemporal variations of ecosystem service values and hotspots in a dryland: A
+case-study in Pakistan. LDD 33, 1383–1397.
+Arowolo, A.O., Deng, X., Olatunji, O.A., Obayelu, A.E., 2018. Assessing changes in the
+value of ecosystem services in response to land-use/land-cover dynamics in Nigeria.
+Sci. Total Environ. 636, 597–609.
+Aziz, T., 2021. Changes in land use and ecosystem services values in Pakistan,
+1950–2050. Environmental Development 37, 100576.
+Bai, Y.P., Deng, X.Z., Jiang, S.J., Zhang, Q., Wang, Z., 2018. Exploring the relationship
+between urbanization and urban eco-efficiency: Evidence from prefecture-level cities
+in China. Journal of Cleaner Production 195, 1487–1496.
+Bateman, I.J., Harwood, A.R., Mace, G.M., Watson, R.T., Abson, D.J., Andrews, B.,
+Binner, A., Crowe, A., Day, B.H., Dugdale, S., Fezzi, C., Foden, J., Hadley, D., HainesYoung, R., Hulme, M., Kontoleon, A., Lovett, A.A., Munday, P., Pascual, U.,
+Paterson, J., Perino, G., Sen, A., Siriwardena, G., van Soest, D., Termansen, M., 2013.
+
+15
+
+P. Zhang et al.
+
+Ecological Indicators 147 (2023) 110009
+Verburg, P.H., Overmars, K.P., 2009. Combining top-down and bottom-up dynamics in
+land use modeling: exploring the future of abandoned farmlands in Europe with the
+Dyna-CLUE model. Landscape Ecol. 24, 1167–1181.
+Wang, Y., Li, X., Zhang, Q., Li, J., Zhou, X., 2018. Projections of future land use changes:
+Multiple scenarios -based impacts analysis on ecosystem services for Wuhan city.
+China. Ecol. Indicators 94, 430–445.
+Wang, Z., Li, X., Mao, Y., Li, L., Wang, X., Lin, Q., 2022b. Dynamic simulation of land use
+change and assessment of carbon storage based on climate change scenarios at the
+city level: A case study of Bortala. China. Ecol. Indicators 134, 108499.
+Wang, Q., Wang, H.J., Chang, R.H., Zeng, H.R., Bai, X.P., 2022a. Dynamic simulation
+patterns and spatiotemporal analysis of land-use/land-cover changes in the Wuhan
+metropolitan area. China. Ecol. Model. 464, 109850.
+Wu, C.Y., Chen, B.W., Huang, X.J., Wei, Y.H.D., 2020. Effect of land-use change and
+optimization on the ecosystem service values of Jiangsu province. China. Ecol.
+Indicators 117, 106507.
+Wu, J.Y., Luo, J.A., Zhang, H., Qin, S., Yu, M.J., 2022. Projections of land use change and
+habitat quality assessment by coupling climate change and development patterns.
+Sci. Total Environ. 847, 157491.
+Xie, G.D., Zhang, C.X., Zhen, L., Zhang, L.M., 2017. Dynamic changes in the value of
+China’s ecosystem services. Ecosystem Services 26, 146–154.
+Xing, L., Zhu, Y.M., Wang, J.P., 2021. Spatial spillover effects of urbanization on
+ecosystem services value in Chinese cities. Ecol. Indicators 121, 107028.
+Zhang, P., He, L., Fan, X., Huo, P.S., Liu, Y.H., Zhang, T., Pan, Y., Yu, Z.R., 2015.
+Ecosystem service value assessment and contribution factor analysis of land use
+change in Miyun County, China. Sustainability 7, 7333–7356.
+Zhang, P., Wang, N., Yang, L.W., Zhang, X., Liu, Q., 2020. Evaluation and sensitivity
+analysis of the ecosystem service functions of haze absorption by green space based
+on its quality in China. Nature Conservation-Bulgaria 70, 93–141.
+Zhang, P., Ma, W.J., Wen, F., Liu, L., Yang, L.W., Song, J., Wang, N., Liu, Q., 2021.
+Estimating PM2.5 concentration using the machine learning GA-SVM method to
+improve the land use regression model in Shaanxi, China. Ecotoxicol. Environ. Saf.
+225, 112772.
+Zhang, S., Yang, P., Xia, J., Wang, W., Cai, W., Chen, N., Hu, S., Luo, X., Li, J., Zhan, C.,
+2022. Land use/land cover prediction and analysis of the middle reaches of the
+Yangtze River under different scenarios. Sci. Total Environ. 833, 155238.
+Zhang, F., Yushanjiang, A., Jing, Y.Q., 2019. Assessing and predicting changes of the
+ecosystem service values based on land use/cover change in Ebinur Lake Wetland
+National Nature Reserve, Xinjiang. China. Sci. Total Environ. 656, 1133–1144.
+Zhao, M.M., He, Z.B., Du, J., Chen, L.F., Lin, P.F., Fang, S., 2019. Assessing the effects of
+ecological engineering on carbon storage by linking the CA-Markov and InVEST
+models. Ecol. Indicators 98, 29–38.
+Zhao, B.X., Li, S.J., Liu, Z.S., 2022. Multi-Scenario Simulation and Prediction of Regional
+Habitat Quality Based on a System Dynamic and Patch-Generating Land-Use
+Simulation Coupling Model-A Case Study of Jilin Province. Sustainability 14, 5303.
+Zheng, X.Q., Zhao, L., Xiang, W.N., Li, N., Lv, L.N., Yang, X., 2012. A coupled model for
+simulating spatio-temporal dynamics of land-use change: A case study in Changqing,
+Jinan. China. Landscape Urban Plann. 106, 51–61.
+Zhou, S., Peng, L., 2022. Integrating a mixed-cell cellular automata model and Bayesian
+belief network for ecosystem services optimization to guide ecological restoration
+and conservation. LDD 1, 4218.
+
+Liu, M., Jia, Y., Zhao, J., Shen, Y., Pei, H., Zhang, H., Li, Y., 2021b. Revegetation projects
+significantly improved ecosystem service values in the agro-pastoral ecotone of
+northern China in recent 20 years. Sci. Total Environ. 788, 147756.
+Liu, J.M., Xiao, B., Jiao, J.Z., Li, Y.S., Wang, X.Y., 2021a. Modeling the response of
+ecological service value to land use change through deep learning simulation in
+Lanzhou. China. Sci. Total Environ. 796, 148981.
+Long, X., Lin, H., An, X., Chen, S., Qi, S., Zhang, M., 2022. Evaluation and analysis of
+ecosystem service value based on land use/cover change in Dongting Lake wetland.
+Ecol. Indicators 136, 108619.
+Ma, B.W., Wang, X., 2022. What is the future of ecological space in Wuhan Metropolitan
+Area? A multi-scenario simulation based on Markov-FLUS. Ecol. Indicators 141,
+109124.
+Mendoza-Gonzalez, G., Martinez, M.L., Lithgow, D., Perez-Maqueo, O., Simonin, P.,
+2012. Land use change and its effects on the value of ecosystem services along the
+coast of the Gulf of Mexico. Ecol. Econ. 82, 23–32.
+Mokarram, M., Pourghasemi, H.R., Hu, M., Zhang, H.C., 2021. Determining and
+forecasting drought susceptibility in southwestern Iran using multi-criteria decisionmaking (MCDM) coupled with CA-Markov model. Sci. Total Environ. 781, 146703.
+Peng, K., Jiang, W., Ling, Z., Hou, P., Deng, Y., 2021. Evaluating the potential impacts of
+land use changes on ecosystem service value under multiple scenarios in support of
+SDG reporting: A case study of the Wuhan urban agglomeration. Journal of Cleaner
+Production 307, 127321.
+Pontius, R.G., Walker, R., Yao-Kumah, R., Arima, E., Aldrich, S., Caldas, M., Vergara, D.,
+2007. Accuracy assessment for a simulation model of Amazonian deforestation.
+Annals Association of American Geographers 97, 677–695.
+Pueffel, C., Haase, D., Priess, J.A., 2018. Mapping ecosystem services on brownfields in
+Leipzig, Germany. Ecosystem Services 30, 73–85.
+Qin, X.C., Fu, B.H., 2020. Assessing and predicting changes of the ecosystem service
+values based on land use/land cover changes with a random forest-cellular automata
+model in Qingdao metropolitan region, China. Ieee Journal of Selected Topics in
+Applied Earth Observations and Remote Sensing 13, 6484–6494.
+Rasmussen, L.V., Rasmussen, K., Reenberg, A., Proud, S., 2012. A system dynamics
+approach to land use changes in agro-pastoral systems on the desert margins of
+Sahel. Agricultural Systems 107, 56–64.
+Schirpke, U., Tscholl, S., Tasser, E., 2020. Spatio-temporal changes in ecosystem service
+values: Effects of land-use changes from past to future (1860–2100). J. Environ.
+Manage. 272, 111068.
+Shao, Y.J., Yuan, X.F., Ma, C.Q., Ma, R.F., Ren, Z.X., 2020. Quantifying the Spatial
+Association between Land Use Change and Ecosystem Services Value: A Case Study
+in Xi’an. China. Sustainability 12, 4449.
+Song, W., Deng, X., 2017. Land-use/land-cover change and ecosystem service provision
+in China. Sci. Total Environ. 576, 705–719.
+Sun, F., Wang, Y., Chen, Y.N., Li, Y.P., Zhang, Q.F., Qin, J.X., Kayumba, P.M., 2021.
+Historic and Simulated Desert-Oasis Ecotone Changes in the Arid Tarim River Basin.
+China. Remote Sensing 13, 647.
+van Delden, H., Stuczynski, T., Ciaian, P., Paracchini, M.L., Hurkens, J., Lopatka, A.,
+Shi, Y.E., Prieto, O.G., Calvo, S., van Vliet, J., Vanhout, R., 2010. Integrated
+assessment of agricultural policies with dynamic land use change modelling. Ecol.
+Model. 221, 2153–2166.
+
+16
+
+

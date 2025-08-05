@@ -1,0 +1,1704 @@
+Case Study
+
+Spatial Access to Metro Transit Villages and
+Housing Prices in Seoul, Korea
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Chang-Deok Kang, Ph.D. 1
+
+Abstract: As many cities face traffic congestion, pollution, and urban sprawl, transit villages with transit-oriented development (TOD) and
+higher ridership have been a core theme for academics and professionals. Evaluating access to metro transit villages with higher transit
+demand is critical to assess how TOD and changed transit demand affect neighborhoods. Few studies have measured spatial access to metro
+transit villages by combining street configuration and metro ridership to identify its effects on property prices. This study used five newly
+developed accessibility and centrality measures to simultaneously capture street configuration and metro ridership within a neighborhood.
+The empirical models confirmed the effects of accessibility and centrality to metro transit villages on housing prices considering multiple
+walkable neighborhood scales. The models revealed that accessibility and centrality to metro transit villages with higher ridership were
+capitalized in higher housing prices within a 2-km network radius. However, prices of houses that were too close to metro stations obtained
+weaker premiums due to negative externalities such as crowdedness, congestion, and noise. Residents value housing in walkable neighborhoods with dense, interconnected streets directly routed to metro stations, and transit-oriented communities with higher metro ridership.
+DOI: 10.1061/(ASCE)UP.1943-5444.0000516. © 2019 American Society of Civil Engineers.
+Author keywords: Metro transit villages; Accessibility; Centrality; Housing price; Street configuration; Seoul.
+
+Introduction
+Public transit has emerged as an alternative to relieve urban transport issues such as traffic congestion, air pollution, and urban
+sprawl. Particularly, metro transit has contributed significantly
+to providing efficient mobility, reducing congestion and energy
+consumption, and minimizing pollution in urban areas (Dai et al.
+2016). Thus, academic and professional communities support creating transit villages through transit-oriented development (TOD)
+that encourage public transport use and discourage automobile use.
+Cervero (1998) called transit-oriented metropolitan areas transit
+metropolises. This study identifies neighborhoods surrounding
+metro stations as metro transit villages. TOD has evolved from
+nodes to places, and transit villages have become the hubs of
+transit service and urban development. Whereas the determinants
+of transit ridership have been the main interest of urban scholars
+and planners, there is limited understanding of how building transit
+villages will affect neighborhoods, which are considered the
+primary units of urban spatial structure (Wu et al. 2018). This study
+determined the value of spatial access to metro transit villages using
+housing market prices. The study used spatial accessibility and centrality metrics measuring metro ridership and street configuration
+concurrently.
+Existing studies highlighted the theoretical and empirical relationship among TOD, metro ridership, and transit villages. TOD
+has been the main paradigm combining metro transit and urban
+development to create sustainable and livable cities and neighborhoods, because it reduces automobile use (Lewis and Baldassare
+2010). Metro ridership represents the core indicator of TOD’s
+1
+Professor, Dept. of Urban Planning and Real Estate, Chung-Ang Univ.,
+Seoul 06974, Korea. Email: cdkang@cau.ac.kr
+Note. This manuscript was submitted on August 3, 2018; approved on
+January 25, 2019; published online on June 24, 2019. Discussion period
+open until November 24, 2019; separate discussions must be submitted for
+individual papers. This paper is part of the Journal of Urban Planning and
+Development, © ASCE, ISSN 0733-9488.
+
+© ASCE
+
+performance, and also helps in identifying the trends of transit demand and transit-served neighborhoods (Bernick and Cervero
+1997). The end goal of TOD is to create transit villages, defined
+as built forms and neighborhoods with higher ridership.
+Previous studies have proved that metro transit access, TOD
+features, and street configuration are capitalized into higher property prices. Numerous studies have investigated the effects of metro
+access on property prices, controlling for physical properties, and
+environmental attributes (Bowes and Ihlanfeldt 2001). Most studies
+conducted empirical analyses of the value-added effects of metro
+access on property prices to understand the link between transport
+and land-use behavior, provide capitalization evidence for transportation investments, and capture property-market responses
+(Cervero and Susantono 1999; Bae et al. 2003; Feng et al. 2011;
+Dubé et al. 2013).
+Some features of TOD account for variations in housing prices.
+Supportive design of a transit station area generates premium housing prices. For example, whereas station areas with park-and-ride
+features correlate with discounted housing prices, station areas with
+walk-and-ride features are associated with higher housing prices
+(Kahn 2007). The emerging relevant literature has focused on the
+synergistic effects of TOD on housing prices. A pedestrian-friendly
+urban setting combined with TOD generates higher condominium
+prices (Duncan 2011). Higher mixed-use land with walkable access
+to transit is positively associated with housing prices (AtkinsonPalombo 2010). Furthermore, Hong Kong’s Rail + Property program revealed that transit service combined with well-designed
+property development generates a substantial premium in nearby
+housing prices (Cervero and Murakami 2009). Conversely, a
+Korean study found that ground-level subway stations have a
+negative effect on housing prices within 200 m (Lee and Kim
+2015).
+The TOD features of metro stations tend to attract higher
+transit demand and a subsequent increase in housing prices near
+stations. According to Sung and Oh (2011), favorable TOD settings
+that enhance metro ridership are good transit service networks,
+higher land-use mix, pedestrian-friendly street networks, and urban
+
+05019010-1
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+designs near stations. However, Lee et al. (2013) suggested that
+whereas density correlates positively with metro ridership in the
+central business district (CBD) and fringe areas, higher diversity
+tends to increase ridership in subcentral areas of Seoul. The relationship between density and TOD features such as land-use mix,
+design, transit supply, and road features varies with the type of
+metro station (Kim et al. 2014).
+Street-level microaccessibility and centrality have been the core
+factors in explaining and predicting the locations of households and
+firms, land-use patterns, property prices, and transportation mobility in mature cities. Many relevant studies have proven that spatial
+accessibility to employment centers and retail stores along transportation networks substantially affects housing prices (Osland
+and Thorsen 2008). Furthermore, previous empirical studies have
+investigated spatial centrality’s association with housing prices. For
+instance, concentrated nodes and detours along street networks are
+capitalized into higher housing prices because residents value
+higher accessibility to save transportation costs (Xiao et al. 2016).
+Typical measurements of access to metro stations are straightline and shortest path distance. However, recent studies have
+utilized more-advanced concepts of access to metro stations, encouraging more-reliable measurements. For example, route directness indicates the ratio of network distance to straight-line distance
+(Lin et al. 2014), whereas opportunity-based transit accessibility
+represents the total time-based opportunities, considering number
+of employees, network, and service (Lei et al. 2012). Furthermore,
+both bus transport availability to metro stations and the distance
+to stations influence access to public transit (Kim et al. 2007),
+whereas spatial affordance measures the task-relevant characteristics of the place (Fusco 2016).
+Housing markets in Seoul have shifted from being supplydriven, indicating large-scale residential development, to being
+demand-driven, indicating a preference for convenient public
+transit and commuting (Yi and Lee 2014). These trends justify this
+empirical study regarding transit villages with higher metro ridership and changing housing prices.
+Notably, few studies have examined how spatial access to metro
+transit villages with different ridership along street networks affects
+housing prices within walkable neighborhoods. We bridged the gap
+left by the individual studies of access to metro transit villages identified by metro ridership, street configuration to reach the villages,
+and walkable neighborhood housing markets. To provide new findings and insightful implications, this study captured the unexplored
+hypotheses linking access to metro transit villages and housing
+prices.
+First, most studies have focused on the main determinants of
+transit ridership, whereas very few have studied how the transit
+villages influenced by TOD and changing transit demand affect
+neighborhoods along street networks. Clearly, metro transit villages
+are not identical in terms of transit ridership and other features
+(Debrezion et al. 2011). This study tested whether spatial access
+to metro transit villages substantially generates external effects on
+the neighborhood housing prices.
+Second, many studies measure spatial access to metro stations
+and transit villages merely in terms of straight-line or shortest path
+distance. Furthermore, many relevant studies fail to identify the
+connection between spatial access to metro stations and street
+configuration. However, access to transit villages and street layout
+synergistically affect neighborhood housing prices (Bartholomew
+and Ewing 2011). Thus, this study captured a more sophisticated
+measure of spatial access to metro station, combining metro ridership with street configuration to reach the metro stations. Furthermore, many studies have failed to compare the similar and different
+effects of access to metro transit villages with spatial accessibility
+© ASCE
+
+and centrality under a consistent conceptual structure. A few empirical studies have confirmed the significant effects of street configuration to explain and predict the externalities of metro transit in
+housing prices and spatial patterns of land-use intensity, retail
+location, and walking volume (Bartholomew and Ewing 2011;
+Liu et al. 2016; Wang et al. 2014; Sevtsuk 2014; Kang 2015).
+Third, the debate over the spatial scope of externalities from
+metro transit villages attracts considerable attention in TOD and
+policies. This study traced the spatial trade-off between positive
+and negative effects of metro transit villages over walkable neighborhood scales in housing prices. We expected the effects to vary
+when it comes to the spatial scope of walkable neighborhoods as
+catchment areas for metro transit (Guerra et al. 2012). Various
+radius-focused studies found that the neighborhood scale of metro
+effects varies widely, from 200 m at the closest to 900 m at the
+farthest (Lyu et al. 2016; Lee et al. 2014; Choi et al. 2012; Jun
+et al. 2015). Considering metro transit ridership as well as street
+configuration generates a more accurate and reliable neighborhood scale of metro transit externalities. This study compared
+multiple walkable neighborhood scales to identify the spatial scope
+of the externalities and provide inputs regarding urban planning and
+design.
+Finally, existing hedonic price models in housing studies failed
+to properly control the differently aggregated data units such as
+individuals and groups. We used multilevel hedonic price models
+to capture how explanatory variables at the individual housing and
+neighborhood levels affect housing prices (Law 2017).
+This study made key assumptions in evaluating the spatial access to metro transit villages by measuring street configuration and
+metro ridership of walkable neighborhoods. First, metro transit
+villages are defined as neighborhoods with higher metro ridership
+(Yang et al. 2016). Second, metro ridership is the core index for
+identifying transit villages, because metro transit villages strongly
+correlate with higher ridership. Third, the beneficial effects of access to metro transit villages, along with street configurations, are
+capitalized in higher housing prices. Therefore, this study measures
+access to metro transit villages, street configuration, and metro ridership simultaneously. Finally, a metro station is the centerpiece of
+a transit village, as confirmed by the studies of metro catchment
+areas (Cervero et al. 2017). The effects of spatial access should
+therefore be stronger the closer one is to metro stations. Thus,
+we set the walkable neighborhood scale of externalities from metro
+stations to up to 2 km and validated the scale with multilevel
+hedonic price models.
+This paper consists of six sections. Section “Study Context and
+Data Sources” describes the local context of the housing markets,
+public transit in the study areas, and the data sources. Section
+“Methods” introduces key variables used in empirical models,
+whereas section “Description of Variables” addresses the empirical
+models and model specifications. Section “Empirical Models and
+Model Specification” interprets and discusses key findings. Lastly,
+section “Results and Discussion” summarizes the key findings and
+suggests policy implications.
+
+Study Context and Data Sources
+Based on this study’s main focus, the author introduces the context
+of housing markets and public transit in Seoul, Korea. Seoul had a
+resident density of 18,000 people=km2 in 2013 (Jang and Kang
+2015), and condominiums are the dominant housing type in the
+residential market. Statistics confirm the market share for condominiums at 58.8% and that of single-family housing at 16% in 2010
+(Seoul Statistics 2014).
+
+05019010-2
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Fig. 1. Spatial pattern of monthly average off-ridership in Seoul,
+Korea, 2010. (Data from Korea Railroad Corporation 2011.)
+
+stations. It is highly probable that the street configuration surrounding metro stations and level of metro ridership should generate local
+variations in housing prices. More sophisticated metrics utilizing
+street configuration and metro ridership for each metro station will
+provide more relevant and precise information on residents’ metro
+access. Two benefits justify the use of the Urban Network Analysis
+(UNA) toolbox developed by Sevtsuk, Mekonnen, and Kalvo of
+the City Form Lab (Sevtsuk and Mekonnen 2012). First, previous
+methods focused mainly on the straight-line and/or shortest-path
+distances to metro stations, failing to capture the spatial configuration to reach metro stations along street networks. UNA calculates spatial accessibility and centrality using morphological
+information of the streets. Second, most empirical studies of metro
+access ignore the metro demand variation, separating the effects of
+street geometry and metro demand. Using the UNA toolbox, the
+street-level indexes of spatial accessibility and centrality are
+weighted by metro ridership. Hence, the metrics indicate a more
+accurate and reliable variation of local metro access. The empirical
+tests that value metro access considering housing prices therefore
+provide more insightful and detailed policy implications for urban
+and transportation planners as well as urban designers. A few recent
+empirical models tested the validity of the metrics using the UNA
+toolbox in explaining retail location patterns and retail sales
+(Sevtsuk 2014; Kang 2016).
+Description of Variables
+
+Seoul is a transit-oriented city in terms of volume of transit service, use of public transit, and public transit policy. In 2014, public
+transport and passenger cars accounted for 72.8% and 22.8% of all
+modes of transportation, respectively. Specifically, bus transit and
+subways (including rail) accounted for 27.0% and 39.0% of transportation, respectively. In 2015, the average daily ridership was
+7,234,000 for the subway and 4,403,282 for buses, with the average
+time taken to access public transit being 8.69 min (Seoul Statistics
+2016).
+The primary data for the core hypotheses are housing transaction information. Since 2006, the Ministry of Land, Infrastructure,
+and Transport has provided sales data on condominiums (called
+apartments in Korea). The data incorporate transaction price,
+location, floor number, size, year built, and month of sale. This
+study geocoded the 2010 data using location information. Additionally, the study geocoded the location of metro stations and
+their monthly average on- and off-ridership in 2010 to measure the
+metrics of spatial accessibility and centrality weighted by ridership.
+On-ridership represents the number of passengers getting onto
+metro transit and off-ridership the number of passengers getting
+off (Korea Railroad Corporation 2011). Moreover, geographical information on urban core, urban subcore, bus stops, parks, schools,
+retail centers, roads, streets, and building use was obtained. Finally,
+to measure the neighborhood features, this study utilized the boundaries of the Korean census tract from Statistics Korea (2010). Fig. 1
+shows the spatial pattern of monthly average off-ridership in Seoul
+in 2010, when metro ridership was mainly concentrated in CBDs.
+
+Methods
+Motivation for Measuring Accessibility and Centrality
+Metrics for Metro Access
+Few studies of the effects of spatial access to transit villages on
+property prices have considered the two key factors of metro ridership and street configuration that connects residential sites to metro
+© ASCE
+
+The empirical models used housing price as a dependent variable
+and the following independent variables: (1) five metrics for accessibility of and centrality to metro stations, (2) housing attributes,
+(3) location and transportation, (4) neighborhood land use, and
+(5) time of housing sales.
+Metro Accessibility and Centrality Metrics
+The UNA toolbox produces reach and gravity index as accessibility
+measures and betweenness, closeness, and straightness as centrality
+metrics. Whereas accessibility indexes indicate the ease of reaching
+potential destinations, centrality indexes represent the relative importance of the origin along streets (Geurs and van Wee 2004).
+Measuring these metrics requires three main types of information—
+street geometry from origins (condominium sites) to destinations
+(metro stations), destination features (on- or off-ridership), and
+network radius. The condominium sites were the centroid of each
+parcel with a unique address. Spatial accessibility and centrality
+with street configuration, weighted by on- or off-ridership, was
+calculated based on mathematical formulas (Fig. 2).
+To capture the neighborhood-scale effects and decompose the
+local variations of effects, the network radii were set to 500–750,
+750–1,000, 1,000–1,500, and 1,500–2,000 m after confirming that
+the residents in Seoul walk 2.6 km per day (Park et al. 2016). While
+testing the empirical models, the author also used below 500 m and
+beyond 2,000 m as radii, but excluded them from the final models
+owing to the statistical insignificance of metro access within these
+two radii.
+This study defines reach and gravity index as the spatial accessibility to metro stations. Reach is the total on- or off-ridership
+along the shortest network distance between condominium site
+i and metro station j within a given network radius. More metro
+ridership within a given network radius generates a higher value
+of reach. Therefore, reach, represents neighborhood on- or offridership. The gravity index indicates reach combined with distance
+friction. The gravity index is measured by summing the values of
+on- or off-ridership (weight) divided by distance friction (Fig. 2).
+Higher transit ridership with the same distance friction leads to a
+higher gravity index. The beta value of 0.00217 was selected as
+
+05019010-3
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+of calculating methods, leading to higher premium effects on housing prices. Fig. 2 shows the mathematical formulas for calculating
+each accessibility and centrality metric.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Housing Attributes
+Our empirical models also controlled for housing attributes such as
+size, floor number, and age of housing, which are typical values for
+explaining housing price variation. The Korean central government
+has provided relevant information since 2006 (Ministry of Land,
+Infrastructure, and Transport 2017). Size is measured in square meters for each unit, whereas the floor number represents the vertical
+position of each unit in a high-rise apartment building. Age is based
+on the year in which the house was built.
+
+Fig. 2. Mathematical formulas for measuring accessibility and
+centrality. (Data from Sevtsuk and Mekonnen 2012; Kang 2015,
+2018a, b.)
+
+distance friction, referring to Handy and Niemeier (2017). This
+value was used for two reasons. First, there is no other empirically
+tested value for walking behavior to metro stations in Seoul.
+Second, the value obtained from the cited study on walking travel
+fits into the theme of this study. Empirical tests have verified that
+the gravity index correlates with the spatial pattern of land use,
+stores, and local employment (Waddell and Ulfarsson 2003).
+The centrality metrics include betweenness, straightness, and
+closeness. Betweenness measures the volume of detouring a site,
+weighted by on- or off-ridership. In this study, the value of betweenness indicates the ratio of total passing at origin i to total available travel between destination j and another condominium site k.
+After measuring all passing between and all origin-destination
+pairs, betweenness metrics identify the fraction of detours between
+the pairs that pass condominium sites i. Betweenness was measured
+by summing each fraction multiplied by the on- or off-ridership for
+each destination within the given network radius. Therefore, a
+site i with increased detouring and higher transit ridership has a
+higher betweenness value. Straightness calculates how closely the
+shortest-network distance between condominium site i and metro
+station j within a specific network radius resembles the Euclidian
+distance, weighted by on- or off-ridership (Porta et al. 2006).
+Straightness was calculated as follows. After measuring the
+shortest-network and straight-line distance of each pair of condominium site i and metro station j within a specific network, the
+ratio of the two distances between the straight-line distance and
+the shortest-network distance was calculated. Then, the ratio was
+multiplied by the on- or off-ridership of metro station j. Finally,
+the measured values were added to generate the straightness value.
+Therefore, a more direct route between pairs of origins and destinations with higher transit ridership tends to increase the value of
+straightness. A higher value of straightness represents direct access
+to metro stations with more ridership located along direct routes
+from condominium sites. Finally, closeness represents how close
+each site is to the surrounding metro stations, weighted by the onor off-ridership within a given network radius. Therefore, the value
+of closeness is more likely to increase if metro stations with more
+ridership are located close to housing. A lower closeness value
+implies more on- or off-ridership for closer metro stations in terms
+© ASCE
+
+Location and Transportation Attributes
+Housing prices vary with relative location and access to transportation. Prior studies confirmed that distance to CBDs, subCBDs,
+roads and streets, public transit access points such as metro stations
+and bus stops, commercial centers, schools, parks, and the nearest
+land use substantially change residential property prices (Hartell
+2017). Therefore, the straight-line distances to these amenities were
+measured to control their influence on housing prices.
+Neighborhood Land-Use Attributes
+The composition of neighborhood land use also affects the value
+that residents place on their dwellings. Because the locations of
+metro stations consider neighborhood land use, econometric models face endogeneity. Therefore, this study considered neighborhood residential and commercial-office density as typical urban
+land use, occupying 90.12% of the total built areas in Seoul.
+Whereas residential density was measured as total residential built
+area per hectare for each census tract, commercial-office density
+was measured by total built area for retail and offices per hectare
+of the tract.
+A few studies have verified whether the land-use mix and the
+balance of land use generate premiums or discounts in housing prices (Koster and Rouwendal 2012). Consequently, land-use mix and
+the total floor area by land use type in each neighborhood (Korean
+census tract) were measured using mathematical formulas adopted
+from related studies (Cervero and Kockelman 1997). This study
+applied the entropy index to calculate the neighborhood landuse mix. If the value is closer to 1, it represents evenly mixed land
+use as
+Pn
+P lnðPi Þ
+Mixi ¼ i¼1 i
+ð1Þ
+lnðnÞ
+where n = number of land-use categories; and Pi = proportion of
+each type of land use i.
+This study also calculated the balance indexes of residential and
+nonresidential land use from available data (Seoul Metropolitan
+Government 2010). The balance index of the two land-use indexes
+indicates a higher balance if the value is close to 1 for balance between residential (Resi) and nonresidential (Nonresi) land use in
+region i (Cervero and Duncan 2003):
+
+
+ Resi − Nonresii 
+
+Balance indexi ¼ 1−
+ð2Þ
+Resi þ Nonresii 
+Timing of Housing Sales
+The timing of housing sales also influences the housing prices due
+to seasonal supply and demand (Quigley 1995). Therefore, dummy
+variables were set for the quarter in which houses were sold. In the
+empirical models, the reference group of the time variable was the
+first quarter of the year 2010.
+
+05019010-4
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Empirical Models and Model Specification
+
+individual condominium-level data (Level 1) contain accessibility
+and centrality metrics, housing attributes, location and transportation attributes, and time of sales, the Korean census-tract-level
+data (Level 2) include residential and commercial-office density,
+land-use mix, and the balance index of land use. The equation for
+the multilevel regression is as follows:
+
+Aggregate units of data are important in selecting analytic
+methods. Prior studies of the effects of individual features and place
+attributes tended to face atomistic and ecological fallacies (Duncan
+and Jones 2000). Whereas the atomistic fallacy refers to a failure
+to capture the local contexts surrounding individual behavior, the
+ecological fallacy refers to a failure to infer individual attributes
+(Fotheringham et al. 2003). Furthermore, the data composition
+of different aggregate units requires econometric models beyond
+general regression, due to the deviation of the assumption of
+regression analysis (Rabe-Hesketh and Skrondal 2008). Alternatively, multilevel regression models could identify the effects of
+individual- and place-level factors separately (Fotheringham et al.
+2003). Because multilevel regression models use data from discrete
+spatial units, the econometric methodology cannot capture the potential spatial autocorrelation of variables in continuous spatial
+units (Chasco Yrigoyen and Le Gallo 2012). Despite the potential
+spatial autocorrelation issue, multilevel regression models are
+widely used, and their effectiveness and robustness for analyzing
+spatial data are confirmed (Duncan 2011; Wang et al. 2015; Jang
+and Kang 2015). An alternative is to use spatial econometrics and
+geographically weighted regression (GWR) if the spatial variables
+fit in these models.
+Because this study used data on individual condominiums
+nested within Korean census tracts, multilevel modeling was applied to the available data. For a variable composition, whereas
+
+Pij ¼ γ 00 þ β 1 Mijk þ β 2 Hijk þ β 3 Lijk þ β 4 Nijk þ β 6 Tijk
+þ μ0j þ εij
+
+ð3Þ
+
+where Pij = sales price of housing i in neighborhood j; β k represents the parameters of each independent variable (k ¼
+1; 2; 3; 4; : : : ; m), γ 00 denotes constants; Mijk = vector of each
+of the five spatial accessibility and centrality metrics to metro ridership of housing i and neighborhood j; Hijk = vector of the size,
+floor number, and age of housing i and neighborhood j; Lijk =
+vector of the relative location and transportation features of housing
+i and neighborhood j; Nijk = vector of land-use features in neighborhood j; Tijk = vector of transaction time in housing i; and μ0j
+and εij = error terms of neighborhoods and residential sites, respectively. Vectors M, H, L, N, and T and the variable denotations are
+indicated in Tables 1–3.
+After testing the models, a log-log functional formula was
+selected in which both dependent and independent variables
+were the natural logarithms. The final model results justified
+the use of multilevel analysis as an intraclass correlation value
+
+Table 1. Descriptive statistics (network radius: 750–1,000 m, off-ridership)
+Variable description
+
+Mean
+
+Housing price (KRW)
+Accessibility and centrality metrics (Vector M, Level 1)
+Reach to off-ridership
+Gravity index to off-ridership
+Betweenness to off-ridership
+Straightness to off-ridership
+Closeness to off-ridership
+Housing attributes (Vector H, Level 1)
+Housing size (m2 )
+Housing floor number
+Housing age
+Location and transportation attributes (Vector L, Level 1)
+CBD access
+Sub-CBD access
+Bus stop access
+Park access
+Retail center access
+School access
+Road access
+Street access
+Access to nearest residential property
+Access to nearest commercial property
+Access to nearest office property
+Access to nearest industrial property
+Neighborhood land use attributes (Vector N, Level 2)
+Density of residential use (built area=ha)
+Density of commercial-office use (built area=ha)
+Land-use mix
+Balance index of land use
+Time of sale (vector T)
+First quarter (reference group)
+Second quarter
+Third quarter
+Fourth quarter
+
+500,000,000
+
+Minimum
+
+Maximum
+
+80,000,000
+
+4,700,000,000
+
+704,785.00
+112,104.60
+103,415.40
+549,336.20
+0.00000002
+
+0.00
+0.00
+0.00
+0.00
+0.00
+
+6,191,723.00
+1,773,420.00
+4,468,715.00
+5,224,615.00
+0.00004
+
+81.99
+8.61
+13.07
+
+19.4
+1.00
+0.00
+
+268.05
+39.00
+40.00
+
+9,938.57
+4,795.92
+122.89
+540.10
+875.05
+177.19
+93.42
+63.71
+28.49
+67.39
+305.22
+276.31
+
+1,318.19
+376.56
+12.82
+31.53
+104.67
+2.67
+9.65
+0.95
+0.01
+0.01
+3.49
+0.01
+
+17,001.40
+11,993.91
+431.95
+2,635.61
+3,508.85
+1,365.01
+565.65
+1,039.00
+460.22
+365.37
+1,288.34
+1,518.87
+
+157,551.00
+4,523.80
+0.14
+0.14
+
+0.00
+0.00
+0
+0
+
+36,500,000.00
+401,813.80
+0.86
+1
+
+0.30
+0.15
+0.15
+0.39
+
+0
+0
+0
+0
+
+1
+1
+1
+1
+
+Note: CBD = central business district.
+© ASCE
+
+05019010-5
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+Table 2. Multilevel regression results for reach, gravity index, and betweenness (network radius: 750–1,000 m, off-ridership)
+Reach model
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Variables
+Accessibility and centrality metrics (Vector M)
+Log (reach to off-ridership)
+Log (gravity index to off-ridership)
+Log (betweenness to off-ridership)
+Housing attributes (Vector H)
+Log (housing size)
+Log (housing floor number)
+Log (housing age)
+Location and transportation attributes (Vector L)
+Log (CBD access)
+Log (sub-CBD access)
+Log (bus-stop access)
+Log (park access)
+Log (retail center access)
+Log (school access)
+Log (road access)
+Log (street access)
+Log (access to nearest residential property)
+Log (access to nearest commercial property)
+Log (access to nearest office property)
+Log (access to nearest industrial property)
+Neighborhood land-use attributes (Vector N)
+Log (density of residential use)
+Log (density of commercial-office use)
+Land-use mix
+Balance index of land use
+Time of sale (Vector T)
+Second quarter, 2010
+Third quarter, 2010
+Fourth quarter, 2010
+Constant
+Proportion of variance
+Level 2
+Level 1
+ICC
+AIC
+Number of cases
+Number of groups
+
+Gravity index model
+
+Betweenness model
+
+Coefficient
+
+VIF
+
+Coefficient
+
+VIF
+
+Coefficient
+
+VIF
+
+0.0256a
+—
+—
+
+1.17
+—
+—
+
+—
+0.0256a
+—
+
+—
+1.18
+—
+
+—
+—
+−0.00303b
+
+—
+—
+1.05
+
+0.922a
+0.0364a
+−0.00441c
+
+1.13
+1.06
+1.18
+
+0.922a
+0.0364a
+−0.00442c
+
+1.13
+1.06
+1.18
+
+0.922a
+0.0364a
+−0.00440c
+
+1.13
+1.06
+1.18
+
+−0.00967
+−0.129a
+0.0796a
+−0.0849a
+−0.0562c
+0.0206
+−0.0132
+0.0620a
+0.0156c
+−0.0135
+0.0187
+−0.0323a
+
+1.72
+1.76
+1.46
+1.22
+1.3
+1.23
+1.65
+1.39
+1.91
+1.78
+1.63
+1.3
+
+−0.011
+−0.129a
+0.0792a
+−0.0845a
+−0.0563c
+0.0204
+−0.0135
+0.0620a
+0.0152c
+−0.0134
+0.0181
+−0.0318a
+
+1.72
+1.76
+1.46
+1.22
+1.31
+1.23
+1.65
+1.39
+1.91
+1.78
+1.63
+1.29
+
+−0.0155
+−0.133a
+0.0840a
+−0.0858a
+−0.0757b
+0.0244c
+−0.0133
+0.0641a
+0.0137
+−0.00648
+0.0135
+−0.0313a
+
+1.71
+1.76
+1.46
+1.2
+1.29
+1.22
+1.65
+1.38
+1.91
+1.78
+1.62
+1.21
+
+−0.00615
+0.00972b
+0.0123
+−0.258a
+
+1.71
+2.95
+4.87
+3.53
+
+−0.00626
+0.00983b
+0.0129
+−0.258a
+
+1.71
+2.95
+4.87
+3.53
+
+−0.00638
+0.0101b
+0.0408
+−0.268a
+
+1.73
+2.95
+4.9
+3.55
+
+−0.0446a
+−0.0646a
+−0.0506a
+16.97a
+
+1.28
+1.28
+1.41
+—
+
+−0.0446a
+−0.0646a
+−0.0506a
+17.02a
+
+1.28
+1.28
+1.41
+—
+
+−0.0449a
+−0.0647a
+−0.0508a
+17.47a
+
+1.28
+1.28
+1.41
+—
+
+0.37
+0.07
+0.95
+−9,772.64
+5,509
+696
+
+0.37
+0.07
+0.95
+−9,770.07
+5,509
+696
+
+0.34
+0.07
+0.95
+−9,768.19
+5,509
+696
+
+Note: ICC = intraclass correlation.
+a
+p < 0.001.
+b
+p < 0.01.
+c
+p < 0.05.
+
+exceeding 0.05. Furthermore, variance inflation factors (VIFs) were
+used to test collinearity among explanatory variables (Gujarati and
+Porter 2009).
+Table 1 presents the variables and the descriptive statistics
+for the case of off-ridership within a 750–1,000-m network
+radius. The housing prices ranged from USD 66,722 to USD
+3,919,933 (USD 1 ¼ KRW 1,199). It also lists the range of the
+two accessibility and three centrality metrics. Regarding housing
+attributes, housing size was up to 268.05 m2 , the floor number
+was up to 39, and the housing age was up to 40 years. Condominium sites were most likely to be located close to residential
+properties, followed by streets, retail property, roads, bus stops,
+schools, industrial property, office, parks, retail centers, subCBDs,
+and CBDs. Neighborhood land-use attributes showed residential
+density, commercial-office density, the mixture of land-use, and
+the balance between residential and nonresidential property.
+Finally, the timing of sales indicates the quarterly dummy variable
+for transaction time within the reference group (first quarter of
+2010).
+© ASCE
+
+Results and Discussion
+Preliminary Analysis
+Before the modeling, this study attempted some preliminary analyses. The correlation testing between housing attributes and the
+accessibility and centrality metrics indicated no sample selection
+bias. Furthermore, to test whether adding accessibility and centrality metrics improved the empirical model fit, the models were compared with and without accessibility and centrality metrics as per
+Akaike’s information criterion (AIC). The lower AIC values of the
+models with accessibility and centrality metrics indicated that these
+models were a better fit than those without the metrics (Antipova
+et al. 2011).
+After these preliminary analyses, the core hypotheses—that
+access to metro stations combining two main factors (street configuration and metro ridership) significantly explains the spatial
+variation in housing prices—were tested. To test the hypotheses,
+spatial accessibility and centrality with street configuration and
+
+05019010-6
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+Table 3. Multilevel regression results for straightness and closeness (network radius: 750–1,000 m, off-ridership)
+Straightness model
+Accessibility and centrality metrics (Vector M)
+Log (straightness to off-ridership)
+Log (closeness to off-ridership)
+Housing attributes (Vector H)
+Log (housing size)
+Log (housing floor number)
+Log (housing age)
+Location and transportation attributes (Vector L)
+Log (CBD access)
+Log (sub-CBD access)
+Log (bus-stop access)
+Log (park access)
+Log (retail center access)
+Log (school access)
+Log (road access)
+Log (street access)
+Log (access to nearest residential property)
+Log (access to nearest commercial property)
+Log (access to nearest office property)
+Log (access to nearest industrial property)
+Neighborhood land-use attributes (Vector N)
+Log (density of residential use)
+Log (density of commercial-office use)
+Land-use mix
+Balance index of land use
+Time of sale (Vector T)
+Second quarter, 2010
+Third quarter, 2010
+Fourth quarter, 2010
+Constant
+Proportion of variance
+Level 2
+Level 1
+ICC
+AIC
+Number of cases
+Number of croups
+
+Closeness model
+
+Coefficient
+
+VIF
+
+Coefficient
+
+VIF
+
+0.0256a
+—
+
+1.18
+—
+
+—
+−0.0191a
+
+—
+1.15
+
+0.922a
+0.0364a
+−0.00441b
+
+1.13
+1.06
+1.18
+
+0.922a
+0.0364a
+−0.00442b
+
+1.13
+1.06
+1.18
+
+−0.00999
+−0.130a
+0.0797a
+−0.0848a
+−0.0561b
+0.0204
+−0.013
+0.0620a
+0.0156b
+−0.0136
+0.0188
+−0.0323a
+
+1.72
+1.76
+1.46
+1.22
+1.31
+1.23
+1.65
+1.38
+1.91
+1.78
+1.63
+1.3
+
+−0.00753
+−0.132a
+0.0806a
+−0.0849a
+−0.0579b
+0.0209b
+−0.0129
+0.0622a
+0.0156b
+−0.013
+0.0175
+−0.0328a
+
+1.72
+1.76
+1.46
+1.21
+1.3
+1.23
+1.65
+1.39
+1.91
+1.78
+1.62
+1.31
+
+−0.00616
+0.00972c
+0.0124
+−0.258a
+
+1.71
+2.95
+4.87
+3.53
+
+−0.00614
+0.00975c
+0.013
+−0.258a
+
+1.71
+2.95
+4.87
+3.53
+
+−0.0446a
+−0.0646a
+−0.0506a
+16.98a
+
+1.28
+1.28
+1.41
+—
+
+−0.0446a
+−0.0646a
+−0.0506a
+16.93a
+
+1.28
+1.28
+1.41
+—
+
+0.37
+0.07
+0.95
+−9,772.45
+5,509
+696
+
+0.37
+0.07
+0.95
+−9,773.99
+5,509
+696
+
+Note: ICC = intraclass correlation.
+a
+p < 0.001.
+b
+p < 0.05.
+c
+p < 0.01.
+
+accessibility and centrality capturing street configuration and onand off-ridership are available, for conciseness, the variable composition and the results for reach, gravity index, betweenness,
+straightness, and closeness are provided for 750–1,000-m radii
+of off-ridership (Tables 2 and 3). The models include only the
+explanatory variables with VIF values below 5. The author interprets and discusses only the variable coefficients significant at the
+5% level.
+
+0.07
+0.06
+Marginal effects
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Variables
+
+0.05
+0.04
+0.03
+0.02
+0.01
+0
+-0.01
+Reach
+500-750 m
+
+Gravity Index Betweenness Straightness
+750-1,000 m
+
+1,000-1,500 m
+
+Effects of Metro Accessibility and Centrality Metrics
+
+Closeness
+
+1,500-2,000 m
+
+Fig. 3. Marginal effects of metro access on housing prices (offridership).
+
+on- or off-ridership were measured. Next, the empirical models
+captured the effects of spatial accessibility and centrality weighted
+by on- or off-ridership, controlling the same variables (Figs. 3
+and 4). Although all the results from empirical models of spatial
+© ASCE
+
+The main research question related to metro accessibility and
+centrality to metro transit villages. Figs. 3 and 4 provide the estimation results for the effect of metro accessibility and centrality—
+considering on- or off-ridership—on housing prices within each
+neighborhood scale. Each model of spatial accessibility and centrality generated similar results among the models. Therefore, the
+overall patterns regardless of on-ridership or off-ridership in terms
+of network radius were compared. The empirical models confirmed
+that greater accessibility and centrality to metro stations generate a
+premium in housing prices, excluding the betweenness variable.
+
+05019010-7
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+0.07
+0.06
+Marginal effects
+
+0.05
+0.04
+0.03
+0.02
+0.01
+0
+-0.01
+Reach
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+500-750 m
+
+Gravity Index Betweenness Straightness
+750-1,000 m
+
+1,000-1,500 m
+
+Closeness
+
+1,500-2,000 m
+
+Fig. 4. Marginal effects of metro access on housing prices (onridership).
+
+Two accessibility metrics—reach and gravity index—influenced
+housing price appreciation. A higher reach value was positively
+capitalized in residential property prices. A higher gravity index
+value—considering distance friction—was also positively associated with housing prices, except for the 1,500–2,000-m network
+radius. This pattern implies that residents value houses with easy
+access to metro stations with higher ridership along dense street
+networks within walkable neighborhoods, confirming the results
+of previous studies (Duncan 2008). This also indicates that homebuyers in Seoul value easier access to metros for commuting, as
+well as higher resident and worker density using public transit.
+Concerning centrality metrics, higher betweenness discounts
+the residential property prices within the 500–1,000 and 1,500–
+2,000-m radii. This implies that condominium sites not having
+easy access to metro stations are not favorable to housing prices.
+Generally, residents prefer a residential location with direct access
+to high-ridership metro stations to save on transport costs and enjoy
+higher mobility convenience. This result coincides with that of a
+study of Chinese cities which found that higher betweenness discounts nearby residential property prices owing to noise and crowdedness from the frequent passing of commuters (Xiao et al. 2016).
+Conversely, retail properties favor sites with higher betweenness
+within specific street networks (Wang et al. 2014). These contrasting results are rooted in the different features of housing and retail
+properties.
+Additionally, higher straightness and closeness values generated
+premiums on housing prices. The effects of straightness were similar to those of reach within each neighborhood scale. These patterns of effects may indicate that the residents highly prefer housing
+near neighborhoods with better street layouts and more directly
+reachable high-ridership metro stations. Therefore, urban settings
+with high street density, direct access, and proximity to nearby
+metro stations with higher transit use command higher premiums
+in housing prices. Specifically, because higher straightness indicates trip efficiency for visiting metro stations, being located along
+straight-line street networks is positively associated with higher
+housing prices. Furthermore, a higher closeness value implies that
+highly valued housing is located on street networks with higher
+connectivity to metro stations serving transit villages, confirming
+the results of the previous studies (Matthews and Turnbull 2007).
+Other studies also found that centrality indexes—such as the
+straightness and closeness of street networks—are highly relevant
+to clustering retail activities and housing prices (Wang et al. 2014).
+Figs. 3 and 4 indicate that the effects of accessibility and
+centrality—excluding betweenness—on housing prices were higher
+© ASCE
+
+with network radii up to 1,500–2,000 m. There are two reasons for
+this pattern. First, owing to their large-scale development and relatively low land prices, most condominiums are developed away
+from metro stations. Therefore, residents reach the nearest metro
+station by bus or on foot. Second, issues such as noise, crowdedness,
+traffic, vibrations, and other safety concerns from metro stations and
+trips to commercial facilities near the stations discount housing prices, all other variables being equal. Therefore, being too accessible
+or adjacent to metro stations influences housing prices negatively.
+Fig. 5 shows the spatial pattern of the mean predicted housing price
+by each model. These prices were converted from the predicted log
+values of housing prices from each model. The five maps—by
+models—illustrate that the mean predicted housing price was higher
+in the residential areas near the Han River and Kang-nam areas,
+where higher-priced housing is mainly concentrated.
+The locality and travel behaviors of Seoul residents also supported the key findings of the empirical models. As previously
+described, residents and workers in Seoul tend to use metro transit
+for their commuting and noncommuting trips, as indicated by its
+39.0% modal share. Easy and convenient transfers between metro
+and bus transit accelerate the rising premiums related to transit access concerning housing prices. Notably, the average time to reach
+public transit is around 9 min, suggesting that many metro stations
+and bus stops are located within walking distance from residential
+areas. Therefore, street configuration is a critical factor in determining metro access. The core findings are rooted in residents’ travel
+behavior, spatial contexts to reach metro stations, and travel patterns across Seoul City. Finally, as previously introduced, higher
+metro ridership and pedestrian-friendly and dense streets simultaneously determine the level of accessibility and centrality to metro
+stations. Therefore, this study confirms that transit neighborhoods
+with higher demand for metro transit also command premiums on
+housing prices.
+Effects of Other Variables
+Other variables also affect housing prices, but with inconsistent
+statistical significance. Regarding housing attributes, residents
+value larger housing with scenic high-rise views. Older housing has
+lower prices within the 750–1,000- and 1,500–2,000-m network
+radii. The effects of housing size and floor number were stable
+within the same network radii. The results showed that homeowners consistently consider housing attributes as factors of housing
+prices. Whereas housing prices are lower when farther from subCBDs, parks, and retail clusters within the 1,000-m network
+radius, they are higher with longer distances to bus stops, roads,
+and street networks within a 750-m radius. From the empirical results, locational and transportation features significantly explain the
+spatial variation of housing prices, which is substantiated by the
+results of the previous studies (Xiao et al. 2016). Regarding nearby
+land use, whereas being close to residential use discounts housing
+price within a 1,500-m radius, access to industrial land use was
+negatively associated with housing price within all radii. Higher
+access to commercial use generated premiums in housing price
+within a 750-m radius. Regarding land-use density, housing prices
+in neighborhoods with higher residential density tended to be
+lower, except for the 750–1,000- and 1,500–2,000-m network radii,
+whereas the prices were higher in the commercial- and office-dense
+areas, except for the 1,500–2,000-m network radius. Increased
+local competition among residential and nonresidential land use
+near metro stations was more likely to raise neighborhood housing
+prices. However, land-use mixture and balance between residential
+and nonresidential land use erratically affected housing prices
+owing to the local contexts. Finally, housing prices decreased over
+
+05019010-8
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Fig. 5. Spatial pattern of mean predicted housing price by each model.
+
+© ASCE
+
+05019010-9
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+the second to fourth quarters, compared with the prices in the first
+quarter of 2010.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Conclusion and Policy Implications
+This study estimated the value of spatial accessibility and centrality
+to metro transit villages—simultaneously capturing street layout
+and metro ridership—concerning housing prices. Most previous
+studies focused only on the proximity between housing sites and
+metro stations (Debrezion et al. 2011). Few studies focused on
+how metro transit villages with TOD and change of transit ridership
+affect housing prices. Furthermore, there is limited understanding
+of the synergistic effects of the two main factors of street configuration and metro ridership on walkable neighborhood housing
+prices. Therefore, it is necessary to identify the spatial accessibility
+and centrality metrics, including both street geometry and metro
+ridership. The empirical analysis revealed that higher accessibility
+and centrality, excluding betweenness, commanded premiums on
+housing prices within a 2-km walkable network radius. Clearly,
+transit-oriented neighborhoods with higher metro ridership, easier
+access to metro stations through dense streets, and directly connected street networks have significant positive effects on housing
+prices.
+Beyond the empirical results of existing studies, our key findings expand the relevant discussion and suggest insightful policy
+implications. First, the effects of access to metro transit villages
+measured by metro transit ridership on housing prices verified
+that residents greatly value housing located in a transit-oriented
+community owing to lower commuting times, transportation costs,
+and traffic congestion, as well as increased safety from traffic
+accidents and better access to destinations. These results imply that
+creating metro transit village by TOD is highly acceptable for
+housing market and residents. Second, the results of the accessibility and centrality models stated that the synergetic features of both
+street configuration and metro transit village substantially explain
+the spatial variations in housing prices, implying that housing
+markets value a pedestrian-friendly street layout as well as metro
+stations with higher ridership. These approaches are helpful in
+determining the specific design of transit village–friendly streets.
+Thus, urban planning and design authorities should meticulously
+create street configurations to connect residential sites and metro
+stations. This will ensure metro transit villages with well-organized
+streets. Third, the evaluation of spatial accessibility and the centrality metrics presented the specific street morphology that residents
+prefer for public transit usage and access. Therefore, urban professionals need to build denser, more interconnected, and more
+directly routed streets to reach metro stations with more transit demand. The spatial accessibility and centrality indexes suggest the
+effective strategies and systematic design for minimizing negative
+effects and maximizing positive externalities of public transit.
+Fourth, the empirical tests confirmed that the maximum network
+radius for capitalizing metro access in housing prices is 2 km,
+which is a walkable distance, although the prices of housing too
+close to metro stations obtained weaker premium due to negative
+externalities from the stations such as crowdedness, congestion,
+and noise. Thus, improving street settings and TOD through measures such as higher density, mixed land use, and street design
+should occur within 2 km of metro stations in Seoul to create metro
+transit villages. Fifth, this study verified that metro stations being
+too accessible, i.e., within 500 m, discounts housing prices owing
+to noise, crowdedness, congestion, and other nuisances from the
+stations and the surrounding land use. These findings imply that
+urban planners and design authorities should allocate commercial
+© ASCE
+
+land use instead of residential land use in neighborhoods adjacent
+to metro stations that welcome crowdedness and endure noise and
+other nuisances from the stations. This tested relationship between
+access to metro transit villages and residential developments is
+fundamental to resetting land use, transportation systems, and
+urban design for more-sustainable cities and neighborhoods. Sixth,
+valuing the housing premium from the mixed features of street configuration and metro ridership could be a cornerstone for identifying areas with insufficient affordable housing, predicting residential
+gentrification and displacement, and executing value capture of the
+windfall of homeowners that gain unexpected benefits from public
+investment (Zuk et al. 2018; Kang and Cervero 2009; Cervero and
+Murakami 2009). Finally, as shown by the synergetic effects of
+access to metro transit villages along street networks on housing
+prices, residents value the holistic externalities of public transit
+and street layout within walkable neighborhoods. Thus, close collaboration among urban planning and design, land-use planning,
+and transportation planning is required for creating transit-oriented
+cities and neighborhoods.
+Key findings and lessons of this study are transferable to other
+cities in the developed and developing worlds. First, the effects of
+spatial access to metro transit villages on housing prices vary depending on urban growth and local contexts of street configuration,
+urban form, travel behavior, metro ridership, and housing markets.
+The available data allow other cities to test how spatial access to
+metro transit villages change neighborhood housing markets and
+prices. In particular, relevant geographical data are effective for
+finding the relation between metro transit villages and housing
+prices. Second, other studies can measure spatial accessibility and
+centrality to metro stations using our methodology if they have
+microlevel street maps and other relevant materials. The newly developed spatial accessibility and centrality indexes will measure
+multiple and synergetic features of metro transit villages and street
+configuration in simple numbers to be intuitive and understandable.
+However, residents’ valuation of the access to metro transit villages
+along street networks depends on their preference of metro transit
+and travel behavior. Third, although this study recommended
+the spatial range of housing premium from metro stations up to
+a 2-km network radius, the spatial range in other cities varies with
+the locality surrounding metro transit such as urban development,
+socioeconomic features, centrality of the stations, travel behavior,
+and street layout. Other studies can find the specific neighborhood
+scale by applying our analytic methods to the relevant geographical
+and quantitative data. Fourth, our multilevel hedonic price models
+will be applicable to other cases if they have the suitable data of
+individual and neighborhood units in addition to other methodologies such as general regression and spatial econometrics. Finally,
+the accessibility and centrality indexes as well as econometric
+models of this study are a reference to formulate and evaluate urban
+policy and design regarding metro transit villages and neighborhood property markets for other studies. Notably, city leaders are
+interested in creating transit villages and monitoring their effects on
+neighborhoods. Thus, the methodology and findings from this
+study can allow them to understand the deep connection between
+metro transit villages and neighborhood property markets, and
+support creating urban policy and design for transit-oriented cities.
+Furthermore, the approach of this study could be used to identify
+the similarities and differences among global cities with different
+local contexts. Comparing diverse cases may lead to moregeneralized principles to create transit-oriented and pedestrianfriendly neighborhoods.
+This study has several limitations that the author hopes to address in future work. First, it is difficult to predict how access to
+planned metro stations along street networks affects the prices of
+
+05019010-10
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+nearby housing in the long run. If the panel data relevant to this
+topic become available, it may be possible to test the spatialtemporal dynamics between public transit access and housing
+prices. Second, it is necessary to develop more-sophisticated ways
+of measuring metro access. The methodology can be improved and
+better variables can be obtained through more-advanced analytics
+and data. Lastly, expanding the analysis to compare other contexts
+or comparison over time would be valuable in enhancing the
+understanding of the effects of metro access.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+Acknowledgments
+This work was supported by the Global Research Network
+program through the Ministry of Education of the Republic of
+Korea and the National Research Foundation of Korea (NRF2017S1A2A2039446).
+
+References
+Antipova, A., F. Wang, and C. Wilmot. 2011. “Urban land uses, sociodemographic attributes and commuting: A multilevel modeling approach.” Appl. Geogr. 31 (3): 1010–1018. https://doi.org/10.1016/j
+.apgeog.2011.02.001.
+Atkinson-Palombo, C. 2010. “Comparing the capitalization benefits of
+light-rail transit and overlay zoning for single-family houses and condos
+by neighborhood type in metropolitan Phoenix, Arizona.” Urban Stud.
+47 (11): 2409–2426. https://doi.org/10.1177/0042098009357963.
+Bae, C., M. Jun, and H. Park. 2003. “The impact of Seoul’s subway Line 5
+on residential property values.” Transp. Policy 10 (2): 85–94. https://doi
+.org/10.1016/S0967-070X(02)00048-3.
+Bartholomew, K., and R. Ewing. 2011. “Hedonic price effects of
+pedestrian-and transit-oriented development.” J. Plann. Lit. 26 (1):
+18–34.
+Bernick, M., and R. Cervero. 1997. Transit villages in the 21st century.
+New York: McGraw-Hill.
+Bowes, D. R., and K. R. Ihlanfeldt. 2001. “Identifying the impacts of rail
+transit stations on residential property values.” J. Urban Econ. 50 (1):
+1–25. https://doi.org/10.1006/juec.2001.2214.
+Cervero, R. 1998. The transit metropolis: A global inquiry. Washington,
+DC: Island.
+Cervero, R., and M. Duncan. 2003. “Walking, bicycling, and urban landscapes: Convenience and regular physical activity.” Am. J. Public
+Health 93 (9): 1478–1483. https://doi.org/10.2105/AJPH.93.9.1478.
+Cervero, R., E. Guerra, and S. Al. 2017. Beyond mobility: Planning cities
+for people and places. Washington, DC: Island.
+Cervero, R., and K. Kockelman. 1997. “Travel demand and the 3Ds:
+Density, diversity, and design.” Transp. Res. Part D Transp. Environ.
+2 (3): 199–219. https://doi.org/10.1016/S1361-9209(97)00009-6.
+Cervero, R., and J. Murakami. 2009. “Rail and property development
+in Hong Kong: Experience and extensions.” Urban Stud. 46 (10):
+2019–2043. https://doi.org/10.1177/0042098009339431.
+Cervero, R., and B. Susantono. 1999. “Rent capitalization and transportation infrastructure development in Jakarta.” Rev. Urban Reg. Dev. Stud.
+11 (1): 11–23. https://doi.org/10.1111/1467-940X.00002.
+Chasco, C., and J. Le Gallo. 2012. “Hierarchy and spatial autocorrelation
+effects in hedonic models.” Econ. Bull. 32 (2): 1474–1480.
+Choi, C. G., J. H. Koo, S. H. Lee, T. H. Kim, and H. G. Sung. 2012.
+“Seoul’s transit-oriented development history, current situation, and
+prospect.” [In Korean.] In Urban information. Seoul, South Korea:
+Korea Planning Association.
+Dai, X., X. Bai, and M. Xu. 2016. “The influence of Beijing rail transfer
+stations on surrounding housing prices.” Habitat Int. 55 (Jul): 79–88.
+https://doi.org/10.1016/j.habitatint.2016.02.008.
+Debrezion, G., E. Pels, and P. Rietveld. 2011. “The impact of rail transport
+on real estate prices: An empirical analysis of the Dutch housing
+market.” Urban Stud. 48 (5): 997–1015. https://doi.org/10.1177
+/0042098010371395.
+© ASCE
+
+Dubé, J., M. Thériault, and F. Des Rosiers. 2013. “Commuter rail
+accessibility and house values: The case of the Montreal South Shore,
+Canada, 1992–2009.” Transp. Res. Part A Policy Pract. 54 (Aug):
+49–66. https://doi.org/10.1016/j.tra.2013.07.015.
+Duncan, M. 2008. “Comparing rail transit capitalization benefits for
+single-family and condominium units in San Diego, California.”
+Transp. Res. Rec. 2067: 120–130. https://doi.org/10.3141/2067-14.
+Duncan, M. 2011. “The impact of transit-oriented development on housing
+prices in San Diego, CA.” Urban Stud. 48 (1): 101–127. https://doi.org
+/10.1177/0042098009359958.
+Duncan, C., and K. Jones. 2000. “Using multilevel models to model
+heterogeneity: Potential and pitfalls.” Geogr. Anal. 32 (4): 279–305.
+https://doi.org/10.1111/j.1538-4632.2000.tb00429.x.
+Feng, C., W. Li, and F. Zhao. 2011. “Influence of rail transit on nearby
+commodity housing prices: A case study of Beijing Subway Line Five.”
+Acta Geographica Sinica 66 (8): 1055–1062.
+Fotheringham, A. S., C. Brunsdon, and M. Charlton. 2003. Geographically
+weighted regression. New York: Wiley.
+Fusco, G. 2016. “Beyond the built-up form/mobility relationship: Spatial
+affordance and lifestyles.” Comput. Environ. Urban Syst. 60 (Nov):
+50–66. https://doi.org/10.1016/j.compenvurbsys.2016.07.011.
+Guerra, E., R. Cervero, and D. Tischler. 2012. “Half-mile circle.” Transp.
+Res. Rec. 2276: 101–109. https://doi.org/10.3141/2276-12.
+Geurs, K. T., and B. Van Wee. 2004. “Accessibility evaluation of land-use
+and transport strategies: Review and research directions.” J. Transp.
+Geogr. 12 (2): 127–140. https://doi.org/10.1016/j.jtrangeo.2003.10
+.005.
+Gujarati, D. N., and D. C. Porter. 2009. Basic econometrics. New York:
+McGraw-Hill.
+Handy, S. L., and D. A. Niemeier. 2017. “Measuring accessibility: An
+exploration of issues and alternatives.” Environ. Plann. A 29 (7):
+1175–1194. https://doi.org/10.1068/a291175.
+Hartell, A. M. 2017. “Evaluating the concept of location affordability:
+Recent data on the relationship between transportation, housing, and
+urban form.” Hous. Policy Debate 27 (3): 1–16. https://doi.org/10
+.1080/10511482.2016.1220402.
+Jang, M., and C.-D. Kang. 2015. “Retail accessibility and proximity effects
+on housing prices in Seoul, Korea: A retail type and housing submarket
+approach.” Habitat Int. 49 (Oct): 516–528. https://doi.org/10.1016/j
+.habitatint.2015.07.004.
+Jun, M. J., K. Choi, J. E. Jeong, K. H. Kwon, and H. J. Kim. 2015. “Land
+use characteristics of subway catchment areas and their influence on
+subway ridership in Seoul.” J. Transp. Geogr. 48 (Oct): 30–40.
+https://doi.org/10.1016/j.jtrangeo.2015.08.002.
+Kahn, M. 2007. “Gentrification trends in new transit-oriented communities:
+Evidence from 14 cities that expanded and built rail transit systems.”
+Real Estate Econ. 35 (2): 155–182. https://doi.org/10.1111/j.1540
+-6229.2007.00186.x.
+Kang, C.-D. 2015. “The effects of spatial accessibility and centrality to land
+use on walking in Seoul, Korea.” Cities 46 (Aug): 94–103. https://doi
+.org/10.1016/j.cities.2015.05.006.
+Kang, C.-D. 2016. “Spatial access to pedestrians and retail sales in Seoul,
+Korea.” Habitat Int. 57 (Oct): 110–120. https://doi.org/10.1016/j
+.habitatint.2016.07.006.
+Kang, C.-D. 2018a. “The S + 5Ds: Spatial access to pedestrian environments and walking in Seoul, Korea.” Cities 77 (Jul): 130–141.
+https://doi.org/10.1016/j.cities.2018.01.019.
+Kang, C. D. 2018b. “Valuing spatial access to types of retail and effects on
+the housing price in Seoul, Korea.” J. Urban Plann. Dev. 144 (2):
+05018007. https://doi.org/10.1061/(ASCE)UP.1943-5444.0000448.
+Kang, C., and R. Cervero. 2009. “From elevated freeway to urban greenway: Land value impacts of the CGC project in Seoul, Korea.” Urban
+Stud. 46 (13): 2771–2794. https://doi.org/10.1177/0042098009345166.
+Kim, S. Y., A. R. Jo, I. G. Baek, and M. H. Lee. 2014. “An analysis of
+influencing relationship between density and TOD planning factors
+in Seoul subway station areas.” [In Korean.] J. Korea Plann. Assoc.
+49 (5): 279–303.
+Kim, S., G. F. Ulfarsson, and J. T. Hennessy. 2007. “Analysis of light rail
+rider travel behavior: Impacts of individual, built environment, and
+
+05019010-11
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+Downloaded from ascelibrary.org by Imperial College London on 08/05/19. Copyright ASCE. For personal use only; all rights reserved.
+
+crime characteristics on transit access.” Transp. Res. Part A Policy
+Pract. 41 (6): 511–522. https://doi.org/10.1016/j.tra.2006.11.001.
+Korea Railroad Corporation. 2011. Monthly subway passenger transportation performance. Daejeon, South Korea: Korea Railroad Corporation.
+Koster, H. R., and J. Rouwendal. 2012. “The impact of mixed land use on
+residential property values.” J. Reg. Sci. 52 (5): 733–761. https://doi.org
+/10.1111/j.1467-9787.2012.00776.x.
+Law, S. 2017. “Defining street-based local area and measuring its effect
+on house price using a hedonic price approach: The case study of
+Metropolitan London.” Cities 60 (Feb): 166–179. https://doi.org/10
+.1016/j.cities.2016.08.008.
+Lee, C. M., H. T. Joo, J. A. Lee, K. C. Choi, and J. H. Koo. 2014. “Defining
+the pedestrian catchment area of a subway station based on the structural change of a modal choice model.” [In Korean.] J. Korea Plann.
+Assoc. 49 (6): 177–194. https://doi.org/10.17208/jkpa.2014.10.49.6
+.177.
+Lee, J. M., and J.-Y. Kim. 2015. “Empirical analysis on impact of ground
+level subway station on neighboring apartment price using multilevel regression model.” [In Korean.] J. Korea Plann. Assoc. 50 (2):
+157–171. https://doi.org/10.17208/jkpa.2015.02.50.2.157.
+Lee, S., C. Yi, and S. P. Hong. 2013. “Urban structural hierarchy and the
+relationship between the ridership of the Seoul Metropolitan Subway
+and the land-use pattern of the station areas.” Cities 35 (Dec): 69–77.
+https://doi.org/10.1016/j.cities.2013.06.010.
+Lei, T., Y. Chen, and K. Goulias. 2012. “Opportunity-based dynamic transit
+accessibility in Southern California: Measurement, findings, and comparison with automobile accessibility.” Transp. Res. Rec. 2276: 26–37.
+https://doi.org/10.3141/2276-04.
+Lin, T. G., J. C. Xia, T. P. Robinson, K. G. Goulias, R. L. Church, D. Olaru,
+J. Tapin, and R. Han. 2014. “Spatial analysis of access to and accessibility surrounding train stations: A case study of accessibility for the
+elderly in Perth, Western Australia.” J. Transp. Geogr. 39 (Jul): 111–120.
+https://doi.org/10.1016/j.jtrangeo.2014.06.022.
+Lewis, P. G., and M. Baldassare. 2010. “The complexity of public
+attitudes toward compact development: Survey evidence from five
+states.” J. Am. Plann. Assoc. 76 (2): 219–237. https://doi.org/10.1080
+/01944361003646471.
+Liu, Y., X. Wei, L. Jiao, and H. Wang. 2016. “Relationships between street
+centrality and land use intensity in Wuhan, China.” J. Urban Plann.
+Dev. 142 (1): 05015001. https://doi.org/10.1061/(ASCE)UP.1943-5444
+.0000274.
+Lyu, G., L. Bertolini, and K. Pfeffer. 2016. “Developing a TOD typology
+for Beijing metro station areas.” J. Transp. Geogr. 55 (Jul): 40–50.
+https://doi.org/10.1016/j.jtrangeo.2016.07.002.
+Matthews, J. W., and G. K. Turnbull. 2007. “Neighborhood street layout
+and property value: The interaction of accessibility and land use mix.”
+J. Real Estate Fin. Econ. 35 (2): 111–141. https://doi.org/10.1007
+/s11146-007-9035-9.
+Ministry of Land, Infrastructure, and Transport. 2017. Apartment transaction data. Sejong, South Korea: Ministry of Land, Infrastructure, and
+Transport.
+Osland, L., and I. Thorsen. 2008. “Effects on housing prices of urban
+attraction and labor-market accessibility.” Environ. Plann. A 40 (10):
+2490–2509. https://doi.org/10.1068/a39305.
+Park, S., Y. Choi, H. Seo, A. V. Moudon, C.-H. C. Bae, and S.-R. Baek.
+2016. “Physical activity and the built environment in residential
+neighborhoods of Seoul and Seattle: An empirical study based on
+
+© ASCE
+
+housewives' GPS walking data and travel diaries.” J. Asian Archit.
+Build. Eng. 15 (3): 471–478. https://doi.org/10.3130/jaabe.15.471.
+Porta, S., P. Crucitti, and V. Latora. 2006. “The network analysis of
+urban streets: A primal approach.” Environ. Plann. B Plann. Des.
+33 (5): 705–725. https://doi.org/10.1068/b32045.
+Quigley, J. M. 1995. “A simple hybrid model for estimating real estate price
+indexes.” J. Hous. Econ. 4 (1): 1–12. https://doi.org/10.1006/jhec.1995
+.1001.
+Rabe-Hesketh, S., and A. Skrondal. 2008. Multilevel and longitudinal
+modeling using stata. College Station, TX: STATA Press.
+Seoul Metropolitan Government. 2010. Seoul building registry data. Seoul,
+South Korea: Seoul Metropolitan Government.
+Seoul Statistics. 2014. “Seoul statistical service.” Accessed January 23,
+2018. http://stat.seoul.go.kr/.
+Seoul Statistics. 2016. Public transit use in Seoul. Seoul, South Korea:
+Seoul Metropolitan Government.
+Sevtsuk, A. 2014. “Location and agglomeration: The distribution of retail
+and food businesses in dense urban environments.” J. Plann. Educ. Res.
+34 (4): 374–393. https://doi.org/10.1177/0739456X14550401.
+Sevtsuk, A., and M. Mekonnen. 2012. “Urban network analysis. A new
+toolbox for ArcGIS.” Revue Internationale de Géomatique 22 (2):
+287–305. https://doi.org/10.3166/rig.22.287-305.
+Statistics Korea. 2010. Korean census tract maps. Daejeon, South Korea:
+Statistics Korea.
+Sung, H., and J. Oh. 2011. “Transit-oriented development in a high-density
+city: Identifying its association with transit ridership in Seoul, Korea.”
+Cities 28 (1): 70–82. https://doi.org/10.1016/j.cities.2010.09.004.
+Waddell, P., and G. F. Ulfarsson. 2003. “Accessibility and agglomeration:
+Discrete-choice models of employment location by industry sector.”
+In Proc., 82nd Annual Meeting of the Transportation Research Board.
+Washington, DC: Transportation Research Board.
+Wang, F., C. Chen, C. Xiu, and P. Zhang. 2014. “Location analysis of retail
+stores in Changchun, China: A street centrality perspective.” Cities
+41 (Dec): 54–63. https://doi.org/10.1016/j.cities.2014.05.005.
+Wang, Y., D. Potoglou, S. Orford, and Y. Gong. 2015. “Bus stop, property
+price and land value tax: A multilevel hedonic analysis with quantile
+calibration.” Land Use Policy 42 (Jan): 381–391. https://doi.org/10
+.1016/j.landusepol.2014.07.017.
+Wu, J., N. Ta, Y. Song, J. Lin, and Y. Chai. 2018. “Urban form breeds
+neighborhood vibrancy: A case study using a GPS-based activity survey
+in suburban Beijing.” Cities 74 (Apr): 100–108. https://doi.org/10.1016
+/j.cities.2017.11.008.
+Xiao, Y., C. Webster, and S. Orford. 2016. “Identifying house price
+effects of changes in urban street configuration: An empirical study
+in Nanjing, China.” Urban Stud. 53 (1): 112–131. https://doi.org/10
+.1177/0042098014560500.
+Yang, J., J. Chen, X. Le, and Q. Zhang. 2016. “Density-oriented versus
+development-oriented transit investment: Decoding metro station location selection in Shenzhen.” Transp. Policy 51 (Oct): 93–102. https://
+doi.org/10.1016/j.tranpol.2016.04.004.
+Yi, C., and S. Lee. 2014. “An empirical analysis of the characteristics
+of residential location choice in the rapidly changing Korean housing
+market.” Cities 39 (Aug): 156–163. https://doi.org/10.1016/j.cities
+.2014.03.002.
+Zuk, M., A. H. Bierbaum, K. Chapple, K. Gorska, and A. LoukaitouSideris. 2018. “Gentrification, displacement, and the role of public
+investment.” J. Plann. Lit. 33 (1): 31–44. https://doi.org/10.1177
+/0885412217716439.
+
+05019010-12
+
+J. Urban Plann. Dev., 2019, 145(3): 05019010
+
+J. Urban Plann. Dev.
+
+

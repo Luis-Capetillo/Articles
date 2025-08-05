@@ -1,0 +1,1549 @@
+Sustainable Cities and Society 72 (2021) 103078
+
+Contents lists available at ScienceDirect
+
+Sustainable Cities and Society
+journal homepage: www.elsevier.com/locate/scs
+
+New hydro-economic system dynamics and agent-based modeling for
+sustainable urban groundwater management: A case study of Dehno, Yazd
+Province, Iran
+Mohammad Ali Arasteh a, b, *, Yaghoub Farjami c
+a
+b
+c
+
+Department of Information Technology, University of Qom, Iran
+Head of GIS Group, Water and Wastewater Company, Yazd, Iran
+Department of Information Technology, University of Qom, Iran
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Hydro-economic model
+Drought
+System dynamics
+Agent-based modeling
+Water pricing
+Sustainable urban water management
+
+Water scarcity invariably poses a threat to the sustainability of cities and rural areas with limited resources,
+especially in developing countries. This paper presents a new hydro-economic model based on system dynamics
+and agent-based simulation to enhance the sustainability of urban groundwater. Dynamic pricing was performed
+based on several parameters, such as resource conditions, price elasticity, consumption history and climate
+change, to improve the sustainability of groundwater and cover the costs of implementing strategies. Different
+scenarios based on pricing, rationing, culturalizing, and non-revenue water control strategies were applied in the
+village of Dehno in Yazd Province as the case study with an arid climate. The results showed that several sce­
+narios can achieve the goal, but, in drought conditions, only a combination of all the strategies will work.
+
+1. Introduction
+Growing human activities, rapid socio-economic development and
+drought conditions have caused changes in water-related environmental
+issues, such as long-term shortage of water resources, rapid deteriora­
+tion of water quality, scarcity, and degeneration of aquatic ecosystems.
+These changes are detrimental to the coordinated management of water
+systems for sustainable urban and rural areas (Cui, Chen, Xue, Li, &
+Zeng, 2019; Echeverría, 2020). In recent years, most Middle Eastern
+countries have experienced a growing scarcity of freshwater resources.
+This scarcity, along with pollution, calls for a change in water policies
+and a better focus on the society’s preferences in connection with the use
+of water and development, thus to ensure the availability and sustain­
+able management of water and sanitation for all (SDG6). Water man­
+agement, as it is nowadays, does not adequately tend to modify the
+existing policies, derive the necessary directives, or bring water issues
+under long-term planning (Ho, Alonso, Forio, Vanclooster, & Goethals,
+2020). Changing the focus of water management approaches from
+supply to demand can improve water conservation and sustainability. In
+this respect, specific adaptive management policies are needed for a
+transition towards groundwater sustainability. Sustainability in this
+sense would refer to the exploitation of water resources for the present
+
+needs while maintaining them for future generations without adverse
+environmental, economic and social consequences (Yusuf et al., 2020).
+Achieving this goal entails pricing, public awareness, culturalization,
+technical tools, water recycling and sewage systems (Hof, Blázquez-Sa­
+lom, & Garau, 2018). Hydro-economic solutions can serve as promising
+tools for the more efficient management of water resources (Alamanos,
+Latinopoulos, Papaioannou, & Mylopoulos, 2019). Scarcity pricing is an
+effective strategy to reduce demand while simultaneously generating
+additional revenues (Sahin, Siems, Stewart, & Porter, 2016). Setting low
+water prices leads to water wastage and is considered as an ineffective
+policy in a water management system. (Mercadier & Brenner, 2020).
+There are several methods to solve the complexity of water manage­
+ment, hydro-economic modeling, and inclusion of complex parameters
+such as feedback, interdependence and emergence (Guerrero, Schwarz,
+& Slinger, 2016). Using an agent-based or system dynamics model is an
+example of such methods. In an agent-based model, the behavior of the
+system emerges bottom-up from the interactions of individuals with one
+another and with their environment based on a set of pre-specified rules.
+A system dynamics model, however, represents the behavioral pattern of
+the system based on generalizable underlying structures whose main
+elements are endogenous feedback and accumulation of quantities over
+time. Unlike the agent-based method, a system dynamics model is
+
+* Corresponding author at: Department of Information Technology, University of Qom, Iran.
+E-mail address: ma.arasteh@stu.qom.ir (M.A. Arasteh).
+https://doi.org/10.1016/j.scs.2021.103078
+Received 7 January 2021; Received in revised form 4 May 2021; Accepted 6 June 2021
+Available online 10 June 2021
+2210-6707/© 2021 Published by Elsevier Ltd.
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+usually presented at an aggregate level (i.e., with a top-down structure)
+and has broader boundaries (Morshed, Kasman, Heuberger, Hammond,
+& Hovmand, 2019).
+A lot of research has been done in the fields of hydro-economics and
+water pricing for sustainable urban water management. Tortajada,
+González-Gómez, Biswas, and Buurman (2019) reviewed water demand
+management strategies for water-scarce cities in Spain. The result
+showed that education, awareness raising for water conservation and
+promotion of water-saving technologies have major impacts on sus­
+tainable water consumption. Babamiri, Pishvaee, and Mirzamohammadi
+(2020) conducted a financial analysis of sustainable management stra­
+tegies of urban water distribution networks under an increasing block
+tariff structure with a system dynamics approach. Rojas, Garcia-Vega,
+and Herrera-Torres (2019) explored economic policies and their role
+as a tool for managing the sustainability of water resources. Lopez-Ni­
+colas, Pulido-Velazquez, Rougé, Harou, and Escriva-Bou (2018) showed
+the best urban water-saving solution based on economic solutions.
+Molinos-Senante and Donoso (2016) examined the impact of water
+tariffs on drought conditions for sustainable urban water management.
+They showed that hydro-economic modeling improves water use sus­
+tainability. Fan (2019) explored hydro-economic models of sustainable
+water resource management. Sahin et al. (2016) offered several methods
+to control demand, such as pricing in drought conditions. They also
+advocated hydro-economic models to protect urban water during
+droughts (Sahin, Bertone, Beal, & Stewart, 2018). Massarutto (2020)
+reviewed the theoretical and applied literature in the field of residential
+water economic models. He provided many examples of approaches and
+solutions that are more consistent with the sustainability theory. Mer­
+cadier and Brenner (2020) analyzed tariff sustainability in Buenos Aires
+water and sanitation concessions amidst economic instability. Water
+scarcity exerts a significant influence on price elasticity and sustainable
+cities. If water scarcity is severe, household responsiveness to prices
+decreases, though this effect is attenuated in environmentally concerned
+communities (Garrone, Grilli, & Marzano, 2019). Favre and Montginoul
+(2018) reviewed hydro-economic models in Tunisia for the sustain­
+ability of cities and showed the cost-recovery principle strongly depends
+highly on high-consumption households. The affordability principle was
+found to only concern piped households. The averaging-out principle
+does not indicate the local scarcity value of water. Al-Saidi (2017)
+reviewed urban water economic models for sustainable consumption in
+Yemen. He compared increasing block tariffs with other pricing
+schemes.
+Due to the excessive extraction of groundwater for intense agricul­
+tural activities, Yazd plain, a water-scarce district in the center of Iran,
+has been faced with a serious water crisis during the past decade. This is
+more or less like the conditions in the other regions of Iran. Appropriate
+pricing can have a positive effect on water consumption in Iran. In some
+past research works, the extent of this effect is calculated. Through a
+systematic review and meta-analysis, Shadivand, SAYEH, and ASKARI
+(2019) investigated the factors affecting the price and income elasticity
+of household water demand in Iran. Using Rosenthal and Robin’s
+approach in the systematic review, the effects of price and income
+elasticities were calculated for household water demand. Then, based on
+the heterogeneity of the calculated effects, random and fixed models
+were used to combine the results. Rezaee and Shojaa (2020) estimated
+the income and the price elasticity of Kermanshah urban water demand.
+Price elasticity indicates a negative correlation between price changes
+and water demand. If the price of water increases by 10 %, the demand
+for it will decrease by 4.3 %. Abolhasani, Tajabadi, and Shahnoushi
+Forushahi (2018) reviewed 21 empirical case studies in Iran from which
+65 estimates of price elasticity for residual water demand were
+collected. The inclusion of income, use of time-series datasets, natural
+logarithm function of demand and application of the stone-gray theory
+were all found to affect the estimate of price elasticity. The population
+density and the use of OLS techniques to estimate the demand param­
+eters did not significantly influence the estimate of price elasticity.
+
+To implement a hydro-economic model of urban water management,
+practical straightforward measures, effective incentives, and fines
+should be taken into consideration. This makes water consumption
+optimal (Sharifi, 2020). For example, the inclusion of a subscriber’s
+consumption history in pricing may create an incentive for saving, or an
+exponential increase in prices as a fine may be a deterrent for those who
+consume a lot. Paying attention to these points complements the
+research work of others. For urban water sustainability management,
+this study proposes a model with hydro-economic considerations in
+social and individual dimensions. The price dimension includes cost,
+supply-demand balance, resource conditions (i.e., the sustainability of
+groundwater), and rainfall. The bill, which represents the households
+section of water pricing, is calculated based on consumption pattern,
+history, price elasticity, and comparison with others. This case study was
+planned to focus on the sustainability of urban groundwater. It was due
+to its special circumstances that the village of Dehno in the province of
+Yazd was selected for the study. The area has a dry climate and is beset
+with an extended drought. The purpose of the study is not to determine
+the price-demand or elasticity function; rather, water pricing is
+considered as a tool to control consumption in favor of groundwater
+sustainability. It also covers the costs of the proposed strategies.
+As indicated in Fig. 1, the study was carried out through a number of
+steps. After the problem was identified, an area was selected for a case
+study. Once the possible solutions were reviewed for the problem, a
+hypothesis was extracted. The problem was modeled through system
+dynamics and agent-based methods. The pricing formula, taxes, duties
+and incentives were calculated too. The results of the model simulation
+were consistent with the past real behavior of households, and the
+structure was successfully evaluated through a test. Then, different
+scenarios of demand management were tested to select the best one that
+could maintain the sustainability of water resources in drought condi­
+tions, meet the costs of the water supply company, and cause the least
+dissatisfaction.
+The rest of this paper is organized into several parts. The second part
+presents the methodology of the study. In the third part, the results of
+strategy implementation are offered, and the fourth part discusses those
+results. Finally, the fifth part ends the paper with the conclusion.
+2. Methodology
+2.1. Case study
+Dehno is a rural area in the province of Yazd, Iran, with a population
+of about 5000 in 1000 families. The area has arid climatic conditions
+with low rainfall and high evaporation. It is located far from seas (500
+km to the Persian Gulf and 700 km to the Caspian Sea) and in the vicinity
+of a vast desert with low relative humidity and high temperature
+(Fig. 2).
+Dehno has been selected for a case study for several reasons:
+a) The area has an arid climate. Recently, it has suffered from
+drought, and precipitation has decreased significantly. Prolonged
+drought and increased demand for water have led to an uncontrolled
+increase in water abstraction from wells. This has caused a significant
+reduction in groundwater resources.
+b) The village is located at the distance of 10 km from Yazd, but it
+seems connected to Yazd due to the enlargement of the city. Its climate is
+the same as that in Yazd. The demand for water has increased signifi­
+cantly due to the population growth, the expansion of the water supply
+network, and the occurrence of drought. Therefore, the volume of
+groundwater has significantly reduced. Based on the opinions of the
+experts at ABFA Company, if this trend continues for less than eight
+years, the resources will dry up. In recent years, as Piezo metrics suggest,
+the groundwater in Yazd-Ardakan aquifers has gone down due to
+drought and excessive consumption, and the role of rainfall has become
+greater than before (Fig. 3). These conditions are true about Dehno too;
+the demand for water has increased, and the volume of groundwater has
+2
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Fig. 2. Climate zones in the Iranian provinces (Karandish, Hoekstra, & Hoge­
+boom, 2020).
+
+(Fig. 6) and have used urban water to irrigate plants. In the recent
+drought, agricultural water resources have dried up. This has led to a
+large increase in consumption and a critical situation in drinking water
+resources. Fig. 7 compares the average consumption values in Yazd and
+Dehno from 2009 to 2019. The average consumption per person has
+increased in Dehno but decreased in Yazd. Due to the low price of do­
+mestic water in the village, households have also used it for agriculture
+in drought conditions.
+All the figures and the tables about the case study area were obtained
+from ABFA, Yazd Water Resources Company, and expert opinions in this
+company.
+2.2. Hypothesis
+Before the study was launched, it was hypothesized that a combi­
+nation of demand management and pricing policies would maintain the
+sustainability of groundwater resources in drought conditions in Dehno,
+Yazd.
+2.3. Modeling
+Water management involves a complex system of different factors
+and behaviors that influence one another. To model such a system, first,
+the main variables were extracted through a review of the literature and
+(Arasteh & Farjami, 2021). Then, the relationships among the variables
+were identified based on a causal-loop diagram, which is one of the best
+tools to determine the types of relationships among system variables.
+Fig. 8 shows a causal loop diagram of six main loops in hydro-economic
+modeling, including consumption, price change, revenue, population,
+supply, and waste loops. All the loops were corrective. Price-related
+loops were extracted to determine the extent of the hydro-economic
+impact on the other factors.
+
+Fig. 1. The steps of the study.
+
+decreased (Fig. 4).
+c) The region has more than 30 wells that supply Dehno and Yazd
+drinking networks. Therefore, water management in the region is very
+important for ABFA.
+d) The main sources of water in the region are groundwater and the
+water transferred from Isfahan Province. Fig. 5 addresses the supply of
+water from these sources. As it turns out, the majority of consumption is
+for groundwater.
+e) The garden houses are located among the agricultural lands
+
+1 Price-> bill-> income-> culture-> consumption and waste-> supplydemand balance-> price.
+2 Price-> bill-> satisfying-> theft-> consumption and waste-> supplydemand balance
+3 Price-> bill-> satisfying-> theft-> income-> culture-> consumption
+and waste-> supply-demand balance-> price
+
+3
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Fig. 3. Conditions of the groundwater resources in the Yazd-Ardakan plain: Piezo metric level of the aquifer and the effect of precipitation on it from 1998 to 2014
+(Barzegari, 2018).
+
+Fig. 4. Demand, groundwater capacity, and average consumption in Dehno from 2009 to 2019.
+
+system behavior. The system dynamics method is a top-down one and
+can be applied to high-aggregation cases (i.e., high-abstraction cases). It
+assumes that all processes are continuous and makes use of multiple
+feedback mechanisms, delays, and complex non-linear processes
+described by differential equations. On the other hand, the agent-based
+methods use a bottom-up perspective, deal with discrete processes, and
+handle middle-to-low aggregation (i.e., low abstraction). A value prop­
+osition of agent-based modeling tools is the ability to capture the dy­
+namics at work between the multiple autonomous agents and the
+heterogeneous groups of agents interacting in a system (Wilensky &
+Rand, 2015). In Fig. 9, the simulation environment can be seen as a part
+of the system dynamics with a stock and flow diagram. The stocks
+include reservoirs, groundwater, surface water, households, dynamic
+price, profit, culture, waste, and theft percentage. The Anylogic v8.05
+software was used to model the dynamics of the agents, namely the
+households in the agent-based section and the stock and flow diagram in
+the system dynamics section. The model was divided into the following
+subsystems which interacted with one another:
+Water supply subsystem: This subsystem includes a groundwater,
+surface water, and sewage treatment network. The water conservation
+sector must adopt control policies to protect water resources. For
+example, surface water volume equals the sum of rainwater and river
+water minus overflow, soil infiltration and surface evaporation. The
+green area in Fig. 9 shows this subsystem.
+Demand and balance subsystem: The purpose of this subsystem is
+to balance the supply and demand in the drinking water network. The
+yellow area in Fig. 9 shows this subsystem.
+People are the agents of the system. Fig. 10 shows the households
+that are part of the demand system. With a click on each household, its
+
+Fig. 5. The amount of water supply over ten years from 2009 to 2019 and the
+percentages of the water supplied by two main resources.
+
+4 Price-> bill-> satisfying-> theft-> income-> waste and wastewater
+network reform-> consumption and waste-> supply-demand bal­
+ance-> price
+In the next step, it was necessary to determine the main variables and
+the sub-variables based on the reference model. Table 1 shows the main
+variables of the system. The simulation column specifies which variable
+belongs to the simulation method. The formula column shows the
+method of calculation.
+Due to the complexity and interactivity of the factors, a combination
+of system dynamics and agent-based methods was used to model the
+4
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Fig. 6. Dehno drinking water network and wells: The households are among the agricultural lands.
+
+to the quality of water itself. NRW is typically measured as the volume of
+the water lost, which is a part of the net water produced (AL-Washali,
+Elkhider, Sharma, & Kennedy, 2020; Torkaman, Ahmadi, & Aminnejad,
+2021). This subsystem reduces water loss and increases consumption
+through developing a distribution network. Therefore, network devel­
+opment should be cautious concerning resource capacity. It should also
+regard waste reduction, household monitoring, and wastewater reuse.
+The treated wastewater contributes to the supply of water to farmlands
+and non-drinking usages. The subsystem is shown in the maroon area of
+Fig. 9.
+Awareness subsystem: It serves to raise households’ awareness and
+create incentives for proper consumption. The blue area in Fig. 9 shows
+this subsystem.
+Cost and revenue subsystem: The purpose is for cost recovery
+through dynamic pricing. To determine costs and revenue, a stock is
+considered as the profit, and the monthly costs including the cost of
+awareness, smart meter, network modification, and monitoring are
+deducted from it. The revenues come from operations, bills, grants, and
+government budgets. Consequently, the costs can be applied based on
+the existing profit, which forms a dynamic cycle. A rise in the price in­
+creases the revenue and offsets some of the company’s costs. The com­
+pany spends part of its revenue on household awareness, network
+refinement, optimization of water use, and balancing the supply and
+demand in the long run. The red area in Fig. 9 shows this subsystem.
+The dynamic pricing function is part of this subsystem. Proper and
+fair water pricing has two advantages. It saves water and gives in­
+centives to save. It also pays off NRW control and cultural costs. In
+pricing, justice should be ranked first. Second, household incentives or
+savings should be taken into account. Third, there should be excessive
+consumption fines. In this study, water pricing is done in the dimensions
+of price and bills. The price is based on water balance, resource sus­
+tainability, climate change, rationing, inflation, and management fac­
+tors. If there is an overflow, certain incentives are provided for
+consumption in agriculture and industry. This part of the price algorithm
+is calculated based on system dynamics. The price is the same for all the
+households and is calculated in each period (i.e. per month).
+
+Fig. 7. Per capita domestic water consumption in Yazd vs Dehno in ten years.
+
+Fig. 8. The causal loop diagram of the model.
+
+specifications and the amount of its consumption are displayed on a new
+page. Each household is characterized in terms of age, gender, number
+of members, income, consumption, bill, the possibility of theft or con­
+sumption without a meter, and satisfaction.
+NRW control subsystem: Non-revenue water (NRW) is the water
+produced but lost before it reaches the customer. Losses can be real
+losses (through leaks, sometimes referred to as physical losses) or
+apparent losses (through theft or metering inaccuracies). High levels of
+NRW are detrimental both to the financial viability of water utilities and
+
+∫
+Pricet =
+
+)
+(
+d
+Balancet
+GroundWatert
+Rainfallt
+Rationingt
+(ManagePrice + ActualCost)∗
+∗ManageRatio ∗ BasePrice
+∗
+∗
+∗
+dt
+Balancet− 1 GroundWatert− 1 Rainfallt− 12 Rationingt− 1
+
+5
+
+(1)
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Table 1
+The main variables of the system and their types and formula.
+Variable
+
+Variable
+type
+
+Method
+
+Formula
+
+Groundwater In
+
+Flow
+
+Groundwater
+
+Stock
+
+Delay (Rain, Effect Time) * Groundwater Effective Area *delay (Supply * Return Percent, Effect Time) +delay (Surface water
+Penetration * Surface water Penetration Percent, Effect Time)
+Groundwater in – Groundwater out
+
+Groundwater
+Out
+Surface water In
+
+Flow
+
+Surface water
+
+Stock
+
+Reservoir input
+
+Flow
+
+Reservoir output
+
+Flow
+
+Reservoir
+
+Stock
+
+Income
+
+Flow
+
+profit
+
+Stock
+
+Costs
+
+Flow
+
+NRW percentage
+
+Stock
+
+Culture
+
+Stock
+
+Rainfall
+
+Variable
+
+Demand
+
+Variable
+
+Bills
+
+Variable
+
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+System
+Dynamics
+Agent-based
+
+∑i=consumers.count ()
+
+variable
+
+Agent-based
+
+i
+
+Consumers.ConsumersBill ()
+
+Consumer
+demand
+Theft
+
+∑i=consumers.count ()
+i
+
+Consumers.ConsumersNeed ()
+
+Variable
+
+Agent-based
+
+∑i=consumers.count ()
+
+Consumers.Teft ()
+
+Flow
+
+Limit (0, Groundwater Debit, Min (Groundwater, Reservoir))
+Flowing water + River
+Surface water in – Surface-water Out - Evaporation – Surface-water Penetration – Surface-water Overflow
+Surface water Out + Groundwater Out + Transition Water
+Limit (0, limit Max ((Demand)*(1-Rationing/100), Household s. Household s Real Consume () +Waste), Reservoir)
+Reservoir Input – Reservoir Output – Reservoir Overflow
+Sum of Bills
+Income Cost
+(Monitor and Correct + Awareness) *people
+Waste in-waste out
+Culture increase-Culture decrease
+∑t
+
+t− 12 Rain
+
+Waste + consumer Demand
+
+i
+
+Fig. 9. Main stock and flow diagram in the Anylogic software.
+
+6
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Table 2
+Dynamic pricing variables.
+Variable/Idiom
+
+Description
+
+consumet
+
+The volume of household consumption in the current
+month
+The base price of water announced by the government
+The price of water if it is fixed or changes manually
+The price of water if changed automatically base on the
+price formula in every month and different in every
+household
+Price in the current month
+
+Base price
+Fixed price
+Dynamic price
+
+Pricet
+
+Bill
+
+There was elasticity in the drinking water price. The
+households were divided into three levels:
+1 Low volume users (poor level): -0.10 to -0.30
+2 Medium volume users (middle level): -0.4 to -0.5
+3 High water users (rich level): -0.7 to -0.8
+Consumption bill in the current month
+
+Manager’s price
+
+Price changes based on the manager’s opinion
+
+Actual cost
+
+The primary cost of services
+
+Balancet
+Balancet− 1
+Groundwatert
+Groundwatert− 1
+
+Changes in balance (demand-supply balance ratio in
+the current month compared to the previous month)
+Changes in the volume of groundwater resources (the
+conditions of groundwater resources compared to the
+previous month)
+Climate change (current rainfall compared to the
+previous year)
+Dietary changes (ratio of rationing in the current
+month to the previous month)
+Overflow in the surface water
+
+Price elasticity
+
+Rainfallt
+Rainfallt− 12
+Rationingt
+Rationingt− 1
+DamOverFlowt
+
+Fig. 10. The agent-based section of the simulation.
+
+TankOverFlowt
+consumet
+consumet− 12
+
+If (Surface water overflowt > 5000 ||Reservoir OverFlowt
+> 5000 ), then pricet ∗ = 0.8
+
+consumet ∗consumers.count
+∑consumers.count
+consume
+1
+Manager’s ratio
+
+(2)
+
+It is necessary to simulate each household to calculate the bill. There­
+fore, agent-based simulation is used rather than system dynamics.
+
+∫
+Bill =
+
+d consumet consumet ∗consumers.count
+∗
+∗Pricet ∗PriceElastic∗consumet
+consumers.count
+∑
+dt consumet− 12
+consume
+
+Overflow in the reservoir
+Household consumption changes (current
+consumption over the same month in the previous
+year)
+Ratio of the household consumption to the average
+consumption in the region
+The management determines the coefficient. It
+guarantees the implementation of executive costs. It is
+determined in such a way that the amount of revenue
+of the company is not significantly different from that
+in the fixed pricing method
+
+(3)
+
+1
+
+Price elasticity must be involved too. Water is inelastic for essential
+usages such as drinking, food preparation and sanitation (Price elasticity
+for this usage is between -0.30 and -0.10), but it is elastic for such tasks
+as recreational sports and non-essential usages like irrigation and
+washing. In this study, the results of several other studies including
+Abolhasani et al. (2018), Karimlou, Hassani, Mehrabadi, and Nazari
+(2019), Rezaee and Shojaa (2020), Shadivand et al. (2019) and Taja­
+badi, Abolhassani, and Shahnoushi (2018) were used to calculate the
+Price Elasticity. It is considered as a variable based on household in­
+come. The amount of household income was calculated with regard to
+the household size and the amount of household consumption.
+Accordingly, households and price elasticity were divided into three
+levels. Based on the findings, an increase in the price had an opposite
+effect on the consumption. Also, the increase in the price had the
+greatest impact on the middle class.
+Table 2 shows the details of the pricing method and the calculation of
+the household bills. The variable column introduces the influential
+factors in the pricing formula, and the description column gives defi­
+nitions and interpretations for the variables.
+
+3. Results
+3.1. Model validation
+A model can simulate the behavior of a system reliably only if the
+designer includes his real needs in it (Homer & Oliva, 2001). There are
+different evaluation and validation methods to compare simulated and
+actual data (Barlas, 1996), including the tests introduced by Forrester
+and Barlas (Legasto, Forrester, & Lyneis, 1980; Sweeney & Sterman,
+2000). The time was divided into two periods, from 2018 to 2019 for a
+two-year evaluation and comparison with the past and from 2019 to
+2025 for a five-year simulation. There are three tests to evaluate the
+model as follows:
+a. Structure validation: The model is run over a long period (15
+years). According to Fig. 11a, the structure is relatively stable, but, with
+the continuation of the current trend from month 144 (in the year 2033),
+the groundwater resources will be in a critical state.
+b. Repetition of the behavior: The model is run several times to
+evaluate its behavior (Fig. 11b). Slight changes indicate the uncertainty
+of the model. However, they still follow the same structure.
+7
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Fig. 11. Model validation.
+
+c. Comparison with the past: The model is compared to the real
+system behavior in the two years before the simulation (from 2019 to
+2021). As shown in Fig. 11c, the model simulation matches the past. This
+test serves to calibrate the water demand function with the real data.
+The real data are based on the consumption of the households and the
+annual report of ABFA resource status in the case study during the twoyear period before the simulation.
+The factors that affect the amount of consumption include the
+change of water prices, prevention of unauthorized use, proper con­
+sumption culture, and forcible reduction of consumption through ra­
+tioning. To determine the best method in drought conditions, it is
+necessary to set a series of scenarios, make reviews, and compare the
+simulation results. To find the best solution, a combination of different
+strategies has been examined and finally implemented in 19 different
+scenario in three aspects including initial scenarios, drought conditions
+and strategies comparisons. A comparison of the conditions of resources
+in these scenarios with the current conditions continuing during the five
+years of simulation is shown in Fig. 12, and Table 4 reviews all the
+scenarios with cost/income details. In every scenario with a fixed price
+change, the price increases to a certain extent every month, and this
+change is the same for everyone. In dynamic pricing, however, the price
+change is based on the proposed formula, calculated separately for each
+household. Based on the formulation, if the consumption increases, the
+
+price will increase exponentially; a fine has been predicted in the pricing
+formula. Also, if the household consumption is low, the price will be
+reduced to zero.
+3.2. Initial scenarios
+a. The current conditions
+Resource capacity indicates the groundwater resources sustainability
+index as the main goal of this paper. The sustainability of groundwater
+resources will be disrupted if the capacity of water resources is less than
+20 million cubic meters. In the current trend, Dehno will face problems
+and crises from the 30th month onwards.
+b. Static pricing: a fixed increase in the price every month
+In this scenario, the price of water should be increased just slightly
+each month so as not to put pressure on households. Therefore, this
+scenario is very useful for financing the current expenses and increasing
+the company’s revenues, but it does not lead to reduced consumption
+and, thus, to the sustainability of water resources. Its failure to reduce
+consumption is due to paying no attention to fines and incentives; as a
+result, it cannot change the behavior of subscribers. According to the
+ABFA consumption data, when water prices increased, consumption
+reduced in four months, but it then returned to its original state. Ac­
+cording to ABFA experts, this may be due to the low price increase and
+8
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Fig. 12. Resources Sustainability in the examined scenarios for 60 months (2021-2026).
+
+lack of price elasticity considerations.
+c. NRW control and households monitoring
+This includes monitoring the households, controlling the network
+against theft, fixing the old networks, repairing breakdowns rapidly, and
+reducing the network loss. In this regard, household monitoring means
+to prevent the manipulation of metering devices and network theft. This
+requires the use of technology and power and is not possible without
+investment. According to the ABFA experts, with such monitoring, the
+rate of consumption is reduced by 2% each month for one year and the
+budget required in each month is 50 million Rials. This budget must be
+offset by pricing. In this scenario, pricing is based on fixed and periodic
+(monthly) increases (SP scenario).
+d. Rationing and limiting the consumption with smart meters
+
+In this scenario, water consumption is controlled using smart meters.
+The service provider controls these meters remotely. Each family is
+assigned a daily allowance based on the number of members and the
+history of consumption. If the consumption reaches the threshold, the
+automatic meter is cut off and only a small amount of water passes
+through it. The cost of this task must be offset by pricing. In this scenario,
+pricing is based on fixed and periodic (monthly) increases (as in the SP
+scenario). The cost of a smart meter for each household is 10 million
+Rials, and the number of replacements per month is determined based
+on the company’s revenue.
+e. Awareness and Culture
+This scenario has to do with the awareness-raising, educating and
+informing of the households about the conditions of water resources and
+9
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+how to conserve them. According to the experts at the local water supply
+company, this task costs 50 thousand Rials per household per month and
+the savings in each month is 2%, but the results are not measurable in
+the long run. The cost must be offset by pricing, which, in this scenario,
+is based on fixed and monthly increases (as in the SP scenario)
+f. Dynamic pricing þ NRW control
+In this section, scenario M is implemented with dynamic pricing,
+which is the method of pricing proposed in this study. The average price
+change in dynamic pricing is the same as fixed price change, but the
+revenue is almost doubled. This is because the income is accrued
+through fines and exponential bill change on high-consumption
+households.
+g. Dynamic pricing þ NRW control þ Awareness
+In this scenario, a combination of the previous scenarios is used
+along with awareness. According to the experts at the service-providing
+company, promoting the culture and education of households requires
+less NRW control, so the investment is dedicated to them.
+h. Dynamic pricing þ NRW control þ Awareness þ Rationing
+Dynamic pricing serves to cover the inevitable costs by combining
+NRW control, culture and rationing. This method has the best efficiency
+to balance the consumption and the sustainability of water resources,
+but the main problem is that it requires more investment than the other
+methods. The needed funds must be offset either by high prices, through
+government assistance, or in a smart manner over time. But what is
+needed for culture building if rationing is done? To answer this question,
+the following points can be considered:
+
+crisis, the conditions will improve a lot, but the region will still be in the
+crisis from the 30th month and in hot seasons. Therefore, rationing
+policies need to be applied too.
+4 Drought condition þ Dynamic pricing þ Awareness þ NRW
+control þ Rationing (DPCMR)
+This refers to the simultaneous application of consumption control
+policies and rations. Using smart control meters, the consumption of all
+the subscribers can be reduced by 20 %. As a result, the maximum
+allowed consumption is 80 %. In addition, network monitoring and theft
+prevention, promotion of households’ education and culture, dynamic
+pricing, and implementation of incentives and fines should also be taken
+into account when a crisis occurs. As shown in Fig. 12b, in the present
+state of affairs, the resources are not in crisis and have some stability.
+The question that arises is how to apply consumption control policies
+(namely pricing, rationing, monitoring and culture) at the time of crisis.
+Also, since practicing these policies is costly, the policies must be
+managed by the controlling of the cost. For this purpose, different
+combinations of the proposed scenarios have been tested to determine
+the best one.
+3.4. Comparison of the strategies
+As shown in Fig. 12b, the best scenario is the combination of pricing,
+rationing, NRW controlling and culturing. The cost of control and
+awareness raising comes from the revenue of dynamic pricing. High
+prices and rationing may cause social discontent, so they should be
+practiced cautiously. To solve this problem, a combination of strategies
+(e.g., pricing, rationing, NRW control and culturing), as presented in
+Table 3, proves to be the best selection. Since the cost of control is high,
+it cannot be implemented at a low price; therefore, the first case (i.e., the
+moderate price increase with senior NRW control) has been eliminated.
+S1 is not operationally feasible because pricing cannot cover the costs.
+Based on Fig. 12c, the best scenario is S2 when the price change takes
+place at a medium level through rationing. Also, the control of theft and
+wastewater can be done with just a little culture-building. Table 4 pre­
+sents a detailed review of the scenarios.
+
+• Dieting leads to implicit dissatisfaction. Whether this dissatisfaction
+is expressed with protests or remains mentally (da Silva Monte &
+Morais, 2019).
+• Because water is not supplied as much as it can be, it may lead to
+unauthorized removal of the meter or tampering with it, which, in
+turn, leads to further incidents.
+• Customers’ awareness about the drought situation helps to raise their
+acceptance of measures such as water rationing and dynamic pricing.
+Awareness can be a great help to satisfaction and non-disruption
+(Michel, 2017).
+
+4. Discussion
+
+Based on Fig. 12a, the best scenario is the one with a minimal loss (i.
+e., minimal network leakage, breakdown, accident and theft). In such a
+program, the demand is equated with the supply (i.e., a case of equi­
+librium) as much as possible. The best scenario is PMCR, or dynamic
+pricing with NRW control, household awareness and water rationing.
+The last four scenarios contribute to resource sustainability, but their
+performance during a drought needs to be examined.
+
+According to the results gained from the scenarios and based on
+Fig. 12 and Table 4, there are certain points worth discussing.
+• The increase of price alone in the long term has little effect on the
+sustainability of water resources. If combined with proper rationing,
+however, it yields better results. If prices rise too much or rations
+become too tight, local resources are widely used, which decreases
+the infiltration of shallow local aquifers into deep drinking water
+aquifers. This strategy reduces the resources for a long time, in­
+creases the network theft, and reduces the bill payment power.
+• According to ABFA experts, low rations do not reduce consumption
+because the same amount of water is consumed when the households
+are connected to the network. Therefore, rationing should be done
+with the help of smart meters, and the water withdrawal of every
+
+3.3. Drought conditions
+Since the study area is subject to droughts and is currently in that
+condition, different hydro-economic scenarios should be examined in
+four conditions as follows:
+1 Sustainability in drought conditions
+Drought in this study is defined as a 50 % reduction in precipitation.
+In this case, as shown in Fig. 12b, from the 18th month, i.e., from the
+second half of 2019, the underground resource capacity would be less
+than 20 million cubic meters and the region would be in crisis. There­
+fore, consumption management policies would have to be applied.
+2 Drought condition þ Dynamic pricing
+If pricing is applied only as a demand management tool, it will not
+work in a crisis and the goal of the study, which is underground resource
+sustainability, cannot be met. Therefore, other policies need to be
+applied with the revenue from new ways of pricing.
+3 Drought condition þ Dynamic pricing þ Awareness þ NRW
+control (DPCM)
+If consumption control policies, including pricing, awareness and
+monitoring of the network and households, are applied in a drought
+
+Table 3
+Comparison of the main strategies (i.e., pricing, rationing, NRW control and
+culturing).
+
+NRW control = high,
+Culturing = low
+NRW control = mid,
+Culturing = mid
+NRW control = low,
+Culturing = high
+
+10
+
+Price = low
+Rationing = high
+
+Price = mid
+Rationing =
+mid
+
+Price = high
+Rationing =
+low
+
+S1
+
+S2
+
+S3
+
+S4
+
+S5
+
+S6
+
+S7
+
+S8
+
+S9
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Table 4
+Review of the scenarios.
+
+Current status
+Static price change
+NRW control
+Rationing
+Awareness
+Dynamic pricing + NRW
+control
+Dynamic pricing + NRW
+control + Awareness
+Dynamic pricing + NRW
+control + Awareness +
+Rationing
+Drought condition
+Drought condition +
+Dynamic pricing
+Drought condition +
+Dynamic pricing +
+Awareness + NRW
+control
+Drought condition +
+Dynamic pricing +
+Awareness + NRW
+control + Rationing
+S2
+S3
+S4
+S5
+S6
+S7
+S8
+S9
+
+Drought
+
+Static
+pricing
+(Rial/ M3 in
+Month)
+
+Dynamic
+pricing (Rial/
+M3 Month)
+
+Waste control
+(Million
+Rials/Month)
+
+Culture
+(Thousand Rial/
+household in
+Month)
+
+Rationing
+(percent)
+
+Income
+(Million
+Rial/Month)
+
+Sustainability
+
+Sustainability
+In drought
+
+No
+No
+No
+No
+No
+No
+
+No
+50
+50
+50
+50
+No
+
+No
+No
+No
+No
+No
+50
+
+No
+No
+50
+No
+No
+50
+
+No
+No
+No
+No
+500
+No
+
+No
+No
+No
+20
+No
+No
+
+0
+5
+0
+0
+0
+5
+
+No
+No
+No
+Yes
+No
+Yes
+
+No
+No
+No
+No
+No
+No
+
+No
+
+No
+
+50
+
+50
+
+50
+
+No
+
+5
+
+Yes
+
+No
+
+No
+
+No
+
+50
+
+50
+
+50
+
+20
+
+0
+
+Yes
+
+No
+
+Yes
+Yes
+
+No
+No
+
+No
+50
+
+No
+No
+
+No
+No
+
+No
+No
+
+0
+10
+
+No
+No
+
+No
+No
+
+Yes
+
+No
+
+50
+
+No
+
+50
+
+20
+
+0
+
+No
+
+No
+
+Yes
+
+No
+
+50
+
+50
+
+50
+
+20
+
+− 5
+
+Yes
+
+Yes
+
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+No
+No
+No
+No
+No
+No
+No
+No
+
+70
+95
+35
+70
+95
+35
+70
+95
+
+50
+100
+50
+50
+50
+30
+30
+30
+
+50
+20
+50
+50
+50
+100
+100
+100
+
+20
+10
+30
+20
+10
+30
+20
+10
+
+0
+30
+− 5
+5
+35
+− 10
+10
+30
+
+Yes
+No
+Yes
+Yes
+No
+Yes
+No
+No
+
+Yes
+No
+Yes
+Yes
+No
+Yes
+No
+No
+
+household should be limited and specific so that it cannot use more
+than specified. Also, it induces the idea of water shortage, which may
+result in the saving of water.
+• Static pricing does not help to reduce consumption, nor does it make
+a great difference from the current conditions. It is because price
+elasticity is not applied, the households become accustomed to the
+constant rise of prices, and they do not change their consumption.
+Besides, a steady rise in prices may not reflect drought or wet con­
+ditions. Dynamic pricing can solve these problems; the price in­
+creases more when the resource stability is at risk, the supplydemand balance is disturbed, or dryness occurs. Likewise, the price
+will decrease if the conditions reverse or there is a significant in­
+crease in the volume of overflow resources.
+• When the revenue generated by rising prices is devoted to awareness
+raising and NRW control, the change in resource sustainability is
+quite noticeable. This change has been accounted for in the proposed
+scenarios, and it has also been reported in the studies of ABFA
+experts.
+• In a drought condition, if the cost of awareness raising is low or zero,
+there are only focuses on NRW control and rise of prices, delayed
+consumption savings will occur, and resource volume diagrams will
+be initially zeroed and then corrected. This type of change can be
+seen in scenarios S2 and S3.
+• As the DPCM scenario suggests, one can expect the sustainability of
+water resources even in drought conditions without rationing.
+However, even in these circumstances, limited rations are suggested.
+It both helps the sustainability of the resources and encourages the
+idea that resources are limited and running out. This, in turn, pro­
+motes the culture of consumption.
+• As the results suggest, economic scenarios cannot be efficient
+without considering the culture and NRW control factors; every
+
+action within a scenario entails the constant practice of culture and
+control.
+• S2, S4, S5, and S7 are the top resource sustainability scenarios. Tight
+rationing and rising prices, although sustaining the resources, will
+lead to widespread public discontent, which will have long-term
+consequences. There is no possibility of implementation if the sce­
+narios have negative profits (i.e., the costs are more than the in­
+come). As a result, S7 and S4 scenarios are also set aside, and S2 and
+S5 are recommended. These two scenarios contribute to the sus­
+tainability of resources and the maintenance of the relative balance
+of supply and demand.
+Using the proposed method has a series of advantages and challenges
+as follows:
+Advantages
+• Appropriate method: Each household bill is calculated based on its
+consumption history, income, and property size.
+• Effectiveness: The proposed method has a significant positive effect
+on the reduction of consumption.
+• Comprehensiveness: Different factors, including specific conditions,
+regions and water resources, are considered in this method.
+• Consumption and tax incentives: When water resources are felt to be
+adequate, there are incentives for consumption. When there are se­
+vere resource constraints, the taxes and duties imposed on the con­
+sumption increase exponentially; thus, the price increases
+exponentially.
+Challenges
+
+11
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+• Computational complexity: Due to the use of different strategies,
+calculations are complex, and it is unfortunately difficult for the
+household to understand.
+• Severe sensitivity: Changes in consumption, supply-demand balance,
+and resource situation make the prices change suddenly.
+
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+References
+Abolhasani, L., Tajabadi, M., & Shahnoushi Forushahi, N. (2018). Price elasticity of
+residential water demand: A Meta analysis of studies on water demand,(case study: Iran).
+Alamanos, A., Latinopoulos, D., Papaioannou, G., & Mylopoulos, N. (2019). Integrated
+hydro-economic modeling for sustainable water resources management in datascarce areas: The case of lake Karla watershed in Greece. Water Resources
+Management, 33(8), 2775–2790.
+Al-Saidi, M. (2017). Urban water pricing in Yemen: A comparison of increasing block
+tariffs to other pricing schemes. Water International, 42(3), 308–323.
+AL-Washali, T. M., Elkhider, M. E., Sharma, S. K., & Kennedy, M. D. (2020). A review of
+nonrevenue water assessment software tools. Wiley Interdisciplinary Reviews Water, 7
+(2), e1413.
+Amadei, B. (2020). Agent-based and system dynamics modeling of water field services.
+Challenges, 11(2), 13.
+Arasteh, Mohammad Ali, & Farjami, Yaghoub (2021). Supporting Sustainable Rural
+Groundwater Demand Management with Fuzzy Decision Analysis: A Case Study in
+Iran. Utilities Policy, 70, 101215. https://doi.org/10.1016/j.jup.2021.101215
+Babamiri, A. S., Pishvaee, M. S., & Mirzamohammadi, S. (2020). The analysis of
+financially sustainable management strategies of urban water distribution network
+under increasing block tariff structure: A system dynamics approach. Sustainable
+Cities and Society, 60, Article 102193.
+Barlas, Y. (1996). Formal aspects of model validity and validation in system dynamics.
+System Dynamics Review, 12(3), 183–210.
+Barzegari, F. (2018). Prediction of aquifer fluctuations using neural networks models and
+HARTT model (Case study: Yazd-ardakan plain). Iranian Journal of Watershed
+Management Science and Engineering, 12(42), 102–111.
+Cui, D., Chen, X., Xue, Y., Li, R., & Zeng, W. (2019). An integrated approach to
+investigate the relationship of coupling coordination between social economy and
+water environment on urban scale-A case study of Kunming. Journal of Environmental
+Management, 234, 189–199.
+da Silva Monte, M. B., & Morais, D. C. (2019). A decision model for identifying and
+solving problems in an urban water supply system. Water Resources Management, 33
+(14), 4835–4848.
+Dalcin, A. P., & Fernandes Marques, G. (2020). Integrating water management
+instruments to reconcile a hydro-economic water allocation strategy with other
+water preferences. Water Resources Research, 56(5). e2019WR025558.
+Echeverría, J. M. A. (2020). Cross-country evidence for social dimensions of urban water
+consumption during droughts. Journal of Cleaner Production, Article 120895.
+Fan, Y. (2019). Water price regulation model establishment &Influences on urban water
+resource in Harbin, China. Atlantis Press.
+Favre, M., & Montginoul, M. (2018). Water pricing in Tunisia: Can an original rate
+structure achieve multiple objectives? Utilities Policy, 55, 209–223.
+Garrone, P., Grilli, L., & Marzano, R. (2019). Price elasticity of water demand considering
+scarcity and attitudes. Utilities Policy, 59, Article 100927.
+Guerrero, C., Schwarz, P., & Slinger, J. H. (2016). A recent overview of the integration of
+System Dynamics and Agent-based Modelling and Simulation.
+Ho, L., Alonso, A., Forio, M. A. E., Vanclooster, M., & Goethals, P. L. (2020). Water
+research in support of the Sustainable Development Goal 6: A case study in Belgium.
+Journal of Cleaner Production, Article 124082.
+Hof, A., Blázquez-Salom, M., & Garau, J. M. (2018). Domestic urban water rate structure
+and water prices in Mallorca, Balearic Islands. Boletín de la Asociación de Geógrafos
+Españoles, 77, 52–79.
+Homer, J., & Oliva, R. (2001). Maps and models in system dynamics: A response to Coyle.
+System Dynamics Review, 17(4), 347–355.
+Karandish, F., Hoekstra, A. Y., & Hogeboom, R. J. (2020). Reducing food waste and
+changing cropping patterns to reduce water consumption and pollution in cereal
+production in Iran. Journal of Hydrology, 586, Article 124881.
+Karimlou, K., Hassani, N., Mehrabadi, A. R., & Nazari, M. R. (2019). Calculating Price
+elasticity of water demand using gene expression programming based on economic,
+social and meteorological variables. Water Resources Management, 33(12),
+4171–4188.
+Legasto, A., Forrester, J. W., & Lyneis, J. M. (1980). System dynamics. North Holland.
+Lopez-Nicolas, A., Pulido-Velazquez, M., Rougé, C., Harou, J. J., & Escriva-Bou, A.
+(2018). Design and assessment of an efficient and equitable dynamic urban water
+tariff. Application to the city of Valencia, Spain. Environmental modelling & software,
+101, 137–145.
+Massarutto, A. (2020). Servant of too many masters: Residential water pricing and the
+challenge of sustainability. Utilities Policy, 63, Article 101018.
+Mercadier, A. C., & Brenner, F. S. (2020). Tariff (un) sustainability in contexts of price
+(in) stability: The case of the Buenos Aires water and sanitation concession. Utilities
+Policy, 63, Article 101005.
+Michel, D. (2017). Iran’s impending water crisis. Water, Security and US Foreign Policy,
+168.
+Molinos-Senante, M., & Donoso, G. (2016). Water scarcity and affordability in urban
+water pricing: A case study of Chile. Utilities Policy, 43, 107–116.
+Morshed, A. B., Kasman, M., Heuberger, B., Hammond, R. A., & Hovmand, P. S. (2019).
+A systematic review of system dynamics and agent-based obesity models: Evaluating
+obesity as part of the global syndemic. Obesity Reviews, 20, 161–178.
+Rezaee, H., & Shojaa, S. (2020). Estimation of income and price elasticity of kermanshah
+drinking water demand. Journal of Water and Sustainable Development, 7(3), 13–24.
+
+Policy implications
+Based on the empirical results, certain notes on policymaking can be
+presented as follows:
+• Rationing not only helps to reduce consumption but also induces the
+idea of water shortage, which is a kind of culture-building task.
+Therefore, in crisis, it is recommended to cut off the drinking water
+network with prior notice at certain times of the day
+• One of the most important problems in the region is the use of
+drinking water in agriculture, which is due to the drought crisis.
+Giving awareness of the water conditions and the imposition of fines
+on high-consumption households can be effective strategies. As it
+was observed in the studied region, in the short run, awarenessraising had the greatest effect on the reduction of consumption. On
+average, the consumption was reduced by 2% in each monthly
+period.
+• It is recommended to replace the current district meters with smart
+meters. The advantages of these meters are consumption flow con­
+trol, consumption control, average consumption control per day, and
+setting the maximum permissible use.
+• Since agricultural uses are part of the domestic uses, it is interesting
+to consider water recycling and the reuse of greywater for irrigation
+rather than fresh water. Water reuse is quite easy to implement and
+of the least cost; it results in considerable savings.
+• Water demand for irrigation is much more elastic to changes in water
+price. So, water tariffs and monitoring are essential in this area to
+accomplish sustainable exploitation.
+5. Conclusion
+Water allocation depends on exogenous development drivers, eco­
+nomic benefits, and the society’s perception of water preferences (Dalcin
+& Fernandes Marques, 2020). Hydro-economic models can serve as
+valuable tools for the better understanding of water allocation systems
+as well as the improvement of decision-making and water resources
+management (Alamanos et al., 2019). System dynamics and agent-based
+modeling are also powerful tools for resource simulation and integrated
+water resource management (Amadei, 2020). This study was conducted
+to test certain hydro-economic strategies of managing the drinking
+water demand in the village of Dehno in Yazd Province, Iran. The area
+has experienced long-term drought and suffered from water shortage. To
+enhance the sustainability of groundwater resources in that area under
+drought conditions, different scenarios were examined. Dynamic water
+pricing formulas were presented and implemented by system dynamics
+and agent-based simulation. As prescribed by this pricing system, each
+household’s bill is calculated based on the amount of consumption,
+consumption pattern, price elasticity and dynamic price. The dynamic
+price of water is the same for everyone, but rainfall, rationing and
+resource volume affect it.
+As a result, both water economy and consumer awareness should be
+considered in water pricing. The scenarios that were performed in this
+regard were able to meet the goal of the research, which was to achieve
+the sustainability of groundwater resources. The best scenario in
+drought conditions was a combination of medium dynamic price in­
+crease, control the consumption with rations and smart meters, and
+NRW control through network modification and household monitoring.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+12
+
+M.A. Arasteh and Y. Farjami
+
+Sustainable Cities and Society 72 (2021) 103078
+
+Rojas, H. R. G. G., Garcia-Vega, D., & Herrera-Torres, H. A. (2019). Water policy in (pp.
+137–152). Mexico: Springer.
+Sahin, O., Bertone, E., Beal, C., & Stewart, R. A. (2018). Evaluating a novel tiered scarcity
+adjusted water budget and pricing structure using a holistic systems modelling
+approach. Journal of Environmental Management, 215, 79–90.
+Sahin, O., Siems, R. S., Stewart, R. A., & Porter, M. G. (2016). Paradigm shift to enhanced
+water supply planning through augmented grids, scarcity pricing and adaptive
+factory water: A system dynamics approach. Environmental Modelling & Software, 75,
+348–361.
+Shadivand, M., SAYEH, M. A., & ASKARI, H. (2019). Investigating the effective factors on
+price and income elasticity for household water demand in Iran: A systematic review and
+meta-analysis.
+Sharifi, A. (2020). Trade-offs and conflicts between urban climate change mitigation and
+adaptation measures: A literature review. Journal of Cleaner Production, Article
+122813.
+Sweeney, L. B., & Sterman, J. D. (2000). Bathtub dynamics: Initial results of a systems
+thinking inventory. System Dynamics Review, 16(4), 249–286.
+
+Tajabadi, M., Abolhassani, L., & Shahnoushi, N. (2018). Meta-analysis of price elasticity
+for urban domestic water consumption in Iran. Journal of Water and Wastewater/Ab
+va Fazilab, 29(1).
+Torkaman, N., Ahmadi, H., & Aminnejad, B. (2021). Calibration of the continuous water
+model based on the NRW patterns. Journal of Applied Water Engineering and Research,
+1–9.
+Tortajada, C., González-Gómez, F., Biswas, A. K., & Buurman, J. (2019). Water demand
+management strategies for water-scarce cities: The case of Spain. Sustainable Cities
+and Society, 45, 649–656.
+Wilensky, U., & Rand, W. (2015). An introduction to agent-based modeling: Modeling
+natural, social, and engineered complex systems with NetLogo. Mit Press.
+Yusuf, A., Sodiq, A., Giwa, A., Eke, J., Pikuda, O., De Luca, G., Di Salvo, J. L., &
+Chakraborty, S. (2020). A review of emerging trends in membrane science and
+technology for sustainable water treatment. Journal of Cleaner Production, Article
+121867.
+
+13
+
+

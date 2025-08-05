@@ -1,0 +1,2713 @@
+sustainability
+Article
+
+Artificial Intelligence-Driven Multi-Energy Optimization:
+Promoting Green Transition of Rural Energy Planning and
+Sustainable Energy Economy
+Xiaoyan Peng 1 , Xin Guan 2, * , Yanzhao Zeng 3
+1
+2
+3
+4
+
+*
+
+Citation: Peng, X.; Guan, X.; Zeng, Y.;
+Zhang, J. Artificial Intelligence-Driven
+Multi-Energy Optimization:
+Promoting Green Transition of Rural
+Energy Planning and Sustainable
+
+and Jiali Zhang 4
+
+School of Government, Sun Yat-sen University, Guangzhou 510275, China; pengxy75@mail2.sysu.edu.cn
+Guangzhou Xinhua University, Dongguan 523133, China
+School of Economics and Statistics, Guangzhou University, Guangzhou 510006, China; zyzcl@e.gzhu.edu.cn
+School of Public Administration, Guangzhou University, Guangzhou 510006, China; jializhang@e.gzhu.edu.cn
+Correspondence: guanxin@xhsysu.edu.cn; Tel.: +86-181-7137-1019
+
+Abstract: This research contributes to the overarching objectives of achieving carbon neutrality
+and enhancing environmental governance by examining the role of artificial intelligence-enhanced
+multi-energy optimization in rural energy planning within the broader context of a sustainable
+energy economy. By proposing an innovative planning framework that accounts for geographical and
+economic disparities across rural regions, this study specifically targets the optimization of energy
+systems in X County of Yantai City, Y County of Luoyang City, and Z County of Lanzhou City. Furthermore, it establishes a foundation for integrating these localized approaches into broader national
+carbon-neutral efforts and assessments of green total factor productivity. The comparative analysis of
+energy demand, conservation, efficiency, and economic metrics among these counties underscores
+the potential of tailored solutions to significantly advance low-carbon practices in agriculture, urban development, and industry. Additionally, the insights derived from this study offer a deeper
+understanding of the dynamics between government and enterprise in environmental governance,
+empirically supporting the Porter hypothesis, which postulates that stringent environmental policies
+can foster innovation and competitiveness. The rural coal-coupled biomass power generation model
+introduced in this work represents the convergence of green economy principles and financial systems, serving as a valuable guide for decision-making in decisions aimed at sustainable consumption
+and production. Moreover, this research underscores the importance of resilient and adaptable energy
+systems, proposing a pathway for evaluating emission trading markets and promoting sustainable
+economic recovery strategies that align with environmental sustainability goals.
+
+Energy Economy. Sustainability 2024,
+16, 4111. https://doi.org/10.3390/
+su16104111
+
+Keywords: sustainable energy economy; artificial intelligence; energy transition efficiency; energy
+planning; biomass-coupled power generation
+
+Academic Editor: Antonio Boggia
+Received: 3 April 2024
+Revised: 6 May 2024
+
+1. Introduction
+
+Accepted: 8 May 2024
+
+With the ascendancy of sustainable energy, clean sources such as solar, wind, and
+hydropower are progressively emerging as primary alternatives to traditional energy
+sources. However, the instability and intermittency of these renewable energy sources
+pose challenges to the reliability and stability of energy systems [1]. Simultaneously, there
+is an increasing global call for promoting energy transition. To enhance the efficiency of
+renewable energy utilization and mitigate the environmental burden of energy production
+and consumption, artificial intelligence (AI) technology has emerged [2–4]. The application
+of AI in the energy field can be broadly categorized into several aspects. First, AI can
+optimize energy production plans and enhance energy production efficiency by employing
+advanced data analysis and prediction algorithms in the energy production process. Second,
+AI can play a pivotal role in energy storage and distribution, facilitating efficient energy
+utilization through intelligent management. Additionally, AI can provide innovative
+
+Published: 14 May 2024
+
+Copyright: © 2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+Sustainability 2024, 16, 4111. https://doi.org/10.3390/su16104111
+
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2024, 16, 4111
+
+2 of 20
+
+solutions on the energy consumption side, reduce energy waste through technologies such
+as smart homes and intelligent transportation, and promote the intelligent transformation
+of energy consumption.
+The world is facing serious environmental challenges, of which climate change is
+one of the most prominent. According to the United Nations Environment Programme,
+global average temperatures have risen by about 1.1 degrees Celsius since industrialization,
+leading to an increase in the frequency and intensity of extreme weather events, with serious
+impacts on ecosystems and human societies [5]. At the same time, there is an imbalance
+between energy supply and demand around the world, which has led to over-reliance
+on traditional energy resources, exacerbating the negative impact on the environment.
+According to the International Energy Agency, global energy demand is continuing to grow
+and is expected to increase by 25% by 2030, with the majority of energy demand relying
+on fossil fuels [6]. This unbalanced energy mix has led to a continuous increase in carbon
+emissions, exacerbating the problem of climate change and environmental pollution.
+In response to these environmental challenges, the application of AI in energy planning
+has great potential and advantages, especially in the field of rural energy planning. In
+China, for example, energy supply in rural areas faces many challenges, including unstable
+supply and low energy efficiency. AI technology can optimize the energy supply structure
+and improve energy utilization efficiency through the analysis and prediction of big data,
+thus reducing carbon emissions and environmental pollution. Miskat et al. [7] proposed
+that by using AI technology to optimize energy planning, intelligent management of energy
+consumption could be realized in rural areas and energy costs could be saved. Moreover,
+energy utilization efficiency could be improved, and sustainable development of the local
+economy could be promoted [7]. AI technology can also predict and respond to variations
+in energy demand, adjust the energy supply structure in advance, and ensure the stability
+and sustainability of the energy supply. Therefore, the widespread application of AI
+technology in rural energy planning is of great significance for achieving carbon neutrality
+and promoting the green transition.
+The widespread application of renewable energy represents an effective strategy for alleviating energy crises and reducing environmental impacts [8–10]. However, the planning
+and operation of energy systems face unprecedented complexity due to the uncertainty
+of renewable energy. This circumstance mandates the continual exploration of innovative
+solutions aimed at optimizing both the structure and operation of energy systems, thereby
+augmenting their adaptability to a wide range of energy sources. Conventional energy
+systems typically revolve around the production and utilization of a singular energy source,
+whereas multi-energy coupling systems integrate diverse forms of energy, including solar, wind, and biomass, fostering a complementary and synergistic energy usage. This
+system integration elevates energy efficiency and bolsters the system’s resilience to risk,
+ultimately rendering the energy system more flexible and sustainable. As an emerging
+trend, BIOMASS-coal coupling technology injects new vitality into energy transition [11,12].
+Combining biomass energy with traditional coal systems can mitigate the adverse environmental effects of fossil fuel use and potentially improve the efficiency of coal-fire power
+generation. With the incorporation of AI technology, biomass-coal coupling systems can
+intelligently regulate the blend ratio of biomass and coal, thereby realizing a more flexible
+and sustainable power generation mode [13,14].
+This study aims to conduct an in-depth investigation into the simulation of energy
+system planning integrated with artificial intelligence (AI) and the optimization of multienergy coupling, with a specific emphasis on the application of biomass-coal coupling
+technology. Through systematic research, the objective is to present innovative solutions
+aimed at enhancing the efficient operation of energy systems, reducing environmental
+impacts, and providing significant scientific foundations for building a sustainable energy
+economy. By exploring the application of AI in the energy sector, this study strives to identify intelligent, cost-effective, and environmentally responsible solutions for the upcoming
+energy transition.
+
+Sustainability 2024, 16, 4111
+
+3 of 20
+
+This work not only provides theoretical support and practical guidance for rural
+energy planning and energy transition, but also offers new thinking and ways for achieving
+sustainable development goals and environmental governance. By exploring the role of
+AI-enhanced multi-energy optimization in rural energy planning, this work affords a new
+perspective and method for achieving carbon neutrality and enhancing environmental
+governance. In addition, an innovative planning scheme has been proposed that takes into
+account the geographical and economic differences in rural areas and provides specific
+solutions for the optimization of energy systems in different areas, helping to promote the
+development of a sustainable energy economy. A comparative analysis of energy demand,
+conservation, efficiency, and economic indicators across different counties shows the potential to contribute low-carbon practices to agriculture, urban development, and industry
+domains. This study provides valuable insights into the dynamics of government–business
+interactions in environmental governance, thereby corroborating Porter’s hypothesis, which
+posits that stringent environmental regulations have the potential to stimulate innovation
+and enhance competitiveness. A coupled coal-biomass power generation model in rural
+areas demonstrates the integration of green economy principles with the financial system,
+offering a valuable reference for planning decisions aimed at sustainable consumption and
+production. The importance of building resilient energy systems is emphasized, and a
+pathway is provided for evaluating emissions trading markets and promoting sustainable
+economic recovery strategies aligned with environmental sustainability goals. Through
+empirical research and model construction, this work provides a scientific basis for rural
+energy system planning, especially in the development characteristics and energy demand
+of different regions in eastern, central, and western China. These results are closely related
+to current policies and give an important reference for future policy formulation, especially
+in promoting the development of rural energy systems in a clean, low-carbon, and efficient
+direction. This work explores the relationship between air pollution control and housing
+price stability and furnishes a new perspective for the development of comprehensive
+environmental management strategies. The potential of solar photovoltaic and wind power
+generation projects is evaluated, and strategies and suggestions are provided for promoting
+green transformation and improving energy efficiency in western regions such as Z County.
+2. Literature Review
+In the pursuit of energy transition efficiency, AI technology plays a pivotal role due to
+its ability to process big data and optimize complex systems intelligently. Through big data
+analysis, potential energy wastage and bottlenecks can be identified, providing valuable
+data support for the optimization of energy production and consumption. Simultaneously,
+AI’s deep learning algorithms are capable of recognizing patterns within vast datasets,
+thereby facilitating the intelligent control and management of energy systems.
+Liu et al. [15] emphasized the utility of AI technology in predicting and optimizing
+renewable energy sources (particularly wind and solar energy) in the context of energy
+production. Through the forecasting of energy output and adapting production plans
+accordingly, AI has the potential to enhance energy production efficiency by continuously
+monitoring weather conditions and the status of energy production equipment. Tutak
+et al. [16] highlighted that intelligent power system management was a significant application area of AI technology in energy production. AI could optimize power system
+operations by monitoring grid loads and equipment conditions in real-time to improve the
+power supply’s stability and reliability.
+Countries and regions globally are formulating and updating energy plans to balance
+economic growth and environmentally sustainable development. Nishant et al. [17] suggested that combining biomass energy with traditional coal systems could result in cleaner
+and more efficient energy utilization. The widespread adoption of this technology can
+become a crucial means of reducing carbon emissions and improving energy efficiency
+in the future. The application of AI technology in biomass-coal coupling systems also
+has significant potential, allowing for intelligent control of biomass and coal to enhance
+
+Sustainability 2024, 16, 4111
+
+4 of 20
+
+overall system performance. In energy storage and distribution, AI can be applied to
+battery technology, smart connected charging stations, and other areas to achieve efficient
+storage and distribution of electric power. Vanegas Cantarero [18] proposed that AI could
+extend battery life and enhance energy storage efficiency through intelligent management
+of battery charging and discharging processes. In power distribution, AI can enhance
+system flexibility and adaptability by intelligently adjusting power distribution schemes
+based on real-time monitoring of grid loads and predicting electricity demand.
+Wang et al. [19] focused on the risk prediction and credibility detection of network public opinion (NPO) and used blockchain technology for optimization. They employed smart
+contracts to establish an NPO risk management system and tracked public opinion using
+risk correlation tree technology. Their research findings revealed that, under blockchain
+technology, the three experimental schemes designed could accurately predict the risk of
+NPO and assess its credibility, aligning with the objectives of this study. Deng et al. [20]
+evaluated the economic resilience of coal resource-based cities under low-carbon economic
+growth conditions. They enhanced the vitality of the economic market in resource-based
+cities by promoting public participation mechanisms through increased government policy
+intervention. The findings revealed that from 2011 to 2021, the economic resilience levels of traditional cities and coal resource-based cities fluctuated and increased. In 2011,
+the economic resilience indices of traditional cities and coal resource-based cities were
+0.11 and 0.22, respectively. By 2021, the economic resilience assessment stabilities of the
+two cities were 0.527 and 0.562, respectively. Li et al. [21] discovered that pilot policies in
+low-carbon cities generally inhibited enterprise activities, but the level of green innovation
+could alleviate this inhibitory effect. Through heterogeneity analysis, they found that
+these pilot policies had a more pronounced inhibitory effect on enterprise activities in
+central and western regions, resource-based cities, and non-central cities. Furthermore, the
+pilot policy hindered enterprise activities in high-carbon industries while promoting those
+in emerging industries, resulting in industrial structural transformations and upgrades.
+Li et al. [22] implemented a corresponding clean energy development path and ecological
+environment sustainable development analysis model based on big data technology. They
+evaluated the feasibility and potential benefits of promoting and applying clean energy
+in mining projects. The results indicated that under varying GDP growth rates, the new
+and cumulative installed capacity of global wind energy exhibited an increasing trend. It
+is anticipated that new wind capacity will increase significantly by 2030 with economic
+growth. The reduction in CO2 emissions will continue to increase through 2060. Li et al. [23]
+studied the impact of climate change on corporate environmental, social, and governance
+(ESG) performance. Based on the empirical results, they found that climate change significantly inhibited corporate ESG performance. Meanwhile, they discovered that continued
+elimination of internal and external resource misallocation could help mitigate the adverse effects of climate change on ESG performance. In addition, compared to enterprises
+in non-resource-based cities, climate change significantly improved the corporate ESG
+performance of the resource-based city, indicating that the adaptive behavior caused by
+climate change partially broke the resource curse phenomenon. Furthermore, mature
+and large enterprises could better mitigate negative impacts, and external pressures from
+the public environment and analyst attention can motivate enterprises to improve their
+ESG performance. Wang et al. [24] established various time frames by implementing an
+iterative process of data platform management and evaluated the impact of three models
+using indicators such as public participation and government satisfaction. The research
+results illustrated that the combination of data platform management and multi-model
+methods effectively enhanced the anti-corruption and prevention capabilities of grassroots
+governments, offering inspiration for establishing transparent and efficient grassroots
+governance. Li et al. [25] contended that intellectual property pledge financing hindered
+corporate innovation, particularly in terms of innovation quality. However, this model can
+be overturned by elevating the threshold for innovation conditions. The rationale behind
+this is that stringent innovation criteria may result in enterprises having weaker innovation
+
+Sustainability 2024, 16, 4111
+
+ties of grassroots governments, offering inspiration for establishing transparent and efficient grassroots governance. Li et al. [25] contended that intellectual property pledge financing hindered corporate innovation, particularly in terms of innovation quality. However, this model can be overturned by elevating the threshold for innovation conditions.
+5 of 20
+The rationale behind this is that stringent innovation criteria may result in enterprises
+having weaker innovation foundations, which are less susceptible to fluctuations in funds
+obtained through intellectual property pledge financing. Liu et al. [26] emphasize the sigfoundations,
+which
+are less susceptible
+to fluctuations
+in funds
+obtained
+through
+intelnificant potential
+of integrating
+machine learning
+technology
+into various
+systems,
+includlectual
+property
+pledge
+financing.
+Liu
+et
+al.
+[26]
+emphasize
+the
+significant
+potential
+ing energy systems, to enhance efficiency and sustainability. Specifically, in the realm of
+of
+integrating
+learning
+technology
+into various
+systems,
+including
+rural energymachine
+planning,
+AI-driven
+multi-energy
+optimization
+methods
+canenergy
+identifysystems,
+the opto
+enhance
+efficiency
+and sustainability.
+inpatterns,
+the realmand
+of rural
+energy
+plantimal
+energy
+mix, forecast
+energy supplySpecifically,
+and demand
+facilitate
+real-time
+ning,
+AI-driven
+multi-energy
+optimization
+methods
+can
+identify
+the
+optimal
+energy
+mix,
+adjustments. This ensures efficient and sustainable energy utilization, thereby signififorecast
+energy
+supply
+and
+demand
+patterns,
+and
+facilitate
+real-time
+adjustments.
+This
+cantly promoting green transformation. Not only does this contribute to reducing carbon
+ensures
+efficient
+and sustainable
+energy utilization,
+thereby
+promoting
+green
+emissions
+and mitigating
+environmental
+degradation,
+but itsignificantly
+also effectively
+enhances
+the
+transformation.
+Not
+only
+does
+this
+contribute
+to
+reducing
+carbon
+emissions
+and
+mitigating
+resilience and reliability of rural energy systems.
+environmental
+it also
+effectively
+the pertaining
+resilience and
+reliability
+of
+In typical degradation,
+rural settings,but
+there
+exists
+a dearthenhances
+of research
+to the
+developrural energy systems.
+ment of energy system models, planning configurations, and operational optimization
+In typical rural settings, there exists a dearth of research pertaining to the development
+strategies. This deficit stems from the unique network characteristics, intricate multi-enof energy system models, planning configurations, and operational optimization strategies.
+ergy coupling structures, and the influence of specific scenarios on rural energy systems.
+This deficit stems from the unique network characteristics, intricate multi-energy coupling
+The present work aims to address this gap by delving deeper into the energy coupling
+structures, and the influence of specific scenarios on rural energy systems. The present
+processes within multi-energy coupling scenarios in rural energy systems. It establishes a
+work aims to address this gap by delving deeper into the energy coupling processes within
+multi-level energy hub model, thereby laying a solid theoretical foundation for operamulti-energy coupling scenarios in rural energy systems. It establishes a multi-level energy
+tional optimization.
+hub model, thereby laying a solid theoretical foundation for operational optimization.
+3. Research
+Research Methodology
+Methodology
+3.
+3.1. Energy System Supply Patterns in Rural Areas of China
+The evolution
+evolutionofofthe
+thesupply
+supplymodel
+model
+modern
+rural
+energy
+systems
+focuses
+on imThe
+in in
+modern
+rural
+energy
+systems
+focuses
+on improvproving
+the accessibility
+of electricity,
+and clean
+energy
+emphasizing
+sustaining
+the accessibility
+of electricity,
+heat, heat,
+and clean
+energy
+whilewhile
+emphasizing
+sustainability
+ability
+and intelligent
+management.
+The primary
+in thisismodel
+is to provide
+and
+intelligent
+management.
+The primary
+concernconcern
+in this model
+to provide
+reliable reliand
+stable
+power.
+Figure
+1 illustrates
+special supply
+model.
+Traditional
+grid
+power supply
+able and
+stable
+power.
+Figure 1the
+illustrates
+the special
+supply
+model.
+Traditional
+grid
+is
+progressively
+with
+distributed
+energy
+systems,
+encompassing
+solar photopower
+supply is integrated
+progressively
+integrated
+with
+distributed
+energy
+systems, encompassing
+voltaic
+and
+wind
+power
+generation
+[27–29].
+Distributed
+energy
+systems
+mitigate
+reliance
+solar photovoltaic and wind power generation [27–29]. Distributed energy systems
+mition
+centralized
+grids
+and bolster
+of resilience
+electricityofsupply.
+Renewable
+gate
+reliance onelectricity
+centralized
+electricity
+gridsthe
+andresilience
+bolster the
+electricity
+supply.
+energy
+sources
+suchsources
+as solarsuch
+andas
+wind
+novel
+avenues
+for avenues
+electricityfor
+supply
+and
+Renewable
+energy
+solarpresent
+and wind
+present
+novel
+electricity
+serve
+asand
+clean
+alternatives
+heat and for
+other
+forms
+energy.
+Installing
+solar
+photovoltaic
+supply
+serve
+as clean for
+alternatives
+heat
+and of
+other
+forms
+of energy.
+Installing
+solar
+panels
+and utilizing
+turbines wind
+make turbines
+rural energy
+systems
+greenersystems
+and lower
+in carbon
+photovoltaic
+panelswind
+and utilizing
+make
+rural energy
+greener
+and
+footprint,
+thereby
+diminishing
+dependency
+on
+conventional
+energy
+sources
+and
+fostering
+lower in carbon footprint, thereby diminishing dependency on conventional energy
+sustainable
+sources anddevelopment.
+fostering sustainable development.
+Integrated energy system
+
+Marsh gas
+Power flow
+
+Photovoltaics
+
+Distribution
+network
+
+Power flow
+
+Fuel flow
+
+Electric storage
+
+Fuel flow
+
+Cogeneration
+
+Fuel pipeline
+
+Biodiesel Thermal flow
+
+Thermal flow
+
+Farm product
+processing
+
+Heat distribution
+pipeline
+
+Figure 1.
+1. Modern
+Modern supply
+supply pattern
+pattern of
+of energy
+energy systems
+systems in
+in rural
+rural areas.
+areas.
+Figure
+
+Rural energy development in China can be categorized into three types based on
+geographical location: eastern, central, and western regions, each exhibiting distinct development scenarios as outlined in Table 1. The eastern region, situated along the coast with
+a low elevation, experiences short winters, high temperatures throughout the year, and
+abundant rainfall. Some coastal areas benefit from good year-round sunlight and distinct
+monsoons, making the construction of complementary wind and solar energy systems
+highly efficient. These areas are at the forefront of national development. Leveraging their
+
+Sustainability 2024, 16, 4111
+
+6 of 20
+
+exceptional geographical and climatic advantages, they have established a robust industrial
+and agricultural base, playing a pivotal role in the national economy. Primarily relying on
+industrial development to drive their economies, these regions have witnessed significant
+progress in agriculture, forestry, animal husbandry, and fisheries, coupled with abundant
+biomass energy resources. These regions have relatively well-established power grids,
+enabling the active promotion of renewable energy transformation and encouraging the
+use of clean energy such as natural gas [30].
+Table 1. Scenarios of differentiated energy development in different areas.
+Classification
+Criteria
+
+Economic
+situation
+
+Dimension
+
+Developed type
+Underdeveloped
+type
+Eastern region
+
+Geographical
+zone
+
+Central region
+Western region
+
+Development Characteristics
+
+Energy-Resource Structure
+
+Agriculture, industry, and other sectors are
+developing rapidly, resulting in high energy
+consumption.
+The energy infrastructure is relatively lagging
+behind.
+
+The energy is diversified, with
+electricity and natural gas as the
+primary sources.
+They possess natural renewable energy
+sources with minimal energy loss.
+
+Economic development is fast, and there is
+relatively low demand for heating.
+The power grid is relatively well-developed,
+with some areas having heating needs.
+The northwest region experiences cold winters,
+while the southwest region has a mild climate.
+
+Solar energy resources are moderate,
+with a focus on developing clean
+energy.
+Abundant straw resources drive the
+centralized utilization of biomass.
+Solar, wind, and other renewable
+energy sources are clean and abundant.
+
+The central region has a moderate climate, with most areas being plains surrounded
+by plateaus and hills. Rural electrification infrastructure is relatively well-developed, with
+electricity being the main energy source [31–33]. With longer average sunlight hours,
+photovoltaic units can serve as distributed power sources for local users. These areas
+should continue to promote the construction of energy systems centered around electricity
+while upgrading and improving weak power grids.
+Western rural areas can be divided into southwest and northwest types. The southwest region has a mild climate with hot and rainy summers and is rich in hydropower
+and solar resources. It is suitable for developing hydropower projects and distributed
+photovoltaic power systems. The northwest region experiences cold winters, relatively
+late development, limited transportation conditions, and an overall lower development
+level. Despite abundant renewable energy resources, there is potential to develop energy
+systems based mainly on renewable energy sources. In summary, some areas in the western
+region have abundant renewable energy resources but struggle to efficiently utilize local
+renewable resources due to economic constraints. These areas need to focus on improving
+power infrastructure while addressing the conversion issues of local renewable energy
+resources. Scenarios of differentiated energy development in various areas are exhibited in
+Table 1.
+3.2. Energy System Planning Models with the Coupling of Different Energy Sources
+Biomass, such as straw and sawdust, can be obtained through agricultural and forestry
+resources, while coal is a traditional and reliable energy source. Coupling these two types
+of energy can effectively utilize renewable resources while maintaining the energy system’s
+stability. The advantage of the bio coal combined unit lies in its stability and reliability.
+Compared to a single energy source, the combination of biomass and coal can balance
+energy supply and reduce dependence on specific energy sources. This is particularly
+important for rural areas, especially considering the impact of climate and the seasons
+on energy demand. However, when exploring the combination of bio coal and other
+sustainable energy models, it is necessary to recognize that there may be differences in
+environmental impacts across various regions. Especially in the western regions of China,
+
+Sustainability 2024, 16, 4111
+
+7 of 20
+
+the combination of bio coal and pure coal models may have varying degrees of impact
+on the local environment. For example, in the northwest region, due to the harsh climate
+conditions and geographical limitations, the pure coal model may lead to more serious
+air pollution problems and may have adverse effects on local water resources and soil.
+In the southwest region, a coal combination may be more suitable, but its impact on the
+local ecosystem also needs to be carefully evaluated. Therefore, regarding energy system
+planning and environmental governance, it is required to comprehensively consider the
+characteristics and environmental impacts of diverse regions and take corresponding
+measures to mitigate potential negative impacts. Future research can further explore the
+environmental effects of different energy models in the western region and propose targeted
+environmental management suggestions to promote sustainable energy development and
+environmental protection.
+When optimizing capacity configuration, it is essential to consider the characteristics
+of energy demand in areas. By establishing demand prediction models based on historical
+data and meteorological conditions, the seasonal variations in electricity and heat demand
+can be more accurately estimated, providing a practical basis for subsequent optimization.
+The construction of a capacity optimization configuration model is a crucial step [34–36].
+System efficiency can be maximized through mathematical planning methods. It can
+ensure that the capacity of biomass-coal coupling units meets demand while maintaining
+the economic and environmental sustainability of the system. This process requires a
+comprehensive consideration of the reliability of the biomass supply chain, the upgrading
+of coal technology, and the scheduling strategy of the system.
+The overall planning of energy systems, as opposed to the independent operation of
+individual energy systems, is effective in dealing with various energy complementarity
+and coupling relationships [37]. This integrated planning can overcome the limitations of
+separate planning for heterogeneous energy sources, significantly improving the energy
+utilization efficiency within the region and enhancing the overall efficiency of the energy
+system. In overall planning, addressing the coupling relationship of various energies within
+the energy system is one of the key issues. The energy hub is abstracted to an input-output
+port model that describes the energy conversion and storage relationships between sources,
+networks, loads, and storage in the energy system [38–40]. The black box model in Figure 2
+is employed, where the black box part is considered as the multi-energy flow system to
+be analyzed and characterized through the energy hub. In this model, vector P represents
+energy input and vector L represents energy output. This modeling approach is highly
+Sustainability 2024, 16, x FOR PEER REVIEW
+of 21
+abstract and can transform discrete sub-optimization problems in the energy system8 into
+a
+more comprehensive overall optimization problem.
+
+P1
+
+L1
+
+P2
+
+L2
+...
+...
+
+...
+Pm
+
+Energy hub
+
+Original input energy
+
+Ln
+
+Convert output energy
+
+Figure2.2.Black
+Blackbox
+boxmodel
+modelof
+ofenergy
+energysystem
+systemports.
+ports.
+Figure
+
+Inmodern
+modernscience
+scienceand
+andtechnology,
+technology,grey
+greysystem
+systemtheory
+theoryisisaavital
+vitalquantitative
+quantitativeanalysis
+analysis
+In
+method.
+Its
+main
+feature
+is
+to
+analyze
+and
+forecast
+in
+the
+case
+of
+insufficient
+data
+and
+high
+method. Its main feature is to analyze and forecast in the case of insufficient data and high
+uncertainty.
+The
+grey
+prediction
+model
+is
+one
+of
+the
+applications
+of
+grey
+system
+theory,
+uncertainty. The grey prediction model is one of the applications of grey system theory,
+which is
+is mainly
+with
+thethe
+prediction
+problem
+in theincase
+a small
+which
+mainlyemployed
+employedtotodeal
+deal
+with
+prediction
+problem
+theofcase
+of aamount
+small
+of
+data
+and
+lack
+of
+regularity.
+Different
+from
+the
+traditional
+mathematical
+model,
+the
+grey
+amount of data and lack of regularity. Different from the traditional mathematical model,
+prediction model does not need to make strict mathematical assumptions about the data
+the grey prediction model does not need to make strict mathematical assumptions about
+but makes flexible analysis and prediction according to the characteristics and regularity
+the data but makes flexible analysis and prediction according to the characteristics and
+regularity of the data. This work utilizes a grey prediction model to forecast electricity
+consumption in rural areas to help understand the changing trend of energy demand in
+various areas. The grey model is characterized by its relatively simple structure, low sample quantity requirement, and suitability for short- to medium-term predictions. Given
+
+Sustainability 2024, 16, 4111
+
+8 of 20
+
+of the data. This work utilizes a grey prediction model to forecast electricity consumption
+in rural areas to help understand the changing trend of energy demand in various areas.
+The grey model is characterized by its relatively simple structure, low sample quantity
+requirement, and suitability for short- to medium-term predictions. Given the specificity of
+load forecasting, it is considered particularly suitable for load forecasting, where historical
+data are limited and the data structure is relatively uniform. According to Wu et al. [41]’s
+water quality prediction method combined with an autoregressive integrated moving
+average and clustering model and Yang and Ran [42]’s study on China’s carbon emission
+prediction and its driving factors [41], the prediction accuracy of the grey model is higher
+when the historical data is small. However, when faced with long time series data, the
+fitting effect may decrease because the model may not be able to fully capture the complex
+long-term trends and fluctuations between the data.
+To further enhance the prediction model’s accuracy, this work incorporates some
+optimization measures into the grey model. First, a sliding average method is employed to
+smooth the data fluctuations for the first-fit data. Second, a quadratic fitting method is introduced to make the predicted values closer to the actual situation, enhancing the model’s
+fitting capability. Lastly, to account for the influence of external factors, a policy fluctuation
+term is introduced to consider potential interfering factors more comprehensively.
+n original data points are input to form the original data sequence, represented as:
+T
+
+X (0) = x (0) ( 1 ) x (0) ( 2 ) . . . x (0) ( n )
+
+(1)
+
+First-order summation is performed on Equation (1), and it can be obtained that:
+n
+
+x (1) ( n ) = ∑ x (0) ( i )
+
+(2)
+
+i =1
+
+The obtained new sequence can be represented as:
+
+T
+X (1) = x (1) ( 1 ) x (1) ( 2 ) . . . x (1) ( n )
+
+(3)
+
+The solution to the first-order differential equation is in exponential form, satisfying
+the following equation:
+dx (1)
++ ax (1) = u
+(4)
+dt
+a and u are parameters of the whitening differential equation.
+a and u can be solved through the least squares method in matrix form.
+
+
+a
+u
+
+
+
+
+ −1
+= BT B
+B T YN
+
+(5)
+
+Due to the complexity of real-world data conditions, using a large amount of data directly may result in significant errors. To mitigate the impact of outliers, it is recommended
+to apply a moving average to the original sequence before constructing the exponential
+growth sequence, as shown in Equation (6):
+x (n) =
+
+x (n − 1) + 2x (n) + x (n + 1)
+4
+
+(6)
+
+x (n) represents the original data values.
+In order to enhance prediction accuracy, a second-order fitting is performed on the
+forecast data of the grey model. The exponential growth model for the first fit is:
+h
+u i − at u
+x ( t + 1 ) = x (0) ( 1 ) −
+e
++
+(7)
+a
+a
+
+Sustainability 2024, 16, 4111
+
+9 of 20
+
+The second-order fitting involves solving for the function of Equation (8) as the
+objective function:
+x ′(t + 1) = M · e− at + N
+(8)
+
+ 
+
+−1
+M
+= GT G
+GT X′
+(9)
+N
+The policy volatility term is expressed as:
+e(t) = x (t) · A · F (t)
+
+(10)
+
+x (t) is the exponential function obtained after fitting, A represents the volatility
+amplitude, and F (t) refers to the policy affiliation function.
+After obtaining the results of exponential growth through second-order fitting, the
+policy volatility term is incorporated, and its focus is on the subsequent prediction section.
+Coupled biomass and coal units play a significant role in energy planning, providing a
+feasible option to improve energy efficiency and reduce environmental impact [43,44]. The
+development of a capacity planning model aims to optimize the configuration of these units
+to meet the growing energy demands in areas. The first step involves preprocessing energy
+load data, considering the impact of policy factors on the load. The model is then used to
+obtain the total capacity of biomass gasification furnaces [45–47]. In this step, the model
+Sustainability 2024, 16, x FOR PEER REVIEW
+10 of 21
+considers the coupling of coal and biomass to meet the energy needs of rural areas. Figure
+3
+depicts the specific process of optimizing the capacity of biomass-coupled coal units.
+Start
+Input rural type to determine boundary
+conditions
+
+Load data preprocessing (considering
+policy influencing factors)
+Determine the average annual utilization
+time of coal-fired generators
+Constructing the objective function for
+unit capacity planning
+
+Calculate the number of planned
+biomass gasifiers
+N
+
+The bundle of satisfaction?
+
+Y
+Number of biomass gasification
+furnaces with optimal output planning
+
+End
+
+Figure 3. Capacity optimization of biomass-coal coupling units.
+Figure 3. Capacity optimization of biomass-coal coupling units.
+
+3.3. Optimization of Energy Systems Based on AI-Driven Planning and Operation
+3.3. Optimization
+of Energy
+Systems
+Basedsystems,
+on AI-Driven
+Planningtoand
+Operation
+In the planning
+scenario
+of energy
+it is essential
+comprehensively
+consider
+the focal
+points
+of
+different
+types
+of
+areas
+in
+the
+energy
+transition
+path.
+Due
+to
+the
+In the planning scenario of energy systems, it is essential to comprehensively backconground
+diversified
+development,
+diverse
+show
+significant
+in
+sider theof
+focal
+points ofenergy
+different
+types of areas
+in theareas
+energy
+transition
+path.variations
+Due to the
+their requirements
+for various
+indicators.
+In this diverse
+in-depth
+exploration
+of the differentiated
+background
+of diversified
+energy
+development,
+areas
+show significant
+variations
+development
+scenarios
+energy indicators.
+systems, anIn
+innovative
+energy
+system planning
+scheme is
+in
+their requirements
+forofvarious
+this in-depth
+exploration
+of the differentiproposed
+(Figure 4).
+In this scheme,
+based
+on two
+namelysystem
+the geographical
+ated
+development
+scenarios
+of energy
+systems,
+andimensions,
+innovative energy
+planning
+locationisand
+economic
+development
+of areas,
+indicator
+weight
+scheme
+proposed
+(Figure
+4). In thisstatus
+scheme,
+basedcorresponding
+on two dimensions,
+namely
+thefactors
+geoare
+assigned
+for
+different
+types
+of
+areas.
+“Indicator
+weight
+factor”
+refers
+to
+the
+weight
+coefgraphical location and economic development status of areas, corresponding indicator
+ficients
+assigned
+to
+various
+indicators
+in
+energy
+system
+planning
+for
+different
+rural
+areas
+weight factors are assigned for different types of areas. “Indicator weight factor” refers to
+based
+on their
+geographical
+location
+and economic
+development
+These
+indicators
+the
+weight
+coefficients
+assigned
+to various
+indicators
+in energystatus.
+system
+planning
+for
+may involve
+impact, economic
+benefits,
+and more.
+different
+ruralenergy
+areas consumption,
+based on theirenvironmental
+geographical location
+and economic
+development
+By assigning
+weights
+differentenergy
+indicators,
+they can more
+accurately reflect
+the
+status.
+Thesedifferent
+indicators
+may toinvolve
+consumption,
+environmental
+impact,
+
+economic benefits, and more. By assigning different weights to different indicators, they
+can more accurately reflect the energy demand and characteristics of various areas, thus
+achieving more effective energy planning. This precise allocation helps to capture the
+unique needs of each area more accurately, enabling more flexible and effective energy
+planning.
+
+Sustainability 2024, 16, 4111
+
+graphical location and economic development status of areas, corresponding indicator
+weight factors are assigned for different types of areas. “Indicator weight factor” refers to
+the weight coefficients assigned to various indicators in energy system planning for
+different rural areas based on their geographical location and economic development
+10 of 20
+status. These indicators may involve energy consumption, environmental impact,
+economic benefits, and more. By assigning different weights to different indicators, they
+can more accurately reflect the energy demand and characteristics of various areas, thus
+energy demand
+characteristics
+of various
+areas,
+thus achieving
+energy
+achieving
+more and
+effective
+energy planning.
+This
+precise
+allocation more
+helpseffective
+to capture
+the
+planning.
+Thisofprecise
+allocation
+helps to capture
+themore
+unique
+needs
+of effective
+each areaenergy
+more
+unique
+needs
+each area
+more accurately,
+enabling
+flexible
+and
+accurately, enabling more flexible and effective energy planning.
+planning.
+Focused allocation
+Geographical position
+Eastern
+
+Western
+
+Development stage
+Developed
+
+Central
+
+Underdeveloped
+
+Typical scenario
+Environmental
+protection weight
+
+Economic weight
+
+Energy saving
+weight
+
+Figure 4. Process
+Process of allocating indicator weight factors for different types.
+
+Machine learning also plays a crucial role in optimizing energy production and distribution. Machine learning systems can identify potential performance issues by continuously monitoring and analyzing real-time operational data from energy production
+equipment, improving equipment efficiency and effectiveness. Genetic programming (GP),
+as an advanced evolutionary algorithm, utilizes natural selection principles to optimize
+problem solutions. Niazkar et al. [48] used multi-gene genetic programming (MGGP) and
+artificial neural network (ANN) to downscale three general circulation models. Among
+them, the GP model demonstrated strong capabilities in dealing with large amounts of data
+and complex correlations between variables, making it particularly suitable in the energy
+system configuration and optimization fields [49]. GP is an AI evolutionary algorithm that
+simulates the natural evolution process to gradually evolve programs or structures adapted
+to specific problems. GP provides an innovative approach to optimizing the structure and
+configuration of energy systems. In the GP algorithm, individuals are typically represented
+by tree structures where each node of the tree represents an operator or variable. The tree
+can be expressed through a string of symbols (genetic encoding). The encoding method is
+as follows:
+I = (o, T1 , T2 )
+(11)
+I represents an individual, o means the operator at the root node of the tree, T1 and T2
+are the left and right subtrees of the tree, respectively.
+The fitness function evaluates the performance of an individual and is typically defined
+based on the objectives and constraints of the problem. It can be expressed as:
+F( I ) =
+
+1
+1 + error ( I )
+
+(12)
+
+F ( I ) refers to the fitness of the individual I, and error ( I ) represents the error or
+inadaptability of the individual in the solution space.
+GP autonomously generates programs that fit specific objectives by simulating the
+biological evolution process. In energy systems, GP can be employed to optimize the
+structure and configuration of energy systems, enhancing the system’s overall efficiency.
+3.4. Experimental Data
+The data utilized in this work predominantly emanate from rural energy systems
+across various regions of China, with three representative locales being X County in Yantai
+
+Sustainability 2024, 16, 4111
+
+11 of 20
+
+City, situated in eastern China; Y County in Luoyang City, located in central China; and Z
+County in Lanzhou City, situated in western China. These regions epitomize China’s rural
+energy development landscape, encapsulating the nuances of rural energy systems across
+distinct geographical and economic spectra. The selection of these regions is predicated on
+their capacity to exemplify the diversity and intricacies of energy development in China,
+thus facilitating a comprehensive appraisal of the challenges and opportunities inherent
+in rural energy planning and management. The dataset pertaining to these regions exhibits a high degree of representativeness, thereby efficaciously underpinning the empirical
+analysis of energy system planning and optimization. Aligned with the research inquiry’s
+pertinence, this work aims to investigate avenues for advancing rural energy planning and
+fostering sustainable energy economy development through AI-facilitated multi-energy
+optimization. Consequently, the chosen data is intricately intertwined with the research
+question, enabling a nuanced examination of energy demand, supply structure, economic
+attributes, and environmental ramifications across diverse regions. By scrutinizing these
+data, a more profound comprehension of the prevailing state and extant challenges within
+the energy system can be attained, thereby furnishing a scientific framework for the formulation of efficacious energy planning strategies and policies. As such, it is posited that
+the selected data holds significant relevance to the discourse surrounding the research
+questions and augments the credibility and persuasiveness of the research findings.
+4. Experimental Design and Performance Evaluation
+4.1. Scenario Case Analysis Experiment
+Based on project data support, this study selected three regions in China (located in the
+eastern, central, and western parts) for a detailed case analysis due to their differentiated
+development patterns. These regions specifically include X County in Yantai City (east), Y
+County in Luoyang City (central), and Z County in Lanzhou City (west). These areas are
+chosen as representative validation scenarios, enabling an in-depth examination of various
+facets of energy development and establishing a substantial case foundation. Since only X
+County and Y County are suitable for combining coal and biomass in power generation,
+we have compiled the relevant optimization configuration parameters for this coupling
+(Table 2). Given that the selected simulation objects cover economically developed stages
+in X and Y counties, it can be understood that these areas, influenced by national policies,
+belong to the new agricultural development stage and have made significant progress,
+making them representative of the new model. This development status underscores the
+significant impact of adjustments in energy transition policies on their progress.
+Table 2. Related optimization configuration parameters for coal-biomass coupling power generation
+in X County and Y County.
+Basic Parameters
+
+Numerical Values
+
+Coal-fired unit capacity (MW)
+
+X County
+Y County
+
+330
+660
+
+Biomass supply quantity (t/month)
+
+X County
+Y County
+
+3500
+5000
+
+Raw material recycling price (yuan/t)
+
+Standard coal
+Biomass
+
+530
+300
+
+Pollutant gas emission coefficient
+(kg/(kW·h))
+
+CO2
+NOX
+SO2
+
+52.160
+2.398
+5.397
+
+4.2. Prediction Results of Grid Transformation Project
+In the modeling process of grey forecasting, the accuracy of the forecast results do not
+necessarily increase with the increase in historical data. For optimal results, this study opts
+to utilize eight datasets for forecasting, specifically focusing on electricity consumption
+
+Sustainability 2024, 16, 4111
+
+12 of 20
+
+from 2014 to 2022. Figures 5 and 6 depict the electricity consumption prediction data
+for X and Y counties. Observations indicate that X County’s three primary industries
+are flourishing, with agriculture forming a smaller part of its economic structure. The
+growth rate in such areas remains at a high level in multiple periods but fails to consistently
+sustain the same level of growth. Y County’s development is primarily dominated by
+agriculture, and compared to areas like X County, the effects of transformation policies
+are more pronounced. The electricity consumption in X County is significantly higher
+than that in Y County. The decision for Y County to expand its biomass coal coupling
+scale or explore alternative energy development paths hinges on several considerations. If
+the growth forecast of electricity consumption in Y County shows a remarkable increase
+Sustainability 2024, 16, x FOR PEER REVIEW
+13 of 21
+in energy demand in the future, expanding the scale of biomass coal coupling may be a
+feasible option. Expanding the scale of coupling requires consideration of economic costs,
+return on investment, and potential environmental impacts. If the cost-effectiveness of
+resources
+key
+factors in determining
+whether
+to expand the
+scale of biomass
+coal couscaling are
+up is
+comparatively
+high and meets
+environmental
+protection
+requirements,
+then
+this If
+may
+be a worthwhile
+option
+to consider.
+The availability
+and long-term
+sustainability
+of biomass
+pling.
+Y County
+has abundant
+biomass
+resources
+and can ensure
+supply,
+this
+resources
+key factors
+in determining
+to expand
+the scaleenvironmental
+of biomass coal
+supports
+theare
+decision
+to expand
+the couplingwhether
+scale. The
+energy policies,
+coupling. If
+Y County
+andand
+canlocal
+ensure
+long-term supply,
+regulations,
+and
+supporthas
+forabundant
+renewablebiomass
+energy resources
+by national
+governments
+also
+thisthe
+supports
+the decisionoftoYexpand
+theIfcoupling
+scale.
+The energy
+policies, environmental
+affect
+decision-making
+County.
+some more
+advanced
+technologies
+or methods
+support
+renewable
+energy
+by national
+and local
+governments
+also
+canregulations,
+improve theand
+efficiency
+or for
+reduce
+the costs
+of biomass
+coal coupling,
+it may
+also prompt
+affect
+the
+decision-making
+of
+Y
+County.
+If
+some
+more
+advanced
+technologies
+or
+methods
+Y County to consider expanding its scale. In addition to expanding the scale of biomass
+can
+improveYthe
+efficiency
+reduce
+the other
+costs of
+biomass
+coal coupling,
+it maysuch
+alsoas
+prompt
+coal
+coupling,
+County
+can or
+also
+explore
+energy
+development
+methods
+inY County
+consider
+expanding
+its scale.
+addition
+expanding
+the scale
+of biomass
+coal
+creasing
+theto
+use
+of renewable
+energy
+(solarInand
+windto
+energy)
+to achieve
+diversified
+encoupling,
+County
+also exploreWhen
+other energy
+development
+methods
+suchof
+asbiomass
+increasing
+ergy
+supplyYand
+risk can
+diversification.
+considering
+expanding
+the scale
+thecoupling
+use of renewable
+energy
+and
+wind energy)
+to achieve
+energy
+supply
+coal
+or adopting
+other(solar
+energy
+development
+methods,
+it isdiversified
+also necessary
+to evaland
+risk
+diversification.
+When
+considering
+expanding
+the
+scale
+of
+biomass
+coal
+coupling
+uate the potential impact of these measures on the economy and society, encompassing or
+adopting
+other
+development industrial
+methods, itdevelopment,
+is also necessary
+evaluate
+their
+influence
+onenergy
+local employment,
+andtothe
+qualitythe
+of potential
+life of
+impact
+of
+these
+measures
+on
+the
+economy
+and
+society,
+encompassing
+their
+influence
+on local
+residents. In conclusion, Y County’s decision to expand biomass coal coupling or pursue
+employment,
+industrial
+development,
+and
+the
+quality
+of
+life
+of
+residents.
+In
+conclusion,
+alternative energy strategies demands a thorough analysis and evaluation. This involves Y
+County’s decision
+to expand biomass
+coalsuch
+coupling
+or pursue
+alternative
+energyresource
+strategies
+a comprehensive
+consideration
+of factors
+as energy
+demand
+forecasting,
+demands
+a
+thorough
+analysis
+and
+evaluation.
+This
+involves
+a
+comprehensive
+consideration
+availability, economic benefits, environmental impact, policy support, and technological
+of factors such as energy demand forecasting, resource availability, economic benefits,
+innovation.
+environmental impact, policy support, and technological innovation.
+True value
+Predicted value
+
+Relative error
+
+12000
+12,000
+
+5
+
+10000
+10,000
+8000
+0
+6000
+
+Relative error (%)
+
+Annual electricity (MW·h)
+
+14,000
+14000
+
+4000
+-5
+–5
+
+2000
+2014
+
+2016
+
+2018
+
+2020
+
+2022
+
+2024
+
+Year
+Figure 5. Electricity consumption prediction for X County.
+Figure 5. Electricity consumption prediction for X County.
+
+Relative error
+True value
+Predicted value
+
+3000
+5
+2000
+0
+1000
+
+Relative error (%)
+
+nual electricity (MW·h)
+
+4000
+
+-5
+–5
+
+2000
+2014
+
+2016
+
+2018
+
+2020
+
+2022
+
+2024
+
+Year
+Figure 5. Electricity consumption prediction for X County.
+
+Relative error
+
+4000
+
+Annual electricity (MW·h)
+
+13 of 20
+
+True value
+Predicted value
+
+3000
+5
+2000
+0
+1000
+
+Sustainability 2024, 16, x FOR PEER REVIEW
+
+Relative error (%)
+
+Sustainability 2024, 16, 4111
+
+-5
+–5
+
+0
+2014
+
+2016
+
+2018
+
+2020
+
+2022
+
+2024
+
+14 of 21
+
+Year
+Figure 6. Electricity consumption prediction for Y County.
+There
+are differences
+in theprediction
+total annual
+daily load of X, Y, and Z counties, as
+Figure
+6. Electricity
+consumption
+for Ytypical
+County.
+
+well as variations
+resource distribution.
+Two-tier
+planning
+refers
+strategy
+takes
+There are in
+differences
+in the total annual
+typical
+daily
+loadtoofa X,
+Y, andthat
+Z counties,
+both
+geographical
+location
+and
+economic
+development
+into
+account
+in
+energy
+system
+as well as variations in resource distribution. Two-tier planning refers to a strategy that
+planning.
+In this
+work, two-tier
+planning
+is used development
+to comprehensively
+consider
+the energy
+takes both
+geographical
+location
+and economic
+into account
+in energy
+system
+needs
+and
+sustainable
+development
+goals
+of
+diverse
+regions
+and
+formulate
+corresponding
+planning. In this work, two-tier planning is used to comprehensively consider the energy
+energy
+according
+to each region’s
+effectively
+the
+needsplanning
+and sustainable
+development
+goals ofcharacteristics.
+diverse regionsTo
+and
+formulateevaluate
+corresponding
+planning
+effectiveness
+of
+dual-layer
+planning
+and
+analyze
+the
+impact
+of
+different
+weight
+energy planning according to each region’s characteristics. To effectively evaluate the
+indicators
+ineffectiveness
+each typical scenario,
+the results
+obtained
+from the
+are weight
+norplanning
+of dual-layer
+planning
+and analyze
+theplanning
+impact ofmodel
+different
+malized.
+Figure
+displays
+the scenario,
+economicthe
+analysis
+results.
+X County
+high demand
+forare
+indicators
+in 7each
+typical
+results
+obtained
+from has
+the aplanning
+model
+a typical
+daily load,
+to meet
+local industry
+andresults.
+agriculture
+production,
+with
+ennormalized.
+Figuremainly
+7 displays
+the economic
+analysis
+X County
+has a high
+demand
+ergy-saving
+as the
+primary
+focus intoits
+energy
+In the planning
+of energy
+for a typical
+daily
+load, mainly
+meet
+localtransition
+industrypath.
+and agriculture
+production,
+with
+transition
+pathways,
+the
+different
+focus
+of
+different
+types
+of
+rural
+areas
+leads
+to
+the
+differenergy-saving as the primary focus in its energy transition path. In the planning of energy
+enttransition
+weights of
+demand the
+indicators.
+optimal
+allocation
+biomass-coal
+coupled
+pathways,
+differentThe
+focus
+of different
+typesresults
+of ruralofareas
+leads to the
+different
+power
+generation
+capacity
+are based
+these weighting
+so biomass-coal
+that the optimized
+weights
+of demand
+indicators.
+Theon
+optimal
+allocation factors
+results of
+coupled
+power
+generation
+capacity
+allocation
+scheme
+can reflect
+the unique
+of each
+power
+generation
+capacity
+are based
+on these
+weighting
+factorsenergy
+so thatneeds
+the optimized
+area
+moregeneration
+accurately.capacity
+The proportion
+energycan
+consumption
+costs inenergy
+X County
+is relapower
+allocationofscheme
+reflect the unique
+needs
+of each
+tively
+Y proportion
+County andofZenergy
+County,
+at 3.28%. This
+that isthe
+proarealower
+more compared
+accurately. to
+The
+consumption
+costsindicates
+in X County
+relatively
+lower
+compared model
+to Y County
+and Z focuses
+County,on
+atthe
+3.28%.
+Thisenergy-saving
+indicates thatfocus
+the proposed
+posed
+optimization
+successfully
+region’s
+in the
+optimization
+model
+focuses
+on the region’s
+energy-saving
+focus in the
+energy
+transition
+path.successfully
+The planning
+in Z County
+emphasizes
+economic indicators
+inenergy
+the
+transition
+path. The
+planning
+in Z County
+economic
+indicators
+in the model.
+model.
+As a result,
+the initial
+investment
+costsemphasizes
+after planning
+in Z County
+are reduced
+by
+As aand
+result,
+the initial
+investment
+costs after
+planning
+in Z County
+are reduced
+8.55%
+8.55%
+10.26%,
+respectively,
+compared
+to X
+and Y counties.
+Y County
+has aby
+large
+and 10.26%,
+respectively,
+X and Y in
+counties.
+County has a large
+amount
+amount
+of renewable
+energycompared
+internally,toresulting
+a higherYenvironmental
+weight
+com- of
+renewable
+internally, resulting in a higher environmental weight compared to X
+pared
+to X andenergy
+Z counties.
+and Z counties.
+
+Weight and economic index
+
+1.0
+
+X county
+Y county
+Z county
+
+0.8
+0.6
+0.4
+0.2
+0.0
+
+ight
+ht
+st
+n we on tax
+weig tion co
+ht
+st
+i
+ectio
+p
+tion
+t
+weig mic co
+o
+c
+r
+i
+p
+miss
+sum
+ump
+o
+e
+m
+l
+n
+s
+n
+a
+o
+o
+n
+n
+t
+o
+n
+c
+o
+o
+n
+c
+Ec
+me
+Eco
+rgy
+rgy
+Carb
+iron
+Ene
+Ene
+Env
+
+Figure
+7. Economic
+analysis
+results
+after
+target
+weighting
+normalization.
+Figure
+7. Economic
+analysis
+results
+after
+target
+weighting
+normalization.
+
+In this work, X, Y, and Z counties are taken as research cases, and there are obvious
+differences in their positioning and main influencing factors in sustainable energy
+planning. A breakdown of each county follows:
+1.
+
+X County:
+
+Sustainability 2024, 16, 4111
+
+14 of 20
+
+In this work, X, Y, and Z counties are taken as research cases, and there are obvious
+differences in their positioning and main influencing factors in sustainable energy planning.
+A breakdown of each county follows:
+1.
+
+X County:
+
+Principal Influencing Factors: the level of industrial and agricultural development and
+energy consumption efficiency constitute the primary determinants. X County exhibits a
+relatively advanced industrial and agricultural landscape, rendering energy consumption
+efficiency a paramount consideration. Given the substantial contributions of industrial
+and agricultural sectors to energy consumption, enhancing energy utilization efficiency
+assumes critical importance in mitigating carbon emissions and fostering sustainable development. Accordingly, X County may prioritize the adoption of energy-saving and
+emission-reduction technologies to enhance energy efficiency across industrial and agricultural domains. Simultaneously, the gradual integration of renewable energy sources to
+supplant conventional energy sources facilitates the transformation and modernization of
+the energy structure. Environmental Impact Considerations: owing to the mature development of industry and agriculture, X County exerts a notable environmental footprint.
+Consequently, imperative environmental conservation measures, such as curbing energy
+consumption, reducing carbon emissions, and ameliorating air quality emerge as pivotal
+facets guiding future developmental trajectories.
+2.
+
+Y County:
+
+Principal Influencing Factors: agricultural dependence and utilization of renewable
+energy. The economic structure of Y County is mainly based on agriculture, so more
+attention is paid to the utilization of renewable energy. The biomass resources generated
+during agricultural production can serve as a critical source of renewable energy. Hence, in
+energy planning, Y County attaches greater importance to the development and utilization
+of renewable energy. Y County may be more inclined to develop renewable energy projects
+such as agricultural waste utilization and biomass energy to meet the energy needs of
+agricultural production and residents and achieve sustainable development of rural energy.
+The industrial structure of Y County is mainly based on agriculture, and compared to
+industrialized areas, its impact on the environment is relatively small. However, attention
+still needs to focus on potential environmental issues that may arise during agricultural
+production processes, such as pesticide residues and land degradation.
+3.
+
+Z County:
+
+Principal Influencing Factors: economic development level and environmental protection demand. Z County is located in the western region of China, with a comparatively
+low level of economic development. Thus, in energy planning, more emphasis is placed
+on balancing economic development and environmental protection. With the increasing
+awareness of environmental protection, the demand for environmental protection is gradually increasing, becoming a vital factor affecting energy planning. Z County may take
+measures such as developing clean energy and improving energy utilization efficiency to
+achieve sustainable economic growth while protecting local environmental resources. Due
+to the relatively low level of economic development, the environmental protection needs
+in Z County are more urgent. Consequently, in energy planning, it is necessary to pay
+attention to environmental protection measures such as reducing pollution emissions and
+improving resource utilization efficiency to achieve a win-win situation between economic
+development and environmental protection.
+4.3. Explanation of Model Results and Policy Relevance
+The capacity planning model proposed here is closely related to current policies,
+and its output is in line with the local policy background, furnishing critical references
+for future policy formulation. Taking China’s rural energy planning as an example, the
+current Chinese government has proposed the strategic goals of carbon neutrality and
+sustainable development. It requires improving energy utilization efficiency, promoting
+
+Sustainability 2024, 16, 4111
+
+15 of 20
+
+energy structure optimization and upgrading, vigorously developing clean and renewable
+energy sources, and reducing carbon emissions while achieving energy supply security.
+The proposed model is based on this background, aiming to realize an intelligent and
+sustainable energy supply by optimizing the energy supply structure.
+Drawing from the model outcomes, prospective energy planning initiatives should
+center on the following focal points. Firstly, optimizing the energy supply structure and
+augmenting the utilization of clean and renewable energy resources warrant concerted
+attention. Tailored energy transition pathways can be delineated for diverse rural settings to
+propel the energy system toward cleaner, low-carbon, and efficient trajectories. For instance,
+initiatives can entail bolstering the utilization of clean energy sources like solar and wind
+energy, alongside fostering the incremental integration of renewable energy within rural
+energy matrices, contingent upon local climatic prerequisites. Secondly, deliberations
+should ensue on strategies to expedite the adoption of renewable energy and realize carbon
+neutrality objectives within prevailing policy frameworks. Governments can incentivize
+corporate entities and individuals to amplify investments in and utilization of renewable
+energy through proactive policy interventions, including subsidies, preferential tax regimes,
+and the establishment of carbon markets, thereby advancing the transition toward carbon
+neutrality. Finally, fortifying the monitoring and evaluation mechanisms about the efficacy
+of energy planning implementation and promptly recalibrating policy interventions as
+warranted assumes paramount importance. By instituting a robust monitoring framework
+and collating data pertaining to energy utilization and environmental indicators, the efficacy
+of energy planning implementation can be judiciously appraised. Furthermore, policy
+adjustments are orchestrated in a timely fashion based on evaluation outcomes to ensure
+the seamless attainment of energy planning objectives.
+In short, future energy planning should strengthen measures regarding policy support,
+technological innovation, market mechanisms, and monitoring and evaluation. Consequently, it can promote the rural energy system’s development in a cleaner, more efficient,
+and sustainable direction, and make positive contributions to the realization of carbon
+neutrality and sustainable development goals.
+4.4. Strategies to Stabilize Housing Prices for Particle Matter and Air Pollution
+This work recognizes the close relationship between air pollution control and stable housing prices and realizes that this relationship is crucial for achieving sustainable
+development goals. Specifically, it should be noted that housing price policies have a
+significant impact on residents’ housing choices and lifestyles, which in turn directly affect
+energy consumption and emissions. Therefore, it is believed that exploring the impact of
+housing price policies on particle matter (PM) emissions and air quality, as well as their
+correlation with air pollution control, is of great significance for formulating comprehensive
+environmental governance strategies.
+Firstly, the impact of housing price policies on urban planning and land use can
+be analyzed. High housing prices may lead residents to choose to purchase housing in
+suburbs or places far from the city center, thereby increasing commuting distance and
+further increasing car exhaust emissions. Thus, the reasonable regulation of housing
+price policies can indirectly affect the frequency of car use and reduce PM emissions by
+influencing residents’ choices of living locations. Secondly, housing price policies may also
+affect residents’ investment in energy utilization and environmental protection facilities.
+In cities with high housing prices, residents may be more inclined to purchase newly
+built high-end housing, which is often equipped with more efficient energy utilization
+facilities and environmentally friendly equipment, thereby reducing energy consumption
+and emissions. Hence, the adjustment of the housing price policy may indirectly affect the
+energy structure of the city and the construction level of environmental protection facilities,
+and then affect the air quality. Finally, housing price policies may also affect the economic
+status and lifestyle of residents, thereby affecting their level of attention to environmental
+issues. The rise in housing prices may lead residents to pay more attention to conservation
+
+Sustainability 2024, 16, 4111
+
+16 of 20
+
+and environmental protection, such as choosing to purchase energy-saving appliances and
+reducing energy waste. These behaviors have a positive effect on reducing PM emissions
+and improving air quality.
+According to the above analysis, it is suggested that future research should further
+explore the relationship between housing price policy and environmental governance,
+and put forward targeted policy recommendations. For example, the government can
+guide residents to choose more environmentally friendly living methods and promote
+green urban development by adjusting housing price policies. The government can also
+encourage developers to use more environmentally friendly building materials and facilities
+in new residential buildings by formulating incentive policies, thus reducing the impact of
+construction on the environment. These policy measures help achieve the dual goals of
+air pollution control and stable housing prices and promote the development of cities in a
+more sustainable direction.
+4.5. Potential and Challenges of Solar Photovoltaic and Wind Power Generation Projects
+Considering the abundant renewable energy resources in Z County and the entire
+western region, especially the significant potential in solar and wind energy, the research
+scope has been expanded and the comprehensive optimization allocation of these resources
+has been evaluated. Utilizing an analytical framework analogous to the biomass-coal
+coupling model, we have conducted the planning and design of solar photovoltaic and
+wind power generation systems in Z County, evaluating their stability, economic viability,
+and environmental implications within the local context. It is believed that although
+Z County cannot adopt the biomass coal coupling model, there is still broad space in
+promoting green transformation and improving energy efficiency in the region.
+In Z County, an innovative model for the comprehensive utilization of solar and wind
+energy is adopted, utilizing geographic information systems (GIS) and multi-objective
+optimization technology to determine the optimal installation location for solar photovoltaic
+panels and wind turbines. This model considers terrain, sunshine rate, wind speed, and
+other factors to ensure the maximization of energy output and cost-benefit optimization.
+The average annual sunshine hours in Z County reach 2200 h, with an average wind
+speed of 3.5 m per second, providing good conditions for solar and wind energy. Based
+on geographical analysis, photovoltaic panels are chosen to be installed in the southern
+region with open terrain and sufficient sunlight. The expected installation capacity is
+150 megawatts. Wind turbines are mainly installed in the northern mountainous areas
+with high wind speeds, with an expected installation capacity of 100 megawatts. The
+preliminary results of the comprehensive energy system planning are presented in Table 3.
+In Z County, considering the lack of combined utilization of biomass coal, planning
+experiments are carried out on solar and wind energy resources. For solar and wind power
+generation projects, the following strategies have been adopted. Firstly, a geographical
+survey and resource assessment are conducted on these projects. By collecting and analyzing climate data, topography, and other information about Z County, suitable locations
+for constructing projects are determined. Secondly, the layout and capacity of solar photovoltaic and wind power generation systems are designed. Based on the results of the
+field survey and resource assessment, the location and number of photovoltaic panels
+and wind turbines are determined to maximize the use of local solar and wind resources.
+Finally, an operation and maintenance plan is developed. Considering the seasonality
+and uncertainty of solar and wind energy, an operation and maintenance plan has been
+developed to ensure the stable operation and effective utilization of solar photovoltaic and
+wind power generation systems.
+Solar and wind power generation projects can bring many benefits to Z County. Solar
+photovoltaic and wind power generation systems can provide Z County with a clean,
+renewable energy supply, decrease dependence on traditional energy sources, and reduce
+environmental pollution. The construction of these projects can create employment opportunities and promote local economic development. At the same time, project operation
+
+Sustainability 2024, 16, 4111
+
+17 of 20
+
+and maintenance drive the development of related industrial chains, forming an industrial
+agglomeration effect. The use of clean energy improves the living environment of residents
+and enhances their quality of life. In addition, the project construction also promotes local
+energy security and advances social stability and sustainable development.
+Table 3. Preliminary results of comprehensive energy system planning.
+Energy System Planning
+Estimated annual power
+generation
+
+Numerical Values
+
+Solar photovoltaic
+
+180,000 megawatt hours
+
+wind power generation
+
+120,000 megawatt hours
+
+Investment cost
+
+The total investment is about
+300 million yuan, with a solar
+photovoltaic investment of
+180 million yuan; Wind power
+investment: 120 million yuan
+
+Payback period
+
+8 years
+
+Reducing CO2 emissions
+
+Expected to reduce carbon
+emissions by approximately
+260,000 tons annually
+
+Other pollutants
+
+Compared to coal-fired power
+generation, NOx and SO2
+emissions are reduced by
+approximately 3000 tons
+
+Economic analysis
+
+Environmental benefits
+
+However, these projects’ construction also faces some challenges. Solar photovoltaic
+and wind power technologies require advanced equipment and technical support, and the
+construction process may face problems such as supply chain disruptions and equipment
+failures. These projects require a large amount of capital investment, including equipment
+procurement, engineering construction, operation, and maintenance expenses, and the
+investment return period is relatively long. Project management and operation require
+professionals and experienced teams to carry out. Moreover, facing factors such as weather,
+seasonal changes, management, and operation are difficult. To sum up, while solar photovoltaic and wind power projects bring clean energy supply to Z County, they also face
+some challenges which need the joint efforts of government departments, enterprises, and
+all sectors of society to overcome.
+A comparative analysis is carried out and the economic and environmental benefits
+of different energy utilization schemes are re-evaluated in response to the development
+potential of Z County in renewable energy. Comparative analysis updates and benefit
+reassessment are listed in Table 4:
+Table 4. Comparative analysis update and benefit reassessment.
+Energy Utilization Plan
+
+Economic Benefits
+(10,000 Yuan/Year)
+
+Environmental Benefits
+(Emission Reduction/Year)
+
+Solar photovoltaic
+
+500
+
+1000
+
+Wind power generation
+
+450
+
+900
+
+Biomass coal combined utilization
+
+600
+
+1200
+
+Table 4 shows that although the biomass coal combined utilization scheme has outstanding economic and environmental benefits, considering the lack of biomass resources in
+Z County, solar photovoltaic and wind power generation are still more feasible energy utilization schemes. Hence, it is recommended that government departments and enterprises
+focus on promoting the construction of solar photovoltaic and wind power generation
+
+Sustainability 2024, 16, 4111
+
+18 of 20
+
+projects when formulating energy development plans to achieve a win-win situation of
+economic and environmental benefits.
+5. Conclusions
+This work successfully advances the green transition of rural energy planning and
+sustainable energy economy by proposing an innovative AI-based multi-energy optimization model. Case studies of diverse rural areas in eastern, central, and western China
+demonstrate the model’s effectiveness in improving energy efficiency, reducing environmental impact, and promoting economic development. The application results of the
+model are closely linked with the national carbon neutrality target and the green total factor
+productivity assessment, thus providing a scientific basis and practical guidance for energy
+system planning.
+Policymakers are advised to consider the following measures. The energy supply
+structure is optimized, increasing the utilization of clean and renewable energy; Incentive
+policies are developed to encourage businesses and individuals to invest in renewable
+energy; A monitoring system is established, the effectiveness of energy planning implementation is evaluated, and policies are adjusted promptly. In addition, it is necessary to
+recognize the close relationship between air pollution control and housing price stability.
+Hence, it is recommended that future research further explore the relationship between
+housing price policies and environmental governance.
+Although this work has achieved certain results, there are limitations, and future
+research can further explore the application of AI technology in the broader rural energy
+field and develop more refined models and algorithms. Solar photovoltaic and wind power
+generation projects show great potential in Z County, but they also face technical and
+financial challenges. Government departments, enterprises, and all sectors of society must
+work together to overcome these challenges and promote the green transformation and
+sustainable development of rural energy systems.
+This work strongly believes that the use of AI and multi-energy optimization strategies
+can effectively promote energy planning and transition in rural areas and make a positive
+contribution to the achievement of global and Chinese sustainable development goals.
+Author Contributions: X.P.: Writing—review and editing, conceptualization, methodology, project
+administration; X.G.: writing—review and editing, data curation, methodology, resources; Y.Z.:
+writing—original draft, formal analysis, supervision; J.Z.: writing—original draft, visualization,
+validation. All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+Conflicts of Interest: The authors declare that the research was conducted in the absence of any
+commercial or financial relationships that could be construed as potential conflicts of interest.
+
+References
+1.
+2.
+3.
+
+4.
+
+Chen, C.; Hu, Y.; Karuppiah, M.; Kumar, P.M. Artificial intelligence on economic evaluation of energy efficiency and renewable
+energy technologies. Sustain. Energy Technol. Assess. 2021, 47, 101358. [CrossRef]
+Abdalla, A.N.; Nazir, M.S.; Tao, H.; Cao, S.; Ji, R.; Jiang, M.; Yao, L. Integration of energy storage system and renewable energy
+sources based on artificial intelligence: An overview. J. Energy Storage 2021, 40, 102811. [CrossRef]
+Ahmad, T.; Madonski, R.; Zhang, D.; Huang, C.; Mujeeb, A. Data-driven probabilistic machine learning in sustainable smart
+energy/smart energy systems: Key developments, challenges, and future research opportunities in the context of smart grid
+paradigm. Renew. Sustain. Energy Rev. 2022, 160, 112128. [CrossRef]
+Şerban, A.C.; Lytras, M.D. Artificial intelligence for smart renewable energy sector in Europe—Smart energy infrastructures for
+next generation smart cities. IEEE Access 2020, 8, 77364–77377. [CrossRef]
+
+Sustainability 2024, 16, 4111
+
+5.
+
+6.
+7.
+
+8.
+9.
+10.
+11.
+12.
+13.
+
+14.
+
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+
+28.
+29.
+30.
+31.
+
+19 of 20
+
+Leal Filho, W.; Viera Trevisan, L.; Simon Rampasso, I.; Anholon, R.; Pimenta Dinis, M.A.; Londero Brandli, L.; Sierra, J.; Lange
+Salvia, A.; Pretorius, R.; Nicolau, M.; et al. When the alarm bells ring: Why the UN sustainable development goals may not be
+achieved by 2030. J. Clean. Prod. 2023, 407, 137108. [CrossRef]
+Zou, C.; Ma, F.; Pan, S.; Zhao, Q.; Fu, G.; Zhang, G.; Yang, Y.; Yu, H.; Liang, Y.; Lin, M.; et al. Global energy transition revolution
+and the connotation and pathway of the green and intelligent energy system. Pet. Explor. Dev. 2023, 50, 722–740. [CrossRef]
+Miskat, M.I.; Sarker, P.; Chowdhury, H.; Chowdhury, T.; Rahman, M.S.; Hossain, N.; Chowdhury, P.; Sait, S.M. Current Scenario of
+Solar Energy Applications in Bangladesh: Techno-Economic Perspective, Policy Implementation, and Possibility of the Integration
+of Artificial Intelligence. Energies 2023, 16, 1494. [CrossRef]
+Nam, K.; Hwangbo, S.; Yoo, C. A deep learning-based forecasting model for renewable energy scenarios to guide sustainable
+energy policy: A case study of Korea. Renew. Sustain. Energy Rev. 2020, 122, 109725. [CrossRef]
+Yigitcanlar, T.; Mehmood, R.; Corchado, J.M. Green artificial intelligence: Towards an efficient, sustainable and equitable
+technology for smart cities and futures. Sustainability 2021, 13, 8952. [CrossRef]
+Yildizbasi, A. Blockchain and renewable energy: Integration challenges in circular economy era. Renew. Energy 2021, 176, 183–197.
+[CrossRef]
+Agostinelli, S.; Cumo, F.; Guidi, G.; Tomazzoli, C. Cyber-Physical systems improving building energy management: Digital twin
+and artificial intelligence. Energies 2021, 14, 2338. [CrossRef]
+Dogaru, L. The main goals of the fourth industrial revolution. Renewable energy perspectives. Procedia Manuf. 2020, 46, 397–401.
+[CrossRef]
+Al-Othman, A.; Tawalbeh, M.; Martis, R.; Dhou, S.; Orhan, M.; Qasim, M.; Ghani Olabi, A. Artificial intelligence and numerical
+models in hybrid renewable energy systems with fuel cells: Advances and prospects. Energy Convers. Manag. 2022, 253, 115154.
+[CrossRef]
+Palomares, I.; Martínez-Cámara, E.; Montes, R.; García-Moral, P.; Chiachio, M.; Chiachio, J.; Alonso, S.; Melero, F.J.; Molina, D.;
+Fernández, B.; et al. A panoramic view and swot analysis of artificial intelligence for achieving the sustainable development
+goals by 2030: Progress and prospects. Appl. Intell. 2021, 51, 6497–6527. [CrossRef] [PubMed]
+Liu, X.; Zhao, T.; Chang, C.-T.; Fu, C.J. China’s renewable energy strategy and industrial adjustment policy. Renew. Energy 2021,
+170, 1382–1395. [CrossRef]
+Tutak, M.; Brodny, J.; Siwiec, D.; Ulewicz, R.; Bindzár, P. Studying the level of sustainable energy development of the European
+union countries and their similarity based on the economic and demographic potential. Energies 2020, 13, 6643. [CrossRef]
+Nishant, R.; Kennedy, M.; Corbett, J. Artificial intelligence for sustainability: Challenges, opportunities, and a research agenda.
+Int. J. Inf. Manag. 2020, 53, 102104. [CrossRef]
+Vanegas Cantarero, M.M. Of renewable energy, energy democracy, and sustainable development: A roadmap to accelerate the
+energy transition in developing countries. Energy Res. Soc. Sci. 2020, 70, 101716. [CrossRef]
+Wang, Z.; Zhang, S.; Zhao, Y.; Chen, C.; Dong, X. Risk prediction and credibility detection of network public opinion using
+blockchain technology. Technol. Forecast. Soc. Change 2023, 187, 122177. [CrossRef]
+Deng, Y.; Jiang, W.; Wang, Z. Economic resilience assessment and policy interaction of coal resource oriented cities for the low
+carbon economy based on AI. Resour. Policy 2023, 82, 103522. [CrossRef]
+Li, C.; Liang, F.; Liang, Y.; Wang, Z. Low-carbon strategy, entrepreneurial activity, and industrial structure change: Evidence from
+a quasi-natural experiment. J. Clean. Prod. 2023, 427, 139183. [CrossRef]
+Li, D.D.; Guan, X.; Tang, T.T.; Zhao, L.Y.; Tong, W.R.; Wang, Z.Y. The clean energy development path and sustainable development
+of the ecological environment driven by big data for mining projects. J. Environ. Manag. 2023, 348, 119426. [CrossRef] [PubMed]
+Li, C.; Tang, W.; Liang, F.; Wang, Z. The impact of climate change on corporate ESG performance: The role of resource misallocation
+in enterprises. J. Clean. Prod. 2024, 445, 141263. [CrossRef]
+Wang, Z.; Guan, X.; Zeng, Y.; Liang, X.; Dong, S. Utilizing data platform management to implement “5W” analysis framework for
+preventing and controlling corruption in grassroots government. Heliyon 2024, 10, e28601. [CrossRef] [PubMed]
+Li, Y.; Zhang, Y.; Hu, J.; Wang, Z. Insight into the nexus between intellectual property pledge financing and enterprise innovation:
+A systematic analysis with multidimensional perspectives. Int. Rev. Econ. Financ. 2024, 93, 700–719. [CrossRef]
+Liu, T.; Guan, X.; Wang, Z.; Qin, T.; Sun, R.; Wang, Y. Optimizing green supply chain circular economy in smart cities with
+integrated machine learning technology. Heliyon 2024, 10, e29825. [CrossRef]
+Ghadami, N.; Gheibi, M.; Kian, Z.; Faramarz, M.G.; Naghedi, R.; Eftekhari, M.; Fathollahi-Fard, A.M.; Dulebenets, M.A.; Tian, G.
+Implementation of solar energy in smart cities using an integration of artificial neural network, photovoltaic system and classical
+Delphi methods. Sustain. Cities Soc. 2021, 74, 103149. [CrossRef]
+Østergaard, P.A.; Duic, N.; Noorollahi, Y.; Mikulcic, H.; Kalogirou, S. Sustainable development using renewable energy technology.
+Renew. Energy 2020, 146, 2430–2437. [CrossRef]
+Shahbaz, M.; Wang, J.; Dong, K.; Zhao, J. The impact of digital economy on energy transition across the globe: The mediating role
+of government governance. Renew. Sustain. Energy Rev. 2022, 166, 112620. [CrossRef]
+Yigitcanlar, T.; Desouza, K.C.; Butler, L.; Roozkhosh, F. Contributions and risks of artificial intelligence (AI) in building smarter
+cities: Insights from a systematic review of the literature. Energies 2020, 13, 1473. [CrossRef]
+Di Vaio, A.; Palladino, R.; Hassan, R.; Escobar, O. Artificial intelligence and business models in the sustainable development goals
+perspective: A systematic literature review. J. Bus. Res. 2020, 121, 283–314. [CrossRef]
+
+Sustainability 2024, 16, 4111
+
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+
+45.
+46.
+47.
+48.
+
+49.
+
+20 of 20
+
+Xiang, X.; Li, Q.; Khan, S.; Khalaf, O.I. Urban water resource management for sustainable environment planning using artificial
+intelligence techniques. Environ. Impact Assess. Rev. 2021, 86, 106515. [CrossRef]
+Xu, X.; Wei, Z.; Ji, Q.; Wang, C.; Gao, G. Global renewable energy development: Influencing factors, trend predictions and
+countermeasures. Resour. Policy 2019, 63, 101470. [CrossRef]
+Awan, A.; Abbasi, K.R.; Rej, S.; Bandyopadhyay, A.; Lv, K. The impact of renewable energy, internet use and foreign direct
+investment on carbon dioxide emissions: A method of moments quantile analysis. Renew. Energy 2022, 189, 454–466. [CrossRef]
+Mhlanga, D. Artificial intelligence in the industry 4.0, and its impact on poverty, innovation, infrastructure development, and the
+sustainable development goals: Lessons from emerging economies? Sustainability 2021, 13, 5788. [CrossRef]
+Zhong, Z.; Peng, B.; Xu, L.; Andrews, A.; Elahi, E. Analysis of regional energy economic efficiency and its influencing factors: A
+case study of Yangtze river urban agglomeration. Sustain. Energy Technol. Assess. 2020, 41, 100784. [CrossRef]
+López González, D.M.; Garcia Rendon, J. Opportunities and challenges of mainstreaming distributed energy resources towards
+the transition to more efficient and resilient energy markets. Renew. Sustain. Energy Rev. 2022, 157, 112018. [CrossRef]
+He, Z.; Guo, W.; Zhang, P. Performance prediction, optimal design and operational control of thermal energy storage using
+artificial intelligence methods. Renew. Sustain. Energy Rev. 2022, 156, 111977. [CrossRef]
+Inderwildi, O.; Zhang, C.; Wang, X.; Kraft, M. The impact of intelligent cyber-physical systems on the decarbonization of energy.
+Energy Environ. Sci. 2020, 13, 744–771. [CrossRef]
+Sachs, J.D.; Schmidt-Traub, G.; Mazzucato, M.; Messner, D.; Nakicenovic, N.; Rockström, J. Six transformations to achieve the
+sustainable development goals. Nat. Sustain. 2019, 2, 805–814. [CrossRef]
+Wu, J.; Zhang, J.; Tan, W.; Lan, H.; Zhang, S.; Xiao, K.; Wang, L.; Lin, H.; Sun, G.; Guo, P. Application of Time Serial Model in
+Water Quality Predicting. Comput. Mater. Contin. 2023, 74, 67–82. [CrossRef]
+Yang, X.; Ran, G. Forecasting China’s CO2 emissions and identifying key drivers: An application of the improved RFAGM model
+and LMDI decomposition methods. Int. J. Sustain. Dev. World Ecol. 2024, 1–14. [CrossRef]
+Babatunde, D.E.; Anozie, A.N.; Omoleye, J.A. Artificial neural network and its applications in the energy sector—An overview.
+Int. J. Energy Econ. Policy 2020, 10, 250–264. [CrossRef]
+Bashir, M.F.; Ma, B.; Hussain, H.I.; Shahbaz, M.; Koca, K.; Shahzadi, I. Evaluating environmental commitments to COP21 and the
+role of economic complexity, renewable energy, financial development, urbanization, and energy innovation: Empirical evidence
+from the RCEP countries. Renew. Energy 2022, 184, 541–550. [CrossRef]
+Leal Filho, W.; Yang, P.; Eustachio, J.H.P.P.; Azul, A.M.; Gellers, J.C.; Gielczyk, A.; Dinis, M.A.P.; Kozlova, V. Deploying
+digitalisation and artificial intelligence in sustainable development research. Environ. Dev. Sustain. 2023, 25, 4957–4988. [CrossRef]
+Mohammadi, E.; Alizadeh, M.; Asgarimoghaddam, M.; Wang, X.; Simões, M.G. A review on application of artificial intelligence
+techniques in microgrids. IEEE J. Emerg. Sel. Top. Ind. Electron. 2022, 3, 878–890. [CrossRef]
+Yigitcanlar, T.; Cugurullo, F. The sustainability of artificial intelligence: An urbanistic viewpoint from the lens of smart and
+sustainable cities. Sustainability 2020, 12, 8548. [CrossRef]
+Niazkar, M.; Goodarzi, M.R.; Fatehifar, A.; Abedi, M.J. Machine learning-based downscaling: Application of multi-gene genetic
+programming for downscaling daily temperature at Dogonbadan, Iran, under CMIP6 scenarios. Theor. Appl. Climatol. 2023, 151,
+153–168. [CrossRef]
+Marzban, N.; Libra, J.A.; Hosseini, S.H.; Fischer, M.G.; Rotter, V.S. Experimental evaluation and application of genetic programming to develop predictive correlations for hydrochar higher heating value and yield to optimize the energy content. J. Environ.
+Chem. Eng. 2022, 10, 108880. [CrossRef]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+

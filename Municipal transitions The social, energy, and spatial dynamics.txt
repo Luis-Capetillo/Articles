@@ -1,0 +1,1577 @@
+Energy Research & Social Science 54 (2019) 211–223
+
+Contents lists available at ScienceDirect
+
+Energy Research & Social Science
+journal homepage: www.elsevier.com/locate/erss
+
+Municipal transitions: The social, energy, and spatial dynamics of
+sociotechnical change in South Tyrol, Italy
+
+T
+
+J. Balesta,b,⁎, L. Seccoa, E. Pisania, G. Garegnanib
+a
+b
+
+Department of Land, Environment, Agriculture, Forestry – University of Padua, Italy
+EURAC Research – Bolzano, Italy
+
+ARTICLE INFO
+
+ABSTRACT
+
+Keywords:
+Energy system
+Social science
+Territorial cohesion
+Cluster analysis
+
+With the aim of proposing recommendations on how to use social and territorial specificities as levers for wider
+achievement of climate and energy targets at local level, this research analyses territories as sociotechnical
+systems. Defining the territory as a sociotechnical system allows us to underline the interrelations between
+space, energy and society. Groups of municipalities in a region can be identified with respect to their potential
+production of renewable energy by means of well-known data-mining approaches. Similar municipalities linking
+together can share ideas and promote collaborations, supporting clever social planning in the transition towards
+a new energy system. The methodology is applied to the South Tyrol case study (Italy).
+Results show eight different spatially-based sociotechnical systems within the coherent cultural and institutional context of South Tyrol. In particular, this paper observes eight different systems in terms of (1) different
+renewable energy source preferences in semi-urban and rural contexts; (2) different links with other local
+planning, management, and policy needs; (3) different socio-demographic specificities of individuals and families; (4) presence of different kinds of stakeholders or of (5) different socio-spatial organizations based on land
+cover. Each energy system has its own specificities and potentialities, including social and spatial dimensions,
+that can address a more balanced, inclusive, equal, and accelerated energy transition at the local and translocal
+scale.
+
+1. Introduction
+
+Accounting for different contexts, actors, relationships, and local
+dynamics at the planning phase can contribute to an accelerated, more
+balanced, inclusive, and equal energy transition. At the local scale,
+public authorities are facing specific energy issues in their territories,
+i.e., through Sustainable Energy Action Plans (SEAP) or Sustainable
+Energy and Climate Action Plans (SECAP) of the Covenant of Mayors
+[5]. Energy plans mainly analyze the status quo of their territories by
+considering CO2 emissions, infrastructures, energy supply and demand
+and, secondarily, they propose measures and interventions towards
+energy transition [6,7].
+Within the territory, there are processes of technological transition
+and social changes [8]. Consequently, territorial planning is complex,
+and it should consider several dimensions, such as space-related processes [9], imagined entities [10], and space and resources [11] in an
+ongoing and interactive process [12–14]. The territory is a socio-spatial
+entity in which several actors act [15,14] in the urban and rural environments [16]. Defining territory is complex without introducing
+
+European countries have recently agreed on a new 2030 framework
+for climate and energy, to achieve a more competitive, secure and
+sustainable energy system (The Climate and Energy Framework by Bonn
+UN Climate Change Conference 2017)1 with the aim of going beyond the
+Renewable Energy Directive targets [1].
+The transition towards a new energy system characterized by larger
+adoption of renewable energy is already affecting European territories.
+Through the adoption of strategies and plans at regional and local
+scales, wider sustainable goals can be achieved, and the local territories
+can better contribute to the energy transition emphasizing their potentialities and resources. Even if regional and local territories have
+high potentialities to strengthen the energy transition, effective climate
+and energy strategies and plans are challenging for researchers and
+decision-makers [2,3], especially when they do not consider social dimensions and sociotechnical aspects [4].
+
+Corresponding author at: EURAC Research - Bolzano, Italy.
+E-mail address: jessica.balest@eurac.edu (J. Balest).
+1
+Energy targets of the Climate and Energy Framework aim to achieve at least 40% green house gas emissions decrease, 27% energy consumption decrease, and
+27% energy efficiency increase by 2030 compared to 1990.
+⁎
+
+https://doi.org/10.1016/j.erss.2019.04.015
+Received 16 September 2018; Received in revised form 18 April 2019; Accepted 24 April 2019
+Available online 07 May 2019
+2214-6296/ © 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/BY-NC-ND/4.0/).
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+dimensions [17,18]. Especially in the energy sector, several authors
+[6,19] consider natural, technological, economic, legislative, social and
+cultural dimensions, in analyzing interactions between local populations and territories. Balest et al. [6] use sociotechnical and socioecological perspectives to define the territory and its dimensions. In a
+sociotechnical perspective, social, technical, and technological dimensions interact with each other [20–22], while the socio-ecological perspective places these interactions in a society-space environment [23].
+Energy systems are embedded in territories [6], involving not only
+technologies and infrastructures [4]. An energy system is a sociotechnical system which shapes and gets shaped by different dynamics in
+the infrastructural, geographical, social, cultural and political dimensions of the territory [6]. This research defines a sociotechnical system
+within a territory as a complex system in which territorial resources,
+including the social ones, and features of the energy system work together for the energy transition process.
+Accounting for energy transition, the territory becomes a spatial,
+social, and energy system involving human and local population
+choices on technologies and energy uses [6,4].
+What is more, territories can be divided into different types based
+on their needs, preferences, resources, and different responses to national or international policies and pressures [24–26,8]. Exploiting
+natural resources and increasing Renewable Energy (RE) initiatives are
+decisions mainly taken at municipal scale [27]. The municipality is the
+closest administration to people which makes decisions in the energy
+sector, at least in the Italian context. It should be noted that the local
+entity (i.e., the municipality) is not always the most effective one for
+achieving renewable energy goals [28,29]. Groups of similar municipalities can have potentialities and resources for collaborative energy
+planning. The collaboration in the energy sectors can be regional (i.e.,
+among regions), local (i.e., within municipalities), or translocal (i.e., in
+close municipalities). The need to plan at a translocal scale is commonly
+recognized, but different researchers use different scales of translocality
+[27–29,11]. Many works [27,11,30] deal with the regional scale [27].
+Nevertheless, there is a need to focus on the translocal scale, emphasizing the role of collaborations among local entities, i.e., municipalities
+[31,11]. Municipalities have the capacity to plan, but this planning
+effectiveness is weakened by a scarcity of economic and other kind of
+resources [28,29]. This reason cannot justify the shifting of energy
+planning to the regional level, and the translocal geographies remain
+relevant for energy planning [32].
+Although various studies highlight the need to better inform and
+support decision-makers on social dimensions, territorial peculiarities,
+differences, and interested actors [33] and to foster collaborations
+among similar municipalities, to our knowledge, few studies in the
+literature as yet propose a methodology for the identification of similar
+municipalities related to the integration among social, spatial, and
+energy dimensions of the territorial system.
+In the interrelation between sociotechnical system and territory [8],
+the proposed method looks for the practical devices that mobilize forces
+in the territory, putting them into action for the energy transition [23].
+Geels [34] underlines the relationships between and the relevance of
+technical and social elements, recognizing that they shape one another.
+Based on a consideration of sociotechnical system and territory approaches, policy-makers and planners should look at the energy system
+as integrating technical and social elements, increasing the acceptance
+and effectiveness of planning and regulations [4]. These resources and
+the linked actions can address the energy transition if structured in the
+decision-making process. A better energy transition is based on the coevolving process of energy services, technologies, institutions, skills,
+knowledge, behaviors, and practices [35] within a territory and on the
+clear perception of these interactions [4].
+Groups of similar municipalities can have potentialities and resources for collaborative energy planning. These collaborations move
+the attention from the regional or local to the translocal scale, with the
+aim of sharing resources and needs in order to effectively achieve local
+
+energy targets. Unlike other works on the subject [36,37], this study
+provides evidences for integrating the definitions of territory and sociotechnical system into a list of territories more adaptive to the energy
+transition. One of the methodologies used for grouping similar territories based on their specificity is the cluster analysis [38,39]. Cluster
+analysis includes algorithms able to calculate distances based on
+homogeneities within groups and heterogeneities among groups [38].
+Several authors [30,28,38,39] analyze typologies of territories through
+cluster analysis, considering socio-economic, and spatial features at
+national or transnational scale. Even though they provide accurate information, they neglect the integration between social and energy dimensions. This study uses social science, energy, and planning perspectives emphasizing the importance of including social variables for
+describing the energy system within a territory in spatial and social
+terms.
+Besides the above, this work analyses potential connections between
+territories not based on spatial proximity. Cooperation between
+neighbouring municipalities can be reductive and reduce energy transition opportunities [36], emphasizing inequalities and disparities in
+the energy transition process [36,26]. The European Court of Editors, in
+the technical report Renewable energy for sustainable rural development, is
+enhancing common planning approaches and improving coordination
+among territories, by considering a wider concept of translocality that
+includes similarities between territories [40] (the territorial cohesion)
+[26]. The homogeneities among local territories “facilitate more balanced and inclusive territorial development” of local territories [36,p. 48].
+The spatial diffusion of sociotechnical systems within a region is heterogeneous [24], underlining that the low-carbon energy transition is a
+geographic [11] and sociotechnical [8] process.
+With the aim of enhancing energy collaborations for transitions
+among similar territories, firstly, dimensions of a territory that have an
+influence on the sociotechnical system are defined (Section 2.1), and
+the methodology described (Section 2). Secondly, cluster analysis
+(Section 3.2) is applied to a case study in Northern Italy, the South
+Tyrol (Section 3.1). Results show eight different sociotechnical systems
+(the clusters) including similar municipalities within a given regional
+space. Each one has its own social, spatial, and energy specificities and
+some of these can be used as assets by energy decision-makers (Section
+3).
+2. Materials and methods
+In this work, a state-of-the-art data mining approach i.e., cluster
+analysis, is applied to distinguish different groups of municipalities,
+with the aim of enhancing translocal collaborations. Data mining approaches allow us to create new knowledge starting from an existing
+dataset [41]. This process can be summarized in the following steps
+[41]:
+1. data selection, preprocessing and transformation
+2. data mining, e.g. cluster analysis
+3. interpretation and evaluation
+The data selection phase is an essential step [42] in the case of
+cluster analysis as a data-mining method. Since irrelevant variables can
+influence cluster results, a deductive approach [42] is used. Ketchen
+and Shook [42] suggest a theoretical foundation where the analysis
+aims at explaining or predicting relationships. For this reason, variable
+selection is based on the literature review by defining several dimensions (Section 2.1).
+Starting from Balest et al. [6], the authors look at the relationships
+between local population and RE projects, identifying the main dimensions affecting the effectiveness of the energy plan. Balest et al.
+[6,p. 171] define “low carbon energy system” as “the result of actors who
+make choices in territory composed by natural, technological, economic,
+legislative, social, and cultural systems”. These characteristics of
+212
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Fig. 2. Flow of methods used in this research.
+
+Fig. 1. Data selection and definition of the final list of variables.
+
+[47,48], and level of explained variance within clusters [49,33]. When
+the Hopkins statistics is close to zero (far below 0.5), the dataset is
+significantly clusterable.2 The Hopkins statistics H can be defined as
+[50]:
+
+territorial energy systems are compared with dimensions coming from
+the territorial cohesion literature (Fig. 1).
+In the scientific literature, territorial cohesion was firstly defined
+through the economic dimension by including diversification, competition, entrepreneurship, innovation and actors [36,18]. More recently
+[18,43], territorial cohesion is composed of socio-economic, environmental sustainability, cooperation governance, and morphologic dimensions at translocal scale.
+Crossing the two lists creates a third list of dimensions and factors
+defining the elements of territory interrelated with sociotechnical
+system at translocal scale. This list of dimensions includes relevant information both in territorial cohesion terms and on the interaction of
+people within its own territory related to RE projects. The analytical
+dimensions and key aspects of the variable selection are deepened in
+Section 2.1.
+Moving these analytical dimensions into values is not easy [18].
+Consequently, before applying a data-mining approach, selected data
+were cleaned, missing data fields were evaluated and data harmonized.
+Data can have different meanings in terms of spatial resolution. In the
+case of spatial data (raster and shape format) data harmonization was
+performed by means of GRASS statistical tools [44].
+What is more, variables with large ranges can dominate the solution
+with respect to those with small ranges [42]. For this reason, a standardization that is often used in order to allow an equal contribution of
+variables to the cluster analysis has been chosen [45].
+Since the research focuses on analyzing groups of similar municipalities and its within variance, a k-means algorithm is applied as datamining method. Each municipality represents a point in a high-dimensional space. The coordinates of these points are the data selected
+in the final list of dimensions [46,38]. Through this analysis, the units,
+i.e., the municipalities, are grouped in natural clusters based on Euclidean distance. Notice that this distance does not comply with the
+geographical coordinates of the municipality, but it is a distance in
+high-dimensional space, where the dimensions are defined by selected
+variables. The goal is, in fact, to identify potential relationships in a
+region based on a wider concept of translocality that avoids criteria
+based on spatial proximity and emphasizes territorial specificity and
+similarities, coherently with the territorial cohesion concept [26].
+The k-means methodology [28] defines homogeneous groups by
+minimizing group dispersion and by maximizing between-group dispersion [46]. Within each group there is a certain level of homogeneity
+versus a certain level of no-homogeneity between groups based on n
+dimensions. The k-means algorithm focuses on the definition of a local
+optimum within each group, differently from other algorithms which
+define a global optimum. The objective function J to be minimized is:
+
+J=
+
+x
+x ck
+
+µ(ck ) 2
+
+Wi
+
+H=
+Ui
+
++
+
+Wi
+
+(2)
+
+with Wi the distance from each real point to its nearest neighbour and
+Ui the distance from randomly chosen point. According to [47], if the
+distance Wi is relatively small with respect to Ui, the dataset is significantly clusterable.
+The number of cluster should highly explain the variance of the
+clusters. Given the focus of this research on collaborations among similar municipalities, the choice of the number of clusters also avoids
+more than one cluster with only one municipality.
+Standardization of variables, k-means algorithm and statistics to
+verify the number of clusters are implemented by means of R packages
+factoextra and stats.
+Finally, the results are mapped through a Geographic Information
+System (GIS). The use of maps not only supports the communication of
+results to decision-makers in the energy sector, but provides a visual
+interpretation of the clusters. The use of maps to visualize results aims
+to show the homogeneities and potential collaborations between municipalities in a region, emphasizing common resources and needs and
+potential translocal collaborations (Fig. 2).
+2.1. Analytical dimensions and key aspects
+The following lists of dimensions and key aspects derive from the
+crossing of the relevant dimensions in the two considered topics: the
+literature review on a local population's actions and reactions in front of
+RE projects, and the literature review on territorial cohesion.
+The lists are not complete and exhaustive due to the lack of qualitative data, i.e., symbolic and affective aspects or collective identity [6].
+Qualitative aspects will be considered in future steps of the research.
+Besides the above, this list can include additional variables if applied to a different context. Cluster analysis is a flexible methodology,
+but variable choice can influence the findings. However, if it is not
+possible to collect all the selected data, the cluster analysis will be
+partial but it will still give an interesting overview on types of municipalities within a region. Furthermore, a process for place-based choice
+of the variables is needed. For example, regions differ in their natural
+resources and geomorphological contexts. In the following lists, some of
+the variables are selected on the basis of specific context of the proposed case study.
+Finally, notice that municipalities can be very different territories
+with respect to their surface and number of inhabitants. For this reason,
+data collected are often turned into percentages [49].
+
+(1)
+
+where k is the number of clusters c, x the vector of data belonging to
+cluster ck, μ(ck) is the centroid of cluster ck and ∥x − μ(ck) ∥ 2 is the
+square distance of each vector from its centroid.
+The number of clusters k is chosen based on statistics of Hopkins
+
+2
+This paper uses an inverse formula compared to Lawson and Jurs [47], using
+the already available function in R as in [50].
+
+213
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Table 1
+Description of socio-demographic, socio-economic, quality of life, and cultural dimensions.
+Dimensions
+
+Specific dimensions
+
+Variables
+
+Code
+
+Socio-demographic
+
+Population size
+Household size
+Population age
+
+Number of inhabitants
+Average number of household components
+Number of inhabitants within 18 years old out of total number of inhabitants
+Number of inhabitants over 65 years old out of total number of inhabitants
+Number of strangers out of total number of inhabitants
+Number of inhabitants moved out or in the municipality out of total number of
+inhabitants
+Inhabitant density
+
+SDEpop
+SDEhousecomponents
+SDE<18
+SDE65<100
+SDEstrangers
+SDEmigrants
+
+Number of kindergarten's pupils in local schools out of total number of
+inhabitants
+Number of primary school's students in local schools out of total number of
+inhabitants
+Number of secondary school's students in local schools out of total number of
+inhabitants
+Number of higher school's students in local schools out of total number of
+inhabitants
+Number of books in local libraries out of total number of inhabitants
+Number of cars out of number of families
+
+SDEkindergarden
+
+Number of people with income lower than 10000 euros per year out of total
+number of inhabitants
+Number of people with income higher than 120000 euros per year out of total
+number of inhabitants
+Number of active enterprises out of total number of inhabitants
+Number of energy enterprises out of total number of inhabitants
+Number of tourists overnights in the territory
+
+SDElowincome
+
+Weight of urban waste out of total number of inhabitants
+Weight of differentiated waste out of total urban waste
+
+SDEwaste
+SDEdifferentiated
+
+Strangers
+Variation of inhabitants
+Density
+Quality of life, and household wealth
+
+Services access
+
+Quality of life
+Socio-economic
+
+Income
+
+Economic development
+Energy focus
+Tourism
+Cultural
+
+Environmental attitudes of people
+
+2.1.1. The socio-demographic, socio-economic, quality of life, and cultural
+dimensions
+The socio-demographic, socio-economic, quality of life, and cultural
+dimensions account for local characteristics and resources of individuals, groups, communities, and economies. These dimensions
+focus on actors i.e., enterprises and inhabitants and relationships, and
+they influence the current shape of the sociotechnical system.
+On the other hand, energy systems shape individuals, groups,
+communities, and economies [4]. The framework of the energy system
+recognizes the involvement of work, behaviour, and choices of different
+kind of people and enterprises in the shape and interlink with the energy system [4].
+These dimensions can support energy planning in several
+ways:Enterprisescould be relevant “actors in energy transition” [51] and
+in implementing local and regional energy plans. Different entrepreneurships and socio-economic structures and features can explain
+different potentialities to create RE projects [51]. Indeed, enterprises
+have needs, resources, and goals that can be shared or emphasized in
+energy planning.Inhabitantsare relevant actors of the social and economic dimension. Firstly, they can be prosumers [52], since new RE
+projects integrate production, supply, and demand [53–55]. Secondly,
+inhabitants can play a role in the implementation phase of RE plans.
+Their involvement could have different features depending on civic and
+political participation and activity of inhabitants, age [56], gender
+[57], income [56], composition and size of families [58], perceptions of
+injustice [59], and cultural imageries [60]. For example, income influences the acceptance and the availability to adopt or support RE
+technologies and energy efficiency measures [59,24]. Investments can
+be done by medium-income people while low-income people have not
+this potentiality even if RE incentives exist [61]. However, not all rich
+people invest in RE, and other aspects must be taken into account.Quality of life and household wealth are relevant in explaining
+people's acceptance or adoption of RE and energy efficiency projects
+[6]. For example, individuals have interest in reducing energy-related
+costs to maintain their quality of life [62]. A higher quality of life means
+a higher attention to sustainable goals and actions, because people have
+
+SDEinh
+
+SDEprimary
+SDEsecondary
+SDEhigher
+SDEbooks
+SDEcars
+
+SDEhighincome
+SDEenterprise
+SDEenergy
+SDEtourist
+
+already answered to the primary needs. For this reason, access to services i.e., schools and libraries is an important aspect in the analysis of
+territorial development and cohesion [18] and environmental attitudes
+of people. Activism or soundness of energy topics can contribute to
+addressing people's choices [6].An example in terms of socio-demographic features concerns age. Since RE technologies are easier to use
+[63] and youths have knowledge about RE [64], youths perceive benefits [65] in supporting energy projects. “A typical green consumer is
+younger, more educated, and wealthier”, at least when he/she explains a
+potential will [66,p. 649]. The spread of green consumers and an equal
+and similar development in terms of income, quality of life, and environmental activism across translocal scale can contribute to a wider
+energy transition [18].An involvement process or dedicated actions to
+local population in energy planning need targeted messages for enterprises, inhabitants, and families [67], according to population features, in order to recognize preferences, interests, and knowledge needs
+[68].Relationshipsbetween actors in local and translocal governance
+are expression of RE potentialities. Several authors [52,69,70] investigate energy communities as positive networks of producers, consumers, and especially prosumers. Nowadays, the local community
+concept concerns groups of people living in a common territory [71] or
+having a common interest [72]. Local communities can become important for achieving energy transition [73], thanks to their common
+identity [74], dense networks, and place attachment. The communities
+and their networks have been influenced by economic crisis. Sustainable territorial development can be also considered in terms of RE
+production and it “requires administrations and civil society actors to initialize and develop projects at the local level, ensure their acceptance and
+support by the regional population and implement the project in collaboration with relevant actors” [75,p. 5800]. The involvement of these actors
+and relationships is relevant in developing energy planning effectively.
+Accordingly, the paper selects the most relevant dimensions and
+factors linked to socio-demographic, socio-economic, quality of liferelated specificities, and cultural dimensions (Table 1). These dimensions observed at translocal scale promote a more equal, balanced, and
+inclusive development.
+214
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Table 2
+Description of governance and political dimension.
+Dimensions
+
+Specific dimensions
+
+Variables
+
+Code
+
+Governance and political
+
+Political participation
+Civic participation
+
+Number of voters on total people who have voted rights
+Number of associations on total population
+Number of environmental associations out of total number of associations
+Number of votes for the most important party in the region out of total votes
+
+GPvoters
+GPassoc
+GPenvassoc
+GPparty
+
+Political address
+
+2.1.2. The governance and political dimension
+Governance is a process for the organization of territory and its
+resources [18]. The shape and dynamics of the governance process is
+given by some local specificity:Political addressGovernance includes
+horizontal and vertical cooperation between stakeholders with different
+political addresses and opinions [76]. People can be active in political
+and public life and, consequently, the governance can be shaped
+through both formal and informal institutions, such as parties. Different
+political addresses have different commitments to energy transition.
+Emphasizing the political meaning and commitment of energy transition can be a resource for energy planning.Participationand information
+can sometimes explain local acceptance or conflict against energy
+system changes [77]. The social and environmental movements and
+civic participation of people are relevant to understand potentialities of
+local community initiatives in terms of acceptance or conflict [78,79].
+In order to build shared projects, energy planning should understand
+the relevance of the level of activeness and participation of the local
+population. At translocal scale, this participation can create a placebased know-how and knowledge [80]. Good social network and
+knowledge for civic participation are relevant for increasing effectiveness of such kind of initiatives [79]. Even if it is time and resource
+consuming and it requires know-how, local actors agree on the importance of an inclusive and democratic decision process [25] in territorial planning, which includes civic and political participation.
+According to Sánchez-Zamora et al. [36], the governance and political dimension can be described by variables related to population
+organization, i.e., political and civic participation, cooperation between
+public institutions, and political address (see Table 2).
+
+coversdetermine the relationship between society and space and the use
+that a local population makes of their land. Agriculture, forest, and
+urban uses occupy space and create conflicts between actors that share
+and do not share RE aims [83]. However, they are also potential RE
+sources in terms of wastes [84].For the territorial cohesion concept,
+translocal planning and management of land uses is matter of territorial
+efficiency, quality, and identity [80]. Resources and land should be
+effectively managed and preserved, developing the most effective territorial vocations and visions [80].Isolation or connectivitycould have
+an effect on the energy supply (i.e., power lines for transmission and
+distribution) and on some social aspects. From a social viewpoint, territorial isolation maintains local attachment [85]. In some isolated
+contexts, communities can easily act towards sustainability through
+place-based actions and practices [60] such as community ownership.
+Since the 2008 financial crisis, the isolation of some territories has been
+decreasing. Consequently, territorial cohesion also aims at developing
+sustainable transports accounting for sustainable RE production
+[80].Several works [12,86,87] observe the phenomena of counterurbanization, the consequent attractiveness for tourists [88] and
+youths, and the higher presence of young people in rural territories.
+Translocal planning can create clearer tourism vocations and attractiveness in young people [80]. The presence of young people during the
+economic crisis in rural areas introduces environmental-related innovative development, i.e., in the agriculture sector [87].
+The geographical and infrastructural dimensions consider surface
+and elevation of territories, presence of natural parks, land covers, and
+transport infrastructures (see Table 3).
+2.1.4. Renewable energy and climate dimensions
+At European scale, several environmental policies have specific
+impacts on territories, i.e., Water Framework Directive, Floods
+Directive, Habitats Directive, Waste Framework Directive and Air
+Quality Directive. Among these policies, The Climate and Energy
+Framework plays a relevant role in environmental sustainability [89].
+RE source exploitation minimizes impacts and secondary waste [90].
+The RE and climate dimensions include [36,18]:Natural resource
+availability.It depends on the inherent feature of the territory. Biomass,
+water, sun, wind and heat from the Earth are the main RE sources. The
+availability of these natural resources depends on several spatial, socioeconomic and planning constraints limiting the exploitation of RE
+[19,84].Capacity of local actors to exploit RE.Natural resources have
+been partly exploited. Past RE initiatives have led to negative or positive “affective and emotive people imageries” [60] related to RE plants,
+
+2.1.3. Geographical and infrastructural dimension
+Morphology and relationships between infrastructures and actors
+[36] can influence the spatial-social organization and the attitude of
+people [12]. Territories with different morphological features have
+different power relationships [12], and territorial cohesion is able to
+redistribute this power and strengthen collaborations [26].Urban and
+ruralterritories have different power relationships on different issues
+[81], different potentialities [11] and needs [82], and different inhabitant preferences [57] based on their features i.e., inhabitant density, urban, agriculture, and forest land covers [12], elevation [81],
+surface of territory, connectivity through highway, street, and railway,
+and presence of natural parks. Rural areas are more isolated than urban
+ones and connectivity from railway, streets, and highways are indicators of territorial connectivity or isolation [18,43].Land
+Table 3
+Description of geographical and infrastructural dimensions.
+Dimensions
+
+Specific dimensions
+
+Variables
+
+Code
+
+Geographical and infrastructural
+
+Dimension of territory
+Elevation
+Natural parks
+Land cover
+
+Surface of municipality (km2)
+Elevation (m a.s.l.)
+Natural park surface out of total surface of municipality
+Urban surface out of total surface of municipality
+Agriculture surface out of total surface of municipality
+Forest surface out of total surface of municipality
+Highway surface out of total surface of municipality
+Street surface out of total surface of municipality
+Railway surface out of total surface of municipality
+
+GIarea
+GIalt
+GIpark
+GIurb
+GIagr
+GIfor
+GIhighway
+GIroads
+GIrailway
+
+Transport infrastructures
+
+215
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Table 4
+Description of renewable energy and climate dimensions.
+Dimensions
+
+Specific dimensions
+
+Variables
+
+Code
+
+Renewable energy
+
+Hot water production from RE
+Heating produced by RE sources
+
+Surface of solar thermal plants
+Power of geothermal plants (kW)
+Power of biogas plants (kW)
+RE production distributed through district heating (kWh)
+PV power (kW)
+Percentage of individual households who produce and/or consume RE produced in loco
+
+RECsolar
+RECgeo
+RECbiogas
+RECdh
+RECpv
+RECactivities
+
+Surface in avalanche phenomena out of total surface
+Number of flooding phenomena
+
+RECavalanche
+RECfloods
+
+Electricity produced by RE sources
+People activity in increase RE share
+Climate
+
+Avalanche and flooding phenomena
+
+and, consequently, they are addressing future projects [91]. Natural
+resource exploitation for RE production can create conflicts between
+different uses of the resource and among different actors [84,92,83,93].
+However, knowledge of past RE projects can support energy planning
+by avoiding further mistakes and potential conflicts [94] through several tools, i.e., with a participatory process [59]. Similar geomorphological contexts can have similar resources, and municipal borders are
+not the best for effectively answering to planning and management
+needs.Considering RE produced and distributed in loco, this paper
+proposes and calculates a new index of direct participation of households in production and consumption of RE [95,96]: the index of people
+activity in increasing RE share. This index is calculated using the
+number of households covered by the local RE production out of the
+total number of families. The aim of this index is to understand if the
+contribution of households can be increased.ClimateClimate change is
+perceived by local populations through phenomena such as avalanches
+and flooding. Local populations interact with the natural environment
+[6], experiencing and reacting in front of natural hazards. Energy
+choices are also related to this aspect and climate change adaptation
+and mitigation activities have potentialities to be integrated in energy
+planning. Translocal answers to similar natural hazards promote sustainable and efficient risk management [80].
+Table 4 summarizes the renewable energy and climate dimensions.
+
+inhabitants distributed into 114 rural and two urban municipalities
+(2016). The municipalities are located between 200 and 1600 m in altitude above sea level. Median of inhabitant density is 52.7 inhabitants
+per square kilometer, with the highest values for Bolzano (2036 inh
+km2) and Merano (1498 inh km2).
+The level of total RE production was medium-high in 2016:
+
+• about 0.4 m of solar thermal panels per person ;
+• about 6 MW of installed geothermal power for heating and cooling
+and 341 geothermal probes;
+• about 23 MW of installed photovoltaic (PV) power ;
+• about 60 MW of installed power in biogas plants;
+• almost 850 GWh of yearly RE production distributed through district heating systems to end-users;
+• about 42,000 households and users involved in RE production
+2
+
+3
+
+4
+
+through installation of individual plants (e.g. geothermal, or PV
+plant) or linked to district heating plant.5
+
+The Provincial Climate and Energy Plan of South Tyrol (DGP n.940
+June 20th 2011) [99] aims at managing the territory in a sustainable
+way, by saving and protecting natural resources. In order to achieve the
+main international targets, the plan includes (i) actions for energy efficiency optimization, (ii) improvements in energy saving, (iii) an increase in RE production and supply, (iv) the promotion of cultural
+changes, technological innovations, transnational and research collaborations. Besides, this plan focuses on the importance of smart grid
+development in order to enhance the role of prosumers [52]. In this
+context, the Provincial Climate and Energy Plan of South Tyrol incentivizes the role of municipalities and their collaborations on local
+energy planning, by promoting the creation of tools allowing the
+comparative analysis of territories. The municipalities have underlined
+– just like the South Tyrol Plan – the importance of a comparative
+analysis tool aiming at strengthening the role of inhabitants and local
+administrations in energy transition and planning.
+
+2.2. Limitations
+The sociotechnical systems defined in a case study can be very
+different from the ones in other Regions and the most relevant elements
+to define the sociotechnical system can change. Cluster analysis is a
+flexible methodology that can address these differences, even if it has
+weaknesses linked to the choice of variables and the number of clusters.
+These two elements of the analysis dramatically influence the findings.
+When data collection is not a well-distributed practice, missing data can
+strongly influence the findings. The method also includes some limitations related to the lack of parallel qualitative research that investigates in-depth further peculiarities of the territories. Lastly, actual
+relationships among municipalities are not considered here, but they
+are important in defining the real potential of the following results
+[97].
+
+3.2. Cluster analysis
+The analysis in South Tyrol led to eight homogeneous groups of
+municipalities or typologies of sociotechnical systems within the region. The number of clusters is chosen in order to find a compromise
+between different indicators as shown in Table 5. This grouping of eight
+clusters explains 36% of the total variance in our data set. Excluding the
+
+3. Results and discussion
+This research applied a cluster analysis to the rural and semi-urban
+municipalities in the South Tyrol, based on the 41 variables included in
+Tables 1–4.
+
+3
+Data is partial because the amount of National tax deduction on solar
+thermal, and PV plants is still missing in our database.
+4
+Data is partial because the amount of National tax deduction on solar
+thermal, and PV plants is still missing in our database.
+5
+Data on district heating, biogas, and solar thermal plants are supplied by
+Autonomous Province of Bolzano – Energy Saving Office; data on PV and,
+partly, solar thermal plants are supplied by gse – http://atlasole.gse.it/atlasole/
+; the list of geothermal plants is supplied by Autonomous Province of Bolzano –
+Water Resource Management Office.
+
+3.1. The South Tyrol case study
+South Tyrol is an autonomous province in North-East Italy, included
+in the Eusalp region [98], at the border with Austria, Switzerland, and
+Italian regions of Veneto, Trentino, and Lombardia. The total surface of
+the province is about 7400 km2 mainly covered by forest. It has 520,891
+216
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Table 5
+Indicators supporting the choice of the number of clusters.
+Number of
+clusters
+
+Hopkins
+statistics
+
+Variance (%)
+
+Clusters with one
+municipality
+
+3
+4
+5
+6
+7
+8
+9
+10
+20
+
+0.20
+0.19
+0.22
+0.22
+0.26
+0.22
+0.23
+0.20
+0.23
+
+16
+22
+25
+27
+32
+36
+38
+40
+59
+
+0
+0
+0
+0
+0
+1
+2
+3
+4
+
+Fig. 4. The heatmap shows the centroids of the 41 variables for the eight
+clusters.
+
+Some interesting specificities that belong to the different clusters are
+observed, such as RE source preferences and difference between rural
+and semi-urban centres (Section 3.3); other planning and management
+needs linked to energy (Section 3.4); the relevance of socio-demographic features of individuals and families (Section 3.5); the participation and the engagement of stakeholders (Section 3.6); the land cover
+and use of a landscape (Section 3.7).
+
+Fig. 3. The map shows the eight clusters colour shades, in the grey context of
+EUREGIO Trentino-South Tyrol-Tyrol. (For interpretation of the references to
+color in this figure legend, the reader is referred to the web version of this
+article.)
+
+3.3. Renewable energy source preferences and difference between rural and
+semi-urban centres
+
+two urban contexts of Bolzano and Merano, the clusters have the following size: 1, 34, 25, 28, 3, 7, 14, 2.
+Fig. 3 maps the eight groups of South Tyrolean municipalities
+through different colour shades. Since the geographical coordinates are
+not included in the analysis, the map highlights similarities between
+municipalities that are not neighbouring. Municipalities make different
+choices, shaping different social and energy systems.
+In Fig. 4, the centroids of each cluster are reported. A centroid is a
+vector defined by the mean values of the variables in that cluster. For
+example, Fig. 4 shows that cluster 8 has a high presence of pupils in
+kindergarten and primary schools, while cluster 1 is the most populated. In annex A, the results are summarized.
+The application of the methods of this research confirms the interaction of the sociotechnical system with the territory in which it is
+embedded, through a co-evolution of society, sociotechnical elements
+[35], and territory [72]. The results show different compositions of the
+elements of energy, social, and spatial systems, confirming the existence
+of place-based dynamics and processes and the interaction between
+sociotechnical system and territory. In fact, a parallel between the
+socio-territorial and the RE elements exists.
+Different types of territories make different choices, shaping different
+sociotechnical systems, and viceversa. In terms of implications for decisionmakers, the knowledge of the different compositions among social, spatial,
+and energy elements, included in the clusters, can increase the potentialities
+of regional and local territories towards energy transition.
+
+Each cluster has its main preferences on RE source or mix of RE
+sources. For example cluster 6 – The best performing and semi-urban
+municipalities focuses on a mix of RE production, while cluster 7 – Valley
+floor and agriculture municipalities experiences PV and geothermal energy plants. Within each cluster, the level of RE production is similar
+but not equal (Fig. 5). The most performing municipalities should exchange their best practices to the other municipalities that belong to the
+same sociotechnical system. This practice would increase the level of
+RE production of all municipalities within the cluster.
+The produced energy is distributed in loco to several households that
+contribute for a more sustainable and renewable territory. For energy
+transition goals at local scale, contribution of people is important in
+making the difference [69]. According to the results, semi-urban municipalities produce and distribute more energy than rural ones. However, observing the level of pro capite RE production based on the index
+of people activity in increased RE share, this is higher in the rural
+clusters, such as in cluster 3 – Mountain municipalities with some important actors: SVP, tourist sector, and citizens. The value in this index is
+also given by the high experience in district heating plants. Semi-urban
+municipality can strengthen their pro capite contribution to a more
+sustainable and renewable place, in cluster 6 – The best performing and
+semi-urban municipalities. The sociotechnical system including lower
+number of inhabitants also includes a higher adaptation of people to
+RE. Receptivity to co-evolution between society and RE [22] is greater
+in a sociotechnical system with fewer inhabitants.
+217
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Fig. 5. The figure shows the similarities of the photovoltaic and geothermal power between municipalities within each cluster. The line represents the centroid of
+each cluster. The values of the points can also have negative values because they are standardized based on their mean, max and min values.
+
+young and politically active people and cluster 3 – Mountain municipalities
+with some important actors: SVP, tourist sector, and citizens. A high interest and activity in producing and consuming local RE is not registered in clusters with a lower number of family components. In other
+studies, family size is negatively correlated with the willingness to pay
+for RE projects [58,100–102]. With a different kind of analysis and in a
+different context, family size seems to be an important factor in increasing RE action of families. In these families, young people live.
+Decision-makers in cluster 2 – Municipalities with young and politically
+active people should interpret youths and politically active people as a
+resource for a changing and transitioning world [66]. Re-addressing or
+using the political participation towards RE goals is not easy, but it has
+great potential for increasing RE development [75,77]. Associations
+and political groups can be means to increase awareness and information about RE [70], through their relevance as local actors and their
+networks within and across municipalities.
+
+Focusing on the land covers and uses of a territory, semi-urban or
+rural characteristics should address different energy planning aspects,
+because they have different RE potentials [11] and different stakeholder and inhabitant preferences [82,57].
+3.4. Other planning and management needs linked to energy
+Energy planning and management are linked to several policies,
+such as educational, natural hazard management, and economic development. In local energy plans, climate change is a very interesting
+topic and some events (e.g. avalanche and flooding) need to be managed and linked more deeply with other policies. Local energy plans are
+documents in which energy and climate topics can be mutually managed, proposing innovations that can integrate mitigation and adaptation measures. Cluster 4 – Municipalities with mixed energy, tourist activities and avalanche phenomena, 5 – Well-connected municipalities with
+high associative participation, and 8 – Municipalities with enterprises, tourist
+enterprises, associations, and elders all have needs to manage avalanche
+or flooding phenomena. The best way to manage these hazards should
+be addressed by all the other specificities of the clusters.
+This management can be integrated in energy actions, and other
+sectors and policies can be linked as well, e.g. tourist promotion. South
+Tyrol's economy has been based on tourism since the end of World War
+II, and a development of the sector linked to a message of a more
+sustainable place could be effective both for energy planning and
+tourism, especially in those clusters with stronger tourism sector.
+
+3.6. Participation and engagement of stakeholders
+Stakeholders at the local scale are relevant in energy planning. They
+represent the public of energy planning, behind the mere citizens and families, and they should be involved in energy planning. Stakeholders are
+actors and resources that know the territory and that have interest to incentivize regional and local development. Cluster 8 – Municipalities with
+enterprises, tourist enterprises, associations, and elders has three actors that can
+contribute with their needs and resources to a more effective energy plan.
+These actors and their relationships could be included in a participatory
+process in order to collect local needs and confirm local resources.
+Political commitment also has high potential to increase RE development [103]. The relevant presence of the SVP political party is a
+resource that can be used to increase interest and political and civic
+commitment towards energy transition. The cluster 3 - Mountain municipalities with some important actors: SVP, tourist sector, and citizens is an
+example of SVP relevance.
+
+3.5. The relevance of socio-demographic features of individuals and families
+Specificities of clusters in terms of socio-demographic features of
+individuals and families are considered for the effectiveness of energy
+plans. Energy planning should address or involve in its actions the most
+relevant components of the local society, i.e., families. In the co-evolution of society and RE, the actors of the society, based on their preferences, practices, characteristics, and their relationships with the
+territory [72,83], play a relevant role in energy transition.
+According to the results, families with a higher average of components correspond to higher interest and direct-indirect activity in producing and consuming local RE both in cluster 2 – Municipalities with
+
+3.7. Land cover and use of a territory
+Land cover specificities of each territory can contribute to defining
+energy production potential based on local resources mainly given by
+218
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+production without weakening the sustainable development of natural
+and social environments. Decision-makers choose strategies. They address planning actions and choose participatory approaches according
+to the specificities of each energy system, described here as the sociotechnical system. Territorial planning needs comprehensive information on local specificities and their relationships with other territories.
+The proposed methodology provides recommendations on how to
+use social, energy, and spatial specificities as levers for wider
+achievement of climate change and energy targets at translocal scale,
+promoting important planning implications. Through this research, the
+decision-makers in the energy sector are aware of social, territorial, and
+energy potentialities of territories. The analytical framework is applied
+in the South Tyrol case study (Italy) and they are replicable instrument
+for other regions.
+Collaborations among municipalities belonging to the same sociotechnical and spatial system are not obvious. For this reason, current
+relationships and collaborations in the energy sector should be investigated and compared with the findings of this research in future
+steps.
+A further development is also the replication of this method to other
+case studies. The main issue for applying this methodology is that
+“governments will need to ensure that accurate spatial data is collected
+and made publicly available throughout the course of future energy
+policies” [24,p. 87]. The outlook is to press decision-makers to structure
+data collection about energy and other territorial topics and to replicate
+this methodology to other case studies according to their peculiarity.
+
+urban, forest, and agriculture wastes and products [84]. Local decisionmakers could consider the opportunities to collaborate with owners of
+these lands for achieving common goals. Cluster 8 – Municipalities with
+enterprises, tourist enterprises, associations, and elders registers a wide
+forest surface. It could prefer biomass energy plants more than other
+clusters [57], because it could use their own resources supplying other
+services (i.e., forest management). Cluster 7 – Valley floor and agriculture
+municipalities has a different energy potential composed of agriculture
+waste. However, agriculture land cover is also an element of competition between the space occupied by agriculture crops and RE production plants [83].
+In South Tyrol, this method defines eight different energy systems in
+which some elements are more influential in order to highlight the
+different characters of the sociotechnical systems. Specific combinations of the considered dimensions and variables define the types of
+municipalities that correspond to different types of sociotechnical systems. Through these combinations, the applied definition of sociotechnical system integrates social, space, and technological dimensions
+in order to give wider meaning of regional and local contributions to
+the energy transition. Being aware of the existence of different energy
+and sociotechnical systems within a regional territory allows us to recognize different territorial and social resources to be used in energy
+decision-making and planning.
+4. Conclusion
+This research aims to present and test an energy system framework
+to explore territory in terms of a sociotechnical system within a given
+regional space. This framework supports regional and local decisionmakers in the energy sector in defining of effective plans. The analysis
+does not seek to be exhaustive, but it shows how homogeneous groups
+of municipalities differ one from another on the basis of the sociotechnical system approach. Accordingly, this research describes the
+main specificities in each cluster of municipalities for addressing local
+energy plans and achieving a wider change in terms of renewable energy development.
+Local decision-makers in the energy sector should define the potentialities and future actions increasing local renewable energy
+
+Acknowledgement
+We would like to acknowledge the colleagues of EURAC Research
+Daniele Vettorato and Agnieszka E. Stawinoga who supported this research by providing their feedback, and Amy Segata who developed
+Figs. 1, 2 and 3. We are also thankful to Alessandro Paletto (CREA) and
+Sara Fritz (ifeu) for their precious comments to the PhD thesis, which is
+the basis of this paper. The research leading to these results has received funding from EURAC Research. The authors thank the Department of Innovation, Research and University of the Autonomous Province of Bozen/Bolzano for covering the Open Access publication costs.
+
+Appendix A. Description of clusters
+A.6
+Table A.6
+Synthetic description of all clusters. The clusters are ordered based on a hierarchy of municipalities more adaptive to renewable energies. The relevant variables for
+each cluster have high [••••], medium [•••], low [••], or very low [•] values. In the first column is the name of the cluster, to facilitate reading rather than for
+summarizing the cluster characteristics.
+Cl.
+
+Description
+
+Level of
+renewable
+energy
+
+Relevant variables that local authorities and
+decision-makers should work on for the increase
+of RE production
+
+N of
+municipalities
+
+1 – The best performing and
+semi-urban
+municipalities
+
+The best performing municipalities with
+experience in PV, geothermal, solar
+thermal, and energy district plants. They
+are semi-urban municipalities in terms of
+urban land cover, number of inhabitants,
+inhabitant density, and services access.
+They have high associative and
+environmental participation
+
+High
+
+•••• Connection through main roads
+•••• Income
+• Enterprises
+•••• Percentage of energy enterprises out of total
+enterprises
+••• Tourist activities
+•••• Experience in PV, geothermal, solar thermal,
+and energy district plants
+•••• Urban land cover and inhabitant density
+•••• Number of inhabitants and presence of
+medium-aged and aged people
+• Forest land cover
+•••• Books in local libraries, secondary and high
+school students
+•••• Associative and environmental participation
+• Votes for Südtiroler Volkspartei in National
+elections (2013)
+••• Flooding and avalanche phenomena
+
+7
+
+(continued on next page)
+219
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Table A.6 (continued)
+Cl.
+
+Description
+
+Level of
+renewable
+energy
+
+Relevant variables that local authorities and
+decision-makers should work on for the increase
+of RE production
+
+N of
+municipalities
+
+2 – Mountain municipalities
+with some important
+actors: SVP, tourist
+sector, and citizens
+
+Municipalities with mountain
+characteristics (wide surface, forest cover,
+medium-high elevation, sparsely
+inhabited, low urban and forest cover),
+experience in district heating plants, and
+interest of people in RE share and direct
+involvement in production
+
+Medium
+
+•••• Mountain municipalities (wide surface, forest
+cover, medium-high elevation, sparsely
+inhabited, low urban and forest cover)
+•••• Number of household components
+• Percentage of strangers
+•••• Votes for Südtiroler Volkspartei in National
+elections (2013)
+••• Tourist activities and energy enterprises
+• Associative participation
+••• Experience in district heating plants
+•••• People interest in RE share and direct
+involvement in production
+
+25
+
+3 – Mixed energy and tourist
+municipalities and
+avalanche phenomena
+
+Municipalities with experience in PV, solar
+thermal, and geothermal plants. They are
+characterized by some flooding and
+avalanche phenomena. They have income
+inequalities, with high average of number
+of cars per each family.
+
+Medium
+
+••• Mix of PV, solar thermal, and geothermal
+plants
+•••• Low and high income with related
+inequalities
+•••• Number of cars per family
+• Associative participation and library services
+••• Tourist activities
+••• Flooding phenomena
+
+28
+
+4 – Valley floor and
+agriculture
+municipalities
+
+Small, valley floor, and agriculture
+municipalities with experience in PV and
+geothermal energy plants. They experience
+inequalities in income and low-medium
+access to services
+
+Medium
+
+•••• Low and high income with related
+inequalities
+• Surface
+•••• Agriculture land cover
+• Forest land cover
+•• Urban land cover
+• Elevation above the sea level
+•••• Inhabitant density
+• Presence of youths
+• Connection through main roads
+••• Political participation
+• People activity and interest in RE share
+• Experience in district heating plants
+••• Experience in PV and geothermal energy
+plants
+• Secondary school students
+•• High school students
+
+14
+
+5 – Little inhabited and
+biogas municipalities,
+with young and
+politically active people
+
+Little inhabited municipalities, with high
+percentage of youths and related higher
+average of household components.
+Political participation and SVP are
+prevalent. High people interest in
+renewable energies and experience in
+biogas sector
+
+Medium
+
+•••• Young inhabitants
+• Presence of elders
+• Number of inhabitants
+••• Presence of primary school
+• Presence of secondary and high school
+• Urban land cover
+• Percentage of strangers
+•••• Number of household components
+•••• Political participation
+•••• People activity and interest in RE share
+• Enterprises
+••• Experience in biogas energy
+•••• Votes for Südtiroler Volkspartei in National
+elections (2013)
+••• High elevation
+
+34
+
+6 – Municipalities with
+enterprises, tourist
+enterprises,
+associations, and elders
+
+Municipalities with important actors:
+enterprises, tourist enterprises,
+associations, and elders. They experienced
+avalanche phenomena and they are
+characterized by forest land cover
+
+Medium-low
+
+•••• Enterprises
+• Number of inhabitants
+•••• Presence of elders
+• Presence of youths
+• Presence of strangers
+• Political participation
+•••• Associative participation
+• Kindergarten pupils
+•••• Tourist activities
+• Connection through main roads
+•••• Elevation above the sea level
+•••• Forest land cover
+•••• Avalanche phenomena
+••• Experience in geothermal and solar thermal
+energy plants
+• Experience in PV and district heating plants
+•••• Low and especially high income with related
+inequalities
+
+2
+
+(continued on next page)
+220
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+
+Table A.6 (continued)
+Cl.
+
+Description
+
+Level of
+renewable
+energy
+
+Relevant variables that local authorities and
+decision-makers should work on for the increase
+of RE production
+
+N of
+municipalities
+
+7 – Well-connected
+municipalities with
+high associative
+participation
+
+Well-connected municipalities through
+highway and railway. They have high
+associative participation and percentage of
+strangers. They experienced some flooding
+and avalanche phenomena
+
+Medium-low
+
+•••• Connection through highway and railway
+•••• Flooding and avalanche phenomena
+•••• Associative participation
+••• Experience in solar thermal plants
+• People activity and interest in RE share
+• Enterprises
+•••• Percentage of energy enterprises out of total
+enterprises
+• Votes for Südtiroler Volkspartei in National
+elections (2013)
+• Number of inhabitants and presence of elders
+•••• Percentage of strangers
+• Urban land cover and secondary schools
+
+3
+
+8 – Small municipality with
+high access to public
+services, but not
+renewable energies
+
+One municipality (Ponte Val Gardena)
+with low renewable energy production,
+and high access to kindergarten, primary
+school, and library services
+
+Low
+
+•••• Connection through highway and railway
+••• Forest and urban land cover
+• Surface
+• Number of inhabitants
+•••• Percentage of strangers
+•••• Kindergarten and primary school pupils
+•••• Books in local libraries
+• Associative participation
+• Enterprises and tourist activities
+• Experience of solar thermal, geothermal PV,
+and district heating plants
+• People activity and interest in RE share
+•••• Votes for Südtiroler Volkspartei in National
+elections (2013)
+• Flooding and avalanche phenomena
+
+1
+
+[16] European Court of Editors, Renewable Energy for Sustainable Rural Development:
+Significant Potential Synergies, But Mostly Unrealised, Technical Report, (2018).
+[17] E. Turnhout, K. Neves, E. de Lijster, ‘Measurementality’in biodiversity governance:
+knowledge, transparency, and the Intergovernmental Science-Policy Platform on
+Biodiversity and Ecosystem Services (IPBES), Environ. Plan. A 46 (2014) 581–597.
+[18] E. Medeiros, Territorial cohesion: an EU concept, Eur. J. Spat. Dev. 60 (2016)
+1–30.
+[19] G. Garegnani, S. Sacchelli, J. Balest, P. Zambelli, GIS-based approach for assessing
+the energy potential and the financial feasibility of run-off-river hydro-power in
+Alpine valleys, Appl. Energy 216 (2018) 709–723.
+[20] F.W. Geels, B.K. Sovacool, T. Schwanen, S. Sorrell, The socio-technical dynamics
+of low-carbon transitions, Joule 1 (2017) 463–479.
+[21] B.K. Sovacool, D.J. Hess, Ordering theories: typologies and conceptual frameworks
+for sociotechnical change, Soc. Stud. Sci. 47 (2017) 703–750.
+[22] F.W. Geels, J. Schot, Typology of sociotechnical transition pathways, Res. Policy
+36 (2007) 399–417.
+[23] R.E. Park, The city: suggestions for the investigation of human behavior in the city
+environment, Am. J. Sociol. 20 (1915) 577–612.
+[24] C. Morton, C. Wilson, J. Anable, The diffusion of domestic energy efficiency policies: a spatial perspective, Energy Policy 114 (2018) 77–88.
+[25] P. Díaz, C. Adler, A. Patt, ‘Do stakeholders’ perspectives on renewable energy
+infrastructure pose a risk to energy policy implementation? A case of a hydropower plant in Switzerland, Energy Policy 108 (2017) 21–28.
+[26] European Commission, Green Paper on Territorial Cohesion. Turning Territorial
+Diversity into Strength, (2008).
+[27] P. Nabielek, H. Dumke, K. Weninger, Balanced renewable energy scenarios: a
+method for making spatial decisions despite insufficient data, illustrated by a case
+study of the Vorderland-Feldkirch Region, Vorarlberg, Austria, Energy Sustain.
+Soc. 8 (2018) 5.
+[28] M. Novotná, M. Šlehoferová, A. Matušková, Evaluation of spatial differentiation in
+the Pilsen region from a socioeconomic perspective, Bull. Geogr. Socio-econ. Ser.
+34 (2016) 73–90.
+[29] F. Kraxner, S. Leduc, H. Serrano Leon, J. Balest, G. Garegnani, G. Grilli, M. Ciolli,
+F. Geri, A. Paletto, A. Poljanec, et al., Recommendations and Lessons Learned for a
+Renewable Energy Strategy in the Alps, (2015).
+[30] C. Scaramuzzino, G. Garegnani, P. Zambelli, Integrated approach for the identification of spatial patterns related to renewable energy potential in European
+territories, Renew. Sustain. Energy Rev. 101 (2019) 1–13.
+[31] T. Rockenbauch, P. Sakdapolrak, Social networks and the resilience of rural
+communities in the Global South: a critical review and conceptual reflections,
+Ecol. Soc. 22 (2017).
+[32] S. Sassen, Embedded borderings: making new geographies of centrality, Territory
+Polit. Gov. (2018) 1–11.
+[33] T. Pinto-Correia, N. Guiomar, C. Guerra, S. Carvalho-Ribeiro, Assessing the ability
+
+References
+[1] European Commission, Directive 2009/28/EC of the European Parliament and of
+the Council of 23 April 2009 on the Promotion of the Use of Energy From
+Renewable Sources and Amending and Subsequently Repealing Directives 2001/
+77/EC and 2003/30/EC (“Renewable energy Directive”), Technical Report,
+(2009).
+[2] J. Petersen, The application of municipal renewable energy policies at community
+level in Denmark: a taxonomy of implementation challenges, Sustain. Cities Soc.
+(2018).
+[3] S. Pohekar, M. Ramachandran, Application of multi-criteria decision making to
+sustainable energy planning. A review, Renew. Sustain. Energy Rev. 8 (2004)
+365–381.
+[4] C.A. Miller, J. Richter, J. O’Leary, Socio-energy systems design: a policy framework for energy transitions, Energy Res. Soc. Sci. 6 (2015) 29–40.
+[5] D. Reckien, M. Salvia, O. Hidrich, J. Church, F. Pietrapertosa, S. De GregorioHurtado, V. D’Alonzo, A. Fole, L.E. Simoes, S.G.H. Orru, K. Orru, A. Wejs,
+J. Flacke, M. Olazaba, D. Geneletti, E. Feliu, S. Vasilie, C. Nador, A. KrookRiekkola, M. Matosovic, P. Fokaides, B. Ioannou, A. Flamos, N. Spyridaki,
+M. Balzan, O. Fulop, I. Paspaldzhiev, S. Grafakos, R. Dawson, How are cities
+planning to respond to climate change?. Assessment of local climate plans from
+885 cities in the EU-28, J. Clean. Prod. 191 (2018) 207–291.
+[6] J. Balest, E. Pisani, D. Vettorato, L. Secco, Local reflections on low-carbon energy
+systems: a systematic review of actors, processes, and networks of local societies,
+Energy Res. Soc. Sci. 42 (2018) 170–181.
+[7] S. Coelho, M. Russo, R. Oliveira, A. Monteiro, M. Lopes, C. Borrego, Sustainable
+energy action plans at city level: a Portuguese experience and perception, J. Clean.
+Prod. (2017).
+[8] F.W. Geels, Technological transitions as evolutionary reconfiguration processes: a
+multi-level perspective and a case-study, Res. Policy 31 (2002) 1257–1274.
+[9] A.M. Brighenti, On territorology: towards a general science of territory, Theory
+Cult. Soc. 27 (2010) 52–72.
+[10] B. Anderson, Imagined communities: reflections on the origin and spread of nationalism, Verso Books, (2006).
+[11] G. Bridge, S. Bouzarovski, M. Bradshaw, N. Eyre, Geographies of energy transition:
+space, place and the low-carbon economy, Energy Policy 53 (2013) 331–340.
+[12] G. Osti, Socio-Spatial Relations: An Attempt to Move Space Near Society, EUT
+Edizioni Università di Trieste, 2015.
+[13] E. Shove, G. Walker, Governing transitions in the sustainability of everyday life,
+Res. Policy 39 (2010) 471–476.
+[14] B. Jessop, N. Brenner, M. Jones, Theorizing sociospatial relations, Environ. Plan.
+D: Soc. Space 26 (2008) 389–401.
+[15] G. Osti, Sociologia del territorio, Il mulino, (2010).
+
+221
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+of rural areas to fulfil multiple societal demands, Land Use Policy 53 (2016)
+86–96.
+[34] F.W. Geels, Major system change through stepwise reconfiguration: a multi-level
+analysis of the transformation of American factory production (1850–1930),
+Technol. Soc. 28 (2006) 445–476.
+[35] F.W. Geels, T. Schwanen, S. Sorrell, K. Jenkins, B.K. Sovacool, Reducing energy
+demand through low carbon innovation: a sociotechnical transitions perspective
+and thirteen research debates, Energy Res. Soc. Sci. 40 (2018) 23–35.
+[36] P. Sánchez-Zamora, R. Gallardo-Cobos, C. Romero-Huertas, Assessing the determinants of territorial cohesion: evidence from Colombian departments,
+Geoforum 87 (2017) 48–61.
+[37] S. Alexiadis, Territorial cohesion and prospects for sustainable development: a cointegration analysis, Habitat International, (2017).
+[38] C. Pecher, E. Tasser, J. Walde, U. Tappeiner, Typology of Alpine region using
+spatial pattern indicators, Ecol. Indic. 24 (2013) 37–47.
+[39] Y. Yang, A. Hu, Investigating regional disparities of China's human development
+with cluster analysis: a historical perspective, Soc. Indic. Res. 86 (2008) 417–432.
+[40] European Court of Editors, Renewable Energy for Sustainable Rural Development:
+Significant Potential Synergies, But Mostly Unrealised, Technical Report, (2018).
+[41] U. Fayyad, G. Piatetsky-Shapiro, P. Smyth, From data mining to knowledge discovery in databases, AI Mag. 17 (1996) 37.
+[42] D.J. Ketchen, C.L. Shook, The application of cluster analysis in strategic management research: an analysis and critique, Strateg. Manag. J. 17 (1996) 441–458.
+[43] L.T. Aarts, S. Houwing, Benchmarking road safety performance by grouping local
+territories: a study in the Netherlands, Transp. Res. Part A: Policy Pract. 74 (2015)
+174–185.
+[44] M. Neteler, M.H. Bowman, M. Landa, M. Metz, GRASS GIS: a multi-purpose open
+source GIS, Environ. Model. Softw. 31 (2012) 124–130.
+[45] R. Becker, The New S Language, CRC Press, 2018.
+[46] W. Härdle, L. Simar, Applied Multivariate Statistical Analysis, Springer Science &
+Business Media, 2007.
+[47] R.G. Lawson, P.C. Jurs, New index for clustering tendency and its application to
+chemical problems, J. Chem. Inf. Comput. Sci. 30 (1990) 36–41.
+[48] A. Banerjee, R.N. Dave, Validating clusters using the Hopkins statistic, 2004 IEEE
+International Conference on Fuzzy Systems (IEEE Cat, No.04CH37542), vol. 1
+(2004) 149–153.
+[49] J. Saarenpää, M. Kolehmainen, H. Niska, Geodemographic analysis and estimation
+of early plug-in hybrid electric vehicle adoption, Appl. Energy 107 (2013)
+456–464.
+[50] K. Srinivas, K. Kiran, Computational approach to overcome overlapping of clusters
+by fuzzy k-means, Int. J. Recent Technol. Eng. 7 (2018) 305–355.
+[51] D. Süsser, M. Döring, B.M. Ratter, Harvesting energy: place and local entrepreneurship in community-based renewable energy transition, Energy Policy
+101 (2017) 332–341.
+[52] G. Dóci, B. Gotchev, When energy policy meets community: rethinking risk perceptions of renewable energy in Germany and the Netherlands, Energy Res. Soc.
+Sci. 22 (2016) 26–35.
+[53] Q. Wang, Z. Gao, H. Tang, X. Yuan, J. Zuo, Exploring the direct rebound effect of
+energy consumption: a case study, Sustainability 10 (2018) 259.
+[54] B. Winkler, I. Lewandowski, A. Voss, S. Lemke, Transition towards renewable
+energy production? Potential in smallholder agricultural systems in West Bengal,
+India, Sustainability 10 (2018) 801.
+[55] K.L. Holstead, C. Galán-Díaz, L.-A. Sutherland, Discourses of on-farm wind energy
+generation in the UK farming press, J. Environ. Policy Plan. 19 (2017) 391–407.
+[56] S. Karytsas, H. Theodoropoulou, Public awareness and willingness to adopt ground
+source heat pumps for domestic heating and cooling, Renew. Sustain. Energy Rev.
+34 (2014) 49–57.
+[57] A. Kosenius, M. Ollikainen, Valuation of environmental and societal trade-offs of
+renewable energy sources, Energy Policy 62 (2013) 1148–1156.
+[58] E.K. Stigka, J.A. Paravantis, G.K. Mihalakakou, Social acceptance of renewable
+energy sources: a review of contingent valuation applications, Renew. Sustain.
+Energy Rev. 32 (2014) 100–106.
+[59] M. Hyland, V. Bertsch, The role of community involvement mechanisms in reducing resistance to energy infrastructure development, Ecol. Econ. 146 (2018)
+447–474.
+[60] C. Calhoun, R. Sennett, Practicing Culture (Taking Culture Seriously), Routledge,
+2007.
+[61] S. Yang, D. Zhao, Do subsidies work better in low-income than in high-income
+families? Survey on domestic energy-efficient and renewable energy equipment
+purchase in China, J. Clean. Prod. 108 (2015) 841–851.
+[62] C. Walker, J. Baxter, D. Ouellette, Adding insult to injury: the development of
+psychosocial stress in Ontario wind turbine communities, Soc. Sci. Med. 133
+(2015) 358–365.
+[63] R.R. Prasadh, J. Suresh, Green affinity: evaluating the perceptions of youth on
+climate change and renewable energy, Prabandhan: Indian J. Manag. 9 (2016)
+11–26.
+[64] P. Halder, J. Pietarinen, S. Havu-Nuutinen, P. Pelkonen, C.-Y. Chang, P. Prokop,
+M. Usak, ‘Knowledge, perceptions, and attitudes as determinants of youths’ intentions to use bioenergy. A cross-national perspective, Int. J. Green Energy 10
+(2013) 797–813.
+[65] M. Yazdanpanah, N. Komendantova, Z.N. Shirazi, J. Linnerooth-Bayer, Green or in
+between? Examining youth perceptions of renewable energy in Iran, Energy Res.
+Soc. Sci. 8 (2015) 78–85.
+
+[66] J.A. Paravantis, E. Stigka, G. Mihalakakou, E. Michalena, J.M. Hills, V. Dourmas,
+Social acceptance of renewable energy projects: a contingent valuation investigation in Western Greece, Renew. Energy (2018).
+[67] C.L. Noblet, M.F. Teisl, K. Evans, M.W. Anderson, S. McCoy, E. Cervone, Public
+preferences for investments in renewable energy production and energy efficiency,
+Energy Policy 87 (2015) 177–186.
+[68] N. Ouhajjou, W. Loibl, S. Fenz, A.M. Tjoa, Stakeholder-oriented energy planning
+support in cities, Sustain. Cities Soc. 28 (2017) 482–492.
+[69] T. Van Der Schoor, B. Scholtens, Power to the people: local community initiatives
+and the transition to sustainable energy, Renew. Sustain. Energy Rev. 43 (2015)
+666–675.
+[70] J.C. Rogers, E.A. Simmons, I. Convery, A. Weatherall, Social impacts of community renewable energy projects: Findings from a woodfuel case study, Energy
+Policy 42 (2012) 239–247.
+[71] Y. Maruyama, M. Nishikido, T. Iida, The rise of community wind power in Japan:
+enhanced acceptance through social innovation, Energy Policy 35 (2007)
+2761–2769.
+[72] N. Magnani, G. Osti, Does civil society matter? Challenges and strategies of
+grassroots initiatives in Italy's energy transition, Energy Res. Soc. Sci. 13 (2016)
+148–157.
+[73] C.A. Miller, A. Iles, C.F. Jones, The social dimensions of energy transitions, Sci.
+Cult. 22 (2013) 135–148.
+[74] M. Weber, Economy and Society: An Outline of Interpretive Sociology vol. 1, Univ
+of California Press, 1978.
+[75] M.O. Müller, A. Stämpfli, U. Dold, T. Hammer, Energy autarky: a conceptual
+framework for sustainable regional development, Energy Policy 39 (2011)
+5800–5810.
+[76] M. Engelken, B. Römer, M. Drescher, I. Welpe, Transforming the energy system:
+Why municipalities strive for energy self-sufficiency, Energy Policy 98 (2016)
+365–377.
+[77] J. Zoellner, P. Schweizer-Ries, C. Wemheuer, Public acceptance of renewable
+energies: results from case studies in Germany, Energy Policy 36 (2008)
+4136–4141.
+[78] L. Argüelles, I. Anguelovski, E. Dinnie, Power and privilege in alternative civic
+practices: examining imaginaries of change and embedded rationalities in community economies, Geoforum 86 (2017) 30–41.
+[79] S. Becker, C. Kunze, M. Vancea, Community energy and social entrepreneurship:
+addressing purpose, organisation and embeddedness of renewable energy projects,
+J. Clean. Prod. 147 (2017) 25–36.
+[80] G. Abrahams, What “is” territorial cohesion?. What does it “do”? Essentialist
+versus pragmatic approaches to using concepts, Eur. Plan. Stud. 22 (2014)
+2134–2155.
+[81] N.M. Katsoulakos, D.C. Kaliampakos, Mountainous areas and decentralized energy
+planning: insights from Greece, Energy Policy 91 (2016) 174–188.
+[82] A. Räsänen, A. Nygren, A.M. Monge, M. Käkönen, M. Kanninen, S. Juhola, From
+divide to nexus: interconnected land use and water governance changes shaping
+risks related to water, Appl. Geogr. 90 (2018) 106–114.
+[83] G. Osti, Renewables, energy saving and welfare in Italian fragile rural areas,
+Sociol. Polit. Soc. (2016).
+[84] S. Sacchelli, G. Garegnani, F. Geri, G. Grilli, A. Paletto, P. Zambelli, M. Ciolli,
+D. Vettorato, Trade-off between photovoltaic systems installation and agricultural
+practices on arable lands: an environmental and socio-economic impact analysis
+for Italy, Land Use Policy 56 (2016) 90–99.
+[85] P. Bourdieu, The Logic of Practice, Stanford University Press, 1990.
+[86] C.J. Mitchell, Making sense of counterurbanization, J. Rural Stud. 20 (2004)
+15–34.
+[87] A. De Janvry, Agriculture for development: new paradigm and options for success,
+Agric. Econ. 41 (2010) 17–36.
+[88] G. Dalton, D. Lockington, T. Baldock, A survey of tourist attitudes to renewable
+energy supply in Australian hotel accommodation, Renew. Energy 33 (2008)
+2174–2185.
+[89] EEA, The Territorial Dimension of Environmental Sustainability – Potential
+Territorial Indicators to Support the Environmental Dimension of Territorial
+Cohesion, (2018).
+[90] N.L. Panwar, S.C. Kaushik, S. Kothari, Role of renewable energy sources in environmental protection: a review, Renew. Sustain. Energy Rev. 15 (2011)
+1513–1524.
+[91] B. Sütterlin, M. Siegrist, Public acceptance of renewable energy technologies from
+an abstract versus concrete perspective and the positive imagery of solar power,
+Energy Policy 106 (2017) 356–366.
+[92] G. Grilli, M. Ciolli, G. Garegnani, F. Geri, S. Sacchelli, A. Poljanec, D. Vettorato,
+A. Paletto, A method to assess the economic impacts of forest biomass use on
+ecosystem services in a national park, Biomass Bioenergy 98 (2017) 252–263.
+[93] R. Hastik, C. Walzer, C. Haida, G. Garegnani, S. Pezzutto, B. Abegg, C. Geitner,
+Using the “Footprint” approach to examine the potentials and impacts of renewable energy sources in the European Alps, Mount. Res. Dev. 36 (2016) 130–140.
+[94] B. Winkler, S. Lemke, J. Ritter, I. Lewandowski, Integrated assessment of renewable energy potential: approach and application in rural South Africa, Environ.
+Innov. Soc. Transit. 24 (2017) 17–31.
+[95] M. Hecher, S. Hatzl, C. Knoeri, A. Posch, The trigger matters: The decision-making
+process for heating systems in the residential building sector, Energy Policy 102
+(2017) 288–306.
+[96] L. Michaels, Y. Parag, Motivations and barriers to integrating ‘prosuming’ services
+
+222
+
+Energy Research & Social Science 54 (2019) 211–223
+
+J. Balest, et al.
+into the future decentralized electricity grid: findings from Israel, Energy Res. Soc.
+Sci. 21 (2016) 70–83.
+[97] J. Balest, L. Secco, E. Pisani, A. Caimo, Sustainable energy governance in south
+tyrol (italy): a probabilistic bipartite network model, J. Clean. Prod. 221 (2019)
+854–862.
+[98] S. Tomasi, G. Garegnani, C. Scaramuzzino, W. Sparber, D. Vettorato, M. Meyer,
+U. Santa, A. Bisello, Eusalp, a model region for smart energy transition: setting the
+baseline, International Symposium on New Metropolitan Perspectives (2018)
+132–141 Springer.
+[99] Autonomous Province of Bolzano, The Provincial Climate and Energy Plan of
+
+South Tyrol, Technical Report, (2011).
+[100] H. Li, H.C. Jenkins-Smith, C.L. Silva, R.P. Berrens, K.G. Herron, Public support for
+reducing us reliance on fossil fuels: investigating household willingness-to-pay for
+energy research and development, Ecol. Econ. 68 (2009) 731–742.
+[101] D. Damigos, D. Kaliampakos, Assessing the benefits of reclaiming urban quarries: a
+CVM analysis, Landsc. Urban Plan. 64 (2003) 249–258.
+[102] J. Zarnikau, Consumer demand for ‘green power’and energy efficiency, Energy
+Policy 31 (2003) 1661–1672.
+[103] B.K. Sovacool, P.L. Ratan, Conceptualizing the acceptance of wind and solar
+electricity, Renew. Sustain. Energy Rev. 16 (2012) 5268–5279.
+
+223
+
+

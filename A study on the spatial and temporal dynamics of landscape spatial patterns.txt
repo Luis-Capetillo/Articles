@@ -1,0 +1,3281 @@
+Ecological Indicators 157 (2023) 111227
+
+Contents lists available at ScienceDirect
+
+Ecological Indicators
+journal homepage: www.elsevier.com/locate/ecolind
+
+A study on the spatial and temporal dynamics of landscape spatial patterns
+of different types of rural communities in Taiwan
+Fuer Ning a, Hui Wang b, Yu-Chen Chien c, Haozhang Pan c, Sheng-Jung Ou c, *
+a
+
+College of Art Design / College of Landscape Architecture, Nanjing Forestry University, Nanjing 210037, China
+College of Landscape Architecture, Nanjing Forestry University, Nanjing 210037, China
+c
+College of Design, Chaoyang University of Technology, Taichung 413, Taiwan
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Taiwan Rural Community
+Landscape Spatial Pattern
+Landscape Change
+Driving Force
+
+Climate change and urbanization are the main factors causing landscape changes not only in urban areas but also
+in rural communities. Rural communities have economic, cultural, social, and significant ecological value. Based
+on the background of environmental change, this study selects three main classes of rural communities in Taiwan
+as the research areas. Based on the remote sensing images from 2001 to 2020 and the survey of land use status,
+the land transfer matrix and landscape index method were used to analyze the landscape spatial pattern changes
+and driving forces of rural communities. The results revealed that (1) the land use changes of the four different
+types of rural communities have both common features. The growth of construction land and transportation land
+area is a common phenomenon, and the growth rate matches the type of rural community. Forest land or
+farmland is the main land cover. From the perspective of land transfer analysis, it is the mutual conversion and
+loss of agricultural land, forest land and other land. (2) There are differences in the landscape pattern changes of
+the three main classes of rural communities. The production community (Dalian) pattern is progressing steadily.
+The ecological community (Gangbian) pattern is progressing slowly. The process of living community pattern
+varies greatly, while the progress of village experience type (Shuangtan) pattern is slow. The comprehensive
+wealth type (Seshui) pattern is developing unevenly and at a fast pace. (3) The driving force of land use change
+mainly comes from the policy drive of the public sector, the spatial planning system, and community develop­
+ment activities. This study fills in the gaps in the development of landscape spatial patterns of different types of
+rural communities, and provides a reference for the formulation of regulations on the spatial planning system of
+rural communities in Taiwan.
+
+1. Introduction
+Climate change and urbanization are the main factors causing
+landscape changes not only in urban areas but also in rural communities.
+Climate change is considered to be one of the important driving forces of
+land use change and environmental change (Li, et al., 2020; Smith, et al.,
+2020; Thapa, 2020). Climate change encompasses global warming, and
+natural hazards such as floods, storms, and droughts, which have
+adverse effects on food security, terrestrial ecosystems, and land
+degradation. Urbanization is one of the most significant environmental
+changes of the 21st century (Ning, et al., 2021; Smith, et al., 2020).
+Urbanization is increasing worldwide, both in the Asian region and in
+the European region. In the context of climate change and urbanization,
+the regional structure, industrial system, rural employment, farmers’
+
+lifestyle, and rural environment have all undergone tremendous changes
+(Li & Song, 2020; Liu & Li, 2017; Xiao, et al., 2018). Rural environ­
+mental change is reflected in changes in land use (Van Eetvelde &
+Antrop, 2009; Xie, et al., 2022a), reduction of semi-natural habitats
+(Ridding, et al., 2020), and different effects of changes in landscape
+function (Gottero & Cassatella, 2017; Häfner et al., 2018; Wu, et al.,
+2020). Furthermore, it can lead to a series of environmental problems
+such as water degradation, soil pollution, and biodiversity loss (Li &
+Song, 2020; Xiao, et al., 2018).
+Rural areas have important economic, sociocultural, industrial and
+ecological value (Chang, 2021; Ma, et al., 2022; Peng & Wang, 2020; Qi,
+et al., 2022). Landscape features are defined as “distinctive, recogniz­
+able, and consistent patterns of elements in a landscape that make one
+landscape distinct from another” (Allen & Patton, 2013; Medeiros, et al.,
+
+* Corresponding author.
+E-mail address: sjou@cyut.edu.tw (S.-J. Ou).
+https://doi.org/10.1016/j.ecolind.2023.111227
+Received 8 March 2023; Received in revised form 26 September 2023; Accepted 24 October 2023
+Available online 16 November 2023
+1470-160X/© 2023 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Fig. 1. Research Structure and Design.
+
+2022). Rural landscape features contain physical landscape components
+(landscape type, geology, topography, soil, vegetation, etc), anthropo­
+genic elements and components (cultural heritage, land use, field pat­
+terns, and human settlements) that make different landscapes distinct
+from each other (Van Eetvelde & Antrop, 2009). Furthermore, it is
+strongly influenced by elemental or patch composition and configura­
+tion (Medeiros, et al., 2022). Understanding rural landscape features
+change is critical to formulating more refined sustainable rural land­
+scape management (Antrop, 2005; Xiao, et al., 2018).
+The analysis of spatial and temporal landscape changes in rural areas
+is an important clue to reflect the regional development pattern (Ellis
+Erle, et al., 2013), which has always been a hot spot of analysis in the
+fields of geography, natural resources, and urban and rural planning
+(Xie, et al., 2022b), which can provide important and useful information
+for sustainable development to make rational decisions (Tu & Chen,
+2020). A comprehensive assessment of changes in rural spatial and
+temporal dynamics will benefit the environmental management and
+spatial planning of the landscape (Wu, et al., 2020; Xie, et al., 2022b).
+The driving factors of spatiotemporal changes in rural landscapes
+interact with different factors at different time and space scales to pro­
+duce results with different strengths(Abrantes, et al., 2016; Burgi, et al.,
+2005; Kristensen, et al., 2016). Among them, different factors include
+three major aspects, such as physical environmental factors, socioeconomic factors, legislation and policy (Kristensen, et al., 2016).
+Physical environmental factors include topography (slope, land type,
+soil, climate, hydrology) and regional location (distance to town, dis­
+tance to road, distance to water system) (Li & Song, 2020; Xie, et al.,
+2022a; Xu, et al., 2018; Yang & Li, 2020; Kristensen, et al., 2016). Socioeconomic factors include regional industries, population, economic
+factors, education levels, literacy levels, and urbanisation levels (Li &
+Song, 2020; Xie, et al., 2022a; Xu, et al., 2018; Yang & Li, 2020).
+Legislation and policy factors include land ownership, land use regula­
+tions, rural development policies, and other activities (Li & Song, 2020;
+Xie, et al., 2022a; Xu, et al., 2018; Yang & Li, 2020; Kristensen, et al.,
+2016).
+The number of studies on the spatiotemporal dynamics of the spatial
+
+pattern of different rural communities is limited (no clear typology of
+different rural areas), with studies of a single type of rural area domi­
+nating. Van der Sluis,et al., (2019a) selected six rural areas in five Eu­
+ropean countries as research sites to explore the spatial and temporal
+dynamics of different European rural landscape spatial patterns and
+changes in landscape services. The findings show that the land use and
+cover changes observed in the case studies over the last few decades
+have been relatively minor, with urbanization and afforestation pro­
+cesses dominating. Kristensen, et al. (2016) investigated patterns of
+change in landscape spatial patterns and the driving forces behind them
+in rural communities in three different landscape regions (peri-urban
+landscapes, areas of agricultural marginal potential, and post-socialist
+landscapes) in Europe between 2002 and 2012. The driving force of
+rural communities in the urban periphery is related to the nature of fulltime/part-time/amateur farmers. The driving force of rural commu­
+nities with marginal agricultural potential is related to aging pop­
+ulations, economic decline, and the declining status of agriculture. Postsocialist rural community driving forces are related to agricultural
+intensification, the expansion of large-scale farms, and small-scale
+farming. Krajewski, et al. (2022) selected rural communities and
+urban communities in Poland to investigate changes in landscape spatial
+patterns from 2005 to 2020. The findings show that in both commu­
+nities, residents are most concerned about residential and commercial/
+industrial development on agricultural land. However, the main po­
+tential driving force of change is usually the intensification or expansion
+of agriculture. Xiao, et al. (2018) investigated the spatial variability of
+landscape change in three rural areas (Daxing, Quzhou, and Changshu)
+under rapid urbanization in eastern China from 2009 to 2012. The
+findings show that the landscape pattern and land use composition of the
+three rural areas also varied. Zhang, et al. (2023) studied the evolution
+of settlement systems in the alpine pastoral areas of the Tibetan Plateau
+and found that since 2005, the settlement system in Nagqu County has
+undergone a phase change from concentrated settlement to functional
+expansion. Medeiros, et al. (2022) discuss landscape patterns and fea­
+tures in the Douro region of northeastern Portugal from 1995 to 2015,
+with findings sharing similar trends to other Mediterranean regions,
+2
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Fig. 2. Rural Community Location Map.
+
+3
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+matrix. Next, the research analyzes the results of temporal and spatial
+changes in landscape spatial patterns, including basic survey and pattern
+analysis of rural communities. Finally, the analysis of driving force
+analysis is carried out to provide suggestions for the land space planning
+of non-urban areas.
+
+driven primarily by population decline, agricultural policies, and
+wildfires.
+Taiwan has been emphasising the development of rural communities
+since 1973. Until 2007, a competition for classic farming and fishing
+villages was held. At the same time, the Bureau of Soil and Water
+Conservation of the Council of Agriculture of the Executive Yuan has a
+clear classification of rural communities. By 2022, two editions of the
+Taiwan Gold Medal Rural Community Competition have been held and
+completed. With the development of the times, rural communities suffer
+from several problems such as agricultural decline, arable land aban­
+donment, rural migration, and aging (Górka, 2018; Gullino,et al., 2018),
+rural landscape features are disappearing (Hanaček & Rodríguez-Laba­
+jos, 2018; Peng & Wang, 2020).However, more than 4,000 rural com­
+munities in Taiwan also face similar problems: environmental ecology
+has not been paid attention to, especially the development of private
+land, and the characteristics of rural landscapes are gradually lost
+(Chang, 2021; Chang, 2020). In addition, Taiwan’s spatial planning
+system is currently in the stage of reform and construction (Lu & Cheng,
+2023). 1945 to 1973 was the prototype of the system, mainly following
+the “Urban Planning Law” promulgated during the Japanese occupation
+era and its implementation rules. From 1974 to 2015, for the reform of
+the system, the “Regional Planning Act (RPA)” was promulgated to
+control the use of non-urban land, which was separated from the urban
+planning law and formed a dual system of urban and rural development.
+In 2016, the construction of the system reform began, and in May 2020,
+the “Spatial Planning Act (SPA)” was implemented in urban areas.
+Today, the SPA in non-urban areas is still under constant revision
+(Zhang, et al., 2020). At the same time, through literature review, the
+study found that research topics on rural communities in Taiwan were
+diverse, but limited in number, such as the landscape evaluation model
+(Peng & Wang, 2020), feasibility assessment of green care (Chen, et al.,
+2021), etc. There is still a gap in the research and discussion of the
+different types of rural communities, and this study can add to this part
+of the research contribution.
+As mentioned above, rural community development has always been
+an important part of the Government’s work. However, the rural com­
+munity is facing many problems as it changes and develops over time. As
+a result, there have been adjustments and changes to the territorial
+spatial plan. Therefore, it is necessary to trace the development of the
+landscape pattern of rural communities that already have well-defined
+types in terms of spatial and temporal dynamics, in order to fill the
+gap in the study of different types of rural communities in Taiwan. This
+study investigates (1) the spatial and temporal dynamics of the spatial
+pattern of different types of rural community landscapes over the past 15
+to 20 years, for the living, productive, and ecological types of rural
+communities. In turn, the suitability and compatibility of the developing
+situation with the type are verified. (2) The driving force of dynamic
+changes in the spatial patterns of living, productive and ecological rural
+community landscapes, providing reference materials for reforming and
+constructing Taiwan’s non-urban spatial planning system, improving
+land use management policies, and promoting sustainable development.
+
+2.2. Selection of research scope
+The rural community is mainly divided into three main classes
+(production community, living community, and ecological community)
+and six subclasses (village experience type, economic production type,
+innovative agricultural type, environmental conservation type,
+comprehensive wealth type, and original hometown lohas type). The
+study area was selected from the 110 key rural communities in Taiwan
+as proposed by rural regeneration counties and municipalities and the
+Bureau of Soil and Water Conservation of the Council of Agriculture.
+Based on the 2007 Top 10 Classic Farming and Fishing Villages and, at
+the same time, the intersection of them with the winning areas of Tai­
+wan’s Gold Medal Rural Community Competition, it was determined to
+filter out rural communities with a good foundation. In combination
+with the results of the land use survey, rural communities with a slightly
+changed environment were selected. Ultimately, it was ensured that the
+rural communities selected included three main classes: production,
+living, and ecological communities. Therefore, the production commu­
+nity selected the Dalian community (an economic production commu­
+nity). The living community selected the Seshui community
+(comprehensive wealth type) and the Shuangtan community (village
+experience type). Ecological community selected: the Gangbian com­
+munity (environmental conservation type).
+(1) The living community type includes the Seshui Community of
+Dayan Village, Yuchi Township, Nantou County (comprehensive wealth
+type), and the Shuangtan Community of Shuangtan Village, Sanyi
+Township (village experience type). A living community is defined as a
+rural community with a high level of environmental functionality and
+standard of living. With the aim of “enhancing the overall appearance,”
+the living community focuses on enhancing the maintenance or repair of
+historic buildings or facilities of landscape value. The comprehensive
+wealth type (life ≥ production ≥ ecology) belongs to the life type. The
+proportions of the three life functions are all average, and their sense of
+community is relatively complete. In terms of the development
+sequence, it still follows the sequence of life, production, and ecology of
+humanistic thinking. The village experience type (living ≥ ecology >
+production) belongs to the living type. Although the production function
+is still dominated by primary and secondary industries, it is not the main
+source of economic income for rural residents. The reason for the higher
+proportion of living standards lies in the functionality of the rural
+community’s environmental facilities and in the fact that the standard of
+living has reached a certain level. Under this background, the preser­
+vation of the natural environment and culture of the rural community
+has become an important direction.
+Seshui community (Fig. 2 A) is located along road number 21 of
+Taiwan, surrounded by mountains, the ground looks like a lotus valley,
+and the altitude is about 600 to 800 m. The early years of the Seshui
+community were dominated by rice cultivation and betel nuts. The 1940
+s saw the rise of Assam’s tea, which became a major industry as the
+population switched to black tea cultivation. After liberation, Taiwan
+Tea No. 18 Red Jade became the representative of its agricultural
+products. After the 921 earthquake, black tea and other foodstuffs
+continued to be its specialty. The community also has natural white fairy
+soil, which is an excellent material for pottery, and pottery is the com­
+munity’s trademark. Bamboo is also a local specialty, preserved in
+everything from traditional architecture and everyday objects to the art
+of bamboo weaving. However, following the 921 earthquake, the
+neighborhood was severely devastated and replaced with new structures
+that were known as the “Little Switzerland of Taiwan” because of their
+white exteriors, blue roof tiles, and pitched roofs.
+
+2. Materials and methods
+2.1. Research structure and design
+The overall idea of this research is divided into the following four
+parts (Fig. 1). First, confirm the selected rural communities and their
+categories, mainly covering three main classes (production, living,
+ecological community), and specifically four subclasses (economic
+production type, comprehensive wealth type, village experience type,
+environmental conservation type). Secondly, the selected research
+methods include the confirmation of land use data, the classification of
+land use category (farmland, forest land, transportation land, water use
+land, construction land, other land), the selection of landscape index
+(related to landscape preferences), and the use of land use transition
+4
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+The Gangbian community (Fig. 2 D) is located at the southernmost end
+of the Lanyang Plain, bordering the northernmost end of the Central
+Mountains, and is a community with a coastline. The ecological com­
+munity is defined as one in which improvements in hardware and
+equipment include the upgrading of living environment facilities and
+conditions. The environmental conservation type (ecology > produc­
+tion ≥ living) belongs to the ecological type. This kind of community is
+oriented by its environmental and ecological characteristics, and
+ecological and production functions are the main and secondary items.
+However, the proportion of ecological functions is far greater than the
+importance of production functions and life functions. Its community
+has a small number of primary and secondary industries, and its eco­
+nomic income comes from tertiary industries, including homestay ex­
+periences and ecological education and interpretation.
+The community originally consisted of several settlements around
+the wetland, was rich in offshore fishing resources, and was a traditional
+community living on tractors and farmland. The 1970 s saw the devel­
+opment of cultural and economic activities featuring the traditional
+maritime culture of tug-of-war, such as tug-of-war dance dramas and
+tug-of-war competitions, which added to the vibrancy of the commu­
+nity. Later, due to social changes and wastewater pollution, the fisheries
+resources dwindled, and the community’s population was faced with
+changing jobs, emigration, and aging. In 2001, the “eco-community”
+development axis has been introduced to develop sustainable commu­
+nities. The community is one of the important wetlands recognized by
+the International Wetland Conservation Alliance. It covers an area of
+102 ha and is a dry port bird sanctuary, where more than 170 species of
+birds inhabit. In recent years, the community has successively proposed
+rural regeneration plans such as the “Green and Resilient Endless Port”.
+
+Table 1
+Land Use Category.
+Serial
+number
+
+Classification
+name
+
+Different land uses included in each
+category
+
+1
+
+Farmland
+
+2
+
+Forest land
+
+3
+
+Transportation
+land
+
+4
+
+Water use land
+
+5
+
+Construction land
+
+6
+
+Other land
+
+Farmland, paddy fields, dry fields, orchards,
+aquaculture, animal husbandry, and
+agricultural related facilities, etc.
+Coniferous forests, broad-leaved forests,
+bamboo forests, mixed coniferous and broadleaved forests, shrub forests, pending forests,
+nurseries, and other woodlands, etc.
+Airports, ports, general railways, high-speed
+railways, MRT, roads, agricultural roads, and
+related facilities, etc.
+Rivers, wetlands, embankments, ditches,
+cisterns, waterways, sandbars, beaches, and
+water conservancy structures.
+Commercial buildings, industrial buildings,
+residential and hard pavement in front of
+houses, manufacturing buildings, storage
+buildings, public buildings, religious buildings,
+schools, and other buildings, etc.
+Grassland, bare land, funeral facilities, park
+green space, sports field, shrub wasteland,
+sandy land, artificially changed the land and
+idle land, etc.
+
+Shuangtan community (Fig. 2 B) is located in the hilly area of
+Guandao Mountain, 700 m above sea level, with county road 130
+running through it. The residents are mainly Hakka people. The com­
+munity’s tranquil natural landscape and traditional woodcarvings have
+attracted many artists. Most of the residents are still involved in
+woodcarving, followed by farming. It also features an old charcoal road
+from the early days, authentic Hakka food culture, wood carving and
+painting, face painting, Hakka cultural painting, and other DIY activ­
+ities. The Community Village Regeneration Project aims to “create a
+happy Shuangtan through the creation of an agricultural art and wood
+art village”, to create a happy village and craft village with the rebirth of
+old settlements, the revitalization of old and new industries, the pro­
+motion of the forest industry, and the sustainable development of the
+ecology, thereby improving people’s lives.
+(2) The productive community selected in this study is the Dalian
+community (economic production type) in Tianwei Township, Chan­
+ghua County. Dalian community (Fig. 2 C) is located in the western
+plains along the side of Provincial Highway 1. A production community
+is defined as a community whose main direction of development is the
+enhancement, maintenance, and improvement of the living conditions
+of the production environment. Therefore, basic agricultural production
+and monitoring of public facilities are established at all stages of pro­
+duction and marketing. The production community is actively building
+up a professional production and sales area with integrated production
+and sales and is focusing on the establishment of diversified marketing
+channels. The economic production type (production > life > ecology)
+belongs to the production type. It utilizes the land management form
+and takes agricultural production as the community’s livelihood, and
+the production and living functions are the main development charac­
+teristics. Among them, the development of the primary and secondary
+industries is greater than the function of life. In addition, due to its
+location, environment, and development characteristics, its ecological
+nature is not the main focus.
+The community is named after the sickle made by the ancestors to
+reclaim wasteland. Its flower cultivation history can be traced back to
+the Qing Dynasty. During the Japanese occupation period, its industry
+was already impressive, which laid the foundation for the development
+of the community’s flower industry. The community offers a wide range
+of activities and features, such as bike rides, night tours of the chry­
+santhemum, and flower auction centers.
+(3) The ecological community type selected the Gangbian commu­
+nity (environmental conservation type) in Suao Town, Yilan County.
+
+2.3. Data collection
+The data for this study were obtained from orthophotos published by
+the Institute of Agricultural and Forestry Aerial Surveying, Council of
+Agriculture, Executive Yuan, with an image resolution of 5 M. The image
+standard for image selection is that the aerial photo has the lowest cloud
+cover (0 %), and the community boundary range is the simplified
+version of the rural regeneration range released in 2018. The collected
+remote sensing image data from 2001 to 2021, the 20 years are divided
+into three six-year periods (2001, 2007, 2013, 2019/2020) for discus­
+sion. To ensure the validity of the drawings obtained, the study was also
+accompanied by a field survey to document the land conditions and
+check the changes in the land. In addition, two researchers used ArcGis
+to decode and analyze the remotely sensed images, and the decoded
+maps were proofread using the digitized maps from the Bureau of Soil
+and Water Conservation, Council of Agriculture, Executive Yuan, as a
+reference to ensure their accuracy. After comparing the community
+boundaries of different periods, it is found that the community bound­
+aries of Seshui, Gangbian, and Dalian communities have not changed.
+Only the rural regeneration boundary of Shuangtan community is
+slightly smaller than the original community boundary, and the com­
+munity boundary range has no effect on the study. However, due to the
+limitation of its image data, there will be some deviations in the image
+data. For example, the map data of the third phase of Seshui Community
+can only be selected in 2011, because the map data in 2012 and 2013 is
+cloudy. In addition, there is no 2001 map for Dalian community for
+research use, so the research period for this community is from 2007 to
+2020.
+2.4. Extraction of land use type information
+The classification of land use is based on the accuracy of the map, the
+environmental characteristics of the study area, and the needs and ob­
+jectives of the study. Xiao, et al. (2018) classify rural land into three
+main categories, namely farmland, semi-nature land, and construction
+land. Van der Sluis,et al., (2019a) classify land in the Roskilde into seven
+5
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Fig. 3. Seshui Community Landscape Spatial Pattern.
+
+categories: settlement, lake, forest, grassland, wetland, cropland, and
+sea. Wang and Wen (2021) classify traditional villages in forest areas
+into six categories: forestland, grassland, arable land, waterbody, arti­
+ficial pavement, and wetland. Liu, et al. (2014) classify village-scale
+rural land in Yucheng into seven categories: farmland, woodland,
+rural settlements, rural facilities land, transportation, waterbody, and
+unused land.
+This study is based on the survey method of the current state of land
+use (Construction Department of the Ministry of the Interior of the Re­
+public of China, 2019). Considering the accuracy of the drawings and
+the environmental survey of land use forms through rural communities
+in Taiwan, land use was classified into six categories: farmland, forest
+land, transportation land, water use land, construction land, and other
+
+land (Table 1). The six land use categories were considered sufficient for
+this study.
+2.5. Land use transition matrix
+To gain a better understanding of the inter-transformation relation­
+ships between various land-use landscape types, a transition matrix was
+chosen to reflect the specific situation of the landscape type structure in
+the study area and the mutual transfer of various landscape types.
+Therefore, the transition matrix can analyze the source, destination and
+type composition of landscape type transition (Xu, et al., 2017).
+
+6
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Table 2
+Land use in Seshui Community.
+Time
+
+2002
+
+2008
+
+2011
+
+2019
+
+Category
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+Construction land
+Transportation land
+Farmland
+Other land
+Forest land
+Water
+use land
+Total
+
+3.80
+5.09
+28.73
+9.96
+61.56
+1.04
+
+3.45 %
+4.62 %
+26.08 %
+9.04 %
+55.87 %
+0.94 %
+
+4.34
+4.87
+34.20
+12.14
+52.84
+1.79
+
+3.94 %
+4.42 %
+31.04 %
+11.02 %
+47.96 %
+1.62 %
+
+5.09
+5.72
+25.02
+16.95
+55.86
+1.54
+
+4.62 %
+5.19 %
+22.71 %
+15.38 %
+50.70 %
+1.40 %
+
+5.97
+6.56
+23.59
+22.67
+50.31
+1.08
+
+5.42 %
+5.95 %
+21.41 %
+20.58 %
+45.66 %
+0.98 %
+
+110.18
+
+100.00 %
+
+110.18
+
+100.00 %
+
+110.18
+
+100.00 %
+
+110.18
+
+100.00 %
+
+Table 3
+Land use transition matrix of Seshui community from 2002 to 2019.
+
+Construction land
+Transportation land
+Farmland
+Other land
+Forest land
+Water
+use land
+2019 Total
+Unit:ha
+
+Construction land
+
+Transportation land
+
+Farmland
+
+Other land
+
+Forest land
+
+Water
+use land
+
+2002
+Total
+
+2.79
+0.14
+1.26
+1.17
+0.60
+0.01
+
+0.26
+3.35
+1.13
+0.43
+1.36
+0.04
+
+0.15
+0.45
+10.70
+1.29
+10.91
+0.09
+
+0.43
+0.45
+10.17
+4.17
+7.18
+0.24
+
+0.16
+0.66
+5.29
+2.61
+41.42
+0.14
+
+0.01
+0.04
+0.12
+0.30
+0.09
+0.53
+
+3.80
+5.09
+28.73
+9.96
+61.56
+1.04
+
+5.97
+
+6.56
+
+23.59
+
+22.67
+
+50.31
+
+1.08
+
+110.18
+
+categories (area index, density size and difference, edge index, shape
+index, core area, proximity, diversity index, and sprawl index). Selecting
+more comprehensive indicators is of great significance for analyzing the
+spatial and temporal dynamic changes of rural communities. Second, it
+is necessary to select a consensus landscape index related to landscape
+preference (Appendix A. 1). Because follow-up research of this study
+needs to be combined with landscape preference. Next, to ensure the
+comprehensiveness of the landscape index, Core_MN and SHEI are
+added. Finally, selected landscape indices include AREA, PLAND, NP,
+PD, TE, ED, FRAC_AM, SHAPE_AM, Core_MN, ENN_MN, SHDI, SHEI,
+SIDI, SIEI, and CONTAG. After the selection of indicators is completed,
+the landscape indicators required for this study are classified, and their
+scales and meanings are explained, see Appendix A. 2.
+
+2.6. Selection of landscape index
+There is a correlation between landscape index and landscape pref­
+erence. The land cover structure of the landscape is the basic element,
+and the landscape index is the digitization of its structure and has an
+impact on landscape perception and perception (Giles & Trani, 1999).
+Crawford (1994) and Palmer (1997) proposed that spatial indicators
+commonly used in landscape ecology can be used as indicators of
+landscape preference. Smardon, et al. (1986) and Franco, et al. (2003)
+pointed out that there is a significant correlation between landscape
+diversity index and landscape preference. Palmer (2004) found that the
+landscape index can explain most of the changes in landscape preference
+and perception, and ED has a significant positive correlation with
+landscape value. Gonzalo, et al. (2006) explored the Mediterranean
+climate landscape and found that the SIEI was positively correlated with
+the beauty of the landscape within a 1 km2 viewing area. In the 0.25
+km2 viewing area, NP, SIDI, and SIEI were negatively correlated with
+legibility. Patch shape was correlated with double pairs of DFLD, CONT,
+and SIEI, and landscapes with irregular shapes had higher visual
+complexity. Dramstad, et al. (2006) found that SHDI, PR, NP, TE, and
+AREA are positively correlated with landscape preference. Fry, et al.
+(2009) pointed out that the coherence, complexity, scale, naturalness,
+and ecological index in landscape preference have commonality. For
+example, coherence is correlated with PR and PLAND; complexity is
+correlated with SIEI, dominance index, shape richness index, AREA,
+heterogeneity index, ED, and sprawl index; visual scale is correlated
+with PLAND, AREA, and ENN_MN; and naturalness is correlated with
+PLAND and FRAC. Schirpke, et al. (2013) studied mountain landscapes
+and found that shape complexity (SHAPE_MN, SHAPE_MD, FRAC_MN,
+FRAC_MD) and landscape diversity (SHDI, SHEI, SIDI, MSIDI, SIEI,
+MSIEI) are positively correlated with scenic beauty, CONTAG is nega­
+tively correlated with scenic beauty. Schirpke, et al. (2021) studied the
+impact of past landscape changes on the aesthetic landscape value of the
+European Alps, they found that MSIEI had a significant negative impact
+on aesthetic value; AREA_AM and SHAPE_CV had a significant positive
+impact on aesthetic value.
+The selection of landscape indicators, first of all, needs to ensure the
+comprehensiveness of the landscape index, which needs to cover eight
+
+2.7. Graphic processing
+The research takes one year as the base period, and the figure for
+each period is obtained through the following procedures. The land use
+map is an image processed from satellite imagery using ArcGIS 10.5
+software. Using manual visual interpretation, valuation information for
+land use maps is created through a series of operations such as map
+tessellation, cropping, layer creation, linear editing, surface trans­
+formation, raster conversion, and map production. However, for the
+accuracy of drawing processing, this manuscript was processed with
+ArcGIS. Starting with the earliest year, stack drawings of different years,
+carefully check each area and change the category boundaries and
+classifications of changes. For example, if the land category in a certain
+area has not changed, the boundary line of the category will not change
+due to the change of the year, thus reducing the error. If each year were
+to be recreated, its accuracy would be uncertain and differences would
+accumulate.
+3. Results
+3.1. Analysis of land use in four different types of communities
+3.1.1. Living community- Seshui community
+Through Fig. 3 the land use change of Seshui community from 2002
+7
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Fig. 4. Shuangtan Community Landscape Spatial Pattern.
+Table 4
+Land use in Shuangtan community.
+Time
+
+2001
+
+Category
+
+AREA
+(ha)
+
+PLAND
+
+2008
+AREA
+(ha)
+
+PLAND
+
+2013
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+Construction land
+Transportation land
+Farmland
+Other land
+Forest land
+Water
+use land
+Total
+
+17.65
+27.76
+40.99
+135.20
+1101.43
+6.59
+
+1.33 %
+2.09 %
+3.08 %
+10.17 %
+82.84 %
+0.50 %
+
+20.60
+33.33
+60.55
+82.61
+1122.96
+9.59
+
+1.55 %
+2.51 %
+4.55 %
+6.21 %
+84.46 %
+0.72 %
+
+20.61
+38.16
+45.67
+84.70
+1132.68
+7.82
+
+1.55 %
+2.87 %
+3.43 %
+6.37 %
+85.19 %
+0.59 %
+
+28.99
+39.53
+37.78
+100.38
+1115.94
+7.02
+
+2.18 %
+2.97 %
+2.84 %
+7.55 %
+83.93 %
+0.53 %
+
+1329.64
+
+100 %
+
+1329.64
+
+100 %
+
+1329.64
+
+100 %
+
+1329.64
+
+100 %
+
+8
+
+2019
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Table 5
+Land use transition matrix of Shuangtan community from 2001 to 2019.
+
+Construction land
+Transportation land
+Farmland
+Other land
+Forest land
+Water use land
+2019
+Total
+Unit:ha
+
+Construction land
+
+Transportation land
+
+Farmland
+
+Other land
+
+Forest land
+
+Water
+use land
+
+2001
+Total
+
+13.88
+0.68
+1.60
+8.12
+4.70
+0.01
+28.99
+
+0.55
+24.02
+1.08
+5.12
+7.47
+1.28
+39.53
+
+0.25
+0.13
+22.33
+8.24
+6.82
+0.00
+37.78
+
+1.60
+0.63
+10.38
+47.51
+40.20
+0.05
+100.38
+
+1.28
+2.26
+5.51
+64.89
+1041.41
+0.60
+1115.94
+
+0.08
+0.04
+0.10
+1.31
+0.83
+4.65
+7.02
+
+17.65
+27.76
+40.99
+135.20
+1101.43
+6.59
+1329.64
+
+to 2019 can be seen. The total area of the community is 110.18 ha.
+Looking at the land cover in each year (Table 2), the areas of con­
+struction land, transportation land, other land and water use land have
+increased by 1.97 %, 1.33 %, 11.54 %, and 0.04 % respectively. The loss
+of forest and farmland is more serious. Forest land is the primary land
+cover type, farmland is secondary, and followed by the category of other
+land.
+From Table 3, we can see the mutual conversion of each year and
+each category of land. The changed area of construction land was 3.18
+ha, and the area of farmland and other land transferred to it was the
+most,1.26 and 1.17 ha. The area of changed transportation land was
+3.21 ha, and the area of forest land and farmland transferred to it was
+the most, 1.36 and 1.13 ha. The changed area of farmland was 12.89 ha,
+and the area of forest land and other land transferred to it was the most,
+10.91 and 1.29 ha. The changed area of other land was 18.50 ha, and the
+area of farmland and forest land transferred to it was the most, 10.17
+and 7.18 ha. The changed area of forest land was 8.89 ha, and the area of
+farmland and other land transferred to it was 5.29 and 2.61 ha. The
+changed area of water use land was 0.05 ha, and other land and farm­
+land transferred to construction land was 0.30 and 0.12 ha. It can be
+seen that the transfer of various types of land in the community is the
+mutual transformation of farmland, forest land, and other land.
+
+3.1.3. Productive Dalian community
+Through Fig. 5, we can see the land use change of Dalian community
+from 2007 to 2020. The total area of the community is 143.95 ha, see
+Table 6 for the land cover of each year. The area of construction land,
+transportation land, and farmland have increased, while other land,
+forest land, and water use land have decreased. The land cover of the
+community has changed in three periods, and the top three categories
+are farmland, forest land, and other land in 2007; farmland, other land,
+and forest land in 2013; farmland, forest land, and other land in 2020.
+From Table 7, we can see the mutual transformation of different
+periods and different types of land. The changed area of construction
+land was 6.97 ha, and the areas transferred to it from farmland and other
+land were the largest, 2.68 and 2.58 ha respectively. The changed area of
+transportation land was 7.73 ha, and the area of other land and farmland
+transferred to it was the largest, 2.82 and 2.52 ha respectively. The
+changed area of farmland was 25.92 ha, and the area of forest land and
+other land transferred to it was the largest, 12.51 and 9.30 ha respec­
+tively. The changed area of other land use was 12.66 ha, and the area of
+farmland and forest land transferred to it was the largest, 6.35 ha and
+4.00 ha respectively. The changed area of water use land was 0.13 ha,
+and the areas of farmland and forest land transfer were 0.07 and 0.05 ha
+respectively.
+
+3.1.2. Living community- Shuangtan community
+Fig. 4 shows the land use change of Shuangtan community from 2001
+to 2019. The total area of the community is 1329.64 ha. Overall
+observation of land cover in each year (Table 4), forest land is the main
+land cover type accounting for about 80 %, and other land use is the
+second. As of 2019, transportation land replaced farmland as the third
+land cover type. Compared with 2001, the area of construction land,
+transportation land, forest land, and water use land increased by 0.85 %,
+0.88 %, 1.09 %, and 0.03 % respectively. The area of farmland and other
+land use decreased by 0.24 % and 2.62 % respectively.
+From Table 5, we can see the mutual transformation of each stage
+and each type of land. Compared with 2001, the area of construction
+land changed by 15.10 ha. Other land and forest land transferred to
+construction land were the largest, 8.12 and 4.7 ha respectively. The
+changed area of transportation land was 15.51 ha, and the area of forest
+land and other land transferred to it was the largest, 7.47 and 5.12 ha
+respectively. The area of forest land change was 74.54 ha, and the area
+of other land and farmland transferred to forest land were the largest,
+64.89 and 5.51 ha respectively. The changed area of water use land was
+2.36 ha, and the area of other land and forest land transferred to water
+use land were the largest, 1.31 and 0.83 ha respectively. The changed
+area of farmland was 15.45 ha, and other land and forest land were
+converted into farmland the most, 8.24 and 6.82 ha respectively. The
+area of other land changes was 52.86 ha, and forest land and farmland
+were converted into other land-uses the most, respectively 40.20 and
+10.38 ha. It can be seen that the transfer of various types of land in the
+community is the mutual transformation of farmland, forest land, and
+other land.
+
+3.1.4. Ecological Gangbian community
+Through Fig. 6, we can see the land use change of Gangbian com­
+munity from 2001 to 2018. The total area of the community is 299.37
+ha. Judging from the land cover of each stage Table 8, the area of
+construction land, water use land, transportation land and other land
+has increased, while the area of forest land and farmland has decreased.
+Forest land was its main land cover type. Before 2013, farmland was the
+secondary land cover type. After 2013, other land became the secondary
+land cover, and farmland was the third type of land cover.
+From Table 9, we can see the mutual conversion of different stages
+and different types of land. The changed area of construction land was
+5.06 ha, and other land and forest land were transferred to it the most,
+2.13 and 1.36 ha respectively. The changed area of transportation land
+was 3.96 ha, and other land and forest land were transferred to it the
+most, 1.47 and 1.44 ha respectively. The changed area of farmland was
+11.89 ha, and forest land and other land were transferred to it the most,
+6.80 and 4.25 ha respectively. The changed area of other land was 30.29
+ha, and the forest land and farmland were transferred to it the most,
+13.03 and 12.64 ha respectively. The changed area of forest land was
+10.90 ha, and other land was transferred to it the most, which was 6.92
+ha. The changed area of water use land was 3.60 ha, and other land was
+transferred to it the most, which was 2.57 ha. It can be seen that the
+transfer of various types of land in the Gangbian community is the
+mutual conversion and loss of farmland, forest land and other land.
+3.1.5. Land use in different types of rural communities
+Table 10 can be used for comprehensive analysis. From 2001 to
+2020, the land use changes of four different types of rural communities
+have something in common. Ecological land includes forest land,
+9
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Fig. 5. Dalian Community Landscape Spatial Pattern.
+
+grassland, water use land, and unused land. The proportion of ecological
+land in ecological rural towns is the largest, followed by farmland.
+Agricultural production-oriented rural towns have a large proportion of
+ecological land and farmland. In this study, according to the classifica­
+tion standards of rural communities in 2011, living communities are
+suitable for the development of construction land and roads, productive
+communities are suitable for the development of farmland, and
+ecological communities are suitable for the development of forest land,
+
+other land and water use land. (1) From the perspective of land use
+analysis, the growth of construction land and transportation land area in
+the four communities is a common phenomenon. The order of growth
+rate of construction land from high to low is Seshui community (living
+community) > Dalian community (productive community) > Shuangtan
+community (living community) > Gangbian community (ecological
+community). The order of growth rate of transportation land area from
+high to low is Dalian Community (productive community) > Seshui
+10
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Community (living community) > Shuangtan Community (living com­
+munity) > Gangbian Community (ecological community). Therefore, it
+can be found that the growth rate of construction and transportation
+land matches the type of rural community. From the perspective of land
+cover types, forest land or farmland in each community is the most
+important land cover, but each community has its own characteristics. In
+Seshui community and Gangbian community, forest land, farmland and
+other land are the top three main land covers. Farmland, forest land, and
+construction land in Dalian community are the first three main land
+covers. Forest land, other land, and transportation land in Shuangtan
+community are the first three main land covers. From the perspective of
+land transfer analysis, it is the mutual conversion and loss of farmland,
+forest land, and other land.
+
+Table 6
+Land use in Dalian community.
+Time
+
+2007
+
+Category
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+Construction
+land
+Transportation
+land
+Farmland
+
+21.03
+
+14.60
+%
+8.51 %
+
+18.32
+
+22.60
+
+51.21
+
+Other land
+
+23.41
+
+Forest land
+
+33.70
+
+Water
+use land
+Total
+
+0.41
+
+36.94
+%
+16.26
+%
+23.41
+%
+0.28 %
+
+0.36
+
+12.72
+%
+10.50
+%
+35.57
+%
+20.80
+%
+20.16
+%
+0.25 %
+
+0.18
+
+15.70
+%
+11.50
+%
+39.92
+%
+12.06
+%
+20.70
+%
+0.13 %
+
+143.95
+
+100 %
+
+143.95
+
+100 %
+
+143.95
+
+100 %
+
+12.23
+53.17
+
+2013
+
+15.11
+
+29.94
+29.03
+
+2020
+
+16.55
+57.46
+17.36
+29.80
+
+3.2. Analysis of landscape spatial pattern of four different types of
+communities
+3.2.1. Living community- Seshui community
+Table 11 shows the overall changes of the Seshui community in the
+four periods. From 2002 to 2019, the patch density and edge index
+
+Table 7
+Land use transition matrix of Dalian community from 2001 to 2019.
+
+Construction land
+Transportation land
+Farmland
+Other land
+Forest land
+Water use land
+2020
+Total
+Unit: ha
+
+Construction land
+
+Transportation land
+
+Farmland
+
+Other land
+
+Forest land
+
+Water
+use land
+
+2007
+Total
+
+15.63
+0.44
+2.68
+2.58
+1.27
+0.00
+22.60
+
+0.70
+8.82
+2.52
+2.82
+1.67
+0.01
+16.55
+
+2.60
+1.49
+31.54
+9.30
+12.51
+0.01
+57.46
+
+1.25
+0.87
+6.35
+4.70
+4.00
+0.20
+17.36
+
+0.84
+0.61
+10.01
+4.00
+14.20
+0.15
+29.80
+
+0.00
+0.00
+0.07
+0.01
+0.05
+0.05
+0.18
+
+21.03
+12.23
+53.17
+23.41
+33.70
+0.41
+143.95
+
+Fig. 6. Gangbian Community Landscape Spatial Pattern.
+11
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Table 8
+Land use in Gangbian community.
+Time
+
+2001
+
+2008
+
+2013
+
+2018
+
+Category
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+AREA
+(ha)
+
+PLAND
+
+Construction land
+Transportation land
+Farmland
+Other land
+Forest land
+Water
+use land
+Total
+
+14.25
+14.66
+53.75
+43.29
+162.6
+10.82
+
+4.76 %
+4.90 %
+17.95 %
+14.46 %
+54.31 %
+3.61 %
+
+15.93
+16.19
+55.96
+43.00
+155.75
+12.55
+
+5.32 %
+5.41 %
+18.69 %
+14.36 %
+52.02 %
+4.19 %
+
+15.96
+16.69
+51.02
+54.29
+154.14
+7.27
+
+5.33 %
+5.58 %
+17.04 %
+18.13 %
+51.49 %
+2.43 %
+
+16.29
+14.69
+49.41
+56.25
+150.66
+12.07
+
+5.44 %
+4.91 %
+16.50 %
+18.79 %
+50.33 %
+4.03 %
+
+299.37
+
+100 %
+
+299.37
+
+100 %
+
+299.37
+
+100 %
+
+299.37
+
+100 %
+
+Table 9
+Land use transition matrix of Gangbian community from 2001 to 2018.
+
+Construction land
+Transportation land
+Farmland
+Other land
+Forest land
+Water use land
+2018
+Total
+Unit: ha
+
+Construction land
+
+Transportation land
+
+Farmland
+
+Other land
+
+Forest land
+
+Water
+use land
+
+2001
+Total
+
+11.23
+1.16
+0.41
+2.13
+1.36
+0.00
+16.29
+
+0.49
+10.73
+0.55
+1.47
+1.44
+0.01
+14.69
+
+0.32
+0.38
+37.52
+4.25
+6.80
+0.14
+49.41
+
+1.44
+1.21
+12.64
+25.96
+13.03
+1.97
+56.25
+
+0.76
+1.12
+1.89
+6.92
+139.76
+0.21
+150.66
+
+0.01
+0.06
+0.76
+2.57
+0.20
+8.47
+12.07
+
+14.25
+14.66
+53.75
+43.29
+162.60
+10.82
+299.37
+
+Table 10
+Different types of land use in rural communities.
+Community Type
+CommunityArea
+Land Use
+Area
+Situation
+Increase
+Area
+Decrease
+Main Land Cover Category
+Land Use Transfer
+
+Seshui Community
+
+Dalian Community
+
+Gangbian Community
+
+Shuangtan Community
+
+Comprehensive Wealth Type/
+Living Community
+110.18 ha
+Construction land(1.97 %)
+Transportation land(1.33 %)
+Other land(11.54 %)
+Water use land(0.04 %)
+Forest land(10.21 %)
+Farmland(4.67 %)
+
+Economic production/
+Production Community
+143.95 ha
+Construction land(1.09 %)
+Transportation land(3.00 %)
+Farmland(2.98 %)
+
+Environmental Conservation Type/
+Ecological Community
+299.37 ha
+Construction land(0.68 %)
+Transportation land(0.01 %)
+Other land(4.33 %)
+Water use land(0.42 %)
+Forest land(3.99 %)
+Farmland(1.45 %)
+
+Village Experience Ttype /
+Living Community
+1329.64 ha
+Construction land(0.85 %)
+Transportation land(0.89 %)
+Forest land(1.09 %)
+Water use land(0.53 %)
+Farmland(0.24 %)
+Other land(2.62 %)
+
+Other land(4.2 %)
+Forest land(2.71 %)
+Water use land(0.16 %)
+1、Forest land
+1、Farmland
+1、Forest land
+2、Farmland
+2、Forest land
+2、Farmland
+3、Other land
+3、Construction land
+3、Other land
+It is the mutual conversion and loss of farmland, forest land and other land.
+
+1、Forest land
+2、Other land
+3、Transportation land
+
+Table 11
+Landscape level index of Seshui community.
+Index
+Field
+
+Landscape Index
+
+2002
+
+2008
+
+2011
+
+2019
+
+Annual Trend
+
+General Trend
+
+Density
+
+NP
+PD
+TE
+ED
+SHAPE_AM
+FRAC_AM
+CORE_MN
+ENN_MN
+CONTAG
+SHDI
+SHEI
+SIDI
+SIEI
+
+159
+144.25
+43,233
+392.23
+3.49
+1.20
+0.38
+21.33
+64.83
+1.20
+0.67
+0.61
+0.73
+
+213
+193.23
+52,512
+476.39
+3.30
+1.21
+0.25
+19.74
+61.81
+1.29
+0.72
+0.66
+0.79
+
+241
+218.54
+54,754
+496.51
+3.75
+1.22
+0.22
+17.45
+60.80
+1.32
+0.74
+0.66
+0.79
+
+252
+228.80
+58,630
+532.32
+3.97
+1.22
+0.20
+16.37
+58.96
+1.38
+0.77
+0.70
+0.84
+
+↑↑↑
+↑↑↑
+↑↑↑
+↑↑↑
+↓↑↑
+↑↑→
+↓↓↓
+↓↓↓
+↓↓↓
+↑↑↑
+↑↑↑
+↑→↑
+↑→↑
+
+↑
+
+Edge
+Shape
+Core Area
+Proximity
+Spread
+Diversity
+
+showed an upward trend, and NP, PD, TE and ED increased to 252,
+228.80, 58630, and 532.32, indicating that the degree of landscape
+fragmentation in this community has increased. The shape index also
+
+↑
+↑
+↓
+↓
+↓
+↑
+
+increased gradually over the years, with SHAPE_AM increasing to 3.97
+and FRAC_AM increasing to 1.22. Although the increase of these two
+indicators is not large, it shows that the shape of the patch tends to be
+12
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Table 12
+Landscape level index of Shuangtan community.
+Index
+Field
+
+Landscape Index
+
+2002
+
+2008
+
+2011
+
+2019
+
+Annual Trend
+
+General Trend
+
+Density
+
+NP
+PD
+TE
+ED
+SHAPE_AM
+FRAC_AM
+CORE_MN
+ENN_MN
+CONTAG
+SHDI
+SIDI
+SHEI
+SIEI
+
+793
+59.64
+256,986
+193.28
+5.96
+1.23
+1.00
+29.41
+80.67
+0.66
+0.30
+0.37
+0.36
+
+898
+67.54
+271,696
+204.34
+5.93
+1.23
+0.88
+30.18
+80.94
+0.65
+0.28
+0.36
+0.34
+
+986
+74.16
+266,824
+200.67
+6.09
+1.22
+0.82
+31.61
+81.64
+0.62
+0.27
+0.35
+0.32
+
+895
+67.31
+283,469
+213.19
+6.40
+1.23
+0.85
+31.10
+80.62
+0.66
+0.29
+0.37
+0.35
+
+↑↑↓
+↑↑↓
+↑↓↑
+↑↓↑
+↓↑↑
+→↓↑
+↓↓↑
+↑↑↓
+↑↑↓
+↓↓↑
+↓↓↑
+↓↓↑
+↓↓↑
+
+↑
+
+Edge
+Shape
+Core Area
+Proximity
+Spread
+Diversity
+
+↑
+↑
+→
+↓
+↑
+↓
+→
+↓
+→
+↓
+
+Table 13
+Landscape level index of Dalian community.
+Index
+Field
+
+Landscape Index
+
+2002
+
+2008
+
+2011
+
+Annual Trend
+
+General Trend
+
+Density
+
+NP
+PD
+TE
+ED
+SHAPE_AM
+FRAC_AM
+CORE_MN
+ENN_MN
+CONTAG
+SHDI
+SHEI
+SIDI
+SIEI
+
+826
+573.77
+121,987
+847.36
+5.02
+1.22
+0.04
+11.93
+54.22
+1.51
+0.84
+0.75
+0.90
+
+1007
+699.57
+132,690
+921.81
+5.81
+1.24
+0.03
+10.39
+53.37
+1.53
+0.85
+0.76
+0.91
+
+793
+550.90
+117,373
+815.39
+6.04
+1.24
+0.04
+14.03
+54.77
+1.50
+0.83
+0.75
+0.89
+
+↑↓
+↑↓
+↑↓
+↑↓
+↑↑
+↑→
+↓↑
+↓↑
+↓↑
+↑↓
+↑↓
+↑↓
+↑↓
+
+↓
+
+Edge
+Shape
+Core Area
+Proximity
+Spread
+Diversity
+
+↓
+↑
+→
+↑
+↑
+↓
+↓
+→
+↓
+
+Table 14
+Landscape level index Gangbian community.
+Index
+Field
+
+Landscape Index
+
+2002
+
+2008
+
+2011
+
+Annual Trend
+
+General Trend
+
+Index
+Field
+
+Density
+
+NP
+PD
+TE
+ED
+SHAPE_AM
+FRAC_AM
+CORE_MN
+ENN_MN
+CONTAG
+SHDI
+SHEI
+SIDI
+SIEI
+
+347
+115.91
+98,413
+328.74
+4.45
+1.22
+0.55
+18.51
+61.25
+1.33
+0.74
+0.65
+0.78
+
+517
+172.70
+122,334
+408.66
+5.12
+1.23
+0.34
+17.36
+59.62
+1.38
+0.77
+0.67
+0.80
+
+649
+216.79
+138,429
+462.40
+5.02
+1.23
+0.26
+15.42
+59.92
+1.36
+0.76
+0.67
+0.80
+
+522
+174.40
+124,317
+415.33
+4.97
+1.23
+0.33
+16.22
+59.22
+1.39
+0.78
+0.68
+0.81
+
+↑↑↓
+↑↑↓
+↑↑↓
+↑↑↓
+↑↓↓
+↑→→
+↓↓↑
+↓↓↑
+↓↑↓
+↑↓↑
+↑↓↑
+↑→↑
+↑→↑
+
+↑
+
+Edge
+Shape
+Core Area
+Proximity
+Spread
+Diversity
+
+more complicated, still approximately square, and there may be manual
+intervention. The reduction of CORE_MN indicates that the core patch
+area is reduced. The decrease of the proximity index indicates that the
+distance between patches gradually decreases. CONTAG is reduced to
+58.96 with moderate sprawl, implying reduced patch continuity and
+fragmented landscape with small and scattered patches. SHDI and SHEI,
+SIDI and SIEI have all increased year by year, respectively, from 1.2 and
+0.67 to 1.38 and 0.77, 0.61 and 0.73 to 0.70 and 0.84, indicating that the
+diversity and uniformity of community landscapes are constantly
+improving.
+
+↑
+↑
+↑
+↓
+↓
+↓
+↑
+
+edge index have an increasing trend, with growth rates of 12.86 % and
+10.31 %. NP and PD reached their peak in 2013 and then declined, while
+TE and ED showed a first increase, then a decrease, and then an increase,
+and reached their peak in 2019, indicating that the overall landscape of
+the community is fragmented. FRAC_AM has not changed overall, and is
+relatively stable at 1.23, indicating that the shape of the plaque tends to
+become more complicated, but it does not deviate too much from the
+square. CORE_MN showed a decreasing trend as a whole, and decreased
+to 0.85 ha, indicating that the core area of the patch decreased. ENN_MN
+showed an overall increasing trend, increasing to 31.10. CONTAG
+showed a decreasing trend as a whole, reduced to 80.62, indicating that
+the patch was scattered and the continuity decreased. SHDI and SHEI are
+generally stable, maintaining at 0.66 and 0.37; SIDI and SIEI have the
+same trend, with a slight decrease overall. This shows that the
+
+3.2.2. Living community-shuangtan community
+Table 12 shows the overall changes in the four periods of the
+Shuangtan community. From 2001 to 2019, both the density and the
+13
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+Table A1
+The relationship between landscape index and landscape preference.
+Serial
+Number
+
+Landscape
+Index
+
+Relevance
+
+1
+
+AREA
+
+2
+
+3
+
+4
+
+Positive/
+negative
+correlation
+
+Sources
+
+Mystery
+Openness
+Complexity
+Visual scale
+Landscape
+preference
+Landscape
+beauty
+Legibility
+
++
+–
+None
+None
++
+
+Chung (2002)
+
+Complexity
+
+None
+
+NP
+
+Legibility
+
+–
++
+
+SIDI
+
+Landscape
+preference
+Legibility
+Landscape
+beauty
+
++
+
+Landscape
+preference
+Landscape
+beauty
+Complexity
+
+None
+
+Landscape
+beauty
+Complexity
+Landscape
+value
+Complexity
+
+–
+
+Naturalness
+Openness
+Landscape
+beauty
+Coherence
+Naturalness
+Openness
+
+None
++
++
+
+Coherence
+Landscape
+preference
+Openness
+Landscape
+preference
+Landscape
+beauty
+
+None
++
+
+Landscape
+beauty
+Landscape
+beauty
+Landscape
+preference
+Landscape
+beauty
+
++
+
+SIEI
+
+5
+
+PD
+
+6
+
+SHAPE
+
+7
+
+CONTAG
+
+8
+
+ED
+
+9
+
+DFLD
+
+10
+
+FRAC
+
+11
+
+PLAND
+
+12
+
+PR
+
+13
+14
+
+ENN-MN
+TE
+
+15
+
+MSIEI
+
+16
+
+AREA_AM
+
+17
+
+SHAPE_CV
+
+18
+
+SHDI
+
++
+–
+
+–
+
++
+None
+
+None
++
+None
+
+None
+
+None
++
++/-
+
++
++
++
+
+Table A2
+Classification, scale, and meaning of landscape index.
+
+Fry, et al. (2009)
+Fry, et al. (2009)
+Dramstad, et al.
+(2006)
+Gonzalo, et al.
+(2006)；
+Schirpke, et al.
+(2013)
+Gonzalo, et al.
+(2006)；Fry,
+et al. (2009)
+Gonzalo, et al.
+(2006)
+Dramstad, et al.
+(2006)
+Gonzalo, et al.
+(2006)
+Gonzalo, et al.
+(2006)；
+Schirpke, et al.
+(2013)
+Dramstad, et al.
+(2006)
+Schirpke, et al.
+(2013)
+Gonzalo, et al.
+(2006)
+Schirpke, et al.
+(2013)
+Fry, et al. (2009)
+Palmer (2004)
+
+Category
+
+Name
+
+Scale
+
+Unit
+
+Mean
+
+AREA
+
+AREA
+
+Patch level
+index
+
+ha
+
+PLAND
+
+Landscape
+Category
+Index
+
+%
+
+NP
+
+Landscape
+Category/
+Level Index
+
+pcs
+
+The larger the value, the
+more patches of land. This
+metric provides an
+understanding of the
+landscape composition and
+the area of each patch.
+The percentage of the patch
+to the landscape area shows
+the proportion of each type
+of land use.
+The total number of patches
+in the landscape, NP ≥ 1, no
+upper limit.
+The number of patches per
+square kilometer, PD > 0,
+no upper limit. The higher
+the value, the more serious
+the fragmentation of the
+landscape pattern.
+The total length of all patch
+edges in the landscape, TE
+≥ 0, no upper limit.
+ED ≥ 0, no upper limit. The
+index measures the total
+edge length of each type of
+patch. When the edge
+density is higher, it means
+that the proportion of edge
+length in the landscape is
+also longer. This is used to
+understand the complexity
+of shapes. The greater the
+change of ED, the higher
+the degree of
+fragmentation.
+1 ≤ FRAC_AM ≤ 2. For a
+patch in two dimensions, a
+value greater than 1
+indicates a deviation from a
+square or rectangle. The
+value tends to be close to 2,
+which means that the patch
+shape is complex.
+SHAPE_AM ≥ 1, no upper
+limit. Its value increases
+with the irregularity of the
+patch shape; SHAPE_AM =
+1 when all patches in the
+landscape are square.
+Core_MN ≥ 0, the larger the
+value, the more the core
+area.
+The neighboring distance is
+the sum of the neighboring
+distances of similar patches,
+and the neighboring
+distance is the edge-to-edge
+distance. The larger the
+index, the more distant the
+patches are from each other
+and the higher the
+dispersion. The smaller the
+value, the closer the
+patches are.
+SHDI ≥ 0, no upper limit.
+When there is only one
+patch type in the landscape,
+SHDI = 0. The value of
+SHDI increases when the
+patch type increases or the
+proportion of area occupied
+by each type of patch tends
+to be close to each other.
+
+Density
+
+PD
+
+Edge
+
+Shape
+
+Gonzalo, et al.
+(2006)
+Fry, et al. (2009)
+Chung (2002)
+Schirpke, et al.
+(2013)
+Fry, et al. (2009)
+Fry, et al. (2009)
+Fry, et al.
+(2009)；
+Dramstad, et al.
+(2006)
+Fry, et al. (2009)
+Dramstad, et al.
+(2006)
+Fry, et al. (2009)
+Dramstad, et al.
+(2006)
+Schirpke, et al.
+(2013)；
+Schirpke, et al.
+(2021)
+Schirpke, et al.
+(2021)
+Schirpke, et al.
+(2021)
+Dramstad, et al.
+(2006)
+Schirpke, et al.
+(2013)
+
+/ha
+
+TE
+
+m
+
+ED
+
+m/
+ha
+
+FRAC_AM
+
+None
+
+SHAPE_AM
+
+distribution of landscape patches in this community is uneven, dominant
+patches are dominant, and ecological functions are limited.
+3.2.3. Productive community-dalian community
+Table 13 shows the overall changes in the three periods. From 2007
+to 2013, the density and edge index showed a downward trend overall. It
+
+Core area
+
+Core_MN
+
+ha
+
+Proximity
+
+ENN_MN
+
+m
+
+Diversity
+
+SHDI
+
+Landscape
+level index
+
+None
+
+(continued on next page)
+
+14
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+The development speed of landscape spatial patterns in Seshui com­
+munity is faster than that of Gangbian community. Among the six land
+use situations in the two communities, the loss of forest land and
+farmland area is the most severe. The overall landscape shows a trend of
+continuous fragmentation, the shape of the patch tends to be more
+complex, the core area is reduced, the distance between the patches is
+reduced, the degree of aggregation is reduced, and there are small and
+scattered patches. However, the overall diversity and uniformity of its
+landscape continue to increase. The Seshui community is a compre­
+hensive wealth type/living rural community, according to the ratio of
+three living things, life ≥ production ≥ ecology, the development of
+landscape space pattern in this community is unbalanced. The Gangbian
+community is an environmental conservation type/ecological rural
+community, according to the ratio of three living things, ecology >
+production ≥ life. Judging from the current situation, the progress of the
+landscape spatial pattern of the community is slow, and the fragmen­
+tation of forest land, other land and water use land are deepened, and
+the shape is complex, basically moving forward in accordance with the
+direction of ecological development.
+The Shuangtan community is a village experience type/living com­
+munity, according to the ratio of three living things, living ≥ ecology >
+production. Judging from the current situation, the progress of the
+landscape spatial pattern of this community is slow, and it develops
+according to the category of rural communities, and its general trend is
+deepening of fragmentation. The community patches are unevenly
+distributed, dominated by dominant species, with limited ecological
+functions, and limited development in both diversity and uniformity.
+The Dalian community is an economic production/production
+community, according to the ratio of three living things, production ≥
+living > ecology. Judging from the current situation, the landscape
+spatial pattern of the community is stable and develops according to the
+category of rural communities, and the community as a whole shows a
+development trend of reducing the degree of fragmentation. The edge
+complexity of the patch is reduced, the shape of the patch is complex, the
+distance between the patches becomes farther, and some patches are
+more aggregated and continuous. Although the diversity and uniformity
+of the landscape have decreased, it is generally stable.
+
+Table A2 (continued )
+Category
+
+Name
+
+Scale
+
+Unit
+
+SHEI
+
+SIDI
+
+SIEI
+
+Spread
+
+CONTAG
+
+%
+
+Mean
+When SHEI tends to 1, it
+means that the landscape
+patches are evenly
+distributed and there are no
+obvious dominant patches
+with good ecological
+functions; lower SHEI value
+tends to 0, which means
+that the landscape patches
+are unevenly distributed
+and there are a few
+dominant patches with
+limited ecological
+functions.
+The closer the value is to 1,
+the more advantageous the
+species is in the area, and
+the lower the value is.
+When the landscape is
+composed of a single patch,
+the landscape is
+homogeneous and does not
+have the diversity of the
+landscape, and the diversity
+index is 0. When the
+number of patches
+increases, the index also
+increases.
+A larger value means that
+the landscape has several
+large contiguous patches,
+while a lower value means
+that the landscape has
+many small and scattered
+patches.
+
+shows that the degree of fragmentation of the community landscape is
+gradually reduced, there is a phenomenon of patch merging, and the
+complexity of the edge is reduced. Both SHAPE_AM and FRAC_AM show
+an increasing trend year by year, indicating that the shape of the patch
+has become more complex. CORE_MN is unchanged. Both ENN_MN and
+CONTAG showed a state of falling first and then rising. ENN_MN rose
+from 11.93 to 14.03, and CONTAG rose from 54.22 to 54.77. It means
+that the distance between patches becomes longer, and some patches are
+more continuous. SHDI, SHEI, SIDI, and SIEI did not change signifi­
+cantly, but decreased slightly. Although the landscape diversity and
+uniformity decreased, they were generally stable.
+
+4. Discussion
+4.1. Land use change in rural communities
+The results of the study show that the growth rate of construction and
+transportation land in rural communities matches the type of rural
+communities. Guo, et al. (2022) also found similar findings in rural areas
+of the Himalayas. Although construction land expansion is a common
+trend in urbanization (Ridding, et al., 2020; Van der Sluis,et al., 2019a;
+Vimal, et al., 2012), Xiao, et al. (2018) and Guo, et al. (2022) found that
+the growth rate of construction land in rural areas is slow, which is
+consistent with the results of this study. From the perspective of land
+cover types, forest land or farmland in each community is the most
+important land cover (Wang & Wen, 2021), but each community has its
+characteristics. From the perspective of land transfer analysis, land use
+in rural communities is the mutual conversion of farmland, forest land
+and other land uses. The research of Wang, et al. (2022) also has similar
+results. Global agricultural land reduction is a general trend (Alphan,
+2003; Van der Sluis,et al., 2019a; Wang & Wen, 2021), and changes in
+agricultural land will affect rural ecosystem services, thereby affecting
+human well-being (Peng & Wang, 2020). The research by Xiao, et al.
+(2018) found that the trend of farmland loss in the three rural areas is
+the same, but at different speeds, which is similar to the results of the
+living and ecological rural communities in this study. Van der Sluis,
+et al., (2019a) found that the conversion of farmland to forest or set­
+tlements was common, a result consistent with the results of the four
+rural communities included in this study.
+
+3.2.4. Ecological community -gangbian community
+Table 14 shows the overall changes of the Gangbian community in
+the four periods. From 2001 to 2018, the patch density and edge index
+showed an upward trend, increasing by nearly 50.42 % and 26.32 %,
+respectively. It shows that the overall landscape of the community is
+fragmented, and the number of patches and edge density increase. The
+overall trend of SHAPE_AM and FRAC_AM is still increasing, indicating
+that the shape of the patch tends to become more complicated, and the
+boundary of the patch becomes slightly more complicated and tends to
+be square. CORE_MN, ENN_MN and CONTAG showed a decreasing trend
+as a whole, decreasing by 40 %, 12.73 %, and 3.31 % respectively. It
+shows that the patches are divided into small and scattered patches, the
+core area is reduced, and the distance between patches is closer. SHDI,
+SHEI, SIDI, and SIEI have the same trend, and they all increase overall,
+indicating that the diversity and uniformity of the overall environment
+of the community are developing towards a benign development.
+3.2.5. Different types of rural community landscape index
+Although the Seshui community and the Gangbian community
+belong to different types of rural communities, they have a high degree
+of similarity in terms of land use and landscape level index development.
+15
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+4.2. Changes and driving forces of landscape spatial pattern in rural
+communities
+
+communities to rationally utilize land in rural communities and improve
+the community environment (Chen, 2004). In 2007, the Council of
+Agriculture of the Executive Yuan held a selection activity for classic
+farming and fishing villages. A total of 10 farming and fishing village
+communities were selected, and five awards were awarded and subsi­
+dized. Therefore, before 2007, life-type, ecological-type, and
+production-type rural communities should respond to agricultural
+development regulations and amendments, methods for building farm­
+houses on agricultural land, selection of classic farming and fishing
+villages, guiding policies for creating a new rural look, and selfdevelopment, etc. Hardware development is the main focus, and land
+conversion is relatively large. The landscape spatial pattern at this stage
+is in a stage of development that tends to be fragmented.
+Until 2008, the land development was carried out in accordance with
+the “Regulations and Implementation Rules on Land Rezoning in Rural
+Communities” to handle the four-year demonstration plan for land
+redesignation in rural communities and the six-year demonstration plan
+for land redesignation in rural communities. In 2009, the “Rural Com­
+munity Land Redesignation” was launched, with the purpose of
+improving the living environment in rural areas, constructing a new
+style of rural areas, and improving the development of rural commu­
+nities. In addition, in 2009, the Bureau of Soil and Water Conservation of
+the Council of Agriculture of the Executive Yuan formulated the “Plan
+for Revitalizing the Economy and Expanding Public Construction In­
+vestment”. The main work items of the plan include the preliminary
+planning of rural regeneration construction, participatory greening and
+beautification of rural living environment, and accelerating the
+improvement of rural basic environment. From 2009 to 2012, the Bu­
+reau of Soil and Water Conservation of the Council of Agriculture of the
+Executive Yuan formulated “Building a Rich New Countryside”, focusing
+on the existing rural communities, strengthening the bottom-up joint
+participation system, and emphasizing the commonality of rural in­
+dustries, natural ecology and living environment planning and con­
+struction. In 2010, the Council of Agriculture of the Executive Yuan
+began to formulate the “Rural Community Regeneration Plan 1.0″. Based
+on the principle of three life (life, production, and ecology), in addition
+to improving the hardware environment, it gradually favored software
+construction (encouraging young people to return to their hometowns
+for employment). etc. Moreover, the rural regeneration plan is divided
+into three phases: 2012–2015 is the first phase of rural regeneration;
+2016–2019 is the second phase of rural regeneration; 2020–2023 is the
+third phase of rural regeneration. The first phase of rural regeneration
+from 2012 to 2015 has been completed. The completed content includes
+that the community construction began to focus on software and sup­
+plemented by hardware. The community promotes the improvement of
+dirty spaces, and strengthens the community to improve dirty, messy,
+broken and other spaces. In addition, looking at the development of
+Taiwan’s spatial planning system, from 1974 to 2015, the ”Regional
+Planning Act (RPA)“ was implemented. The urban planning part of this
+code has statutory planning, and non-urban planning is regulated by
+land control rules (Lu & Cheng, 2023; Zhang et al., 2020). Therefore,
+living, ecological and productive rural communities have undergone
+land transformation in 2013 in response to such policies as land
+rezoning, building a rich new countryside, spatial planning system and
+rural regeneration plan, and are in the transition from hardware to
+software development. At this stage, the landscape spatial pattern is still
+in a stage of fragmented development. The landscape fragmentation
+phenomenon is most obvious in the Gangbian, Shuangtan and Dalian
+communities, while the Seshui community continues to be fragmented.
+After 2013, rural communities entered a period where software
+development was the main focus. In 2016, the Rural Community
+Regeneration Project 2.0 was produced, a transformation based on the
+principles of three livelihood and three agriculture (life, production,
+ecology, agriculture, countryside, farmers). At the same time, in 2016,
+the Bureau of Soil and Water Conservation of the Council of Agriculture
+promoted Taiwan’s rural areas to focus on the three life and future
+
+The research shows, from 2001 to 2020, there are differences in the
+changes of landscape spatial patterns in three main classes and four
+subclasses of rural communities. Xiao, et al. (2018) found that there are
+differences in the landscape patterns of the three rural areas in eastern
+China, with Changshu in Jiangsu having the greatest change, followed
+by Daxing in Beijing, and Quzhou in Hebei having the least change. This
+study has similar conclusions. The process of landscape spatial pattern in
+production community (Dalian) is stable. The industry has also played
+an important role in spatial evolution. For rural areas with stable
+landscape spatial patterns, their economic development depends on the
+agricultural industry and lacks endogenous and extrinsic motivation to
+promote their development (Xie, et al., 2022b). Van der Sluis,et al.,
+(2019a) in their study of agricultural production areas in western
+Denmark found that the area of farmland remained stable and that other
+land use categories experienced important changes, which is similar to
+the results of this study. The progress of landscape spatial pattern in
+ecological community (Gangbian) and living community (Shuangtan)
+was slow. Xie,et al., (2022b) found in their research on the rural areas of
+Guangdong that the rural urban landscape pattern dominated by ecol­
+ogy is stable. Due to the influence of topographical factors, the spatial
+evolution process is limited, which is similar to the results of this study.
+Wang and Wen (2021) found that rural areas tend to have a more stable
+landscape spatial pattern, and the agroforestry ecosystem presents a
+relatively stable landscape over time. Mountainous areas usually expe­
+rience slow land use change and low development density (Ma, et al.,
+2018; Xie, et al., 2022b). The year 2013 was a turning point for the
+Gangbian, Shuangtan, and Dalian communities, where landscape frag­
+mentation was the most prominent. However, the development of the
+landscape spatial pattern of living community (Seshui) is unbalanced
+and the development speed is relatively fast. Until 2019, it is still in the
+development stage of landscape fragmentation, and it is the most
+serious. The spatial pattern of landscape in the mid-level area has
+changed greatly and has become more diversified (Ma, et al., 2018).
+This study believes that the driving forces for the changes in the
+landscape spatial pattern of rural communities mainly come from the
+policies of the public sector, the spatial planning system (Liu, et al.,
+2016; Tu & Chen, 2020), community development activities (van der
+Sluis, et al., 2019b). Public participation, coalitions of social organiza­
+tions, and financial resources often determine outcomes in landscape
+spatial patterns (Hersperger, et al., 2014; van der Sluis, et al., 2019b).
+van der Sluis, et al. (2019b) identified two main categories of landscape
+drivers in rural Europe: ’policy and legislation’ and ’economy and
+markets’. These drivers, although not negative in themselves, have
+mostly negative impacts on the landscape, for example, policy and
+economic development leading to infrastructure expansion, population
+change, and landscape fragmentation. Some policies have obvious pos­
+itive effects and will lead to benign developments such as ecotourism.
+The development of rural community policies in Taiwan started in
+1958. It was not until 2000 that the Amendment to the Regulations on
+Agricultural Development was officially passed, which opened up the
+free trade of farmland and liberalized the conditions for farmland
+transactions and farmhouse construction (Cheng, 2012). Public land has
+been transferred to private land, and private land is no longer subject to
+government supervision (Tu & Chen, 2020). In 2000, the Agriculture
+Committee of the Executive Yuan formulated the “Creating a New Rural
+Style Plan”. The plan lasted until 2008, featuring the reconstruction of
+rural settlements, improving the rural living environment, assisting in
+the construction of a new rural life circle, and shaping a new rural style.
+In 2001, the “Measures for Building Farmhouses on Agricultural Land”
+was promulgated, which greatly impacted the rural landscape, resulting
+in the construction of luxurious farmhouses or small-scale farmhouses.
+Then in 2003, the detailed implementation rules for rural land rezoning
+were promulgated, with the purpose of land rezoning in rural
+16
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+
+planning, and selected gold medal rural activities, thus further pro­
+moting rural development. 2016–2019 is the second phase of rural
+regeneration. The completed content includes rural manpower and ed­
+ucation, and the expansion of the participation of the whole people such
+as local governments and non-governmental organizations. To create a
+unique style of rural areas, to move towards the core goal of sustainable
+and diversified development of rural areas, specially handle the Gold
+Medal Rural Competition, and advocate cross-regional development of
+rural regeneration. 2020–2023 is the overall development goal of the
+third phase of the rural regeneration plan, to create a working coun­
+tryside, a living countryside, a guarded countryside and a vibrant
+countryside. In addition, the land planning system was formally formed
+after the promulgation of the Land Planning Law in 2016. It was revised
+in 2020 and is being continuously updated (Zhang, et al., 2020).
+Therefore, after 2013, ecological, productive, and living (Shuangtan)
+rural communities focused on software development in response to the
+promotion of policies and activities such as the Rural Community
+Regeneration Plan 2.0 and the changes in the spatial planning system.
+The landscape spatial pattern in this stage tends to develop slowly and
+improve. However, the fragmentation of landscape in the living com­
+munity (Seshui) is the most significant in 2019. On the one hand, in the
+Seshui community in recent years, the agricultural industry has
+changed, from bamboo and betel nuts as the main product to tea plan­
+tations, and betel nut forests have been converted into tea gardens.
+Agricultural industry transformation (Ma, et al., 2018) and land use
+conversion between farmland, orchards, nurseries, and other productive
+lands are the driving forces of rural change (Xiao, et al., 2018). On the
+other hand, because it is not far from Sun Moon Lake, it provides
+convenient conditions for the development of the homestay industry. As
+a result, the growth rate of construction land and transportation land is
+rapid, the loss of forest land and farmland is converted into other land
+use, etc., and abandoned farmland and idle land have appeared. Li and
+Song (2020) and Fan, et al. (2021) pointed out that rural tourism and
+farmhouse entertainment, resulting in a large increase in the construc­
+tion of new houses, destroyed the original structure of rural settlements,
+which is consistent with the results of this study.
+
+certain significance for the maintenance of the ecosystem(Daniels, 1999;
+Daniels & Bowers, 1997; Eagle, et al., 2015; Li, 2019). For nonpermanent land use permits, the zoning classification cannot be
+changed arbitrarily, and top-down legal management is required. Public
+and private ownership of land has been proven to be an important issue
+affecting land use change, and private land has a negative impact on the
+protection of forests and farmland (Lu & Cheng, 2023; Tu & Chen,
+2020). Tu and Chen (2020) pointed out that forest land and slope land
+should avoid land privatization. Subsidies and land expropriation for
+private agricultural or forest land are active strategies (Cots-Folch, et al.,
+2006; Robinson & Brown, 2009; Tu & Chen, 2020). Cots-Folch, et al.
+(2006) pointed out that the regulatory policy of the European Union,
+subsidizing up to 50 % of terraces and encouraging such activities, has
+positive effects on land use transformation. Robinson and Brown (2009)
+can have positive effects through meaningful siting expropriation. In
+addition, studies have shown that one of the key factors related to the
+effectiveness of permanent land policies is the regulation of imple­
+mentation by the public sector (Alfasi, et al., 2012; Kline, et al., 2014). It
+is necessary to provide supervision mechanisms for rural communities
+and higher-level public sector institutions, and conduct supervision and
+management on a quarterly basis. These suggested measures can provide
+a reference for the formulation of regulations on the spatial planning
+system in rural communities in Taiwan.
+4.4. Research limitations
+The limitations of this research stem from the image data. (1) The
+time of the aerial image drawings of the four rural communities is not
+uniform, which is limited by cloud cover and public image data. (2) The
+source of the aerial image drawing is not the same month or season, and
+the land cover will be slightly different due to the influence of seasonal
+climate, for example, the influence of seasons on water volume and
+vegetation. (3) The impact on land cover will be slightly different due to
+the difference in the age of trees. For example, the trees in the early
+years, due to artificial planting, present an array layout, so they will be
+classified as farmland. However, today, as time goes by, the trees grow
+up and are classified as forest land from remote sensing images.
+Therefore, there are certain research limitations in the digitalization
+stage of the four stages of landscape spatial pattern change analysis.
+
+4.3. Rural community development advice
+The public sector needs to regulate the rural household registration
+population, and allocate suitable rural residential areas according to the
+needs of the rural population. Enhance land regulation through
+restrictive policies regulating residential land supply (Fan, et al., 2021;
+Heins, 2004; Li & Song, 2020; Liu, et al., 2014). Looking at the changes
+in the total population of the four rural communities, the rural popu­
+lation has gradually decreased due to industrialization and urbanization
+(Liu, et al., 2014). However, the research results show that the con­
+struction land is constantly increasing, which contradicts the reduction
+of the population, and this transformation is also somewhat destructive.
+It is very necessary to accurately locate the development types of
+rural communities (ecological, productive and living community). The
+development of ecotourism in rural communities can balance ecology
+and economy, and it has been proved to have positive benefits for forest
+regeneration, which is an appropriate way to achieve sustainable
+development (Arif, et al., 2022; Tu & Chen, 2020).
+It is necessary to establish legal norms for permanent land policies in
+rural communities and strengthen law enforcement and supervision by
+public departments. The permanent land policy of rural communities is
+legally regulated, and it is necessary to delineate specific areas as per­
+manent farmland, forest land, water area and ecological protection land,
+and it is forbidden to change the nature of land use and prohibit
+development and construction. In addition, refine the strategy of per­
+manent farmland, forest land, water area and ecological protection land,
+and build high-quality land use areas. Permanent farmland conservation
+policies are the most commonly used land use tool to combat land use
+conversion. This measure can limit the fragmentation of the land and has
+
+5. Conclusions
+From 2001 to 2020, land use change in four different types of rural
+communities has common ground. (1) From the perspective of land use
+analysis, the growth of construction land and transportation land in the
+four communities is a common phenomenon. The growth rate of con­
+struction and transportation land matches the type of rural community.
+(2) From the perspective of land cover types, forest land or farmland in
+each community is the most important land cover, but each community
+has its characteristics. (3) From the perspective of land transfer analysis,
+the mutual conversion and loss of farmland, forest land, and other land
+use.
+This study believes that the driving forces for the changes in the
+landscape spatial pattern of rural communities mainly come from the
+policies of the public sector, the spatial planning system, community
+development activities. (1) Before 2007, living, ecological, and pro­
+duction rural communities focused on hardware development, and the
+land conversion was relatively large. At this stage, the landscape spatial
+pattern was in a development stage that tended to be fragmented. (2) By
+2013, rural communities were in a transition period from hardware to
+software. At this stage, the landscape spatial pattern is still in a stage of
+fragmented development. The landscape fragmentation phenomenon is
+most obvious in the Gangbian, Shuangtan and Dalian communities,
+while the Seshui community continues to be fragmented. (3) After 2013,
+rural communities focused on software development. The landscape
+spatial pattern in this stage tends to develop slowly and improve.
+17
+
+Ecological Indicators 157 (2023) 111227
+
+F. Ning et al.
+
+However, the landscape fragmentation of the living community
+(Shishui) will be the most significant in 2019.
+It is suggested that for the development of rural communities in
+Taiwan in the future, rural communities need the regulation of the rural
+registered population by the public sector, and allocate suitable rural
+residential areas according to the needs of the rural population. Rural
+communities need an accurate definition of the type of development.
+Rural communities need to establish legal norms for permanent land
+policies and strengthen law enforcement and supervision by the public
+sector.
+
+Construction Department of the Ministry of the Interior of the Republic of China, 2019.
+Land use current situation investigation measures. Retrieved 2021.07.02 from. https:
+//law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070276.
+Cots-Folch, R., et al., 2006. Land terracing for new vineyard plantations in the northeastern Spanish Mediterranean region: landscape effects of the EU Council
+Regulation policy for vineyards’ restructuring. Agr. Ecosyst. Environ. 115 (1),
+88–96. https://doi.org/10.1016/j.agee.2005.11.030.
+Crawford, D., 1994. Using remotely sensed data in landscape visual quality assessment.
+Landsc. Urban Plan. 30 (1), 71–81. https://doi.org/10.1016/0169-2046(94)90068X.
+Daniels, T., 1999. When city and country collide: Managing growth in the metropolitan
+fringe. Island Press.
+Daniels, T., Bowers, D., 1997. Holding our ground: Protecting America’s farms and
+farmland. Island Press.
+Dramstad, W.E., et al., 2006. Relationships between visual landscape preferences and
+map-based indicators of landscape structure. Landsc. Urban Plan. 78 (4), 465–474.
+https://doi.org/10.1016/j.landurbplan.2005.12.006.
+Eagle, A.J., et al., 2015. Farmland protection and agricultural land values at the urbanrural fringe: british columbia’s agricultural land reserve. Am. J. Agric. Econ. 97 (1),
+282–298. https://doi.org/10.1093/ajae/aau098.
+Ellis Erle, C., et al., 2013. Used planet: a global history. Proc. Natl. Acad. Sci. 110 (20),
+7978–7985. https://doi.org/10.1073/pnas.1217241110.
+Fan, X., et al., 2021. Landscape evolution and simulation of rural settlements around
+wetland park based on MCCA model and landscape theory: a case study of Chaohu
+Peninsula, China. Int. J. Environ. Res. Public Health 18 (24), 13285. https://doi.org/
+10.3390/ijerph182413285.
+Franco, D., et al., 2003. The impact of agroforestry networks on scenic beauty estimation:
+the role of a landscape ecological network on a socio-cultural process. Landsc. Urban
+Plan. 62 (3), 119–138. https://doi.org/10.1016/S0169-2046(02)00127-5.
+Fry, G., et al., 2009. The ecology of visual landscapes: Exploring the conceptual common
+ground of visual and ecological landscape indicators. Ecol. Ind. 9 (5), 933–947.
+https://doi.org/10.1016/j.ecolind.2008.11.008.
+Giles, R.H., Trani, M.K., 1999. Key elements of landscape pattern measures. Environ.
+Manag. 23 (4), 477–481. https://doi.org/10.1007/s002679900202.
+Gonzalo, d.l.F.d.V., et al., 2006. Relationship between landscape visual attributes and
+spatial pattern indices: a test study in Mediterranean-climate landscapes. Landsc.
+Urban Plan. 77 (4), 393–407. https://doi.org/10.1016/j.landurbplan.2005.05.003.
+Górka, A., 2018. Threats to rural landscape and its protection in Poland. Environments 5
+(10), 109. https://doi.org/10.3390/environments5100109.
+Gottero, E., Cassatella, C., 2017. Landscape indicators for rural development policies.
+Application of a core set in the case study of Piedmont Region. Environ. Impact
+Assess. Rev. 65, 75–85. https://doi.org/10.1016/j.eiar.2017.04.002.
+Gullino, P., et al., 2018. How can different stakeholders contribute to rural landscape
+planning policy? The case study of Pralormo municipality (Italy). J. Rural. Stud. 57,
+99–109. https://doi.org/10.1016/j.jrurstud.2017.12.002.
+Guo, K.R., et al., 2022. Analysis of the expansion characteristics of rural settlements
+based on scale growth function in himalayan region. Land 11 (3), 450. https://doi.
+org/10.3390/land11030450.
+Häfner, K., et al., 2018. Assessing landscape preferences: a visual choice experiment in
+the agricultural region of Märkische Schweiz Germany. Landscape Res. 43 (6),
+846–861. https://doi.org/10.1080/01426397.2017.1386289.
+Hanaček, K., Rodríguez-Labajos, B., 2018. Impacts of land-use and management changes
+on cultural agroecosystem services and environmental conflicts—a global review.
+Glob. Environ. Chang. 50, 41–59. https://doi.org/10.1016/j.
+gloenvcha.2018.02.016.
+Heins, S., 2004. Rural living in city and countryside: demand and supply in the
+Netherlands. J. Hous. Built Environ. 19 (4), 391–408. https://doi.org/10.1007/
+s10901-004-3042-4.
+Hersperger, A.M., et al., 2014. Actors, decisions and policy changes in local urbanization.
+Eur. Plan. Stud. 22 (6), 1301–1319. https://doi.org/10.1080/
+09654313.2013.783557.
+Kline, J.D., et al., 2014. How well has land-use planning worked under different
+governance regimes? A case study in the Portland, OR-Vancouver, WA metropolitan
+area, USA. Landsc. Urban Plan. 131, 51–63. https://doi.org/10.1016/j.
+landurbplan.2014.07.013.
+Krajewski, P., et al., 2022. Identification and assessment of the driving forces behind
+changes in the foothill landscape: case studies of the myslakowice and jelenia gora
+communities in Poland. Int. J. Environ. Res. Public Health 19 (16), 10462. https://
+doi.org/10.3390/ijerph191610462.
+Kristensen, S.B.P., et al., 2016. Patterns and rivers of land use change in selected
+European rural landscapes. Land Use Policy 57, 786–799. https://doi.org/10.1016/j.
+landusepol.2015.07.014.
+Li, M., 2019. The effect of land use regulations on farmland protection and nonagricultural land conversions in China. Aust. J. Agric. Resour. Econ. 63 (3), 643–667.
+https://doi.org/10.1111/1467-8489.12311.
+Li, D., et al., 2020. The impacts of urbanization and climate change on urban vegetation
+dynamics in China. Urban For. Urban Green. 54, 126764 https://doi.org/10.1016/j.
+ufug.2020.126764.
+Li, H., Song, W., 2020. Pattern of spatial evolution of rural settlements in the Jizhou
+District of China during 1962–2030. Appl. Geogr. 122, 102247 https://doi.org/
+10.1016/j.apgeog.2020.102247.
+Liu, Y., et al., 2014. Implications of land-use change in rural China: a case study of
+Yucheng, Shandong province. Land Use Policy 40, 111–118. https://doi.org/
+10.1016/j.landusepol.2013.03.012.
+
+CRediT authorship contribution statement
+Fuer Ning: Conceptualization, Methodology, Software, Writing –
+original draft, Data curation, Investigation, Software, Validation. Hui
+Wang: Supervision. Yu-Chen Chien: Supervision. Haozhang Pan:
+Visualization, Investigation, Software, Validation. Sheng-Jung Ou:
+Methodology, Supervision, Writing – review & editing.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+No data was used for the research described in the article.
+Acknowlegements.
+F.N. was supported by the Basic Scientific Research Project of
+Liaoning Provincial Department of Education (NO. LJKQR2021083). H.
+W. was supported by the General Program of National Natural Science
+Foundation of China (NO. 32171856).
+Appendix A
+Table A1.
+Table A2.
+References
+Abrantes, P., et al., 2016. Compliance of land cover changes with municipal land use
+planning: evidence from the Lisbon metropolitan region (1990–2007). Land Use
+Policy 51, 120–134. https://doi.org/10.1016/j.landusepol.2015.10.023.
+Allen, J., & Patton, J. (2013). Landscape Character Assessment. Technical Handbook:
+Supplementary Guidance. Retrieved from https://www.worcestershire.gov.uk/
+downloads/file/4789/landscape_character_assessment_technical_handbook.
+Alphan, H., 2003. Land-use change and urbanization of Adana, Turkey. Land
+Degradation & Development 14 (6), 575–586. https://doi.org/10.1002/ldr.581.
+Antrop, M., 2005. Why landscapes of the past are important for the future. Landsc. Urban
+Plan. 70 (1), 21–34. https://doi.org/10.1016/j.landurbplan.2003.10.002.
+Arif, M., et al., 2022. The impact of ecotourism on ecosystem functioning along main
+rivers and tributaries: implications for management and policy changes. J. Environ.
+Manage. 320, 115849 https://doi.org/10.1016/j.jenvman.2022.115849.
+Burgi, M., et al., 2005. Driving forces of landscape change - current and new directions.
+Landsc. Ecol. 19 (8), 857–868. https://doi.org/10.1007/s10980-004-0245-8.
+Chang, K.-F., 2020. Aesthetics of Architecture. Sustainable Cities and Towns: A Circular
+Economy of Space, Community, and Real Estate. Wu-Nan Book Inc.
+Chang, C.Y., 2021. Special issue: local landscape planning and management in rural
+areas. Landsc. Ecol. Eng. 17 (3), 295–298. https://doi.org/10.1007/s11355-02100467-6.
+Chen, H.M., et al., 2021. Feasibility assessment and implementation strategies of green
+care in rural Taiwan. Landsc. Ecol. Eng. 17 (3), 309–321. https://doi.org/10.1007/
+s11355-020-00426-7.
+Chen, Y.C. (2004). Landscape Change and Land Use in Farmland Readjustment Area
+[Master dissertation, National Chung Hsing University]. Taichung.
+Cheng, M.C. (2012). Valuation of Rural Landscape Changes in I-Lan - Application of
+Conjoint Analysis Method [Master dissertation, Chinese Culture University]. Taipei.
+Chung, C.W. (2002). Studies on The Relationship Between The Preference for Landscape
+Perception and The Landscape Structure Index [Master dissertation, Chaoyang
+University of Technology]. Taichung.
+
+18
+
+F. Ning et al.
+
+Ecological Indicators 157 (2023) 111227
+Tu, H.M., Chen, H.M., 2020. From deforestation to afforestation: effect of slopeland use
+policies on land use/cover change in Taiwan. Land Use Policy 99, 105038. https://
+doi.org/10.1016/j.landusepol.2020.105038.
+van der Sluis, T., et al., 2019. Drivers of European landscape change: stakeholders’
+perspectives through Fuzzy Cognitive Mapping. Landsc. Res. 44 (4), 458–476.
+https://doi.org/10.1080/01426397.2018.1446074.
+Van der Sluis, T., et al., 2019. The impact of European landscape transitions on the
+provision of landscape services: an explorative study using six cases of rural land
+change. Landsc. Ecol. 34 (2), 307–323. https://doi.org/10.1007/s10980-018-07652.
+Van Eetvelde, V., Antrop, M., 2009. Indicators for assessing changing landscape
+character of cultural landscapes in Flanders (Belgium). Land Use Policy 26 (4),
+901–910. https://doi.org/10.1016/j.landusepol.2008.11.001.
+Vimal, R., et al., 2012. Detecting threatened biodiversity by urbanization at regional and
+local scales using an urban sprawl simulation approach: application on the French
+Mediterranean region. Landsc. Urban Plan. 104 (3), 343–355. https://doi.org/
+10.1016/j.landurbplan.2011.11.003.
+Wang, H., et al., 2022. Spatio-temporal evolution and driving mechanisms of rural
+residentials from the perspective of the human-land relationship: a case study from
+luoyang. China. Land 11 (8), 1216. https://doi.org/10.3390/land11081216.
+Wang, L.Q., Wen, C., 2021. Traditional villages in forest areas: exploring the
+spatiotemporal dynamics of land use and landscape patterns in enshi prefecture
+China. Forests 12 (1), 65. https://doi.org/10.3390/f12010065.
+Wu, Y., et al., 2020. Knowledge mapping analysis of rural landscape using citespace.
+Sustainability 12 (1), 66. https://www.mdpi.com/2071-1050/12/1/66.
+Xiao, H., et al., 2018. Spatial variability of local rural landscape change under rapid
+urbanization in Eastern China. ISPRS Int. J. Geo Inf. 7 (6), 231. https://doi.org/
+10.3390/ijgi7060231.
+Xie, H.L., et al., 2022a. Integrated framework of rural landscape research: based on the
+global perspective. Landsc. Ecol. 37 (4), 1161–1184. https://doi.org/10.1007/
+s10980-022-01401-3.
+Xie, S., et al., 2022b. Extracting land use change patterns of rural town settlements with
+sequence alignment method. Land 11 (2), 313. https://doi.org/10.3390/
+land11020313.
+Xu, S., et al., 2017. Spatial distribution of land use change in the Yangtze River Basin and
+the impact on runoff. Prog. Geogr. 36 (4), 426–436. https://doi.org/10.18306/
+dlkxjz.2017.04.004.
+Xu, X.D., et al., 2018. Quantitative study on the evolution trend and driving factors of
+typical rural spatial morphology in Southern Jiangsu Province, China. Sustainability
+10 (7), 2392. https://doi.org/10.3390/su10072392.
+Yang, Z.H., Li, C.X., 2020. Spatial and temporal characteristics of rurality in urban
+suburb town and its driving factors based on land use transformation. Complexity
+2020, 2806127. https://doi.org/10.1155/2020/2806127.
+Zhang, H., et al., 2020. From reform to construction: the spatial planning system
+development of taiwan after world war II. Urban Planning International 35 (02),
+104–110. https://doi.org/10.19830/j.upi.2019.453.
+Zhang, H.P., et al., 2023. The evolution of settlement system and the paths of rural
+revitalization in alpine pastoral areas of the Qinghai-Tibet Plateau: a case study of
+Nagqu County. Ecol. Ind. 150, 110274 https://doi.org/10.1016/j.
+ecolind.2023.110274.
+
+Liu, J., et al., 2016. Spatial and temporal change in urban-rural land use transformation
+at village scale—a case study of Xuanhua district, North China. J. Rural. Stud. 47,
+425–434. https://doi.org/10.1016/j.jrurstud.2016.07.003.
+Liu, Y., Li, Y., 2017. Revitalize the world’s countryside. Nature 548 (7667), 275–277.
+https://doi.org/10.1038/548275a.
+Lu, C.F., Cheng, C.Y., 2023. Does the change of agricultural zoning policy achieve
+farmland protection in Taiwan? Land Use Policy 126, 106518. https://doi.org/
+10.1016/j.landusepol.2022.106518.
+Ma, W., et al., 2018. How do population decline, urban sprawl and industrial
+transformation impact land use change in rural residential areas? A comparative
+regional analysis at the peri-urban interface. J. Clean. Prod. 205, 76–85. https://doi.
+org/10.1016/j.jclepro.2018.08.323.
+Ma, L., et al., 2022. Land management and rural development in Northwest China. Land
+11 (9), 1423. https://doi.org/10.3390/land11091423.
+Medeiros, A., et al., 2022. A diagnostic framework for assessing land-use change impacts
+on landscape pattern and character – a case-study from the Douro region. Portugal.
+Landscape and Urban Planning 228, 104580. https://doi.org/10.1016/j.
+landurbplan.2022.104580.
+Ning, F., et al., 2021. Analysis of landscape spatial pattern changes in urban fringe area: a
+case study of Hunhe Niaodao Area in Shenyang City. Landsc. Ecol. Eng. 17 (4),
+411–425. https://doi.org/10.1007/s11355-021-00456-9.
+Palmer, J.F., 1997. Stability of landscape perceptions in the face of landscape change.
+Landsc. Urban Plan. 37 (1–2), 109–113. https://doi.org/10.1016/s0169-2046(96)
+00375-1.
+Palmer, J.F., 2004. Using spatial metrics to predict scenic perception in a changing
+landscape: Dennis Massachusetts. Landscape and Urban Planning 69 (2), 201–218.
+https://doi.org/10.1016/j.landurbplan.2003.08.010.
+Peng, L.P., Wang, W.M., 2020. Hybrid decision-making evaluation for future scenarios of
+cultural ecosystem services. Land 9 (8), 257. https://doi.org/10.3390/land9080257.
+Qi, J., et al., 2022. Aesthetic heterogeneity on rural landscape: pathway discrepancy
+between perception and cognition. J. Rural. Stud. 92, 383–394. https://doi.org/
+10.1016/j.jrurstud.2022.05.004.
+Ridding, L.E., et al., 2020. Ongoing, but slowing, habitat loss in a rural landscape over 85
+years. Landsc. Ecol. 35 (2), 257–273. https://doi.org/10.1007/s10980-019-00944-2.
+Robinson, D.T., Brown, D.G., 2009. Evaluating the effects of land-use development
+policies on ex-urban forest cover: an integrated agent-based GIS approach. Int. J.
+Geogr. Inf. Sci. 23 (9), 1211–1232. https://doi.org/10.1080/13658810802344101.
+Schirpke, U., et al., 2013. Predicting scenic beauty of mountain regions. Landsc. Urban
+Plan. 111, 1–12. https://doi.org/10.1016/j.landurbplan.2012.11.010.
+Schirpke, U., et al., 2021. Effects of past landscape changes on aesthetic landscape values
+in the European Alps. Landsc. Urban Plan. 212, 104109 https://doi.org/10.1016/j.
+landurbplan.2021.104109.
+Smardon, R.C., et al., 1986. Foundations for visual project analysis. Wiley. https://books.
+google.com.tw/books?id=IvJOAAAAMAAJ.
+Smith, P., et al., 2020. Which practices co-deliver food security, climate change
+mitigation and adaptation, and combat land degradation and desertification? Glob.
+Chang. Biol. 26 (3), 1532–1575. https://doi.org/10.1111/gcb.14878.
+Thapa, P., 2020. Evaluating a fit-for-purpose integrated service platform for climate
+change and land information of rural mountain community. J. Remote Sensing & GIS
+9 (4), 1000278.
+
+19
+
+

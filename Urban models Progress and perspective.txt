@@ -1,0 +1,1726 @@
+Sustainable Futures 7 (2024) 100181
+
+Contents lists available at ScienceDirect
+
+Sustainable Futures
+journal homepage: www.sciencedirect.com/journal/sustainable-futures
+
+Urban models: Progress and perspective
+Jing Wang a, Gengze Li b, c, *, Huapu Lu b, Zhouhao Wu d
+a
+
+Department of Urban and Rural Planning, School of Architecture and Urban Planning, Beijing University of Civil Engineering and Architecture
+School of Civil Engineering, Tsinghua University, Beijing, China
+c
+National-Local Joint Engineering Research Center of Technologies and Applications for National Geographic State Monitoring, Faculty of Geomatics, Lanzhou Jiaotong
+University, Lanzhou, China
+d
+China State Shipbuilding Corporation System Engineering Research Institute, Beijing, China
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Urban modelling
+Evolution of urban modelling
+Information and communication technologies
+Classification
+
+Urban modelling is an important branch of land use science. It integrates geography, surveying and mapping,
+information science, system science, economics, sociology and other disciplines to establish urban models, which
+have been used to provide support for urban policymaking or analyses. Urban models are used to understand,
+analyse, evaluate and reproduce the process of urban development, and predict the consequence of urban
+planning scenarios. In this paper, we provide a systematic review of urban models, including the evaluation,
+classification, application of urban models, and the timeline of urban models’ development. According to their
+modelling styles and applications, urban models can be classified into three categories: aggregate static models of
+economic and spatial interaction, urban dynamics models, and behavioural models of individual agents which
+linked to spatial location. According to the different modelling methods, urban models can be classified into two
+categories: top-down and bottom-up. Nowadays, emerging technologies, especially Information and Communi­
+cation Technologies (ICT), are gradually but significantly changing the organization form of urban economic
+activities. It enables regions to break the location limitation and join in the national even global industry divi­
+sion, and that triggers a new bottom-up rural urbanization process, which formed a significant challenge for
+urban models. Based on above discussion, we proposed two perspectives for improvements of urban models,
+inculding the integration of ICT with tradtional urban models and integaration of top-down and bottom-up
+models.
+
+1. Introduction
+Land use science is a discipline that examines the dynamic changes of
+land system. The interaction between human and natural environment
+forms our land systems [1]. The survival and development of human
+society depends on the foundation and services such as food, energy, and
+resources provided by the land system [2] and human activities change
+land system. The emerging sustainability science is one form of land use
+sciences [3] which has seen interdisciplinary research and a great di­
+versity in methodological approaches [1,4,5].
+Based on land use science, different disciplines have developed a
+series of alternative approaches for understanding relationship the
+natural environment, human factors and technology according to their
+emphases. For example, urban geography focuses on the organization
+form and mechanism of natural environment factors and human factors
+in urban areas [6] and transportation geography focuses on studying the
+
+role of transport and mobility in the territorial combination of produc­
+tivity and the territorial structure of transportation networks [7].
+The city is a complex system, it involves social, economic, de­
+mographic, transportation, and other aspects [8] and constantly in­
+teracts with external systems by population, material, economy and
+information exchange [9–11]. Urban area is a highly complex and dy­
+namic system of interrelated activities and components with many fac­
+tors continually change over time.
+To understand the mechanism of urban land use changes and
+represent possible future changes within urban systems, urban models
+have been developed to describe and analyse the spatial structure of
+urban areas and the interaction between various urban features by
+equations. An urban model is a functional formula supported by eco­
+nomics, geography, sociology, and mathematics. It regards the city as a
+complex hierarchy system which contains multiple subsystems, and the
+subsystem (e.g., population distribution, transportation and economic)
+
+* Corresponding author.
+E-mail address: ligengze@msn.com (G. Li).
+https://doi.org/10.1016/j.sftr.2024.100181
+Received 20 November 2023; Received in revised form 5 March 2024; Accepted 6 March 2024
+Available online 6 March 2024
+2666-1888/© 2024 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC license (http://creativecommons.org/licenses/bync/4.0/).
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+set of practical tools for urban analyses which seeks firstly to understand
+and describe the mechanism of urban evolution, including govern urban
+land use and behaviour of urban system, and secondly to predict the
+consequences of future policy decisions and scenario of urban planning
+[13,16,23].
+Nowadays, with the expansion of city scale and the increase of the
+number of large and super-large cities, the traditional urban model,
+which focuses on a particular field, is increasingly difficult to deal with
+increasingly complex situations. As a result, there is increasing inte­
+gration amongst different disciplines, leading to the development of new
+models. For example, the integration of land science and transportation
+studies has given rise to the land use and transport interaction (LUTI)
+model. The integration of LUTI model with economics has formed the
+spatial equilibrium model, and so on. As more and more disciplines are
+integrated into urban models, the number of parameters and complexity
+of the models are rapidly increasing. Moreover, in the era of big data, it
+has become increasingly important to process and analyse large amounts
+of data. However, the workload of adjusting the models and processing
+the data using traditional methods too large, and the efficiency and time
+cost become unacceptable.
+With the development of computer technology, especially artificial
+intelligence (AI), in order to train AI to deal with massive data and
+complex tasks, the concept of machine learning has been proposed. It
+uses computers to simulate or implement human learning behaviour
+[24]. By continualy acquring new knowledge and skills, reorganizing
+existing knowledge structures, and thus improving its own performance.
+Therefore, machine learning has become an important tool to deal with
+complex urban models and massive amounts of data, playing an
+extremely significant role in urban studies.
+This paper reviews the origin and development of urban models, and
+points out that interdisciplinary integration is the trend of urban model
+development. The traditional urban models usually approach urban is­
+sues form a single prospective, macroscopically (Top-down) or micro­
+scopically (Bottom-up). In the future, complex urban multidisciplinary
+models based on machine learning with massive parameters may ach­
+ieve macro and micro unification and will become one of the most
+important directions for urban studies.
+In this paper, we briefly introduce the evolution of urban models and
+associated theories (Sect. 2) to establish a framework and background of
+urban model developments. We focus on the interdisciplinary models (e.
+g., land-use and transport interaction models) by providing more details
+(Sect. 3). We summarize the general challenges for urban models in Sect.
+4. New development or applications of urban models are discussed in
+Sect. 5, and some conclusion and suggestions are proved in Sect. 6.
+
+can be quantified by using abstract mathematical formulas. As a
+powerful urban research tool, it has the following features: multi-system
+collaborative analysis; multi-disciplinary theoretical support; quantita­
+tive evaluation [12–15]. For simplicity of understanding and ease of
+manipulation it can be divided into subsystems [16], for example,
+transport subsystem and land use subsystem. Usually,urban models are
+not focused on a certain subsystem, instead, it emphasizes the compre­
+hensive influence of urban subsystems on urban spatial structure and
+individual behaviour, especially the transportation system and land use
+system [17].
+Cities will always face various problems in the process of develop­
+ment. For example, Fig. 1 shows how the economic performance
+changes as the city size grows. It shows that although in the initial stage,
+increasing city size has positive effect on agglomeration economies, the
+negative effect will appear when it across inflection point [18]. The
+negative effect can be caused by many factors, such as traffic congestion,
+infrastructure overwhelming, environmental pollution, deterioration of
+public health and other urban social environmental and economic is­
+sues. For example, high resources consumption with low utilization ef­
+ficiency, and environmental pollution weaken the urban economic
+performance [19].
+To better understand the mechanism of the negative effect and solve
+the problem, many studies have examined the relationship between city
+size, agglomeration economies, urban evolution and decision making (e.
+g. [20–22]). They argue that there is a relationship between city size and
+agglomeration economies. However, Capello and Camagni [21] argued
+that the question of optimal city size tended to be expressed in a
+misleading way. The real issue is not ’optimal city size’ but ’efficient
+size’, which depends on the functional characteristics of the city and on
+the spatial organisation within the urban system, and has positive effect
+on urban development [21]. In other word, optimizing the spatial dis­
+tribution and organisation of urban resources will solve urban negative
+issues. Therefore, the main task and main challenge of urban modelling
+is to better understand the mechanism of the interaction, distribution
+and organization of urban factors.
+To better understand the mechanism of the distribution of urban
+population and solve the problem, urban models have been developed to
+study on the relationship between city size, agglomeration economies,
+urban evolution and decision making [20–22]. There are theories and
+models which study on the mechanism of urban population distribution,
+and points out multiple factors which impact on urban residents’ spatial
+decision behaviours.
+Usually, urban models focus on the relationship between multiple
+urban fields in order to understand urban system and predict future
+changes. Although urban models are different in various aspects and
+details, the purpose of urban modelling is the same. They try to provide a
+
+2. Urban studies and urban models
+To a certain extent, the history of human civilization is the history of
+urbanization. Thus, many researchers devote themselves to urban
+studies. Urban researchers were trying to identify and analyse the urban
+development by establishing theories and mathematical models of cities,
+which describe various aspects of the urban system by conceptions and
+equations. This sector traces the development of urban models in
+chronological order and has found that development of urban models is
+a process from simple to complex, from a discipline to interdisciplinary
+synthesis.
+2.1. Urban studies
+In 1937, Mumford argued that the city is a related collection of
+primary groups and purposive associations: the first, like family and
+neighbourhood, are common to all communities, while the second are
+especially characteristic of city life. “These varied groups support them­
+selves through economic organizations that are likewise of a more or less
+corporate, or at least publicly regulated, character; and they are all housed in
+permanent structures, whining a relatively limited area. The essential physical
+
+Fig. 1. The relationship between city size and agglomeration economies [18].
+2
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+means of a city’s existence are fixed site, the durable shelter, and the per­
+manent facilities for assembly, interchange, and storage; the essential social
+means are the social division of labour, which serves not merely the economic
+life but the cultural processes. The city in its complete sense, then, is a
+geographic plexus, an economic organization, an institutional process, a
+theatre of social action, and an aesthetic symbol of collective unity [25,26].
+pp.112).”
+In 1950, V. Gordon Childe argues that the essential feature of civi­
+lization is a certain size of settlement and population density and “in the
+case of the Urban Revolution the increase was mainly account for by the
+multiplication of th0e numbers of persons living together” [27]. He
+believes the population density is determined by several factors, such as
+natural resources, transport, technique and economy [27]. Based on
+that, in 1965, Gideon Sjoberg believes urban evolution is intimately
+related to three major levels of human organization, each of which is
+characterized by its own technological, economic, social and political
+patterns [28]. The main manifestation of urban evolution is mainly re­
+fers to the urban sprawl and urban form [27–29].
+Urban researchers were trying to identify and analyse the force that
+push urban development. In 1995, Makse and other researchers argue
+that population, economic and other urban resources which they called
+development units are the engine of urban development [30]. In 2003,
+Yang and others [31] had proposed the concept of geographical poten­
+tial which is relative predominance, which includes geographic location,
+spatial interregional differences, regional structure and environmental
+quality, in geographical location of a region to another region. Such
+potential is deeply affected by environmental conditions, converted as
+different historical stages, science and technology development. Urban
+sprawl is mainly focus on the extent of urbanisation [32], and urban
+form is mainly focus on the “metropolitan size, activity intensity, the
+degree that activities are evenly distributed, and the extent that
+high-density sub-areas are clustered [33].”
+Meanwhile, the administrative power also deeply influences on
+urban development [31,34]. The administrative power mainly depends
+on the administrative level and policies of local governments. However,
+how it affects the urban development has not been in-depth researched
+yet. In other word, a clear correspondence between policy impact and
+urban development has not yet been established. That has limited the
+application of urban models in a certain extent.
+
+centre to the countryside. Some researchers use the Hoyt sector model to
+explain the outward expansion of cities, for example, [40] use the model
+to analyse spatial-temporal land use changes of Ruaka town, Nairobi city
+in Kenya, between the years 1988 to 2019. [41] focused on “the sector
+features of the replacement and expansion of functional urban land, similar
+to Hoyt’s sector mode.”
+With the development of urban models, more factors have been
+involved into the urban models in order to explore the mechanism of
+urban development from multiple perspectives.
+System dynamics is a discipline of crossover and integration which
+was initially developed by Forrester from MIT [42]. It is a
+cross-discipline, which uses information science as enter point, and uses
+organisational theory, control theory, tactical decision-making, cyber­
+netics, system theory and military games to analyse and explore the
+transmission, exchange, organization and control of information and the
+casual relationship between decision-making and consequence [43].
+System dynamic theory argues that every system has its structure and
+the organization of the structure decides the functions of the system.
+Thus, it prefers to focus on the interactions and relationships between
+the internal subsystems rather than external interference and stochastic
+events. The subsystems and elements inside regard as stakeholders of
+system dynamics. It uses a standard causal loop approach to describe the
+causal relationship and feedback between stakeholders. System dynamic
+approaches use qualitative Causal Loop Diagrams and quantitative
+stock-flow models to provide a powerful tool to explain and understand
+basic structure and the nature of the problem within such systems [43].
+It provides an insight for modellers to investigate general dynamic
+tendencies [43].
+In 1959, Hansen proposed a viewpoint that there is a relationship
+between urban land use and accessibility. Because almost all human
+activities need to interact through transportation lines, in a certain
+context, transportation networks determine the spatial separations of
+human activities and land use, such as the distribution of population,
+commercial, industrial, etc. [44]. This idea is used as the basis of the
+Land use-transportation interaction (LUTI) models and laid their theo­
+retical framework. In 1964, Lowry proposed Lowry land use model
+which includes a residential location model and a service industry
+location model, and the models are nested with each other [45].
+The early LUTI model generally adopted spatial interaction theory as
+its theoretical basis, but with the intervention of other disciplines, the
+LUTI model gradually became more and more complex.
+In the initial stages, Lee and Batty argued that the theoretical
+drawback of the urban model, based on the theory of spatial interaction,
+is that the choices it simulates lack a reliable theoretical basis for
+behaviour [46,47]. The accuracy of the spatial interaction model mostly
+depends on the correct selection of key parameters. For example, in the
+gravity model, attractiveness and distance decay usually are the most
+important parameters [48].
+Then, the Development of Space Economics and the Model of Space
+Equilibrium provide an opportunity for urban models to simulate indi­
+vidual behaviours and analyse how they influence urban development
+[49,50]. The combination of space-economy and the LUTI model creates
+a new type of urban model which is called spatial equilibrium model
+[51]. The new model has become the most widely used type of urban
+model in the field of simulating the process of socioeconomic evolution,
+planning policy evaluation and decision-making support in developed
+countries [14,52–54].
+LUTI models based on the argument that transportation has a major
+impact on the spatial and economic development of cities and regions.
+The attractiveness of particular locations depends in part on the relative
+accessibility, and this in turn depends on the quality and quantity of the
+transportation infrastructure [55]. Certain factors which influence the
+growth of urban areas are called urban factors. Almost all urban factors,
+which include population, land system, economic activities, public ser­
+vice, infrastructure and other urban resources, and urban sub systems
+are connected and organized by transportation networks. It should be
+
+2.2. The development of urban models
+Model development is a process from simple to complex, from a
+single discipline to a multidisciplinary integration.
+In the early age, urban models focus on the site of a city, and argue
+that the urban development was predominated by the location of a city
+centre. For example, in the early 1920s, Ernest W. Burgess proposed his
+famous concentric-zone model which argued that land uses tend to
+occur in rings around the centre of a growing modern city ([35,36]). In
+1929, Burgess outlined an altitudinal-zone model, which argues that
+there is a positive relationship between socioeconomic status of resi­
+dents and population distribution [35]. In 1939, Hoyt proposed the Hoyt
+sector model, which argues that the highest-income residential areas
+occur in city centres and expanding outward in wedge-shaped sectors
+and lower-income areas successively, distribute flanked on the sectors’
+sides [37].
+Those three simple models are widely considered as “the classic
+models of urban land use” and “to be catalysts of research on cities in both
+developed and developing societies [38]. ” They relate city centre location
+to urban development, and indicate the relationship between distances,
+transportation costs (time and money) and population distribution. They
+argue that transportation linkages significantly influence human activ­
+ities and their locations [39]. These models have been widely used. For
+example, based on concentric-zone model and altitudinal-zone model,
+William B. Meyer proved that the role of amenities is the key factor in
+residential choice [36], and Dai’s group mentioned that from the city
+3
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+and workplaces in a zone, it creates more economic activities and pro­
+vides more jobs. That increases the “Attraction” of the zone and
+encourage people to commute by car. Therefore, the “Attractiveness by
+car” has been reinforced. If there are multiple zones in a certain region,
+people may compare conditions, such as travel distances, incomes level
+and the number of jobs, of those zones and change their destinations of
+commute. Thus, higher “Attractiveness of other zones”, lower the attrac­
+tion of the zone for people to commute by car. Meanwhile, higher the
+“Car ownership”, higher the proportion of people who have the option
+that commute by car. It should be noted that with the increase of
+employment, more and more people commute by car will caused
+negative effects on transport. Such as traffic congestion decreases the
+average velocity of cars and people need more time to search for car
+parking. So, stakeholders “Attractiveness by car, Commute trips, Parking
+search time” and “Time in car commute” formed negative feedback circle
+B1, “Attractiveness by car, Commute trips, Speed by car” and “Time in car
+commute” formed negative feedback circle B2, and “Attractiveness by car,
+Commute trips, Fuel cost” and “Time in car commute” formed negative
+feedback circle B3. The time and economic cost of commute by car is
+intolerable for some people. Then they may choose to use other
+commute modes and that will alleviate negative effects on transport.
+Therefore, stakeholders “Attractiveness by car, Commute trips, Speed by
+car, Time per commute trip by other modes” and “commute cost other modes”
+formed positive feedback circle B4. All those casual chin reactions and
+feedbacks will achieve a dynamic equilibrant status.
+Fig. 3 shows a simple conceptual structure of traditional general
+LUTI model. Land use model include current situation of land use and
+land use policy. Transport model includes traffic infrastructure and
+travel cost. The accessibility between transport model and land use
+model forms the spatial organization of a zone. The interaction between
+spatial organization and population and economic activities reforms the
+structure of former and impacts on the distribution of the latter, until
+they achieve a dynamic equilibrant status.
+LUTI model is a commonly used mathematical model that is even
+considered to be the only available model for simulating the urban
+spatial development process [59]. The main concern of LUTI model is
+spatial interaction, which regard the location as the main driving force
+for urban land use and transportation development.
+Batty categorize the LUTI models into two categories as follows:
+
+noticed that connectivity is the base rock of interactions between urban
+factors. Based on that, this paper proposes a hypothesis that the urban
+factors are connected and organized by transportation networks and
+created urban potential energy which drives the development of urban
+areas. The potential energy casts it influences by transportation net­
+works. Their energy will be consumed via transportation. In the end, all
+the urban factors will form a balanced status and reform the city. Thus,
+the consumption of transportation determines which region the urban
+factor can affect. Related researchers present the outcome of research on
+a sample of 12 European cities and “The outcome of the research points out
+that urban transportation infrastructure may have a catalytic effect on the
+development, redevelopment and regeneration of urban areas but there are a
+lot of other influencing factors which make such re-urbanization processes a
+successful or unsuccessful story.” [56]. So, transportation indirectly works
+as a catalyst for the development and redevelopment of urban areas as
+well as the regeneration of declining areas.
+System dynamic approaches allow system and policies to interact
+across space and time. Meanwhile, a feature of Land-use/Transport
+Interaction Model is that transport and land use systems operate on
+different time scales, because the respond from transport users may
+relatively quickly to changes in transport policy or cost, but the respond
+from land use users may not [43]. Therefore, system dynamics is a ideal
+for investigating the interaction between land-use and transport,
+because such system “contain feedbacks and delays which are often outside
+of the mental model of the decision maker or where feedbacks cross stake­
+holder boundaries [43].”
+System dynamics model can be used to predict the consequence of a
+certain urban planning pattern and they developed related methods to
+support decision making. There is a growing body of literatures and
+models which explore and analyse the intercation and spatial organ­
+iztion of economy, population, migration, infrastructure, land-use and
+transportation [43]. They developed urban related methods, such as the
+dynamic Land Use and Transport Interaction(LUTI) model MARS
+(Metropolitan Activity Relocation Simulator) and they argue that is part
+of a structured decision making process [57].
+Fig. 2 shows a mental model of commute trips by car in MARS. The
+“Employed population, Workplaces, Population, Attractiveness of other zones
+and Car ownership” are enter points. The casual chin reactions between
+them decided “Attractiveness by car”. For example, with more population
+
+Fig. 2. CLD for the transport model: commute trips by car in MARS [57].
+4
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+Fig. 3. Traditional general LUTI model(Translated from [58]).
+
+“various theoretical dynamics associated with equilibrium approaches such
+as those being developed by Wilson [60]” and Lowry model [45], and
+“more physically based land-development models mirrored around cellular
+automata and agent-based models” [15,61]. The main difference between
+them is that the former is a static model, which assumes that other pa­
+rameters will not change over time to predict a certain parameter; while
+the latter is a dynamic model, with in which every parameter can be
+changed over time. In addition to traditional fields. For example, [62]
+argues that by integrating land-use and transport models with envi­
+ronmental models of greenhouse gas emissions and climate hazards,
+LUTI models show promise as powerful tools to analyse and assess the
+impact of urban policy on climate changes. LUTI models are also applied
+urban form and energy use [63], and other aspects.
+As the interface between human society and the natural environ­
+ment, the land system is a typical complex system [64]. With the
+development of computer science, the ability of calculation has been
+greatly improved, and that provides an opportunity for urban related
+researchers to explore the urban development from a micro perspective.
+The interaction between multiple urban factors and subsystems
+formed a “complex system”. It is characterized by path-dependence,
+critical major mutations, spatial self-organization, and spatial emer­
+gence [65,66]. In the system, the interaction between those parts (fac­
+tors or subsystems), also called “agents” or “cells”, often lead to
+large-scale phenomena and that called “emergence” [66,67]. In an
+overall sense, the system is hardly “predictable from a knowledge only of
+the behaviour of the individual agents” [13,66].
+In the field of modelling complex system, pure top-down modelling
+methods usually are difficult to attract regional interactions. Whit the
+development of computer technology, bottom-up methods provides a
+batter choice to describe complex system [68]. For example, Cellular
+
+automata (CA) mode and Agent-based model, which focus on individual
+behaviours.
+Cellular automata (CA) model is a kind of model that simulates
+spatial and temporal discrete complexity by simple local calculation.
+This local calculation is based on five elements as follows: Cell, Status,
+Neighbourhood, Transfer function and Temporal. The basic algorithm of
+the CA model is that in a moment, the status of a cell depends on its
+previous status and statuss of its contiguous cells [69]. Such models
+usually are described as two-dimensional rectangle grid of cells, where
+each cell has a fixed location and attribute information,for example,
+land cover, land use or terrain [67], to represent regional land use and
+“embodying processes of change in the cellular status are determined in the
+local neighbourhood of any and every cell [13]. ”
+The earliest CA model can be traced back to the original computer
+science and fractal theory [70]. Researchers usually use CA models to
+predict or restructure the process of urban growth to compare the con­
+sequences of different urban development scenarios. A traditional CA
+model uses regular square grid and synchronous growth, and is designed
+for representations of land use change in rural-urban fringe settings.
+Based on that, related researchers have developed a new CA model that
+uses spatial data in the form of irregularly sized and shaped land parcels,
+and incorporates synchronous and asynchronous development in order
+to model more realistically land use change at the land parcel scale [71].
+There are two key components, neighbourhood rules and transition
+rules, in CA-based models [72,73]. There is an equation to describe the
+dynamic changes in CA models as follows:
+(
+)
+Sijt+1 = f Sijt , Ωtij , T
+[74]
+The parameter St+1
+represents the status of the cell, where spatial
+ij
+5
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+urban growth [77], spatial economy [75] and transportation [13,78].
+Under guide of its experience and knowledge, it will consider varying
+related factors and make a decision. As a consequence of the decision,
+the entity well produces a certain behavioural pattern. Generally, the
+agent has four main feature: autorhythmicity, spontaneity, sociality and
+reactiveness [79]. Moreover, urban researchers believe that different
+modelling problematics can lead to very different solutions. They sug­
+gest to use multilevel models, which included macro, intermediate and
+micro levels, to build a conceptually or causally linked system of
+grouping objects or processes along an analytical scale in order to help
+the modeller identify the difficulties peculiar to each of the approaches
+[80].
+As a model which operates from the bottom up, the main focus of an
+Agent-based model is at the micro-level, elemental or individualistic, to
+representing behaviours and interactions of those objects through space
+and time [13]. The model starts from the definition of the rules of
+subjective behaviours to build the framework in order to avoid the un­
+derstanding and analyses of the entire system, and makes up for the
+difficulty of quantitative description of complex systems by traditional
+mathematical and physical models [81,82].
+CA and ABMs have something in common, which is that they both
+focus on spatial neighbourhood relations and decision making in indi­
+vidual level of subject. The location, spatial accessibility and distribu­
+tion are very important factors of the land system. Thus, CA and ABMs
+usually combine with other spatial interaction models to develop new
+models for specific conditions, for example Land use-transportation
+interaction models.
+The most difference with CA models is that CA models focus on
+transition rules, but ABMs focus on the emergence which are created by
+the interaction between different microscopic individuals in the macrodimension [83,84]. However, both CA and ABMs have their limitation,
+for example, CA models “temporally persistent transition probability and
+neighbourhood effect cannot express the spatiotemporal land use dynamics to
+generate accurate simulations [85] ”, because in the real world, the rule of
+land use is usually change over time, but the rule of CA model hardly can
+change temporally. And ABMs still lack effective solution in the
+
+coordinates are (i, j) at time t+1, which is correlated to the current status
+of cell (i, j) at time t. The parameter Ωtij represents the influence on its
+
+neighbourhood. The parameter T represents the transition rules. All
+those parameters are in a particular linkage of f [74].
+After a period of development, the CA model has developed a series
+of branch models. In 2016, Li and Gong created an evolution tree to
+illustrate the development and inheritance of CA models. Although it
+does not contain all CA models, the most typical models are in the tree
+(Fig. 4) [74].
+Based on the development of the modelling framework or main
+components of CA-based models, Li and Gong proposed a categorization
+scheme which divide CA models into two main branches: probabilitybased models and rule-based models.
+The manifestation of probability-based CA models is that the changes
+of the status of cells are mainly determined by a conjunction of different
+components as a synthesized probability, and the manifestation of rulebased CA models is that the transition has been determined by five pa­
+rameters (“i.e., diffusion, breed, spread, slope resistance and road
+gravity”) and “correspond to four types of urban growth patterns, i.e.,
+spontaneous, diffusion, organic and road-influenced [74] ”. CA models
+can be regarded “as simplifications of agent-based models where the focus is
+on emergent spatial patterns through time [13]”.
+The creation of Agent-based modelling (ABMs) can be traced back to
+the cellular automaton model. It is an intelligent entity, which in­
+corporates other ideas, including but not limited to game theory, com­
+plex systems, emergence, computational sociology, multi-agent systems
+and evolutionary computation. Because this model requires a lot of
+calculations, it didn’t usher in its prosperous period until computer
+technology progressed. In 2009, Farmer and Foley defined ABMs as: a
+computer simulation of a large number of decision-making subjects and
+institutions interacting through set rules [75]. Subjects in ABMs not only
+have neighbour interactions, but also have the ability to learn and
+evolve [68].
+Agent-based modelling is one of the most common approach to
+“analyse and simulate Land-use/cover change (LUCC) as the result of indi­
+vidual decisions [76]”. The model has been used to test urban policies in
+
+Fig. 4. An evolution tree of CA-based urban growth models [74].
+6
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+publication Urban Dynamics [94] introduced an insight “forming a bridge
+between engineering and the social sciences [95]”. These models use system
+dynamics methodology to analyses urban socioeconomic processes [23,
+95]. BY system dynamics methodology, socioeconomic processes are
+divided in elements and there are causal relationships between those
+elements. The change of elements cast their influence via certain causal
+relationships and triggers chain reactions. System dynamics methodol­
+ogy is usually used to deal with nonlinear growth issues.
+The last class is the focus of current urban research which involves
+models built around representing the action and behaviour of individual
+agents which linked to spatial location, for example cellular automata
+and agent-based models. Those models are bottom-up models, which
+focus on micro-level interactions, for example, the neighbourhood in­
+teractions between cells agents through spatial location analysing [23,
+96,97]. However, the action and behaviour of individual agents are
+different to quantify and sometimes justify.
+Foot provided another classification, which according to their
+theoretical basis, they can be categorize to the three main types as fol­
+lows: based on gravity, linear and optimizing mathematics models [16].
+The gravity based model, for example, space economic and space
+equilibrium models, provide an opportunity for urban models to simu­
+late individual behaviors which attractiveness and distance decay usu­
+ally are the most important parameters [48]. The attractiveness of a
+factor decays with distance. Therefore, the onset strength of attractive­
+ness and rate of decay dominate the influence area of a factor.
+The linear based model usually has been used to deal with the so­
+cioeconomic and land use activities in a certain urban area by deriving a
+set of linear equations [16]. This model regards socioeconomic and land
+use activities as the independent variables. The information of a variable
+has collected for each zone in the region to calculate the dependant
+variable, such as population and employment, in the region.
+The optimizing models try to provide an optimal solution for urban
+development by performing a similar function. For example, simple
+optimal urban size theories, which based on the main stream economics
+and focus on the cost-benefit analyses, provide the same optimal size for
+cities when they have the same production function [98].
+
+application of large-scale areas [5,86], because “finding sufficient
+empirical data about decision making processes and outcomes at larger scales
+is extremely difficult [5] ”.
+Agent-base models and cellular automata models are considered to
+be ideal methods for studying complex systems and simulating land
+changes [68,81,82].
+With the continuous improvement of new technology and infra­
+structure, especially information network technology and infrastruc­
+ture, the era of big data in urban planning research has quietly arrived.
+Using the massive amounts of data constantly generated in cities, such as
+bus card data, traffic monitoring data, mobile phone positioning data,
+and social network data, urban researchers can more directly mine in­
+dividual behaviour characteristics from real data [87,88]. Furthermore,
+new computer technology, such as artificial intelligence and deep
+learning, has been applied in urban research [89,90]. It brings new
+opportunities and challenges to the development of urban models.
+By combining system dynamics with other disciplines, system dy­
+namics approach plays a significant role in understanding and analysis
+the impact of a certain decision on socioeconomic, policy, population
+and other human activities, and the consequence that created. For
+example, by combining system dynamic with geographical information
+system to consider land use types and transport supplies, [91] used LUTI
+model to develop an agent-based approach to calculate the impact of
+Light Rail Transit on touristic suitability in Asia New Bay Area, Kaoh­
+siung, Taiwan, China.
+2.3. Classification of urban models
+Urban models can be classified according to different criteria. Fig. 5
+shows two different methods for the classification of urban models. The
+first method categorized models by modelling styles and application,
+and the second method categorized models by modelling methods.
+2.3.1. Classification by modelling styles and applications
+Batty defined three main classes [92] of urban models by their
+modelling styles and applications as follows (Fig. 5).
+The first class is built around the aggregate static models of economic
+and spatial interaction. The theoretical roots of this class mainly are
+socioeconomics, regional economics and urban economics, and location
+theory, for example, land use and Transportation Interaction (LUTI)
+models. These models represent the spatial equivalents of classical
+macroeconomics and microeconomics theory. They are mainly used to
+understand and predict how urban land use and transportation policies
+effect on the spatial distribution of urban socioeconomics and trans­
+portation activities [93]. In short, this class of models is the most
+operational [23].
+The second class is urban dynamics models. In 1969, JW. Forrester’s
+
+2.3.2. Classification by modelling methods
+According to different modelling methods, urban models can be
+classified into two categories: top-down and bottom-up (Fig. 5).
+The top-down models are based on spatial interaction models,
+including gravity model, entropy maximization and etc., which argue
+that individual behaviours are influenced by the context of macro trends
+and those individuals are regarded as several groups and the behaviour
+of each group will show homogeneity on a certain level [99–101]. By
+setting global behavioural assumptions, the model avoids calibration
+and calculation difficulties, and reduces the requirement of individual
+
+Fig. 5. Classification of urban modelling.
+7
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+behavioural data. It is helpful for related researchers to reveal the
+inherent mechanism of selection behaviour from a macro perspective.
+With the development of microeconomics and stochastic utility
+theory [102], bottom-up methods have become an important research
+direction, and it provides a better choice to describe complex system
+[68]. The model, which operate from the bottom up, mainly focus on the
+micro-level, elemental or individualistic, to representing behaviours and
+interactions of those objects through space and time [13]. The model
+starts from the definition of the rules of subjective behaviours to build
+the framework in order to avoid the understanding and analyses of the
+entire system, and makes up for the difficulty of quantitative description
+of complex system by traditional mathematical and physical models [81,
+82].
+In most cases, a land use model is a dynamic general equilibrium
+model [103]. It emphasizes the autonomy and dynamics of individual
+behaviour, and believes that individual behaviours depend on their so­
+cial, economic, political and other conditions [104]. In addition, those
+behaviours will interact with each other and the context to produce
+urban form as consequence subconsciously or unconsciously, and
+related researchers named this process “self-organization” [105–107].
+
+equilibrium point [111,112]. For example, general LUTI models are
+trying to find the equilibrium status of the interaction between land use,
+transportation, population and economic activities. However, urban
+system is an opening system and continually exchange resources with
+outsides. Cities need to output products, services, and consume with the
+input of resources, energy, and human efforts to maintain their func­
+tions. [62] approached the challenges from socioeconomic aspect. They
+argue that LUTI models need to adopt and integrate external factors and
+new approaches to socioeconomic simulation of land use and trans­
+portation system. Because with the development of technology, new
+socioeconomic activities, such as online retail, have created new so­
+cioeconomic organization forms. That require new approaches to so­
+cioeconomic simulation.
+Based on the comprehensive philosophical method of analysing ur­
+banization, [113] poses five driving forces of urbanization, “which are
+industrialization, modernization, globalization, marketization and admin­
+istrative/institutional power”. Except the administrative/institutional
+power, other factors are related to socioeconomic. Socioeconomic is
+very important for urban development. For example, [34] argue that
+urban sprawl was significantly associated with urban population den­
+sity, gross domestic product(GDP) per capita, and industrial structure.
+Further, when the spatial heterogeneity was considered, the driving
+forces of urban sprawl exhibited different magnitudes and directions
+[34]. The results indicate that to formulate effective urban planning and
+land use policies, decision-makers should seriously consider the differ­
+ences in urban sprawl depending on region, urban size, and hierarchy
+[34]. In other word, it is hard to provide a uniform land use policy for
+every region.
+Although they differ in their research focus, Crooks, Castle and Batty
+analyse the problem in terms of how to build an urban model [110],
+Xuecao Li and Peng Gong emphasized the role of socioeconomic activ­
+ities in urban development [74,111,112], they all agree with that those
+existing urban models have certain of deficiencies in reflecting the
+complexity of the real world and insufficient to deal with complex urban
+systems that change over time.
+System dynamic models use system dynamics methodology to ana­
+lyses urban socioeconomic processes [23,95] and can more realistically
+reflect the socioeconomic activities. However, these complicated re­
+lationships between participants of socioeconomic activities are difficult
+to express based on structural models and collect detailed socioeco­
+nomic data. Because in many cases, the socioeconomic dataset tends to
+be generalized.
+In summary, the main challenge of urban modelling has always been
+around the unprecedented increasingly complex urban system [114].
+
+3. General challenges of urban modelling
+There are two very important concepts, “factors” and “drivers”,
+which will provide a better view to understand the process of land use
+change. Urban factors, such as population, economic and other urban
+resources also called development units, which are the engine of urban
+development [30]. The organization and interaction of factors create
+drivers, which are certain socioeconomic activities which provide
+driving forces for land use changes [108]. For example, in many cities,
+industrial economic activities cause the conversion of agricultural land
+use into industrial land use in last two centuries.
+The aim of urban modelling is trying to simulate and analyse the
+process of how factors formed the drivers and predict the consequence.
+Usually, based on the mechanism of modelling, urban models are
+divided in to data-driven and process-driven approaches [74]. The
+former is based on historical data to build a relationship between urban
+development and urban factors. Usually, the historical data is easy to
+observe and data-driven approaches can capture the main trajectory of
+urban development by statistical relationships [74]. Thus, the prediction
+is made with hard empirical experience. However, They “focus on their
+correlations instead of their causal relationships [74]” which only provides
+weak evidence for urban development mechanism. The latter “is based
+on a clear mechanism and is generalized in a conceptual model [74]”. [74]
+proposed a viewpoint that, theoretically, process-driven approaches can
+more realistically reflect the socioeconomic activities. However, the
+process of urban development is influenced by complexed nonlinear and
+hierarchic interactions between various factors. Any change of any
+single one of the urban factors will affect other urban factors. Therefore,
+these complicated relationships are difficult to express based on struc­
+tural models. Furthermore, “available datasets in support of the construc­
+tion of structural models are limited both in time and in space, particularly for
+detailed socioeconomic datasets [74].” Because in many cases, the dataset
+tends to be generalized. Urban systems are very complex. Interactions
+between urban factors usually are complex and nonlinear. Therefore, in
+most cases, these two approaches coexist in urban models [109].
+In cities, some problems that did not exist before have emerged over
+time. Thus, urban modelling faces challenges over time. Crooks, Castle
+and Batty provided a list of the seven main challenges of urban model­
+ling as follows: “the purpose for which the model is built, the extent to which
+the model is rooted in independent theory, the extent to which the model can
+be replicated, the ways the model might be verified, calibrated and validated,
+the way model dynamics are represented in terms of agent interactions, the
+extent to which the model is operational, and the way the model can be
+communicated and shared with others [110]”. Existing urban mobility
+models have four main limitations as follows: mainly focus on find an
+
+4. The impact of emerging technologies on urban development
+4.1. Geographic information system (GIS) and urban research
+Because the huge amount of data that needs to be considered, it had
+been extremely difficult to predict urban development in the past.
+Fortunately, with the advance of computer science, computer-assisted
+technology has been widely used into the study in the field of geogra­
+phy. In 1968, the term "geographic information system" was been used by
+Roger Tomlinson in his paper " A Geographical Information System for
+Regional Planning [115] ". That is the symbol of the emergence of a new
+interdisciplinary subject, Geographic Information System (GIS). With
+the popularity of big data, which involves unprecedented volumes of
+data, GIS in the era of big data has a more powerful tool for data-driven
+spatial prediction [116]. Related researchers are trying to draw
+conclusion about the behaviour of complex systems in realistic envi­
+ronments in order to understand and predict the future of specific areas
+by GIS software. They design a series of GIS model to study urban
+objects.
+There are four mainly different modelling techniques as follows:
+Cellular automata (CA) mode, which is a kind of model that
+8
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+simulates spatial and temporal discrete complexity by simple local
+calculation. This local calculation base on five elements as following:
+Cell, Status, Neighbourhood, Transfer function and Temporal. The basic
+algorithm of CA model is that in a moment, the status of a cell depends
+on its previous status and statuss of its contiguous cells [69]. Traditional
+CA model uses regular square grid and synchronous growth, and is
+designed for representations of land use change in rural-urban fringe
+settings. Related researchers develop a new CA model that use spatial
+data in the form of irregularly sized and shaped land parcels, and in­
+corporates synchronous and asynchronous development in order to
+model more realistically land use change at the land parcel scale [71].
+CA model usually has been used to predict or restructure the process of
+urban growth to compare the consequences of different urban devel­
+opment scenarios. This model divided factors into square grid in order to
+analyse their interactions by spatial neighbourhood relation. However,
+some urban factors in different cells will organize a tight correlated
+aggregation under certain conditions, which leads those cells are more
+influential than others. In addition, under certain circumstances, some
+cells can influence others without spatial neighbourhood relation.
+Because of that, a more flexible model is needed.
+Agent based model is an intelligent entity, which incorporates other
+ideas, including but not limited to game theory, complex system,
+emergence, computational sociology, multi-agent systems and evolu­
+tionary computation. Under guide of its experience and knowledge, it
+will consider varying related factors and make a decision. As a conse­
+quence of the decision, the entity well produces a certain behavioural
+pattern. Generally, the agent has four main feature: autorhythmicity,
+spontaneity, sociality and reactiveness [79]. Moreover, different
+modelling problematics can lead to very different solutions. For
+example, multilevel models, which included macro, intermediate and
+micro levels, are used to build a conceptually or causally linked system
+of grouping objects or processes along an analytical scale in order to help
+the modeller identify the difficulties peculiar to each of the approaches
+[80]. Although the relationship between various urban factors are well
+analysed by those models, usually the same type of urban factors will
+form a subsystem, such as urban traffic networks, retail networks,
+electricity networks and the like. Not only the interaction of individual
+urban factors, but also those subsystems will effect on the distribution of
+urban forms. It is necessary to consider the relationships between urban
+subsystems.
+System dynamics is a discipline of crossover and integration which
+takes very important meaning in urban research. It argues that every
+system has its structure and the organization of the structure decides the
+functions of the system. Thus, it prefers to focus on the interactions and
+relationships between the internal subsystems rather than external
+interference and stochastic events. Urban researchers argue that system
+dynamics model can be used to predict the consequence of a certain
+urban planning pattern and they developed related methods to support
+decision making. They developed urban related methods, such as the
+dynamic Land Use and Transportation Interaction model MARS
+(Metropolitan Activity Relocation Simulator) and they argue that is part
+of a structured decision making process [57]. Land-use/Transportation
+Interaction Model, LUTI is a commonly used mathematical model that
+is even considered to be the only available model for simulating the
+urban spatial development process [59]. The main concern of LUTI
+model is spatial interaction, which regard the location as the main
+driving force for urban land use and transportation development.
+However, there are many other important factors which are involved in
+urban evolution, such as policy, culture, public service, regional struc­
+ture and etc. Thus, the model needs to be further developed. All those
+models believe a certain urban pattern will produce the certain urban
+form as consequence. However, in the process of urban growth, there are
+a lot of serendipitous and uncertain events. Moreover, all the resources
+in the urban area are circulating. Therefore, a drawback of such models
+is they ignore those uncertainty and resource circulation in a city.
+Urban metabolism model is a specific type of the Grey Model. The
+
+concept was proposed in 1965 by Wolman, and it is fundamental to
+developing sustainable cities [117]. Kennedy argued that Urban meta­
+bolism can be defined as “the sum total of the technical and socioeconomic
+processes that occur in cities, resulting in growth, production of energy, and
+elimination of waste” [118]. Urban metabolism is an organic process in
+cities which output products, services, and waste with the input of re­
+sources, energy, and human efforts. The Grey model is a kind of fuzzy
+prediction model which flexibly predicts the development tendency of
+an object in a long-term [119]. The core of the model is to measure
+input-output ratio and use that to predict the future of a region and find
+out the confliction between a city’s production volume and the needs if
+the city. So, the urban evolution is an extremely complicated dynamic
+process. Many factors are involved in urban evolution and the under­
+lying relationship dependencies between them need to be discovered,
+which is vital to know the whole patterns of the urban issues.
+Urban development is an extremely complicated issue. It gets many
+restrictions of factors, such as economy, population, environment, pol­
+icy, culture, transportation and etc. Furthermore, the interactions be­
+tween those factors are extremely complicated and they produce the
+urban form as consequence. It is a spontaneous process, where a certain
+order and form are arising from interactions between subsystem factors
+of the system without external interference in a certain context [120].
+Because of constantly changing external conditions, urban factors,
+which are the components of urban form, are uncertain. They can be
+increased, decreased, created and destroyed, which will result in con­
+stant urban evolution [121].
+GIS has provided a powerful tool to analyses and simulate the process
+of urban development. Based on powerful computing power, constantly
+changing external conditions and urban factors can be calculated to
+predict the outcomes of a certain scenario, for example, overlay analysis
+and buffer zone calculation. Therefore, GIS has been used at multiple
+fields, such as urban planning, trasnprotation, decision-making support
+and urban govern. For example, using accessibility analysis of trans­
+portation as the starting point, Li et al. employed GIS spatial analysis
+tools to analyse the impact of urban faciciliteis’ distribution, residents’
+needs, and income on travel behaviour in China, taking into account the
+country’s local contexts. They provided the concept of transport
+impedance indicator to describe the strength of this impact [122]. Zhou
+et al. used GIS tools to analyse irregular land use patterns at the urban
+fringe, providing decision support for urban planners and policymakers
+[123]. Based on that, smart city that comprehensively assist in urban
+management,planning and policy making have experienced tremendous
+development.
+Smart city is widely regarded as an effective option to solve urban
+diseases, for example traffic congestion, infrastructure overwhelming,
+air pollution [124–127]. It is an emerging strategy aiming to provide
+better life conditions to support the specific needs of each city for citi­
+zens by leveraging technologies to allocate urban resources more wisely
+[124–126].
+The Chinese government introduced a series of policies in order to
+the promotion of smart city. However, performances of cities where
+locate in eastern and southern coastal areas have met national govern­
+ment goals more than others, and there are significant differences be­
+tween them [127]. Liyin Shen and other Chinese researcher [127]
+believe that the political execution performance of local governments in
+the practice of policies affects smart city application. However, there “is
+little study examining what results have been achieved in practice by applying
+policy measures [127]”. The participation of departments coordination
+mechanism and the department barriers of data sharing are still the
+biggest bottleneck of smart city development [128]. In other word, the
+divisions between different government layers hampered the develop­
+ment of smart city.
+
+9
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+4.2. The impact of ICT based economic organization form on urban
+development
+
+highly consistent with transportation networks. However, e-commercial
+activities reformed the socioeconomic networks. For example, infor­
+mation can be disseminated via the Internet instead of traditional
+transportation network based ways.
+With the ITC boosting, ITC based activities enable regions to break
+the location limitation, which triggers a new bottom-up internet process.
+It has greatly increased the demand for remote work that enforced and
+accelerated the impact of ICT on transportation. ICT has reorganized the
+way of economic activities that distribution of economy participants
+depends on the spatial relationship and social network relationship and
+ICT infrastructure. Certain economic activities, such as information ex­
+change no longer be limited by spatial distance under the ICT support. It
+dramatically decreases related transportation needs. It affects the dis­
+tribution, circulation and exchange of population, and further reforms
+urban planning, economic organization, and policymaking.
+Based on ITC, E-commercial activities enable regions to break the
+location limitation and join in the national even global industry division,
+and that trigger a new bottom-up rural urbanization process in China
+[134]. Related researchers [134] argue that although E-commerce in­
+creases the capital and talents back to the rural areas and contributes to
+rural urbanization, it is still cannot to change the overall trend of pop­
+ulation reduction in the entire rural areas in the process of urbanization
+in China. [134] suggested that local government should establish a
+governance system that comprehensively considers the demand of
+market and residences in order to guide the restructuring of rural space.
+For example, positively increasing the welfare of rural population and
+coordinating multiple villages or towns joining to the industry chain.
+In China, a huge number of villages, rural settlements and villagers
+who are in the agricultural Hukou group, choice to develop E-commerce
+by Taobao, a Chinese online trade market like Amazon or eBay. Based on
+the market requirement and infrastructure conditions, especially ICT
+related infrastructure, online commerce tradesmen select site to form
+“Taobao villages [135]” by integrating and organizing capital flows,
+human power, goods flow, technical flow, etc., and that will influence on
+the surrounding areas of Taobao villages [136]. Wan and other re­
+searchers [136] argue that E-commerce villages influence people’s
+spatial decision behaviours which impact on traditional land use change
+pattern, and they provide a concept “flow factors [136]”, a characteristic
+
+With the development of the science and technology, communica­
+tion and computer innovative technologies had been applicated in urban
+development, and that pose new challenges for urban planning. Those
+unprecedented technologies are changing the lifestyle of us [129],
+especially, information and communication technologies (ICT). Based
+on the use of ICT to integrate urban resources, it presents a new city
+pattern that urban resources can be allocated across multiple de­
+partments [127] which can provide urban planning and management
+decision-making supporting for decision makers to “modify urban in­
+frastructures, public and private services and governance activities [130]”.
+Digital economy [131] also based on ICT and it has gradually
+changed the city. Although a growing body of literatures has studied
+digital economy development, there is a little of theoretical and
+empirical research to understand the impact of digital economy and
+migration, which is the one of the key driving forces for urban devel­
+opment, on urbanism. In 2019, Yanliu Lin firstly posed a concept
+framework of “E-urbanism” to divided real world into three interwoven
+layers by attributes as ICT based economic activitie organisations, so­
+cioeconomic relationships, and phsical world, “namely of ICT infra­
+structure and production networks, social networks and power relations, and
+urban form and land use”(Fig. 6), and she believes that the impact of
+e-commerce and migration on urbanism is fundamentally revolution­
+izing social and spatial reorganization of the city [132]. Because digital
+economy is not totally depending on spatial neighbourhood relationship
+as those traditional economic activities. For example, the internet is
+changing our world and the way we living in a city [133], because some
+socioeconomic and other activities which depend on the internet, they
+have been called Digital economy [131], have dramatically influence on
+population distribution.
+In the traditional offline economic activities, interactions between
+participants mainly depends on transportation networks. Exchanges and
+flows of human power, capital, information etc. need to be done by
+physical measures. For example, information needs to be passed through
+the transportation networks in the form of physical letters or messen­
+gers. Therefore, the social networks and relations of urban factors are
+
+Fig. 6. Three interwoven layers [132].
+10
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+indicator to describe population flows, cash flows, goods flows, tech­
+nical flows and etc. They believe the flow factors can be used in digi­
+talized governance system to guide planning and management for rural
+areas, and fulfil “the gap in terms of the interaction between E-commerce
+village and space of flows [136]”. The mechanism of Taobao villages’
+development shows that ICT based E-commerce activities have reformed
+population flows in China [132,134,136].
+Although ITC decreases the limitation of spatial conditions and is
+also the key driving force for contemporary urban development [132],
+most Taobao villages are located in the developed regions of China.
+[132] believes that the interaction relationship between urban factors is
+significant as well as spatial distribution. Thus [132] posed a network to
+describe socioeconomic relations between urban factors, and by
+comprehensive considering infrastructure, urban form, land use, and
+transportation network, she proposed a conceptual framework of E-ur­
+banism (Fig. 6) to understand the impact of E-commerce and migration
+on urbanism. Lin argued that E-commerce activities bring an unprece­
+dent phenomenon that people, who live in different areas, can be
+involved in the same economic activity at the same time by ICT infra­
+structure. Therefore, ICT has reformed the relationship between eco­
+nomic activities and population distribution. [132] used the framework
+to study Taobao villages in Guangzhou city and concluded that E-com­
+merce had changed the city’s urban structure, which is the arrangement
+of land use and the spatial organization of urban factors in a certain
+urban area, by providing remote coordination and organization of social
+and economic activities.
+Based on ITC, e-commercial activities enable regions to break the
+location limitation and join in the national even global industry division
+and increase the capital and talents back to the rural areas and con­
+tributes to rural urbanization, and that trigger a new bottom-up rural
+urbanization process in China [134]. E-commerce villages, such as
+Taobao villages influence people’s spatial decision behaviours which
+impact on traditional land use change pattern [136].
+To understand the impact of e-commerce and migration on urban­
+ism, Lin [132] posed a concept framework of E-urbanism to describe
+socioeconomic relations between urban factors, and by comprehensive
+considering infrastructure, urban form, land use and transportation
+network. Lin argued that e-commerce activities bring an unprecedented
+phenomenon that people, who live in different areas, can be involved in
+the same economic activity at the same time by ICT infrastructure.
+Therefore, ICT has reformed the relationship between economic activ­
+ities and population distribution. For example, Taobao villages in
+Guangzhou city provided a conclusion that e-commerce has changed
+urban structure of the city by providing remote coordination and or­
+ganization of social and economic activities [132]. Fig. 6 shows Lin’s
+E-urbanism framework.
+Spatial organization form of urban factors is reform by ICT based
+economic activities, and revolutionized social and spatial reorganization
+of economic activities. Classical urban models are facing unprecedented
+challenges that social and economic activities not only depend on spatial
+neighbourhood and distance, but also depend on ICT based socioeco­
+nomic relation networks of urban factors.
+In 21st century, urban phenomenon is emerging that the networked
+polycentric mega-city region. Developed around one or more cities of
+global status, it is characterized by a cluster of cities and towns, physi­
+cally separate but intensively networked in a complex spatial division of
+labour. They describes and analyses eight such regions in North West
+Europe [137]. In many cases, the relationships between urban factors
+are nonlinear and hierarchic and their interactions produce the urban
+form as consequence. In other word, city should be regarded as an in­
+tegral organization.
+To solve the problem of population overloading in urban areas and
+alleviate the development gap between urban and rural areas, Chinese
+government has implemented a series of measures, including the
+development of e-commerce in rural areas. For example, many villagers
+in China are engaged in the sales industry on Taobao, the biggest online
+
+sales platform in China. According to the statistical data of Taobao, in
+China, there are 7023 Taobao villages, that is, more than 10 % of the
+villagers do Taobao business in the village. Taobao villages have not
+only created more jobs in rural areas, absorbed part of the urban surplus
+population, but also narrowed the urban-rural development gap.
+Meanwhile, the mechanism of Taobao villages’ development shows that
+E-commerce activities have reformed population flows in China [132,
+134,136].
+The concept of E-commerce, ICT based socioeconomic organization,
+is consisted of land use, population and economic activities sub-models.
+The basic idea of the concept comes from Lin’s E-urbanism framework
+(Fig. 6). In addition to considering traditional spatial organization,
+which formed by land use, transportation, population and economic
+activities sub-models, ICT based organization also influences the equil­
+ibrant status of the traditional general LUTI model.
+E-commerce continually changing social and economic human ac­
+tivities organization form and population distribution in last decades.
+Online information and capital flows of E-commerce replace certain
+traditional human travel needs. The fact that E-commerce work is not
+limited by geographical location makes it possible to provide job op­
+portunities in places where the cost of living is lower, for example rural
+areas. It increases the capital and talents back to the rural areas and
+contributes to rural urbanization. Fig. 7 shows that like traditional
+spatial organization, E-commerce organization has impact on land
+attraction.
+The classical general LUTI model assumes that people are free to
+relocate and the interaction between economic participants via trans­
+portation networks. However, the situation is changed. Therefore, Ecommerce need to be considered in LUTI model practice.
+On one hand, Smart city is widely regarded as an effective option to
+solve urban diseases [124–127]. It is an emerging strategy aiming to
+provide better life conditions to support the specific needs of each city
+for citizens by leveraging technologies to allocate urban resources more
+wisely [124–126].
+On the other hand, the Internet, a ICT based communication
+network, is changing our world and the way we living in a city [133],
+because some socioeconomic and other activities which depend on the
+internet, they have been called Digital economy [131] or E-commercial
+activities, have dramatically influence on population distribution and
+gradually changed the city.
+With the development of interdisciplinary research, urban land use
+models have been combined with other related models to develop new
+models. For example, the LUTI model was developed by combining
+transportation and urban land use models.
+Studies on the mechanism of urban development gradually realized
+the influence of science, technology, economy, culture, site, policy and
+social structure on urban sprawl [138]. Although urban models differ in
+various aspects and details, the purpose of urban modelling is the same.
+They try to provide practical tools for urban analyses that seek firstly to
+understand and describe the mechanism of urban evolution, including
+governing urban structures and behaviour of the urban system. Sec­
+ondly, they aim to predict the consequences of future policy decisions
+and scenarios of urban planning [13,16,23].
+ICT-based economic activities are gradually deeply influencing the
+organization form of urban factors and people’s travel behaviours. For
+example, some participants in economic activity are freed from geo­
+spatial constraints by ICT-based remote working. This significantly in­
+fluences personal transportation needs and behaviours as well as land
+attraction and population distribution.
+Therefore, urban modelling is facing more and more challenges. To
+accommodate an urbanizing world population, to provide insights
+which can help policy makers to solve that problem, a theoretical model
+that accurately analyses and predicts “urban evolution [28]” is needed.
+Moreover, in the past two years, after the COVID-19 outbreak, gov­
+ernments worldwide have adopted a series of containment measures for
+a while to decrease the growth rate of COVID-19. Those strict control
+11
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+Fig. 7. The impact of E-commerce on land attraction.
+
+measures suspend or reduce public transportation services and limit
+travel opportunities of the resident to leave home, and the influence of
+COVID-19 on human travel behaviors becomes a hot point. People are
+aware that the strict travel control measures effectively mitigated the
+spread of COVID-19 and significantly decreased transportation activ­
+ities, especially decreasing public passenger demand ridership. For
+example, in China and European countries, people are inclined to use
+“zero contact” transportation, such as bicycles, walking, and driving
+private vehicles to avoid public transportation. Even in Stockholm,
+Swedish, their local authorities did not implement strict lockdown
+measures, local public ridership has been decreased 60%. Meanwhile,
+the World bank’s data indicate a significant decrease in the economic
+growth rate of those main economic entities around the world after the
+COVID-19 outbreak.
+To reduce the negative effect of travel restrictions on the economy,
+China, the UK, the USA, Germany, and other countries have encouraged
+people to work at home. That greatly decreases the commute needs of
+people and increases remote-based economic activities. The Internet, an
+ICT based communication network, is changing our world and daily
+lives. They can be communicated and connected without transportation.
+The only they need is the Internet. Thus, ICT dramatically influenced
+population distribution and gradually changed the city during the
+COVID-19 period. It requires analysing the public transportation be­
+haviors at different scales, especially to reveal their underlying mecha­
+nism. Therefore, a profound impact and mechanism research of public
+transportation behaviors under the COVID-19 epidemic warrants further
+study.
+
+4.3. Machine learning in urban studies and urban models
+Nowadays, machine learning plays an important role in urban
+planning and land use and has been integral to urban stuidies for mutiple
+aspects [139], for example, urban growth simulation [140], traffic
+forecasting [141]. Combined with remote sensing, machine learning has
+been apllied in the field of land-use and land cover-change (LULCC)
+[142]. Modelling of LULCC effectively expanded the toolbox of territo­
+rial and urban planning.Meachine learning has greatly improved the
+efficiency of urban models. Data is the foundation for urban models.
+Timely and accurate data is crucial for urban planning and
+decision-making. Machine learning has significantly improved the effi­
+ciency of data production. For example, Satellite remote sensing pro­
+vides the advantage of quickly and frequently acquiring data in vast
+urban landscapes. [143] used machine learning models to process urban
+remote sensing data, and the results showed that compared to tradi­
+tional data collection methods, the new approach achieved significant
+efficiency improvements.
+Meanwhile, machine learning excels at handling complex models. In
+the study of urban growth prediction, making accurate predictions is
+particularly challenging due to the existence of complex topological
+structures and the high-dimensional nature of datasets related to urban
+growth [144]. Traditional models often perform poorly when predicting
+urban growth. [144] conducted a study on urban growth in Florida using
+machine learning models, and the results showed that machine learning
+has higher accuracy compared to traditional methods (e.g., Logistic
+regression).
+12
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+Machine learning has the ability to analyse massive amounts of
+urban-related data such as geographical data and urban population data,
+and to classify, manage, summarize, and analyse various data from
+different sources. This can help urban planners better understand and
+meet the living needs of different groups, especially those vulnerable
+groups that are often easily ignored and concealed behind statistical
+averages.
+Deep neural network models are one of the most important compo­
+nents of machine learning. Their basic structure includes an input layer,
+a hidden layer, and an output layer. The input layer is responsible for
+receiving input data, the hidden layer performs nonlinear trans­
+formations on the data and feature extraction, and the output layer
+makes predictions or decisions based on the extracted features [145].
+With the improvement of computer performance, the computing power
+of deep neural network models is becoming stronger, and the scale of
+data processed and the complexity of tasks are rapidly increasing. After
+the transformer structure [146] was proposed in deep learning models,
+the number of parameters in deep learning models exceeded 100
+million, which is likely the earliest prototype of large models. Nowa­
+days, the total number of parameters in large models has exceeded one
+trillion. Large models have the same purpose as traditional models: to
+assist people in understanding, analysing, and replaying the develop­
+ment process of objective things, and evaluating and predicting their
+future trends and outcomes. Unlike traditional models, large models
+have more parameters and more powerful computing power, which can
+better adapt to large-scale data and complex tasks. When processing
+complex tasks, they can better capture the potential patterns in the data,
+thereby improving the accuracy and versatility of the model. Today,
+smart terminal devices such as smart watches and smartphones have
+become the most common and frequently used tools in people’s lives.
+With the help of these smart devices and ICT networks, the needs of
+almost every resident can be accurately reflected to urban planners.
+Therefore, the task of large models in urban modelling is to help urban
+planners process massive amounts of resident demand data and assist in
+making reasonable plans, as well as allocate urban resources more
+efficiently.
+Although machine learning has domenstrated remarkable perfor­
+mance in urban studies, the application of machine learning in urban
+studies is facing limitations and ethical risks.
+On one hand, machine learning requires a large amount of highquality data for training and annotation. Acquiring such data and
+ensuring its integrity and accuracy pose significant challenges. Addi­
+tionally, annotating these data also involves substantial costs, including
+time and financial resources. These factors pose difficulties and obsta­
+cles to the promotion and application of machine learning in urban
+studies.
+On the other hand, the field of urban planning involves a large
+amount of personal and sensitive data, such as population distribution,
+income, age, occupation, and so on. Collecting and using these data
+expose machine learning to ethical and legal risks. Furthermore, if a
+machine learning model is trained with external interference, its pre­
+dictions may be biased and unfair, potentially influencing the decisionmaking process of urban planning unfairly and affecting the overall
+welfare of society.
+
+than one urban centre. Meanwhile, urban system is an open system,
+which constantly interacts with external systems by population, mate­
+rial, energy and information exchange. Therefore, basis on those simple
+models of urban morphology, multiple disciplines, such as trans­
+portation and economic, have been involved in urban modelling. Fig. 8
+shows the timeline of urban modelling development.
+To understand the mechanism of urban development, elements of
+cities such as natural and socioeconomic resources and population are
+divided into many urban factors by character, for example educational,
+medical, financial, working and other factors. The geographical distri­
+bution of urban factors has played an important role in urban develop­
+ment [8,138]. Concepts, such as urban structure and urban
+agglomeration, have been proposed to analyses and describe the dis­
+tribution and organization of urban land use and urban factors. Those
+urban factors create driving forces of urbanization [113].
+From a macro viewpoint, individual interaction behaviours between
+urban factors are influenced by the context of macro trends. Those in­
+dividuals are regarded as several groups and the behaviour of each
+group will show homogeneity on a certain level. Based on that, topdown models, including the gravity model and entropy maximization,
+have been proposed.
+From a micro viewpoint, those urban factors will interact with others
+subconsciously or unconsciously and spontaneously produce urban form
+as consequence. This process is called “self-organization” [105–107].
+Based on that, bottom-up models, which focus on the micro-level,
+elemental or individualistic, to representing behaviours and in­
+teractions of those objects through space and time [13], have been
+developed, such as CA and agent-based models.
+To reduce resource consumption and increase utilization efficiency,
+several theories have been proposed. For example, optimal urban form
+theories explore the relationship between urban size, the organization
+form of urban factors and driving forces for urban developments. Smart
+cities try to use ICT-based information systems to promote the level of
+urban management and solve urban diseases that depreciate driving
+forces for urban developments.
+We expect that in the future, the connection between different dis­
+ciplines involved in urban studies will become closer, especially in urban
+planning, where urban land use and transportation planning need to be
+integrated. Models of economics, transportation, geography, sociology,
+and management are beginning to be integrated into a complex com­
+posite. We believe that adjacent disciplines will merge first, such as land
+science and transportation science, which will further develop an inte­
+grated planning model for land and transportation based on the existing
+models, such as LUTI models.
+With the help of emerging technologies such as smart devices and
+large models, future urban models may achieve macro and micro uni­
+fication, and there will no longer be a clear distinction between topdown and bottom-up models. To handle these massive amounts of
+data, based on the current development situation, we believe that ma­
+chine learning is the technical foundation for the micro-macro integra­
+tion of urban models, and the technical foundation for the integration of
+multidisciplinary knowledge into multi-dimensional urban models.
+
+5. Summary and conclusion
+
+Jing Wang: Project administration, Funding acquisition. Gengze Li:
+Writing – review & editing, Writing – original draft, Resources, Project
+administration, Methodology, Formal analysis, Conceptualization.
+Huapu Lu: Validation, Supervision, Project administration. Zhouhao
+Wu: Resources, Software.
+
+CRediT authorship contribution statement
+
+In this paper, we have reviewed the development of urban models. In
+the initial stage, location was the root point of urban study. A certain
+region was dominated by the highest population density gradient zone,
+which became the urban centre, and the urban centre was regarded as an
+entry-point to study the relationship between urban centre location and
+the distribution of urban factors. A series of simple models were created
+to describe this pattern. For example, in the early 1920s, Ernest W.
+Burges proposed his famous concentric-zone model [36,147] and
+“wedge-shaped sectors” [37] . However, large cities usually have more
+
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+13
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+
+Fig. 8. Urban modelling development.
+
+Data availability
+
+[23] M. Batty, Urban modeling. International encyclopedia of Human Geography,
+Elsevier, Oxford, 2009.
+[24] Q. Bi, K.E. Goodman, J. Kaminsky, J. Lessler, What is machine learning? A primer
+for the epidemiologist, Am. J. Epidemiol. 188 (2019) 2222–2239.
+[25] L. Mumford, What is a city, Archit. Rec. 82 (1937) 59–62.
+[26] R.T. LeGates, F. Stout, The City Reader, Routledge, 2015.
+[27] V.G. Childe, The urban revolution, Town Plan. Rev. 21 (1950) 3.
+[28] G. Sjoberg, The origin and evolution of cities, Sci. Am. 213 (1965) 54–62.
+[29] X. Gabaix, Y.M. Ioannides, The Evolution of City Size distributions, in: Handbook
+of Regional and Urban Economics, Elsevier, 2004, pp. 2341–2378.
+[30] H.A. Makse, S. Havlin, H.E. Stanley, Modelling urban growth patterns, Nature
+377 (1995) 608.
+[31] Q. Yang, S. Wu, D. Lu, Preliminary study on geographical potential in regional
+development [J], Econ. Geogr. (2003) 4.
+[32] H.S. Sudhira, T.V. Ramachandra, K.S. Jagadish, Urban sprawl: metrics, dynamics
+and modelling using GIS, Int. J. Appl. Earth Obs. Geoinf. 5 (2004) 29–39.
+[33] Y.-H. Tsai, Quantifying urban form: compactness versus’ sprawl, Urban Stud. 42
+(2005) 141–161.
+[34] G. Li, F. Li, Urban sprawl in China: differences and socioeconomic drivers, Sci.
+Total Environ. 673 (2019) 367–377.
+[35] Burgess, E.W., 1929. Urban areas, an Experiment in Social Science Research.
+Chic. Univ. Smith TV White LD Eds.
+[36] W.B. Meyer, The other Burgess model, Urban Geogr 21 (2000) 261–270.
+[37] H. Hoyt, The Structure and Growth of Residential Neighborhoods in American
+cities, US Government Printing Office, 1939.
+[38] K. Schwirian, Ecological Models of Urban Form: Concentric Zone Model, the
+Sector Model, and the Multiple Nuclei Model, Blackwell Encycl. Sociol, 2007.
+[39] L. Adolphe, A simplified model of urban morphology: application to an analysis of
+the environmental performance of cities, Environ. Plan. B Plan. Des. 28 (2001)
+183–200.
+[40] D. Abuya, M. Oyugi, E. Oyaro, Management of the effects of land use changes on
+urban infrastructure capacity: a case study of Ruaka Town, Kiambu County,
+Kenya, Am. J. Geogr. Inf. Syst. 8 (2019) 158–190.
+[41] G. Zhou, J. Zhang, C. Li, Y. Liu, Spatial pattern of functional urban land
+conversion and expansion under rapid urbanization: a case study of Changchun,
+China, Land (Basel) 11 (2022) 119.
+[42] J.W. Forrester, Industrial Dynamics. A major breakthrough for decision makers,
+Harv. Bus. Rev. 36 (1958) 37–66.
+[43] S.P. Shepherd, A review of system dynamics models applied in transportation,
+Transp. B Transp. Dyn. 2 (2014) 83–105.
+[44] W.G. Hansen, How accessibility shapes land use, J. Am. Inst. Plann. 25 (1959)
+73–76.
+[45] I.S. Lowry, A Model of Metropolis, Rand Corp Santa Monica Calif, 1964.
+[46] M. Batty, Progress, success, and failure in urban modelling, Environ. Plan. A 11
+(1979) 863–878.
+[47] D.B. Lee Jr, Requiem for large-scale models, J. Am. Inst. Plann. 39 (1973)
+163–178.
+[48] M. Batty, S. Mackie, The calibration of gravity, entropy, and related models of
+spatial interaction, Environ. Plan. A 4 (1972) 205–233.
+[49] Isard, W., 1956. Location and space-economy.
+[50] W. Isard, The scope and nature of regional science, Pap. Reg. Sci. 6 (1960) 9–34.
+
+No data was used for the research described in the article.
+References
+[1] P.H. Verburg, N. Crossman, E.C. Ellis, A. Heinimann, P. Hostert, O. Mertz,
+H. Nagendra, T. Sikor, K.-H. Erb, N. Golubiewski, Land system science and
+sustainable development of the earth system: a global land project perspective,
+Anthropocene 12 (2015) 29–41.
+[2] Christian, C.S., 1957. The concept of land units and land systems.
+[3] D. Müller, D.K. Munroe, Current and Future Challenges in Land-Use Science,
+Taylor & Francis, 2014.
+[4] R. Aspinall, Editorial: land use science, J. Land Use Sci. 1 (2006) 1–4.
+[5] P.H. Verburg, P. Alexander, T. Evans, N.R. Magliocca, Z. Malek, M.D. Rounsevell,
+J. van Vliet, Beyond land cover change: towards a new generation of land use
+models, Curr. Opin. Environ. Sustain. 38 (2019) 77–85.
+[6] R.J. Johnston, City and society: An outline For Urban Geography, Routledge,
+2013.
+[7] P.J. Rimmer, Transport geography, Prog. Hum. Geogr. 12 (1988) 270–281.
+[8] M. Batty, Cities and complexity: Understanding Cities With Cellular automata,
+Agent-Based models, and Fractals, a, The MIT press, 2007.
+[9] C. Kennedy, J. Cuddihy, J. Engel-Yan, The changing metabolism of cities, J. Ind.
+Ecol. 11 (2007) 43–59.
+[10] C. Kennedy, S. Pincetl, P. Bunje, The study of urban metabolism and its
+applications to urban planning and design, Environ. Pollut. 159 (2011)
+1965–1973.
+[11] A. Wolman, The metabolism of cities, Sci. Am. 213 (1965) 178–193.
+[12] P.M. Allen, M. Sanglier, Dynamic models of urban growth, J. Soc. Biol. Struct. 1
+(1978) 265–280.
+[13] M. Batty, Urban Modelling, a, Cambridge University Press, Cambridge, 1976.
+[14] b M. Batty, Complexity in city systems: understanding, evolution, and design, in:
+G Roo, EA Silva (Eds.), Complexity in city systems: understanding, evolution, and
+design, Planner’s Encount. Complex (2007) 99–122.
+[15] M. Batty, Fifty years of urban modeling: macro-statics to micro-dynamics. The
+Dynamics of Complex Urban Systems, Springer, 2008, pp. 1–20.
+[16] D. Foot, Operational Urban models: an Introduction, Routledge, 2017.
+[17] R. Cordera, Á. Ibeas, L. dell’Olio, B. Alonso, Land Use–Transport Interaction
+Models, CRC press, 2017.
+[18] E. Borukhov, Optimality in city size and systems of cities: a comment, Urban Stud
+12 (1975) 325–328.
+[19] X. Guan, H. Wei, S. Lu, Q. Dai, H. Su, Assessment on the urbanization strategy in
+China: achievements, challenges and reflections, Habitat Int 71 (2018) 97–109.
+[20] R. Arnott, Optimal city size in a spatial economy, J. Urban Econ. 6 (1979) 65–89.
+[21] R. Capello, R. Camagni, Beyond optimal city size: an evaluation of alternative
+urban growth patterns, Urban Stud 37 (2000) 1479–1496.
+[22] O. Fisch, Optimal city size, the economic theory of clubs and exclusionary zoning,
+Public Choice 24 (1975) 59–70.
+
+14
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+[84] R. White, G. Engelen, High-resolution integrated modelling of the spatial
+dynamics of urban and regional systems, Comput. Environ. Urban Syst. 24 (2000)
+383–400.
+[85] Y. Feng, X. Tong, A new cellular automata framework of urban growth modeling
+by incorporating statistical and heuristic methods, Int. J. Geogr. Inf. Sci. 34
+(2020) 74–97.
+[86] M.D.A. Rounsevell, A. Arneth, P. Alexander, D.G. Brown, N. de Noblet-Ducoudré,
+E. Ellis, J. Finnigan, K. Galvin, N. Grigg, I. Harman, Towards decision-based
+global land use models for improved understanding of the Earth system, Earth
+Syst. Dyn. 5 (2014) 117.
+[87] B.C. Pijanowski, A. Tayyebi, J. Doucette, B.K. Pekin, D. Braun, J. Plourde, A big
+data urban growth simulation at a national scale: configuring the GIS and neural
+network based land transformation model to run in a high performance
+computing (HPC) environment, Environ. Model. Softw. 51 (2014) 250–268.
+[88] P.V. Thakuriah, N.Y. Tilahun, M. Zellner, Big data and urban informatics:
+innovations and challenges to urban planning and knowledge discovery. Seeing
+Cities through Big Data, Springer, 2017, pp. 11–45.
+[89] G. Grekousis, Artificial neural networks and deep learning in urban geography: a
+systematic review and meta-analysis, Comput. Environ. Urban Syst. 74 (2019)
+244–256.
+[90] J.P. Simon, Artificial intelligence: scope, players, markets and geography, Digit.
+Policy Regul. Gov. (2019).
+[91] C.-Y. Man, O.F. Shyr, Y.-Y. Hsu, S. Shepherd, H.-L. Lin, C.-H. Tu, Tourism,
+transport, and land use: a dynamic impact assessment for Kaohsiung’s Asia New
+Bay Area, J. Simul. 14 (2020) 304–315.
+[92] M. Batty, Urban Modelling, b, Cambridge University Press, Cambridge, 1976.
+[93] 牛方曲刘卫东宋涛 Fangqu Niu, Weidong Liu, Tao Song, LUTI 模型原理, 实现及应
+用综述 (Theory implementation and applicatioins of LUTI model), 人文地理
+(Human Geogr.) 29 (2014) 31–35, 118.
+[94] J.W. Forrester, J.W. Forrester, Urban Dynamics, 114, mIt press, Cambridge, 1969.
+[95] P. Sanders, F. Sanders, Spatial urban dynamics, in: Proceedings of the 2004
+International System Dynamics Conference, Oxford, UK, 2004.
+[96] N. Gilbert, Agent-based Models, Sage Publications, 2019. Incorporated.
+[97] Y. Li, M. Chen, Z. Dou, X. Zheng, Y. Cheng, A. Mebarki, A review of cellular
+automata models for crowd evacuation, Phys. Stat. Mech. Its Appl. (2019).
+[98] Z. Yang, Development of optimal city size theory: a critical view, J. Resour. Ecol.
+11 (2020) 100–110.
+[99] W. Alonso, Location and land use, Toward a general theory of land rent. Locat.
+Land Use Gen. Theory Land Rent. (1964).
+[100] A. Anas, T. Hiramatsu, The effect of the price of gasoline on the urban economy:
+from route choice to general equilibrium, Transp. Res. Part Policy Pract. 46
+(2012) 855–873.
+[101] 万励金鹰 Li Wan, Jin Ying, 国外应用城市模型发展回顾与新型空间政策模型综述
+(Review on applied urban modeling and new trends of urban spatial plocy
+models), 城市规划学刊 (Urban Plann. Forum) 1 (2014) 81–91.
+[102] A. Anas, T. Hiramatsu, RELU-TRAN: applications and challenges, 国際公共政策研
+究 16 (2011) 153–162.
+[103] T.W. Hertel, S. Rose, S. RICHARD, Land use in computable general equilibrium
+models: an overview. Economic Analysis of Land Use in Global Climate Change
+Policy, Routledge, 2009, pp. 23–50.
+[104] A. Anas, Y. Liu, A regional economy, land use, and transportation model (relutran©): formulation, algorithm design, and testing, J. Reg. Sci. 47 (2007)
+415–455.
+[105] P.M. Allen, M. Sanglier, Urban evolution, self-organization, and decision making,
+Environ. Plan. A 13 (1981) 167–183.
+[106] W.R. Ashby, Principles of the self-organizing system. Facets of Systems Science,
+Springer, 1991, pp. 521–536.
+[107] B. Boonstra, L. Boelens, Self-organization in urban development: towards a new
+perspective on spatial planning, Urban Res. Pract. 4 (2011) 99–122.
+[108] J. Liu, J. Zhan, X. Deng, Spatio-temporal patterns and driving forces of urban land
+expansion in China during the economic reform era, AMBIO J. Hum. Environ. 34
+(2005) 450–456.
+[109] N.R. Council, G.S. Committee, Advancing Land Change modeling: Opportunities
+and Research Requirements, National Academies Press, 2014.
+[110] A. Crooks, C. Castle, M. Batty, Key challenges in agent-based modelling for geospatial simulation, Comput. Environ. Urban Syst. 32 (2008) 417–430.
+[111] P. Perez, A. Banos, C. Pettit, Agent-based Modelling For Urban Planning Current
+Limitations and Future trends, in: International Workshop On Agent Based
+Modelling of Urban Systems, Springer, 2016, pp. 60–69.
+[112] M. Wegener, The future of mobility in cities: challenges for urban modelling,
+Transp. Policy 29 (2013) 275–282.
+[113] C. Gu, Urbanization: processes and driving forces, Sci. China Earth Sci. 62 (2019)
+1351–1360.
+[114] M. Batty, Can it happen again? Planning support, Lee’s Requiem and the rise of
+the smart cities movement, Environ. Plan. B Plan. Des. 41 (2014) 388–391.
+[115] R.F. Tomlinson, A geographical information system for regional planning, in:
+Papers of a CSIRO Symposium Organized in Cooperation with UNESCO 26-31
+August 1968, Macmillan of Australia, 1968.
+[116] M.F. Goodchild, GIS in the era of big data, Cybergeo Eur. J. Geogr. (2016).
+[117] A. Wolman, The metabolism of cities, Sci. Am. 213 (1965) 178–193.
+[118] C. Kennedy, J. Cuddihy, J. Engel-Yan, The changing metabolism of cities, J. Ind.
+Ecol. 11 (2007) 43–59.
+[119] D. Julong, Introduction to grey system theory, J. Grey Syst. 1 (1989) 1–24.
+[120] W.R. Ashby, Principles of the self-organizing system. Facets of Systems Science,
+Springer, 1991, pp. 521–536.
+
+[51] K.F. Wieand, An extension of the monocentric urban spatial equilibrium model to
+a multicenter setting: the case of the two-center city, J. Urban Econ. 21 (1987)
+259–271.
+[52] M. Batty, A generic framework for computational spatial modelling. Agent-Based
+Models of Geographical Systems, Springer, 2012, pp. 19–50.
+[53] F. Niu, J. Li, An activity-based integrated land-use transport model for urban
+spatial distribution simulation, Environ. Plan. B Urban Anal. City Sci. 46 (2019)
+165–178.
+[54] M. Wegener, Overview of land-use transport models, Handb. Transp. Geogr. Spat.
+Syst. 5 (2004) 127–146.
+[55] D. Banister, N. Lichfield, The key issues in transport and urban development.
+Transport and Urban Development, Routledge, 2003, pp. 11–26.
+[56] A. Gospodini, Urban development, redevelopment and regeneration encouraged
+by transport infrastructure projects: the case study of 12 European cities, Eur.
+Plan. Stud. 13 (2005) 1083–1111.
+[57] P. Pfaffenbichler, G. Emberger, S. Shepherd, The integrated dynamic land use and
+transport model MARS, Netw. Spat. Econ. 8 (2008) 183–200.
+[58] 牛方曲 Fangqu Niu, LUTI 模型的概念结构, 实现方法及发展趋势 (Overview of
+urban land-use/transport interaction model: origin, techniques and future), 地理
+科学 (Scientia Geographica Sinica) 37 (2017) 46–54.
+[59] K.T. Geurs, B. Van Wee, Land-use/transport interaction models as tools for
+sustainability impact assessment of transport investments: review and research
+perspectives, Eur. J. Transp. Infrastruct. Res. 4 (2004) 333–355.
+[60] A. Wilson, Boltzmann, Lotka and Volterra and spatial structural evolution: an
+integrated methodology for some dynamical systems, J. R. Soc. Interface 5 (2008)
+865–871.
+[61] M. Batty, C. Vargas, D. Smith, J. Serras, J. Reades, A. Johansson, SIMULACRA:
+fast land-use—transportation models for the rapid assessment of urban futures,
+Environ. Plan. B Plan. Des. 40 (2013) 987–1002.
+[62] A. Ford, R. Dawson, P. Blythe, S. Barr, Land-use transport models for climate
+change mitigation and adaptation planning, J. Transp. Land Use 11 (2018)
+83–101.
+[63] H. Lu, J. Wang, P. Zhang, Urban transport structure optimization based on energy
+consumption, J.-Tsinghua Univ. 44 (2004) 383–386.
+[64] P.H. Verburg, K.-H. Erb, O. Mertz, G. Espindola, Land System Science: Between
+Global Challenges and Local Realities, Elsevier, 2013.
+[65] L. An, Modeling human decisions in coupled human and natural systems: review
+of agent-based models, Ecol. Model. 229 (2012) 25–36.
+[66] M. Mitchell, M. Newman, Complex systems theory and evolution, Encycl. Evol.
+(2002) 1–5.
+[67] D.G. Green, S. Sadedin, Interactions matter—complexity in landscapes and
+ecosystems, Ecol. Complex. 2 (2005) 117–130.
+[68] 戴尔阜马良杨微石王亚慧尹乐童苗 Erbu Dai, Liang Ma, Weishi Yang, Yahui Wang,
+Le Yin, Miao Tong, 土地系统多主体模型的理论与应用 (Agent based model of land
+system: theory, application and modelling framework), 地理学报 (Acta
+Geographica Sinica) 74 (2019) 2260–2272.
+[69] A.R. Smith III, Cellular automata complexity trade-offs, Inf. Control 18 (1971)
+466–482.
+[70] S. Wolfram, Universality and complexity in cellular automata, Phys. Nonlinear
+Phenom. 10 (1984) 1–35.
+[71] D. Stevens, S. Dragićević, A GIS-based irregular cellular automata model of landuse change, Environ. Plan. B Plan. Des. 34 (2007) 708–724.
+[72] X. Li, Y. Chen, X. Liu, D. Li, J. He, Concepts, methodologies, and tools of an
+integrated geographical simulation and optimization system, Int. J. Geogr. Inf.
+Sci. 25 (2011) 633–655.
+[73] I. Santé, A.M. García, D. Miranda, R. Crecente, Cellular automata models for the
+simulation of real-world urban processes: a review and analysis, Landsc. Urban
+Plan. 96 (2010) 108–122.
+[74] X. Li, P. Gong, Urban growth models: progress and perspective, Sci. Bull. 61
+(2016) 1637–1650.
+[75] J.D. Farmer, D. Foley, The economy needs agent-based modelling, Nature 460
+(2009) 685.
+[76] D. Valbuena, P.H. Verburg, A.K. Bregt, A. Ligtenberg, An agent-based approach to
+model land-use change at a regional scale, Landsc. Ecol. 25 (2010) 185–199.
+[77] D.G. Brown, D.T. Robinson, Effects of heterogeneity in residential preferences on
+an agent-based model of urban sprawl, Ecol. Soc. (2006) 11.
+[78] P. Davidsson, L. Henesey, L. Ramstedt, J. Törnquist, F. Wernstedt, An analysis of
+agent-based approaches to transport logistics, Transp. Res. Part C Emerg.
+Technol. 13 (2005) 255–271.
+[79] D.G. Brown, R. Riolo, D.T. Robinson, M. North, W. Rand, Spatial process and data
+models: toward integration of agent-based models and GIS, J. Geogr. Syst. 7
+(2005) 25–47.
+[80] J. Gil-Quijano, T. Louail, G. Hutzler, From biological to urban cells: lessons from
+three multilevel agent-based models, in: International Conference on Principles
+and Practice of Multi-Agent Systems, Springer, 2010, pp. 620–635.
+[81] C. Le Page, D. Bazile, N. Becu, P. Bommel, F. Bousquet, M. Etienne, R. Mathevet,
+V. Souchere, G. Trébuil, J. Weber, Agent-based modelling and simulation applied
+to environmental management. Simulating Social Complexity, Springer, 2017,
+pp. 569–613.
+[82] D.C. Parker, S.M. Manson, M.A. Janssen, M.J. Hoffmann, P. Deadman, Multiagent systems for the simulation of land-use and land-cover change: a review,
+Ann. Assoc. Am. Geogr. 93 (2003) 314–337.
+[83] E.F. Lambin, H.J. Geist, E. Lepers, Dynamics of land-use and land-cover change in
+tropical regions, Annu. Rev. Environ. Resour. 28 (2003) 205–241.
+
+15
+
+J. Wang et al.
+
+Sustainable Futures 7 (2024) 100181
+[135] V.K. Aggarwal, C.E. Morrison, Asia-Pacific crossroads: Regime creation and the
+Future of APEC, St. Martin’s Press, New York, 1998.
+[136] L. Wan, Y. Yun, J. Ni, The geo-space of Taobao village in China: theoretical
+framework based on space of flows, City Plan. Rev. 41 (2017) 27–34.
+[137] P.G. Hall, K. Pain, The Polycentric metropolis: Learning from Mega-City Regions
+in Europe, Routledge, 2006.
+[138] R. Osborne, Urban sprawl: what is urbanization and why does it matter?, in:
+Proceedings-British Academy Oxford University Press INC., 2005, p. 1.
+[139] J. Wang, F. Biljecki, Unsupervised machine learning in urban studies: a systematic
+review of applications, Cities 129 (2022) 103925, https://doi.org/10.1016/j.
+cities.2022.103925.
+[140] A. Albert, E. Strano, J. Kaur, M. González, Modeling urbanization patterns with
+generative adversarial networks, in: IGARSS 2018-2018 IEEE International
+Geoscience and Remote Sensing Symposium, IEEE, 2018, pp. 2095–2098.
+[141] C. Chen, Z. Liu, S. Wan, J. Luan, Q. Pei, Traffic flow prediction based on deep
+learning in internet of vehicles, IEEE Trans. Intell. Transp. Syst. 22 (2020)
+3776–3789.
+[142] J. Wang, M. Bretz, M.A.A. Dewan, M.A. Delavar, Machine learning in modelling
+land-use and land cover-change (LULCC): current status, challenges and
+prospects, Sci. Total Environ. 822 (2022) 153559, https://doi.org/10.1016/j.
+scitotenv.2022.153559.
+[143] L. Lin, L. Di, C. Zhang, L. Guo, H. Zhao, D. Islam, H. Li, Z. Liu, G. Middleton,
+Modeling urban redevelopment: a novel approach using time-series remote
+sensing data and machine learning, Geogr. Sustain. (2024), https://doi.org/
+10.1016/j.geosus.2024.02.001.
+[144] Y. Kim, A. Safikhani, E. Tepe, Machine learning application to spatio-temporal
+modeling of urban growth, Comput. Environ. Urban Syst. 94 (2022) 101801,
+https://doi.org/10.1016/j.compenvurbsys.2022.101801.
+[145] G. Montavon, W. Samek, K.-R. Müller, Methods for interpreting and
+understanding deep neural networks, Digit. Signal Process. 73 (2018) 1–15.
+[146] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez, Ł. Kaiser,
+I. Polosukhin, Attention is all you need, Adv. Neural Inf. Process. Syst. (2017) 30.
+[147] B. Ernest, Concentric Zone" Model of Urban Structure and Land Use, Landmark
+Publ, 1925, p. 125.
+
+[121] M. Fujita, P. Krugman, T. Mori, On the evolution of hierarchical urban systems,
+Eur. Econ. Rev. 43 (1999) 209–251.
+[122] G. Li, S. Wang, J. Li, The transport impedance disparity indicator: a case study of
+Xi’an, China. Environ. Sustain. Indic. (2023) 100257, https://doi.org/10.1016/j.
+indic.2023.100257.
+[123] L. Zhou, L. Wei, D. López-Carr, X. Dang, B. Yuan, Z. Yuan, Identification of
+irregular extension features and fragmented spatial governance within urban
+fringe areas, Appl. Geogr. 162 (2024) 103172, https://doi.org/10.1016/j.
+apgeog.2023.103172.
+[124] A. Caragliu, C. Del Bo, P. Nijkamp, Smart cities in Europe, J. Urban Technol. 18
+(2011) 65–82.
+[125] R.G. Hollands, Will the real smart city please stand up? City: analysis of urban
+trend, culture, theory, Policy Action 12 (2008) 303–320.
+[126] J.M. Shapiro, Smart cities: quality of life, productivity, and the growth effects of
+human capital, Rev. Econ. Stat. 88 (2006) 324–335.
+[127] L. Shen, Z. Huang, S.W. Wong, S. Liao, Y. Lou, A holistic evaluation of smart city
+performance in the context of China, J. Clean. Prod. 200 (2018) 667–679.
+[128] H. Wang, M. Zhang, M. Zhong, Opportunities and challenges for the construction
+of a smart city geo-spatial framework in a small urban area in central China,
+Smart Cities 2 (2019) 245–258.
+[129] S. Greenfield, Tomorrow’s people: How 21st-century Technology is Changing the
+Way We Think and Feel, Penguin UK, 2004.
+[130] R.P. Dameri, F. Ricciardi, Leveraging smart city projects for benefitting citizens:
+the role of ICTs. Smart City Networks, Springer, 2017, pp. 111–128.
+[131] D. Tapscott, The Digital economy: Promise and Peril in the Age of Networked
+Intelligence, McGraw-Hill New York, 1996.
+[132] Y. Lin, E-urbanism: e-commerce, migration, and the transformation of Taobao
+villages in urban China, Cities 91 (2019) 202–212.
+[133] M. Foth, P. Mitchell, C. Estrada-Grajales, Today’s internet for tomorrow’s cities:
+on algorithmic culture and urban imaginaries, Second Int. Handb. Internet Res.
+(2020) 725–746.
+[134] L. Zhendong, H. Heming, L. Caige, A new bottom-up process: the rural
+urbanization driven by e-commerce in China, China City Plan. Rev. 26 (2017).
+
+16
+
+

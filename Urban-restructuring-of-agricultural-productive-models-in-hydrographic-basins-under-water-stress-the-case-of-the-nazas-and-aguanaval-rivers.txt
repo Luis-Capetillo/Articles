@@ -1,0 +1,576 @@
+Barrios Avalos, J. J., & Franquesa Sánchez, J. (2023). Urban Restructuring of Agricultural
+Productive Models in Hydrographic Basins Under Water stress. the Case of the Nazas
+and Aguanaval Rivers. archiDOCT, 19(11 (1)).
+
+ArchiDOCT 19, 11 (1) TEMPORALITIES ii
+
+Urban Restructuring of Agricultural Productive Models in
+Hydrographic Basins Under Water stress. the Case of the Nazas and
+Aguanaval Rivers
+Juan José Barrios Avalos1, Jordi Franquesa Sánchez, PhD Arch.1
+
+a
+
+1 Departament d'Urbanisme i Ordenació del Territori, Universitat Politècnica de Catalunya
+
+Keywords: Stream restoration, water urbanism, hydrographic basin, water stress, urban restructuring
+
+archiDOCT
+Vol. 19, Issue 11 (1), 2023
+
+The history of a town is often the history of its water. Managing and distributing water
+resources makes a huge impact on the transformation of the territory, even more so in
+contexts where water scarcity is increasing, either due to site specific geographic
+conditions, production dynamics or the effects of climate change. The urban and rural
+cores within the limits of the hydrographic basins introduce alterations to the hydric
+dynamics through logics of occupation and growth on the territory, and by the
+interaction of its pieces with the hydrological infrastructure. These logics are configured
+in a determined space-time, coexist in their current form and as a sequel to the territorial
+present. It is through temporality that they can be understood to determine their future
+in the urban-water system.
+Fluvial restoration and urban planning must have a boundary-driven, multi-scope
+approach: on the flows of the productive territory, the large agricultural areas, and the
+hydrological infrastructure. Dams, wells and canals must be fundamental elements in the
+restructuring. This article presents the case of the Nazas-Aguanaval hydrographic region.
+One of the main objectives of this research is to identify the agro-productive models of
+the basin and its dynamics with the hydrological infrastructure.
+The article shows that the water stabilization of the region depends on the urban
+restructuring of all its populations and its synergies with agro-productive processes,
+through the analysis of its logics sustained and modified over time. Temporality as a
+structural tool for analysis is essential to develop fluvial restoration strategies in basins
+under hydric stress.
+
+a I am architect an town planner, and professor at the Architecture School in Barcelona (ETSAB), in the Urbanism and Regional Plan-
+
+ning Department, from 1996. The doctoral thesis “A rediscovered urban experience. Garden Communities in Catalunya” obtained
+the qualification of Excellent Laude, and also obtained the Extraordinary Doctorate Award of the UPC, which resulted in the publication of the work in a book. The line of research on low-density residency allowed me to deepen my research and the publication
+of some articles in different indexed journals, and also encouraged my first active participation in a consolidated R+D project on
+the rehabilitation of monofunctional residential areas, and specifically urbanizations. During this period of intense research, I gave
+lectures on low-density residency in different countries, including Brazil (Goiânia), Venice, Lisbon, Holland and Mexico. Since 2012 I
+am part of the Urban Planning Research Group (GRU), a consolidated research group of the Generalitat de Catalunya.
+During the last four years I have led a line of research on repopulation and rural development that aims to seek a necessary territorial rebalancing of human settlements and the revitalization of the territory. The period of confinement derived from COVID has
+generated pressure on rural land, and it is necessary to take advantage of this trend to revitalize the territories and boost their
+economy, take advantage of the environmental asset and improve the social conditions of rural communities. I have carried out
+numerous workshops and subjects on rural repopulation, and I have recently led the strategic plan for rural revitalization in Central
+Catalonia. From the Department of Urbanism and Regional Planning of the ETSAB I’m carrying out numerous research studies on
+this topic, and several exhibitions have been held on this topic.
+In parallel to this line of work, my concern about teaching architecture and improving the learning of university students gradually
+opened up a new field of research. In order to provide a more solid structure to this concern, in 2012 I founded, together with two
+colleagues, the new GILDA research group, “Group for Innovation and Teaching Logistics in Architecture”, of which I am director,
+and is considered an emerging group by the UPC. At the same time, the position of Head of Studies of the ETSAB during 2014-2018
+has allowed me to know the real possibilities of the implementation of teaching methodologies in undergraduate courses and to
+obtain some experiences that have contributed to improving teaching in the following years.
+The teaching innovation also involved the participation as PI of the ETSAB in the international project Erasmus+ “Confronting
+Wicked Problems. Adapting Architectural Education to the New Situation in Europe”, developed between 2015 and 2017, with the
+participation of different European schools in research on the relationship between university teaching and professional activity,
+which has resulted in the preparation of a document of criteria that I directed.
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Cas…
+
+1. Introduction
+In Mexico, high rates of hydric stress are observed in
+certain hydrographic basins due to the intense degree of
+pressure exerted on surface waters in conjunction with the
+contamination of aquifers. This is a consequence of the
+low integration of productive processes with the ecosystem,
+which finally causes alterations in the hydrological cycle.
+This phenomenon is more evident in mono-productive
+communities of agricultural and/or extractive scenarios.
+In particular, central and northwestern Mexico present a
+high degree of pressure on water resources. These regions
+use up to 40% of the available renewable water in the basin
+for agricultural production. In these areas, in addition to
+finding kilometers of irrigation canals woven between the
+agricultural fields that also cross the urban fabric, there are
+large dams for storage and distribution of water in order to
+serve the agricultural cycles of the irrigation districts. According to the estimates of the Food and Agriculture Organization (FAO, 2011) Mexico ranks 7th in the world classification of countries with the highest water extraction and
+percentage of agricultural use with a total of 87,84 thousand million m3/year. Of this total, 76% is used for agricultural activities (CONAGUA, 2018). According to the projections of the World Water Assessment Program (WWAP) of
+UNESCO, by the year 2050, agricultural activity will need to
+increase its production by 60% globally. Developing countries will need to increase production by 100%.
+Consequently, the values of virtual water for basic products suggest that the hydrographic basins should be protected and the communities within their limits restructured
+to safeguard the hydrological cycle. These values include:
+15.415 liters needed to produce 1 kilogram of beef, 1.222
+liters per kilogram of corn, and 1.000 liters of water needed
+to procure 1 liter of milk (Arreguín Cortés et al., 2007;
+CONAGUA, 2018).
+By determining water as the guiding axis of urban narrative, this research leans towards a water efficient urbanism.
+To generate urban proposals compatible with basin restoration, it is necessary to analyze the structure of the territory
+in all its components. In this field of territorial vision, the
+contributions of Xabier Eizaguirre (1990; 2019) are a valuable theoretical core, as well as the contributions of SolàMorales (1973; Manuel Solà-Morales, 1989) and Giuseppe
+Dematteis (2004). But also, practical approaches in the
+Mexican context, such as the efforts of Mario Schjetnan
+(2020) to value the roots of agricultural landscape and more
+
+specific analysis such as: Chairez Araiza (2005) in studying
+the impact of river regulation in the Laguna region. The
+objective is to combine the cartographic information available on indicators of water quality, degree of pressure on
+water resources, and agricultural production surfaces, with
+urban morphological information within the limits of the
+hydrographic basins, to build hydric-urban indicators and
+by them generate restructuring strategies for hydro-agricultural infrastructure and urban restructuring plans. The
+foregoing, to reformulate the agricultural mono-productive
+models present in the basins under hydric stress, in models
+that contribute to the objectives of hydric stabilization.
+Theoretical approaches to urban planning through the
+use of the hydrographic basin as a unit of urban analysis
+are in constant evolution. Regarding analysis and management, the next publications can be cited: (Dourojeanni et
+al., 2002), (Pallarés Serrano, 2007. From an instrumental
+view: (Leopold, 1968), (Hernández-Tapia, 2017), (Acosta et
+al., 2015), (Rotger, 2019), (Suárez López et al., 2014),
+(Duque & Echeverry, 2015), (Gómez et al., 2011). Also in
+the urban environment, there are approximations of a more
+epistemological order such as: (Vian et al., 2020),
+(Domínguez Serrano, 2013), (Escudé, 2010).
+
+2. Hydrological Region 36, Irrigation District 017
+and Irrigation Units
+1
+
+Hydrological region 36 is composed by 5 main basins
+subdivided into 33 sub-basins (Table.01). Together, they
+contain an area of 90,634.65 km2, in a perimeter of 3,312.43
+km2. A total of 1.125 towns are located on this area, of
+2
+which 1.058 are rural and 67 are urban. The sub-basin is
+the minimum unit of geospatial information provided by
+3
+CONAGUA, falling outside smaller units such as the micro4
+basin or the urban basin. The RH36 contains the defined
+limits of 27 aquifers, of which 9 are overexploited. They
+are those located in the Laguna region where the largest
+amount of population in the hydrographic region is concentrated.
+The hydrographic system contains the Nazas and Agua5
+naval rivers. Both endorheic channels flow into the lowlands of the hydrological region where a set of lagoons were
+once located, now dried up, including the Mayran lagoon
+(Nazas river) and the Viesca lagoon (Aguanaval river). The
+lower zone of RH36 lacks a constant flow in the natural
+courses of the Nazas and Aguanaval rivers, due to the effects of climate change, but mainly due to the construction
+
+1 The hydrographic basins in Mexico (757) are organized into 37 hydrological regions (RH), these regions represent 13 administrative hy-
+
+drological regions (RHA) (CONAGUA, 2018, p. 30). In this research, the RH is the study area limit because contains units defined by geographic relief and not by political-administrative boundaries such as the RH.
+
+2 In Mexico, the distinction between a rural and an urban town is made by its population size. This indicator, defined by the National In-
+
+stitute of Statistics and Geography of Mexico, specifies that any community with more than 2,500 inhabitants is urban.
+
+3 National Water Commission. Mexico.
+4 The limits of the aquifers identified by CONAGUA do not coincide entirely with the limits of the hydrographic basins, however, they are
+
+close, making it possible to group them within the hydrographic region.
+
+5 Is a closed basin that drains internally into lakes or swamps. An exorheic basin drains to a river or the ocean.
+
+archiDOCT
+
+2
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Cas…
+
+of hydro-agricultural infrastructure between the decades of
+1940-1970, through the incorporation of dams and irrigation canals. The hydro-agricultural infrastructure serves ir6
+rigation district 017, located in the RHA Laguna Region
+VII, which extends over 71.964 has, 49.835 are irrigated
+with surface water, the rest with groundwater (CONAGUA,
+7
+2018, p. 288). Additionally, irrigation units (UR) with a
+planted area of 295.723 has are added to this irrigated area.
+Paradoxically, despite the large amounts of water needed to
+produce milk, beef, or crops to feed cattle, the Laguna region is a large producer of dairy products and derivatives,
+dominant in Mexico and the American continent. This
+mono-productive cycle transforms the water resources of
+the RH36 into export products, compromising the return of
+the water in the basin to its natural cycle.
+The environmental problems of RH36 and DR017 are
+linked to poor management of water resources at the basin
+level. In addition to the scarcity of water in the Nazas and
+Aguanaval riverbeds in the lower basin, the aquifers have
+been at extreme levels of exploitation for decades that exceed recharge capacities due to the intensification of the
+pumping volume. The low availability of surface water is
+8
+concentrated in 75% for small owners and 25% for ejido
+communities (Cruz & Levine, 1998, p. 23). Under these circumstances, the rural-agricultural and urban-agricultural
+model of the region, (both of the mono-productive order)
+cause unsustainable stress for the hydrographic region. It is
+necessary to establish water balance strategies by reordering their models.
+
+3. Method
+Integration of geospatial data with hydric
+information
+Through GIS (Geographic Information System), the main
+vector data of water quality indicators and the degree of
+9
+pressure on water resources provided by the SINA are inte-
+
+grated. The superposition and geolocation of these indicators facilitates the observation of basins with high values of
+hydric stress in their geographical limits. The incorporated
+data for reading the hydric alterations in the hydrographic
+basins are listed in Figure 1.
+Additionally, the analysis of water quality indicators is
+complemented by the publications: Estadísticas del agua en
+México 2018 and Atlas del agua en México 2018 in order to
+obtain a holistic view of the state of surface and groundwater.
+
+Construction of hydric-urban cartography
+To build hydro-urban cartographic information compatible with the geospatial data of the hydrographic basins,
+and the available cultivation surfaces in the Mexican territory, an organization and hierarchy of the information
+layers is carried out with the help of GIS software, using
+a multi-scale approach from the geographic to the urban
+scale. Geostatistical data in vector format provided by IN10
+EGI, RAN and SINA are used. The information used is
+listed in Figure 2.
+
+Building footprint data generation
+In Mexico, building footprint vector data is not accessible on the INEGI open data system. At the cadastral level,
+11
+cartographic information is decentralized, and consequently depends on state and municipal administrations. In
+the RH36, the geospatial data of the buildings is not available in the majority of the cadastral institutes of the urban
+localities, nor in the rural communities of the basin. The
+efforts of the cadastral institutes are concentrated on homologating maps in raster format and do not have carto12
+graphic databases under an open data standard. For this
+reason, for a morphological analysis of all the towns of the
+basin it is necessary to generate the building information.
+
+6 “The DR are irrigation projects developed by the Federal government since 1926, the year the National Irrigation Commission was created, and
+
+include various projects, such as storage vessels, direct diversions, pumping plants, wells, canals and roads, among others. To date there are 86
+DR” (CONAGUA, 2018, p. 107).
+
+7 "URs are agricultural areas with infrastructure and irrigation systems that are different from the irrigation districts and generally have a
+
+smaller area. They can be integrated by user associations or other figures of organized producers, who associate with each other to provide the
+irrigation service with autonomous management systems and operate the hydraulic infrastructure works for the collection, derivation, conduction, regulation and distribution and eviction of national waters destined for agricultural irrigation (CONAGUA, 2018, p. 110).
+
+8 Developed with the agrarian reform and the agrarian law from 1915, is a type of land demarcation in Mexico. The organization of the
+
+ejido is a structure of collective land, undivided and without the possibility of being sold or inherited.
+
+9 National Water Information System of Mexico.
+10 National Agrarian Registry. Mexico.
+11 "The different levels of knowledge of the staff of each institution, the unequal allocation of resources, the different purposes of each responsible
+
+institution, changes in government administrations, among other situations, have motivated each agency to establish its own rules for the recruitment, generation, integration and dissemination of cadastral information that is within its competence, thereby implying that there is heterogeneous cadastral information, which makes its integration and exchange difficult" (INEGI, 2015a, p. 1)
+
+12 "There are municipalities that do not know their information in detail, do not have cadastral administrative records and do not safeguard and/
+
+or document their activities with the level of detail that allows composing a cadastral trend or structure at the national level" (INEGI, 2015b, p.
+10)
+
+archiDOCT
+
+3
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Cas…
+
+Figure 1. SINA (Water Quality)
+Source: Author. Information from: CONAGUA (2018).
+
+Figure 2. Main available geostatistical information for RH36
+Source: Author. Information from: INEGI, RAN and SINA.
+
+There are multiple vector generation techniques based
+on the analysis of high-resolution images in raster format
+resulting from geospatial information (Gede et al., 2020).
+13
+These methods include: semantic segmentation, neural
+14
+15
+16
+networks, machine learning, or artificial intelligence.
+All these technics can be used, in combination with GIS
+
+software for the extraction of vector information in specific
+geographic markers (Li et al., 2019), (Boos, 2018), (Borba
+et al., 2021). However, for the implementation of the mentioned tools, it is necessary to have high-resolution satellite images, and in those cases where there are no highresolution records in the requested coordinates, manual
+
+13 “Semantic segmentation aims to assign a categorical label to every pixel in an image, which plays an important role in image understanding
+
+and self-driving systems” (Wang et al., 2018, p. 1451).
+
+14 "Neural networks are a wide class of flexible nonlinear regression and discriminant models, data reduction models, and nonlinear dynamical
+
+systems. They consist of an often large number of “neurons,” i.e. simple linear or nonlinear computing elements, interconnected in often complex ways and often organized into layers" (Sarle, 1994, p. 1).
+
+15 "Machine-learning systems are used to identify objects in images, transcribe speech into text, match news items, posts or products with users’
+
+interests, and select relevant results of search. Increasingly, these applications make use of a class of techniques called deep learning" (LeCun et
+al., 2015, p. 436).
+
+16 "It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of us-
+
+ing computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable" (McCarthy,
+2004, p. 2).
+
+archiDOCT
+
+4
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Case of the Nazas and Aguanaval Rivers
+
+Figure 3. RH36 Multiscale hydro-urban analysis
+
+archiDOCT
+
+5
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Cas…
+
+vectorization is required. In order to generate the building
+information of the RH36 basins, a hybrid model is chosen,
+through the manual vectorization of medium resolution
+raster images and the use of semantic segmentation algorithm OTB-Segmentation included in QGIS this method allows obtaining a vectorial classification based on morphological profiles or basins.
+
+Urban and rural agricultural models
+In the context of this research, the model is composed by
+the urban or rural form of the community (streets, parcels,
+buildings), the productive agricultural surfaces, and their
+hydrological infrastructures. This composition enables a
+joint analysis of the productive flows and dynamics related
+to the consumption of water resources within the limits of
+the hydrographic basin.
+
+4. Urban restructuring
+With all the communities cataloged within the limits of
+the RH36, indicators are constructed combining the morpho-typological characteristics and the consumptive uses
+of water. The generation of these hydric-urban markers enables to visualize the territories under greater water pressure with urban and productive dynamics incompatible
+with a fluvial restoration project. Through this analysis,
+strategic criteria can be established for regional urban reorganization, in order to reduce the degree of pressure on
+water resources.
+The results of the analysis on the urban and rural communities of the basin, based on the examination of the hydric resources dynamics, enables a geographic-urban approach
+to
+urban
+planning
+rather
+than
+a
+political-administrative approximation. The local instruments defined by the individual administrations of the
+states and municipalities should be adapted to the basin
+regulations, in the processes of city and housing construction.
+Finally, it is pertinent to establish that the restructuring
+must protect the project logics of the communities (Raffa,
+2022) that has best combined with the natural context in its
+temporal dimension (Bartorila & Loredo-Cansino, 2021).
+To achieve this, it is necessary to analyze the historical urban operations and fundamental transformations through
+their link with the use of water resources.
+
+Restructuring through analysis of morphological
+patterns and water availability
+The communities belonging to the basin must be restructured, according to their capacities, to provide protection to the regional hydrological cycle, and their importance for the fluvial restoration of the rivers.
+Agro-productive models must adapt to a regional basin
+logic. The forms of settlement that mainly affect the
+riverbeds must be reorganized. For example: to reduce the
+dynamics of contamination and overexploitation of
+aquifers, it is necessary to build protection spaces on the
+riverbanks and main recharge areas of the basin.
+
+Restructuring of hydro-agricultural
+infrastructure
+Storage and distribution structures for water resources
+have the potential to offer regional ecosystem services. This
+quality is useful in territories under water stress. For example: protected spaces can be generated in the lower zone
+of the RH36, these spaces can be planned as controlled areas for aquifer recharge. The modernization of dams, canals
+and wells is essential to promote water stability. This modernization must be carried out considering the construction
+dynamics and urban organization models.
+
+5. Conclusions
+As can be seen from the results obtained, the methodology developed in this research is applicable to various
+hydrographic contexts. The quality of the results will be
+related to the availability and accessibility of the information in each case. It can be concluded that it is possible
+to integrate the databases of the main indicators of water
+quality and availability of water resources, with the databases of urban systems, urban equipment, infrastructures
+and streets to determine the degree of pressure that the
+models of contemporary city, exert on water resources. The
+degree of pressure on water resources can be determined
+with the capabilities of the urban model to offer aquifer
+recharge surfaces, agro-productive models that allow the
+return of water to the ecosystem, and water-efficient construction systems for buildings.
+In RH36, the proliferation of irrigation canals supported
+by the hydro-agricultural infrastructure has allowed the
+development of fluvio-dependent urban and rural models,
+with mono-productive tendencies, which have pushed the
+hydrographic reserves to the limit. These forms of anthropic organization are not compatible with a river
+restoration project for the Nazas and Aguanaval riverbeds,
+because their productive activities use water resources to
+generate products that do not allow the return of water to
+the hydrological cycle of the basin. The restructuring of all
+the RH36 communities implies the re-densification of their
+fabrics, the recategorization of productive spaces and the
+reconversion of obsolete infrastructures on a basin scale.
+Understanding the hydrological cycle of each basin allows us to understand the natural elementary units of the
+fluvial morphology, and it is the task of a reordering strategy to combine the built environment values with the water
+values, mainly in their materiality. It should also be noted
+that, although the basins are the unit of study selected
+for this research, these pieces are related on a larger scale
+to the contiguous basins, functioning as hydrographic regions, until they reach the continental limits. The hydrological cycle is finally a global cycle, and the elemental
+functionality depends on the understanding of the stages
+from its smallest scale to its maximum global levels.
+Submitted: June 17, 2022 GMT, Accepted: October 06, 2022
+GMT
+
+archiDOCT
+
+6
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Case of the Nazas and Aguanaval Rivers
+
+Figure 4. Restructuring based on hydro-urban indicators
+
+archiDOCT
+
+7
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Cas…
+
+References
+
+Acosta, F. M., Miguel, S., Fernandez, E., & Vorraber, L.
+(2015). Instrumentos de gestión urbanística y
+proyectos socio ambientales en las cuencas del
+AMBA, explorando tendencias en la planificación. In
+XXXIV Encuentro Arquisur 2015 y XIX Congreso de
+Escuelas y Facultades Públicas de Arquitectura de los
+países de América del Sur (La Plata, Argentina).
+Arreguín Cortés, F., López Pérez, M., Marengo
+Mogollón, H., & Tejeda González, C. (2007). Agua
+virtual en México.
+Bartorila, M. Á., & Loredo-Cansino, R. (2021). Cultural
+heritage and natural component. From reassessment
+to regeneration. ANUARI d’Arquitectura i Societat,
+1(1), 286–311. https://doi.org/10.4995/anuari.2021.16
+155
+Boos, M. (2018). Image Segmentation using Convolutional
+Neural Networks for Change Detection of Landcover
+[Doctoral dissertation, HSR Hochschule für Technik
+Rapperswil].
+Borba, P., de Carvalho Diniz, F., da Silva, N. C., & de
+Souza Bias, E. (2021). Building Footprint Extraction
+Using Deep Learning Semantic Segmentation
+Techniques: Experiments and Results. In 2021 IEEE
+International Geoscience and Remote Sensing
+Symposium IGARSS (pp. 4708–4711). IEEE. https://do
+i.org/10.1109/igarss47720.2021.9553855
+Chairez Araiza, C. (2005). El impacto de la regulación de
+los ríos en la recarga a los acuíferos: El caso del
+acuífero principal de la Comarca de La Laguna.
+CONAGUA. (2018). Estadísticas del Agua en México.
+Cruz, A., & Levine, G. (1998). El uso de las aguas
+subterráneas en el distrito de riego 017, Región
+Lagunera, México (p. 31). Instituto Internacional del
+Manejo del Agua.
+Dematteis, G. (2004). en el libro: Ramos, Á. M. (2005). Lo
+urbano en 20 autores contemporáneos (Vol. 7).
+Universitat Politecnica de Catalunya. Iniciativa
+Digital Politecnica.
+Domínguez Serrano, J. (2013). Agua y territorio: derechos
+de los ciudadanos y organización administrativa.
+Instituto Mexicano de Tecnología del Agua.
+Dourojeanni, A., Jouravlev, A., & Chávez, G. (2002).
+Gestión del agua a nivel de cuencas: teoría y práctica.
+Cepal.
+Duque, S. C., & Echeverry, P. G. (2015). Cuencas
+hidrográficas de los ríos Otún y Consota: Ejes
+estructuradores para la planeación y el desarrollo de
+Pereira. Revista Gestión y Región, 15, 105–122.
+Eizaguirre i Garaitagoitia, X. (1990). Los componentes
+formales del territorio rural: los modelos de estructuras
+agrarias en el espacio metropolitano de Barcelona: la
+masía como modelo de colonización en Torelló.
+Eizaguirre, X. (2019). El territorio como arquitectura.
+Llibre, Laboratori d’Urbanisme de Barcelona (UPC).
+Escudé, V. E. (2010). Aguas y urbanismo. Análisis de las
+tensiones competenciales derivadas del proceso de
+descentralización territorial.
+
+FAO. (2011). The state of the world’s land and water
+resources for food and agriculture – Managing systems
+at risk.
+Gede, M., Árcai, V., Vassányi, G., Supka, Z., Szabó, E.,
+Bordács, A., Varga, C. G., & Irás, K. (2020). Automatic
+vectorisation of old maps using qgis-tools,
+possibilities and challenges. In Automatic
+Vectorisation of Historical Maps Conference:
+International workshop organised by the ICA
+Commission on Cartographic Heritage into the Digital
+(Vol. 13, pp. 37–44). https://doi.org/10.21862/avhm20
+20.04
+Gómez, O. C., Quintanilla, O. F., Dávalos, A. G.,
+Restrepo, J. I. M., Farreras, J. M., & Andavert, D. V.
+(2011). Moravia como ejemplo de transformación de
+áreas urbanas degradadas: tecnologías apropiadas
+para la restauración integral de cuencas
+hidrográficas. Nova, 9(15), 41–52. https://doi.org/10.2
+2490/24629448.488
+Hernández-Tapia, G. M. (2017). Ríos urbanos. Análisis de
+la relación entre el desarrollo urbano y la pérdida de los
+ecosistemas fluviales.
+INEGI. (2015a). Cartografía Catastral Diagnostico
+Nacional.
+INEGI. (2015b). Perfil del catastro municipal. Perfil del
+catastro en México.
+LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep
+learning. Nature, 521(7553), 436–444. https://doi.org/
+10.1038/nature14539
+Leopold, L. B. (1968). Hydrology for urban land planning:
+A guidebook on the hydrologic effects of urban land use
+(Vol. 554). US Geological Survey. https://doi.org/10.31
+33/cir554
+Li, W., He, C., Fang, J., Zheng, J., Fu, H., & Yu, L. (2019).
+Semantic segmentation-based building footprint
+extraction using very high-resolution satellite images
+and multi-source GIS data. Remote Sensing, 11(4),
+403. https://doi.org/10.3390/rs11040403
+McCarthy, J. (2004). What is artificial intelligence.
+Pallarés Serrano, A. (2007). La planificación hidrológica
+de cuenca como instrumento de ordenación ambiental
+sobre el territorio.
+Raffa, A. (2022). Euro-Med abandoned small(er) towns.
+A landscape/ecological urbanism perspective for
+sustainable regeneration in Basilicata inlands.
+ANUARI d’Arquitectura i Societat, 2(2), 30–51. http
+s://doi.org/10.4995/anuari.2022.18151
+Rotger, D. (2019). Gestión de cuencas metropolitanas.
+Un abordaje desde el proyecto de paisaje. Caso:
+Arroyo del Gato, Región Metropolitana de Buenos
+Aires. Urbe. Revista Brasileira de Gestão Urbana, 11. ht
+tps://doi.org/10.1590/2175-3369.011.e20180036
+Sarle, W. S. (1994). Neural networks and statistical
+models.
+Schjetnan, M. (2020). Landscape design and agriculture:
+A Mexican perspective. In The Culture of Cultivation
+(pp. 48–63). Routledge. https://doi.org/10.4324/9780
+429340895-4
+
+archiDOCT
+
+8
+
+Urban Restructuring of Agricultural Productive Models in Hydrographic Basins Under Water stress. the Cas…
+
+Solà-Morales, M. (1973). Las formas de crecimiento
+urbano. Escola Tècnica Superior d’Arquitectura de
+Barcelona.
+Solà-Morales, Manuel. (1989). The culture of
+description. Perspecta, 25, 16–25. https://doi.org/10.2
+307/1567136
+Suárez López, J. J., Puertas, J., Anta, J., Jácome, A., &
+Álvarez-Campana, J. M. (2014). Gestión integrada de
+los recursos hídricos en el sistema agua urbana:
+Desarrollo Urbano Sensible al Agua como enfoque
+estratégico. Ingeniería del agua, 18(1), 111–123.
+
+Vian, F. D., Izquierdo, J. J. P., & Martínez, M. S. (2020).
+¿Qué es un río urbano? Propuesta metodológica para su
+delimitación en España. ACE: Arquitectura, Ciudad y
+Entorno.
+Wang, P., Chen, P., Yuan, Y., Liu, D., Huang, Z., Hou, X.,
+& Cottrell, G. (2018). Understanding convolution for
+semantic segmentation. In 2018 IEEE winter
+conference on applications of computer vision (WACV)
+(pp. 1451–1460). IEEE. https://doi.org/10.1109/wac
+v.2018.00163
+
+archiDOCT
+
+9
+
+
