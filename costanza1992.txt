@@ -1,0 +1,1286 @@
+Natural Capital and
+Sustainable Development
+ROBERT COSTANZA
+Director, Maryland International Institute for Ecological Economics
+Center for Environmental and Estuarine Studies
+
+University of Maryland
+
+Box 38, Solomons, MD 20688, US.A.
+
+HERMAN
+
+E. DALY*
+
+Environment Department
+The World Bank
+
+1818 H. Street, NW
+Washington, D.C. 20433, USA.
+
+Abstract: A minimum necessary condition for sustainabil-
+
+Resumen:
+
+ity is the maintenance of the total natural capital stock at or
+above the current level. While a lower stock of natural cap-
+
+tenido es el mantenimiento del stock del capital natural
+total al presente nivel o por encima del mismo. Si bien un
+
+ital may be sustainable, society can allow no furtber decline
+
+stock de capital natural menor podria ser sostenible, la sociedad no permite mayores declinaciones en el mismo debido a la gran incertidumbre y a las consecuencias lamentables que podria tener el adivinar erradamente. Esta regla
+“de constancia del capital natural total” puede por lo tanto
+
+in natural capital given the large uncertainty and the dire
+consequences of guessing wrong. This “constancy of total
+natural capital” rule can thus be seen as a prudent mini-
+
+mum condition for assuring sustainability, to be relaxed
+
+only when solid evidence can be offered that it is safe to
+do so.
+We discuss metbodological issues concerning the degree of
+substitutability of manufactured for natural capital, quantifying ecosystem services and natural capital, and the role
+of the discount rate in valuing natural capital. We differentiate the concepts of growth (material increase in size) and
+
+development (improvement in organization without size
+change). Given these definitions, growth cannot be sustainable indefinitely on a finite planet. Development may be
+sustainable, but even this aspect of change may bave some
+limits. One problem is that current measures of economic
+well-being at the macro level (i.e, the Gross National Prod-
+
+uct) measure mainly growth, or at best conflate growth and
+development. This urgently requires revision.
+Finally, we suggest some principles of sustainable development and describe why maintaining natural capital
+stocks is a prudent and achievable policy for insuring sustainable development, There is disagreement between tech-
+
+nological optimists (who see technical progress as eliminat-
+
+Una condicién minima para el crecimiento sos-
+
+ser considerada una prudente condicion minima para ase-
+
+gurar sostenibilidad econémica, que solo podria ser relajada
+cuando se den slidas evidencias en contrario.
+Discutimos temas metodologicos que conciernen el grado
+de sostenibilidad econémica de capital manufacturado por
+capital natural, cuantificacion de los servicios del ecosistema y capital natural, y el rol de la tasa de descuento en
+la valoracion de capital natural Diferenciamos entre los
+conceptos de crecimiento (crecimiento material en tamasnio)
+
+y desarrollo (mejoramiento en la organizacién sin cambio
+en tamano). Dadas estas definiciones, el crecimiento no
+puede ser mantenido indefinidamente en un planeta limitado. El desarrollo puede ser sostenido, pero incluso este aspecto del cambio puede tener limites. Uno de los problemas
+es que las variables corrientemente usadas para medir el
+bienestar
+
+a nivel global
+
+(es decir el Producto
+
+Nacional
+
+Bruto) miden principalmente crecimiento, 0 como mdximo
+relacionan entre si crecimiento y desarrollo.
+
+Esto requiere
+
+una revision en forma urgente.
+
+Finalmente, pfoponemos algunos principios de desarrolio
+
+Paper submitted December 7, 1990; revised manuscript acceptedAugust5, 1991
+* The views presented here are those of the autbor and should in no
+way be attributed to the World Bank.
+37
+
+Conservation Biology
+Volume 6, No. 1, March 1992
+
+38
+
+Natural Capital
+
+ing all resource constraints to growth and development) and
+
+technological skeptics (who do not see as much scope for this
+approach and fear irreversible use of resources and damage
+to natural capital). By maintaining natural capital stocks
+(preferably by using a natural capital depletion tax), we can
+satisfy both the skeptics (since resources will be conserved
+Jor future generations) and the optimists (since this will
+raise the price of natural capital depletion and more rapidly
+induce the technical change they predict).
+
+Costanza
+& Daly
+
+sostenible y describimos porque el mantenimiento del stock
+de capital natural representa una politica prudentey posible
+
+para asegurar un desarrollo sostenido. Existe un desacuerdo
+
+entre optimistas tecnoldgicos (que ven el progreso tecnolégico como eliminando todos los limites, en cuanto a re-
+
+cursos, sobre el crecimiento y desarrollo) y escépticos tecno-
+
+I6gicos (que no ven espacio suficiente para esta posibilidad
+
+¥ temen un uso irreversible de los recursosy un darno al
+capital natural). Manteniendo los stocks de capital natural
+
+(preferentemente usando un impuesto al uso exbaustivo de
+capital natural) podemos satisfacer tanto a los escépticos
+(dado que la recursos van a ser conservados para genera-
+
+ciones futuras) como a los optimistas (dado que esto va a
+
+incrementar el precio del uso exbaustivo de capital natural
+
+e inducird mds rapidamente los cambios técnicos que ellos
+
+predicen,).
+
+What Is Natural Capital?
+Since “capital” is traditionally defined as produced
+(manufactured) means of production, the term “natural
+capital” needs explanation. It is based on a more functional definition of capital as “a stock that yields a flow
+of valuable goods or services into the future.” What is
+functionally important is the relation of a stock yielding
+a flow—whether the stock is manufactured or natural is
+in this view a distinction between kinds of capital and
+not a defining characteristic of capital itself. For example, a stock or population of trees or fish provides a flow
+or annual yield of new trees or fish, a flow that can be
+
+sustainable year after year. The sustainable flow is “natural income”; the stock that yields the sustainable flow
+
+is “natural capital.” Natural capital may also provide services such as recycling waste materials, or water catchment and erosion control, which are also counted as
+natural income. Since the flow of services from ecosystems requires that they function as whole systems, the
+structure and diversity of the system is an important
+component in natural capital.
+We also need to differentiate between natural capital
+and income and natural resources. There are at least two
+possibilities here: (1) natural capital and natural income
+are simply the stock and flow components, respectively,
+of natural resources, and (2) natural capital and natural
+income are aggregates of natural resources in their separate stock and flow dimensions, and forming these aggregates requires some relative valuation of the different
+types of natural resource stocks and flows. Capital and
+income, in this view, have distinct evaluative connotations relative to the more physical connotations of the
+term “resources.” We prefer the latter definition because it emphasizes the aggregate nature of terms such
+as “capital” and “income” while acknowledging that this
+aggregation is both a strength and a weakness.
+
+Conservation Biology
+Volume 6, No. 1, March 1992
+
+‘We can differentiate two broad types of natural capital: (1) renewable or active natural capital, and (2)
+nonrenewable or inactive natural capital. Renewable
+natural capital is active and self-maintaining using solar
+energy. Ecosystems are renewable natural capital. They
+can be harvested to yield ecosystem goods (such as
+‘wood) but they also yield a flow of ecosystem services
+‘when left in place (such as erosion control and recreation). Nonrenewable natural capital is more passive.
+Fossil fuel and mineral deposits are the best examples.
+They generally yield no services until extracted. Renewable natural capital is analogous to machines and is subject to entropic depreciation; nonrenewable natural
+capital is analogous to inventories and is subject to liguidation (El Serafy 1989).
+In addition, we can differentiate two broad types of
+human-made capital. One is the factories, buildings,
+tools, and other physical artifacts usually associated with
+the term “capital.” A second is the stock of education,
+skills, culture, and knowledge stored in human beings
+themselves. The latter type is usually referred to as “human capital” while the former we will call simply “manufactured capital.” Thus we have three broad types of
+capital: natural, human, and manufactured, corresponding roughly to the traditional economic factors of production of land, labor, and capital. In addition, we have
+the important distinction between renewable and nonrenewable natural capital, and for some purposes we
+can lump both human and manufactured capital together as “human-made capital.”
+Figure 1 elaborates these concepts and their interconnections. Manufactured capital (MC), human capital
+(HC), and renewable natural capital (RNC) decay at
+significant rates by the second law of thermodynamics
+and must constantly be maintained. Nonrenewable natural capital (NNC) also decays, but the rate is so slow
+relative to MC and RNC that this can be ignored. NNC
+
+Natural Capital
+
+Costanza
+& Daly
+
+39
+
+Nonrenewable
+Natural Capital
+(NNC)
+
+Economic Goods
+& Services
+
+Solar Energy
+
+Qmﬁ .
+Maintenance
+
+Population
+
+B
+Capital Stock
+
+5
+
+.~
+
+‘Good or Service Flow
+
+Functional
+
+Dependence
+
+O
+Auxiliary o
+
+EXogenous
+Variable
+
+Legend
+Figure 1. Types of natural and human-made capital stocks, good and service flows, and their interdependence.
+can be viewed as a long-term inventory that will sit
+quietly until extracted and used, but once it is used it is
+gone. RNC produces both ecosystem goods (portions of
+the RNC itself) and ecosystem services, and renews itself using its own capital stock and solar energy. Excessive harvest of ecosystem goods can reduce RNC'’s ability to produce services and to maintain itself. MC, RNC,
+ecosystem services, and NNC interact with HC and eco-
+
+key idea in sustainability of development. It is important
+
+for operational purposes to define sustainable development in terms of constant or nondeclining TNC, rather
+
+than in terms of nondeclining utility (e.g., Pezzey 1989).
+
+counted as income. This should at least be true for RNC.
+
+‘While there are admittedly problems in measuring TNC,
+utility is beyond all hope of measurement. Aggregated,
+discounted future utility is what is really needed to operationalize the utility-based definition of sustainability,
+and that is even more of a will-o’-the-wisp. Also, an important motivation behind the sustainable development
+discussion is that of a just bequest to future generations.
+Utility cannot be bequeathed, but natural capital can be.
+Whether future generations use the natural capital we
+bequeath to them in ways that lead to happiness or to
+misery is beyond our control. We are not responsible
+for their happiness or utility—only for conserving for
+them the natural capital that can provide happiness if
+used wisely.
+In the past, only manufactured stocks were considered as capital because natural capital was superabun-
+
+Since NNC must run down with use, a logical way to
+maintain constant income is to maintain as constant the
+total natural capital (TNC = RNC + NNC), which implies some reinvestment of the NNC consumed into
+RNC (as has been suggested by El Serafy [1989] for
+national income accounting [more on this later]).
+Hence constancy of total natural capital (TNC) is the
+
+scale relative to natural processes to interfere with the
+free provision of natural goods and services. Expansion
+of manufactured and human capital entailed no opportunity cost in terms of the sacrifice of services of natural
+capital. Manufactured and human capital were the limiting factors in economic development. Natural capital
+
+nomic demand to determine the level of “economic”
+(marketed) goods and services production. The form of
+this interaction is very important to sustainability, and it
+is not well understood (more on this later). Total income in the context of Figure 1 is a combination of
+traditional marketed economic goods and services, and
+nonmarketed ecosystem goods and services.
+The concept of sustainability is implicit in the definition of income (following Hicks), so natural income
+must be sustainable; that is, any consumption that requires the running down of natural capital cannot be
+
+dant in that mankind’s activities operated at too small a
+
+Conservation Biology
+Volume 6, No. 1, March 1992
+
+40
+
+Natural Capital
+
+Costanza & Daly
+
+1800
+
+was a free good. We are now entering an era, thanks to
+
+the enormous increase of the human scale, in which
+natural capital is becoming the limiting factor. Human
+economic activities can significantly reduce the capacity of natural capital to yield the flow of ecosystem.
+goods and services and NNC upon which the very pro-
+
+ductivity of human-made capital depends.
+Of course the classical economists (Smith, Malthus,
+
+Ricardo) emphasized
+
+the constraints of natural re-
+
+sources on economic growth, and several more recent
+economists, especially environmental and ecological
+economists, have explicitly recognized natural resources as an important form of capital that produces
+major contributions to human well-being (cf.,, Scott
+1955; Daly 1968, 1973, 1977; Page 1977; Randall 1987;
+Pearce & Turner 1989). But environmental economics
+has, until now, been a tiny subfield far from the mainstream of neoclassical economics, and the role of natural
+
+resources within the mainstream has been deemphasized almost to the point of oblivion. We believe
+that, if we are to achieve sustainability, the economy
+must be viewed in its proper perspective, as a subsystem
+
+o
+
+1600
+&4
+
+5.0
+
+1400
+
+&
+5
+2 120
+5
+
+@ 1000
+g
+Sg w
+
+o0
+
+000°
+
+o
+0%
+
+o
+
+°
+
+°°°°
+
+GNP
+
+°©
+
+°
+
+ISEW1
+
+o
+I
+
+00700,
+
+0000
+2
+0% Dd_.nmnl'-‘“nunnAmﬂAnAuA
+aaad
+850888
+
+60
+400
+
+o A‘MA
+
+888844
+
+A
+200
+
+1945
+
+1950
+
+1955
+
+1960
+
+1965
+
+1970
+
+1975
+
+1980
+
+1965
+
+1990
+
+Year
+Figure 2. US. GNP compared with the Index of Sustainable Economic Welfare (ISEW, from Daly & Cobb
+1989) for the interval 1950 to 1986. ISEW2 includes
+corrections for depletion of nonrenewable resources
+and long-term environmental damage; ISEW1 does
+
+not.
+
+of the larger ecological system of which it is a part, and
+that environmental and ecological economics need to
+become much more pervasive approaches to the problem (Costanza et al. 1991).
+
+natural capital, we may well push welfare down while
+‘we think we are building it up.
+
+Substitutability Between Natural and
+
+‘Why Is Accounting for Natural Capital
+
+Man-made Capital
+
+So Important?
+In addition to the former smallness of the human scale,
+Natural capital produces a significant portion of the real
+goods and services of the ecological economic system,
+
+so failure to adequately account for it leads to major
+
+a further reason for the neglect of natural capital has
+
+been the tenet of neoclassical economic theory that human-made capital is a near-perfect substitute for natural
+
+misperceptions about how well the economy is doing.
+This misperception is important at all levels of analysis,
+from the appraisal of individual projects to the health of
+the ecological economic system as a whole. Let us con-
+
+resources, and hence for the natural capital that gener-
+
+centrate on the level of national income accounting,
+
+The prevailing standard model of growth assumes
+that
+there are no limits on the feasibility of expanding the
+supplies of non-human agents of production. It is basically 2 two-factor model in which production depends
+only on labor and reproducible capital. Land and resources, the third member of the classical triad, have
+generally been dropped ... the tacit justification has
+been that reproducible capital is a near perfect substitute for land and other exhaustible resources.
+
+however, because of the importance of these measures
+to national planning and sustainability.
+There has been much recent interest in improving
+
+national income and welfare measures to account for
+depletion of natural capital and other mismeasures of
+welfare (cf. Ahmad et al. 1989). Daly and Cobb (1989)
+have produced an index of sustainable economic welfare (ISEW) that attempts to account mainly for depletions of natural capital, pollution effects, and income
+distribution effects. Figure 2 shows two versions of their
+
+index compared to GNP over the 1950 to 1986 interval.
+‘What is strikingly clear from Figure 2 is that while GNP
+has been rising over this interval, ISEW has remained
+relatively unchanged since about 1970. When depletions of natural capital, pollution costs, and income distribution effects are accounted for, the economy is seen
+to be not improving
+
+Conservation Biology
+Volume 6, No. 1, March 1992
+
+at all. If we
+
+continue
+
+to ignore
+
+ates the flow of natural resources. In the words
+
+of
+
+Nordhaus and Tobin (1972):
+
+The mathematical form assumed for the production
+function can also imply more substitutability than is
+there in reality. For example, even if natural capital is
+explicitly included in the production function, it makes
+little difference as long as the production function is a
+form (such as the Cobb-Douglas function) in which natural resources can approach zero with output remaining
+
+constant, and as long as reproducible (manufactured)
+capital or labor (human capital) are increased by a compensatory amount. In more technical terms, the elastic-
+
+Natwral Capital
+
+Costanza & Daly
+
+ity of substitution of human-made for natural capital was
+assumed to be constant and high.
+This assumption of near-perfect substitutability (high
+constant elasticity of substitution) has little support in
+logic or in fact. It was motivated more by mathematical
+convenience than anything else, except perhaps the hubris-driven technological dream of being independent
+of nature. Consider the following list of objections to
+the tenet of near-perfect substitutibility of human-made
+for natural capital:
+1.
+
+If human-made capital were a perfect substitute for
+natural capital, then natural capital would also be a
+perfect substitute for human-made capital. But if the
+latter were the case there would be no reason to
+develop and accumulate human-made capital in the
+first place! Why does one need human-made capital
+if one already has an abundance of a near-perfect
+substitutes? Historically, we developed humanmade capital as a complement to natural capital, not
+as a substitute. It should be obvious that the humanmade
+
+capital
+
+of fishing
+
+nets,
+
+refineries,
+
+saw
+
+mills,
+
+and the human capital skill to run them does not
+substitute for, and would
+
+in fact be worthless with-
+
+out, the natural capital of fish populations,
+
+petro-
+
+leum deposits, and forest:
+
+2.
+
+3.
+
+Manufactured
+
+capital
+
+is itself made
+
+out of natural
+
+resources, with the help of human capital (which
+
+also consumes natural resources). Creation of the
+“substitute” requires more of the very thing that it is
+supposed to substitute for!
+A physical analysis of “production” reveals that it is
+really a transformation process—a flow of natural
+
+resource inputs is transformed into a flow of prod-
+
+uct outputs by two agents of transformation, the
+stock of laborers (human capital) and the stock of
+manufactured capital at their disposal. Natural resources are that which is being transformed into a
+product (the material cause of production); manufactured and human capital are that which is effecting the transformation (the cfficient cause of pro-
+
+duction). The relationship is overwhelmingly onc of
+complementarity, not substitutability.
+whelming reason for increasing the stock
+made capital is to process a larger flow
+capital, not to make possible a reduced
+possible to reduce the waste of materials
+by investing capital in the recycling
+scrap, but this is marginal and limited.
+
+The overof humanof natural
+flow. It is
+in process
+of prompt
+
+The point is that the substitution of human-made
+physical capital for natural capital in the production of a
+given good is very limited, and that on the whole natural
+capital and human-made capital are complements in the
+production of any given good. There may remain considerable substitutability between human and manufac-
+
+41
+
+tured capital (the two agents), or among various particular forms of natural capital (aluminum for copper, glass
+for aluminum ), or even between NNC and RNC. That is
+not in dispute. Nor are we disputing the possibility of
+substituting a technically superior product that requires
+less energy and materials to render the same human
+service (e.g., cars that get more miles per gallon and
+light bulbs that give more lumens per watt). The latter
+is efficiency-increasing technical progress (development) as opposed to throughput-increasing technical
+progress (growth). But for any given product embodying any given level of technical knowledge, humanmade capital and natural capital are, in general, complements,
+
+not substitutes.
+
+Valuation of Natural Capital
+The issue of valuation of natural capital is difficult but
+essential for many purposes, including aggregation and
+determining the optimal scale of human activities. The
+valuation of natural capital involves allocation of matterenergy across the boundary separating the economic
+subsystem from the ecosystem, and could be referred to
+as macro-allocation. By contrast micro-allocation is
+the allocation among competing uses of matter-energy
+that has already entered the economic subsystem—
+allocation proper. The logic defining the two optima is
+the same—the optimum is at the point where marginal
+costs equal marginal bencfits. But the nature of the cost
+and benefit functions in the two cases is very different.
+
+The cost and benefit functions relevant to the microallocation problem are those of individuals bent on maximizing their own private utility both as consumers and
+producers. The market coordinates and balances these
+individualistic maximizing efforts and in so doing determines a set of relative prices that measure opportunity
+cost. Individuals arc allowed to appropriate matterenergy from the ccosystem as required for their individualistic purposes. Since the benefits of such expropriation are mostly private while the costs are largely
+social, there is a tendency to overexpand the scale of the
+economy—or to “allocate” too much of the matterenergy of the total ecosystem to the economic subsystem. Therefore the macro-allocation or scale problem should be viewed as a social or collective decision
+rather than an individualistic market decision. This
+means that the cost and benefit functions of macroallocation are at the level of social preferences. A social
+preference function may give considerable weight to
+individual utility but is certainly not reducible to that
+alone. It has a community dimension. The value of community (with other people and other species, both
+present and future) must be counted in the cost and
+benefit functions associated with macro-allocation
+(Daly & Cobb 1989). These community costs and benefits are not captured in micro-allocation market prices.
+
+Conservation Biology
+Volume 6. No. 1, March 1992
+
+42
+
+Naral Capital
+How then are these nonmarket social costs and ben-
+
+efits measured? One approach is to imagine the valuation to be done by a different Homo economicus than
+the neoclassical pure individualist. This broader Homo
+economicus (call him H-e 2 to differentiate him from
+the neoclassical H-e 1) is a person in community rather
+than a pure individualist. H-e 2 is also fully informed
+about how the economy is related to the ecosystem and
+is constituted in his very identity by the relations of
+community with both future generations and other species with whom he shares a place in the sun. H-e 2
+would value natural capital according to its relative
+long-term potential for supporting life and wealth in
+general. This long-term potential is closely associated
+with the low entropy matter-energy embodied in the
+natural capital. Therefore we offer as one hypothesis for
+investigation the idea that natural capital could be evaluated in proportion to its embodied energy (Costanza
+1980; Cleveland et al. 1984). The willingness to pay of
+H-e 2 (person in community) is hypothesized to be in
+accordance with this long-run capacity to support life
+
+and wealth.
+But it will be objected that this H-e 2 is not the “real”
+one. The “real” one (H-e 1) is generally ignorant of
+ecological relations, short-sighted, and individualistic.
+The “willingness to pay” of this more usual H-e 1 is the
+more common approach to the valuation of natural capital. Both concepts of H-e are abstractions from real people. For the micro-allocation problem we think people
+generally behave like the traditional individualistic H-e
+1. But when confronted with the macro-allocation problem we think most people would behave more like H-e
+2, the person in community. Therefore valuation of natural capital, we submit, should be done by individuals
+
+acting in an entirely different mode from that in which
+they operate in consumer markets. H-e 1 is different
+from H-e 2, but both are equally real as different aspects
+of real human beings relevant to different purposes. At
+any rate this is the interpretation we offer for the two
+methods of valuation we discuss here: the willingnessto-pay approach and the energy analysis approach.
+Because natural capital is not captured in existing
+markets, special methods must be used to estimate its
+value. These range from attempts to mimic market behavior using surveys and questionnaires to elicit the
+preferences of current resource users (i.e., willingnessto-pay [WTP] to methods based on energy analysis [EA]
+of flows in natural ecosystems which do not depend on
+current human preferences at all). More complete discussions are given in Farber and Costanza (1987) and
+Costanza et al. (1989).
+There are also problems common to valuing any kind
+of capital, including human-made capital. One can generally not value capital directly. The two options in use
+for MC are to value the net stream of services produced
+by the capital, or to value the cost of forming the capital.
+
+Conservation Biology
+Volume 6, No. 1, March 1992
+
+Costanza
+& Daly
+‘With reference to Figure 1, for RNC this corresponds to
+estimating the present value of ecosystem goods and
+services production (with, for example, WTP) or to valuing the cost of RNC production (with, for example,
+EA). Table 1 summarizes results from a recent study of
+average wetland values in coastal Louisiana (a state containing 40% of the coastal wetlands in the United States)
+as an example. Details of the methods, especially their
+conceptual and empirical assumptions and uncertainties, are contained in Farber and Costanza (1987) and
+
+Costanza et al. (1989).
+Discounting
+Often the present-vs.-future issue is thought to be objectively decided by discounting. But discounting at
+best only reflects the subjective valuation of the future
+to presently existing individual members of human society. Discounting is simply a numerical way to operationalize the value judgment that (1) the near future is
+‘worth more than the distant future to the present generation of humans, and (2) beyond some point the
+‘worth of the future to the present generation of humans
+is negligible. Economists tend to treat discounting as
+rational, optimizing behavior based on people’s inherent
+preferences for current over future consumption.
+There is evidence, however, that discounting behavior may be symptomatic of a kind of semirational, suboptimizing behavior known as a “social trap.” A social
+trap is any situation in which the short-run, local reinforcements guiding individual behavior are inconsistent
+with the long-run, global best interest of the individual
+or society (Platt 1973; Cross & Guyer 1980; Costanza
+1987). We go through life making decisions about
+‘which path to take based largely on the “road signs,” the
+short-run, local reinforcements that we perceive most
+directly. These short-run reinforcements can include
+monetary incentives, social acceptance or admonishment, and physical pleasure or pain. Problems arise,
+however, when the road signs are inaccurate or misleading. In these cases we can be trapped into following a
+path that is ultimately detrimental because of our reli-
+
+Table 1. Summary of wetland Renewable Natural Capital (RNC)
+value for coastal wetlands in Louisiana. Estimates (1983 dollars).
+
+Metbod
+WTP based
+Commercial fishery
+Trapping
+Recreation
+Storm protection
+Total
+Option and existence values
+EA based
+GPP conversion
+‘Best estimate”
+
+Per-acre present value
+at specified discount rate
+8%
+3%
+s 317
+151
+46
+1915
+82,429
+
+?
+
+36,400-10,600
+$2,429-6,400
+
+3 846
+401
+181
+7,549
+38977
+
+?
+
+$17,000-28,200
+$8977-17,000
+
+Natural Capital
+
+Costanza
+& Daly
+ance on the road signs. Discounting may allow individuals to give too little weight to the future (or other
+species, other groups or classes of humans, etc.) and
+thus helps to set the trap. Economists, while recognizing
+that individual behavior may not always lead to optimal
+social behavior, generally assume that discounting the
+future is an appropriate thing to do. The psychological
+evidence indicates, however, that humans have problems responding to reinforcements that are not immediate (in time and space) and can be led into disastrous
+situations because they discount too much.
+It can therefore be argued that the discount rate used
+by the government for public policy decisions (like valuing natural capital) should be significantly lower than
+the rate used by individuals for private investment decisions. The government should have greater interest in
+the future than individuals currently in the market because continued social existence, stability, and harmony
+are public goods for which the government is responsible, and for which current individuals may not be will-
+
+ing to fully pay (Arrow 1976).
+Discounting future value by the rate of interest also
+provides a tight link between ecological destruction and
+macroeconomic policy. Any exploited species whose
+natural rate of population growth is less than the real
+rate of interest is under threat of extinction, even in the
+absence of common property problems. While Alan
+Greenspan and the Federal Reserve probably do not
+worry about the effect of US. interest rate policy on
+
+deforestation in the Amazon or destruction of Louisiana
+wetlands, such links really do exist, and they probably
+
+should be broken.
+In terms of the natural capital valuation problem, all
+this merely increases the uncertainty concerning the
+total present value because the appropriate discount
+rate is uncertain and makes a big difference in the results. In the wetland valuation example mentioned
+above, estimates for a range of discount rates (3-8% )
+were given to demonstrate how much uncertainty is
+introduced by uncertainty in the discount rate. We've
+also given arguments for why a lower discount rate may
+be more appropriate for natural capital valuation deci-
+
+sions. Indeed there is a reasonable case to be made for
+a zero discount rate in decisions taken on behalf of society at large (Page 1977; Georgescu-Roegen 1981),
+since society, unlike the individual, is quasi-immortal. A
+zero discount rate gives infinite or very large values for
+any indefinitely sustainable stream of income. The wants
+of future generations will be just as immediate to them
+as ours are to us. And if the fears of many climatologists
+and ecologists prove correct, productivity growth will
+be negative in the long run, so that equity would even
+require discounting at a negative rate—that is, future
+resources should be valued more highly than present
+
+resources.
+Another possibility (Hannon 1985) is that the appro-
+
+43
+
+priate discount rate for natural capital should be linked
+to the natural growth and decay rates (see Fig. 1). RNC
+will not produce a stream of benefits into the indefinite
+
+future unless it is constantly supplied with new energy
+to maintain it against entropic decay. If this energy were
+not put into the natural capital stock in question it could
+be used to maintain some other natural capital stock.
+The “natural” discount rate might therefore be tied to
+the average natural decay rate (probably somewhere on
+the order of 1-3% per year). This is an issue for further
+
+research.
+
+Growth, Development, and Sustainability
+Improvement in human welfare can come about by
+pushing more matter-energy through the economy or
+by squeezing more human want satisfaction out of each
+unit of matter-energy that passes through. These two
+processes are so different in their effect on the environment that we must stop conflating them. It is better to
+refer to throughput increase as growth, and efficiency
+increase as development.* Growth is destructive of natural capital and beyond some point will cost us more
+than it is worth—that is, sacrificed natural capital will be
+worth more than the extra man-made capital whose production necessitated the sacrifice. At this point growth
+has become anti-economic, impoverishing rather than
+enriching. Development, that is qualitative improvement does not occur at the expense of natural capital.
+There are clear economic limits to growth, but not to
+development. This is not to assert that there are no
+limits to development, only that they are not so clear as
+the limits to growth, and consequently there is room for
+a wide range of opinion on how far we can go in increasing human welfare without increasing resource
+throughput. How far can development substitute for
+growth? This is the relevant question, not how far can
+human-made capital substitute for natural capital, the
+answer to which, as we have seen, is “hardly at all.”
+Some people believe that there are truly enormous
+possibilities for development without growth. Energy
+efficiency, they argue, can be vastly increased (Lovins
+1977; Lovins & Lovins 1987); so can the efficiency of
+water use. Potential efficiency increases for other materials are not so clear. Others (Costanza 1980; Cleveland
+et al. 1984; Hall et al. 1986; Gever et al. 1986) believe
+that the coupling between growth and energy use is not
+
+so loose. This issue arises in the Brundtland Commission’s Report (WCED
+
+1987), which recognizes on the
+
+*Twis distinction is explicit in the dictionary's first definition of
+each term. 'To grow means literally“to increase naturally i size by
+the addition of material through assimilation or accretion.” To develop means “to expand or realize the potentialities of; bring gradwally to a fuller, greater, or better state.” (The American Heritage
+Dictionary of the English Language).
+
+Conservation Biology
+
+Volume
+6, No. 1, March 1992
+
+44
+
+Natural Capital
+
+one hand that the scale of the human economy is already unsustainable in the sense that it requires the consumption of natural capital, and on the other hand calls
+for further economic expansion by a factor of 5 to 10 to
+improve the lot of the poor without having to appeal too
+much to the “politically impossible” alternatives of serious population control and redistribution of wealth.
+The big question is, how much of this called-for expansion can come from development and how much must
+come from growth? This question is not addressed by
+
+Costanza
+& Daly
+
+separately. Weak sustainability would require the pricing of natural capital, which as we have just argued itself
+requires a given scale, that is, the holding constant of
+natural capital at some level, which is to say strong sustainability. So we can concentrate on strong sustainability, maintaining total natural capital intact. What does
+this mean operationally?
+(1)
+
+the Commission. But statements from the leader of the
+'WCED, Jim MacNeil (1990), that “The link between
+growth and its impact on the environment has also been
+
+severed” (p. 13), and that “the maxim for sustainable
+development is not ‘limits to growth’; it is ‘the growth of
+limits,’ ” indicate that WCED expects the lion’s share of
+that factor of 5 to 10 to come from development, not
+growth. They confusingly use the word “growth” to refer to both cases, saying that future growth must be
+qualitatively very different from past growth. When
+things are qualitatively different it is best to call them by
+different names. Hence our distinction between growth
+and development. Our own view is that WCED is too
+optimistic—that a factor of 5 to 10 increase cannot
+come from development alone, and that if it comes
+mainly from growth it will be devastatingly unsustainable. Therefore the welfare of the poor, and indeed of
+the rich, depends much more on population control,
+consumption control, and redistribution than on the
+
+(2)
+
+(3)
+
+The main principle is to limit the human scale to a
+level which, if not optimal, is at least within the
+carrying capacity of the remaining natural capital
+and therefore sustainable. Once carrying capacity
+has been reached, the simultaneous choice of a
+population level and an average “standard of living” (level of per capita resource consumption)
+becomes necessary. Sustainable development
+must deal with sufficiency as well as efficiency and
+cannot avoid limiting physical scale.
+Technological progress for sustainable development should be efficiency-increasing rather than
+throughput-increasing. Limiting the scale of resource throughput by high resource taxes would
+induce this technological shift, as discussed further below.
+RNC, in both its source and sink functions, should
+be exploited on a profit-maximizing sustainedyield basis, and in general stocks, should not be
+driven to extinction since they will become ever
+more important as NNC runs out. Specifically this
+
+technical fix of a 5- to 10-fold increase in total factor
+
+means that:
+
+productivity.
+‘We acknowledge, however, that there is a vast uncertainty on this critical issue of the scope for economic
+development from increasing efficiency. We have therefore devised a policy that should be sustainable regardless of who is right in this debate. We save its description for the final section. First some general principles of
+sustainable development.
+
+(a) harvesting rates should not exceed regeneration rates; and
+(b) waste emissions should not exceed the renewable assimilative capacity of the environ-
+
+Toward Operational Principles of
+Sustainable Development
+The concept of sustainable development has received
+much attention lately, but research into how the concept might be operationalized is only beginning (Pearce
+& Turner 1989; Daly 1990; Costanza 1991). Below we
+sketch out the broad outlines of some operational principles of sustainability, while acknowledging that we
+still have a long way to go (both scientifically and politically) to achieve them. All the more reason to get
+started.
+Weak sustainability is the maintaining intact of the
+sum of human-made and total natural capital. Even that
+is not done currently. Strong sustainability is the maintaining intact of natural capital and man-made capital
+
+Conservation Biology
+Volume 6, No, 1, March 1992
+
+ment.
+
+(4) NNC should be exploited, but at a rate equal to the
+creation of renewable substitutes. Nonrenewable
+projects should be paired with renewable projects
+and their joint rate of return should be calculated
+on the basis of their income component only, since
+that is what is perpetually available for consumption in each future year. It has been shown (El Serafy 1989) how this division of receipts into capital
+to be reinvested and income available for current
+consumption depends on the discount rate (rate of
+growth of the renewable substitute) and the life
+expectancy of the NNC (reserves divided by annual
+depletion). The faster the growth of the renewable
+substitute and the longer the life expectancy of the
+NNC, the greater will be the income component
+and the less the capital set-aside. “Substitute” here
+should be interpreted broadly to include any systemic adaptation that allows the economy to adjust
+to the depletion of the nonrenewable resource in a
+‘way that maintains future income at present levels
+(e.g., recycling).
+
+Costanza
+& Daly
+
+Natural Capial
+
+Specific application of principle (3) might, for example, involve such requirements as no net depletion of
+aquifers or of topsoil (on the input side) and no net
+increase in soil acidity, salinization, or toxification (on
+the waste output side). Principle (1), general respect for
+carrying capacity, can be straightforwardly applied in
+rangelands, but can also be extended to industrial projects by requiring that all natural capital used by the
+industry be maintained without depletion.
+These principles move us some distance toward operationalizing the basic notion that we should satisfy the
+needs of the present without sacrificing the ability of
+future populations to meet their needs. But they clearly
+fall far short of an operational blueprint complete with
+measurements. However, as argued in the following section, the principles are operational enough to guide
+some important policy changes without precise measures of assimilative capacities and sustainable yields.
+Uncertainty itself is one of the critical factors that must
+be addressed in designing sustainable policies.
+
+A Fail-Safe Policy Proposal to
+Achieve Sustainability
+‘We end with 2 policy proposal that is simple in concept
+(though not in implementation) and that accomplishes
+much toward the end of sustainable development. In
+spite of the disagreement over how much to expect
+from development without growth, both sides should
+
+be able to agree
+
+on the following.
+
+Strive to hold
+
+throughput (consumption of TNC) constant at present
+levels (or lower truly sustainable levels) by taxing TNC
+consumption, especially energy, very heavily. Seek to
+raise most public revenue from such a natural capital
+
+depletion (NCD) tax, and compensate by reducing the
+income tax, especially on the lower end of the income
+distribution, perhaps even financing a negative income
+tax at the very low end. Technological optimists who
+believe that efficiency can increase by a factor of ten
+should welcome this policy, which raises natural resource prices considerably and would powerfully encourage just those technological advances in which they
+have so much faith. Skeptics who lack that technological
+faith will nevertheless be happy to see the throughput
+limited since that is their main imperative in order to
+conserve resources for the future. The skeptics are protected against their worst fears; the optimists are encouraged to pursue their fondest dreams. If the skeptics
+are proven wrong and the enormous increase in efficiency actually happens, then they will be even happier
+(unless they are total misanthropists). They got what
+they wanted, but it just cost less than they expected and
+were willing to pay. The optimists, for their part, can
+hardly object to a policy that not only allows but offers
+strong incentives for the very technical progress on
+
+45
+
+which their optimism is based. If they are proved wrong
+at least they should be glad that the rate of environmen-
+
+tal destruction has been slowed.
+Implementation of this policy does not hinge upon
+the precise measurement of natural capital. The valuation issue remains relevant in the sense that our policy
+recommendation is based on the perception that we are
+at or beyond the optimal scale. The evidence for this
+perception consists of the greenhouse effect, ozone
+layer depletion, acid rain, and general decline in many
+dimensions of the quality of life. It would be helpful to
+have better quantitative measures of these perceived
+costs, just as it would be helpful to carry along an altimeter when we jump out of an airplane. But we would all
+prefer a parachute to an altimeter if we could take only
+one thing. The consequences of an unarrested free fall
+are clear enough without a precise measure of our
+speed and acceleration. But we would need at least a
+ballpark estimate of the value of natural capital depletion in order to determine the magnitude of the suggested NCD tax. This, we think, is possible, especially if
+uncertainty about the value of natural capital is incorporated in the tax itself, using, for example, the refundable assurance bonding system proposed by Costanza
+and Perrings (1990).
+The political feasibility of this policy is an important
+and difficult question. It certainly represents a major
+shift in the way we view our relationship to natural
+capital and would have major social, economic, and political implications. But these implications are just the
+ones we need to expose and face squarely if we hope to
+achieve sustainability. Because of its logic, its conceptual simplicity, and its built-in market incentive structure leading to sustainability, the proposed NCD tax
+may be the most politically feasible of the possible alternatives to achieving sustainability.
+
+‘We have not tried to work out all the details of how
+the NCD tax would be administered. In general, it could
+be administered like any other tax, but it would probably require international agreements or at least national
+ecological tariffs to prevent some countries from flooding markets with untaxed natural capital or products
+made with untaxed natural capital. By shifting most of
+the tax burden to the NCD tax and away from income
+taxes, the NCD tax could actually simplify the administration of the taxation system while providing the appropriate economic incentives to achieve sustainability.
+
+Acknowledgments
+This paper was originally prepared for a workshop on
+natural capital organized by Barry Sadler for the Cana-
+
+dian Environmental
+
+Assessment
+
+Research
+
+Council
+
+(CEARC) and held in Vancouver, British Columbia, Canada, March 15 and 16 1990. We thank the participants at
+
+Conservation Biology
+Volume 6, No. 1, March 1992
+
+46
+
+Costanza
+& Daly
+
+Natural Capital
+
+the workshop for feedback on early drafts of the paper,
+as well as John Cumberland, Dennis King, Colin Clark,
+and one anonymous reviewer for detailed and helpful
+suggestions on a subsequent draft.
+
+‘World Bank, Washington, D.C.
+
+Literature Cited
+
+Farber, S, and R. Costanza. 1987. The economic value of wet-
+
+Abmad, Y.J,, S. El Serafy, and E. Lutz. 1989. Environmental
+accounting for sustainable development. A UNEP—World
+Bank Symposium. The World Bank, Washington, D.C.
+
+lands systems. Journal of Environmental Management 24:41—
+
+Arrow, K.J. 1976. The rate of discount for long-term public
+investment. In H. Ashley, R. L. Rudman, and C. Shipple, editors.
+
+Energy and the environment: a risk benefit approach. Pergamon Press, New York.
+Cleveland, C.J., R. Costanza, C.A.S. Hall, and R. Kaufmann.
+
+1984. Energy and the United States economy: a biophysical
+
+perspective. Science 255:890-897.
+
+Costanza, R. 1980. Embodied energy and economic valuation.
+Science 210:1219-1224.
+Costanza, R. 1987. Social traps and environmental policy. Bio-
+
+Science 37:407-412.
+
+El Serafy, S. 1989. The proper calculation of income form de-
+
+pletable natural resources. Pages 10-18 in Y.J. Ahmad, S. El
+Serafy, and E. Lutz, editors. Environmental accounting for sus-
+
+tainable development. A UNEP—World Bank Symposium. The
+
+51
+‘Georgescu-Roegen,
+
+N.
+
+1981.
+
+Energy, matter, and economic
+
+valuation: where do we stand? Pages 43-79 in H. E. Daly and
+A.F. Umafia, editors. Energy, economics, and the environment:
+
+conflicting views of an essential interrelationship. AAAS Selected Symposium 64. Westview Press, Boulder, Colorado.
+Gever, J., R. Kaufmann,
+
+D. Skole, and C. Vorosmarty.
+
+1986.
+
+Beyond oil: the threat to food and fuel in the coming decades.
+Ballinger, Cambridge, Massachusetts. 304 pp.
+Hall, C.A.S,, C.J. Cleveland, and R. Kaufmann.
+
+1986. Energy
+
+and resource quality: the ecology of the economic process.
+
+John Wiley & Sons, New York. 577 pp.
+
+Hannon, B. 1985, Ecosystem, flow analysis. Canadian Journal
+of Fisheries and Aquatic Sciences 213:97-118.
+
+Costanza, R. editor. 1991. Ecological economics: the science
+
+and management of sustainability. Columbia University Press,
+
+New York. 525 pp.
+
+Costanza, R., H. E. Daly, and J. A. Bartholomew. 1991. Goals,
+agenda, and policy recommendations for ecological econom-
+
+ics. Pages 1-21 in R. Costanza, editor. Ecological economics:
+
+the science and management of sustainability. Columbia Uni-
+
+versity Press, New York. 525 pp.
+
+Costanza, R., S. C. Farber, andJ. Maxwell. 1989. The valuation
+
+and management of wetland ecosystems. Ecological Economics 1:335-362.
+Costanza, R., and C. Perrings. 1990. A flexible assurance bond-
+
+ing system for improved environmental management. Ecological Economics 2:57-76.
+Cross, J. G, and M. J. Guyer. 1980. Social traps. University of
+Michigan Press, Ann Arbor, Michigan.
+
+Lovins, A. B. 1977. Soft energy paths: toward a durable peace.
+
+Ballinger, Cambridge, Massachusetts.
+
+Lovins, A. B., and L. H. Lovins. 1987. Energy: the avoidable oil
+crisis. The Atlantic (December): 22--30.
+MacNeil, J. 1990. Sustainable development economics, and the
+
+growth imperative. Background Paper No. 3, Workshop on the
+
+Economics of Sustainable Development, January 23. Washington, D.C.
+
+Nordhaus, W., and J. Tobin. 1972. Is growth obsolete? National
+Bureau of Economic Research, Columbia University Press,
+
+New York.
+
+Page, T. 1977. Conservation and economic efficiency: an approach to materials policy. Resources for the Future, Wash-
+
+ington, D.C. 266 pp.
+
+Daly, H.E. 1968. On economics as a life science. Journal of
+
+Pearce, D. W, and R K. Turner. 1989. Economics of natural
+resources and the environment, Wheatsheaf, Brighton, UK.
+
+Daly, H.E. 1973. Toward a steady-state economy. W.H. Free-
+
+Pezzey, J. 1989. Economic analysis of sustainable growth and
+sustainable development. Environment department working
+
+Political Economy 76:392-406.
+
+man and Co., San Francisco, California.
+
+paper No. 15. The World Bank, Washington, D.C.
+
+Daly, H. 1977. Steady-state economics: the political economy
+
+Platt, J. 1983. Social traps. American Psychologist 28:642-651.
+
+and Co., San Francisco, California.
+
+Randall, A. 1987. Resource economics. 2nd ed. John Wiley &
+Sons, New York.
+
+of bio-physical equilibrium and moral growth. W.H. Freeman
+
+Daly, H. E. 1990. Toward some operational principles of sus-
+
+tainable development. Ecological Economics 2:1-6.
+
+Scott, A. D. 1955. Natural resources: the economics of conser‘vation. University of Toronto Press, Toronto, Canada.
+
+Daly, H.E, and J. B. Cobb, Jr. 1989. For the common
+
+redirecting the economy
+
+good:
+
+toward community, the environ-
+
+ment, and a sustainable future. Beacon Press, Boston, Massachusetts. 482 pp.
+
+Conservation Biology
+Volume 6, No. 1, March 1992
+
+'WCED.
+
+1987. Our common
+
+future: report of the world com-
+
+mission on environment and development. Oxford University
+Press, Oxford, England.
+
+
